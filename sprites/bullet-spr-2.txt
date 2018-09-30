@@ -1,0 +1,13 @@
+frames 4
+width 3
+height 1
+color yellow
+\--
+end
+|-:
+end
+/--
+end
+|--
+end
+eof
