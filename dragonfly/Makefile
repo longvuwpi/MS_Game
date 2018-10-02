@@ -17,14 +17,14 @@ CC= g++
 ### Uncomment only 1 of the below! ###
 
 # 1) Uncomment below for Linux (64-bit)
-LINKLIB= -ldragonfly-linux64 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lrt
-LINKDIR= -L../dragonfly/lib/ # path to dragonfly library
-INCDIR= -I../dragonfly/include/ # path to dragonfly includes
+# LINKLIB= -ldragonfly-linux64 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lrt
+# LINKDIR= -L../dragonfly/lib/ # path to dragonfly library
+# INCDIR= -I../dragonfly/include/ # path to dragonfly includes
 
 # 2) Uncomment below for Mac (64-bit)
-#LINKLIB= -ldragonfly-mac64 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio 
-#LINKDIR= -L/usr/local/Cellar/sfml/2.3_1/lib/ -L../dragonfly/lib/ 
-#INCDIR= -I/usr/local/Cellar/sfml/2.3_1/include/ -I../dragonfly/include/
+LINKLIB= -ldragonfly-mac64 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio 
+LINKDIR= -L../SFML-2.5/lib/ -L../dragonfly/lib/ 
+INCDIR= -I../SFML-2.5/include/ -I../dragonfly/include/
 
 ######
 
@@ -39,6 +39,9 @@ GAMESRC= \
          Reticle.cpp \
          Saucer.cpp \
          Star.cpp \
+	 Platform.cpp \
+	 EventPlayerFalling.cpp \
+	 EventPlayerJumping.cpp \
 
 GAME= game.cpp
 EXECUTABLE= game
