@@ -7,30 +7,33 @@
 #include "LogManager.h"
 #include "ResourceManager.h"
 #include "WorldManager.h"
+#include "EventStep.h"
 
 // Game includes.
 #include "Bullet.h"
 #include "Saucer.h"
 
-Bullet::Bullet(df::Vector hero_pos) {
+Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, float bulletWeight) {
 
   // Link to "bullet" sprite.
-  df::Sprite *p_temp_sprite = RM.getSprite("bullet");
-  if (!p_temp_sprite)
-    LM.writeLog("Bullet::Bullet(): Warning! Sprite '%s' not found", "bullet");
-  else {
-    setSprite(p_temp_sprite);
+    setSprite(sprite);
     setSpriteSlowdown(7);		
-  }
 
   // Make the Bullets soft so can pass through Hero.
   setSolidness(df::SOFT);
+  
+  // Set bullet properties
+  affected_by_gravity = affectedByGravity;
+  weight = bulletWeight;
+
   // Set other object properties.
   setType("Bullet");
 
   // Set starting location, based on hero's position passed in.
   df::Vector p(hero_pos.getX(), hero_pos.getY());
   setPosition(p);
+
+  registerInterest(df::STEP_EVENT);
 }
 
 // Handle event.
@@ -40,6 +43,11 @@ int Bullet::eventHandler(const df::Event *p_e) {
   if (p_e->getType() == df::OUT_EVENT) {
     out();
     return 1;
+  }
+
+  if (p_e->getType() == df::STEP_EVENT) {
+	  step();
+	  return 1;
   }
 
   if (p_e->getType() == df::COLLISION_EVENT) {
@@ -64,4 +72,10 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
     WM.markForDelete(p_collision_event->getObject1());
     WM.markForDelete(p_collision_event->getObject2());
   }
+}
+
+void Bullet::step() {
+	if (affected_by_gravity) {
+		setVelocity(getVelocity() + *(new df::Vector(0, weight)));
+	}
 }

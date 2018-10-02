@@ -13,8 +13,10 @@
 #include "LogManager.h"
 #include "ResourceManager.h"
 #include "WorldManager.h"
+#include "ObjectListIterator.h"
 
 // Game includes.
+#include "Weapon.h"
 #include "Bullet.h"
 #include "EventNuke.h"
 #include "Explosion.h"
@@ -67,6 +69,22 @@ Hero::Hero() {
 	nuke_count = 1;
 
 	isDucking = false;
+
+	//Set up weapons
+	Weapon *ak47 = new Weapon("AK47", 8, 5, false, 0, 0);
+	weapon_list.insert(ak47);
+	Weapon *awp = new Weapon("AWP", 15, 40, false, 0, 0);
+	weapon_list.insert(awp);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", 6, 30, true, 0.2f, 0);
+	weapon_list.insert(grenade_launcher);
+	weapon_selector = new df::ObjectListIterator(&weapon_list);
+	weapon_selector->first();
+
+	//Weapon view
+	weapon_view = new df::ViewObject; // Count of nukes.
+	weapon_view->setLocation(df::TOP_LEFT);
+	weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
+	weapon_view->setColor(df::YELLOW);
 }
 
 void Hero::setWalkingSprite() {
@@ -136,16 +154,6 @@ int Hero::eventHandler(const df::Event *p_e) {
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event) {
-	//switch (p_mouse_event->getMouseAction()) {
-	//case df::CLICKED:
-	//	std::cout << "Clicked\n";
-	//	break;
-	//case df::PRESSED:
-	//	std::cout << "Pressed\n";
-	//	break;
-	//default:
-	//	break;
-	//}
 	// Pressed button?
 	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
@@ -179,7 +187,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 			move(moveSpeed, 0);
 		}
 		break;
-	case df::Keyboard::SPACE:   // nuke!
+	case df::Keyboard::SPACE:   // jump!
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
 			if (isDucking) {
 				p_OnPlatform->setSolidness(df::SOFT);
@@ -188,6 +196,17 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 				jump();
 			}
 		break;
+	case df::Keyboard::F:       // change weapon
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+		{
+			weapon_selector->next();
+			if (weapon_selector->isDone()) {
+				weapon_selector->first();
+			}
+			weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
+		}
+			//move(-1);
+			break;
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			df::WorldManager &world_manager = df::WorldManager::getInstance();
@@ -220,42 +239,17 @@ void Hero::move(int dx, int dy) {
 
 // Fire bullet towards target.
 void Hero::fire(df::Vector target) {
-
-	// See if time to fire.
-	if (fire_countdown > 0)
-		return;
-	fire_countdown = fire_slowdown;
-
-	// Fire Bullet towards target.
-	// Compute normalized vector to position, then scale by speed (1).
-	df::Vector v = target - getPosition();
-	//df::Vector v = getDirection();
-	v.normalize();
-	v.scale(5);
-	printf("bullet velocity %f,%f\n", v.getX(), v.getY());
-	Bullet *p = new Bullet(getPosition());
-	p->setVelocity(v);
-
-	// Play "fire" sound.
-	df::Sound *p_sound = df::ResourceManager::getInstance().getSound("fire");
-	p_sound->play();
-
-	printf("hero pos %f,%f\n", getPosition().getX(), getPosition().getY());
-	printf("hero box %s\n", isCentered() ? "is centered" : "is not centered");
+	dynamic_cast <Weapon*> (weapon_selector->currentObject())->fire(getPosition(), target);
 }
 
 // Decrease rate restriction counters.
 void Hero::step() {
+	weapon_view->setValue(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getAmmo());
 
 	// Move countdown.
 	move_countdown--;
 	if (move_countdown < 0)
 		move_countdown = 0;
-
-	// Fire countdown.
-	fire_countdown--;
-	if (fire_countdown < 0)
-		fire_countdown = 0;
 
 	if (getVelocity().getY() < 1) {
 		if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {

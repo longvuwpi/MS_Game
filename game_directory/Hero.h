@@ -7,6 +7,10 @@
 #include "Object.h"
 #include "Reticle.h"
 #include "Platform.h"
+#include "Weapon.h"
+#include "ObjectList.h"
+#include "ObjectListIterator.h"
+#include "ViewObject.h"
 
 class Hero : public df::Object {
 
@@ -21,6 +25,9 @@ class Hero : public df::Object {
   int move_countdown;
   int nuke_count;
   bool isDucking;
+  df::ObjectList weapon_list;
+  df::ObjectListIterator *weapon_selector;
+  df::ViewObject *weapon_view;
   void mouse(const df::EventMouse *p_mouse_event);
   void kbd(const df::EventKeyboard *p_keyboard_event);
   void move(int dx, int dy);

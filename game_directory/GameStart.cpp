@@ -100,11 +100,6 @@ void GameStart::start() {
 
   // Setup heads-up display.
   new Points;		                     // Points display.
-  df::ViewObject *p_vo = new df::ViewObject; // Count of nukes.
-  p_vo->setLocation(df::TOP_LEFT);
-  p_vo->setViewString("HP");
-  p_vo->setValue(3);
-  p_vo->setColor(df::YELLOW);
 
   // Pause start music.
   p_music->pause();
