@@ -6,11 +6,13 @@
 #include "EventMouse.h"
 #include "Object.h"
 #include "Reticle.h"
+#include "Platform.h"
 
 class Hero : public df::Object {
 
  private:
   Reticle *p_reticle;
+  Platform *p_OnPlatform;
   df::Sprite * walk_sprite;
   df::Sprite * duck_sprite;
   int fire_slowdown;
@@ -18,9 +20,10 @@ class Hero : public df::Object {
   int move_slowdown;
   int move_countdown;
   int nuke_count;
+  bool isDucking;
   void mouse(const df::EventMouse *p_mouse_event);
   void kbd(const df::EventKeyboard *p_keyboard_event);
-  void move(int dy);
+  void move(int dx, int dy);
   void fire(df::Vector target);
   void step();
   void jump();

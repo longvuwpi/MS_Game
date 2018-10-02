@@ -150,8 +150,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\Bullet.cpp" />
     <ClCompile Include="..\EventNuke.cpp" />
     <ClCompile Include="..\EventPlayerFalling.cpp" />
@@ -168,6 +166,19 @@
     <ClCompile Include="..\Star.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Bullet.h" />
+    <ClInclude Include="..\EventNuke.h" />
+    <ClInclude Include="..\EventPlayerFalling.h" />
+    <ClInclude Include="..\EventPlayerJumping.h" />
+    <ClInclude Include="..\Explosion.h" />
+    <ClInclude Include="..\GameOver.h" />
+    <ClInclude Include="..\GameStart.h" />
+    <ClInclude Include="..\Hero.h" />
+    <ClInclude Include="..\Platform.h" />
+    <ClInclude Include="..\Points.h" />
+    <ClInclude Include="..\Reticle.h" />
+    <ClInclude Include="..\Saucer.h" />
+    <ClInclude Include="..\Star.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

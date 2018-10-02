@@ -1,14 +1,13 @@
 //
-// EventNuke.h
 //
-
+//
+#pragma once
 #include "Object.h"
-
-const std::string NUKE_EVENT =  "nuke";
+#include "Vector.h"
 
 class Platform : public df::Object {
 
  public:
-	 Platform();
+	 Platform(df::Vector pos);
 	 int eventHandler(const df::Event *p_e);
 };

@@ -9,6 +9,8 @@
 #include "LogManager.h"
 #include "ResourceManager.h"
 #include "WorldManager.h"
+#include "DisplayManager.h"
+#include "Vector.h"
 
 // Game includes.
 #include "GameStart.h"
@@ -74,17 +76,27 @@ void GameStart::start() {
   // Create hero.
   Hero* hero = new Hero;
 
-  // Create platforms to stand on
-  Platform* platform = new Platform();
-  df::Vector p(7, 65);
-  platform->setPosition(p);
-  Platform* platform2 = new Platform();
-  df::Vector p2(7, 50);
-  platform2->setPosition(p2);
-  Platform* platform3 = new Platform();
-  df::Vector p3(7, 35);
-  platform3->setPosition(p3);
+  //printf("%f", WM.setViewFollowing((df::Object*)hero));
 
+  // Create platforms to stand on
+  Platform* platform = new Platform(df::Vector(7, 65));
+  Platform* platform2 = new Platform(df::Vector(70, 55));
+  Platform* platform3 = new Platform(df::Vector(133, 60));
+  Platform* platform4 = new Platform(df::Vector(196, 47));
+  Platform* platform5 = new Platform(df::Vector(263, 65));
+
+
+  // setup world and view boundaries
+  int world_horiz, world_vert;
+  world_horiz = DM.getHorizontal()*10;
+  world_vert = DM.getVertical();
+  int window_horiz = DM.getHorizontal();
+  df::Vector world_corner(0, 0);
+  df::Box boundary(world_corner, (float)world_horiz, (float)world_vert);
+  WM.setBoundary(boundary);
+  df::Box window_boundary(world_corner, (float)window_horiz, (float)world_vert);
+  WM.setView(window_boundary);
+  //WM.setViewSlack(df::Vector(1 / 3.0f, 1 / 3.0f));
 
   // Setup heads-up display.
   new Points;		                     // Points display.

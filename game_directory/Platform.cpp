@@ -9,7 +9,7 @@
 #include "EventPlayerFalling.h"
 #include "EventCollision.h"
 
-Platform::Platform() {
+Platform::Platform(df::Vector pos) {
 	df::Sprite *p_temp_platform_sprite = RM.getSprite("platform");
 	if (!p_temp_platform_sprite)
 		LM.writeLog("Platform sprite not found");
@@ -24,6 +24,8 @@ Platform::Platform() {
 
 	registerInterest(PLAYER_JUMPING_EVENT);
 	registerInterest(PLAYER_FALLING_EVENT);
+
+	setPosition(pos);
 }
 
 int Platform::eventHandler(const df::Event *p_e) {

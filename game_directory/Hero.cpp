@@ -1,6 +1,9 @@
 //
 // Hero.cpp
 //
+#include <iostream>
+
+#include <stdio.h>
 
 // Engine includes.
 #include "EventMouse.h"
@@ -19,6 +22,9 @@
 #include "Hero.h"
 #include "EventPlayerFalling.h"
 #include "EventPlayerJumping.h"
+
+int moveSpeed = 2;
+int jumpHeight = 10;
 
 Hero::Hero() {
 
@@ -54,11 +60,13 @@ Hero::Hero() {
 	p_reticle->draw();
 
 	// Set attributes that control actions.
-	move_slowdown = 2;
+	move_slowdown = 1;
 	move_countdown = move_slowdown;
-	fire_slowdown = 30;
+	fire_slowdown = 5;
 	fire_countdown = fire_slowdown;
 	nuke_count = 1;
+
+	isDucking = false;
 }
 
 void Hero::setWalkingSprite() {
@@ -94,6 +102,16 @@ Hero::~Hero() {
 // Handle event.
 // Return 0 if ignored, else 1.
 int Hero::eventHandler(const df::Event *p_e) {
+	if (p_e->getType() == df::COLLISION_EVENT) {
+		//printf("collided with hero");
+		const df::EventCollision *p_collision_event = dynamic_cast <df::EventCollision const *> (p_e);
+		if (p_collision_event->getObject1()->getType() == "Platform") {
+			p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject1());
+		} else if (p_collision_event->getObject2()->getType() == "Platform") {
+			p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject2());
+		}
+			return 1;
+	}
 
 	if (p_e->getType() == df::KEYBOARD_EVENT) {
 		const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
@@ -118,11 +136,20 @@ int Hero::eventHandler(const df::Event *p_e) {
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event) {
-
+	//switch (p_mouse_event->getMouseAction()) {
+	//case df::CLICKED:
+	//	std::cout << "Clicked\n";
+	//	break;
+	//case df::PRESSED:
+	//	std::cout << "Pressed\n";
+	//	break;
+	//default:
+	//	break;
+	//}
 	// Pressed button?
-	if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
-		fire(p_mouse_event->getMousePosition());
+		fire((*(new df::Vector(WM.getView().getCorner().getX(), 0))) + p_mouse_event->getMousePosition());
 }
 
 // Take appropriate action according to key pressed.
@@ -131,20 +158,35 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 	switch (p_keyboard_event->getKey()) {
 	case df::Keyboard::W:       // up
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
-			move(-1);
+			//move(-1);
 		break;
 	case df::Keyboard::S:       // down
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			setDuckingSprite();
+			isDucking = true;
 		}
 		else if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED) {
+			isDucking = false;
 			setWalkingSprite();
 		}
-
+		break;
+	case df::Keyboard::A:       // left
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+			move(-moveSpeed,0);
+		break;
+	case df::Keyboard::D:       // right
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
+			move(moveSpeed, 0);
+		}
 		break;
 	case df::Keyboard::SPACE:   // nuke!
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-			jump();
+			if (isDucking) {
+				p_OnPlatform->setSolidness(df::SOFT);
+			}
+			else {
+				jump();
+			}
 		break;
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
@@ -153,12 +195,13 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 		}
 		break;
 	};
-
+	//std::cout << "Hero position: " << getPosition().getX() << "," << getPosition().getY() << "\n";
+	//std::cout << WM.getViewFollowing()->getType();
 	return;
 }
 
 // Move up or down.
-void Hero::move(int dy) {
+void Hero::move(int dx, int dy) {
 
 	// See if time to move.
 	if (move_countdown > 0)
@@ -166,11 +209,13 @@ void Hero::move(int dy) {
 	move_countdown = move_slowdown;
 
 	// If stays on window, allow move.
-	df::Vector new_pos(getPosition().getX(), getPosition().getY() + dy);
+	df::Vector new_pos(getPosition().getX()+dx, getPosition().getY() + dy);
 	df::WorldManager &world_manager = df::WorldManager::getInstance();
 	if ((new_pos.getY() > 3) &&
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 		world_manager.moveObject(this, new_pos);
+
+	WM.setViewPosition(new_pos);
 }
 
 // Fire bullet towards target.
@@ -242,7 +287,7 @@ void Hero::jump() {
 	//// Play "nuke" sound.
 	//df::Sound *p_sound = df::ResourceManager::getInstance().getSound("nuke");
 	//p_sound->play();
-	setVelocity(df::Vector(0, -8));
+	setVelocity(df::Vector(0, -jumpHeight));
 
 	df::Vector player_pos = getPosition();
 	EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
