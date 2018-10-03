@@ -11,6 +11,7 @@
 #include "WorldManager.h"
 #include "DisplayManager.h"
 #include "Vector.h"
+#include "EventStep.h"
 
 // Game includes.
 #include "GameStart.h"
@@ -66,6 +67,7 @@ int GameStart::eventHandler(const df::Event *p_e) {
     }
     return 1;
   }
+
 
   // If get here, have ignored this event.
   return 0;

@@ -1,3 +1,3 @@
-﻿  Hero.cpp
-c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(284): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  Saucer.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\saucer.cpp(143): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Debug\saucer-shoot.exe
