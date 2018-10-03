@@ -1,20 +1,21 @@
-frames 5
+frames 4
 width 6
-height 2
+height 3
 color green
  ____ 
-/____\
-end
- ____ 
+/o___\
 /___o\
 end
  ____ 
+/___o\
 /__o_\
 end
  ____ 
+/__o_\
 /_o__\
 end
  ____ 
+/_o__\
 /o___\
 end
 eof

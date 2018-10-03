@@ -36,7 +36,7 @@ void Weapon::fire(df::Vector origin, df::Vector target) {
 	v.normalize();
 	v.scale(bullet_speed);
 	printf("bullet velocity %f,%f\n", v.getX(), v.getY());
-	Bullet *p = new Bullet(origin, bullet_sprite, affected_by_gravity, bullet_weight);
+	Bullet *p = new Bullet(origin, bullet_sprite, affected_by_gravity, bullet_weight, radius_of_effect);
 	p->setVelocity(v);
 
 	// Play "fire" sound.

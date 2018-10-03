@@ -12,13 +12,13 @@
 // Game includes.
 #include "Explosion.h"
 
-Explosion::Explosion() {
+Explosion::Explosion(std::string sprite) {
   registerInterest(df::STEP_EVENT);
 
   // Link to "explosion" sprite.
-  df::Sprite *p_temp_sprite = RM.getSprite("explosion");
+  df::Sprite *p_temp_sprite = RM.getSprite(sprite);
   if (!p_temp_sprite)
-    LM.writeLog("Explosion::Explosion(): Warning! Sprite '%s' not found", "explosion");
+    LM.writeLog("Explosion::Explosion(): Warning! Sprite '%s' not found", sprite);
   else
     setSprite(p_temp_sprite);
 

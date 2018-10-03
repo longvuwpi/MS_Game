@@ -12,70 +12,85 @@
 // Game includes.
 #include "Bullet.h"
 #include "Saucer.h"
+#include "EventNuke.h"
+#include "Explosion.h"
 
-Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, float bulletWeight) {
+Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
 
-  // Link to "bullet" sprite.
-    setSprite(sprite);
-    setSpriteSlowdown(7);		
+	// Link to "bullet" sprite.
+	setSprite(sprite);
+	setSpriteSlowdown(7);
 
-  // Make the Bullets soft so can pass through Hero.
-  setSolidness(df::SOFT);
-  
-  // Set bullet properties
-  affected_by_gravity = affectedByGravity;
-  weight = bulletWeight;
+	// Make the Bullets soft so can pass through Hero.
+	setSolidness(df::SOFT);
 
-  // Set other object properties.
-  setType("Bullet");
+	// Set bullet properties
+	affected_by_gravity = affectedByGravity;
+	weight = bulletWeight;
+	radius_of_effect = radiusOfEffect;
 
-  // Set starting location, based on hero's position passed in.
-  df::Vector p(hero_pos.getX(), hero_pos.getY());
-  setPosition(p);
+	// Set other object properties.
+	setType("Bullet");
 
-  registerInterest(df::STEP_EVENT);
+	// Set starting location, based on hero's position passed in.
+	df::Vector p(hero_pos.getX(), hero_pos.getY());
+	setPosition(p);
+
+	registerInterest(df::STEP_EVENT);
+
+	if (affected_by_gravity) {
+		setAcceleration(df::Vector(0, weight));
+	}
 }
 
 // Handle event.
 // Return 0 if ignored, else 1.
 int Bullet::eventHandler(const df::Event *p_e) {
 
-  if (p_e->getType() == df::OUT_EVENT) {
-    out();
-    return 1;
-  }
+	if (p_e->getType() == df::OUT_EVENT) {
+		out();
+		return 1;
+	}
 
-  if (p_e->getType() == df::STEP_EVENT) {
-	  step();
-	  return 1;
-  }
+	if (p_e->getType() == df::STEP_EVENT) {
+		step();
+		return 1;
+	}
 
-  if (p_e->getType() == df::COLLISION_EVENT) {
-    const df::EventCollision *p_collision_event = dynamic_cast <const df::EventCollision *> (p_e);
-    hit(p_collision_event);
-    return 1;
-  }
 
-  // If get here, have ignored this event.
-  return 0;
+	if (p_e->getType() == df::COLLISION_EVENT) {
+		const df::EventCollision *p_collision_event = dynamic_cast <const df::EventCollision *> (p_e);
+		hit(p_collision_event);
+		return 1;
+	}
+
+	// If get here, have ignored this event.
+	return 0;
 }
 
 // If Bullet moves outside world, mark self for deletion.
 void Bullet::out() {
-  WM.markForDelete(this);
+	WM.markForDelete(this);
 }
 
 // If Bullet hits Saucer, mark Saucer and Bullet for deletion.
 void Bullet::hit(const df::EventCollision *p_collision_event) {
-  if ((p_collision_event -> getObject1() -> getType() == "Saucer") || 
-    (p_collision_event -> getObject2() -> getType() == "Saucer")) {
-    WM.markForDelete(p_collision_event->getObject1());
-    WM.markForDelete(p_collision_event->getObject2());
-  }
+	if ((p_collision_event->getObject1()->getType() == "Saucer") ||
+		(p_collision_event->getObject2()->getType() == "Saucer")) {
+		//WM.markForDelete(p_collision_event->getObject1());
+		//WM.markForDelete(p_collision_event->getObject2());
+		if (radius_of_effect > 0) {
+			Explosion *p_explosion = new Explosion("nuke");
+			p_explosion->setPosition(getPosition());
+			EventNuke nuke(getPosition(), radius_of_effect);
+			WM.onEvent(&nuke);
+		}
+		WM.markForDelete(this);
+	}
 }
 
 void Bullet::step() {
-	if (affected_by_gravity) {
-		setVelocity(getVelocity() + *(new df::Vector(0, weight)));
-	}
+	//if (affected_by_gravity) {
+	//	setVelocity(getVelocity() + *(new df::Vector(0, weight)));
+	//}
 }

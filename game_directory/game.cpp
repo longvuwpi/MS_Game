@@ -57,6 +57,7 @@ void loadResources(void) {
   RM.loadSprite("sprites/grenade_bullet.txt", "GrenadeLauncher_bullet");
 
   RM.loadSprite("sprites/explosion-spr.txt", "explosion");
+  RM.loadSprite("sprites/nuke.txt", "nuke");
   RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
   RM.loadSprite("sprites/gameover-spr.txt", "gameover");
   RM.loadSprite("sprites/character-walk.txt", "character-walk");

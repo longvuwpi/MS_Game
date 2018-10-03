@@ -11,6 +11,6 @@ class Explosion : public df::Object {
   void step();
 
  public:
-  Explosion();
+  Explosion(std::string sprite);
   int eventHandler(const df::Event *p_e);
 };

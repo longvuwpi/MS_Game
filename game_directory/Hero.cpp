@@ -24,6 +24,7 @@
 #include "Hero.h"
 #include "EventPlayerFalling.h"
 #include "EventPlayerJumping.h"
+#include "Saucer.h"
 
 int moveSpeed = 2;
 int jumpHeight = 10;
@@ -70,12 +71,14 @@ Hero::Hero() {
 
 	isDucking = false;
 
+	setAcceleration(df::Vector(0, 2));
+
 	//Set up weapons
 	Weapon *ak47 = new Weapon("AK47", 8, 5, false, 0, 0);
 	weapon_list.insert(ak47);
 	Weapon *awp = new Weapon("AWP", 15, 40, false, 0, 0);
 	weapon_list.insert(awp);
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", 6, 30, true, 0.2f, 0);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", 6, 30, true, 0.2f, 20);
 	weapon_list.insert(grenade_launcher);
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
 	weapon_selector->first();
@@ -108,7 +111,7 @@ Hero::~Hero() {
 			df::Vector temp_pos = this->getPosition();
 			temp_pos.setX(this->getPosition().getX() + i);
 			temp_pos.setY(this->getPosition().getY() + j);
-			Explosion *p_explosion = new Explosion;
+			Explosion *p_explosion = new Explosion("explosion");
 			p_explosion->setPosition(temp_pos);
 		}
 	}
@@ -244,6 +247,8 @@ void Hero::fire(df::Vector target) {
 
 // Decrease rate restriction counters.
 void Hero::step() {
+	std::cout << "Player velocity is " << getVelocity().getX() << "," << getVelocity().getY() << "\n";
+
 	weapon_view->setValue(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getAmmo());
 
 	// Move countdown.
@@ -251,17 +256,26 @@ void Hero::step() {
 	if (move_countdown < 0)
 		move_countdown = 0;
 
-	if (getVelocity().getY() < 1) {
+	//
+	if (getVelocity().getY() < 3) {
 		if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {
 			df::Vector player_pos = getPosition();
 			EventPlayerFalling* eventPlayerFalling = new EventPlayerFalling(player_pos);
 			WM.onEvent(eventPlayerFalling);
+			std::cout << "Event player falling";
 		}
-		setVelocity(getVelocity() + *(new df::Vector(0, 2.0f)));
+		//setVelocity(getVelocity() + *(new df::Vector(0, 2.0f)));
+	}
+	//Always falling down, but the maximum down velocity is 2
+	else {
+		setVelocity(df::Vector(getVelocity().getX(), 3));
+	}
+
+	if (GM.getStepCount() % 30 == 0) {
+		new Saucer;
 	}
 }
 
-// Send "nuke" event to all objects.
 void Hero::jump() {
 
 	//// Check if nukes left.
