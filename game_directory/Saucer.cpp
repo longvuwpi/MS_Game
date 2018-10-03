@@ -69,7 +69,7 @@ int Saucer::eventHandler(const df::Event *p_e) {
 		const EventNuke *p_nuke_event = dynamic_cast <EventNuke const *> (p_e);
 		if ((getPosition() - p_nuke_event->getOrigin()).getMagnitude() <= p_nuke_event->getRadius()) {
 			// Create explosion.
-			Explosion *p_explosion = new Explosion("explosion");
+			Explosion *p_explosion = new Explosion("explosion", 0);
 			p_explosion->setPosition(this->getPosition());
 
 			// Delete self.
@@ -111,7 +111,7 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 		(p_collision_event->getObject2()->getType() == "Bullet")) {
 
 		// Create an explosion.
-		Explosion *p_explosion = new Explosion("explosion");
+		Explosion *p_explosion = new Explosion("explosion", 0);
 		p_explosion->setPosition(this->getPosition());
 
 		// Play "explode" sound.

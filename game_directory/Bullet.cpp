@@ -36,8 +36,6 @@ Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, 
 	df::Vector p(hero_pos.getX(), hero_pos.getY());
 	setPosition(p);
 
-	registerInterest(df::STEP_EVENT);
-
 	if (affected_by_gravity) {
 		setAcceleration(df::Vector(0, weight));
 	}
@@ -51,12 +49,6 @@ int Bullet::eventHandler(const df::Event *p_e) {
 		out();
 		return 1;
 	}
-
-	if (p_e->getType() == df::STEP_EVENT) {
-		step();
-		return 1;
-	}
-
 
 	if (p_e->getType() == df::COLLISION_EVENT) {
 		const df::EventCollision *p_collision_event = dynamic_cast <const df::EventCollision *> (p_e);
@@ -79,18 +71,14 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 		(p_collision_event->getObject2()->getType() == "Saucer")) {
 		//WM.markForDelete(p_collision_event->getObject1());
 		//WM.markForDelete(p_collision_event->getObject2());
+
+		//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
 		if (radius_of_effect > 0) {
-			Explosion *p_explosion = new Explosion("nuke");
+			Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
 			p_explosion->setPosition(getPosition());
 			EventNuke nuke(getPosition(), radius_of_effect);
 			WM.onEvent(&nuke);
 		}
 		WM.markForDelete(this);
 	}
-}
-
-void Bullet::step() {
-	//if (affected_by_gravity) {
-	//	setVelocity(getVelocity() + *(new df::Vector(0, weight)));
-	//}
 }

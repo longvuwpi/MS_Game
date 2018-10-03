@@ -14,7 +14,6 @@ class Bullet : public df::Object {
   float weight;
   float radius_of_effect;
   bool affected_by_gravity;
-  void step();
 
  public:
 	 Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, float bulletWeight, float radius_of_effect);
