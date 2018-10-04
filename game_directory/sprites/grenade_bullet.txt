@@ -1,9 +1,13 @@
-frames 1
-width 3
+frames 2
+width 5
 height 3
 color yellow
- ^ 
-<#>
- v 
+/   \
+ <o> 
+\   /
+end
+/   \
+ < > 
+\   /
 end
 eof
