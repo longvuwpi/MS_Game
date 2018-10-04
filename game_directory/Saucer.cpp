@@ -108,7 +108,9 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 
 	// If Bullet, create explosion and make new Saucer.
 	if ((p_collision_event->getObject1()->getType() == "Bullet") ||
-		(p_collision_event->getObject2()->getType() == "Bullet")) {
+		(p_collision_event->getObject2()->getType() == "Bullet") || 
+		(p_collision_event->getObject1()->getType() == "BulletTrail") ||
+		(p_collision_event->getObject2()->getType() == "BulletTrail")) {
 
 		// Create an explosion.
 		Explosion *p_explosion = new Explosion("explosion", 0);

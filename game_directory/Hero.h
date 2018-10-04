@@ -1,13 +1,12 @@
 //
 // Hero.h
 //
-
+#pragma once
 #include "EventKeyboard.h"
 #include "EventMouse.h"
 #include "Object.h"
 #include "Reticle.h"
 #include "Platform.h"
-#include "Weapon.h"
 #include "ObjectList.h"
 #include "ObjectListIterator.h"
 #include "ViewObject.h"
@@ -36,7 +35,7 @@ class Hero : public df::Object {
   void jump();
   void setWalkingSprite();
   void setDuckingSprite();
-
+  
  public:
   Hero();
   ~Hero();

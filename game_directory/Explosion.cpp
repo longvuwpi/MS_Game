@@ -52,7 +52,6 @@ void Explosion::step() {
 
 //If the explosion has an area of effect (radius > 0) then draw the area indicator
 void Explosion::draw() {
-	df::Object::draw();
 	if (radius > 0) {
 		int frameCount = getSprite()->getFrameCount();
 		float scale = radius / frameCount;
@@ -62,11 +61,27 @@ void Explosion::draw() {
 			for (int j = -currentRadius; j <= currentRadius; j++) {
 				df::Vector at(i, j);
 				int atRadius = at.getMagnitude();
-				if ((atRadius <= radius) && (atRadius == currentRadius)) {
-					DM.drawCh(getPosition() + at, '*', df::YELLOW);
-					draw = !draw;
+
+				if (((i == j) || (i == -j) || (i == 0) || (j == 0)) && (atRadius == (currentRadius/2))) {
+					for (int m = -(currentRadius / 2); m <= (currentRadius / 2); m++) {
+						for (int n = -(currentRadius / 2); n <= (currentRadius / 2); n++) {
+							df::Vector at2(m, n);
+							int at2radius = (at2 - at).getMagnitude();
+							if (at2radius <= ((currentRadius / 5))) {
+								DM.drawCh(getPosition() + at + at2, '*', df::YELLOW);
+							}
+						}
+					}
+
 				}
+
+				//if ((atRadius <= radius) && (atRadius >= (currentRadius/2))) {
+				//		DM.drawCh(getPosition() + at, '*', df::YELLOW);
+				//		//draw = !draw;
+				//}
 			}
 		}
 	}
+	df::Object::draw();
+
 }

@@ -4,16 +4,27 @@
 #include "EventStep.h"
 #include "Bullet.h"
 
-Weapon::Weapon(std::string weaponName, int bulletSpeed, int fireRate, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
+Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRate, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
 	weapon_name = weaponName;
+	hero = owner;
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
 	fire_count_down = fireRate;
 	bullet_weight = bulletWeight;
-	affected_by_gravity = affectedByGravity;
-	radius_of_effect = radiusOfEffect;
+	bullet_affected_by_gravity = affectedByGravity;
+	bullet_radius_of_effect = radiusOfEffect;
 	ammo = 30;
 	setType("Weapon");
+	
+	df::Sprite *p_temp_sprite = RM.getSprite("AK47");
+	if (!p_temp_sprite)
+		LM.writeLog("Weapon: Warning! Sprite '%s' not found", "AK47");
+	else {
+		setSprite(p_temp_sprite);
+	}
+
+	setSolidness(df::SOFT);
+
 	bullet_sprite = RM.getSprite(weaponName + "_bullet");
 	if (!bullet_sprite)
 		LM.writeLog("bullet sprite not found");
@@ -36,7 +47,7 @@ void Weapon::fire(df::Vector origin, df::Vector target) {
 	v.normalize();
 	v.scale(bullet_speed);
 	printf("bullet velocity %f,%f\n", v.getX(), v.getY());
-	Bullet *p = new Bullet(origin, bullet_sprite, affected_by_gravity, bullet_weight, radius_of_effect);
+	Bullet *p = new Bullet(origin, bullet_sprite, this);
 	p->setVelocity(v);
 
 	// Play "fire" sound.
@@ -59,6 +70,8 @@ void Weapon::step() {
 	fire_count_down--;
 	if (fire_count_down < 0)
 		fire_count_down = 0;
+
+	setPosition(hero->getPosition());
 }
 
 std::string Weapon::getWeaponName() {
@@ -67,4 +80,16 @@ std::string Weapon::getWeaponName() {
 
 int Weapon::getAmmo() {
 	return ammo;
+}
+
+bool Weapon::getBulletAffectedByGravity() {
+	return bullet_affected_by_gravity;
+}
+
+float Weapon::getBulletWeight() {
+	return bullet_weight;
+}
+
+float Weapon::getBulletRadiusOfEffect() {
+	return bullet_radius_of_effect;
 }

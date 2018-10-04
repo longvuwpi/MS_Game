@@ -51,10 +51,15 @@ int main(int argc, char *argv[]) {
 void loadResources(void) {
   RM.loadSprite("sprites/saucer-spr.txt", "saucer");
   RM.loadSprite("sprites/ship-spr.txt", "ship");
+
+  //guns
+  RM.loadSprite("sprites/ak47.txt", "AK47");
+
   //bullets
   RM.loadSprite("sprites/ak47_bullet.txt", "AK47_bullet");
   RM.loadSprite("sprites/awp_bullet.txt", "AWP_bullet");
   RM.loadSprite("sprites/grenade_bullet.txt", "GrenadeLauncher_bullet");
+  RM.loadSprite("sprites/bullet_trail.txt", "bullet_trail");
 
   RM.loadSprite("sprites/explosion-spr.txt", "explosion");
   RM.loadSprite("sprites/nuke.txt", "nuke");

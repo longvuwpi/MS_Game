@@ -14,8 +14,9 @@
 #include "Saucer.h"
 #include "EventNuke.h"
 #include "Explosion.h"
+#include "BulletTrail.h"
 
-Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
+Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, Weapon *weapon) {
 
 	// Link to "bullet" sprite.
 	setSprite(sprite);
@@ -25,9 +26,8 @@ Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, 
 	setSolidness(df::SOFT);
 
 	// Set bullet properties
-	affected_by_gravity = affectedByGravity;
-	weight = bulletWeight;
-	radius_of_effect = radiusOfEffect;
+	came_from_weapon = weapon;
+	wasHit = false;
 
 	// Set other object properties.
 	setType("Bullet");
@@ -36,14 +36,22 @@ Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, bool affectedByGravity, 
 	df::Vector p(hero_pos.getX(), hero_pos.getY());
 	setPosition(p);
 
-	if (affected_by_gravity) {
-		setAcceleration(df::Vector(0, weight));
+	if (came_from_weapon->getBulletAffectedByGravity()) {
+		setAcceleration(df::Vector(0, came_from_weapon->getBulletWeight()));
 	}
+
+	registerInterest(df::STEP_EVENT);
+
+	last_position = hero_pos;
 }
 
 // Handle event.
 // Return 0 if ignored, else 1.
 int Bullet::eventHandler(const df::Event *p_e) {
+	if (p_e->getType() == df::STEP_EVENT) {
+		step();
+		return 1;
+	}
 
 	if (p_e->getType() == df::OUT_EVENT) {
 		out();
@@ -73,12 +81,29 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 		//WM.markForDelete(p_collision_event->getObject2());
 
 		//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
+		float radius_of_effect = came_from_weapon->getBulletRadiusOfEffect();
 		if (radius_of_effect > 0) {
 			Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
 			p_explosion->setPosition(getPosition());
 			EventNuke nuke(getPosition(), radius_of_effect);
 			WM.onEvent(&nuke);
 		}
+		wasHit = true;
 		WM.markForDelete(this);
+	}
+}
+
+void Bullet::step() {
+	if (getPosition() != last_position) {
+		df::Vector traveled = getPosition() - last_position;
+		int distance = traveled.getMagnitude();
+		traveled.normalize();
+		for (int i = 0; i <= distance; i++) {
+			BulletTrail *trail = new BulletTrail(this);
+			df::Vector scaled(traveled.getX(), traveled.getY());
+			scaled.scale(i);
+			trail->setPosition(last_position + scaled);
+		}
+		last_position = getPosition();
 	}
 }
