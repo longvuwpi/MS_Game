@@ -152,6 +152,7 @@
   <ItemGroup>
     <ClCompile Include="..\Bullet.cpp" />
     <ClCompile Include="..\BulletTrail.cpp" />
+    <ClCompile Include="..\DamageIndicator.cpp" />
     <ClCompile Include="..\EventNuke.cpp" />
     <ClCompile Include="..\EventPlayerFalling.cpp" />
     <ClCompile Include="..\EventPlayerJumping.cpp" />
@@ -170,6 +171,7 @@
   <ItemGroup>
     <ClInclude Include="..\Bullet.h" />
     <ClInclude Include="..\BulletTrail.h" />
+    <ClInclude Include="..\DamageIndicator.h" />
     <ClInclude Include="..\EventNuke.h" />
     <ClInclude Include="..\EventPlayerFalling.h" />
     <ClInclude Include="..\EventPlayerJumping.h" />

@@ -23,6 +23,8 @@ class Hero : public df::Object {
   int move_slowdown;
   int move_countdown;
   int nuke_count;
+  int jump_max;
+  int jump_count;
   bool isDucking;
   df::ObjectList weapon_list;
   df::ObjectListIterator *weapon_selector;
@@ -35,7 +37,8 @@ class Hero : public df::Object {
   void jump();
   void setWalkingSprite();
   void setDuckingSprite();
-  
+  void landedOn(Platform *platform);
+
  public:
   Hero();
   ~Hero();
