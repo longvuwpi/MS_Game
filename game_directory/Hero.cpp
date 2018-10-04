@@ -35,13 +35,12 @@ Hero::Hero() {
 	walk_sprite = RM.getSprite("character-walk");
 	if (!walk_sprite)
 		LM.writeLog("Hero::Hero(): Warning! Sprite '%s' not found", "ship");
-	else {
-		setWalkingSprite();
-	}
 
 	duck_sprite = RM.getSprite("character-duck");
 	if (!duck_sprite)
 		LM.writeLog("duck sprite not found");
+
+	setWalkingSprite();
 
 	// Player controls hero, so register for input events.
 	registerInterest(df::KEYBOARD_EVENT);
@@ -68,8 +67,10 @@ Hero::Hero() {
 	fire_slowdown = 5;
 	fire_countdown = fire_slowdown;
 	nuke_count = 1;
-
+	jump_max = 1;
+	jump_count = jump_max;
 	isDucking = false;
+	p_OnPlatform = NULL;
 
 	setAcceleration(df::Vector(0, 2));
 
@@ -93,16 +94,22 @@ Hero::Hero() {
 	weapon_view->setLocation(df::TOP_LEFT);
 	weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
 	weapon_view->setColor(df::YELLOW);
+	
+
 }
 
 void Hero::setWalkingSprite() {
 	setSprite(walk_sprite);
 	setSpriteSlowdown(5);  // 1/3 speed animation.
 	setTransparency();	   // Transparent sprite.
+	setPosition(getPosition() + df::Vector(0, -0.5+ (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
+	setCentered(true);
 }
 
 void Hero::setDuckingSprite() {
 	setSprite(duck_sprite);
+	setPosition(getPosition() + df::Vector(0, -0.5+ (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
+	setCentered(true);
 }
 
 Hero::~Hero() {
@@ -132,9 +139,11 @@ int Hero::eventHandler(const df::Event *p_e) {
 		//printf("collided with hero");
 		const df::EventCollision *p_collision_event = dynamic_cast <df::EventCollision const *> (p_e);
 		if (p_collision_event->getObject1()->getType() == "Platform") {
-			p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject1());
+			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject1());
+			landedOn(platform);
 		} else if (p_collision_event->getObject2()->getType() == "Platform") {
-			p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject2());
+			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject2());
+			landedOn(platform);
 		}
 			return 1;
 	}
@@ -160,6 +169,25 @@ int Hero::eventHandler(const df::Event *p_e) {
 	return 0;
 }
 
+void Hero::landedOn(Platform *platform) {
+	//p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject1());
+	if (p_OnPlatform == NULL) {
+		p_OnPlatform = platform;
+
+		std::cout << "Landed on platform, hero pos: (" << getPosition().getX() << "," << getPosition().getY() << ")\n";
+		//if player is hovering above platform, set player to be exactly on platform
+		df::Vector delta(0, -0.5 + (p_OnPlatform->getPosition().getY() - getPosition().getY()) - ((p_OnPlatform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+		if (delta.getY() > 0)
+			setPosition(getPosition() + delta);
+
+		jump_count = jump_max;
+
+		setCentered(true);
+
+		return;
+	}
+}
+
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event) {
 	// Pressed button?
@@ -177,7 +205,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 			//move(-1);
 		break;
 	case df::Keyboard::S:       // down
-		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			setDuckingSprite();
 			isDucking = true;
 		}
@@ -197,11 +225,14 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 		break;
 	case df::Keyboard::SPACE:   // jump!
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-			if (isDucking) {
-				p_OnPlatform->setSolidness(df::SOFT);
-			}
-			else {
-				jump();
+			if (jump_count > 0) {
+				if (isDucking) {
+					p_OnPlatform->setSolidness(df::SOFT);
+				}
+				else {
+					jump();
+				}
+				jump_count--;
 			}
 		break;
 	case df::Keyboard::F:       // change weapon
@@ -242,7 +273,7 @@ void Hero::move(int dx, int dy) {
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 		world_manager.moveObject(this, new_pos);
 
-	WM.setViewPosition(new_pos);
+	WM.setViewPosition(new_pos + df::Vector(WM.getView().getHorizontal()/3,0));
 }
 
 // Fire bullet towards target.
@@ -260,6 +291,12 @@ void Hero::step() {
 	if (move_countdown < 0)
 		move_countdown = 0;
 
+	//Check to see if the hero is on a platform.
+	df::ObjectList collisions = WM.isCollision(this, getPosition()+ df::Vector(0,0.5));
+	if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
+		p_OnPlatform = NULL;
+	}
+
 	//
 	if (getVelocity().getY() < 3) {
 		if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {
@@ -275,7 +312,7 @@ void Hero::step() {
 	}
 
 	if (GM.getStepCount() % 30 == 0) {
-		new Saucer;
+		//new Saucer;
 	}
 }
 
@@ -299,7 +336,7 @@ void Hero::jump() {
 	//df::Sound *p_sound = df::ResourceManager::getInstance().getSound("nuke");
 	//p_sound->play();
 	setVelocity(df::Vector(0, -jumpHeight));
-
+	setCentered(true);
 	df::Vector player_pos = getPosition();
 	EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
 	WM.onEvent(eventPlayerJumping);

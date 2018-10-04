@@ -98,7 +98,8 @@ void GameStart::start() {
   WM.setBoundary(boundary);
   df::Box window_boundary(world_corner, (float)window_horiz, (float)world_vert);
   WM.setView(window_boundary);
-  //WM.setViewSlack(df::Vector(1 / 3.0f, 1 / 3.0f));
+  //WM.setViewFollowing(hero);
+  
 
   // Setup heads-up display.
   new Points;		                     // Points display.
