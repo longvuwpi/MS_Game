@@ -14,5 +14,6 @@ class Saucer : public df::Object {
  public:
   Saucer();
   ~Saucer();
+  void draw();
   int eventHandler(const df::Event *p_e);
 };

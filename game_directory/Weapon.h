@@ -19,7 +19,7 @@ private:
 	void step();
 public:
 	Weapon(std::string weaponName, Hero *owner, int bulletSpeed, int fireRate,bool affectedByGravity, float bulletWeight, float radiusOfEffect);
-	void fire(df::Vector origin, df::Vector target);
+	void fire(df::Vector target);
 	int eventHandler(const df::Event *p_e);
 	std::string getWeaponName();
 	int getAmmo();

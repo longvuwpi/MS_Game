@@ -279,7 +279,7 @@ void Hero::move(int dx, int dy) {
 // Fire bullet towards target.
 void Hero::fire(df::Vector target) {
 	Weapon *currentWeapon = dynamic_cast <Weapon*> (weapon_selector->currentObject());
-	currentWeapon->fire(getPosition() + df::Vector(currentWeapon->getBox().getHorizontal()/2,-1), target);
+	currentWeapon->fire(target);
 }
 
 // Decrease rate restriction counters.
@@ -312,12 +312,11 @@ void Hero::step() {
 	}
 
 	if (GM.getStepCount() % 30 == 0) {
-		//new Saucer;
+		new Saucer;
 	}
 }
 
 void Hero::jump() {
-
 	//// Check if nukes left.
 	//if (!nuke_count) 
 	//  return;
