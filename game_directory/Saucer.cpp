@@ -20,7 +20,10 @@
 #include "Saucer.h"
 
 Saucer::Saucer() {
-
+	
+	//setAttack(attack);
+	health = 2;
+	
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
 	if (!p_temp_sprite)
@@ -108,20 +111,24 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 
 	// If Bullet, create explosion and make new Saucer.
 	if ((p_collision_event->getObject1()->getType() == "Bullet") ||
-		(p_collision_event->getObject2()->getType() == "Bullet") || 
-		(p_collision_event->getObject1()->getType() == "BulletTrail") ||
-		(p_collision_event->getObject2()->getType() == "BulletTrail")) {
-
+		(p_collision_event->getObject2()->getType() == "Bullet")) {
+			
+		health--;
 		// Create an explosion.
-		Explosion *p_explosion = new Explosion("explosion", 0);
-		p_explosion->setPosition(this->getPosition());
+		if (health <= 0){
+			Explosion *p_explosion = new Explosion("explosion", 0);
+			p_explosion->setPosition(this->getPosition());
 
-		// Play "explode" sound.
-		df::Sound *p_sound = RM.getSound("explode");
-		p_sound->play();
+			// Play "explode" sound.
+			df::Sound *p_sound = RM.getSound("explode");
+			p_sound->play();
 
-		// Saucers appear stay around perpetually.
-		WM.markForDelete(this);
+			// Saucers appear stay around perpetually.
+			WM.markForDelete(this);
+		}
+		else{
+			return;
+		}
 	}
 
 	// If Hero, mark both objects for destruction.
@@ -130,6 +137,25 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 		WM.markForDelete(p_collision_event->getObject1());
 		WM.markForDelete(p_collision_event->getObject2());
 	}
+	
+	//If Platform, move avoid it
+	df::Vector temp_pos;
+	
+	// Get world boundaries.
+	int world_horiz = (int)WM.getView().getHorizontal();
+	int world_vert = (int)WM.getView().getVertical();
+	
+	temp_pos.setY(world_vert - 10.0f);
+	
+	temp_pos.setX(world_horiz + 5.0f);
+	
+	if ((p_collision_event->getObject1()->getType() == "Platform")||
+	   	(p_collision_event->getObject2()->getType() == "Platform")) {
+		
+		//Move it to avoid collide with platform
+		WM.moveObject(this, temp_pos);	
+	}
+
 
 }
 
@@ -158,3 +184,18 @@ void Saucer::moveToStart() {
 	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
 	//WM.moveObject(this, temp_pos);
 }
+
+int Saucer::getHealth() {
+	return health;
+}
+
+/*void Saucer::detectPlayer(const df::EventPath *p_path_event){
+	df::Vector temp_pos;
+	
+	// Get world boundaries.
+	int world_horiz = (int)WM.getView().getHorizontal();
+	int world_vert = (int)WM.getView().getVertical();
+	
+	//When detect player near a sample distance, move to the player
+	if() 
+}*/
