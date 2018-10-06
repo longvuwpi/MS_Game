@@ -1,6 +1,2 @@
-﻿  Saucer.cpp
-c:\users\vuxua\documents\github\ms_game\game_directory\saucer.cpp(154): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\saucer.cpp(192): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\saucer.cpp(222): warning C4996: 'sf::Text::setColor': was declared deprecated
-  c:\users\vuxua\documents\github\ms_game\sfml-2.5\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
+﻿  EventNuke.cpp
   saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Debug\saucer-shoot.exe

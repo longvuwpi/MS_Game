@@ -25,9 +25,12 @@
 #include "Explosion.h"
 #include "Points.h"
 #include "Saucer.h"
+#include "Bullet.h"
+#include "BulletTrail.h"
+#include "DamageIndicator.h"
 
-Saucer::Saucer() {
-
+Saucer::Saucer(int maxHealth) {
+	health = maxHealth;
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
 	if (!p_temp_sprite)
@@ -50,6 +53,7 @@ Saucer::Saucer() {
 	// Register interest in "nuke" event.
 	registerInterest(NUKE_EVENT);
 }
+
 Saucer::~Saucer() {
 
 	// Send "view" event with points to interested ViewObjects.
@@ -81,8 +85,7 @@ int Saucer::eventHandler(const df::Event *p_e) {
 			Explosion *p_explosion = new Explosion("explosion", 0);
 			p_explosion->setPosition(this->getPosition());
 
-			// Delete self.
-			WM.markForDelete(this);
+			takeDamage(getPosition(), p_nuke_event->getDamage());
 
 			// Saucers appear stay around perpetually
 			//new Saucer;
@@ -102,35 +105,50 @@ void Saucer::out() {
 
 	// Otherwise, move back to far right.
 	moveToStart();
-
-	// Spawn new Saucer to make game get harder.
-	new Saucer;
 }
 
 // Called with Saucer collides.
 void Saucer::hit(const df::EventCollision *p_collision_event) {
+	std::string type1, type2;
+	type1 = p_collision_event->getObject1()->getType();
+	type2 = p_collision_event->getObject2()->getType();
 
 	// If Saucer on Saucer, ignore.
-	if ((p_collision_event->getObject1()->getType() == "Saucer") &&
-		(p_collision_event->getObject2()->getType() == "Saucer"))
+	if ((type1 == "Saucer") &&
+		(type2 == "Saucer"))
 		return;
 
 	// If Bullet, create explosion and make new Saucer.
-	if ((p_collision_event->getObject1()->getType() == "Bullet") ||
-		(p_collision_event->getObject2()->getType() == "Bullet") || 
-		(p_collision_event->getObject1()->getType() == "BulletTrail") ||
-		(p_collision_event->getObject2()->getType() == "BulletTrail")) {
+	if ((type1 == "Bullet") ||
+		(type2 == "Bullet") || 
+		(type1 == "BulletTrail") ||
+		(type2 == "BulletTrail")) {
+		int damage = 0;
+		BulletType bullet_type;
+		if (type1 == "Bullet") {
+			damage = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getDamage();
+			bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getBulletType();
+		}
+		else if (type2 == "Bullet") {
+			damage = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getDamage();
+			bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getBulletType();
+		}
+		else if (type1 == "BulletTrail") {
+			damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getDamage();
+			bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getBulletType();
+		}
+		else if (type2 == "BulletTrail") {
+			damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getDamage();
+			bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getBulletType();
+		}
+
+		if (bullet_type == BulletType::HERO_BULLET) {
+			takeDamage(p_collision_event->getPosition(), damage);
+		}
 
 		// Create an explosion.
 		Explosion *p_explosion = new Explosion("explosion", 0);
 		p_explosion->setPosition(this->getPosition());
-
-		// Play "explode" sound.
-		df::Sound *p_sound = RM.getSound("explode");
-		p_sound->play();
-
-		// Saucers appear stay around perpetually.
-		WM.markForDelete(this);
 	}
 
 	// If Hero, mark both objects for destruction.
@@ -231,6 +249,7 @@ void Saucer::draw() {
 	free(m_p_text);
 	free(m_font);
 	free(m_p_rectangle);
+	DM.drawString(getPosition(), std::to_string(health), df::CENTER_JUSTIFIED, df::WHITE);
 
 	// Advance sprite index, if appropriate.
 	if (getSpriteSlowdown() != 0) { // a '0' means sprite animation stopped
@@ -246,4 +265,28 @@ void Saucer::draw() {
 
 	return;
 
+}
+
+int Saucer::getHealth() {
+	return health;
+}
+
+void Saucer::takeDamage(df::Vector at, int damage) {
+	health -= damage;
+	new DamageIndicator(at, damage);
+	if (health <= 0) {
+		die();
+	}
+}
+
+void Saucer::die() {
+	Explosion *p_explosion = new Explosion("explosion", 0);
+	p_explosion->setPosition(this->getPosition());
+
+	// Play "explode" sound.
+	df::Sound *p_sound = RM.getSound("explode");
+	p_sound->play();
+
+	// Saucers appear stay around perpetually.
+	WM.markForDelete(this);
 }

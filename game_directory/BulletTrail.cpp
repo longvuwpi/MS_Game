@@ -56,3 +56,11 @@ void BulletTrail::hit(const df::EventCollision *p_collision_event) {
 	}
 		if (!owner->wasHit) owner->hit(p_collision_event);
 }
+
+int BulletTrail::getDamage() {
+	return owner->getDamage();
+}
+
+BulletType BulletTrail::getBulletType() {
+	return owner->getBulletType();
+}

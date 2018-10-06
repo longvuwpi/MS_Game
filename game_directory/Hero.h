@@ -25,6 +25,7 @@ class Hero : public df::Object {
   int nuke_count;
   int jump_max;
   int jump_count;
+  int health;
   bool isDucking;
   df::ObjectList weapon_list;
   df::ObjectListIterator *weapon_selector;
@@ -43,4 +44,6 @@ class Hero : public df::Object {
   Hero();
   ~Hero();
   int eventHandler(const df::Event *p_e);
+  int getHealth();
+  void takeDamage();
 };

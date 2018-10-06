@@ -69,21 +69,21 @@ Hero::Hero() {
 	nuke_count = 1;
 	jump_max = 1;
 	jump_count = jump_max;
+	health = 50;
 	isDucking = false;
 	p_OnPlatform = NULL;
 
 	setAcceleration(df::Vector(0, 2));
 
 	//Set up weapons
-	Weapon *ak47 = new Weapon("AK47", this, 8, 5, false, 0, 0);
+	Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", this, 15, 40, false, 0, 0);
+	Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
 	weapon_list.insert(awp);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, true, 0.2f, 20);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
 	weapon_list.insert(grenade_launcher);
-
 
 
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
@@ -312,7 +312,7 @@ void Hero::step() {
 	}
 
 	if (GM.getStepCount() % 30 == 0) {
-		new Saucer;
+		new Saucer(15);
 	}
 }
 

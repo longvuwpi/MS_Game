@@ -18,8 +18,7 @@
 #include "BulletTrail.h"
 #include "DamageIndicator.h"
 
-Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, Weapon *weapon) {
-
+Bullet::Bullet(df::Vector bullet_pos, df::Sprite *sprite, Weapon *weapon) {
 	// Link to "bullet" sprite.
 	setSprite(sprite);
 	setSpriteSlowdown(7);
@@ -28,23 +27,54 @@ Bullet::Bullet(df::Vector hero_pos, df::Sprite *sprite, Weapon *weapon) {
 	setSolidness(df::SOFT);
 
 	// Set bullet properties
-	came_from_weapon = weapon;
 	wasHit = false;
+	damage = weapon->getDamage();
+	radius_of_effect = weapon->getBulletRadiusOfEffect();
 
 	// Set other object properties.
 	setType("Bullet");
 
 	// Set starting location, based on hero's position passed in.
-	df::Vector p(hero_pos.getX(), hero_pos.getY());
+	df::Vector p(bullet_pos.getX(), bullet_pos.getY());
 	setPosition(p);
-
-	if (came_from_weapon->getBulletAffectedByGravity()) {
-		setAcceleration(df::Vector(0, came_from_weapon->getBulletWeight()));
-	}
 
 	registerInterest(df::STEP_EVENT);
 
-	last_position = hero_pos;
+	last_position = bullet_pos;
+
+	if (weapon->getBulletAffectedByGravity()) {
+		setAcceleration(df::Vector(0, weapon->getBulletWeight()));
+	}
+	bullet_type = BulletType::HERO_BULLET;
+}
+
+Bullet::Bullet(df::Vector bullet_pos, df::Sprite * sprite, int dmg, float radius)
+{
+	// Link to "bullet" sprite.
+	setSprite(sprite);
+	setSpriteSlowdown(7);
+
+	// Make the Bullets soft so can pass through Hero.
+	setSolidness(df::SOFT);
+
+	// Set bullet properties
+	wasHit = false;
+	damage = dmg;
+	radius_of_effect = radius;
+
+	// Set other object properties.
+	setType("Bullet");
+
+	// Set starting location, based on hero's position passed in.
+	df::Vector p(bullet_pos.getX(), bullet_pos.getY());
+	setPosition(p);
+
+	registerInterest(df::STEP_EVENT);
+
+	last_position = bullet_pos;
+
+	bullet_type = BulletType::ENEMY_BULLET;
+
 }
 
 // Handle event.
@@ -79,18 +109,17 @@ void Bullet::out() {
 void Bullet::hit(const df::EventCollision *p_collision_event) {
 	if ((p_collision_event->getObject1()->getType() == "Saucer") ||
 		(p_collision_event->getObject2()->getType() == "Saucer")) {
-
-		//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
-		float radius_of_effect = came_from_weapon->getBulletRadiusOfEffect();
-		if (radius_of_effect > 0) {
-			Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
-			p_explosion->setPosition(getPosition());
-			EventNuke nuke(getPosition(), radius_of_effect);
-			WM.onEvent(&nuke);
+		if (!wasHit) {
+			//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
+			if (radius_of_effect > 0) {
+				Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
+				p_explosion->setPosition(getPosition());
+				EventNuke nuke(getPosition(), radius_of_effect, getDamage());
+				WM.onEvent(&nuke);
+			}
+			wasHit = true;
+			WM.markForDelete(this);
 		}
-		wasHit = true;
-		new DamageIndicator(p_collision_event->getPosition(), 10);
-		WM.markForDelete(this);
 	}
 }
 
@@ -107,4 +136,12 @@ void Bullet::step() {
 		} 
 		last_position = getPosition();
 	}
+}
+
+int Bullet::getDamage() {
+	return damage;
+}
+
+BulletType Bullet::getBulletType() {
+	return bullet_type;
 }
