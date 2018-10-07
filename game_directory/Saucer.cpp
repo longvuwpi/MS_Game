@@ -186,86 +186,86 @@ void Saucer::moveToStart() {
 	//WM.moveObject(this, temp_pos);
 }
 
-void Saucer::draw() {
-	sf::RenderWindow *m_p_window = DM.getWindow();
-	sf::RectangleShape *m_p_rectangle = new sf::RectangleShape(sf::Vector2f(df::charWidth(),
-		df::charHeight()));
-	df::Frame current_frame = getSprite()->getFrame(getSpriteIndex());
-	std::string frame_string = current_frame.getString();
-	sf::Text *m_p_text = new sf::Text();
-	sf::Font *m_font = new sf::Font();
-	m_font->loadFromFile(df::Config::getInstance().getFontFile());
-	m_p_text->setFont(*m_font);
-	m_p_text->setStyle(sf::Text::Bold); // Make bold, since looks better.
-	if (df::charWidth() < df::charHeight())
-		m_p_text->setCharacterSize((unsigned int)(df::charWidth() *
-			df::Config::getInstance().getFontScale()));
-	else
-		m_p_text->setCharacterSize((unsigned int)(df::charHeight() *
-			df::Config::getInstance().getFontScale()));
-
-	// Make sure window is allocated.
-	for (int i = 0; i < getSprite()->getWidth(); i++) {
-		for (int j = 0; j < getSprite()->getHeight(); j++) {
-			df::Vector world_pos(getPosition() + getBox().getCorner() + df::Vector(i, j));
-			// Convert to world position to window position.
-			df::Vector window_pos = df::worldToView(world_pos);
-
-			// Convert spaces (x,y) to pixels (x,y).
-			df::Vector pixel_pos = df::spacesToPixels(window_pos);
-
-			char to_draw = frame_string[j * getSprite()->getWidth() + i];
-
-			if (to_draw == getTransparency()) {
-				m_p_rectangle->setFillColor(sf::Color::White);
-				// First, draw black rectangle since text is "see through" in SFML.
-				m_p_rectangle->setPosition(pixel_pos.getX() - df::charWidth() / 10,
-					pixel_pos.getY() + df::charHeight() / 5);
-				m_p_window->draw(*m_p_rectangle);
-			}
-			else {
-				m_p_rectangle->setFillColor(sf::Color::Black);
-				m_p_rectangle->setPosition(pixel_pos.getX() - df::charWidth() / 10,
-					pixel_pos.getY() + df::charHeight() / 5);
-				m_p_window->draw(*m_p_rectangle);
-
-				unsigned char r, g, b;
-				df::colorToRGB(getSprite()->getColor(), r, g, b);
-				m_p_text->setString(to_draw);
-
-				// Set position in window (in pixels).
-				m_p_text->setPosition(pixel_pos.getX(), pixel_pos.getY());
-
-				// Set color.
-				m_p_text->setColor(sf::Color(r, g, b));
-
-				// Draw character.
-				m_p_window->draw(*m_p_text);
-
-
-			}
-		}
-	}
-	free(m_p_text);
-	free(m_font);
-	free(m_p_rectangle);
-	DM.drawString(getPosition(), std::to_string(health), df::CENTER_JUSTIFIED, df::WHITE);
-
-	// Advance sprite index, if appropriate.
-	if (getSpriteSlowdown() != 0) { // a '0' means sprite animation stopped
-		if (getSpriteSlowdownCount() + 1 >= getSpriteSlowdown()) {
-			setSpriteSlowdownCount(0);
-			setSpriteIndex(getSpriteIndex() + 1);
-			if (getSpriteIndex() >= (getSprite()->getFrameCount()))
-				setSpriteIndex(0);
-		}
-		else
-			setSpriteSlowdownCount(getSpriteSlowdownCount() + 1);
-	}
-
-	return;
-
-}
+//void Saucer::draw() {
+//	sf::RenderWindow *m_p_window = DM.getWindow();
+//	sf::RectangleShape *m_p_rectangle = new sf::RectangleShape(sf::Vector2f(df::charWidth(),
+//		df::charHeight()));
+//	df::Frame current_frame = getSprite()->getFrame(getSpriteIndex());
+//	std::string frame_string = current_frame.getString();
+//	sf::Text *m_p_text = new sf::Text();
+//	sf::Font *m_font = new sf::Font();
+//	m_font->loadFromFile(df::Config::getInstance().getFontFile());
+//	m_p_text->setFont(*m_font);
+//	m_p_text->setStyle(sf::Text::Bold); // Make bold, since looks better.
+//	if (df::charWidth() < df::charHeight())
+//		m_p_text->setCharacterSize((unsigned int)(df::charWidth() *
+//			df::Config::getInstance().getFontScale()));
+//	else
+//		m_p_text->setCharacterSize((unsigned int)(df::charHeight() *
+//			df::Config::getInstance().getFontScale()));
+//
+//	// Make sure window is allocated.
+//	for (int i = 0; i < getSprite()->getWidth(); i++) {
+//		for (int j = 0; j < getSprite()->getHeight(); j++) {
+//			df::Vector world_pos(getPosition() + getBox().getCorner() + df::Vector(i, j));
+//			// Convert to world position to window position.
+//			df::Vector window_pos = df::worldToView(world_pos);
+//
+//			// Convert spaces (x,y) to pixels (x,y).
+//			df::Vector pixel_pos = df::spacesToPixels(window_pos);
+//
+//			char to_draw = frame_string[j * getSprite()->getWidth() + i];
+//
+//			if (to_draw == getTransparency()) {
+//				m_p_rectangle->setFillColor(sf::Color::White);
+//				// First, draw black rectangle since text is "see through" in SFML.
+//				m_p_rectangle->setPosition(pixel_pos.getX() - df::charWidth() / 10,
+//					pixel_pos.getY() + df::charHeight() / 5);
+//				m_p_window->draw(*m_p_rectangle);
+//			}
+//			else {
+//				m_p_rectangle->setFillColor(sf::Color::Black);
+//				m_p_rectangle->setPosition(pixel_pos.getX() - df::charWidth() / 10,
+//					pixel_pos.getY() + df::charHeight() / 5);
+//				m_p_window->draw(*m_p_rectangle);
+//
+//				unsigned char r, g, b;
+//				df::colorToRGB(getSprite()->getColor(), r, g, b);
+//				m_p_text->setString(to_draw);
+//
+//				// Set position in window (in pixels).
+//				m_p_text->setPosition(pixel_pos.getX(), pixel_pos.getY());
+//
+//				// Set color.
+//				m_p_text->setColor(sf::Color(r, g, b));
+//
+//				// Draw character.
+//				m_p_window->draw(*m_p_text);
+//
+//
+//			}
+//		}
+//	}
+//	free(m_p_text);
+//	free(m_font);
+//	free(m_p_rectangle);
+//	DM.drawString(getPosition(), std::to_string(health), df::CENTER_JUSTIFIED, df::WHITE);
+//
+//	// Advance sprite index, if appropriate.
+//	if (getSpriteSlowdown() != 0) { // a '0' means sprite animation stopped
+//		if (getSpriteSlowdownCount() + 1 >= getSpriteSlowdown()) {
+//			setSpriteSlowdownCount(0);
+//			setSpriteIndex(getSpriteIndex() + 1);
+//			if (getSpriteIndex() >= (getSprite()->getFrameCount()))
+//				setSpriteIndex(0);
+//		}
+//		else
+//			setSpriteSlowdownCount(getSpriteSlowdownCount() + 1);
+//	}
+//
+//	return;
+//
+//}
 
 int Saucer::getHealth() {
 	return health;

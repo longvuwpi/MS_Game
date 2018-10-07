@@ -16,7 +16,7 @@ class Saucer : public df::Object {
  public:
   Saucer(int health);
   ~Saucer();
-  void draw();
+  //void draw();
   int eventHandler(const df::Event *p_e);
   int getHealth();
   void takeDamage(df::Vector at, int damage);
