@@ -14,4 +14,6 @@ private:
 public:
 	BulletTrail(Bullet *spawner);
 	int eventHandler(const df::Event *p_e);
+	int getDamage();
+	BulletType getBulletType();
 };

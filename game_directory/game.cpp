@@ -53,7 +53,8 @@ void loadResources(void) {
   RM.loadSprite("sprites/ship-spr.txt", "ship");
 
   //guns
-  RM.loadSprite("sprites/ak47.txt", "AK47");
+  //RM.loadSprite("sprites/ak47.txt", "AK47");
+  RM.loadSprite("sprites/ak47_2.txt", "AK47");
 
   //bullets
   RM.loadSprite("sprites/ak47_bullet.txt", "AK47_bullet");
@@ -65,7 +66,8 @@ void loadResources(void) {
   RM.loadSprite("sprites/nuke.txt", "nuke");
   RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
   RM.loadSprite("sprites/gameover-spr.txt", "gameover");
-  RM.loadSprite("sprites/character-walk.txt", "character-walk");
+  //RM.loadSprite("sprites/character-walk.txt", "character-walk");
+  RM.loadSprite("sprites/character-walk_2.txt", "character-walk");
   RM.loadSprite("sprites/character-duck.txt", "character-duck");
   RM.loadSprite("sprites/platform.txt", "platform");
 

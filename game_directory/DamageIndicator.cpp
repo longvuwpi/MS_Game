@@ -8,7 +8,7 @@ DamageIndicator::DamageIndicator(df::Vector at, int dmg) {
 	setPosition(at);
 	damage = dmg;
 	life_time = 15;
-
+	setSolidness(df::SOFT);
 	setAltitude(df::MAX_ALTITUDE);
 	registerInterest(df::STEP_EVENT);
 }

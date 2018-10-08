@@ -4,12 +4,13 @@
 #include "EventStep.h"
 #include "Bullet.h"
 
-Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRate, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
+Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRate, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect) {
 	weapon_name = weaponName;
 	hero = owner;
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
 	fire_count_down = fireRate;
+	damage = dmg;
 	bullet_weight = bulletWeight;
 	bullet_affected_by_gravity = affectedByGravity;
 	bullet_radius_of_effect = radiusOfEffect;
@@ -21,6 +22,7 @@ Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRat
 		LM.writeLog("Weapon: Warning! Sprite '%s' not found", "AK47");
 	else {
 		setSprite(p_temp_sprite);
+		setTransparency('#');
 	}
 
 	setSolidness(df::SOFT);
@@ -33,8 +35,8 @@ Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRat
 
 }
 
-void Weapon::fire(df::Vector origin, df::Vector target) {
-
+void Weapon::fire(df::Vector target) {
+	df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
 	// See if time to fire.
 	if (fire_count_down > 0)
 		return;
@@ -71,7 +73,7 @@ void Weapon::step() {
 	if (fire_count_down < 0)
 		fire_count_down = 0;
 
-	setPosition(hero->getPosition());
+	setPosition(hero->getPosition() + df::Vector(3,1));
 }
 
 std::string Weapon::getWeaponName() {
@@ -92,4 +94,8 @@ float Weapon::getBulletWeight() {
 
 float Weapon::getBulletRadiusOfEffect() {
 	return bullet_radius_of_effect;
+}
+
+int Weapon::getDamage() {
+	return damage;
 }

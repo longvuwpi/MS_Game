@@ -11,6 +11,7 @@ private:
 	int fire_rate;
 	int fire_count_down;
 	int ammo;
+	int damage;
 	bool bullet_affected_by_gravity;
 	float bullet_weight;
 	float bullet_radius_of_effect;
@@ -18,12 +19,13 @@ private:
 	Hero *hero;
 	void step();
 public:
-	Weapon(std::string weaponName, Hero *owner, int bulletSpeed, int fireRate,bool affectedByGravity, float bulletWeight, float radiusOfEffect);
-	void fire(df::Vector origin, df::Vector target);
+	Weapon(std::string weaponName, Hero *owner, int bulletSpeed, int fireRate, int damage,bool affectedByGravity, float bulletWeight, float radiusOfEffect);
+	void fire(df::Vector target);
 	int eventHandler(const df::Event *p_e);
 	std::string getWeaponName();
 	int getAmmo();
 	bool getBulletAffectedByGravity();
 	float getBulletWeight();
 	float getBulletRadiusOfEffect();
+	int getDamage();
 };

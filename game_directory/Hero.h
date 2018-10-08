@@ -2,6 +2,7 @@
 // Hero.h
 //
 #pragma once
+#include "EventCollision.h"
 #include "EventKeyboard.h"
 #include "EventMouse.h"
 #include "Object.h"
@@ -25,6 +26,7 @@ class Hero : public df::Object {
   int nuke_count;
   int jump_max;
   int jump_count;
+  int health;
   bool isDucking;
   df::ObjectList weapon_list;
   df::ObjectListIterator *weapon_selector;
@@ -35,6 +37,7 @@ class Hero : public df::Object {
   void fire(df::Vector target);
   void step();
   void jump();
+  void hit(const df::EventCollision *p_collision_event);
   void setWalkingSprite();
   void setDuckingSprite();
   void landedOn(Platform *platform);
@@ -43,4 +46,6 @@ class Hero : public df::Object {
   Hero();
   ~Hero();
   int eventHandler(const df::Event *p_e);
+  int getHealth();
+  void takeDamage(df::Vector at, int damage);
 };
