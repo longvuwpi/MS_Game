@@ -1,6 +1,76 @@
-﻿  Hero.cpp
-c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(179): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(338): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Debug\saucer-shoot.exe
+﻿  Bullet.cpp
+d:\projects\contra\game_directory\bullet.cpp(100): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\projects\contra\game_directory\bullet.cpp(105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  BulletTrail.cpp
+  DamageIndicator.cpp
+  EventNuke.cpp
+  EventPlayerFalling.cpp
+  EventPlayerJumping.cpp
+  Explosion.cpp
+d:\projects\contra\game_directory\explosion.cpp(58): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\projects\contra\game_directory\explosion.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\contra\game_directory\explosion.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\projects\contra\game_directory\explosion.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\contra\game_directory\explosion.cpp(69): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  game.cpp
+  GameOver.cpp
+  GameStart.cpp
+  Hero.cpp
+d:\projects\contra\game_directory\hero.cpp(105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\contra\game_directory\hero.cpp(111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\contra\game_directory\hero.cpp(179): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\contra\game_directory\hero.cpp(338): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Platform.cpp
+  Points.cpp
+  Reticle.cpp
+  Saucer.cpp
+d:\projects\contra\game_directory\saucer.cpp(145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Star.cpp
+  Weapon.cpp
+d:\projects\contra\game_directory\weapon.cpp(48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+d:\projects\contra\game_directory\damageindicator.cpp(24): warning C4715: 'DamageIndicator::eventHandler': not all control paths return a value
+libdragonfly-x64-debug.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Box.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Circle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Circle.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Clock.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Clock.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Config.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Config.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(DisplayManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(DisplayManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Event.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Event.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventCollision.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventCollision.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventKeyboard.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventKeyboard.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventMouse.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventMouse.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventNetwork.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventOut.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventOut.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventPath.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventPath.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventStep.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventStep.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(EventView.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(EventView.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Firework.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Firework.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Frame.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Frame.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(GameManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(GameManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(InputManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(InputManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Line.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Line.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(LogManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(LogManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Manager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Manager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Music.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Music.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(NetworkManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(NetworkManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Object.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Object.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(ObjectList.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(ObjectList.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(ObjectListIterator.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(ObjectListIterator.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Particle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Particle.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Path.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Path.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(PathFind.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(PathFind.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(PathManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(PathManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Pause.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Pause.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Precipitation.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Precipitation.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(ResourceManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(ResourceManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(SceneGraph.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(SceneGraph.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Shape.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Shape.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Sound.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Sound.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Splash.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Splash.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(SplashDragonfly.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(SplashDragonfly.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Sprite.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Sprite.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(utility.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(utility.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(Vector.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(Vector.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(ViewObject.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(ViewObject.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-debug.lib(WorldManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-debug.lib(WorldManager.obj)' or at 'D:\Projects\Contra\game_directory\vs-2017\x64\Debug\dragonfly.pdb'; linking object as if no debug info
+  saucer-shoot.vcxproj -> D:\Projects\Contra\game_directory\vs-2017\x64\Debug\saucer-shoot.exe
