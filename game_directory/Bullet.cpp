@@ -109,6 +109,7 @@ void Bullet::out() {
 void Bullet::hit(const df::EventCollision *p_collision_event) {
 	if ((p_collision_event->getObject1()->getType() == "Saucer") ||
 		(p_collision_event->getObject2()->getType() == "Saucer")) {
+        if (bullet_type == BulletType::HERO_BULLET) {
 		if (!wasHit) {
 			//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
 			if (radius_of_effect > 0) {
@@ -120,7 +121,24 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 			wasHit = true;
 			WM.markForDelete(this);
 		}
+        }
 	}
+    if ((p_collision_event->getObject1()->getType() == "Hero") ||
+        (p_collision_event->getObject2()->getType() == "Hero")) {
+        if (bullet_type == BulletType::ENEMY_BULLET) {
+        if (!wasHit) {
+            //if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
+            if (radius_of_effect > 0) {
+                Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
+                p_explosion->setPosition(getPosition());
+                EventNuke nuke(getPosition(), radius_of_effect, damage);
+                WM.onEvent(&nuke);
+            }
+            wasHit = true;
+            WM.markForDelete(this);
+        }
+        }
+    }
 }
 
 void Bullet::step() {

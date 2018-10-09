@@ -6,6 +6,7 @@
 #include <stdio.h>
 
 // Engine includes.
+#include "EventCollision.h"
 #include "EventMouse.h"
 #include "EventStep.h"
 #include "EventView.h"
@@ -18,6 +19,7 @@
 // Game includes.
 #include "Weapon.h"
 #include "Bullet.h"
+#include "BulletTrail.h"
 #include "EventNuke.h"
 #include "Explosion.h"
 #include "GameOver.h"
@@ -25,9 +27,10 @@
 #include "EventPlayerFalling.h"
 #include "EventPlayerJumping.h"
 #include "Saucer.h"
+#include "DamageIndicator.h"
 
 int moveSpeed = 2;
-int jumpHeight = 6;
+int jumpHeight = 10;
 
 Hero::Hero() {
 
@@ -73,25 +76,16 @@ Hero::Hero() {
 	isDucking = false;
 	p_OnPlatform = NULL;
 
-	setAcceleration(df::Vector(0, 1));
+	setAcceleration(df::Vector(0, 2));
 
 	//Set up weapons
-	//Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
-	//weapon_list.insert(ak47);
-
-	//Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
-	//weapon_list.insert(awp);
-
-	//Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
-	//weapon_list.insert(grenade_launcher);
-
-	Weapon *ak47 = new Weapon("AK47", this, 8, 3, 4, false, 0, 0);
+	Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", this, 15, 20, 25, false, 0, 0);
+	Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
 	weapon_list.insert(awp);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 8, 30,20, false, 0.2f, 30);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
 	weapon_list.insert(grenade_launcher);
 
 
@@ -154,7 +148,8 @@ int Hero::eventHandler(const df::Event *p_e) {
 			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject2());
 			landedOn(platform);
 		}
-			return 1;
+        hit(p_collision_event);
+		return 1;
 	}
 
 	if (p_e->getType() == df::KEYBOARD_EVENT) {
@@ -321,7 +316,7 @@ void Hero::step() {
 	}
 
 	if (GM.getStepCount() % 30 == 0) {
-		new Saucer(25);
+		new Saucer(15, 5, 0);
 	}
 }
 
@@ -348,4 +343,58 @@ void Hero::jump() {
 	df::Vector player_pos = getPosition();
 	EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
 	WM.onEvent(eventPlayerJumping);
+}
+
+// Called with Saucer collides.
+void Hero::hit(const df::EventCollision *p_collision_event) {
+    std::string type1, type2;
+    type1 = p_collision_event->getObject1()->getType();
+    type2 = p_collision_event->getObject2()->getType();
+
+    // If Hero on Hero, ignore.
+    if ((type1 == "Hero") &&
+        (type2 == "Hero"))
+        return;
+
+    // If Bullet, create explosion and make new Saucer.
+
+    if ((type1 == "Bullet") ||
+        (type2 == "Bullet") || 
+        (type1 == "BulletTrail") ||
+        (type2 == "BulletTrail")) {
+        int damage = 0;
+        BulletType bullet_type;
+        if (type1 == "Bullet") {
+            damage = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getDamage();
+            bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getBulletType();
+        }
+        else if (type2 == "Bullet") {
+            damage = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getDamage();
+            bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getBulletType();
+        }
+        else if (type1 == "BulletTrail") {
+            damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getDamage();
+            bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getBulletType();
+        }
+        else if (type2 == "BulletTrail") {
+            damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getDamage();
+            bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getBulletType();
+        }
+
+        if (bullet_type == BulletType::ENEMY_BULLET) {
+            takeDamage(p_collision_event->getPosition(), damage);
+                    // Create an explosion.
+        Explosion *p_explosion = new Explosion("explosion", 0);
+        p_explosion->setPosition(this->getPosition());
+        }
+
+    }
+ }
+
+void Hero::takeDamage(df::Vector at, int damage) {
+    health -= damage;
+    new DamageIndicator(at, damage);
+    //if (health <= 0) {
+    //    die();
+    //}
 }

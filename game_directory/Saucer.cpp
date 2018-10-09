@@ -6,7 +6,8 @@
 #include <stdlib.h>		// for rand()
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
-
+#include <iostream>
+#include <stdio.h>
 // Engine includes.
 #include "EventCollision.h"
 #include "EventNuke.h"
@@ -20,6 +21,8 @@
 #include "Sprite.h"
 #include "Frame.h"
 #include "Config.h"
+#include "ObjectListIterator.h"
+#include "EventStep.h"
 
 // Game includes.
 #include "Explosion.h"
@@ -29,10 +32,15 @@
 #include "BulletTrail.h"
 #include "DamageIndicator.h"
 
-Saucer::Saucer(int maxHealth) {
+
+Saucer::Saucer(int maxHealth, int dmg, float radius) {
 	health = maxHealth;
+    damage = dmg;
+    bullet_radius = radius;
+    fire_count_down = 30;
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
+    
 	if (!p_temp_sprite)
 		LM.writeLog("Saucer::Saucer(): Warning! Sprite '%s' not found", "saucer");
 	else {
@@ -44,6 +52,7 @@ Saucer::Saucer(int maxHealth) {
 
 	// Set object type.
 	setType("Saucer");
+    bullet_sprite = RM.getSprite("AK47_bullet");
 
 	// Set speed in horizontal direction.
 	setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
@@ -52,6 +61,8 @@ Saucer::Saucer(int maxHealth) {
 	moveToStart();
 	// Register interest in "nuke" event.
 	registerInterest(NUKE_EVENT);
+    registerInterest(df::STEP_EVENT);
+    
 }
 
 Saucer::~Saucer() {
@@ -92,6 +103,11 @@ int Saucer::eventHandler(const df::Event *p_e) {
 		}
 	}
 
+    if (p_e->getType() == df::STEP_EVENT) {
+        step();
+        return 1;
+    }
+
 	// If get here, have ignored this event.
 	return 0;
 }
@@ -119,6 +135,7 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 		return;
 
 	// If Bullet, create explosion and make new Saucer.
+
 	if ((type1 == "Bullet") ||
 		(type2 == "Bullet") || 
 		(type1 == "BulletTrail") ||
@@ -144,11 +161,11 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 
 		if (bullet_type == BulletType::HERO_BULLET) {
 			takeDamage(p_collision_event->getPosition(), damage);
+                    // Create an explosion.
+        Explosion *p_explosion = new Explosion("explosion", 0);
+        p_explosion->setPosition(this->getPosition());
 		}
 
-		// Create an explosion.
-		Explosion *p_explosion = new Explosion("explosion", 0);
-		p_explosion->setPosition(this->getPosition());
 	}
 
 	// If Hero, mark both objects for destruction.
@@ -157,6 +174,25 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 		WM.markForDelete(p_collision_event->getObject1());
 		WM.markForDelete(p_collision_event->getObject2());
 	}
+	
+	//If Platform, move avoid it
+	df::Vector temp_pos;
+	
+	// Get world boundaries.
+	int world_horiz = (int)WM.getView().getHorizontal();
+	int world_vert = (int)WM.getView().getVertical();
+	
+	temp_pos.setY(world_vert - 10.0f);
+	
+	temp_pos.setX(world_horiz + 5.0f);
+	
+	if ((p_collision_event->getObject1()->getType() == "Platform")||
+	   	(p_collision_event->getObject2()->getType() == "Platform")) {
+		
+		//Move it to avoid collide with platform
+		WM.moveObject(this, temp_pos);	
+	}
+
 
 }
 
@@ -184,6 +220,44 @@ void Saucer::moveToStart() {
 
 	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
 	//WM.moveObject(this, temp_pos);
+}
+
+void Saucer::fire(){
+    //df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
+    // See if time to fire.
+
+    df::ObjectList object_list= WM.objectsOfType("Hero");
+    df::ObjectListIterator li(&object_list);
+    li.first();
+    df::Vector hero_pos = li.currentObject()->getPosition();
+
+    std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
+
+    df::Vector origin = getPosition();
+
+    // Fire Bullet towards target.
+    // Compute normalized vector to position, then scale by speed (1).
+    df::Vector v = hero_pos - origin;
+
+    //df::Vector v = getDirection();
+    v.normalize();
+    v.scale(5);
+    Bullet *p = new Bullet(origin, bullet_sprite, damage, bullet_radius);
+    p->setVelocity(v);
+
+}
+
+void Saucer::step() {
+    // Fire countdown.
+
+    fire_count_down--;  
+    if (fire_count_down <= 0)
+    {
+        fire_count_down = 30;
+
+    fire();
+    }
+    //setPosition(saucer->getPosition() + df::Vector(3,1));
 }
 
 //void Saucer::draw() {
@@ -267,9 +341,22 @@ void Saucer::moveToStart() {
 //
 //}
 
+
 int Saucer::getHealth() {
 	return health;
 }
+
+
+/*void Saucer::detectPlayer(const df::EventPath *p_path_event){
+	df::Vector temp_pos;
+	
+	// Get world boundaries.
+	int world_horiz = (int)WM.getView().getHorizontal();
+	int world_vert = (int)WM.getView().getVertical();
+	
+	//When detect player near a sample distance, move to the player
+	if() 
+}*/
 
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;
@@ -290,3 +377,4 @@ void Saucer::die() {
 	// Saucers appear stay around perpetually.
 	WM.markForDelete(this);
 }
+
