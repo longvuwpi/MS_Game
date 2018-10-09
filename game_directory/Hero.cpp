@@ -27,7 +27,7 @@
 #include "Saucer.h"
 
 int moveSpeed = 2;
-int jumpHeight = 10;
+int jumpHeight = 6;
 
 Hero::Hero() {
 
@@ -73,16 +73,25 @@ Hero::Hero() {
 	isDucking = false;
 	p_OnPlatform = NULL;
 
-	setAcceleration(df::Vector(0, 2));
+	setAcceleration(df::Vector(0, 1));
 
 	//Set up weapons
-	Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
+	//Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
+	//weapon_list.insert(ak47);
+
+	//Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
+	//weapon_list.insert(awp);
+
+	//Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
+	//weapon_list.insert(grenade_launcher);
+
+	Weapon *ak47 = new Weapon("AK47", this, 8, 3, 4, false, 0, 0);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
+	Weapon *awp = new Weapon("AWP", this, 15, 20, 25, false, 0, 0);
 	weapon_list.insert(awp);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 8, 30,20, false, 0.2f, 30);
 	weapon_list.insert(grenade_launcher);
 
 
@@ -312,7 +321,7 @@ void Hero::step() {
 	}
 
 	if (GM.getStepCount() % 30 == 0) {
-		new Saucer(15);
+		new Saucer(25);
 	}
 }
 

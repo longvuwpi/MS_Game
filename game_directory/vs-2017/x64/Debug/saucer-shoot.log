@@ -1,2 +1,6 @@
-﻿  BulletTrail.cpp
+﻿  Hero.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(114): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(188): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(346): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Debug\saucer-shoot.exe
