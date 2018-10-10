@@ -9,6 +9,7 @@
 #include "WorldManager.h"
 #include "EventStep.h"
 #include "DisplayManager.h"
+#include "WorldManager.h"
 
 // Game includes.
 #include "Bullet.h"
@@ -85,11 +86,6 @@ int Bullet::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
-	if (p_e->getType() == df::OUT_EVENT) {
-		out();
-		return 1;
-	}
-
 	if (p_e->getType() == df::COLLISION_EVENT) {
 		const df::EventCollision *p_collision_event = dynamic_cast <const df::EventCollision *> (p_e);
 		hit(p_collision_event);
@@ -100,16 +96,14 @@ int Bullet::eventHandler(const df::Event *p_e) {
 	return 0;
 }
 
-// If Bullet moves outside world, mark self for deletion.
-void Bullet::out() {
-	WM.markForDelete(this);
-}
-
 // If Bullet hits Saucer, mark Saucer and Bullet for deletion.
 void Bullet::hit(const df::EventCollision *p_collision_event) {
-	if ((p_collision_event->getObject1()->getType() == "Saucer") ||
-		(p_collision_event->getObject2()->getType() == "Saucer")) {
-        if (bullet_type == BulletType::HERO_BULLET) {
+	std::string type1, type2;
+	type1 = p_collision_event->getObject1()->getType();
+	type2 = p_collision_event->getObject2()->getType();
+
+	if ((((type1 == "Saucer") || (type2 == "Saucer")) && (bullet_type == BulletType::HERO_BULLET)) ||
+		(((type1 == "Hero") || (type2 == "Hero")) && (bullet_type == BulletType::ENEMY_BULLET))) {
 		if (!wasHit) {
 			//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
 			if (radius_of_effect > 0) {
@@ -119,31 +113,35 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 				WM.onEvent(&nuke);
 			}
 			wasHit = true;
+			//Destroy the bullet
 			WM.markForDelete(this);
+			
+			//Deal damage to the entity
+			if (type1 == "Hero") {
+				dynamic_cast <Hero *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), damage);
+			}
+			else if (type2 == "Hero") {
+				dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
+			}
+			else if (type1 == "Saucer") {
+				dynamic_cast <Saucer *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), damage);
+			}
+			else if (type2 == "Saucer") {
+				dynamic_cast <Saucer *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
+			}
 		}
-        }
 	}
-    if ((p_collision_event->getObject1()->getType() == "Hero") ||
-        (p_collision_event->getObject2()->getType() == "Hero")) {
-        if (bullet_type == BulletType::ENEMY_BULLET) {
-        if (!wasHit) {
-            //if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
-            if (radius_of_effect > 0) {
-                Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
-                p_explosion->setPosition(getPosition());
-                EventNuke nuke(getPosition(), radius_of_effect, damage);
-                WM.onEvent(&nuke);
-            }
-            wasHit = true;
-            WM.markForDelete(this);
-        }
-        }
-    }
 }
 
 void Bullet::step() {
-	if (getPosition() != last_position) {
-		df::Vector traveled = getPosition() - last_position;
+	df::Vector current_pos = getPosition();
+	df::Vector window_corner = WM.getView().getCorner();
+	if ((current_pos.getX() < window_corner.getX()) || (current_pos.getX() > (window_corner.getX() + WM.getView().getHorizontal())) ||
+		(current_pos.getY() < (window_corner.getY() - 30)) || (current_pos.getY() > (window_corner.getY() + WM.getView().getVertical()))) {
+		WM.markForDelete(this);
+	}
+	else if (current_pos != last_position) {
+		df::Vector traveled = current_pos - last_position;
 		int distance = traveled.getMagnitude();
 		traveled.normalize();
 		for (int i = 0; i <= distance; i++) {
@@ -151,8 +149,8 @@ void Bullet::step() {
 			df::Vector scaled(traveled.getX(), traveled.getY());
 			scaled.scale(i);
 			trail->setPosition(last_position + scaled);
-		} 
-		last_position = getPosition();
+		}
+		last_position = current_pos;
 	}
 }
 

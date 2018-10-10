@@ -97,8 +97,6 @@ Hero::Hero() {
 	weapon_view->setLocation(df::TOP_LEFT);
 	weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
 	weapon_view->setColor(df::YELLOW);
-	
-
 }
 
 void Hero::setWalkingSprite() {
@@ -174,7 +172,6 @@ int Hero::eventHandler(const df::Event *p_e) {
 }
 
 void Hero::landedOn(Platform *platform) {
-	//p_OnPlatform = dynamic_cast <Platform *> (p_collision_event->getObject1());
 	if (p_OnPlatform == NULL) {
 		p_OnPlatform = platform;
 
@@ -276,8 +273,6 @@ void Hero::move(int dx, int dy) {
 	if ((new_pos.getY() > 3) &&
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 		world_manager.moveObject(this, new_pos);
-
-	WM.setViewPosition(new_pos + df::Vector(WM.getView().getHorizontal()/3,0));
 }
 
 // Fire bullet towards target.
@@ -321,23 +316,6 @@ void Hero::step() {
 }
 
 void Hero::jump() {
-	//// Check if nukes left.
-	//if (!nuke_count) 
-	//  return;
-	//nuke_count--;
-
-	//// Create "nuke" event and send to interested Objects.
-	//df::WorldManager &world_manager = df::WorldManager::getInstance();
-	//EventNuke nuke;
-	//world_manager.onEvent(&nuke);
-
-	//// Send "view" event do decrease number of nukes to interested ViewObjects.
-	//df::EventView ev("Nukes", -1, true);
-	//world_manager.onEvent(&ev);
-
-	//// Play "nuke" sound.
-	//df::Sound *p_sound = df::ResourceManager::getInstance().getSound("nuke");
-	//p_sound->play();
 	setVelocity(df::Vector(0, -jumpHeight));
 	setCentered(true);
 	df::Vector player_pos = getPosition();
@@ -355,46 +333,13 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
     if ((type1 == "Hero") &&
         (type2 == "Hero"))
         return;
-
-    // If Bullet, create explosion and make new Saucer.
-
-    if ((type1 == "Bullet") ||
-        (type2 == "Bullet") || 
-        (type1 == "BulletTrail") ||
-        (type2 == "BulletTrail")) {
-        int damage = 0;
-        BulletType bullet_type;
-        if (type1 == "Bullet") {
-            damage = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getDamage();
-            bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getBulletType();
-        }
-        else if (type2 == "Bullet") {
-            damage = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getDamage();
-            bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getBulletType();
-        }
-        else if (type1 == "BulletTrail") {
-            damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getDamage();
-            bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getBulletType();
-        }
-        else if (type2 == "BulletTrail") {
-            damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getDamage();
-            bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getBulletType();
-        }
-
-        if (bullet_type == BulletType::ENEMY_BULLET) {
-            takeDamage(p_collision_event->getPosition(), damage);
-                    // Create an explosion.
-        Explosion *p_explosion = new Explosion("explosion", 0);
-        p_explosion->setPosition(this->getPosition());
-        }
-
-    }
  }
 
 void Hero::takeDamage(df::Vector at, int damage) {
     health -= damage;
     new DamageIndicator(at, damage);
-    //if (health <= 0) {
-    //    die();
-    //}
+    if (health <= 0) {
+		WM.setViewPosition(df::Vector(0, 0));
+        WM.markForDelete(this);
+    }
 }

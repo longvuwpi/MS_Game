@@ -129,69 +129,35 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 	type1 = p_collision_event->getObject1()->getType();
 	type2 = p_collision_event->getObject2()->getType();
 
-	// If Saucer on Saucer, ignore.
-	if ((type1 == "Saucer") &&
-		(type2 == "Saucer"))
-		return;
-
-	// If Bullet, create explosion and make new Saucer.
-
-	if ((type1 == "Bullet") ||
-		(type2 == "Bullet") || 
-		(type1 == "BulletTrail") ||
-		(type2 == "BulletTrail")) {
-		int damage = 0;
-		BulletType bullet_type;
-		if (type1 == "Bullet") {
-			damage = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getDamage();
-			bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject1())->getBulletType();
-		}
-		else if (type2 == "Bullet") {
-			damage = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getDamage();
-			bullet_type = dynamic_cast <Bullet *> (p_collision_event->getObject2())->getBulletType();
-		}
-		else if (type1 == "BulletTrail") {
-			damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getDamage();
-			bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject1())->getBulletType();
-		}
-		else if (type2 == "BulletTrail") {
-			damage = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getDamage();
-			bullet_type = dynamic_cast <BulletTrail *> (p_collision_event->getObject2())->getBulletType();
-		}
-
-		if (bullet_type == BulletType::HERO_BULLET) {
-			takeDamage(p_collision_event->getPosition(), damage);
-                    // Create an explosion.
-        Explosion *p_explosion = new Explosion("explosion", 0);
-        p_explosion->setPosition(this->getPosition());
-		}
-
-	}
-
 	// If Hero, mark both objects for destruction.
-	if (((p_collision_event->getObject1()->getType()) == "Hero") ||
-		((p_collision_event->getObject2()->getType()) == "Hero")) {
-		WM.markForDelete(p_collision_event->getObject1());
-		WM.markForDelete(p_collision_event->getObject2());
+	if ((type1 == "Hero") ||
+		(type2 == "Hero")) {
+		WM.markForDelete(this);
+		if (type1 == "Hero") {
+			dynamic_cast <Hero *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), health);
+		}
+		else {
+			dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), health);
+		}
 	}
 	
 	//If Platform, move avoid it
-	df::Vector temp_pos;
-	
-	// Get world boundaries.
-	int world_horiz = (int)WM.getView().getHorizontal();
-	int world_vert = (int)WM.getView().getVertical();
-	
-	temp_pos.setY(world_vert - 10.0f);
-	
-	temp_pos.setX(world_horiz + 5.0f);
-	
-	if ((p_collision_event->getObject1()->getType() == "Platform")||
-	   	(p_collision_event->getObject2()->getType() == "Platform")) {
-		
-		//Move it to avoid collide with platform
-		WM.moveObject(this, temp_pos);	
-	}
+	//df::Vector temp_pos;
+	//
+	//// Get world boundaries.
+	//int world_horiz = (int)WM.getView().getHorizontal();
+	//int world_vert = (int)WM.getView().getVertical();
+	//
+	//temp_pos.setY(world_vert - 10.0f);
+	//
+	//temp_pos.setX(world_horiz + 5.0f);
+	//
+	//if ((p_collision_event->getObject1()->getType() == "Platform")||
+	//   	(p_collision_event->getObject2()->getType() == "Platform")) {
+	//	
+	//	//Move it to avoid collide with platform
+	//	WM.moveObject(this, temp_pos);	
+	//}
 
 
 }
@@ -217,34 +183,33 @@ void Saucer::moveToStart() {
 		collision_list = WM.isCollision(this, temp_pos);
 	}
 
-
 	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
-	//WM.moveObject(this, temp_pos);
 }
 
 void Saucer::fire(){
     //df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
     // See if time to fire.
-
+	
     df::ObjectList object_list= WM.objectsOfType("Hero");
-    df::ObjectListIterator li(&object_list);
-    li.first();
-    df::Vector hero_pos = li.currentObject()->getPosition();
+	if (object_list.getCount() > 0) {
+		df::ObjectListIterator li(&object_list);
+		li.first();
+		df::Vector hero_pos = li.currentObject()->getPosition();
 
-    std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
+		std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
 
-    df::Vector origin = getPosition();
+		df::Vector origin = getPosition();
 
-    // Fire Bullet towards target.
-    // Compute normalized vector to position, then scale by speed (1).
-    df::Vector v = hero_pos - origin;
+		// Fire Bullet towards target.
+		// Compute normalized vector to position, then scale by speed (1).
+		df::Vector v = hero_pos - origin;
 
-    //df::Vector v = getDirection();
-    v.normalize();
-    v.scale(5);
-    Bullet *p = new Bullet(origin, bullet_sprite, damage, bullet_radius);
-    p->setVelocity(v);
-
+		//df::Vector v = getDirection();
+		v.normalize();
+		v.scale(3);
+		Bullet *p = new Bullet(origin, bullet_sprite, damage, bullet_radius);
+		p->setVelocity(v);
+	}
 }
 
 void Saucer::step() {
@@ -253,11 +218,9 @@ void Saucer::step() {
     fire_count_down--;  
     if (fire_count_down <= 0)
     {
-        fire_count_down = 30;
-
-    fire();
+        fire_count_down = 90;
+		fire();
     }
-    //setPosition(saucer->getPosition() + df::Vector(3,1));
 }
 
 //void Saucer::draw() {
@@ -345,18 +308,6 @@ void Saucer::step() {
 int Saucer::getHealth() {
 	return health;
 }
-
-
-/*void Saucer::detectPlayer(const df::EventPath *p_path_event){
-	df::Vector temp_pos;
-	
-	// Get world boundaries.
-	int world_horiz = (int)WM.getView().getHorizontal();
-	int world_vert = (int)WM.getView().getVertical();
-	
-	//When detect player near a sample distance, move to the player
-	if() 
-}*/
 
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;

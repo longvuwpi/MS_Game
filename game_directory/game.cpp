@@ -7,6 +7,7 @@
 #include "LogManager.h"
 #include "Pause.h"
 #include "ResourceManager.h"
+#include "Fraps.h"
 
 // Game includes.
 #include "GameStart.h"
@@ -33,7 +34,8 @@ int main(int argc, char *argv[]) {
 
   // Load game resources.
   loadResources();
-
+  df::Fraps *fraps = new df::Fraps();
+  fraps->setLocation(df::TOP_CENTER);
   // Populate game world with some objects.
   populateWorld();
 

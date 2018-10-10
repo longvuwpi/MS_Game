@@ -12,7 +12,6 @@ enum BulletType { HERO_BULLET, ENEMY_BULLET };
 class Bullet : public df::Object {
 private:
 	BulletType bullet_type;
-	void out();
 	df::Vector last_position;
 	float radius_of_effect;
 	int damage;

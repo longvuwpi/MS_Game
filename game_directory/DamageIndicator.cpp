@@ -5,6 +5,7 @@
 #include "DisplayManager.h"
 
 DamageIndicator::DamageIndicator(df::Vector at, int dmg) {
+	setType("DamageIndicator");
 	setPosition(at);
 	damage = dmg;
 	life_time = 15;

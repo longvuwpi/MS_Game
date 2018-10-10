@@ -5,7 +5,6 @@ c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer.
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\reticle.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\points.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\platform.obj
-c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\gamestart.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\gameover.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\game.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\explosion.obj
@@ -13,10 +12,16 @@ c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\eventpl
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\eventplayerfalling.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\eventnuke.obj
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\bullet.obj
-c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.ilk
-c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.exe
-c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.pdb
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\hero.obj
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\weapon.obj
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\gamestart.obj
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\bullettrail.obj
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\damageindicator.obj
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.exe
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.ilk
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.pdb
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\bullettrail.obj.enc
+c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer.obj.enc
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.tlog\cl.command.1.tlog
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.tlog\cl.read.1.tlog
 c:\users\vuxua\documents\github\ms_game\game_directory\vs-2017\x64\debug\saucer-shoot.tlog\cl.write.1.tlog

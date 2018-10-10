@@ -14,7 +14,7 @@ BulletTrail::BulletTrail(Bullet *spawner) {
 		setSprite(p_temp_sprite);
 
 	setType("BulletTrail");
-
+	setSolidness(df::SOFT);
 	setTransparency('#');    // Transparent character.
 
 	owner = spawner;
@@ -26,10 +26,10 @@ BulletTrail::BulletTrail(Bullet *spawner) {
 
 int BulletTrail::eventHandler(const df::Event *p_e) {
 	if (p_e->getType() == df::STEP_EVENT) {
+		life_time--;
 		if (life_time <= 0) {
 			WM.markForDelete(this);
 		}
-		life_time--;
 		return 1;
 	}
 
@@ -50,11 +50,6 @@ int BulletTrail::eventHandler(const df::Event *p_e) {
 }
 
 void BulletTrail::hit(const df::EventCollision *p_collision_event) {
-	if ((p_collision_event->getObject1()->getType() == "Hero") ||
-		(p_collision_event->getObject2()->getType() == "Hero")) {
-		return;
-	}
-	WM.markForDelete(this);
 	if (!owner->wasHit) owner->hit(p_collision_event);
 }
 
