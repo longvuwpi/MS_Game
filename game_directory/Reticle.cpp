@@ -6,6 +6,7 @@
 #include "EventMouse.h"
 #include "DisplayManager.h"
 #include "WorldManager.h"
+#include "EventStep.h"
 
 // Game includes.
 #include "Reticle.h"
@@ -17,7 +18,7 @@ Reticle::Reticle() {
 
   // Reticle moves with mouse, so register.
   registerInterest(df::MOUSE_EVENT);
-
+  registerInterest(df::STEP_EVENT);
   // Start reticle in center of window.
   df::Vector p(WM.getBoundary().getHorizontal()/2,
 		   WM.getBoundary().getVertical()/2);
@@ -37,11 +38,29 @@ int Reticle::eventHandler(const df::Event *p_e) {
     }
   }
 
+  if (p_e->getType() == df::STEP_EVENT) {
+	  if (expandSize > 0) {
+		  expandSize -= 0.1f;
+	  }
+	  else {
+		  expandSize = 0;
+	  }
+  }
+
   // If get here, have ignored this event.
   return 0;
 }
 
 // Draw reticle on window.
 void Reticle::draw() {
-  DM.drawCh(getPosition(), RETICLE_CHAR, df::RED); 
+  DM.drawCh(getPosition() + df::Vector(0, -0.2f), RETICLE_CHAR, df::GREEN); 
+  DM.drawCh(getPosition() + df::Vector(0,-0.7) + df::Vector(0,-expandSize), '|', df::GREEN);
+  DM.drawCh(getPosition() + df::Vector(0, 0.9) + df::Vector(0, expandSize), '|', df::GREEN);
+  DM.drawCh(getPosition() + df::Vector(-1.4f,-0.3f) + df::Vector(-expandSize, 0), '_', df::GREEN);
+  DM.drawCh(getPosition() + df::Vector( 1.4f,-0.3f) + df::Vector( expandSize, 0), '_', df::GREEN);
+
+}
+
+void Reticle::expand() {
+	expandSize = 0.8f;
 }

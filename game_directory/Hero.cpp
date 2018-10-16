@@ -15,6 +15,7 @@
 #include "ResourceManager.h"
 #include "WorldManager.h"
 #include "ObjectListIterator.h"
+#include "DisplayManager.h"
 
 // Game includes.
 #include "Weapon.h"
@@ -72,6 +73,7 @@ Hero::Hero() {
 	nuke_count = 1;
 	jump_max = 1;
 	jump_count = jump_max;
+	max_health = 50;
 	health = 50;
 	isDucking = false;
 	p_OnPlatform = NULL;
@@ -79,15 +81,14 @@ Hero::Hero() {
 	setAcceleration(df::Vector(0, 2));
 
 	//Set up weapons
-	Weapon *ak47 = new Weapon("AK47", this, 8, 5, 8, false, 0, 0);
+	Weapon *ak47 = new Weapon("AK47", this, 8, 3, 30, 90, 8, false, 0, 0, 2.5f);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", this, 15, 40, 20, false, 0, 0);
+	Weapon *awp = new Weapon("AWP", this, 15, 40, 10, 30, 20, false, 0, 0, 3.6f);
 	weapon_list.insert(awp);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 10, true, 0.2f, 20);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 1, 30, 10, true, 0.2f, 20, 2.8f);
 	weapon_list.insert(grenade_launcher);
-
 
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
 	weapon_selector->first();
@@ -95,7 +96,7 @@ Hero::Hero() {
 	//Weapon view
 	weapon_view = new df::ViewObject; // Count of nukes.
 	weapon_view->setLocation(df::TOP_LEFT);
-	weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
+	weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 	weapon_view->setColor(df::YELLOW);
 }
 
@@ -103,21 +104,20 @@ void Hero::setWalkingSprite() {
 	setSprite(walk_sprite);
 	setSpriteSlowdown(5);  // 1/3 speed animation.
 	setTransparency();	   // Transparent sprite.
-	setPosition(getPosition() + df::Vector(0, -0.5+ (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
+	setPosition(getPosition() + df::Vector(0, -0.5 + (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
 	setCentered(true);
 }
 
 void Hero::setDuckingSprite() {
 	setSprite(duck_sprite);
-	setPosition(getPosition() + df::Vector(0, -0.5+ (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
+	setPosition(getPosition() + df::Vector(0, -0.5 + (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
 	setCentered(true);
 }
 
 Hero::~Hero() {
 
 	// Create GameOver object.
-	GameOver *p_go = new GameOver;
-
+	GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getVertical() / 2, WM.getView().getHorizontal() / 2));
 	// Make big explosion.
 	for (int i = -8; i <= 8; i += 5) {
 		for (int j = -5; j <= 5; j += 3) {
@@ -142,11 +142,12 @@ int Hero::eventHandler(const df::Event *p_e) {
 		if (p_collision_event->getObject1()->getType() == "Platform") {
 			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject1());
 			landedOn(platform);
-		} else if (p_collision_event->getObject2()->getType() == "Platform") {
+		}
+		else if (p_collision_event->getObject2()->getType() == "Platform") {
 			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject2());
 			landedOn(platform);
 		}
-        hit(p_collision_event);
+		hit(p_collision_event);
 		return 1;
 	}
 
@@ -194,7 +195,7 @@ void Hero::mouse(const df::EventMouse *p_mouse_event) {
 	// Pressed button?
 	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
-		fire((*(new df::Vector(WM.getView().getCorner().getX(), 0))) + p_mouse_event->getMousePosition());
+		fire(p_reticle->getPosition());
 }
 
 // Take appropriate action according to key pressed.
@@ -204,7 +205,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 	case df::Keyboard::W:       // up
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
 			//move(-1);
-		break;
+			break;
 	case df::Keyboard::S:       // down
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			setDuckingSprite();
@@ -217,7 +218,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 		break;
 	case df::Keyboard::A:       // left
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
-			move(-moveSpeed,0);
+			move(-moveSpeed, 0);
 		break;
 	case df::Keyboard::D:       // right
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
@@ -243,10 +244,13 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 			if (weapon_selector->isDone()) {
 				weapon_selector->first();
 			}
-			weapon_view->setViewString(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getWeaponName() + ":");
+			weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 		}
-			//move(-1);
-			break;
+		//move(-1);
+		break;
+	case df::Keyboard::R:       // change weapon
+		reload();
+		break;
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			df::WorldManager &world_manager = df::WorldManager::getInstance();
@@ -268,22 +272,30 @@ void Hero::move(int dx, int dy) {
 	move_countdown = move_slowdown;
 
 	// If stays on window, allow move.
-	df::Vector new_pos(getPosition().getX()+dx, getPosition().getY() + dy);
+	df::Vector new_pos(getPosition().getX() + dx, getPosition().getY() + dy);
 	df::WorldManager &world_manager = df::WorldManager::getInstance();
 	if ((new_pos.getY() > 3) &&
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 		world_manager.moveObject(this, new_pos);
 }
 
+Weapon *Hero::getCurrentWeapon() {
+	return (dynamic_cast <Weapon*> (weapon_selector->currentObject()));
+}
+
 // Fire bullet towards target.
 void Hero::fire(df::Vector target) {
-	Weapon *currentWeapon = dynamic_cast <Weapon*> (weapon_selector->currentObject());
-	currentWeapon->fire(target);
+	getCurrentWeapon()->fire(target);
+}
+
+void Hero::reload() {
+	getCurrentWeapon()->reload();
 }
 
 // Decrease rate restriction counters.
 void Hero::step() {
-	weapon_view->setValue(dynamic_cast <Weapon*> (weapon_selector->currentObject())->getAmmo());
+	//weapon_view->setValue(getCurrentWeapon()->getAmmo());
+	weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":" + std::to_string(getCurrentWeapon()->getAmmoLoaded()) + "/" + std::to_string(getCurrentWeapon()->getAmmoBackup()));
 
 	// Move countdown.
 	move_countdown--;
@@ -291,7 +303,7 @@ void Hero::step() {
 		move_countdown = 0;
 
 	//Check to see if the hero is on a platform.
-	df::ObjectList collisions = WM.isCollision(this, getPosition()+ df::Vector(0,0.5));
+	df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
 	if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
 		p_OnPlatform = NULL;
 	}
@@ -310,9 +322,7 @@ void Hero::step() {
 		setVelocity(df::Vector(getVelocity().getX(), 3));
 	}
 
-	if (GM.getStepCount() % 30 == 0) {
-		new Saucer(15, 5, 0);
-	}
+	drawHealthBar();
 }
 
 void Hero::jump() {
@@ -325,21 +335,60 @@ void Hero::jump() {
 
 // Called with Saucer collides.
 void Hero::hit(const df::EventCollision *p_collision_event) {
-    std::string type1, type2;
-    type1 = p_collision_event->getObject1()->getType();
-    type2 = p_collision_event->getObject2()->getType();
+	std::string type1, type2;
+	type1 = p_collision_event->getObject1()->getType();
+	type2 = p_collision_event->getObject2()->getType();
 
-    // If Hero on Hero, ignore.
-    if ((type1 == "Hero") &&
-        (type2 == "Hero"))
-        return;
- }
+	// If Hero on Hero, ignore.
+	if ((type1 == "Hero") &&
+		(type2 == "Hero"))
+		return;
+}
 
 void Hero::takeDamage(df::Vector at, int damage) {
-    health -= damage;
-    new DamageIndicator(at, damage);
-    if (health <= 0) {
-		WM.setViewPosition(df::Vector(0, 0));
-        WM.markForDelete(this);
-    }
+	health -= damage;
+	new DamageIndicator(at, damage);
+	if (health <= 0) {
+		WM.markForDelete(this);
+	}
+}
+
+void Hero::drawHealthBar() {
+
+	// Convert world position to view position.
+	df::Vector window_pos = worldToView(getPosition() - df::Vector(getSprite()->getWidth() / 2, 0.5f + getSprite()->getHeight() / 2));
+
+	// Convert spaces to pixels.
+	df::Vector pixel_pos = spacesToPixels(window_pos);
+
+	// Health bars are rectangles.
+	static sf::RectangleShape shape;
+	sf::Vector2f size(df::charWidth() * getSprite()->getWidth() * health / max_health, df::charHeight() / 3);
+	shape.setSize(size);
+	//shape.setPosition(pixel_pos.getX() - size.x / 2.0f + 5,
+	//	pixel_pos.getY() - 8 * size.y / 1.75f - 5);
+	shape.setPosition(pixel_pos.getX(), pixel_pos.getY());
+	// Set color based on health.
+	sf::Color color;
+	float normalizedHealth = (float)health / (float)max_health;
+	if (normalizedHealth > 0.7f)
+	{
+		color = sf::Color::Green;
+	}
+	else if (normalizedHealth > 0.3f)
+	{
+		color = sf::Color::Yellow;
+	}
+	else
+	{
+		color = sf::Color::Red;
+	}
+	shape.setFillColor(color);
+
+	// Draw.
+	DM.getWindow()->draw(shape);
+}
+
+Reticle *Hero::getReticle() {
+	return p_reticle;
 }

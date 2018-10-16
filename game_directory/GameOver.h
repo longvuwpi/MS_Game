@@ -11,7 +11,7 @@ class GameOver : public df::ViewObject {
   void step();
 
  public:
-  GameOver();
+  GameOver(df::Vector position);
   ~GameOver();
   int eventHandler(const df::Event *p_e);
   void draw();

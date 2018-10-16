@@ -34,7 +34,8 @@
 
 
 Saucer::Saucer(int maxHealth, int dmg, float radius) {
-	health = maxHealth;
+	max_health = maxHealth;
+	health = max_health;
     damage = dmg;
     bullet_radius = radius;
     fire_count_down = 30;
@@ -206,7 +207,7 @@ void Saucer::fire(){
 
 		//df::Vector v = getDirection();
 		v.normalize();
-		v.scale(3);
+		v.scale(2);
 		Bullet *p = new Bullet(origin, bullet_sprite, damage, bullet_radius);
 		p->setVelocity(v);
 	}

@@ -2,15 +2,20 @@
 // Hero.h
 //
 #pragma once
+
+#include "Reticle.h"
+#include "Platform.h"
+#include "Weapon.h"
+
+#include "ObjectList.h"
+#include "ObjectListIterator.h"
+#include "ViewObject.h"
 #include "EventCollision.h"
 #include "EventKeyboard.h"
 #include "EventMouse.h"
 #include "Object.h"
-#include "Reticle.h"
-#include "Platform.h"
-#include "ObjectList.h"
-#include "ObjectListIterator.h"
-#include "ViewObject.h"
+
+class Weapon;
 
 class Hero : public df::Object {
 
@@ -27,6 +32,7 @@ class Hero : public df::Object {
   int jump_max;
   int jump_count;
   int health;
+  int max_health;
   bool isDucking;
   df::ObjectList weapon_list;
   df::ObjectListIterator *weapon_selector;
@@ -41,11 +47,15 @@ class Hero : public df::Object {
   void setWalkingSprite();
   void setDuckingSprite();
   void landedOn(Platform *platform);
-
+  void drawHealthBar();
+  void reload();
  public:
   Hero();
   ~Hero();
   int eventHandler(const df::Event *p_e);
   int getHealth();
   void takeDamage(df::Vector at, int damage);
+  Reticle *getReticle();
+  Weapon *getCurrentWeapon();
+
 };
