@@ -62,5 +62,5 @@ void Reticle::draw() {
 }
 
 void Reticle::expand() {
-	expandSize = 0.8f;
+	expandSize = 1.1f;
 }
