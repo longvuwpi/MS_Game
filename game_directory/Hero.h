@@ -55,6 +55,7 @@ class Hero : public df::Object {
   int eventHandler(const df::Event *p_e);
   int getHealth();
   void takeDamage(df::Vector at, int damage);
+  void refillAmmo();
   Reticle *getReticle();
   Weapon *getCurrentWeapon();
 

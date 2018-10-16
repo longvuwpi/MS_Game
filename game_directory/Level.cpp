@@ -9,11 +9,11 @@
 #include "Level.h"
 #include "Platform.h"
 #include "Saucer.h"
+#include "AmmoRefill.h"
 
 Level::Level() {
 	setType("Level");
 	registerInterest(df::STEP_EVENT);
-
 }
 
 void Level::start() {
@@ -27,6 +27,10 @@ void Level::start() {
 	Platform* platform3 = new Platform(df::Vector(133, 60));
 	Platform* platform4 = new Platform(df::Vector(196, 47));
 	Platform* platform5 = new Platform(df::Vector(263, 65));
+
+	// Create an ammo refill box
+	AmmoRefill* ammo_refill = new AmmoRefill();
+	ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_refill->getSprite()->getHeight() / 2)));
 
 	// setup world and view boundaries
 	int world_horiz, world_vert;

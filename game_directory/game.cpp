@@ -72,11 +72,18 @@ void loadResources(void) {
   RM.loadSprite("sprites/character-walk_2.txt", "character-walk");
   RM.loadSprite("sprites/character-duck.txt", "character-duck");
   RM.loadSprite("sprites/platform.txt", "platform");
+  RM.loadSprite("sprites/refill-ammo.txt", "ammo-refill");
 
   //Fire sounds
   RM.loadSound("sounds/ak47_fire.wav", "AK47_fire");
   RM.loadSound("sounds/awp_fire.wav", "AWP_fire");
   RM.loadSound("sounds/grenade_fire.wav", "GrenadeLauncher_fire");
+  //ammo sounds
+  RM.loadSound("sounds/ammo_empty.wav", "ammo_empty");
+  RM.loadSound("sounds/ammo_reload.wav", "ammo_reload");
+  //pickup sounds
+  RM.loadSound("sounds/pickup1.wav", "pickup1");
+  RM.loadSound("sounds/pickup2.wav", "pickup2");
 
   RM.loadSound("sounds/explode.wav", "explode");
   RM.loadSound("sounds/nuke.wav", "nuke");

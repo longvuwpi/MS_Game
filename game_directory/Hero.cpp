@@ -248,8 +248,10 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 		}
 		//move(-1);
 		break;
-	case df::Keyboard::R:       // change weapon
-		reload();
+	case df::Keyboard::R:   
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
+			reload();
+		}
 		break;
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
@@ -350,6 +352,15 @@ void Hero::takeDamage(df::Vector at, int damage) {
 	new DamageIndicator(at, damage);
 	if (health <= 0) {
 		WM.markForDelete(this);
+	}
+}
+
+void Hero::refillAmmo() {
+	df::ObjectListIterator refillIterator(&weapon_list);
+	refillIterator.first();
+	while (!refillIterator.isDone()) {
+		(dynamic_cast <Weapon*> (refillIterator.currentObject()))->refillAmmo();
+		refillIterator.next();
 	}
 }
 

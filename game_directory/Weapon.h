@@ -38,6 +38,7 @@ public:
 	float getBulletRadiusOfEffect();
 	int getDamage();
 	void reload();
+	void refillAmmo();
 	int getAmmoLoaded();
 	int getAmmoBackup();
 };

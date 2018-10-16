@@ -14,9 +14,8 @@ Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRat
 	fire_rate = fireRate;
 	fire_count_down = fireRate;
 	ammo_loaded_max = ammoLoadedMax;
-	ammo_loaded = ammoLoadedMax;
 	ammo_backup_max = ammoBackupMax;
-	ammo_backup = ammoBackupMax;
+	refillAmmo();
 	damage = dmg;
 	bullet_weight = bulletWeight;
 	bullet_affected_by_gravity = affectedByGravity;
@@ -51,7 +50,8 @@ void Weapon::fire(df::Vector target) {
 		return;
 	}
 	if (ammo_loaded == 0) {
-		//TODO: play empty ammo sound
+		fire_count_down = fire_rate;
+		RM.getSound("ammo_empty")->play();
 		return;
 	}
 	fire_count_down = fire_rate;
@@ -133,8 +133,14 @@ void Weapon::reload() {
 	if (reloading || (ammo_loaded == ammo_loaded_max) || (ammo_backup == 0)) {
 		return;
 	}
+	RM.getSound("ammo_reload")->play();
 	reloading = true;
 	clock->delta();
+}
+
+void Weapon::refillAmmo() {
+	ammo_loaded = ammo_loaded_max;
+	ammo_backup = ammo_backup_max;
 }
 
 int Weapon::getAmmoLoaded() {
