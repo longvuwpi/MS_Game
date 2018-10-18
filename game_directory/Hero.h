@@ -16,6 +16,7 @@
 #include "Object.h"
 
 class Weapon;
+class Reticle;
 
 class Hero : public df::Object {
 

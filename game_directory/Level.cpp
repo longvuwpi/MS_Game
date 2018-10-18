@@ -55,7 +55,7 @@ int Level::eventHandler(const df::Event *p_e) {
 			}
 		}
 		if (GM.getStepCount() % 60 == 0) {
-			new Saucer(15, 5, 0);
+			//new Saucer(15, 5, 0);
 		}
 
 		return 1;

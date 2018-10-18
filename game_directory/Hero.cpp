@@ -61,9 +61,7 @@ Hero::Hero() {
 	df::Vector p(7, 52);
 	setPosition(p);
 
-	// Create reticle for firing bullets and aiming.
-	p_reticle = new Reticle();
-	p_reticle->draw();
+	//p_reticle->draw();
 
 	// Set attributes that control actions.
 	move_slowdown = 1;
@@ -81,13 +79,13 @@ Hero::Hero() {
 	setAcceleration(df::Vector(0, 2));
 
 	//Set up weapons
-	Weapon *ak47 = new Weapon("AK47", this, 8, 3, 30, 90, 8, false, 0, 0, 2.5f);
+	Weapon *ak47 = new Weapon("AK47", WeaponType::RIFLE, this, 10, 3, 30, 90, 8, false, 0, 0, 2.5f);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", this, 15, 40, 10, 30, 20, false, 0, 0, 3.6f);
+	Weapon *awp = new Weapon("AWP", WeaponType::SNIPER, this, 18, 40, 10, 30, 30, false, 0, 0, 3.6f);
 	weapon_list.insert(awp);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", this, 6, 30, 1, 30, 10, true, 0.2f, 20, 2.8f);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 6, 0, 1, 30, 10, true, 0.2f, 20, 1.5f);
 	weapon_list.insert(grenade_launcher);
 
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
@@ -98,6 +96,9 @@ Hero::Hero() {
 	weapon_view->setLocation(df::TOP_LEFT);
 	weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 	weapon_view->setColor(df::YELLOW);
+
+	// Create reticle for firing bullets and aiming.
+	p_reticle = new Reticle(this);
 }
 
 void Hero::setWalkingSprite() {

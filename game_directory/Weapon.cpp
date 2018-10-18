@@ -6,9 +6,11 @@
 #include "EventStep.h"
 #include "ResourceManager.h"
 #include "LogManager.h"
+#include "GameManager.h"
 
-Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration) {
+Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration) {
 	weapon_name = weaponName;
+	weapon_type = weaponType;
 	hero = owner;
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
@@ -24,7 +26,7 @@ Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRat
 	clock = new df::Clock;
 	reloading = false;
 	setType("Weapon");
-	
+
 	df::Sprite *p_temp_sprite = RM.getSprite("AK47");
 	if (!p_temp_sprite)
 		LM.writeLog("Weapon: Warning! Sprite '%s' not found", "AK47");
@@ -41,6 +43,25 @@ Weapon::Weapon(std::string weaponName, Hero* owner, int bulletSpeed, int fireRat
 
 	registerInterest(df::STEP_EVENT);
 
+	switch (weapon_type) {
+	case WeaponType::RIFLE:
+		inaccuracy = 0;
+		inaccuracy_spread = 0;
+		break;
+	case WeaponType::SNIPER:
+		inaccuracy = 0;
+		inaccuracy_spread = 3.5f;
+		break;
+	default:
+		inaccuracy = 0;
+		inaccuracy_spread = 0;
+		break;
+	}
+}
+
+df::Vector Weapon::calculateInaccurateTarget(df::Vector target) {
+	float inaccuracy_random_spread = -inaccuracy_spread + static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / (2 * inaccuracy_spread)));
+	return df::Vector(target.getX(), target.getY() + inaccuracy + inaccuracy_random_spread);
 }
 
 void Weapon::fire(df::Vector target) {
@@ -56,9 +77,13 @@ void Weapon::fire(df::Vector target) {
 	}
 	fire_count_down = fire_rate;
 	ammo_loaded--;
+	last_shot_frame = GM.getStepCount();
+
 	// Fire Bullet towards target.
-	// Compute normalized vector to position, then scale by speed (1).
-	df::Vector v = target - origin;
+	//Calculate the hit target based on inaccuracy
+	df::Vector actualTarget = calculateInaccurateTarget(target);
+	// Compute normalized vector to position, then scale by bullet speed.
+	df::Vector v = actualTarget - origin;
 	//df::Vector v = getDirection();
 	v.normalize();
 	v.scale(bullet_speed);
@@ -71,9 +96,22 @@ void Weapon::fire(df::Vector target) {
 	p_sound->play();
 	hero->getReticle()->expand();
 	//df::addParticles(30, 10, origin, 0.1f, df::Vector(0,0), 0.1f, 1.0f, 1.0f, 1.0f, 1.0f, 15, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)250, (unsigned char)200, (unsigned char)100);
+
+	//Increase inaccuracy for rifle
+	if (weapon_type == WeaponType::RIFLE) {
+		if (inaccuracy > -2.5) {
+			inaccuracy -= 0.5f;
+		}
+		inaccuracy_spread = 0.2f;
+	}
+
+	//Finally, if ammo clip is empty then try to reload
+	if (ammo_loaded == 0) {
+		reload();
+	}
 }
 
-int Weapon::eventHandler(const df::Event *p_e){
+int Weapon::eventHandler(const df::Event *p_e) {
 	if (p_e->getType() == df::STEP_EVENT) {
 		step();
 		return 1;
@@ -85,7 +123,7 @@ int Weapon::eventHandler(const df::Event *p_e){
 
 void Weapon::step() {
 	if (reloading) {
-		float time = (float)clock->split()/(float)1000000;
+		float time = (float)clock->split() / (float)1000000;
 		//if trying to reload and the reload time has passed
 		if (time >= reload_duration) {
 			//then fill up ammo from the backup ammo
@@ -99,12 +137,23 @@ void Weapon::step() {
 		}
 	}
 
+	if ((weapon_type == WeaponType::RIFLE) && (inaccuracy != 0))
+	{
+		if ((GM.getStepCount() - last_shot_frame) >= 9) {
+			inaccuracy = 0;
+			inaccuracy_spread = 0;
+		}
+		else {
+			inaccuracy += 0.05f;
+		}
+	}
+
 	// Fire countdown.
 	fire_count_down--;
 	if (fire_count_down < 0)
 		fire_count_down = 0;
 
-	setPosition(hero->getPosition() + df::Vector(3,1));
+	setPosition(hero->getPosition() + df::Vector(3, 1));
 }
 
 std::string Weapon::getWeaponName() {
@@ -149,4 +198,8 @@ int Weapon::getAmmoLoaded() {
 
 int Weapon::getAmmoBackup() {
 	return ammo_backup;
+}
+
+WeaponType Weapon::getWeaponType() {
+	return weapon_type;
 }
