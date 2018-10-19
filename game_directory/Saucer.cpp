@@ -34,6 +34,7 @@
 
 
 Saucer::Saucer(int maxHealth, int dmg, float radius) {
+	enemy_type = EnemyType::MINION;
 	max_health = maxHealth;
 	health = max_health;
     damage = dmg;
@@ -54,9 +55,6 @@ Saucer::Saucer(int maxHealth, int dmg, float radius) {
 	// Set object type.
 	setType("Saucer");
     bullet_sprite = RM.getSprite("AK47_bullet");
-
-	// Set speed in horizontal direction.
-	setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
 
 	// Move Saucer to start location.
 	moveToStart();
@@ -214,14 +212,17 @@ void Saucer::fire(){
 }
 
 void Saucer::step() {
-    // Fire countdown.
 
-    fire_count_down--;  
-    if (fire_count_down <= 0)
-    {
-        fire_count_down = 90;
-		fire();
-    }
+	//Only minions fire for now
+	if (enemy_type == EnemyType::MINION) {
+		// Fire countdown.
+		fire_count_down--;
+		if (fire_count_down <= 0)
+		{
+			fire_count_down = 90;
+			fire();
+		}
+	}
 }
 
 //void Saucer::draw() {
@@ -330,3 +331,10 @@ void Saucer::die() {
 	WM.markForDelete(this);
 }
 
+EnemyType Saucer::getEnemyType() {
+	return enemy_type;
+}
+
+void Saucer::setEnemyType(EnemyType enemyType) {
+	enemy_type = enemyType;
+}

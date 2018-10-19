@@ -2,7 +2,6 @@
 // Hero.cpp
 //
 #include <iostream>
-
 #include <stdio.h>
 
 // Engine includes.
@@ -241,6 +240,9 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 	case df::Keyboard::F:       // change weapon
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
 		{
+			if (getCurrentWeapon()->isScoping()) {
+				getCurrentWeapon()->toggleScope();
+			}
 			weapon_selector->next();
 			if (weapon_selector->isDone()) {
 				weapon_selector->first();

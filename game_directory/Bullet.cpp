@@ -149,6 +149,7 @@ void Bullet::step() {
 			df::Vector scaled(traveled.getX(), traveled.getY());
 			scaled.scale(i);
 			trail->setPosition(last_position + scaled);
+			trail->setVisible(isVisible());
 		}
 		last_position = current_pos;
 	}

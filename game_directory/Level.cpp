@@ -55,7 +55,8 @@ int Level::eventHandler(const df::Event *p_e) {
 			}
 		}
 		if (GM.getStepCount() % 60 == 0) {
-			//new Saucer(15, 5, 0);
+			Saucer saucer(15, 5, 0);
+			saucer.setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
 		}
 
 		return 1;

@@ -1,0 +1,27 @@
+12:19:31    0 ****************************************************
+12:19:31    0 ** Dragonfly version 4.4 **
+12:19:32    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 185 ms
+12:19:32    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+12:19:33   31 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+12:19:34   31 Fraps::Fraps(): Fraps module loaded.
+12:19:34   31 Pause::Pause(): Pause enabled.  Press any other key to resume.
+12:19:34    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+12:20:01  826 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+12:20:26 1586 Fraps::Fraps(): Fraps module unloaded
+12:20:26 1586 WorldManager::shutDown(): Successfully stopped.
+12:20:26 1586 ** Game stopped **
+12:20:26 1586 ****************************************************

@@ -16,7 +16,7 @@ Platform::Platform(df::Vector pos) {
 	else {
 		setSprite(p_temp_platform_sprite);
 	}
-
+	setCentered(true);
 	// Make the platforms hard.
 	setSolidness(df::HARD);
 	// Set other object properties.

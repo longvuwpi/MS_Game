@@ -5,8 +5,11 @@
 #include "Object.h"
 #include "EventCollision.h"
 
+enum EnemyType {MINION, BOSS, WEAKPOINT};
+
 class Saucer : public df::Object {
 private:
+	EnemyType enemy_type;
 	int max_health;
 	int health;
 	int damage;
@@ -27,4 +30,6 @@ public:
 	int eventHandler(const df::Event *p_e);
 	int getHealth();
 	void takeDamage(df::Vector at, int damage);
+	EnemyType getEnemyType();
+	void setEnemyType(EnemyType enemyType);
 };

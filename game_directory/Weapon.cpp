@@ -1,12 +1,18 @@
 #include "Weapon.h"
 #include "Bullet.h"
+#include "Saucer.h"
+#include "WeakPoint.h"
+#include "Boss.h"
+#include "Explosion.h"
 
+#include "WorldManager.h"
 #include "Particle.h"
 #include "utility.h"
 #include "EventStep.h"
 #include "ResourceManager.h"
 #include "LogManager.h"
 #include "GameManager.h"
+#include "EventMouse.h"
 
 Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration) {
 	weapon_name = weaponName;
@@ -14,7 +20,7 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	hero = owner;
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
-	fire_count_down = fireRate;
+	fire_count_down = 0;
 	ammo_loaded_max = ammoLoadedMax;
 	ammo_backup_max = ammoBackupMax;
 	refillAmmo();
@@ -25,6 +31,7 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	reload_duration = reloadDuration;
 	clock = new df::Clock;
 	reloading = false;
+	is_scoping = false;
 	setType("Weapon");
 
 	df::Sprite *p_temp_sprite = RM.getSprite("AK47");
@@ -42,6 +49,7 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 		LM.writeLog("bullet sprite not found");
 
 	registerInterest(df::STEP_EVENT);
+	registerInterest(df::MOUSE_EVENT);
 
 	switch (weapon_type) {
 	case WeaponType::RIFLE:
@@ -78,18 +86,84 @@ void Weapon::fire(df::Vector target) {
 	fire_count_down = fire_rate;
 	ammo_loaded--;
 	last_shot_frame = GM.getStepCount();
+	
+	//If scoping, deal instant damage at target, else fire Bullet towards target.
+	if (is_scoping) {
+		//Signify the shot by creating an explosion at target position
+		Explosion *p_explosion = new Explosion("explosion", 0);
+		p_explosion->setPosition(target);
+		// Play "explode" sound.
+		df::Sound *p_sound = RM.getSound("explode");
+		p_sound->play();
 
-	// Fire Bullet towards target.
-	//Calculate the hit target based on inaccuracy
-	df::Vector actualTarget = calculateInaccurateTarget(target);
-	// Compute normalized vector to position, then scale by bullet speed.
-	df::Vector v = actualTarget - origin;
-	//df::Vector v = getDirection();
-	v.normalize();
-	v.scale(bullet_speed);
-	printf("bullet velocity %f,%f\n", v.getX(), v.getY());
-	Bullet *p = new Bullet(origin, bullet_sprite, this);
-	p->setVelocity(v);
+		df::ObjectList objects_at_target = WM.objectsAtPosition(target);
+		bool hit = false;
+		df::ObjectListIterator li(&objects_at_target);
+
+		//Prioritize hitting Minions first, then Boss weakpoints, then boss body
+
+		//See if hitting minions
+		li.first();
+		while (!li.isDone()) {
+			if (li.currentObject()->getType() == "Saucer") {
+				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::MINION) {
+					hit = true;
+					dynamic_cast <Saucer *> (li.currentObject())->takeDamage(target, damage);
+					break;
+				}
+				else {
+					li.next();
+				}
+			}
+		}
+
+		//If didn't hit, see if hitting Weakpoints
+		if (!hit) {
+			li.first();
+			while (!li.isDone()) {
+				if (li.currentObject()->getType() == "Saucer") {
+					if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::WEAKPOINT) {
+						hit = true;
+						dynamic_cast <WeakPoint *> (li.currentObject())->takeDamage(target, damage);
+						break;
+					}
+					else {
+						li.next();
+					}
+				}
+			}
+		}
+
+		//If didn't hit, see if hitting Boss body
+		if (!hit) {
+			li.first();
+			while (!li.isDone()) {
+				if (li.currentObject()->getType() == "Saucer") {
+					if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::BOSS) {
+						hit = true;
+						dynamic_cast <Boss *> (li.currentObject())->takeDamage(target, damage);
+						break;
+					}
+					else {
+						li.next();
+					}
+				}
+			}
+		}
+
+	}
+	else {
+		//Calculate the hit target based on inaccuracy
+		df::Vector actualTarget = calculateInaccurateTarget(target);
+		// Compute normalized vector to position, then scale by bullet speed.
+		df::Vector v = actualTarget - origin;
+		//df::Vector v = getDirection();
+		v.normalize();
+		v.scale(bullet_speed);
+		printf("bullet velocity %f,%f\n", v.getX(), v.getY());
+		Bullet *p = new Bullet(origin, bullet_sprite, this);
+		p->setVelocity(v);
+	}
 
 	// Play "fire" sound.
 	df::Sound *p_sound = df::ResourceManager::getInstance().getSound(weapon_name + "_fire");
@@ -117,8 +191,33 @@ int Weapon::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
+	if (p_e->getType() == df::MOUSE_EVENT) {
+		const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
+		if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+			(p_mouse_event->getMouseButton() == df::Mouse::RIGHT)) {
+			toggleScope();
+		}
+
+	}
+
 	// If get here, have ignored this event.
 	return 0;
+}
+
+void Weapon::toggleScope() {
+	if ((hero->getCurrentWeapon()->getWeaponType() == WeaponType::SNIPER) && (!is_scoping)) {
+		is_scoping = true;
+	}
+	else {
+		is_scoping = false;
+		df::ObjectList list_in_window = WM.getAllObjects();
+		df::ObjectListIterator li(&list_in_window);
+		li.first();
+		while (!li.isDone()) {
+			li.currentObject()->setVisible(true);
+			li.next();
+		}
+	}
 }
 
 void Weapon::step() {
@@ -202,4 +301,8 @@ int Weapon::getAmmoBackup() {
 
 WeaponType Weapon::getWeaponType() {
 	return weapon_type;
+}
+
+bool Weapon::isScoping() {
+	return is_scoping;
 }

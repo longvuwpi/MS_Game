@@ -54,6 +54,8 @@ int AmmoRefill::eventHandler(const df::Event *p_e) {
 }
 
 void AmmoRefill::draw() {
-	df::Object::draw();
-	DM.drawString(getPosition() - df::Vector(0, 1 + (getSprite()->getHeight()/2)) - df::Vector(0, sin((float)GM.getStepCount()/5)/2), "Press E", df::CENTER_JUSTIFIED, df::GREEN);
+	if (isVisible()) {
+		df::Object::draw();
+		DM.drawString(getPosition() - df::Vector(0, 1 + (getSprite()->getHeight() / 2)) - df::Vector(0, sin((float)GM.getStepCount() / 5) / 2), "Press E", df::CENTER_JUSTIFIED, df::GREEN);
+	}
 }

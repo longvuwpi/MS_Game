@@ -25,6 +25,7 @@ private:
 	int last_shot_frame; //the frame number that the last shot was fired
 	bool bullet_affected_by_gravity;
 	bool reloading; //is the gun reloading
+	bool is_scoping;
 	float bullet_weight;
 	float bullet_radius_of_effect;
 	float reload_duration;
@@ -41,11 +42,13 @@ public:
 	int eventHandler(const df::Event *p_e);
 	std::string getWeaponName();
 	bool getBulletAffectedByGravity();
+	bool isScoping();
 	float getBulletWeight();
 	float getBulletRadiusOfEffect();
 	int getDamage();
 	void reload();
 	void refillAmmo();
+	void toggleScope();
 	int getAmmoLoaded();
 	int getAmmoBackup();
 	WeaponType getWeaponType();

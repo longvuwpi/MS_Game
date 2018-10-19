@@ -13,7 +13,7 @@ class Hero;
 
 class Reticle : public df::Object {
 private:
-	float expandSize;
+	float expand_size;
 	Hero *hero;
  public:
   Reticle(Hero* owner);
