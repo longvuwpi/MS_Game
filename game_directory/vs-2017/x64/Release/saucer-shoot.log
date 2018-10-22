@@ -1,9 +1,9 @@
-﻿  Weapon.cpp
-c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  Boss.cpp
+  WeakPoint.cpp
   Generating code
-  3 of 683 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  5 of 771 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    20 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
 libdragonfly-x64-release.lib(Circle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Circle.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info

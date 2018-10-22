@@ -77,6 +77,9 @@
     <ClCompile Include="..\WeakPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\EventBossTookDamage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Bullet.h">
@@ -137,6 +140,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\WeakPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventBossTookDamage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

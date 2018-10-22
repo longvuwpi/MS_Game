@@ -14,6 +14,8 @@
 // Game includes.
 #include "Bullet.h"
 #include "Saucer.h"
+#include "WeakPoint.h"
+#include "Boss.h"
 #include "EventNuke.h"
 #include "Explosion.h"
 #include "BulletTrail.h"
@@ -31,6 +33,7 @@ Bullet::Bullet(df::Vector bullet_pos, df::Sprite *sprite, Weapon *weapon) {
 	wasHit = false;
 	damage = weapon->getDamage();
 	radius_of_effect = weapon->getBulletRadiusOfEffect();
+	shot_from_weapon = weapon;
 
 	// Set other object properties.
 	setType("Bullet");
@@ -62,7 +65,7 @@ Bullet::Bullet(df::Vector bullet_pos, df::Sprite * sprite, int dmg, float radius
 	wasHit = false;
 	damage = dmg;
 	radius_of_effect = radius;
-
+	shot_from_weapon = NULL;
 	// Set other object properties.
 	setType("Bullet");
 
@@ -123,11 +126,26 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 			else if (type2 == "Hero") {
 				dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
 			}
-			else if (type1 == "Saucer") {
-				dynamic_cast <Saucer *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), damage);
-			}
-			else if (type2 == "Saucer") {
-				dynamic_cast <Saucer *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
+			else {
+				//Saucer *saucer_hit;
+				//if (type1 == "Saucer") {
+				//	saucer_hit = dynamic_cast <Saucer *> (p_collision_event->getObject1());
+				//}
+				//else {
+				//	saucer_hit = dynamic_cast <Saucer *> (p_collision_event->getObject2());
+				//}
+				//switch (saucer_hit->getEnemyType()) {
+				//case EnemyType::MINION:
+				//	saucer_hit->takeDamage(p_collision_event->getPosition(), damage);
+				//	break;
+				//case EnemyType::BOSS:
+				//	dynamic_cast <Boss *> (saucer_hit)->takeDamage(p_collision_event->getPosition(), damage);
+				//	break;
+				//case EnemyType::WEAKPOINT:
+				//	dynamic_cast <WeakPoint *> (saucer_hit)->takeDamage(p_collision_event->getPosition(), damage);
+				//	break;
+				//}
+				shot_from_weapon->dealDamageAt(p_collision_event->getPosition());
 			}
 		}
 	}

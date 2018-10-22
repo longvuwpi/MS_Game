@@ -15,6 +15,7 @@ private:
 	df::Vector last_position;
 	float radius_of_effect;
 	int damage;
+	Weapon *shot_from_weapon;
 public:
 	bool wasHit;
 	Bullet(df::Vector start_pos, df::Sprite * sprite, Weapon * weapon);

@@ -49,6 +49,7 @@ public:
 	void reload();
 	void refillAmmo();
 	void toggleScope();
+	void dealDamageAt(df::Vector target);
 	int getAmmoLoaded();
 	int getAmmoBackup();
 	WeaponType getWeaponType();

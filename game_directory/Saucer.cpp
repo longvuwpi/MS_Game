@@ -212,6 +212,10 @@ void Saucer::fire(){
 }
 
 void Saucer::step() {
+	if (health <= 0) {
+		die();
+		return;
+	}
 
 	//Only minions fire for now
 	if (enemy_type == EnemyType::MINION) {
@@ -314,9 +318,6 @@ int Saucer::getHealth() {
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	new DamageIndicator(at, damage);
-	if (health <= 0) {
-		die();
-	}
 }
 
 void Saucer::die() {
@@ -332,6 +333,7 @@ void Saucer::die() {
 }
 
 EnemyType Saucer::getEnemyType() {
+	std::cout << "Enemy has health " << health << "\n";
 	return enemy_type;
 }
 

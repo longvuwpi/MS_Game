@@ -49,7 +49,6 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 		LM.writeLog("bullet sprite not found");
 
 	registerInterest(df::STEP_EVENT);
-	registerInterest(df::MOUSE_EVENT);
 
 	switch (weapon_type) {
 	case WeaponType::RIFLE:
@@ -72,6 +71,68 @@ df::Vector Weapon::calculateInaccurateTarget(df::Vector target) {
 	return df::Vector(target.getX(), target.getY() + inaccuracy + inaccuracy_random_spread);
 }
 
+//Deal damage at the target position
+//Prioritize hitting Minions first, then Boss weakpoints, then boss body
+//This is called when a sniper is fired in scope mode (dealing instant damage)
+//or a bullet just collided with an enemy at the target position
+void Weapon::dealDamageAt(df::Vector target) {
+	//Signify the shot by creating an explosion at target position
+	Explosion *p_explosion = new Explosion("explosion", 0);
+	p_explosion->setPosition(target);
+	// Play "explode" sound.
+	df::Sound *p_sound = RM.getSound("explode");
+	p_sound->play();
+
+	df::ObjectList objects_at_target = WM.objectsAtPosition(target);
+	bool hit = false;
+	df::ObjectListIterator li(&objects_at_target);
+	LM.writeLog("found %d objects at target\n", objects_at_target.getCount());
+
+	//See if hitting minions
+	li.first();
+	while (!li.isDone()) {
+		if (li.currentObject()->getType() == "Saucer") {
+			if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::MINION) {
+				hit = true;
+				dynamic_cast <Saucer *> (li.currentObject())->takeDamage(target, damage);
+				break;
+			}
+		}
+		li.next();
+	}
+
+	//If didn't hit, see if hitting Weakpoints
+	if (!hit) {
+		li.first();
+		while (!li.isDone()) {
+			if (li.currentObject()->getType() == "Saucer") {
+				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::WEAKPOINT) {
+					hit = true;
+					dynamic_cast <WeakPoint *> (li.currentObject())->takeDamage(target, damage);
+					break;
+				}
+			}
+			li.next();
+		}
+	}
+
+	//If didn't hit, see if hitting Boss body
+	if (!hit) {
+		li.first();
+		while (!li.isDone()) {
+			if (li.currentObject()->getType() == "Saucer") {
+				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::BOSS) {
+					hit = true;
+					dynamic_cast <Boss *> (li.currentObject())->takeDamage(target, damage);
+					break;
+				}
+			}
+			li.next();
+		}
+	}
+
+}
+
 void Weapon::fire(df::Vector target) {
 	df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
 	// See if time to fire.
@@ -89,68 +150,7 @@ void Weapon::fire(df::Vector target) {
 	
 	//If scoping, deal instant damage at target, else fire Bullet towards target.
 	if (is_scoping) {
-		//Signify the shot by creating an explosion at target position
-		Explosion *p_explosion = new Explosion("explosion", 0);
-		p_explosion->setPosition(target);
-		// Play "explode" sound.
-		df::Sound *p_sound = RM.getSound("explode");
-		p_sound->play();
-
-		df::ObjectList objects_at_target = WM.objectsAtPosition(target);
-		bool hit = false;
-		df::ObjectListIterator li(&objects_at_target);
-
-		//Prioritize hitting Minions first, then Boss weakpoints, then boss body
-
-		//See if hitting minions
-		li.first();
-		while (!li.isDone()) {
-			if (li.currentObject()->getType() == "Saucer") {
-				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::MINION) {
-					hit = true;
-					dynamic_cast <Saucer *> (li.currentObject())->takeDamage(target, damage);
-					break;
-				}
-				else {
-					li.next();
-				}
-			}
-		}
-
-		//If didn't hit, see if hitting Weakpoints
-		if (!hit) {
-			li.first();
-			while (!li.isDone()) {
-				if (li.currentObject()->getType() == "Saucer") {
-					if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::WEAKPOINT) {
-						hit = true;
-						dynamic_cast <WeakPoint *> (li.currentObject())->takeDamage(target, damage);
-						break;
-					}
-					else {
-						li.next();
-					}
-				}
-			}
-		}
-
-		//If didn't hit, see if hitting Boss body
-		if (!hit) {
-			li.first();
-			while (!li.isDone()) {
-				if (li.currentObject()->getType() == "Saucer") {
-					if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::BOSS) {
-						hit = true;
-						dynamic_cast <Boss *> (li.currentObject())->takeDamage(target, damage);
-						break;
-					}
-					else {
-						li.next();
-					}
-				}
-			}
-		}
-
+		dealDamageAt(target);
 	}
 	else {
 		//Calculate the hit target based on inaccuracy
@@ -191,21 +191,12 @@ int Weapon::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
-	if (p_e->getType() == df::MOUSE_EVENT) {
-		const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
-		if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
-			(p_mouse_event->getMouseButton() == df::Mouse::RIGHT)) {
-			toggleScope();
-		}
-
-	}
-
 	// If get here, have ignored this event.
 	return 0;
 }
 
 void Weapon::toggleScope() {
-	if ((hero->getCurrentWeapon()->getWeaponType() == WeaponType::SNIPER) && (!is_scoping)) {
+	if ((weapon_type == WeaponType::SNIPER) && (!is_scoping)) {
 		is_scoping = true;
 	}
 	else {

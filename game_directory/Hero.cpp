@@ -194,8 +194,12 @@ void Hero::landedOn(Platform *platform) {
 void Hero::mouse(const df::EventMouse *p_mouse_event) {
 	// Pressed button?
 	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
-		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
+		(p_mouse_event->getMouseButton() == df::Mouse::LEFT)) {
 		fire(p_reticle->getPosition());
+	} else if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+		(p_mouse_event->getMouseButton() == df::Mouse::RIGHT)) {
+		getCurrentWeapon()->toggleScope();
+	}
 }
 
 // Take appropriate action according to key pressed.
