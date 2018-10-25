@@ -68,6 +68,7 @@ Saucer::~Saucer() {
 
 	// Send "view" event with points to interested ViewObjects.
 	// Add 10 points.
+	LM.writeLog("saucer health is %d", health);
 	df::EventView ev(POINTS_STRING, 10, true);
 	WM.onEvent(&ev);
 }
@@ -115,7 +116,7 @@ int Saucer::eventHandler(const df::Event *p_e) {
 void Saucer::out() {
 
 	// If haven't moved off left edge, then nothing to do.
-	if (getPosition().getX() >= 0)
+	if ((getPosition().getY() >= 0) && (getPosition().getY() <= WM.getView().getVertical()))
 		return;
 
 	// Otherwise, move back to far right.
@@ -131,7 +132,7 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 	// If Hero, mark both objects for destruction.
 	if ((type1 == "Hero") ||
 		(type2 == "Hero")) {
-		WM.markForDelete(this);
+		die();
 		if (type1 == "Hero") {
 			dynamic_cast <Hero *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), health);
 		}
@@ -139,46 +140,28 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 			dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), health);
 		}
 	}
-	
-	//If Platform, move avoid it
-	//df::Vector temp_pos;
-	//
-	//// Get world boundaries.
-	//int world_horiz = (int)WM.getView().getHorizontal();
-	//int world_vert = (int)WM.getView().getVertical();
-	//
-	//temp_pos.setY(world_vert - 10.0f);
-	//
-	//temp_pos.setX(world_horiz + 5.0f);
-	//
-	//if ((p_collision_event->getObject1()->getType() == "Platform")||
-	//   	(p_collision_event->getObject2()->getType() == "Platform")) {
-	//	
-	//	//Move it to avoid collide with platform
-	//	WM.moveObject(this, temp_pos);	
-	//}
-
 
 }
 
 // Move Saucer to starting location on right side of window.
 void Saucer::moveToStart() {
 	df::Vector temp_pos;
+	df::Vector view_corner = WM.getView().getCorner();
 
 	// Get world boundaries.
 	int world_horiz = (int)WM.getView().getHorizontal();
 	int world_vert = (int)WM.getView().getVertical();
 
 	// x is off right side of window.
-	temp_pos.setX(world_horiz + rand() % (int)world_horiz);
-
+	//temp_pos.setX(world_horiz + rand() % (int)world_horiz);
+	temp_pos.setX(view_corner.getX() + world_horiz - 10);
 	// y is in vertical range.
 	temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
 
-	// If collision, move right slightly until empty space.
+	// If collision, move down slightly until empty space.
 	df::ObjectList collision_list = WM.isCollision(this, temp_pos);
 	while (!collision_list.isEmpty()) {
-		temp_pos.setX(temp_pos.getX() + 1);
+		temp_pos.setY(temp_pos.getY() + 1);
 		collision_list = WM.isCollision(this, temp_pos);
 	}
 
@@ -306,8 +289,8 @@ void Saucer::step() {
 //			setSpriteSlowdownCount(getSpriteSlowdownCount() + 1);
 //	}
 //
-//	return;
 //
+//	return;
 //}
 
 
@@ -328,7 +311,6 @@ void Saucer::die() {
 	df::Sound *p_sound = RM.getSound("explode");
 	p_sound->play();
 
-	// Saucers appear stay around perpetually.
 	WM.markForDelete(this);
 }
 

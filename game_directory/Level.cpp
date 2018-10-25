@@ -33,10 +33,10 @@ void Level::start() {
 	AmmoRefill* ammo_refill = new AmmoRefill();
 	ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_refill->getSprite()->getHeight() / 2)));
 
-	Boss* boss = new Boss(1100);
-	boss->setPosition(df::Vector(300, 35));
-	boss->createWeakPoint(df::Vector(-8, -10), 5, 500);
-	boss->createWeakPoint(df::Vector(10, -9), 5, 500);
+	//Boss* boss = new Boss(1100);
+	//boss->setPosition(df::Vector(300, 35));
+	//boss->createWeakPoint(df::Vector(-8, -10), 5, 500);
+	//boss->createWeakPoint(df::Vector(10, -9), 5, 500);
 
 	// setup world and view boundaries
 	int world_horiz, world_vert;
@@ -61,8 +61,8 @@ int Level::eventHandler(const df::Event *p_e) {
 			}
 		}
 		if (GM.getStepCount() % 60 == 0) {
-			//Saucer saucer(15, 5, 0);
-			//saucer.setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
+			Saucer *saucer = new Saucer(15, 5, 0);
+			saucer->setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
 		}
 
 		return 1;

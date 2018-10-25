@@ -145,7 +145,7 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 				//	dynamic_cast <WeakPoint *> (saucer_hit)->takeDamage(p_collision_event->getPosition(), damage);
 				//	break;
 				//}
-				shot_from_weapon->dealDamageAt(p_collision_event->getPosition());
+				shot_from_weapon->dealDamageAt(p_collision_event->getPosition(), false);
 			}
 		}
 	}

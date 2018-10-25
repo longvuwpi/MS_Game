@@ -78,7 +78,7 @@ void Reticle::draw() {
 		DM.drawCh(getPosition() + df::Vector(2 + expand_size, -1.5 - expand_size), '/', df::GREEN);
 		break;
 	case WeaponType::SNIPER:
-		if (hero->getCurrentWeapon()->isScoping()) {
+		if ((hero->getCurrentWeapon()->isScoping()) && (hero->getCurrentWeapon()->canShoot())) {
 
 			df::Vector pixel_pos = df::spacesToPixels(df::worldToView(getPosition()));
 			int pixel_scope_radius = 300;
@@ -142,40 +142,22 @@ void Reticle::draw() {
 					}
 				}
 			}
-
-
-			//for (int i = -scope_radius * 2; i <= scope_radius * 2; i++) {
-			//	for (int j = -scope_radius; j <= scope_radius; j++) {
-			//		df::Vector space_current(i, j);
-			//		df::Vector pixel_current = df::spacesToPixels(df::worldToView(getPosition() + space_current));
-			//		df::Vector current = pixel_current - pixel_pos;
-
-			//		if ((int)current.getMagnitude() > pixel_scope_radius) {
-			//			DM.drawCh(getPosition() + space_current, ' ', df::GREEN);
-			//		}
-			//		else
-			//			if (((int)current.getMagnitude() == pixel_scope_radius) || ((int)space_current.getMagnitude() == (int)scope_radius)) {
-			//				DM.drawCh(getPosition() + space_current, '*', df::GREEN);
-			//			}
-			//			else {
-			//				if ((i == 0) && (j == 0)) {
-			//					DM.drawCh(getPosition() + space_current, '+', df::GREEN);
-			//				}
-			//				else if (i == 0) {
-			//					DM.drawCh(getPosition() + space_current, '|', df::GREEN);
-			//				}
-			//				else if (j == 0) {
-			//					DM.drawCh(getPosition() + space_current + df::Vector(0, -0.3f), '_', df::GREEN);
-			//				}
-			//			}
-			//	}
-			//}
 		}
 		else {
-			DM.drawCh(getPosition() + df::Vector(0, -2.7) + df::Vector(0, -expand_size), '|', df::GREEN);
-			DM.drawCh(getPosition() + df::Vector(0, 2.9) + df::Vector(0, expand_size), '|', df::GREEN);
-			DM.drawCh(getPosition() + df::Vector(-3.4f, -0.3f) + df::Vector(-expand_size, 0), '_', df::GREEN);
-			DM.drawCh(getPosition() + df::Vector(3.4f, -0.3f) + df::Vector(expand_size, 0), '_', df::GREEN);
+			df::ObjectList list_in_window = WM.getAllObjects();
+			df::ObjectListIterator li(&list_in_window);
+			li.first();
+			while (!li.isDone()) {
+				if (li.currentObject()->getType() != "Weapon") {
+					li.currentObject()->setVisible(true);
+				}
+				li.next();
+			}
+			hero->getCurrentWeapon()->setVisible(true);
+			DM.drawCh(getPosition() + df::Vector(0, -4.7) + df::Vector(0, -expand_size), '|', df::GREEN);
+			DM.drawCh(getPosition() + df::Vector(0, 4.9) + df::Vector(0, expand_size), '|', df::GREEN);
+			DM.drawCh(getPosition() + df::Vector(-5.4f, -0.3f) + df::Vector(-expand_size, 0), '_', df::GREEN);
+			DM.drawCh(getPosition() + df::Vector(5.4f, -0.3f) + df::Vector(expand_size, 0), '_', df::GREEN);
 		}
 		break;
 	default:

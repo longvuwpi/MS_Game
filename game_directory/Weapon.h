@@ -31,6 +31,8 @@ private:
 	float reload_duration;
 	float inaccuracy;
 	float inaccuracy_spread;
+	float recoil;
+	float shot_recoil;
 	df::Sprite *bullet_sprite;
 	df::Clock *clock;
 	Hero *hero;
@@ -43,13 +45,14 @@ public:
 	std::string getWeaponName();
 	bool getBulletAffectedByGravity();
 	bool isScoping();
+	bool canShoot();
 	float getBulletWeight();
 	float getBulletRadiusOfEffect();
 	int getDamage();
 	void reload();
 	void refillAmmo();
 	void toggleScope();
-	void dealDamageAt(df::Vector target);
+	void dealDamageAt(df::Vector target, bool drawTrail);
 	int getAmmoLoaded();
 	int getAmmoBackup();
 	WeaponType getWeaponType();
