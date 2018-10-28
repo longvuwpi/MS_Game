@@ -33,11 +33,14 @@ void Level::start() {
 	AmmoRefill* ammo_refill = new AmmoRefill();
 	ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_refill->getSprite()->getHeight() / 2)));
 
-	Boss* boss = new Boss(1100);
+	/*Boss* boss = new Boss(1100);
 	boss->setPosition(df::Vector(300, 35));
 	boss->createWeakPoint(df::Vector(-8, -10), 5, 500);
-	boss->createWeakPoint(df::Vector(10, -9), 5, 500);
+	boss->createWeakPoint(df::Vector(10, -9), 5, 500);*/
 
+    Saucer* saucer = new Saucer(15, 5, 0);
+    saucer->setPosition(df::Vector(200, 35));
+    //saucer->setPosition(df::Vector(100, 35));
 	// setup world and view boundaries
 	int world_horiz, world_vert;
 	world_horiz = DM.getHorizontal() * 10;

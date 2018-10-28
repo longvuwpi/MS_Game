@@ -9,6 +9,8 @@ enum EnemyType {MINION, BOSS, WEAKPOINT};
 
 class Saucer : public df::Object {
 private:
+    //Hero * hero;
+    //Saucer * saucer;
 	EnemyType enemy_type;
 	int max_health;
 	int damage;
@@ -19,6 +21,8 @@ private:
 	void hit(const df::EventCollision *p_collision_event);
 	df::Sprite *bullet_sprite;
 	void fire();
+    void move();
+
 protected:
 	int health;	
 	void step();
@@ -32,4 +36,5 @@ public:
 	virtual void takeDamage(df::Vector at, int damage);
 	EnemyType getEnemyType();
 	void setEnemyType(EnemyType enemyType);
+   
 };

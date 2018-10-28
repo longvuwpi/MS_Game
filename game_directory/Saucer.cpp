@@ -8,6 +8,7 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <iostream>
 #include <stdio.h>
+#include <math.h>
 // Engine includes.
 #include "EventCollision.h"
 #include "EventNuke.h"
@@ -15,6 +16,7 @@
 #include "EventView.h"
 #include "LogManager.h"
 #include "ResourceManager.h"
+#include "GameManager.h"
 #include "WorldManager.h"
 #include "utility.h"
 #include "DisplayManager.h"
@@ -40,6 +42,7 @@ Saucer::Saucer(int maxHealth, int dmg, float radius) {
     damage = dmg;
     bullet_radius = radius;
     fire_count_down = 30;
+
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
     
@@ -55,9 +58,12 @@ Saucer::Saucer(int maxHealth, int dmg, float radius) {
 	// Set object type.
 	setType("Saucer");
     bullet_sprite = RM.getSprite("AK47_bullet");
+    //setVelocity(df::Vector(-1, 0));
+    //setYVelocity(0.8/(random()%10 + 1));
 
 	// Move Saucer to start location.
 	moveToStart();
+ 
 	// Register interest in "nuke" event.
 	registerInterest(NUKE_EVENT);
     registerInterest(df::STEP_EVENT);
@@ -104,6 +110,7 @@ int Saucer::eventHandler(const df::Event *p_e) {
 
     if (p_e->getType() == df::STEP_EVENT) {
         step();
+        move();
         return 1;
     }
 
@@ -183,6 +190,7 @@ void Saucer::moveToStart() {
 	}
 
 	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
+    
 }
 
 void Saucer::fire(){
@@ -195,7 +203,7 @@ void Saucer::fire(){
 		li.first();
 		df::Vector hero_pos = li.currentObject()->getPosition();
 
-		std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
+		//std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
 
 		df::Vector origin = getPosition();
 
@@ -227,7 +235,57 @@ void Saucer::step() {
 			fire();
 		}
 	}
+
+    /*if (){
+        move();
+    }*/
+
+
 }
+
+void Saucer::move() {
+
+            df::Vector saucerPos = getPosition();
+            std::cout << "saucer pos: (" << saucerPos.getX() << "," << saucerPos.getY() << ")\n";
+
+            df::ObjectList object_list= WM.objectsOfType("Hero");
+            if (object_list.getCount() > 0) {
+            df::ObjectListIterator li(&object_list);
+            li.first();
+            df::Vector hero_pos = li.currentObject()->getPosition();
+                if(hero_pos.getX() >= saucerPos.getX() - 50){
+            /*return;
+
+                float x_velocity;
+                float y_velocity;
+
+            int x_distance = heroPos.getX() - saucerPos.getX();
+            int y_distance = heroPos.getY() - saucerPos.getY();*/
+
+                float x_velocity;
+                float y_velocity;
+
+                int x_distance = hero_pos.getX() - saucerPos.getX();
+                int y_distance = hero_pos.getY() - saucerPos.getY();
+
+                float magnitude = pow((pow(x_distance, 2) + pow(y_distance, 2)), 0.5);
+                x_velocity = ((float)x_distance) / magnitude;
+                y_velocity = ((float)y_distance) / magnitude;
+
+                setVelocity(df::Vector(x_velocity * 0.5 - 1, 0 + y_velocity * 0.5));
+            //setYVelocity(y_velocity * 0.5);
+
+      
+                }
+                else{
+                    setVelocity(df::Vector(0,0));
+                }
+            }
+
+
+
+}
+
 
 //void Saucer::draw() {
 //	sf::RenderWindow *m_p_window = DM.getWindow();

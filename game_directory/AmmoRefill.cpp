@@ -1,6 +1,7 @@
 //
 #include <iostream>
 #include <stdio.h>
+#include <math.h>
 
 #include "AmmoRefill.h"
 #include "Hero.h"
