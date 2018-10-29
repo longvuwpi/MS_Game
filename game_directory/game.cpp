@@ -84,9 +84,11 @@ void loadResources(void) {
   RM.loadSound("sounds/grenade_fire.wav", "GrenadeLauncher_fire");
   //ammo sounds
   RM.loadSound("sounds/ammo_empty.wav", "ammo_empty");
-  RM.loadSound("sounds/ammo_reload.wav", "ammo_reload");
-  RM.loadSound("sounds/launcher_reload.wav", "launcher_reload");
-  //AWP
+  RM.loadSound("sounds/ak47_reload.wav", "AK47_reload");
+  RM.loadSound("sounds/awp_reload.wav", "AWP_reload");
+  RM.loadSound("sounds/launcher_reload.wav", "GrenadeLauncher_reload");
+
+  //AWP bolt
   RM.loadSound("sounds/awp_bolt.wav", "awp_bolt");
 
   //pickup sounds

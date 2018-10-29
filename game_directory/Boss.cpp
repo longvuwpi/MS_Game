@@ -30,10 +30,10 @@ int Boss::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
-	if (p_e->getType() == df::STEP_EVENT) {
-		Boss::step();
-		return 1;
-	}
+	//if (p_e->getType() == df::STEP_EVENT) {
+	//	Boss::step();
+	//	return 1;
+	//}
 
 	return 0;
 }
@@ -55,6 +55,7 @@ void Boss::createWeakPoint(df::Vector relative_position, int damage_multiplier, 
 }
 
 void Boss::step() {
+	Saucer::step();
 	df::ObjectListIterator li(&weakpoint_list);
 	df::ObjectList to_remove;
 	li.first();

@@ -8,7 +8,7 @@ class WeakPoint;
 class Boss : public Saucer {
 private:
 	df::ObjectList weakpoint_list;
-	void step();
+	void step() override;
 public:
 	//no parameters for now
 	Boss(int health);

@@ -81,7 +81,7 @@ Hero::Hero() {
 	Weapon *ak47 = new Weapon("AK47", WeaponType::RIFLE, this, 10, 3, 30, 90, 8, false, 0, 0, 2.5f);
 	weapon_list.insert(ak47);
 
-	Weapon *awp = new Weapon("AWP", WeaponType::SNIPER, this, 18, 40, 10, 30, 30, false, 0, 0, 3.6f);
+	Weapon *awp = new Weapon("AWP", WeaponType::SNIPER, this, 18, 40, 10, 30, 30, false, 0, 0, 2.5f);
 	weapon_list.insert(awp);
 	awp->setVisible(false);
 

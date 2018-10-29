@@ -23,6 +23,7 @@
 #include "Config.h"
 #include "ObjectListIterator.h"
 #include "EventStep.h"
+#include "GameManager.h"
 
 // Game includes.
 #include "Explosion.h"
@@ -33,12 +34,14 @@
 #include "DamageIndicator.h"
 
 
-Saucer::Saucer(int maxHealth, int dmg, float radius) {
+Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType) {
 	enemy_type = EnemyType::MINION;
 	max_health = maxHealth;
 	health = max_health;
     damage = dmg;
     bullet_radius = radius;
+	movement_type = movementType;
+
     fire_count_down = 30;
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
@@ -65,10 +68,8 @@ Saucer::Saucer(int maxHealth, int dmg, float radius) {
 }
 
 Saucer::~Saucer() {
-
 	// Send "view" event with points to interested ViewObjects.
 	// Add 10 points.
-	LM.writeLog("saucer health is %d", health);
 	df::EventView ev(POINTS_STRING, 10, true);
 	WM.onEvent(&ev);
 }
@@ -166,6 +167,8 @@ void Saucer::moveToStart() {
 	}
 
 	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
+	move_to_start_frame = GM.getStepCount();
+	move_to_start_pos = getPosition();
 }
 
 void Saucer::fire(){
@@ -210,8 +213,27 @@ void Saucer::step() {
 			fire();
 		}
 	}
+
+	move();
 }
 
+void Saucer::move() {
+	switch (movement_type) {
+	case 1:
+	{
+		LM.writeLog("Saucer moving");
+		float delta_x = sin(GM.getStepCount()*5*3.14159265 / 180)*15 - (GM.getStepCount() - move_to_start_frame)*(0.2);
+		float delta_y = sin((90 - GM.getStepCount()*5)*3.14159265 / 180)*6;
+		setPosition(move_to_start_pos + df::Vector(delta_x, delta_y));
+		std::cout << "Saucer Pos: " << delta_x << "," << delta_y << "\n";
+		break;
+	}
+	default:
+		break;
+	}
+
+	return;
+}
 //void Saucer::draw() {
 //	sf::RenderWindow *m_p_window = DM.getWindow();
 //	sf::RectangleShape *m_p_rectangle = new sf::RectangleShape(sf::Vector2f(df::charWidth(),
@@ -304,10 +326,14 @@ void Saucer::takeDamage(df::Vector at, int damage) {
 }
 
 void Saucer::die() {
-	Explosion *p_explosion = new Explosion("explosion", 0);
-	p_explosion->setPosition(this->getPosition());
-
-	// Play "explode" sound.
+	//Explosion *p_explosion = new Explosion("explosion", 0);
+	//p_explosion->setPosition(this->getPosition());
+	//df::addParticles(df::ParticleType::SPARKS, getPosition(), 2.0, df::YELLOW);
+	//df::addParticles(df::ParticleType::SPARKS, getPosition(), 1.0, df::RED);
+	//df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)250, (unsigned char)200, (unsigned char)100);
+	df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 1), 1.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)0, (unsigned char)0, (unsigned char)100);
+	
+	//Play "explode" sound.
 	df::Sound *p_sound = RM.getSound("explode");
 	p_sound->play();
 
