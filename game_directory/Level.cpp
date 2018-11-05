@@ -38,10 +38,11 @@ void Level::start() {
     HealthPick* health_pick = new HealthPick();
     health_pick->setPosition(df::Vector(263, 65) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (health_pick->getSprite()->getHeight() / 2)));
 
-	/*Boss* boss = new Boss(1100);
-	boss->setPosition(df::Vector(300, 35));
-	boss->createWeakPoint(df::Vector(-8, -10), 5, 500);
-	boss->createWeakPoint(df::Vector(10, -9), 5, 500);*/
+	//Boss* boss = new Boss(1100);
+	//boss->setPosition(df::Vector(300, 35));
+	//boss->createWeakPoint(df::Vector(-8, -10), 5, 500);
+	//boss->createWeakPoint(df::Vector(10, -9), 5, 500);
+
        
     Saucer* saucer = new Saucer(15, 5, 0);
     saucer->setPosition(df::Vector(200, 35));
@@ -56,7 +57,6 @@ void Level::start() {
 	WM.setBoundary(boundary);
 	df::Box window_boundary(world_corner, (float)window_horiz, (float)world_vert);
 	WM.setView(window_boundary);
-
 }
 
 int Level::eventHandler(const df::Event *p_e) {
@@ -69,7 +69,7 @@ int Level::eventHandler(const df::Event *p_e) {
 			}
 		}
 		if (GM.getStepCount() % 60 == 0) {
-			Saucer *saucer = new Saucer(15, 5, 0);
+			Saucer *saucer = new Saucer(15, 5, 0,1);
 			saucer->setVelocity(df::Vector(-1, 0)); // 1 space left every 4 frames
 		}
 

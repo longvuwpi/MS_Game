@@ -110,6 +110,7 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 		if (!wasHit) {
 			//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
 			if (radius_of_effect > 0) {
+				df::addParticles(50, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 5.0f, 2.5f, 1.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)100, df::ParticleClass::FIREWORK);
 				Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
 				p_explosion->setPosition(getPosition());
 				EventNuke nuke(getPosition(), radius_of_effect, getDamage());

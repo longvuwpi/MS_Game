@@ -201,7 +201,9 @@ void Weapon::fire(df::Vector target) {
 	df::Sound *p_sound = df::ResourceManager::getInstance().getSound(weapon_name + "_fire");
 	p_sound->play();
 	hero->getReticle()->expand();
-	//df::addParticles(30, 10, origin, 0.1f, df::Vector(0,0), 0.1f, 1.0f, 1.0f, 1.0f, 1.0f, 15, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)250, (unsigned char)200, (unsigned char)100);
+	df::Vector direction = (target - origin);
+	direction.normalize();
+	df::addParticles(60, 10, origin+df::Vector(0,0.3f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
 
 	//Increase inaccuracy for rifle
 	if (weapon_type == WeaponType::RIFLE) {
@@ -313,12 +315,7 @@ void Weapon::reload() {
 	if (reloading || (ammo_loaded == ammo_loaded_max) || (ammo_backup == 0)) {
 		return;
 	}
-	if (weapon_type == WeaponType::LAUNCHER) {
-		RM.getSound("launcher_reload")->play();
-	}
-	else {
-		RM.getSound("ammo_reload")->play();
-	}
+	RM.getSound(weapon_name + "_reload")->play();
 	reloading = true;
 	clock->delta();
 }

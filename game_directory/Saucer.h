@@ -15,20 +15,24 @@ private:
 	int max_health;
 	int damage;
 	int fire_count_down;
+	int movement_type;
+	int move_to_start_frame;
+	df::Vector move_to_start_pos;
 	float bullet_radius;
 	void moveToStart();
 	void out();
 	void hit(const df::EventCollision *p_collision_event);
 	df::Sprite *bullet_sprite;
 	void fire();
-    void move();
+    //void move();
 
 protected:
 	int health;	
-	void step();
+	virtual void step();
 	virtual void die();
+	virtual void move();
 public:
-	Saucer(int health, int dmg, float radius);
+	Saucer(int health, int dmg, float radius, int movementType = 0);
 	~Saucer();
 	//void draw();
 	int eventHandler(const df::Event *p_e);
