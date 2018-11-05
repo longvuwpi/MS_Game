@@ -59,6 +59,8 @@ void loadResources(void) {
   //guns
   //RM.loadSprite("sprites/ak47.txt", "AK47");
   RM.loadSprite("sprites/ak47_2.txt", "AK47");
+  RM.loadSprite("sprites/awp.txt", "AWP");
+  RM.loadSprite("sprites/grenade-launcher.txt", "GrenadeLauncher");
 
   //bullets
   RM.loadSprite("sprites/ak47_bullet.txt", "AK47_bullet");
@@ -75,6 +77,7 @@ void loadResources(void) {
   RM.loadSprite("sprites/character-duck.txt", "character-duck");
   RM.loadSprite("sprites/platform.txt", "platform");
   RM.loadSprite("sprites/refill-ammo.txt", "ammo-refill");
+  RM.loadSprite("sprites/health-pick.txt", "health-pick");
 
   //Fire sounds
   RM.loadSound("sounds/ak47_fire.wav", "AK47_fire");
@@ -83,6 +86,10 @@ void loadResources(void) {
   //ammo sounds
   RM.loadSound("sounds/ammo_empty.wav", "ammo_empty");
   RM.loadSound("sounds/ammo_reload.wav", "ammo_reload");
+  RM.loadSound("sounds/launcher_reload.wav", "launcher_reload");
+  //AWP
+  RM.loadSound("sounds/awp_bolt.wav", "awp_bolt");
+
   //pickup sounds
   RM.loadSound("sounds/pickup1.wav", "pickup1");
   RM.loadSound("sounds/pickup2.wav", "pickup2");

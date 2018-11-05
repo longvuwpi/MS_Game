@@ -1,9 +1,43 @@
-﻿  Boss.cpp
-  WeakPoint.cpp
+﻿  AmmoRefill.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\ammorefill.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Bullet.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\bullet.cpp(163): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\bullet.cpp(168): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  BulletTrail.cpp
+  GameStart.cpp
+  Hero.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(183): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(342): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(381): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Level.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\level.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Reticle.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(70): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(93): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(94): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(157): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(158): warning C4305: 'argument': truncation from 'double' to 'float'
+  Saucer.cpp
+  Weapon.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(194): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  5 of 771 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    20 functions had inline decision re-evaluated but remain unchanged
+  2 of 762 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
 libdragonfly-x64-release.lib(Circle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Circle.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info

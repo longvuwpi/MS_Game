@@ -13,6 +13,7 @@
 #include "LogManager.h"
 #include "GameManager.h"
 #include "EventMouse.h"
+#include "DisplayManager.h"
 
 Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration) {
 	weapon_name = weaponName;
@@ -29,18 +30,21 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	bullet_affected_by_gravity = affectedByGravity;
 	bullet_radius_of_effect = radiusOfEffect;
 	reload_duration = reloadDuration;
+	recoil = 0;
+	shot_recoil = 2.0f;
 	clock = new df::Clock;
 	reloading = false;
 	is_scoping = false;
 	setType("Weapon");
 
-	df::Sprite *p_temp_sprite = RM.getSprite("AK47");
-	if (!p_temp_sprite)
-		LM.writeLog("Weapon: Warning! Sprite '%s' not found", "AK47");
-	else {
-		setSprite(p_temp_sprite);
-		setTransparency('#');
+	df::Sprite *p_temp_sprite = RM.getSprite(weapon_name);
+	if (!p_temp_sprite) {
+		LM.writeLog("Weapon: Warning! Sprite '%s' not found", weapon_name.c_str());
+		p_temp_sprite = RM.getSprite("AK47");
 	}
+
+	setSprite(p_temp_sprite);
+	setTransparency('#');
 
 	setSolidness(df::SOFT);
 
@@ -57,7 +61,7 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 		break;
 	case WeaponType::SNIPER:
 		inaccuracy = 0;
-		inaccuracy_spread = 3.5f;
+		inaccuracy_spread = 4.5f;
 		break;
 	default:
 		inaccuracy = 0;
@@ -67,15 +71,33 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 }
 
 df::Vector Weapon::calculateInaccurateTarget(df::Vector target) {
-	float inaccuracy_random_spread = -inaccuracy_spread + static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / (2 * inaccuracy_spread)));
-	return df::Vector(target.getX(), target.getY() + inaccuracy + inaccuracy_random_spread);
+	float inaccuracy_random_spread_y = -inaccuracy_spread + static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / (2 * inaccuracy_spread)));
+	if (weapon_type == WeaponType::SNIPER) {
+		float inaccuracy_random_spread_x = -inaccuracy_spread + static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / (2 * inaccuracy_spread)));
+		return df::Vector(target.getX() + inaccuracy + inaccuracy_random_spread_x, target.getY() + inaccuracy + inaccuracy_random_spread_y);
+	}
+	else {
+		return df::Vector(target.getX(), target.getY() + inaccuracy + inaccuracy_random_spread_y);
+	}
 }
 
 //Deal damage at the target position
 //Prioritize hitting Minions first, then Boss weakpoints, then boss body
 //This is called when a sniper is fired in scope mode (dealing instant damage)
 //or a bullet just collided with an enemy at the target position
-void Weapon::dealDamageAt(df::Vector target) {
+void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
+	if (drawTrail) {
+		df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
+		df::Vector traveled = target - origin;
+		int distance = traveled.getMagnitude();
+		traveled.normalize();
+		for (int i = 0; i <= distance; i++) {
+			df::Vector scaled(traveled.getX(), traveled.getY());
+			scaled.scale(i);
+			DM.drawCh(origin + scaled, '.', df::YELLOW);
+		}
+	}
+
 	//Signify the shot by creating an explosion at target position
 	Explosion *p_explosion = new Explosion("explosion", 0);
 	p_explosion->setPosition(target);
@@ -133,6 +155,10 @@ void Weapon::dealDamageAt(df::Vector target) {
 
 }
 
+bool Weapon::canShoot() {
+	return ((fire_count_down == 0) && (!reloading));
+}
+
 void Weapon::fire(df::Vector target) {
 	df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
 	// See if time to fire.
@@ -147,10 +173,16 @@ void Weapon::fire(df::Vector target) {
 	fire_count_down = fire_rate;
 	ammo_loaded--;
 	last_shot_frame = GM.getStepCount();
-	
+	recoil = shot_recoil;
+
 	//If scoping, deal instant damage at target, else fire Bullet towards target.
-	if (is_scoping) {
-		dealDamageAt(target);
+	if (weapon_type == WeaponType::SNIPER) {
+		if (is_scoping) {
+			dealDamageAt(target, true);
+		}
+		else {
+			dealDamageAt(calculateInaccurateTarget(target), true);
+		}
 	}
 	else {
 		//Calculate the hit target based on inaccuracy
@@ -205,7 +237,9 @@ void Weapon::toggleScope() {
 		df::ObjectListIterator li(&list_in_window);
 		li.first();
 		while (!li.isDone()) {
-			li.currentObject()->setVisible(true);
+			if (li.currentObject()->getType() != "Weapon") {
+				li.currentObject()->setVisible(true);
+			}             
 			li.next();
 		}
 	}
@@ -242,8 +276,15 @@ void Weapon::step() {
 	fire_count_down--;
 	if (fire_count_down < 0)
 		fire_count_down = 0;
+	if ((weapon_type == WeaponType::SNIPER) && (fire_count_down == 30) && (!reloading)) {
+		RM.getSound("awp_bolt")->play();
+	}
 
-	setPosition(hero->getPosition() + df::Vector(3, 1));
+
+	recoil -= 0.35f;
+	if (recoil < 0) recoil = 0;
+
+	setPosition(hero->getPosition() + df::Vector(3, 1) + df::Vector(-recoil, 0));
 }
 
 std::string Weapon::getWeaponName() {
@@ -272,7 +313,12 @@ void Weapon::reload() {
 	if (reloading || (ammo_loaded == ammo_loaded_max) || (ammo_backup == 0)) {
 		return;
 	}
-	RM.getSound("ammo_reload")->play();
+	if (weapon_type == WeaponType::LAUNCHER) {
+		RM.getSound("launcher_reload")->play();
+	}
+	else {
+		RM.getSound("ammo_reload")->play();
+	}
 	reloading = true;
 	clock->delta();
 }

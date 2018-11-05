@@ -1,90 +1,420 @@
-17:44:49    0 ****************************************************
-17:44:49    0 ** Dragonfly version 4.4 **
-17:44:50    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 171 ms
-17:44:50    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
-17:44:52   59 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
-17:44:53   59 Fraps::Fraps(): Fraps module loaded.
-17:44:53   59 Pause::Pause(): Pause enabled.  Press any other key to resume.
-17:44:53    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 69 ms
-17:44:57  113 found 2 objects at target
+18:22:37    0 ****************************************************
+18:22:37    0 ** Dragonfly version 4.4 **
+18:22:38    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 174 ms
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+18:22:40   49 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+18:22:41   49 Fraps::Fraps(): Fraps module loaded.
+18:22:41   49 Pause::Pause(): Pause enabled.  Press any other key to resume.
+18:22:41    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 83 ms
+18:22:43   58 found 3 objects at target
 
-17:45:00  200 found 2 objects at target
+18:22:43   58 saucer health is -15
+18:22:45  133 found 3 objects at target
 
-17:45:03  308 found 2 objects at target
+18:22:45  133 saucer health is -15
+18:22:47  193 found 3 objects at target
 
-17:45:07  412 found 2 objects at target
+18:22:47  193 saucer health is -15
+18:22:49  250 found 3 objects at target
 
-17:45:10  514 found 2 objects at target
+18:22:49  250 saucer health is -15
+18:22:51  309 found 2 objects at target
 
-17:45:13  604 found 2 objects at target
+18:22:55  416 found 2 objects at target
 
-17:45:15  669 found 2 objects at target
+18:22:55  416 saucer health is -15
+18:22:56  457 found 2 objects at target
 
-17:45:21  860 found 2 objects at target
+18:22:56  457 saucer health is -15
+18:22:58  508 found 3 objects at target
 
-17:45:25  979 found 2 objects at target
+18:22:58  508 saucer health is -15
+18:22:59  550 found 1 objects at target
 
-17:45:55 1888 found 2 objects at target
+18:23:01  606 found 4 objects at target
 
-17:45:57 1954 found 2 objects at target
+18:23:01  606 saucer health is -15
+18:23:05  739 found 4 objects at target
 
-17:46:00 2020 found 2 objects at target
+18:23:05  739 saucer health is -15
+18:23:07  791 found 3 objects at target
 
-17:46:02 2098 found 2 objects at target
+18:23:07  791 saucer health is -15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:14  993 saucer health is 15
+18:23:17 1101 found 2 objects at target
 
-17:46:04 2158 found 2 objects at target
+18:23:17 1101 saucer health is -15
+18:23:23 1276 found 3 objects at target
 
-17:46:06 2212 found 2 objects at target
+18:23:23 1276 saucer health is -15
+18:23:24 1305 saucer health is 15
+18:23:32 1532 found 3 objects at target
 
-17:46:09 2300 found 2 objects at target
+18:23:32 1532 saucer health is -15
+18:23:36 1677 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:42 1857 saucer health is 15
+18:23:46 1960 found 2 objects at target
 
-17:46:11 2357 found 2 objects at target
+18:23:46 1964 found 2 objects at target
 
-17:46:12 2407 found 2 objects at target
+18:23:46 1965 saucer health is -1
+18:23:48 2017 found 8 objects at target
 
-17:46:15 2476 found 2 objects at target
+18:23:48 2021 found 3 objects at target
 
-17:46:17 2535 found 2 objects at target
+18:23:48 2022 saucer health is -1
+18:23:51 2116 found 2 objects at target
 
-17:46:19 2597 found 2 objects at target
+18:23:51 2119 found 2 objects at target
 
-17:46:21 2659 found 2 objects at target
+18:23:51 2120 saucer health is -1
+18:23:56 2272 found 2 objects at target
 
-17:46:23 2720 found 2 objects at target
+18:23:56 2276 found 2 objects at target
 
-17:46:25 2798 found 2 objects at target
+18:23:56 2277 saucer health is -1
+18:24:02 2442 found 2 objects at target
 
-17:46:28 2881 found 2 objects at target
+18:24:02 2444 found 3 objects at target
 
-17:46:36 3110 found 4 objects at target
+18:24:02 2445 saucer health is -1
+18:24:04 2528 found 2 objects at target
 
-17:46:43 3346 found 2 objects at target
+18:24:04 2531 found 2 objects at target
 
-17:46:55 3691 found 2 objects at target
+18:24:05 2532 found 3 objects at target
 
-17:46:56 3732 found 2 objects at target
+18:24:05 2532 saucer health is -9
+18:24:07 2621 found 2 objects at target
 
-17:46:58 3774 found 2 objects at target
+18:24:08 2623 found 2 objects at target
 
-17:46:59 3814 found 2 objects at target
+18:24:08 2624 saucer health is -1
+18:24:08 2632 found 2 objects at target
 
-17:47:01 3884 Fraps::Fraps(): Fraps module unloaded
-17:47:01 3884 WorldManager::shutDown(): Successfully stopped.
-17:47:01 3884 ** Game stopped **
-17:47:01 3884 ****************************************************
+18:24:08 2643 found 2 objects at target
+
+18:24:08 2645 found 3 objects at target
+
+18:24:08 2646 saucer health is -1
+18:24:10 2713 found 2 objects at target
+
+18:24:11 2714 found 2 objects at target
+
+18:24:11 2714 saucer health is -1
+18:24:11 2717 found 4 objects at target
+
+18:24:11 2718 saucer health is -1
+18:24:11 2720 found 2 objects at target
+
+18:24:11 2721 found 3 objects at target
+
+18:24:11 2722 saucer health is -1
+18:24:15 2852 found 2 objects at target
+
+18:24:16 2884 found 2 objects at target
+
+18:24:16 2886 found 3 objects at target
+
+18:24:16 2887 saucer health is -1
+18:24:17 2912 found 2 objects at target
+
+18:24:17 2913 saucer health is -1
+18:24:17 2916 found 2 objects at target
+
+18:24:17 2918 found 4 objects at target
+
+18:24:17 2919 saucer health is -1
+18:24:20 3010 found 2 objects at target
+
+18:24:20 3013 found 2 objects at target
+
+18:24:20 3014 saucer health is -1
+18:24:21 3040 found 2 objects at target
+
+18:24:21 3042 found 2 objects at target
+
+18:24:21 3043 saucer health is -1
+18:24:22 3054 found 2 objects at target
+
+18:24:22 3057 found 2 objects at target
+
+18:24:22 3058 saucer health is -1
+18:24:25 3145 found 2 objects at target
+
+18:24:25 3148 found 2 objects at target
+
+18:24:25 3149 saucer health is -1
+18:24:28 3240 found 2 objects at target
+
+18:24:28 3242 found 2 objects at target
+
+18:24:28 3243 saucer health is -1
+18:24:30 3316 found 2 objects at target
+
+18:24:31 3320 found 2 objects at target
+
+18:24:31 3321 saucer health is -1
+18:24:33 3388 found 2 objects at target
+
+18:24:33 3390 found 2 objects at target
+
+18:24:33 3391 saucer health is -1
+18:24:34 3426 found 2 objects at target
+
+18:24:34 3428 found 2 objects at target
+
+18:24:34 3429 saucer health is -1
+18:24:36 3482 found 4 objects at target
+
+18:24:36 3486 found 2 objects at target
+
+18:24:36 3487 saucer health is -1
+18:24:37 3529 found 2 objects at target
+
+18:24:40 3619 found 2 objects at target
+
+18:24:40 3620 saucer health is -1
+18:24:42 3665 found 3 objects at target
+
+18:24:42 3668 found 2 objects at target
+
+18:24:42 3669 saucer health is -1
+18:24:44 3714 found 2 objects at target
+
+18:24:44 3716 found 4 objects at target
+
+18:24:44 3717 saucer health is -1
+18:24:44 3732 found 2 objects at target
+
+18:24:44 3740 found 2 objects at target
+
+18:24:44 3743 found 2 objects at target
+
+18:24:45 3744 saucer health is -1
+18:24:45 3764 found 2 objects at target
+
+18:24:45 3764 found 2 objects at target
+
+18:24:45 3765 saucer health is -1
+18:24:47 3823 found 2 objects at target
+
+18:24:47 3824 saucer health is -1
+18:24:50 3904 found 2 objects at target
+
+18:24:50 3906 found 2 objects at target
+
+18:24:50 3907 saucer health is -1
+18:24:50 3924 found 2 objects at target
+
+18:24:50 3925 found 3 objects at target
+
+18:24:51 3926 saucer health is -1
+18:24:52 3969 found 2 objects at target
+
+18:24:52 3971 found 4 objects at target
+
+18:24:52 3972 saucer health is -1
+18:24:59 4168 found 2 objects at target
+
+18:24:59 4171 found 6 objects at target
+
+18:24:59 4172 saucer health is -1
+18:25:00 4212 found 3 objects at target
+
+18:25:00 4215 found 4 objects at target
+
+18:25:00 4216 saucer health is -1
+18:25:01 4252 found 2 objects at target
+
+18:25:01 4254 found 2 objects at target
+
+18:25:01 4255 saucer health is -1
+18:25:04 4346 found 2 objects at target
+
+18:25:04 4349 found 4 objects at target
+
+18:25:05 4350 saucer health is -1
+18:25:05 4380 found 2 objects at target
+
+18:25:06 4383 found 3 objects at target
+
+18:25:06 4384 saucer health is -1
+18:25:09 4501 found 2 objects at target
+
+18:25:10 4504 found 3 objects at target
+
+18:25:10 4505 saucer health is -1
+18:25:12 4581 found 3 objects at target
+
+18:25:12 4581 saucer health is -15
+18:25:14 4651 found 3 objects at target
+
+18:25:14 4651 saucer health is -15
+18:25:17 4717 found 3 objects at target
+
+18:25:17 4717 saucer health is -15
+18:25:19 4777 found 3 objects at target
+
+18:25:19 4777 saucer health is -15
+18:25:21 4847 found 3 objects at target
+
+18:25:21 4847 saucer health is -15
+18:25:22 4894 found 3 objects at target
+
+18:25:22 4894 saucer health is -15
+18:25:24 4955 found 3 objects at target
+
+18:25:24 4955 saucer health is -15
+18:25:27 5017 found 3 objects at target
+
+18:25:27 5017 saucer health is -15
+18:25:28 5073 found 3 objects at target
+
+18:25:28 5073 saucer health is -15
+18:25:30 5121 found 3 objects at target
+
+18:25:30 5121 saucer health is -15
+18:25:34 5254 found 2 objects at target
+
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:42 5489 saucer health is 15
+18:25:46 5613 found 2 objects at target
+
+18:25:48 5666 found 3 objects at target
+
+18:25:48 5666 saucer health is -15
+18:25:51 5768 found 3 objects at target
+
+18:25:51 5769 saucer health is -5
+18:25:53 5823 found 3 objects at target
+
+18:25:53 5824 saucer health is -5
+18:25:58 5959 found 1 objects at target
+
+18:25:59 6010 found 2 objects at target
+
+18:25:59 6011 saucer health is -15
+18:26:01 6068 found 2 objects at target
+
+18:26:01 6069 saucer health is -5
+18:26:03 6117 found 3 objects at target
+
+18:26:03 6118 saucer health is -5
+18:26:05 6171 found 3 objects at target
+
+18:26:05 6172 saucer health is -5
+18:26:07 6240 found 1 objects at target
+
+18:26:08 6281 found 3 objects at target
+
+18:26:08 6282 saucer health is -15
+18:26:10 6328 found 1 objects at target
+
+18:26:16 6511 saucer health is 15
+18:26:16 6511 saucer health is 15
+18:26:16 6511 saucer health is 5
+18:26:16 6511 saucer health is 5
+18:26:16 6511 saucer health is 15
+18:26:16 6511 saucer health is 15
+18:26:16 6511 saucer health is 15
+18:26:16 6511 saucer health is 15
+18:26:20 6631 found 4 objects at target
+
+18:26:20 6631 saucer health is -15
+18:26:22 6711 found 3 objects at target
+
+18:26:22 6711 saucer health is -15
+18:26:25 6789 found 3 objects at target
+
+18:26:25 6789 saucer health is -15
+18:26:29 6907 found 2 objects at target
+
+18:26:31 6964 found 3 objects at target
+
+18:26:31 6964 saucer health is -15
+18:26:33 7023 found 3 objects at target
+
+18:26:33 7023 saucer health is -15
+18:26:34 7071 found 3 objects at target
+
+18:26:34 7071 saucer health is -15
+18:26:36 7126 found 3 objects at target
+
+18:26:36 7126 saucer health is -15
+18:26:38 7188 found 3 objects at target
+
+18:26:38 7188 saucer health is -15
+18:26:40 7252 found 3 objects at target
+
+18:26:40 7252 saucer health is -15
+18:26:45 7406 found 3 objects at target
+
+18:26:45 7406 saucer health is -15
+18:26:50 7561 found 3 objects at target
+
+18:26:50 7561 saucer health is -15
+18:26:51 7572 saucer health is 15
+18:26:55 7706 found 2 objects at target
+
+18:27:00 7845 found 3 objects at target
+
+18:27:00 7845 saucer health is -15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:06 8040 saucer health is 15
+18:27:07 8053 GameManager::run(): Can't keep up! frame_time 33 ms, split 70 ms
+18:27:07 8054 Fraps::Fraps(): Fraps module unloaded
+18:27:07 8054 WorldManager::shutDown(): Successfully stopped.
+18:27:07 8054 ** Game stopped **
+18:27:07 8054 ****************************************************

@@ -34,6 +34,7 @@ class Hero : public df::Object {
   int jump_count;
   int health;
   int max_health;
+  int regenerate_health;
   bool isDucking;
   df::ObjectList weapon_list;
   df::ObjectListIterator *weapon_selector;
@@ -57,6 +58,7 @@ class Hero : public df::Object {
   int getHealth();
   void takeDamage(df::Vector at, int damage);
   void refillAmmo();
+  void pickHealth();
   Reticle *getReticle();
   Weapon *getCurrentWeapon();
 

@@ -72,6 +72,7 @@ Hero::Hero() {
 	jump_count = jump_max;
 	max_health = 50;
 	health = 50;
+    regenerate_health = 25;
 	isDucking = false;
 	p_OnPlatform = NULL;
 
@@ -83,9 +84,11 @@ Hero::Hero() {
 
 	Weapon *awp = new Weapon("AWP", WeaponType::SNIPER, this, 18, 40, 10, 30, 30, false, 0, 0, 3.6f);
 	weapon_list.insert(awp);
+	awp->setVisible(false);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 6, 0, 1, 30, 10, true, 0.2f, 20, 1.5f);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 8, 0, 1, 30, 10, true, 0.4f, 20, 1.5f);
 	weapon_list.insert(grenade_launcher);
+	grenade_launcher->setVisible(false);
 
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
 	weapon_selector->first();
@@ -247,10 +250,12 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 			if (getCurrentWeapon()->isScoping()) {
 				getCurrentWeapon()->toggleScope();
 			}
+			getCurrentWeapon()->setVisible(false);
 			weapon_selector->next();
 			if (weapon_selector->isDone()) {
 				weapon_selector->first();
 			}
+			getCurrentWeapon()->setVisible(true);
 			weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 		}
 		//move(-1);
@@ -369,6 +374,15 @@ void Hero::refillAmmo() {
 		(dynamic_cast <Weapon*> (refillIterator.currentObject()))->refillAmmo();
 		refillIterator.next();
 	}
+}
+
+void Hero::pickHealth(){
+    health = health + regenerate_health;
+    if (health >= max_health){
+        health = max_health;
+        //WM.markForDelete(this);
+    }
+    //WM.markForDelete(this);
 }
 
 void Hero::drawHealthBar() {
