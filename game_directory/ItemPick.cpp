@@ -27,6 +27,15 @@ ItemPick::ItemPick() {
 
 	setSolidness(df::SOFT);
 	registerInterest(df::KEYBOARD_EVENT);
+
+    switch (item_type) {
+    case ItemType::AMMOREFILL:
+        
+        break;
+    case ItemType::HEALTH:
+        
+        break;
+    }
     
 }
 
@@ -41,8 +50,7 @@ int ItemPick::eventHandler(const df::Event *p_e) {
 				df::ObjectListIterator li(&hero);
 				li.first();
 				if (collisions.remove(li.currentObject()) == 0) {
-					RM.getSound("pickup1")->play();
-					RM.getSound("pickup2")->play();
+					RM.getSound("pickup3")->play();
 					(dynamic_cast <Hero *> (li.currentObject()))->pickHealth();
 					std::cout << "collided with hero";
 				}
