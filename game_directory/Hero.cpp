@@ -382,7 +382,7 @@ void Hero::pickHealth(){
         health = max_health;
         //WM.markForDelete(this);
     }
-    //WM.markForDelete(this);
+    //WM.markForDelete();
 }
 
 void Hero::drawHealthBar() {

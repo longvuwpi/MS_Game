@@ -95,6 +95,7 @@ void loadResources(void) {
   //pickup sounds
   RM.loadSound("sounds/pickup1.wav", "pickup1");
   RM.loadSound("sounds/pickup2.wav", "pickup2");
+  RM.loadSound("sounds/pickup3.wav", "pickup3");
 
   RM.loadSound("sounds/explode.wav", "explode");
   RM.loadSound("sounds/nuke.wav", "nuke");

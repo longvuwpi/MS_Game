@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "HealthPick.h"
+#include "ItemPick.h"
 #include "Hero.h"
 
 #include "ResourceManager.h"
@@ -17,19 +17,20 @@
 #include "EventKeyboard.h"
 #include "Sprite.h"
 
-HealthPick::HealthPick() {
-	setType("HealthPick");
+ItemPick::ItemPick() {
+	setType("Item");
 
-	df::Sprite *health_pick_sprite = RM.getSprite("health-pick");
-	if (!health_pick_sprite)
-		LM.writeLog("health pick sprite not found");
-	else setSprite(health_pick_sprite);
+	df::Sprite *p_current_sprite = RM.getSprite(Item_name);
+	if (!p_current_sprite)
+		LM.writeLog("Item sprite not found");
+	else setSprite(p_current_sprite);
 
 	setSolidness(df::SOFT);
 	registerInterest(df::KEYBOARD_EVENT);
+    
 }
 
-int HealthPick::eventHandler(const df::Event *p_e) {
+int ItemPick::eventHandler(const df::Event *p_e) {
 	if (p_e->getType() == df::KEYBOARD_EVENT) {
 		const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
 		switch (p_keyboard_event->getKey()) {
@@ -40,7 +41,8 @@ int HealthPick::eventHandler(const df::Event *p_e) {
 				df::ObjectListIterator li(&hero);
 				li.first();
 				if (collisions.remove(li.currentObject()) == 0) {
-					RM.getSound("pickup3")->play();
+					RM.getSound("pickup1")->play();
+					RM.getSound("pickup2")->play();
 					(dynamic_cast <Hero *> (li.currentObject()))->pickHealth();
 					std::cout << "collided with hero";
 				}
@@ -53,7 +55,7 @@ int HealthPick::eventHandler(const df::Event *p_e) {
 	return 0;
 }
 
-void HealthPick::draw() {
+void ItemPick::draw() {
 	if (isVisible()) {
 		df::Object::draw();
 		DM.drawString(getPosition() - df::Vector(0, 1 + (getSprite()->getHeight() / 2)) - df::Vector(0, sin((float)GM.getStepCount() / 5) / 2), "Press E", df::CENTER_JUSTIFIED, df::RED);
