@@ -10,7 +10,7 @@
 
 namespace df {
 
-const std::string UNDEFINED_EVENT = "df::undefined";
+const std::string UNDEFINED_EVENT = "df-undefined";
 
 class Event {
 

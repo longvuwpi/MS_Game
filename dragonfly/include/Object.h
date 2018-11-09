@@ -58,6 +58,9 @@ class PathFind;  // Forward reference.
 
 class Object {
 
+ public:
+  static int max_id;	        ///< Monotonically increasing identifier.
+
  private:
   int m_id;		        ///< Unique game engine defined identifier.
   std::string m_type;	        ///< Game-programmer defined identification.
@@ -276,7 +279,7 @@ class Object {
   /// Serialize attributes to single string.
   /// e.g., "id:110,is_active:true, ...
   /// Only modified attributes are serialized (unless all is true).
-  /// Clear modified[] array.
+  /// If not all, clear modified[] array, as appropriate.
   virtual std::string serialize(bool all=false);
 
   /// Deserialize string to become attributes.

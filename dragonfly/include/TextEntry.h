@@ -32,7 +32,7 @@ class TextEntry : public ViewObject {
  private:
   std::string m_text;             ///< Text entered.
   int m_limit;                    ///< Character limit in text.
-  int m_cursor;			///< Cursor location.
+  int m_cursor;			  ///< Cursor location.
   char m_cursor_char;             ///< Cursor character.
   int m_blink_rate;               ///< Cursor blink rate.
   bool m_numbers_only;            ///< True if only numbers.

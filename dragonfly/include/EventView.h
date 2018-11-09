@@ -9,7 +9,7 @@
 
 namespace df {
 
-const std::string VIEW_EVENT = "df::view";
+const std::string VIEW_EVENT = "df-view";
 
 class EventView : public Event {
 

@@ -13,12 +13,12 @@
 // Engine includes.
 #include "Manager.h"
 
-#define DRAGONFLY_PORT "9876"	// Default server port.
-
 // Two-letter acronym for easier access to manager.
 #define NM df::NetworkManager::getInstance()
 
 namespace df {
+
+const std::string DRAGONFLY_PORT = "9876";
 
 class NetworkManager : public Manager {
 
@@ -47,7 +47,7 @@ class NetworkManager : public Manager {
 
   /// Setup NetworkManager as server (if false, reset to client).
   /// Return 0 if ok, else -1.
-  int setServer(bool server=true, std::string port=DRAGONFLY_PORT);
+  int setServer(bool server=true, std::string port = DRAGONFLY_PORT);
 
   /// Return true if successufully setup as server, else false.
   bool isServer() const;
@@ -64,14 +64,14 @@ class NetworkManager : public Manager {
   /// Return return socket index if success, -1 if error.
   int connect(std::string host, std::string port = DRAGONFLY_PORT);
 
-  /// Set maximum number of connected sockets.
-  void setMaxSockets(int new_max_sock);
+  /// Set maximum number of connections.
+  void setMaxConnections(int new_max_sock);
 
-  /// Get maximum number of connected sockets.
-  int getMaxSockets() const;
+  /// Get maximum number of connections.
+  int getMaxConnections() const;
 
   /// Get number of connected sockets.
-  int getNumSockets() const;
+  int getNumConnections() const;
 
   /// Send bytes from buffer to connected network socket.
   /// Return 0 if success, -1 if error.

@@ -1,29 +1,161 @@
-15:55:01    0 ****************************************************
-15:55:01    0 ** Dragonfly version 4.4 **
-15:55:02    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 152 ms
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
-15:55:05   90 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
-15:55:07   90 Fraps::Fraps(): Fraps module loaded.
-15:55:07   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
-15:55:07    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 56 ms
-15:58:30 6162 Fraps::Fraps(): Fraps module unloaded
-15:58:30 6162 WorldManager::shutDown(): Successfully stopped.
-15:58:30 6162 ** Game stopped **
-15:58:30 6162 ****************************************************
+21:50:00    0 ****************************************************
+21:50:00    0 ** Dragonfly version 4.4 **
+21:50:01    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 204 ms
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+21:50:02   24 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+21:50:04   24 Fraps::Fraps(): Fraps module loaded.
+21:50:04   24 Pause::Pause(): Pause enabled.  Press any other key to resume.
+21:50:04    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 78 ms
+21:50:05   38 found 3 objects at target
+
+21:50:05   40 found 6 objects at target
+
+21:50:05   44 found 7 objects at target
+
+21:50:06   46 found 4 objects at target
+
+21:50:06   49 found 3 objects at target
+
+21:50:06   51 found 2 objects at target
+
+21:50:06   55 found 4 objects at target
+
+21:50:06   58 found 4 objects at target
+
+21:50:06   61 found 89 objects at target
+
+21:50:06   64 found 34 objects at target
+
+21:50:11  216 found 2 objects at target
+
+21:50:11  224 found 3 objects at target
+
+21:50:11  226 found 2 objects at target
+
+21:50:12  229 found 3 objects at target
+
+21:50:12  243 found 2 objects at target
+
+21:50:13  260 found 2 objects at target
+
+21:50:13  270 found 3 objects at target
+
+21:50:13  274 found 4 objects at target
+
+21:50:13  278 found 4 objects at target
+
+21:50:13  283 found 2 objects at target
+
+21:50:13  287 found 2 objects at target
+
+21:50:17  383 found 2 objects at target
+
+21:50:19  459 found 3 objects at target
+
+21:50:19  459 found 2 objects at target
+
+21:50:19  466 found 2 objects at target
+
+21:50:20  473 found 22 objects at target
+
+21:50:20  475 found 2 objects at target
+
+21:50:20  491 found 2 objects at target
+
+21:50:29  770 found 7 objects at target
+
+21:50:30  774 found 8 objects at target
+
+21:50:30  776 found 7 objects at target
+
+21:50:30  778 found 3 objects at target
+
+21:50:30  781 found 4 objects at target
+
+21:50:30  784 found 5 objects at target
+
+21:50:31  821 found 2 objects at target
+
+21:50:32  839 found 2 objects at target
+
+21:50:32  842 found 4 objects at target
+
+21:50:35  936 found 3 objects at target
+
+21:50:35  937 found 5 objects at target
+
+21:50:35  940 found 3 objects at target
+
+21:50:35  945 found 6 objects at target
+
+21:50:35  947 found 2 objects at target
+
+21:50:35  951 found 2 objects at target
+
+21:50:36  955 found 2 objects at target
+
+21:50:36  958 found 2 objects at target
+
+21:50:36  961 found 3 objects at target
+
+21:50:41 1108 found 2 objects at target
+
+21:50:41 1125 found 2 objects at target
+
+21:50:42 1157 found 2 objects at target
+
+21:50:42 1158 found 2 objects at target
+
+21:50:42 1162 found 2 objects at target
+
+21:50:43 1169 found 2 objects at target
+
+21:50:43 1174 found 2 objects at target
+
+21:50:43 1175 found 8 objects at target
+
+21:50:43 1181 found 2 objects at target
+
+21:50:46 1270 found 2 objects at target
+
+21:50:46 1283 found 2 objects at target
+
+21:50:47 1308 found 7 objects at target
+
+21:50:47 1311 found 2 objects at target
+
+21:50:47 1315 found 2 objects at target
+
+21:50:48 1318 found 3 objects at target
+
+21:50:48 1323 found 3 objects at target
+
+21:50:48 1327 found 4 objects at target
+
+21:50:48 1330 found 3 objects at target
+
+21:50:48 1332 found 2 objects at target
+
+21:50:48 1334 found 2 objects at target
+
+21:50:52 1444 Fraps::Fraps(): Fraps module unloaded
+21:50:52 1444 WorldManager::shutDown(): Successfully stopped.
+21:50:52 1444 ** Game stopped **
+21:50:52 1444 ****************************************************

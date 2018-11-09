@@ -107,10 +107,10 @@ class ViewObject : public Object {
 
   /// Serialize ViewObject attributes to single string.
   /// Only modified attributes (unless all is true).
-  virtual std::string serialize(bool all = false);
+  virtual std::string serialize(bool all=false);
 
   /// Deserialize string to become attributes.
-  /// Rerturn 0 if no errors, else -1.  
+  /// Return 0 if no errors, else -1.  
   virtual int deserialize(std::string s);
 
   /// Return true if attribute modified since last serialize.

@@ -1,8 +1,8 @@
-15:41:57    0 ****************************************************
-15:41:57    0 ** Dragonfly version 4.4 **
-15:41:58    0 DisplayManager::startUp(): Unable to load font from file 'df-font.ttf'.
-15:41:58    0 Error starting display manager!
-15:41:58    0 Error starting game manager!
-15:41:58    0 WorldManager::shutDown(): Successfully stopped.
-15:41:58    0 ** Game stopped **
-15:41:58    0 ****************************************************
+21:49:52    0 ****************************************************
+21:49:52    0 ** Dragonfly version 4.4 **
+21:49:53    0 DisplayManager::startUp(): Unable to load font from file 'df-font.ttf'.
+21:49:53    0 Error starting display manager!
+21:49:53    0 Error starting game manager!
+21:49:53    0 WorldManager::shutDown(): Successfully stopped.
+21:49:53    0 ** Game stopped **
+21:49:53    0 ****************************************************

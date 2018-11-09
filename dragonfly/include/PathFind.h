@@ -1,4 +1,6 @@
 ///
+/// PathFind
+///
 /// An A* pathfinding class.
 ///
 
@@ -41,12 +43,12 @@ class PathFind {
 
  public:
 
-  /// Constructor needs Object doing pathfinding, start and end locations.
+  /// Constructor needs Object doing pathfinding, start and end positions.
   PathFind(Object *p_o, Vector start, Vector end);
   ~PathFind();
 
   /// Go through one search cycle.  
-  /// Returns indicatation if found path {found, not found, incomplete}.
+  /// Returns indication if found path {found, not found, incomplete}.
   SearchResult cycleOnce();
 
   /// Return path.

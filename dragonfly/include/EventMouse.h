@@ -10,7 +10,7 @@
 
 namespace df {
 
-const std::string MOUSE_EVENT = "df::mouse";
+const std::string MSE_EVENT = "df-mouse";
 
 /// Set of mouse actions recognized by Dragonfly.
 enum EventMouseAction {

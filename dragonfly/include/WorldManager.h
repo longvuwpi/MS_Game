@@ -77,11 +77,13 @@ class WorldManager : public Manager {
 
   /// Move Object. 
   /// If collision with solid, send collision events.
-  /// If no collision with solid, move ok else don't move Object.
-  /// If Object is Spectral, move ok.
-  /// If move ok, adjust view if following this Object.
+  /// If no collision with solid, move ok.
+  /// If all collided objects soft, move ok.
+  /// If Object is spectral, move ok.
+  /// If move ok, move.
+  /// If moved, adjust view if following this Object.
   /// If moved from inside world boundary to outside, generate EventOut.
-  /// Return 0 if move ok, else -1 if collision with solid.
+  /// Return 0 if moved, else -1 if collision with solid.
   int moveObject(Object *p_o, Vector where);
 
   /// Return list of Objects collided with at position 'where'.

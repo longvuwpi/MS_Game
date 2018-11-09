@@ -9,7 +9,7 @@
 
 namespace df {
 
-const std::string STEP_EVENT = "df::step";
+const std::string STEP_EVENT = "df-step";
 
 class EventStep : public Event {
 

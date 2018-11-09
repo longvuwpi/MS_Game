@@ -9,7 +9,7 @@
 
 namespace df {
 
-const std::string KEYBOARD_EVENT = "df::keyboard";
+const std::string KEYBOARD_EVENT = "df-keyboard";
 
 /// Types of keyboard actions Dragonfly recognizes.
 enum EventKeyboardAction {
@@ -44,16 +44,16 @@ class EventKeyboard : public Event {
   EventKeyboard();
 
   /// Set key in event.
-  void setKey(Keyboard::Key new_key);
+  virtual void setKey(Keyboard::Key new_key);
 
   /// Get key from event.
-  Keyboard::Key getKey() const;
+  virtual Keyboard::Key getKey() const;
 
   /// Set keyboard event action.
-  void setKeyboardAction(EventKeyboardAction new_action);
+  virtual void setKeyboardAction(EventKeyboardAction new_action);
 
   /// Get keyboard event action.
-  EventKeyboardAction getKeyboardAction() const;
+  virtual EventKeyboardAction getKeyboardAction() const;
 };
 
 } // end of namespace df

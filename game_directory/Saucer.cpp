@@ -3,9 +3,9 @@
 //
 
 // System includes.
-#include <stdlib.h>		// for rand()
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <stdlib.h>		// for rand()
 #include <iostream>
 #include <stdio.h>
 // Engine includes.
@@ -36,12 +36,12 @@
 
 Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType) {
 	enemy_type = EnemyType::MINION;
+	enemy_movement = new EnemyMovement(this);
 	max_health = maxHealth;
 	health = max_health;
     damage = dmg;
     bullet_radius = radius;
 	movement_type = movementType;
-
     fire_count_down = 30;
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
@@ -54,13 +54,13 @@ Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType) {
 	}
 
 	setTransparency('#');
-
+	setSolidness(df::Solidness::SOFT);
 	// Set object type.
 	setType("Saucer");
     bullet_sprite = RM.getSprite("AK47_bullet");
 
 	// Move Saucer to start location.
-	moveToStart();
+	enemy_movement->moveToStart();
 	// Register interest in "nuke" event.
 	registerInterest(NUKE_EVENT);
     registerInterest(df::STEP_EVENT);
@@ -121,7 +121,7 @@ void Saucer::out() {
 		return;
 
 	// Otherwise, move back to far right.
-	moveToStart();
+	enemy_movement->moveToStart();
 }
 
 // Called with Saucer collides.
@@ -142,33 +142,6 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 		}
 	}
 
-}
-
-// Move Saucer to starting location on right side of window.
-void Saucer::moveToStart() {
-	df::Vector temp_pos;
-	df::Vector view_corner = WM.getView().getCorner();
-
-	// Get world boundaries.
-	int world_horiz = (int)WM.getView().getHorizontal();
-	int world_vert = (int)WM.getView().getVertical();
-
-	// x is off right side of window.
-	//temp_pos.setX(world_horiz + rand() % (int)world_horiz);
-	temp_pos.setX(view_corner.getX() + world_horiz - 10);
-	// y is in vertical range.
-	temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
-
-	// If collision, move down slightly until empty space.
-	df::ObjectList collision_list = WM.isCollision(this, temp_pos);
-	while (!collision_list.isEmpty()) {
-		temp_pos.setY(temp_pos.getY() + 1);
-		collision_list = WM.isCollision(this, temp_pos);
-	}
-
-	WM.moveObject(this, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
-	move_to_start_frame = GM.getStepCount();
-	move_to_start_pos = getPosition();
 }
 
 void Saucer::fire(){
@@ -214,26 +187,9 @@ void Saucer::step() {
 		}
 	}
 
-	move();
+	enemy_movement->move();
 }
 
-void Saucer::move() {
-	switch (movement_type) {
-	case 1:
-	{
-		LM.writeLog("Saucer moving");
-		float delta_x = sin(GM.getStepCount()*5*3.14159265 / 180)*15 - (GM.getStepCount() - move_to_start_frame)*(0.2);
-		float delta_y = sin((90 - GM.getStepCount()*5)*3.14159265 / 180)*6;
-		setPosition(move_to_start_pos + df::Vector(delta_x, delta_y));
-		std::cout << "Saucer Pos: " << delta_x << "," << delta_y << "\n";
-		break;
-	}
-	default:
-		break;
-	}
-
-	return;
-}
 //void Saucer::draw() {
 //	sf::RenderWindow *m_p_window = DM.getWindow();
 //	sf::RectangleShape *m_p_rectangle = new sf::RectangleShape(sf::Vector2f(df::charWidth(),
@@ -320,6 +276,10 @@ int Saucer::getHealth() {
 	return health;
 }
 
+int Saucer::getMovementType() {
+	return movement_type;
+}
+
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	new DamageIndicator(at, damage);
@@ -347,4 +307,8 @@ EnemyType Saucer::getEnemyType() {
 
 void Saucer::setEnemyType(EnemyType enemyType) {
 	enemy_type = enemyType;
+}
+
+void Saucer::markStart() {
+	enemy_movement->markStart();
 }

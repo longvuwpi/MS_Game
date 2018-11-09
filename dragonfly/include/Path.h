@@ -1,5 +1,5 @@
 //
-// An path class.
+// Path.h - A path class.
 //
 
 #ifndef __PATH_H__
@@ -9,6 +9,7 @@
 #include <vector>
 
 // Engine includes.
+#include "Color.h"
 #include "Vector.h"
 
 namespace df {
@@ -48,6 +49,9 @@ class Path {
 
   /// Return index of path.
   int getIndex() const;
+
+  /// Draw remaining path in indicated color.
+  void draw(Color color) const;
 
   /// Increment path target node.
   /// If at last node, index stays at end.

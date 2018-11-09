@@ -9,7 +9,7 @@
 
 namespace df {
 
-const std::string NETWORK_EVENT = "df::network";
+const std::string NETWORK_EVENT = "df-network";
 
 namespace Network {
 enum Label {
@@ -27,7 +27,7 @@ class EventNetwork : public Event {
   EventNetwork();              // Must provide type in constructor.
   Network::Label m_label;      // Label, depending upon type.
   int m_socket_index;	       // Socket index of connection.
-  int m_bytes;		       // Number of bytes avail (0 if connection).
+  int m_bytes;		       // Total number of bytes in message (0 if conn).
   
  public:
   // Constructor must provide label.  
@@ -42,13 +42,13 @@ class EventNetwork : public Event {
   // Set socket index.
   void setSocketIndex(int new_socket_index);
 
-  // Get socket_index.
+  // Get socket index.
   int getSocketIndex() const;
 
-  // Set number of bytes available.
+  // Set number of bytes in message.
   void setBytes(int new_bytes);
 
-  // Get number of bytes available.
+  // Get number of bytes in message.
   int getBytes() const;
 };
 

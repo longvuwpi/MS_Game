@@ -9,7 +9,7 @@
 
 namespace df {
 
-const std::string OUT_EVENT = "df::out";
+const std::string OUT_EVENT = "df-out";
 
 class EventOut : public Event {
 

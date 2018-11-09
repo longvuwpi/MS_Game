@@ -2,6 +2,7 @@
 
 //Engine includes
 #include "Object.h"
+#include "ObjectList.h"
 
 //Game includes
 #include "Hero.h"
@@ -9,6 +10,9 @@
 class Level : public df::Object {
 private:
 	Hero * hero;
+	df::ObjectList landscape;
+	int progress;
+	bool bossSpawned;
 public:
 	Level();
 	void start();

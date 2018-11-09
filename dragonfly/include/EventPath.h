@@ -11,7 +11,7 @@
 
 namespace df {
 
-const std::string PATH_EVENT = "df::path";
+const std::string PATH_EVENT = "df-path";
 
 enum SearchResult {
   NOT_FOUND,

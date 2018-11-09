@@ -52,18 +52,21 @@ Vector pixelsToSpaces(Vector pixels);
 class DisplayManager : public Manager {
 
  private:
-  DisplayManager();                       ///< Private since a singleton.
+  DisplayManager();                      ///< Private since a singleton.
   DisplayManager(DisplayManager const&); ///< Don't allow copy.
-  void operator=(DisplayManager const&);  ///< Don't allow assignment.
+  void operator=(DisplayManager const&); ///< Don't allow assignment.
   sf::Font m_font;		  ///< Font used for ASCII graphics.
   sf::RenderWindow *m_p_window;	  ///< Pointer to SFML window.
   int m_window_horizontal_pixels; ///< Horizontal pixels in window.
   int m_window_vertical_pixels;   ///< Vertical pixels in window.
   int m_window_horizontal_chars;  ///< Horizontal ASCII spaces in window.
   int m_window_vertical_chars;    ///< Vertical ASCII spaces in window.
-  sf::RectangleShape *m_p_rectangle;   ///< Backing rectangle for under text.
-  sf::Color m_window_background_color; ///< Background color of window.
-  sf::Text *m_p_text;             ///< ASCII character to draw.
+  sf::RectangleShape *m_p_rectangle;    ///< Backing rectangle for under text.
+  sf::Color m_window_background_color;  ///< Background color of window.
+  sf::Text *m_p_text;                   ///< ASCII character to draw.
+  int m_shake_duration;		        ///< Time left to shake (frames).
+  int m_shake_scale_x, m_shake_scale_y; ///< Severity of shake (pixels).
+  int m_shake_x, m_shake_y;		///< Shake (this frame).
 
  public:
   /// Get the one and only instance of the DisplayManager.
@@ -113,6 +116,10 @@ class DisplayManager : public Manager {
   /// Set window's background color.
   /// Return true if ok, else false.
   bool setBackgroundColor(Color new_color);
+
+  /// "Shake" window with severity scale (pixels) and duration (frames).
+  /// Delta true then add else replace.
+  void shake(int scale_x, int scale_y, int duration, bool delta=false);
 
   /// Render current window buffer.
   /// Return 0 if ok, else -1.
