@@ -1,3 +1,76 @@
-﻿  Level.cpp
+﻿  AmmoRefill.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\ammorefill.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Boss.cpp
+  Bullet.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\bullet.cpp(164): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\bullet.cpp(169): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  BulletTrail.cpp
+  DamageIndicator.cpp
+  EnemyMovement.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\enemymovement.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\enemymovement.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\enemymovement.cpp(69): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\enemymovement.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EventBossTookDamage.cpp
+  EventNuke.cpp
+  EventPlayerFalling.cpp
+  EventPlayerJumping.cpp
+  Explosion.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\explosion.cpp(58): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\explosion.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\explosion.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\explosion.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\explosion.cpp(69): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GameOver.cpp
+  GameStart.cpp
+  Hero.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(50): error C2039: 'MOUSE_EVENT': is not a member of 'df'
+  c:\users\vuxua\documents\github\ms_game\dragonfly\include\viewobject.h(16): note: see declaration of 'df'
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(50): error C2065: 'MOUSE_EVENT': undeclared identifier
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(162): error C2039: 'MOUSE_EVENT': is not a member of 'df'
+  c:\users\vuxua\documents\github\ms_game\dragonfly\include\viewobject.h(16): note: see declaration of 'df'
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(162): error C2065: 'MOUSE_EVENT': undeclared identifier
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(183): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(342): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\hero.cpp(381): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Level.cpp
 c:\users\vuxua\documents\github\ms_game\game_directory\level.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Debug\saucer-shoot.exe
+c:\users\vuxua\documents\github\ms_game\game_directory\level.cpp(105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Platform.cpp
+  Points.cpp
+  Reticle.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(29): error C2039: 'MOUSE_EVENT': is not a member of 'df'
+  c:\users\vuxua\documents\github\ms_game\dragonfly\include\eventcollision.h(11): note: see declaration of 'df'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(29): error C2065: 'MOUSE_EVENT': undeclared identifier
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(42): error C2039: 'MOUSE_EVENT': is not a member of 'df'
+  c:\users\vuxua\documents\github\ms_game\dragonfly\include\eventcollision.h(11): note: see declaration of 'df'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(42): error C2065: 'MOUSE_EVENT': undeclared identifier
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(70): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(93): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(94): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(157): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(158): warning C4305: 'argument': truncation from 'double' to 'float'
+  Saucer.cpp
+  Star.cpp
+  Generating Code...
+c:\users\vuxua\documents\github\ms_game\game_directory\damageindicator.cpp(25): warning C4715: 'DamageIndicator::eventHandler': not all control paths return a value
+  Compiling...
+  WeakPoint.cpp
+  Weapon.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\weapon.cpp(194): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  game.cpp
+  Generating Code...

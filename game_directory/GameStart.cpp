@@ -21,6 +21,7 @@
 #include "Saucer.h"
 #include "Platform.h"
 #include "Level.h"
+#include "LevelSelection.h"
 
 GameStart::GameStart() {
 	setType("GameStart");
@@ -33,7 +34,7 @@ GameStart::GameStart() {
 		setSprite(p_temp_sprite);
 		setSpriteSlowdown(15);
 	}
-
+	
 	// Put in center of screen.
 	setLocation(df::CENTER_CENTER);
 
@@ -75,16 +76,17 @@ int GameStart::eventHandler(const df::Event *p_e) {
 }
 
 void GameStart::start() {
-	Level *testLevel = new Level();
+	//Level *testLevel = new Level();
 
-	// Setup heads-up display.
-	new Points;		                     // Points display.
+	//// Setup heads-up display.
+	//new Points;		                     // Points display.
 
-	// Pause start music.
-	p_music->pause();
+	//// Pause start music.
+	//p_music->pause();
 
-	testLevel->start();
+	//testLevel->start();
 
+	new LevelSelection();
 	// When game starts, become inactive.
 	setActive(false);
 }

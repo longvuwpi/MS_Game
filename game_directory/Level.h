@@ -12,6 +12,7 @@ private:
 	Hero * hero;
 	df::ObjectList landscape;
 	int progress;
+	bool started;
 	bool bossSpawned;
 public:
 	Level();

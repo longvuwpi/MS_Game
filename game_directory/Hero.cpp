@@ -47,7 +47,7 @@ Hero::Hero() {
 
 	// Player controls hero, so register for input events.
 	registerInterest(df::KEYBOARD_EVENT);
-	registerInterest(df::MOUSE_EVENT);
+	registerInterest(df::MSE_EVENT);
 
 	// Need to update rate control each step.
 	registerInterest(df::STEP_EVENT);
@@ -159,7 +159,7 @@ int Hero::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
-	if (p_e->getType() == df::MOUSE_EVENT) {
+	if (p_e->getType() == df::MSE_EVENT) {
 		const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
 		mouse(p_mouse_event);
 		return 1;
@@ -361,6 +361,7 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
 void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	new DamageIndicator(at, damage);
+	DM.shake(damage, damage, 3, false);
 	if (health <= 0) {
 		WM.markForDelete(this);
 	}
