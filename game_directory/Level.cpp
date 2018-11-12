@@ -9,8 +9,9 @@
 #include "Level.h"
 #include "Platform.h"
 #include "Saucer.h"
-#include "AmmoRefill.h"
-#include "HealthPick.h"
+//#include "AmmoRefill.h"
+//#include "HealthPick.h"
+#include "ItemPick.h"
 #include "Boss.h"
 
 Level::Level() {
@@ -31,11 +32,11 @@ void Level::start() {
 	Platform* platform5 = new Platform(df::Vector(263, 65));
 
 	// Create an ammo refill box
-	AmmoRefill* ammo_refill = new AmmoRefill();
-	ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_refill->getSprite()->getHeight() / 2)));
+	ItemPick* ammo_pick = new ItemPick("AMMOREFILL", ItemType::AMMOREFILL);
+	ammo_pick->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_pick->getSprite()->getHeight() / 2)));
 
     // Create a health pick sprite
-    HealthPick* health_pick = new HealthPick();
+    ItemPick* health_pick = new ItemPick("HEALTHPICK", ItemType::HEALTHPICK);
     health_pick->setPosition(df::Vector(263, 65) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (health_pick->getSprite()->getHeight() / 2)));
 
 	//Boss* boss = new Boss(1100);
