@@ -1,10 +1,8 @@
-﻿  LevelSelection.cpp
-c:\users\vuxua\documents\github\ms_game\game_directory\levelselection.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\game_directory\levelselection.cpp(52): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\vuxua\documents\github\ms_game\game_directory\levelselection.cpp(53): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  GameOver.cpp
+  LevelIntro.cpp
   Generating code
-  3 of 842 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  592 of 918 functions (64.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    40 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\saucer-shoot.exe

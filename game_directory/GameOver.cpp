@@ -51,7 +51,7 @@ GameOver::~GameOver() {
 			p_o->getType() == "Bullet" || p_o->getType() == "DamangeIndicator" ||
 			p_o->getType() == "Explosion" || p_o->getType() == "Level" ||
 			p_o->getType() == "Platform" || p_o->getType() == "Weapon" ||
-			p_o->getType() == "AmmoRefill")
+			p_o->getType() == "AmmoRefill" || p_o->getType() == "Instruction")
 			WM.markForDelete(p_o);
 		if (p_o->getType() == "GameStart") {
 			WM.setViewPosition(df::Vector(0, 0));

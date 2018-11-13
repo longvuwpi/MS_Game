@@ -29,7 +29,7 @@ window_background_color:black,
 frame_time:33,
 
 # Window style - "default" or "fullscreen".
-window_style:default,
+window_style:fullscreen,
 
 # Window title.
 window_title:Dragonfly,

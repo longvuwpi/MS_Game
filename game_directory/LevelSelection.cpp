@@ -3,9 +3,12 @@
 #include "DisplayManager.h"
 #include "EventMouse.h"
 #include "EventStep.h"
+#include "WorldManager.h"
 
 #include "LevelSelection.h"
 #include "Level.h"
+#include "LevelIntro.h"
+#include "Level1.h"
 
 LevelSelection::LevelSelection() {
 	setType("LevelSelection");
@@ -28,10 +31,10 @@ LevelSelection::LevelSelection() {
 	display_horiz = DM.getHorizontal();
 	display_vert = DM.getVertical();
 
-	Level *level_intro = new Level();
+	Level *level_intro = new LevelIntro();
 	level_intro->setPosition(df::Vector(display_horiz * 2 / 5, display_vert / 3));
-	//Level *level_1 = new Level();
-	//level_1->setPosition(df::Vector(display_horiz * 2 / 5, display_vert * 2 / 3));
+	Level *level_1 = new Level1();
+	level_1->setPosition(df::Vector(display_horiz * 2 / 5, display_vert * 2 / 3));
 }
 
 void LevelSelection::draw() {
@@ -43,6 +46,14 @@ int LevelSelection::eventHandler(const df::Event *p_e) {
 		const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
 		if (p_mouse_event->getMouseAction() == df::MOVED) {
 			mouse_pos = p_mouse_event->getMousePosition();
+			df::ObjectList current_objects = WM.getAllObjects();
+			df::ObjectListIterator li(&current_objects);
+			li.first();
+			while (!li.isDone()) {
+				std::string type = li.currentObject()->getType();
+				LM.writeLog("%s\n", type);
+				li.next();
+			}
 			return 1;
 		}
 	}

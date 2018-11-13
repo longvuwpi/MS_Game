@@ -155,6 +155,7 @@
     <ClCompile Include="..\Bullet.cpp" />
     <ClCompile Include="..\BulletTrail.cpp" />
     <ClCompile Include="..\DamageIndicator.cpp" />
+    <ClCompile Include="..\EnemyAttack.cpp" />
     <ClCompile Include="..\EnemyMovement.cpp" />
     <ClCompile Include="..\EventBossTookDamage.cpp" />
     <ClCompile Include="..\EventNuke.cpp" />
@@ -166,12 +167,15 @@
     <ClCompile Include="..\GameStart.cpp" />
     <ClCompile Include="..\Hero.cpp" />
     <ClCompile Include="..\Level.cpp" />
+    <ClCompile Include="..\Level1.cpp" />
+    <ClCompile Include="..\LevelIntro.cpp" />
     <ClCompile Include="..\LevelSelection.cpp" />
     <ClCompile Include="..\Platform.cpp" />
     <ClCompile Include="..\Points.cpp" />
     <ClCompile Include="..\Reticle.cpp" />
     <ClCompile Include="..\Saucer.cpp" />
     <ClCompile Include="..\Star.cpp" />
+    <ClCompile Include="..\PopUp.cpp" />
     <ClCompile Include="..\WeakPoint.cpp" />
     <ClCompile Include="..\Weapon.cpp" />
   </ItemGroup>
@@ -181,6 +185,7 @@
     <ClInclude Include="..\Bullet.h" />
     <ClInclude Include="..\BulletTrail.h" />
     <ClInclude Include="..\DamageIndicator.h" />
+    <ClInclude Include="..\EnemyAttack.h" />
     <ClInclude Include="..\EnemyMovement.h" />
     <ClInclude Include="..\EventBossTookDamage.h" />
     <ClInclude Include="..\EventNuke.h" />
@@ -191,12 +196,15 @@
     <ClInclude Include="..\GameStart.h" />
     <ClInclude Include="..\Hero.h" />
     <ClInclude Include="..\Level.h" />
+    <ClInclude Include="..\Level1.h" />
+    <ClInclude Include="..\LevelIntro.h" />
     <ClInclude Include="..\LevelSelection.h" />
     <ClInclude Include="..\Platform.h" />
     <ClInclude Include="..\Points.h" />
     <ClInclude Include="..\Reticle.h" />
     <ClInclude Include="..\Saucer.h" />
     <ClInclude Include="..\Star.h" />
+    <ClInclude Include="..\PopUp.h" />
     <ClInclude Include="..\WeakPoint.h" />
     <ClInclude Include="..\Weapon.h" />
   </ItemGroup>

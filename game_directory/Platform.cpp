@@ -34,8 +34,6 @@ int Platform::eventHandler(const df::Event *p_e) {
 		//printf("collided with hero");
 	}
 	
-
-
 	if (p_e->getType() == PLAYER_JUMPING_EVENT) {
 		setSolidness(df::SOFT);
 	}

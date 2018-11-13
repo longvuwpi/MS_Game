@@ -34,14 +34,16 @@
 #include "DamageIndicator.h"
 
 
-Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType) {
+Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType, int attackType) {
 	enemy_type = EnemyType::MINION;
 	enemy_movement = new EnemyMovement(this);
+	enemy_attack = new EnemyAttack(this);
 	max_health = maxHealth;
 	health = max_health;
     damage = dmg;
     bullet_radius = radius;
 	movement_type = movementType;
+	attack_type = attackType;
     fire_count_down = 30;
 	// Setup "saucer" sprite.
 	df::Sprite *p_temp_sprite = RM.getSprite("saucer");
@@ -144,49 +146,13 @@ void Saucer::hit(const df::EventCollision *p_collision_event) {
 
 }
 
-void Saucer::fire(){
-    //df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
-    // See if time to fire.
-	
-    df::ObjectList object_list= WM.objectsOfType("Hero");
-	if (object_list.getCount() > 0) {
-		df::ObjectListIterator li(&object_list);
-		li.first();
-		df::Vector hero_pos = li.currentObject()->getPosition();
-
-		std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
-
-		df::Vector origin = getPosition();
-
-		// Fire Bullet towards target.
-		// Compute normalized vector to position, then scale by speed (1).
-		df::Vector v = hero_pos - origin;
-
-		//df::Vector v = getDirection();
-		v.normalize();
-		v.scale(2);
-		Bullet *p = new Bullet(origin, bullet_sprite, damage, bullet_radius);
-		p->setVelocity(v);
-	}
-}
-
 void Saucer::step() {
 	if (health <= 0) {
 		die();
 		return;
 	}
 
-	//Only minions fire for now
-	if (enemy_type == EnemyType::MINION) {
-		// Fire countdown.
-		fire_count_down--;
-		if (fire_count_down <= 0)
-		{
-			fire_count_down = 90;
-			fire();
-		}
-	}
-
+	enemy_attack->attack();
 	enemy_movement->move();
 }
 
@@ -280,6 +246,10 @@ int Saucer::getMovementType() {
 	return movement_type;
 }
 
+int Saucer::getAttackType() {
+	return attack_type;
+}
+
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	new DamageIndicator(at, damage);
@@ -311,4 +281,16 @@ void Saucer::setEnemyType(EnemyType enemyType) {
 
 void Saucer::markStart() {
 	enemy_movement->markStart();
+}
+
+int Saucer::getDamage() {
+	return damage;
+}
+
+float Saucer::getBulletRadius() {
+	return bullet_radius;
+}
+
+df::Sprite * Saucer::getBulletSprite() {
+	return bullet_sprite;
 }

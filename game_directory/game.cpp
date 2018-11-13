@@ -83,6 +83,17 @@ void loadResources(void) {
 	RM.loadSprite("sprites/platform.txt", "platform");
 	RM.loadSprite("sprites/refill-ammo.txt", "ammo-refill");
 
+	//intro level
+	RM.loadSprite("sprites/intro/1.txt", "intro_1");
+	RM.loadSprite("sprites/intro/2.txt", "intro_2");
+	RM.loadSprite("sprites/intro/3.txt", "intro_3");
+	RM.loadSprite("sprites/intro/4.txt", "intro_4");
+	RM.loadSprite("sprites/intro/5.txt", "intro_5");
+	RM.loadSprite("sprites/intro/6.txt", "intro_6");
+	RM.loadSprite("sprites/intro/7.txt", "intro_7");
+	RM.loadSprite("sprites/intro/small.txt", "intro_small");
+
+
 	//Fire sounds
 	RM.loadSound("sounds/ak47_fire.wav", "AK47_fire");
 	RM.loadSound("sounds/awp_fire.wav", "AWP_fire");
