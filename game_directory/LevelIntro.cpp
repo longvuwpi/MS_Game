@@ -4,6 +4,7 @@
 
 #include "LevelIntro.h"
 #include "Saucer.h"
+#include "GameOver.h"
 
 LevelIntro::LevelIntro() : Level("level_intro") {
 
@@ -126,6 +127,14 @@ void LevelIntro::levelLogic() {
 			saucer4->setPosition(df::Vector(540, 35));
 		}
 		break;
+	}
+	case 5:
+	{
+		df::ObjectList saucers = WM.objectsOfType("Saucer");
+		if (saucers.isEmpty()) {
+			progress = 6;
+			levelComplete();
+		}
 	}
 	}
 }

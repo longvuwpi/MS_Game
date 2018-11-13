@@ -118,8 +118,6 @@ void Hero::setDuckingSprite() {
 
 Hero::~Hero() {
 
-	// Create GameOver object.
-	GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getVertical() / 2, WM.getView().getHorizontal() / 2));
 	// Make big explosion.
 	for (int i = -8; i <= 8; i += 5) {
 		for (int j = -5; j <= 5; j += 3) {
@@ -364,6 +362,8 @@ void Hero::takeDamage(df::Vector at, int damage) {
 	DM.shake(damage, damage, 3, false);
 	if (health <= 0) {
 		WM.markForDelete(this);
+		// Create GameOver object.
+		GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
 	}
 }
 

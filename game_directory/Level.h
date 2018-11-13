@@ -14,6 +14,7 @@ protected:
 	int progress;
 	bool started;
 	bool bossSpawned;
+	void levelComplete();
 public:
 	Level(std::string level_name);
 	void start();

@@ -55,6 +55,7 @@ void loadResources(void) {
 	RM.loadSprite("sprites/level_select.txt", "level_select");
 	RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
 	RM.loadSprite("sprites/gameover-spr.txt", "gameover");
+	RM.loadSprite("sprites/level_won.txt", "level_won");
 	RM.loadSprite("sprites/level_intro.txt", "level_intro");
 	RM.loadSprite("sprites/level_1.txt", "level_1");
 
@@ -114,7 +115,12 @@ void loadResources(void) {
 	RM.loadSound("sounds/explode.wav", "explode");
 	RM.loadSound("sounds/nuke.wav", "nuke");
 	RM.loadSound("sounds/game-over.wav", "game over");
+	RM.loadSound("sounds/level_won.wav", "level_won");
 	RM.loadMusic("sounds/start-music.wav", "start music");
+	
+	//level music
+	RM.loadMusic("sounds/music_theme.wav", "music_theme");
+	RM.loadMusic("sounds/music_boss.wav", "music_boss");
 }
 
 // Populate world with some objects.

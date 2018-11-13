@@ -12,19 +12,25 @@
 #include "GameOver.h"
 #include "GameStart.h"
 
-GameOver::GameOver(df::Vector position) {
+GameOver::GameOver(df::Vector position, bool win) {
 
 	setType("GameOver");
-
+	df::Sprite *p_temp_sprite;
 	// Link to "message" sprite.
-	df::Sprite *p_temp_sprite = RM.getSprite("gameover");
+	if (!win) {
+		p_temp_sprite = RM.getSprite("gameover");
+	}
+	else {
+		p_temp_sprite = RM.getSprite("level_won");
+	}
+
 	if (!p_temp_sprite)
 		LM.writeLog("GameOver::GameOver(): Warning! Sprite 'gameover' not found");
 	else {
 		setSprite(p_temp_sprite);
 		setSpriteSlowdown(5);
 		setTransparency('#');    // Transparent character.
-		time_to_live = p_temp_sprite->getFrameCount() * 15;
+		time_to_live = p_temp_sprite->getFrameCount() * 10;
 	}
 
 	// Put in center of window.
@@ -34,8 +40,16 @@ GameOver::GameOver(df::Vector position) {
 	// Register for step event.
 	registerInterest(df::STEP_EVENT);
 
+	RM.getMusic("music_theme")->stop();
+	RM.getMusic("music_boss")->stop();
 	// Play "game over" sound.
-	df::Sound *p_sound = RM.getSound("game over");
+	df::Sound *p_sound;
+	if (win) {
+		p_sound = RM.getSound("level_won");
+	}
+	else {
+		p_sound = RM.getSound("game over");
+	}
 	p_sound->play();
 }
 
@@ -51,7 +65,8 @@ GameOver::~GameOver() {
 			p_o->getType() == "Bullet" || p_o->getType() == "DamangeIndicator" ||
 			p_o->getType() == "Explosion" || p_o->getType() == "Level" ||
 			p_o->getType() == "Platform" || p_o->getType() == "Weapon" ||
-			p_o->getType() == "AmmoRefill" || p_o->getType() == "Instruction")
+			p_o->getType() == "AmmoRefill" || p_o->getType() == "Instruction" || 
+			p_o->getType() == "Hero")
 			WM.markForDelete(p_o);
 		if (p_o->getType() == "GameStart") {
 			WM.setViewPosition(df::Vector(0, 0));
@@ -76,6 +91,7 @@ int GameOver::eventHandler(const df::Event *p_e) {
 
 // Count down to end of message.
 void GameOver::step() {
+	setPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2));
 	time_to_live--;
 	if (time_to_live <= 0)
 		WM.markForDelete(this);

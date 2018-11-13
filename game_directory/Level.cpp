@@ -15,6 +15,7 @@
 #include "Saucer.h"
 #include "AmmoRefill.h"
 #include "Boss.h"
+#include "GameOver.h"
 
 Level::Level(std::string level_name) {
 	setType("Level");
@@ -43,6 +44,8 @@ void Level::start() {
 		}
 	}
 
+	RM.getMusic("start music")->pause();
+	RM.getMusic("music_theme")->play();
 	hero = new Hero;
 	progress = 0;
 	started = true;
@@ -92,7 +95,7 @@ void Level::step() {
 
 			//Check if hero fell off the platforms
 			if (hero->getPosition().getY() > WM.getView().getVertical()) {
-				WM.markForDelete(hero);
+				hero->takeDamage(hero->getPosition(), 1000);
 				return;
 			}
 			levelLogic();
@@ -104,6 +107,10 @@ void Level::levelLogic() {
 }
 
 void Level::initialize() {
+}
+
+void Level::levelComplete() {
+	GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), true);
 }
 
 void Level::draw() {
