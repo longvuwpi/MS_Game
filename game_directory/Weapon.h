@@ -17,11 +17,13 @@ private:
 	int bullet_speed; //distance traveled in 1 frame
 	int fire_rate; //1 shot every ? frames
 	int fire_count_down;
+    int shootingcount;
 	int ammo_loaded_max;
 	int ammo_backup_max;
 	int ammo_loaded;
 	int ammo_backup;
 	int damage;
+    int newDamage;
 	int last_shot_frame; //the frame number that the last shot was fired
 	bool bullet_affected_by_gravity;
 	bool reloading; //is the gun reloading
@@ -51,6 +53,7 @@ public:
 	int getDamage();
 	void reload();
 	void refillAmmo();
+    void pickPower();
 	void toggleScope();
 	void dealDamageAt(df::Vector target, bool drawTrail);
 	int getAmmoLoaded();

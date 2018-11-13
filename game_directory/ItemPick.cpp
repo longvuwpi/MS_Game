@@ -50,7 +50,7 @@ ItemPick::ItemPick(std::string ItemName, ItemType itemType) {
         break;
     }
     case ItemType::HEALTHPICK:
-       
+    {   
         //setType("HealthPick");
 
         df::Sprite *health_pick_sprite = RM.getSprite("health-pick");
@@ -66,9 +66,21 @@ ItemPick::ItemPick(std::string ItemName, ItemType itemType) {
 
         break;
     }
-    //case ItemType::POWERUP:
+    case ItemType::POWERUP:
 
-      //  break;
+        df::Sprite *power_pick_sprite = RM.getSprite("power-pick");
+        if (!power_pick_sprite){
+            LM.writeLog("power pick sprite not found");
+            }
+        else {
+            setSprite(power_pick_sprite);
+        }
+
+        setSolidness(df::SOFT);
+        registerInterest(df::KEYBOARD_EVENT);
+        
+        break;
+    }
 }
 
 int ItemPick::eventHandler(const df::Event *p_e) {
@@ -97,7 +109,7 @@ int ItemPick::eventHandler(const df::Event *p_e) {
     else if(p_e->getType() == df::KEYBOARD_EVENT) {
         const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
         switch (p_keyboard_event->getKey()) {
-        case df::Keyboard::R:
+        case df::Keyboard::E:
             if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
                 df::ObjectList collisions = WM.isCollision(this, getPosition());
                 df::ObjectList hero = WM.objectsOfType("Hero");
@@ -115,7 +127,30 @@ int ItemPick::eventHandler(const df::Event *p_e) {
         ItemType(AMMOREFILL);
         return 1;
     }
-	return 0;
+
+    else if(p_e->getType() == df::KEYBOARD_EVENT) {
+        const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
+        switch (p_keyboard_event->getKey()) {
+        case df::Keyboard::P:
+            if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
+                df::ObjectList collisions = WM.isCollision(this, getPosition());
+                df::ObjectList hero = WM.objectsOfType("Hero");
+                df::ObjectListIterator li(&hero);
+                li.first();
+                if (collisions.remove(li.currentObject()) == 0) {
+                    RM.getSound("pickup4")->play();
+                    (dynamic_cast <Hero *> (li.currentObject()))->pickPower();
+                    std::cout << "collided with hero";
+                }
+            }
+            break;
+        }
+        ItemType(POWERUP);
+        return 1;
+    }
+	else {
+        return 0;
+    }
 }
 
 void ItemPick::draw() {

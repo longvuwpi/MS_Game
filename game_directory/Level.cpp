@@ -39,6 +39,10 @@ void Level::start() {
     ItemPick* health_pick = new ItemPick("HEALTHPICK", ItemType::HEALTHPICK);
     health_pick->setPosition(df::Vector(263, 65) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (health_pick->getSprite()->getHeight() / 2)));
 
+    // Create a power pick sprite
+    ItemPick* power_pick = new ItemPick("POWERUP", ItemType::POWERUP);
+    power_pick->setPosition(df::Vector(133, 60) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (power_pick->getSprite()->getHeight() / 2)));
+
 	//Boss* boss = new Boss(1100);
 	//boss->setPosition(df::Vector(300, 35));
 	//boss->createWeakPoint(df::Vector(-8, -10), 5, 500);

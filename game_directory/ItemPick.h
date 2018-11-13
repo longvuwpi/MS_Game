@@ -2,7 +2,7 @@
 #include "Object.h"
 #include "Sprite.h"
 
-enum ItemType {AMMOREFILL, HEALTHPICK};
+enum ItemType {AMMOREFILL, HEALTHPICK, POWERUP};
 
 class ItemPick : public df::Object {
 private:
@@ -10,7 +10,6 @@ private:
     ItemType item_type;
 public:
     ItemPick(std::string ItemName, ItemType itemType);
-    //PowerUp();
     std::string getItemName();
 	int eventHandler(const df::Event *p_e);
 	void draw();

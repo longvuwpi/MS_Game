@@ -22,10 +22,13 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
 	fire_count_down = 0;
+    shootingcount = 3;
 	ammo_loaded_max = ammoLoadedMax;
 	ammo_backup_max = ammoBackupMax;
 	refillAmmo();
+    pickPower();
 	damage = dmg;
+    newDamage = damage + (0.15 * damage);
 	bullet_weight = bulletWeight;
 	bullet_affected_by_gravity = affectedByGravity;
 	bullet_radius_of_effect = radiusOfEffect;
@@ -323,6 +326,15 @@ void Weapon::reload() {
 void Weapon::refillAmmo() {
 	ammo_loaded = ammo_loaded_max;
 	ammo_backup = ammo_backup_max;
+}
+
+void Weapon::pickPower(){
+    damage = newDamage;
+    shootingcount--;
+
+    if (shootingcount <= 0){
+        newDamage = damage;
+    }
 }
 
 int Weapon::getAmmoLoaded() {

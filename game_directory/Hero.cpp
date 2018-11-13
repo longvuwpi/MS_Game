@@ -385,6 +385,15 @@ void Hero::pickHealth(){
     //WM.markForDelete();
 }
 
+void Hero::pickPower(){
+    df::ObjectListIterator refillIterator(&weapon_list);
+    refillIterator.first();
+    while (!refillIterator.isDone()) {
+        (dynamic_cast <Weapon*> (refillIterator.currentObject()))->pickPower();
+        refillIterator.next();
+    }
+}
+
 void Hero::drawHealthBar() {
 
 	// Convert world position to view position.
