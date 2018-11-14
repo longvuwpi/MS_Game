@@ -95,59 +95,30 @@ int ItemPick::eventHandler(const df::Event *p_e) {
 				df::ObjectListIterator li(&hero);
 				li.first();
 				if (collisions.remove(li.currentObject()) == 0) {
-					RM.getSound("pickup3")->play();
-					(dynamic_cast <Hero *> (li.currentObject()))->pickHealth();
-					std::cout << "collided with hero";
+                    if (item_type == HEALTHPICK){
+					    RM.getSound("pickup3")->play();
+					    (dynamic_cast <Hero *> (li.currentObject()))->pickHealth();
+					    std::cout << "collided with hero";
+                    }
+                    else if (item_type == AMMOREFILL){
+                        RM.getSound("pickup1")->play();
+                        RM.getSound("pickup2")->play();
+                        (dynamic_cast <Hero *> (li.currentObject()))->refillAmmo();
+                        std::cout << "collided with hero";
+                    }
+                    else if (item_type == POWERUP){
+                        RM.getSound("pickup4")->play();
+                        (dynamic_cast <Hero *> (li.currentObject()))->pickPower();
+                        std::cout << "collided with hero";
+                    }
 				}
 			}
 			break;
 		}
-        ItemType(HEALTHPICK);
 		return 1;
 	}
 
-    else if(p_e->getType() == df::KEYBOARD_EVENT) {
-        const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
-        switch (p_keyboard_event->getKey()) {
-        case df::Keyboard::E:
-            if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
-                df::ObjectList collisions = WM.isCollision(this, getPosition());
-                df::ObjectList hero = WM.objectsOfType("Hero");
-                df::ObjectListIterator li(&hero);
-                li.first();
-                if (collisions.remove(li.currentObject()) == 0) {
-                    RM.getSound("pickup1")->play();
-                    RM.getSound("pickup2")->play();
-                    (dynamic_cast <Hero *> (li.currentObject()))->refillAmmo();
-                    std::cout << "collided with hero";
-                }
-            }
-            break;
-        }
-        ItemType(AMMOREFILL);
-        return 1;
-    }
-
-    else if(p_e->getType() == df::KEYBOARD_EVENT) {
-        const df::EventKeyboard *p_keyboard_event = dynamic_cast <const df::EventKeyboard *> (p_e);
-        switch (p_keyboard_event->getKey()) {
-        case df::Keyboard::P:
-            if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
-                df::ObjectList collisions = WM.isCollision(this, getPosition());
-                df::ObjectList hero = WM.objectsOfType("Hero");
-                df::ObjectListIterator li(&hero);
-                li.first();
-                if (collisions.remove(li.currentObject()) == 0) {
-                    RM.getSound("pickup4")->play();
-                    (dynamic_cast <Hero *> (li.currentObject()))->pickPower();
-                    std::cout << "collided with hero";
-                }
-            }
-            break;
-        }
-        ItemType(POWERUP);
-        return 1;
-    }
+    
 	else {
         return 0;
     }

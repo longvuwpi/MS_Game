@@ -1,3 +1,6 @@
+#include <iostream>
+#include <stdio.h>
+
 #include "Weapon.h"
 #include "Bullet.h"
 #include "Saucer.h"
@@ -22,13 +25,14 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	bullet_speed = bulletSpeed;
 	fire_rate = fireRate;
 	fire_count_down = 0;
-    shootingcount = 3;
+    
 	ammo_loaded_max = ammoLoadedMax;
 	ammo_backup_max = ammoBackupMax;
 	refillAmmo();
     pickPower();
 	damage = dmg;
-    newDamage = damage + (0.15 * damage);
+    PowerGain = 10;
+    origin_damage = damage;
 	bullet_weight = bulletWeight;
 	bullet_affected_by_gravity = affectedByGravity;
 	bullet_radius_of_effect = radiusOfEffect;
@@ -178,6 +182,8 @@ void Weapon::fire(df::Vector target) {
 	last_shot_frame = GM.getStepCount();
 	recoil = shot_recoil;
 
+    shootingcount--;
+
 	//If scoping, deal instant damage at target, else fire Bullet towards target.
 	if (weapon_type == WeaponType::SNIPER) {
 		if (is_scoping) {
@@ -199,6 +205,10 @@ void Weapon::fire(df::Vector target) {
 		Bullet *p = new Bullet(origin, bullet_sprite, this);
 		p->setVelocity(v);
 	}
+    
+    if (shootingcount <= 0){
+        damage = origin_damage;
+    }
 
 	// Play "fire" sound.
 	df::Sound *p_sound = df::ResourceManager::getInstance().getSound(weapon_name + "_fire");
@@ -329,12 +339,10 @@ void Weapon::refillAmmo() {
 }
 
 void Weapon::pickPower(){
-    damage = newDamage;
-    shootingcount--;
+    shootingcount = 3;
+    damage = damage + PowerGain;
 
-    if (shootingcount <= 0){
-        newDamage = damage;
-    }
+    std::cout << "weapon damage: (" << getDamage() << ")\n";
 }
 
 int Weapon::getAmmoLoaded() {

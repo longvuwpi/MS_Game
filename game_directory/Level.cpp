@@ -9,9 +9,10 @@
 #include "Level.h"
 #include "Platform.h"
 #include "Saucer.h"
-//#include "AmmoRefill.h"
-//#include "HealthPick.h"
+#include "AmmoRefill.h"
+#include "HealthPick.h"
 #include "ItemPick.h"
+#include "PowerPick.h"
 #include "Boss.h"
 
 Level::Level() {
@@ -43,6 +44,16 @@ void Level::start() {
     ItemPick* power_pick = new ItemPick("POWERUP", ItemType::POWERUP);
     power_pick->setPosition(df::Vector(133, 60) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (power_pick->getSprite()->getHeight() / 2)));
 
+
+    /*AmmoRefill* ammo_refill = new AmmoRefill();
+    ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (ammo_refill->getSprite()->getHeight() / 2)));
+
+    HealthPick* health_pick = new HealthPick();
+    health_pick->setPosition(df::Vector(133, 60) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (health_pick->getSprite()->getHeight() / 2)));
+
+    PowerPick* power_pick = new PowerPick();
+    power_pick->setPosition(df::Vector(70, 55) - df::Vector(20, (platform->getSprite()->getHeight()/2) + (power_pick->getSprite()->getHeight() / 2)));
+    */
 	//Boss* boss = new Boss(1100);
 	//boss->setPosition(df::Vector(300, 35));
 	//boss->createWeakPoint(df::Vector(-8, -10), 5, 500);

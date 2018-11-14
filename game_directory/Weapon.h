@@ -23,7 +23,8 @@ private:
 	int ammo_loaded;
 	int ammo_backup;
 	int damage;
-    int newDamage;
+    int PowerGain;
+    int origin_damage;
 	int last_shot_frame; //the frame number that the last shot was fired
 	bool bullet_affected_by_gravity;
 	bool reloading; //is the gun reloading

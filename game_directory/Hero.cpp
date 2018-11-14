@@ -73,6 +73,7 @@ Hero::Hero() {
 	max_health = 50;
 	health = 50;
     regenerate_health = 25;
+    //power_gain = 15;
 	isDucking = false;
 	p_OnPlatform = NULL;
 
@@ -386,12 +387,13 @@ void Hero::pickHealth(){
 }
 
 void Hero::pickPower(){
-    df::ObjectListIterator refillIterator(&weapon_list);
-    refillIterator.first();
-    while (!refillIterator.isDone()) {
-        (dynamic_cast <Weapon*> (refillIterator.currentObject()))->pickPower();
-        refillIterator.next();
+    df::ObjectListIterator powerIterator(&weapon_list);
+    powerIterator.first();
+    while (!powerIterator.isDone()) {
+        (dynamic_cast <Weapon*> (powerIterator.currentObject()))->pickPower();
+        powerIterator.next();
     }
+
 }
 
 void Hero::drawHealthBar() {
