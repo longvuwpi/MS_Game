@@ -1,3043 +1,7295 @@
-12:42:18    0 ****************************************************
-12:42:18    0 ** Dragonfly version 4.8 **
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
-12:42:20   13 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
-12:42:22   13 Fraps::Fraps(): Fraps module loaded.
-12:42:22   13 Pause::Pause(): Pause enabled.  Press any other key to resume.
-12:42:22    0 GameStart::GameStart(): Warning! Sprite 'level selection' not found
-12:42:22    0 Fraps
+21:06:50    0 ****************************************************
+21:06:50    0 ** Dragonfly version 4.8 **
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+21:06:54   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+21:06:56   90 Fraps::Fraps(): Fraps module loaded.
+21:06:56   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+21:06:56    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+21:07:00  129 GameStart::GameStart(): Warning! Sprite 'level selection' not found
+21:07:02  177 Fraps
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Star
+21:07:02  177 Star
 
-12:42:22    0 Pause
+21:07:02  177 Pause
 
-12:42:22    0 LevelSelection
+21:07:02  177 LevelSelection
 
-12:42:22    0 Level
+21:07:02  177 Level
 
-12:42:22    0 Level
+21:07:02  177 Level
 
-12:42:22    3 Fraps
+21:07:03  209 Fraps
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Star
+21:07:03  209 Star
 
-12:42:22    3 Pause
+21:07:03  209 Pause
 
-12:42:22    3 LevelSelection
+21:07:03  209 LevelSelection
 
-12:42:22    3 Level
+21:07:03  209 Level
 
-12:42:22    3 Level
+21:07:03  209 Level
 
-12:42:22    4 Fraps
+21:07:03  209 Fraps
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Star
+21:07:03  209 Star
 
-12:42:22    4 Pause
+21:07:03  209 Pause
 
-12:42:22    4 LevelSelection
+21:07:03  209 LevelSelection
 
-12:42:22    4 Level
+21:07:03  209 Level
 
-12:42:22    4 Level
+21:07:03  209 Level
 
-12:42:22    5 Fraps
+21:07:03  209 Fraps
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Star
+21:07:03  209 Star
 
-12:42:22    5 Pause
+21:07:03  209 Pause
 
-12:42:22    5 LevelSelection
+21:07:03  209 LevelSelection
 
-12:42:22    5 Level
+21:07:03  209 Level
 
-12:42:22    5 Level
+21:07:03  209 Level
 
-12:42:23    6 Fraps
+21:07:03  209 Fraps
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Star
+21:07:03  209 Star
 
-12:42:23    6 Pause
+21:07:03  209 Pause
 
-12:42:23    6 LevelSelection
+21:07:03  209 LevelSelection
 
-12:42:23    6 Level
+21:07:03  209 Level
 
-12:42:23    6 Level
+21:07:03  209 Level
 
-12:42:23    8 Fraps
+21:07:03  210 Fraps
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Star
+21:07:03  210 Star
 
-12:42:23    8 Pause
+21:07:03  210 Pause
 
-12:42:23    8 LevelSelection
+21:07:03  210 LevelSelection
 
-12:42:23    8 Level
+21:07:03  210 Level
 
-12:42:23    8 Level
+21:07:03  210 Level
 
-12:42:23    9 Fraps
+21:07:03  210 Fraps
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Star
+21:07:03  210 Star
 
-12:42:23    9 Pause
+21:07:03  210 Pause
 
-12:42:23    9 LevelSelection
+21:07:03  210 LevelSelection
 
-12:42:23    9 Level
+21:07:03  210 Level
 
-12:42:23    9 Level
+21:07:03  210 Level
 
-12:42:23   10 Fraps
+21:07:03  211 Fraps
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Star
+21:07:03  211 Star
 
-12:42:23   10 Pause
+21:07:03  211 Pause
 
-12:42:23   10 LevelSelection
+21:07:03  211 LevelSelection
 
-12:42:23   10 Level
+21:07:03  211 Level
 
-12:42:23   10 Level
+21:07:03  211 Level
 
-12:42:23   10 Fraps
+21:07:03  212 Fraps
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Star
+21:07:03  212 Star
 
-12:42:23   10 Pause
+21:07:03  212 Pause
 
-12:42:23   10 LevelSelection
+21:07:03  212 LevelSelection
 
-12:42:23   10 Level
+21:07:03  212 Level
 
-12:42:23   10 Level
+21:07:03  212 Level
 
-12:42:23   10 Fraps
+21:07:03  213 Fraps
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Pause
+21:07:03  213 Pause
 
-12:42:23   10 LevelSelection
+21:07:03  213 LevelSelection
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   10 Fraps
+21:07:03  213 Fraps
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Pause
+21:07:03  213 Pause
 
-12:42:23   10 LevelSelection
+21:07:03  213 LevelSelection
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   10 Fraps
+21:07:03  213 Fraps
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Star
+21:07:03  213 Star
 
-12:42:23   10 Pause
+21:07:03  213 Pause
 
-12:42:23   10 LevelSelection
+21:07:03  213 LevelSelection
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   10 Level
+21:07:03  213 Level
 
-12:42:23   11 Fraps
+21:07:03  214 Fraps
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Pause
+21:07:03  214 Pause
 
-12:42:23   11 LevelSelection
+21:07:03  214 LevelSelection
 
-12:42:23   11 Level
+21:07:03  214 Level
 
-12:42:23   11 Level
+21:07:03  214 Level
 
-12:42:23   11 Fraps
+21:07:03  214 Fraps
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Star
+21:07:03  214 Star
 
-12:42:23   11 Pause
+21:07:03  214 Pause
 
-12:42:23   11 LevelSelection
+21:07:03  214 LevelSelection
 
-12:42:23   11 Level
+21:07:03  214 Level
 
-12:42:23   11 Level
+21:07:03  214 Level
 
-12:42:23   12 Fraps
+21:07:03  215 Fraps
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Star
+21:07:03  215 Star
 
-12:42:23   12 Pause
+21:07:03  215 Pause
 
-12:42:23   12 LevelSelection
+21:07:03  215 LevelSelection
 
-12:42:23   12 Level
+21:07:03  215 Level
 
-12:42:23   12 Level
+21:07:03  215 Level
 
-12:42:23   12 Fraps
+21:07:03  220 Fraps
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Star
+21:07:03  220 Star
 
-12:42:23   12 Pause
+21:07:03  220 Pause
 
-12:42:23   12 LevelSelection
+21:07:03  220 LevelSelection
 
-12:42:23   12 Level
+21:07:03  220 Level
 
-12:42:23   12 Level
+21:07:03  220 Level
 
-12:42:23   13 Fraps
+21:07:03  220 Fraps
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Star
+21:07:03  220 Star
 
-12:42:23   13 Pause
+21:07:03  220 Pause
 
-12:42:23   13 LevelSelection
+21:07:03  220 LevelSelection
 
-12:42:23   13 Level
+21:07:03  220 Level
 
-12:42:23   13 Level
+21:07:03  220 Level
 
-12:42:23   13 Fraps
+21:07:03  221 Fraps
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Star
+21:07:03  221 Star
 
-12:42:23   13 Pause
+21:07:03  221 Pause
 
-12:42:23   13 LevelSelection
+21:07:03  221 LevelSelection
 
-12:42:23   13 Level
+21:07:03  221 Level
 
-12:42:23   13 Level
+21:07:03  221 Level
 
-12:42:23   14 Fraps
+21:07:03  222 Fraps
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Star
+21:07:03  222 Star
 
-12:42:23   14 Pause
+21:07:03  222 Pause
 
-12:42:23   14 LevelSelection
+21:07:03  222 LevelSelection
 
-12:42:23   14 Level
+21:07:03  222 Level
 
-12:42:23   14 Level
+21:07:03  222 Level
 
-12:42:23   15 Fraps
+21:07:03  222 Fraps
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Star
+21:07:03  222 Star
 
-12:42:23   15 Pause
+21:07:03  222 Pause
 
-12:42:23   15 LevelSelection
+21:07:03  222 LevelSelection
 
-12:42:23   15 Level
+21:07:03  222 Level
 
-12:42:23   15 Level
+21:07:03  222 Level
 
-12:42:23   16 Fraps
+21:07:03  223 Fraps
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Star
+21:07:03  223 Star
 
-12:42:23   16 Pause
+21:07:03  223 Pause
 
-12:42:23   16 LevelSelection
+21:07:03  223 LevelSelection
 
-12:42:23   16 Level
+21:07:03  223 Level
 
-12:42:23   16 Level
+21:07:03  223 Level
 
-12:42:23   16 Fraps
+21:07:03  224 Fraps
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Star
+21:07:03  224 Star
 
-12:42:23   16 Pause
+21:07:03  224 Pause
 
-12:42:23   16 LevelSelection
+21:07:03  224 LevelSelection
 
-12:42:23   16 Level
+21:07:03  224 Level
 
-12:42:23   16 Level
+21:07:03  224 Level
 
-12:42:23   17 Fraps
+21:07:03  225 Fraps
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Star
+21:07:03  225 Star
 
-12:42:23   17 Pause
+21:07:03  225 Pause
 
-12:42:23   17 LevelSelection
+21:07:03  225 LevelSelection
 
-12:42:23   17 Level
+21:07:03  225 Level
 
-12:42:23   17 Level
+21:07:03  225 Level
 
-12:42:23   18 Fraps
+21:07:03  225 Fraps
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Star
+21:07:03  225 Star
 
-12:42:23   18 Pause
+21:07:03  225 Pause
 
-12:42:23   18 LevelSelection
+21:07:03  225 LevelSelection
 
-12:42:23   18 Level
+21:07:03  225 Level
 
-12:42:23   18 Level
+21:07:03  225 Level
 
-12:42:23   18 Fraps
+21:07:03  226 Fraps
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Star
+21:07:03  226 Star
 
-12:42:23   18 Pause
+21:07:03  226 Pause
 
-12:42:23   18 LevelSelection
+21:07:03  226 LevelSelection
 
-12:42:23   18 Level
+21:07:03  226 Level
 
-12:42:23   18 Level
+21:07:03  226 Level
 
-12:42:23   22 Fraps
+21:07:03  229 Fraps
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Star
+21:07:03  229 Star
 
-12:42:23   22 Pause
+21:07:03  229 Pause
 
-12:42:23   22 LevelSelection
+21:07:03  229 LevelSelection
 
-12:42:23   22 Level
+21:07:03  229 Level
 
-12:42:23   22 Level
+21:07:03  229 Level
 
-12:42:23   23 Fraps
+21:07:03  229 Fraps
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Star
+21:07:03  229 Star
 
-12:42:23   23 Pause
+21:07:03  229 Pause
 
-12:42:23   23 LevelSelection
+21:07:03  229 LevelSelection
 
-12:42:23   23 Level
+21:07:03  229 Level
 
-12:42:23   23 Level
+21:07:03  229 Level
 
-12:42:29  209 found 3 objects at target
+21:07:03  230 Fraps
 
-12:42:29  212 found 2 objects at target
+21:07:03  230 Star
 
-12:42:29  216 found 2 objects at target
+21:07:03  230 Star
 
-12:42:29  216 found 3 objects at target
+21:07:03  230 Star
 
-12:42:30  219 found 2 objects at target
+21:07:03  230 Star
 
-12:42:30  232 found 2 objects at target
+21:07:03  230 Star
 
-12:42:31  248 found 8 objects at target
+21:07:03  230 Star
 
-12:42:31  250 found 2 objects at target
+21:07:03  230 Star
 
-12:42:31  264 found 2 objects at target
+21:07:03  230 Star
 
-12:42:31  276 found 5 objects at target
+21:07:03  230 Star
 
-12:42:36  410 found 2 objects at target
+21:07:03  230 Star
 
-12:42:36  411 found 8 objects at target
+21:07:03  230 Star
 
-12:42:36  415 found 2 objects at target
+21:07:03  230 Star
 
-12:42:36  416 found 5 objects at target
+21:07:03  230 Star
 
-12:42:36  423 found 5 objects at target
+21:07:03  230 Star
 
-12:42:36  425 found 2 objects at target
+21:07:03  230 Star
 
-12:42:37  438 found 5 objects at target
+21:07:03  230 Star
 
-12:42:37  440 found 1 objects at target
+21:07:03  230 Pause
 
-12:42:38  468 found 4 objects at target
+21:07:03  230 LevelSelection
 
-12:42:38  472 found 2 objects at target
+21:07:03  230 Level
 
-12:42:38  476 found 2 objects at target
+21:07:03  230 Level
 
-12:42:42  600 found 2 objects at target
+21:07:03  230 Fraps
 
-12:42:42  602 found 2 objects at target
+21:07:03  230 Star
 
-12:42:42  609 found 2 objects at target
+21:07:03  230 Star
 
-12:42:43  612 found 4 objects at target
+21:07:03  230 Star
 
-12:42:45  691 found 3 objects at target
+21:07:03  230 Star
 
-12:42:45  694 found 6 objects at target
+21:07:03  230 Star
 
-12:42:45  697 found 3 objects at target
+21:07:03  230 Star
 
-12:42:45  700 found 3 objects at target
+21:07:03  230 Star
 
-12:42:46  707 found 4 objects at target
+21:07:03  230 Star
 
-12:42:48  784 found 2 objects at target
+21:07:03  230 Star
 
-12:42:48  785 found 4 objects at target
+21:07:03  230 Star
 
-12:42:48  787 found 3 objects at target
+21:07:03  230 Star
 
-12:42:49  793 found 4 objects at target
+21:07:03  230 Star
 
-12:42:49  796 found 6 objects at target
+21:07:03  230 Star
 
-12:42:49  799 found 5 objects at target
+21:07:03  230 Star
 
-12:42:49  802 found 7 objects at target
+21:07:03  230 Star
 
-12:42:49  805 found 9 objects at target
+21:07:03  230 Star
 
-12:42:49  808 found 9 objects at target
+21:07:03  230 Pause
 
-12:42:49  811 found 7 objects at target
+21:07:03  230 LevelSelection
 
-12:42:49  814 found 95 objects at target
+21:07:03  230 Level
 
-12:42:49  817 found 30 objects at target
+21:07:03  230 Level
 
-12:42:49  820 found 13 objects at target
+21:07:03  231 Fraps
 
-12:42:50  823 found 10 objects at target
+21:07:03  231 Star
 
-12:42:50  826 found 4 objects at target
+21:07:03  231 Star
 
-12:42:50  829 found 4 objects at target
+21:07:03  231 Star
 
-12:42:50  832 found 6 objects at target
+21:07:03  231 Star
 
-12:42:50  835 found 5 objects at target
+21:07:03  231 Star
 
-12:42:50  838 found 2 objects at target
+21:07:03  231 Star
 
-12:42:50  841 found 2 objects at target
+21:07:03  231 Star
 
-12:42:50  844 found 4 objects at target
+21:07:03  231 Star
 
-12:42:50  847 found 6 objects at target
+21:07:03  231 Star
 
-12:42:50  850 found 6 objects at target
+21:07:03  231 Star
 
-12:42:51  853 found 5 objects at target
+21:07:03  231 Star
 
-12:42:51  856 found 9 objects at target
+21:07:03  231 Star
 
-12:42:51  859 found 3 objects at target
+21:07:03  231 Star
 
-12:42:51  862 found 5 objects at target
+21:07:03  231 Star
 
-12:42:51  865 found 6 objects at target
+21:07:03  231 Star
 
-12:42:51  868 found 6 objects at target
+21:07:03  231 Star
 
-12:42:51  871 found 8 objects at target
+21:07:03  231 Pause
 
-12:42:54  946 found 4 objects at target
+21:07:03  231 LevelSelection
 
-12:42:55  991 found 4 objects at target
+21:07:03  231 Level
 
-12:42:56 1033 found 4 objects at target
+21:07:03  231 Level
 
-12:43:07 1352 GameStart::GameStart(): Warning! Sprite 'level selection' not found
-12:43:07 1356 Fraps
+21:07:03  232 Fraps
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Star
+21:07:03  232 Star
 
-12:43:07 1356 Pause
+21:07:03  232 Pause
 
-12:43:07 1356 LevelSelection
+21:07:03  232 LevelSelection
 
-12:43:07 1356 Level
+21:07:03  232 Level
 
-12:43:07 1356 Level
+21:07:03  232 Level
 
-12:43:07 1357 Fraps
+21:07:03  233 Fraps
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Pause
+21:07:03  233 Pause
 
-12:43:07 1357 LevelSelection
+21:07:03  233 LevelSelection
 
-12:43:07 1357 Level
+21:07:03  233 Level
 
-12:43:07 1357 Level
+21:07:03  233 Level
 
-12:43:07 1357 Fraps
+21:07:03  233 Fraps
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Star
+21:07:03  233 Star
 
-12:43:07 1357 Pause
+21:07:03  233 Pause
 
-12:43:07 1357 LevelSelection
+21:07:03  233 LevelSelection
 
-12:43:07 1357 Level
+21:07:03  233 Level
 
-12:43:07 1357 Level
+21:07:03  233 Level
 
-12:43:07 1358 Fraps
+21:07:03  234 Fraps
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Star
+21:07:03  234 Star
 
-12:43:07 1358 Pause
+21:07:03  234 Pause
 
-12:43:07 1358 LevelSelection
+21:07:03  234 LevelSelection
 
-12:43:07 1358 Level
+21:07:03  234 Level
 
-12:43:07 1358 Level
+21:07:03  234 Level
 
-12:43:07 1359 Fraps
+21:07:03  235 Fraps
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Star
+21:07:03  235 Star
 
-12:43:07 1359 Pause
+21:07:03  235 Pause
 
-12:43:07 1359 LevelSelection
+21:07:03  235 LevelSelection
 
-12:43:07 1359 Level
+21:07:03  235 Level
 
-12:43:07 1359 Level
+21:07:03  235 Level
 
-12:43:07 1360 Fraps
+21:07:04  236 Fraps
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Star
+21:07:04  236 Star
 
-12:43:07 1360 Pause
+21:07:04  236 Pause
 
-12:43:07 1360 LevelSelection
+21:07:04  236 LevelSelection
 
-12:43:07 1360 Level
+21:07:04  236 Level
 
-12:43:07 1360 Level
+21:07:04  236 Level
 
-12:43:07 1361 Fraps
+21:07:04  237 Fraps
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Star
+21:07:04  237 Star
 
-12:43:07 1361 Pause
+21:07:04  237 Pause
 
-12:43:07 1361 LevelSelection
+21:07:04  237 LevelSelection
 
-12:43:07 1361 Level
+21:07:04  237 Level
 
-12:43:07 1361 Level
+21:07:04  237 Level
 
-12:43:07 1362 Fraps
+21:07:04  238 Fraps
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Star
+21:07:04  238 Star
 
-12:43:07 1362 Pause
+21:07:04  238 Pause
 
-12:43:07 1362 LevelSelection
+21:07:04  238 LevelSelection
 
-12:43:07 1362 Level
+21:07:04  238 Level
 
-12:43:07 1362 Level
+21:07:04  238 Level
 
-12:43:07 1363 Fraps
+21:07:04  238 Fraps
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Star
+21:07:04  238 Star
 
-12:43:07 1363 Pause
+21:07:04  238 Pause
 
-12:43:07 1363 LevelSelection
+21:07:04  238 LevelSelection
 
-12:43:07 1363 Level
+21:07:04  238 Level
 
-12:43:07 1363 Level
+21:07:04  238 Level
 
-12:43:07 1363 Fraps
+21:07:04  239 Fraps
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Star
+21:07:04  239 Star
 
-12:43:07 1363 Pause
+21:07:04  239 Pause
 
-12:43:07 1363 LevelSelection
+21:07:04  239 LevelSelection
 
-12:43:07 1363 Level
+21:07:04  239 Level
 
-12:43:07 1363 Level
+21:07:04  239 Level
 
-12:43:07 1364 Fraps
+21:07:04  239 Fraps
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Star
+21:07:04  239 Star
 
-12:43:07 1364 Pause
+21:07:04  239 Pause
 
-12:43:07 1364 LevelSelection
+21:07:04  239 LevelSelection
 
-12:43:07 1364 Level
+21:07:04  239 Level
 
-12:43:07 1364 Level
+21:07:04  239 Level
 
-12:43:07 1364 Fraps
+21:07:04  240 Fraps
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Star
+21:07:04  240 Star
 
-12:43:07 1364 Pause
+21:07:04  240 Pause
 
-12:43:07 1364 LevelSelection
+21:07:04  240 LevelSelection
 
-12:43:07 1364 Level
+21:07:04  240 Level
 
-12:43:07 1364 Level
+21:07:04  240 Level
 
-12:43:07 1365 Fraps
+21:07:04  240 Fraps
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Star
+21:07:04  240 Star
 
-12:43:07 1365 Pause
+21:07:04  240 Pause
 
-12:43:07 1365 LevelSelection
+21:07:04  240 LevelSelection
 
-12:43:07 1365 Level
+21:07:04  240 Level
 
-12:43:07 1365 Level
+21:07:04  240 Level
 
-12:43:07 1366 Fraps
+21:07:04  240 Fraps
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Star
+21:07:04  240 Star
 
-12:43:07 1366 Pause
+21:07:04  240 Pause
 
-12:43:07 1366 LevelSelection
+21:07:04  240 LevelSelection
 
-12:43:07 1366 Level
+21:07:04  240 Level
 
-12:43:07 1366 Level
+21:07:04  240 Level
 
-12:43:07 1366 Fraps
+21:07:04  241 Fraps
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Star
+21:07:04  241 Star
 
-12:43:07 1366 Pause
+21:07:04  241 Pause
 
-12:43:07 1366 LevelSelection
+21:07:04  241 LevelSelection
 
-12:43:07 1366 Level
+21:07:04  241 Level
 
-12:43:07 1366 Level
+21:07:04  241 Level
 
-12:43:08 1367 Fraps
+21:07:04  241 Fraps
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Star
+21:07:04  241 Star
 
-12:43:08 1367 Pause
+21:07:04  241 Pause
 
-12:43:08 1367 LevelSelection
+21:07:04  241 LevelSelection
 
-12:43:08 1367 Level
+21:07:04  241 Level
 
-12:43:08 1367 Level
+21:07:04  241 Level
 
-12:43:08 1367 Fraps
+21:07:04  242 Fraps
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Star
+21:07:04  242 Star
 
-12:43:08 1367 Pause
+21:07:04  242 Pause
 
-12:43:08 1367 LevelSelection
+21:07:04  242 LevelSelection
 
-12:43:08 1367 Level
+21:07:04  242 Level
 
-12:43:08 1367 Level
+21:07:04  242 Level
 
-12:43:08 1368 Fraps
+21:07:04  243 Fraps
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Star
+21:07:04  243 Star
 
-12:43:08 1368 Pause
+21:07:04  243 Pause
 
-12:43:08 1368 LevelSelection
+21:07:04  243 LevelSelection
 
-12:43:08 1368 Level
+21:07:04  243 Level
 
-12:43:08 1368 Level
+21:07:04  243 Level
 
-12:43:08 1369 Fraps
+21:07:04  243 Fraps
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Star
+21:07:04  243 Star
 
-12:43:08 1369 Pause
+21:07:04  243 Pause
 
-12:43:08 1369 LevelSelection
+21:07:04  243 LevelSelection
 
-12:43:08 1369 Level
+21:07:04  243 Level
 
-12:43:08 1369 Level
+21:07:04  243 Level
 
-12:43:08 1370 Fraps
+21:07:04  243 Fraps
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Star
+21:07:04  243 Star
 
-12:43:08 1370 Pause
+21:07:04  243 Pause
 
-12:43:08 1370 LevelSelection
+21:07:04  243 LevelSelection
 
-12:43:08 1370 Level
+21:07:04  243 Level
 
-12:43:08 1370 Level
+21:07:04  243 Level
 
-12:43:08 1371 Fraps
+21:07:04  243 Fraps
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Star
+21:07:04  243 Star
 
-12:43:08 1371 Pause
+21:07:04  243 Pause
 
-12:43:08 1371 LevelSelection
+21:07:04  243 LevelSelection
 
-12:43:08 1371 Level
+21:07:04  243 Level
 
-12:43:08 1371 Level
+21:07:04  243 Level
 
-12:43:08 1378 GameManager::run(): Can't keep up! frame_time 33 ms, split 66 ms
-12:43:18 1697 found 2 objects at target
+21:07:04  244 Fraps
 
-12:43:19 1700 found 2 objects at target
+21:07:04  244 Star
 
-12:43:25 1898 found 2 objects at target
+21:07:04  244 Star
 
-12:43:27 1952 found 2 objects at target
+21:07:04  244 Star
 
-12:43:28 1999 found 2 objects at target
+21:07:04  244 Star
 
-12:43:31 2083 found 3 objects at target
+21:07:04  244 Star
 
-12:43:33 2139 found 3 objects at target
+21:07:04  244 Star
 
-12:43:38 2283 found 1 objects at target
+21:07:04  244 Star
 
-12:43:40 2336 found 2 objects at target
+21:07:04  244 Star
 
-12:43:47 2568 GameStart::GameStart(): Warning! Sprite 'level selection' not found
-12:43:47 2569 Fraps
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Pause
 
-12:43:47 2569 Star
+21:07:04  244 LevelSelection
 
-12:43:47 2569 Star
+21:07:04  244 Level
 
-12:43:47 2569 Star
+21:07:04  244 Level
 
-12:43:47 2569 Star
+21:07:04  244 Fraps
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Star
+21:07:04  244 Star
 
-12:43:47 2569 Pause
+21:07:04  244 Star
 
-12:43:47 2569 LevelSelection
+21:07:04  244 Star
 
-12:43:47 2569 Level
+21:07:04  244 Star
 
-12:43:47 2569 Level
+21:07:04  244 Star
 
-12:43:47 2570 Fraps
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Star
 
-12:43:47 2570 Star
+21:07:04  244 Pause
 
-12:43:47 2570 Star
+21:07:04  244 LevelSelection
 
-12:43:47 2570 Star
+21:07:04  244 Level
 
-12:43:47 2570 Star
+21:07:04  244 Level
 
-12:43:47 2570 Star
+21:07:04  245 Fraps
 
-12:43:47 2570 Star
+21:07:04  245 Star
 
-12:43:47 2570 Star
+21:07:04  245 Star
 
-12:43:47 2570 Star
+21:07:04  245 Star
 
-12:43:47 2570 Star
+21:07:04  245 Star
 
-12:43:47 2570 Pause
+21:07:04  245 Star
 
-12:43:47 2570 LevelSelection
+21:07:04  245 Star
 
-12:43:47 2570 Level
+21:07:04  245 Star
 
-12:43:47 2570 Level
+21:07:04  245 Star
 
-12:43:47 2571 Fraps
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Pause
 
-12:43:47 2571 Star
+21:07:04  245 LevelSelection
 
-12:43:47 2571 Star
+21:07:04  245 Level
 
-12:43:47 2571 Star
+21:07:04  245 Level
 
-12:43:47 2571 Star
+21:07:04  245 Fraps
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Pause
+21:07:04  245 Star
 
-12:43:47 2571 LevelSelection
+21:07:04  245 Star
 
-12:43:47 2571 Level
+21:07:04  245 Star
 
-12:43:47 2571 Level
+21:07:04  245 Star
 
-12:43:47 2571 Fraps
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Star
 
-12:43:47 2571 Star
+21:07:04  245 Pause
 
-12:43:47 2571 Star
+21:07:04  245 LevelSelection
 
-12:43:47 2571 Star
+21:07:04  245 Level
 
-12:43:47 2571 Star
+21:07:04  245 Level
 
-12:43:47 2571 Star
+21:07:04  246 Fraps
 
-12:43:47 2571 Star
+21:07:04  246 Star
 
-12:43:47 2571 Star
+21:07:04  246 Star
 
-12:43:47 2571 Star
+21:07:04  246 Star
 
-12:43:47 2571 Star
+21:07:04  246 Star
 
-12:43:47 2571 Pause
+21:07:04  246 Star
 
-12:43:47 2571 LevelSelection
+21:07:04  246 Star
 
-12:43:47 2571 Level
+21:07:04  246 Star
 
-12:43:47 2571 Level
+21:07:04  246 Star
 
-12:43:47 2577 Fraps
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Star
 
-12:43:47 2577 Star
+21:07:04  246 Pause
 
-12:43:47 2577 Star
+21:07:04  246 LevelSelection
 
-12:43:47 2577 Star
+21:07:04  246 Level
 
-12:43:47 2577 Star
+21:07:04  246 Level
 
-12:43:47 2577 Star
+21:07:04  247 Fraps
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Pause
+21:07:04  247 Star
 
-12:43:47 2577 LevelSelection
+21:07:04  247 Star
 
-12:43:47 2577 Level
+21:07:04  247 Star
 
-12:43:47 2577 Level
+21:07:04  247 Star
 
-12:43:47 2577 Fraps
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Star
 
-12:43:47 2577 Star
+21:07:04  247 Pause
 
-12:43:47 2577 Star
+21:07:04  247 LevelSelection
 
-12:43:47 2577 Star
+21:07:04  247 Level
 
-12:43:47 2577 Star
+21:07:04  247 Level
 
-12:43:47 2577 Star
+21:07:04  248 Fraps
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Pause
+21:07:04  248 Star
 
-12:43:47 2577 LevelSelection
+21:07:04  248 Star
 
-12:43:47 2577 Level
+21:07:04  248 Star
 
-12:43:47 2577 Level
+21:07:04  248 Star
 
-12:43:47 2577 Fraps
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Pause
 
-12:43:47 2577 Star
+21:07:04  248 LevelSelection
 
-12:43:47 2577 Star
+21:07:04  248 Level
 
-12:43:47 2577 Star
+21:07:04  248 Level
 
-12:43:47 2577 Star
+21:07:04  248 Fraps
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Star
+21:07:04  248 Star
 
-12:43:47 2577 Pause
+21:07:04  248 Star
 
-12:43:47 2577 LevelSelection
+21:07:04  248 Star
 
-12:43:47 2577 Level
+21:07:04  248 Star
 
-12:43:47 2577 Level
+21:07:04  248 Star
 
-12:43:47 2578 Fraps
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Star
 
-12:43:47 2578 Star
+21:07:04  248 Pause
 
-12:43:47 2578 Star
+21:07:04  248 LevelSelection
 
-12:43:47 2578 Star
+21:07:04  248 Level
 
-12:43:47 2578 Star
+21:07:04  248 Level
 
-12:43:47 2578 Star
+21:07:04  249 Fraps
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Pause
+21:07:04  249 Star
 
-12:43:47 2578 LevelSelection
+21:07:04  249 Star
 
-12:43:47 2578 Level
+21:07:04  249 Star
 
-12:43:47 2578 Level
+21:07:04  249 Star
 
-12:43:47 2578 Fraps
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Star
 
-12:43:47 2578 Star
+21:07:04  249 Pause
 
-12:43:47 2578 Star
+21:07:04  249 LevelSelection
 
-12:43:47 2578 Star
+21:07:04  249 Level
 
-12:43:47 2578 Star
+21:07:04  249 Level
 
-12:43:47 2578 Star
+21:07:04  250 Fraps
 
-12:43:47 2578 Star
+21:07:04  250 Star
 
-12:43:47 2578 Star
+21:07:04  250 Star
 
-12:43:47 2578 Star
+21:07:04  250 Star
 
-12:43:47 2578 Star
+21:07:04  250 Star
 
-12:43:47 2578 Pause
+21:07:04  250 Star
 
-12:43:47 2578 LevelSelection
+21:07:04  250 Star
 
-12:43:47 2578 Level
+21:07:04  250 Star
 
-12:43:47 2578 Level
+21:07:04  250 Star
 
-12:43:48 2579 Fraps
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Pause
 
-12:43:48 2579 Star
+21:07:04  250 LevelSelection
 
-12:43:48 2579 Star
+21:07:04  250 Level
 
-12:43:48 2579 Star
+21:07:04  250 Level
 
-12:43:48 2579 Star
+21:07:04  250 Fraps
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Star
+21:07:04  250 Star
 
-12:43:48 2579 Pause
+21:07:04  250 Star
 
-12:43:48 2579 LevelSelection
+21:07:04  250 Star
 
-12:43:48 2579 Level
+21:07:04  250 Star
 
-12:43:48 2579 Level
+21:07:04  250 Star
 
-12:43:48 2580 Fraps
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Star
 
-12:43:48 2580 Star
+21:07:04  250 Pause
 
-12:43:48 2580 Star
+21:07:04  250 LevelSelection
 
-12:43:48 2580 Star
+21:07:04  250 Level
 
-12:43:48 2580 Star
+21:07:04  250 Level
 
-12:43:48 2580 Star
+21:07:04  251 Fraps
 
-12:43:48 2580 Star
+21:07:04  251 Star
 
-12:43:48 2580 Star
+21:07:04  251 Star
 
-12:43:48 2580 Star
+21:07:04  251 Star
 
-12:43:48 2580 Star
+21:07:04  251 Star
 
-12:43:48 2580 Pause
+21:07:04  251 Star
 
-12:43:48 2580 LevelSelection
+21:07:04  251 Star
 
-12:43:48 2580 Level
+21:07:04  251 Star
 
-12:43:48 2580 Level
+21:07:04  251 Star
 
-12:43:48 2581 Fraps
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Pause
 
-12:43:48 2581 Star
+21:07:04  251 LevelSelection
 
-12:43:48 2581 Star
+21:07:04  251 Level
 
-12:43:48 2581 Star
+21:07:04  251 Level
 
-12:43:48 2581 Star
+21:07:04  251 Fraps
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Star
+21:07:04  251 Star
 
-12:43:48 2581 Pause
+21:07:04  251 Star
 
-12:43:48 2581 LevelSelection
+21:07:04  251 Star
 
-12:43:48 2581 Level
+21:07:04  251 Star
 
-12:43:48 2581 Level
+21:07:04  251 Star
 
-12:43:48 2582 Fraps
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Star
 
-12:43:48 2582 Star
+21:07:04  251 Pause
 
-12:43:48 2582 Star
+21:07:04  251 LevelSelection
 
-12:43:48 2582 Star
+21:07:04  251 Level
 
-12:43:48 2582 Star
+21:07:04  251 Level
 
-12:43:48 2582 Star
+21:07:04  252 Fraps
 
-12:43:48 2582 Star
+21:07:04  252 Star
 
-12:43:48 2582 Star
+21:07:04  252 Star
 
-12:43:48 2582 Star
+21:07:04  252 Star
 
-12:43:48 2582 Star
+21:07:04  252 Star
 
-12:43:48 2582 Pause
+21:07:04  252 Star
 
-12:43:48 2582 LevelSelection
+21:07:04  252 Star
 
-12:43:48 2582 Level
+21:07:04  252 Star
 
-12:43:48 2582 Level
+21:07:04  252 Star
 
-12:43:48 2583 Fraps
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Pause
 
-12:43:48 2583 Star
+21:07:04  252 LevelSelection
 
-12:43:48 2583 Star
+21:07:04  252 Level
 
-12:43:48 2583 Star
+21:07:04  252 Level
 
-12:43:48 2583 Star
+21:07:04  252 Fraps
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Star
+21:07:04  252 Star
 
-12:43:48 2583 Pause
+21:07:04  252 Star
 
-12:43:48 2583 LevelSelection
+21:07:04  252 Star
 
-12:43:48 2583 Level
+21:07:04  252 Star
 
-12:43:48 2583 Level
+21:07:04  252 Star
 
-12:43:48 2584 Fraps
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Star
 
-12:43:48 2584 Star
+21:07:04  252 Pause
 
-12:43:48 2584 Star
+21:07:04  252 LevelSelection
 
-12:43:48 2584 Star
+21:07:04  252 Level
 
-12:43:48 2584 Star
+21:07:04  252 Level
 
-12:43:48 2584 Star
+21:07:04  253 Fraps
 
-12:43:48 2584 Star
+21:07:04  253 Star
 
-12:43:48 2584 Star
+21:07:04  253 Star
 
-12:43:48 2584 Star
+21:07:04  253 Star
 
-12:43:48 2584 Star
+21:07:04  253 Star
 
-12:43:48 2584 Pause
+21:07:04  253 Star
 
-12:43:48 2584 LevelSelection
+21:07:04  253 Star
 
-12:43:48 2584 Level
+21:07:04  253 Star
 
-12:43:48 2584 Level
+21:07:04  253 Star
 
-12:43:48 2585 Fraps
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Star
 
-12:43:48 2585 Star
+21:07:04  253 Pause
 
-12:43:48 2585 Star
+21:07:04  253 LevelSelection
 
-12:43:48 2585 Star
+21:07:04  253 Level
 
-12:43:48 2585 Star
+21:07:04  253 Level
 
-12:43:48 2585 Star
+21:07:04  254 Fraps
 
-12:43:48 2585 Star
+21:07:04  254 Star
 
-12:43:48 2585 Star
+21:07:04  254 Star
 
-12:43:48 2585 Star
+21:07:04  254 Star
 
-12:43:48 2585 Star
+21:07:04  254 Star
 
-12:43:48 2585 Pause
+21:07:04  254 Star
 
-12:43:48 2585 LevelSelection
+21:07:04  254 Star
 
-12:43:48 2585 Level
+21:07:04  254 Star
 
-12:43:48 2585 Level
+21:07:04  254 Star
 
-12:43:48 2586 Fraps
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Pause
 
-12:43:48 2586 Star
+21:07:04  254 LevelSelection
 
-12:43:48 2586 Star
+21:07:04  254 Level
 
-12:43:48 2586 Star
+21:07:04  254 Level
 
-12:43:48 2586 Star
+21:07:04  254 Fraps
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Star
+21:07:04  254 Star
 
-12:43:48 2586 Pause
+21:07:04  254 Star
 
-12:43:48 2586 LevelSelection
+21:07:04  254 Star
 
-12:43:48 2586 Level
+21:07:04  254 Star
 
-12:43:48 2586 Level
+21:07:04  254 Star
 
-12:43:48 2587 Fraps
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Star
 
-12:43:48 2587 Star
+21:07:04  254 Pause
 
-12:43:48 2587 Star
+21:07:04  254 LevelSelection
 
-12:43:48 2587 Star
+21:07:04  254 Level
 
-12:43:48 2587 Star
+21:07:04  254 Level
 
-12:43:48 2587 Star
+21:07:04  255 Fraps
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Pause
+21:07:04  255 Star
 
-12:43:48 2587 LevelSelection
+21:07:04  255 Star
 
-12:43:48 2587 Level
+21:07:04  255 Star
 
-12:43:48 2587 Level
+21:07:04  255 Star
 
-12:43:48 2587 Fraps
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Star
 
-12:43:48 2587 Star
+21:07:04  255 Pause
 
-12:43:48 2587 Star
+21:07:04  255 LevelSelection
 
-12:43:48 2587 Star
+21:07:04  255 Level
 
-12:43:48 2587 Star
+21:07:04  255 Level
 
-12:43:48 2587 Star
+21:07:04  262 Fraps
 
-12:43:48 2587 Star
+21:07:04  262 Star
 
-12:43:48 2587 Star
+21:07:04  262 Star
 
-12:43:48 2587 Star
+21:07:04  262 Star
 
-12:43:48 2587 Star
+21:07:04  262 Star
 
-12:43:48 2587 Pause
+21:07:04  262 Star
 
-12:43:48 2587 LevelSelection
+21:07:04  262 Star
 
-12:43:48 2587 Level
+21:07:04  262 Star
 
-12:43:48 2587 Level
+21:07:04  262 Star
 
-12:43:48 2592 Fraps
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Pause
 
-12:43:48 2592 Star
+21:07:04  262 LevelSelection
 
-12:43:48 2592 Star
+21:07:04  262 Level
 
-12:43:48 2592 Star
+21:07:04  262 Level
 
-12:43:48 2592 Star
+21:07:04  262 Fraps
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Star
+21:07:04  262 Star
 
-12:43:48 2592 Pause
+21:07:04  262 Star
 
-12:43:48 2592 LevelSelection
+21:07:04  262 Star
 
-12:43:48 2592 Level
+21:07:04  262 Star
 
-12:43:48 2592 Level
+21:07:04  262 Star
 
-12:43:48 2599 Fraps::Fraps(): Fraps module unloaded
-12:43:48 2599 WorldManager::shutDown(): Successfully stopped.
-12:43:48 2599 ** Game stopped **
-12:43:48 2599 ****************************************************
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Star
+
+21:07:04  262 Pause
+
+21:07:04  262 LevelSelection
+
+21:07:04  262 Level
+
+21:07:04  262 Level
+
+21:07:04  263 Fraps
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Pause
+
+21:07:04  263 LevelSelection
+
+21:07:04  263 Level
+
+21:07:04  263 Level
+
+21:07:04  263 Fraps
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Star
+
+21:07:04  263 Pause
+
+21:07:04  263 LevelSelection
+
+21:07:04  263 Level
+
+21:07:04  263 Level
+
+21:07:04  264 Fraps
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Star
+
+21:07:04  264 Pause
+
+21:07:04  264 LevelSelection
+
+21:07:04  264 Level
+
+21:07:04  264 Level
+
+21:07:04  265 Fraps
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Pause
+
+21:07:04  265 LevelSelection
+
+21:07:04  265 Level
+
+21:07:04  265 Level
+
+21:07:04  265 Fraps
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Star
+
+21:07:04  265 Pause
+
+21:07:04  265 LevelSelection
+
+21:07:04  265 Level
+
+21:07:04  265 Level
+
+21:07:04  266 Fraps
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Pause
+
+21:07:04  266 LevelSelection
+
+21:07:04  266 Level
+
+21:07:04  266 Level
+
+21:07:04  266 Fraps
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Star
+
+21:07:04  266 Pause
+
+21:07:04  266 LevelSelection
+
+21:07:04  266 Level
+
+21:07:04  266 Level
+
+21:07:05  267 Fraps
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Pause
+
+21:07:05  267 LevelSelection
+
+21:07:05  267 Level
+
+21:07:05  267 Level
+
+21:07:05  267 Fraps
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Star
+
+21:07:05  267 Pause
+
+21:07:05  267 LevelSelection
+
+21:07:05  267 Level
+
+21:07:05  267 Level
+
+21:07:05  268 Fraps
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Star
+
+21:07:05  268 Pause
+
+21:07:05  268 LevelSelection
+
+21:07:05  268 Level
+
+21:07:05  268 Level
+
+21:07:05  269 Fraps
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Pause
+
+21:07:05  269 LevelSelection
+
+21:07:05  269 Level
+
+21:07:05  269 Level
+
+21:07:05  269 Fraps
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Star
+
+21:07:05  269 Pause
+
+21:07:05  269 LevelSelection
+
+21:07:05  269 Level
+
+21:07:05  269 Level
+
+21:07:05  270 Fraps
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Star
+
+21:07:05  270 Pause
+
+21:07:05  270 LevelSelection
+
+21:07:05  270 Level
+
+21:07:05  270 Level
+
+21:07:05  271 Fraps
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Star
+
+21:07:05  271 Pause
+
+21:07:05  271 LevelSelection
+
+21:07:05  271 Level
+
+21:07:05  271 Level
+
+21:07:05  272 Fraps
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Pause
+
+21:07:05  272 LevelSelection
+
+21:07:05  272 Level
+
+21:07:05  272 Level
+
+21:07:05  272 Fraps
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Star
+
+21:07:05  272 Pause
+
+21:07:05  272 LevelSelection
+
+21:07:05  272 Level
+
+21:07:05  272 Level
+
+21:07:05  273 Fraps
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Star
+
+21:07:05  273 Pause
+
+21:07:05  273 LevelSelection
+
+21:07:05  273 Level
+
+21:07:05  273 Level
+
+21:07:05  274 Fraps
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Star
+
+21:07:05  274 Pause
+
+21:07:05  274 LevelSelection
+
+21:07:05  274 Level
+
+21:07:05  274 Level
+
+21:07:05  275 Fraps
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Star
+
+21:07:05  275 Pause
+
+21:07:05  275 LevelSelection
+
+21:07:05  275 Level
+
+21:07:05  275 Level
+
+21:07:05  276 Fraps
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Pause
+
+21:07:05  276 LevelSelection
+
+21:07:05  276 Level
+
+21:07:05  276 Level
+
+21:07:05  276 Fraps
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Star
+
+21:07:05  276 Pause
+
+21:07:05  276 LevelSelection
+
+21:07:05  276 Level
+
+21:07:05  276 Level
+
+21:07:05  277 Fraps
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Star
+
+21:07:05  277 Pause
+
+21:07:05  277 LevelSelection
+
+21:07:05  277 Level
+
+21:07:05  277 Level
+
+21:07:05  278 Fraps
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Pause
+
+21:07:05  278 LevelSelection
+
+21:07:05  278 Level
+
+21:07:05  278 Level
+
+21:07:05  278 Fraps
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Pause
+
+21:07:05  278 LevelSelection
+
+21:07:05  278 Level
+
+21:07:05  278 Level
+
+21:07:05  278 Fraps
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Star
+
+21:07:05  278 Pause
+
+21:07:05  278 LevelSelection
+
+21:07:05  278 Level
+
+21:07:05  278 Level
+
+21:07:05  279 Fraps
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Star
+
+21:07:05  279 Pause
+
+21:07:05  279 LevelSelection
+
+21:07:05  279 Level
+
+21:07:05  279 Level
+
+21:07:05  280 Fraps
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Pause
+
+21:07:05  280 LevelSelection
+
+21:07:05  280 Level
+
+21:07:05  280 Level
+
+21:07:05  280 Fraps
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Star
+
+21:07:05  280 Pause
+
+21:07:05  280 LevelSelection
+
+21:07:05  280 Level
+
+21:07:05  280 Level
+
+21:07:05  281 Fraps
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Star
+
+21:07:05  281 Pause
+
+21:07:05  281 LevelSelection
+
+21:07:05  281 Level
+
+21:07:05  281 Level
+
+21:07:05  286 Fraps
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Star
+
+21:07:05  286 Pause
+
+21:07:05  286 LevelSelection
+
+21:07:05  286 Level
+
+21:07:05  286 Level
+
+21:07:05  287 Fraps
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Pause
+
+21:07:05  287 LevelSelection
+
+21:07:05  287 Level
+
+21:07:05  287 Level
+
+21:07:05  287 Fraps
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Pause
+
+21:07:05  287 LevelSelection
+
+21:07:05  287 Level
+
+21:07:05  287 Level
+
+21:07:05  287 Fraps
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Star
+
+21:07:05  287 Pause
+
+21:07:05  287 LevelSelection
+
+21:07:05  287 Level
+
+21:07:05  287 Level
+
+21:07:05  288 Fraps
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Star
+
+21:07:05  288 Pause
+
+21:07:05  288 LevelSelection
+
+21:07:05  288 Level
+
+21:07:05  288 Level
+
+21:07:05  289 Fraps
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Star
+
+21:07:05  289 Pause
+
+21:07:05  289 LevelSelection
+
+21:07:05  289 Level
+
+21:07:05  289 Level
+
+21:07:05  290 Fraps
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Star
+
+21:07:05  290 Pause
+
+21:07:05  290 LevelSelection
+
+21:07:05  290 Level
+
+21:07:05  290 Level
+
+21:07:05  292 Fraps
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Star
+
+21:07:05  292 Pause
+
+21:07:05  292 LevelSelection
+
+21:07:05  292 Level
+
+21:07:05  292 Level
+
+21:07:05  293 Fraps
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Star
+
+21:07:05  293 Pause
+
+21:07:05  293 LevelSelection
+
+21:07:05  293 Level
+
+21:07:05  293 Level
+
+21:07:06  297 Fraps
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Star
+
+21:07:06  297 Pause
+
+21:07:06  297 LevelSelection
+
+21:07:06  297 Level
+
+21:07:06  297 Level
+
+21:07:06  298 Fraps
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Star
+
+21:07:06  298 Pause
+
+21:07:06  298 LevelSelection
+
+21:07:06  298 Level
+
+21:07:06  298 Level
+
+21:07:06  299 Fraps
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Star
+
+21:07:06  299 Pause
+
+21:07:06  299 LevelSelection
+
+21:07:06  299 Level
+
+21:07:06  299 Level
+
+21:07:06  300 Fraps
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Star
+
+21:07:06  300 Pause
+
+21:07:06  300 LevelSelection
+
+21:07:06  300 Level
+
+21:07:06  300 Level
+
+21:07:06  301 Fraps
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Star
+
+21:07:06  301 Pause
+
+21:07:06  301 LevelSelection
+
+21:07:06  301 Level
+
+21:07:06  301 Level
+
+21:07:06  302 Fraps
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Star
+
+21:07:06  302 Pause
+
+21:07:06  302 LevelSelection
+
+21:07:06  302 Level
+
+21:07:06  302 Level
+
+21:07:06  303 Fraps
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Star
+
+21:07:06  303 Pause
+
+21:07:06  303 LevelSelection
+
+21:07:06  303 Level
+
+21:07:06  303 Level
+
+21:07:06  304 Fraps
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Star
+
+21:07:06  304 Pause
+
+21:07:06  304 LevelSelection
+
+21:07:06  304 Level
+
+21:07:06  304 Level
+
+21:07:06  305 Fraps
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Star
+
+21:07:06  305 Pause
+
+21:07:06  305 LevelSelection
+
+21:07:06  305 Level
+
+21:07:06  305 Level
+
+21:07:06  306 Fraps
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Pause
+
+21:07:06  306 LevelSelection
+
+21:07:06  306 Level
+
+21:07:06  306 Level
+
+21:07:06  306 Fraps
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Star
+
+21:07:06  306 Pause
+
+21:07:06  306 LevelSelection
+
+21:07:06  306 Level
+
+21:07:06  306 Level
+
+21:07:06  307 Fraps
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Pause
+
+21:07:06  307 LevelSelection
+
+21:07:06  307 Level
+
+21:07:06  307 Level
+
+21:07:06  307 Fraps
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Star
+
+21:07:06  307 Pause
+
+21:07:06  307 LevelSelection
+
+21:07:06  307 Level
+
+21:07:06  307 Level
+
+21:07:06  308 Fraps
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Star
+
+21:07:06  308 Pause
+
+21:07:06  308 LevelSelection
+
+21:07:06  308 Level
+
+21:07:06  308 Level
+
+21:07:06  311 Fraps
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Star
+
+21:07:06  311 Pause
+
+21:07:06  311 LevelSelection
+
+21:07:06  311 Level
+
+21:07:06  311 Level
+
+21:07:13  515 found 2 objects at target
+
+21:07:20  726 found 2 objects at target
+
+21:07:22  790 found 2 objects at target
+
+21:07:29 1003 found 2 objects at target
+
+21:07:29 1022 found 2 objects at target
+
+21:07:30 1044 found 2 objects at target
+
+21:07:31 1062 found 2 objects at target
+
+21:07:32 1086 found 2 objects at target
+
+21:07:32 1105 found 2 objects at target
+
+21:07:40 1349 found 7 objects at target
+
+21:07:42 1403 found 3 objects at target
+
+21:07:50 1632 found 2 objects at target
+
+21:07:52 1701 found 2 objects at target
+
+21:07:54 1757 found 3 objects at target
+
+21:07:56 1820 found 3 objects at target
+
+21:08:06 2127 found 2 objects at target
+
+21:08:17 2461 GameStart::GameStart(): Warning! Sprite 'level selection' not found
+21:08:18 2479 Fraps
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Star
+
+21:08:18 2479 Pause
+
+21:08:18 2479 LevelSelection
+
+21:08:18 2479 Level
+
+21:08:18 2479 Level
+
+21:08:18 2480 Fraps
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Pause
+
+21:08:18 2480 LevelSelection
+
+21:08:18 2480 Level
+
+21:08:18 2480 Level
+
+21:08:18 2480 Fraps
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Pause
+
+21:08:18 2480 LevelSelection
+
+21:08:18 2480 Level
+
+21:08:18 2480 Level
+
+21:08:18 2480 Fraps
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Star
+
+21:08:18 2480 Pause
+
+21:08:18 2480 LevelSelection
+
+21:08:18 2480 Level
+
+21:08:18 2480 Level
+
+21:08:18 2481 Fraps
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Pause
+
+21:08:18 2481 LevelSelection
+
+21:08:18 2481 Level
+
+21:08:18 2481 Level
+
+21:08:18 2481 Fraps
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Star
+
+21:08:18 2481 Pause
+
+21:08:18 2481 LevelSelection
+
+21:08:18 2481 Level
+
+21:08:18 2481 Level
+
+21:08:18 2482 Fraps
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Pause
+
+21:08:18 2482 LevelSelection
+
+21:08:18 2482 Level
+
+21:08:18 2482 Level
+
+21:08:18 2482 Fraps
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Pause
+
+21:08:18 2482 LevelSelection
+
+21:08:18 2482 Level
+
+21:08:18 2482 Level
+
+21:08:18 2482 Fraps
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Pause
+
+21:08:18 2482 LevelSelection
+
+21:08:18 2482 Level
+
+21:08:18 2482 Level
+
+21:08:18 2482 Fraps
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Star
+
+21:08:18 2482 Pause
+
+21:08:18 2482 LevelSelection
+
+21:08:18 2482 Level
+
+21:08:18 2482 Level
+
+21:08:18 2483 Fraps
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Star
+
+21:08:18 2483 Pause
+
+21:08:18 2483 LevelSelection
+
+21:08:18 2483 Level
+
+21:08:18 2483 Level
+
+21:08:18 2484 Fraps
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Star
+
+21:08:18 2484 Pause
+
+21:08:18 2484 LevelSelection
+
+21:08:18 2484 Level
+
+21:08:18 2484 Level
+
+21:08:18 2486 Fraps
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Star
+
+21:08:18 2486 Pause
+
+21:08:18 2486 LevelSelection
+
+21:08:18 2486 Level
+
+21:08:18 2486 Level
+
+21:08:18 2487 Fraps
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Star
+
+21:08:18 2487 Pause
+
+21:08:18 2487 LevelSelection
+
+21:08:18 2487 Level
+
+21:08:18 2487 Level
+
+21:08:18 2488 Fraps
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Star
+
+21:08:18 2488 Pause
+
+21:08:18 2488 LevelSelection
+
+21:08:18 2488 Level
+
+21:08:18 2488 Level
+
+21:08:18 2489 Fraps
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Star
+
+21:08:18 2489 Pause
+
+21:08:18 2489 LevelSelection
+
+21:08:18 2489 Level
+
+21:08:18 2489 Level
+
+21:08:18 2490 Fraps
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Pause
+
+21:08:18 2490 LevelSelection
+
+21:08:18 2490 Level
+
+21:08:18 2490 Level
+
+21:08:18 2490 Fraps
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Pause
+
+21:08:18 2490 LevelSelection
+
+21:08:18 2490 Level
+
+21:08:18 2490 Level
+
+21:08:18 2490 Fraps
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Star
+
+21:08:18 2490 Pause
+
+21:08:18 2490 LevelSelection
+
+21:08:18 2490 Level
+
+21:08:18 2490 Level
+
+21:08:18 2491 Fraps
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Pause
+
+21:08:18 2491 LevelSelection
+
+21:08:18 2491 Level
+
+21:08:18 2491 Level
+
+21:08:18 2491 Fraps
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Star
+
+21:08:18 2491 Pause
+
+21:08:18 2491 LevelSelection
+
+21:08:18 2491 Level
+
+21:08:18 2491 Level
+
+21:08:18 2492 Fraps
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Star
+
+21:08:18 2492 Pause
+
+21:08:18 2492 LevelSelection
+
+21:08:18 2492 Level
+
+21:08:18 2492 Level
+
+21:08:18 2493 Fraps
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Pause
+
+21:08:18 2493 LevelSelection
+
+21:08:18 2493 Level
+
+21:08:18 2493 Level
+
+21:08:18 2493 Fraps
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Star
+
+21:08:18 2493 Pause
+
+21:08:18 2493 LevelSelection
+
+21:08:18 2493 Level
+
+21:08:18 2493 Level
+
+21:08:18 2494 Fraps
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Pause
+
+21:08:18 2494 LevelSelection
+
+21:08:18 2494 Level
+
+21:08:18 2494 Level
+
+21:08:18 2494 Fraps
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Star
+
+21:08:18 2494 Pause
+
+21:08:18 2494 LevelSelection
+
+21:08:18 2494 Level
+
+21:08:18 2494 Level
+
+21:08:18 2495 Fraps
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Pause
+
+21:08:18 2495 LevelSelection
+
+21:08:18 2495 Level
+
+21:08:18 2495 Level
+
+21:08:18 2495 Fraps
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Star
+
+21:08:18 2495 Pause
+
+21:08:18 2495 LevelSelection
+
+21:08:18 2495 Level
+
+21:08:18 2495 Level
+
+21:08:18 2496 Fraps
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Star
+
+21:08:18 2496 Pause
+
+21:08:18 2496 LevelSelection
+
+21:08:18 2496 Level
+
+21:08:18 2496 Level
+
+21:08:18 2499 Fraps
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Star
+
+21:08:18 2499 Pause
+
+21:08:18 2499 LevelSelection
+
+21:08:18 2499 Level
+
+21:08:18 2499 Level
+
+21:08:18 2500 Fraps
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Pause
+
+21:08:18 2500 LevelSelection
+
+21:08:18 2500 Level
+
+21:08:18 2500 Level
+
+21:08:18 2500 Fraps
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Pause
+
+21:08:18 2500 LevelSelection
+
+21:08:18 2500 Level
+
+21:08:18 2500 Level
+
+21:08:18 2500 Fraps
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Star
+
+21:08:18 2500 Pause
+
+21:08:18 2500 LevelSelection
+
+21:08:18 2500 Level
+
+21:08:18 2500 Level
+
+21:08:18 2501 Fraps
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Star
+
+21:08:18 2501 Pause
+
+21:08:18 2501 LevelSelection
+
+21:08:18 2501 Level
+
+21:08:18 2501 Level
+
+21:08:18 2502 Fraps
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Star
+
+21:08:18 2502 Pause
+
+21:08:18 2502 LevelSelection
+
+21:08:18 2502 Level
+
+21:08:18 2502 Level
+
+21:08:18 2503 Fraps
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Pause
+
+21:08:18 2503 LevelSelection
+
+21:08:18 2503 Level
+
+21:08:18 2503 Level
+
+21:08:18 2503 Fraps
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Star
+
+21:08:18 2503 Pause
+
+21:08:18 2503 LevelSelection
+
+21:08:18 2503 Level
+
+21:08:18 2503 Level
+
+21:08:18 2504 Fraps
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Pause
+
+21:08:18 2504 LevelSelection
+
+21:08:18 2504 Level
+
+21:08:18 2504 Level
+
+21:08:18 2504 Fraps
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Pause
+
+21:08:18 2504 LevelSelection
+
+21:08:18 2504 Level
+
+21:08:18 2504 Level
+
+21:08:18 2504 Fraps
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Star
+
+21:08:18 2504 Pause
+
+21:08:18 2504 LevelSelection
+
+21:08:18 2504 Level
+
+21:08:18 2504 Level
+
+21:08:18 2505 Fraps
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Star
+
+21:08:18 2505 Pause
+
+21:08:18 2505 LevelSelection
+
+21:08:18 2505 Level
+
+21:08:18 2505 Level
+
+21:08:18 2506 Fraps
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Star
+
+21:08:18 2506 Pause
+
+21:08:18 2506 LevelSelection
+
+21:08:18 2506 Level
+
+21:08:18 2506 Level
+
+21:08:21 2585 found 2 objects at target
+
+21:08:21 2589 found 2 objects at target
+
+21:08:21 2593 found 2 objects at target
+
+21:08:22 2603 found 2 objects at target
+
+21:08:22 2606 found 3 objects at target
+
+21:08:22 2610 found 3 objects at target
+
+21:08:22 2612 found 4 objects at target
+
+21:08:22 2623 found 2 objects at target
+
+21:08:22 2626 found 4 objects at target
+
+21:08:24 2667 found 2 objects at target
+
+21:08:26 2729 found 3 objects at target
+
+21:08:26 2731 found 2 objects at target
+
+21:08:26 2738 found 2 objects at target
+
+21:08:29 2815 found 2 objects at target
+
+21:08:29 2821 found 2 objects at target
+
+21:08:29 2823 found 2 objects at target
+
+21:08:30 2844 found 2 objects at target
+
+21:08:32 2916 found 2 objects at target
+
+21:08:32 2917 found 2 objects at target
+
+21:08:32 2921 found 2 objects at target
+
+21:08:32 2924 found 4 objects at target
+
+21:08:32 2925 found 5 objects at target
+
+21:08:33 2938 found 2 objects at target
+
+21:08:33 2942 found 2 objects at target
+
+21:08:34 2967 found 2 objects at target
+
+21:08:38 3100 found 2 objects at target
+
+21:08:38 3102 found 2 objects at target
+
+21:08:38 3103 found 2 objects at target
+
+21:08:38 3106 found 2 objects at target
+
+21:08:39 3113 found 2 objects at target
+
+21:08:39 3117 found 3 objects at target
+
+21:08:39 3122 found 2 objects at target
+
+21:08:39 3123 found 5 objects at target
+
+21:08:44 3290 found 2 objects at target
+
+21:08:45 3295 found 2 objects at target
+
+21:08:45 3299 found 2 objects at target
+
+21:08:45 3300 found 2 objects at target
+
+21:08:45 3301 found 2 objects at target
+
+21:08:45 3302 found 2 objects at target
+
+21:08:45 3308 found 7 objects at target
+
+21:08:45 3319 found 3 objects at target
+
+21:08:45 3320 found 2 objects at target
+
+21:08:46 3326 found 2 objects at target
+
+21:08:46 3336 found 3 objects at target
+
+21:08:49 3435 found 2 objects at target
+
+21:08:49 3441 found 2 objects at target
+
+21:08:51 3486 found 3 objects at target
+
+21:08:51 3489 found 2 objects at target
+
+21:08:52 3507 found 2 objects at target
+
+21:08:52 3509 found 2 objects at target
+
+21:08:52 3527 found 2 objects at target
+
+21:08:52 3530 found 2 objects at target
+
+21:08:53 3544 found 2 objects at target
+
+21:08:53 3547 found 3 objects at target
+
+21:08:53 3560 found 3 objects at target
+
+21:08:53 3563 found 5 objects at target
+
+21:08:54 3567 found 3 objects at target
+
+21:08:54 3581 found 2 objects at target
+
+21:08:54 3584 found 4 objects at target
+
+21:08:54 3595 found 4 objects at target
+
+21:08:55 3598 found 2 objects at target
+
+21:08:55 3601 found 4 objects at target
+
+21:08:55 3611 found 3 objects at target
+
+21:08:55 3614 found 5 objects at target
+
+21:08:55 3617 found 7 objects at target
+
+21:08:56 3630 found 3 objects at target
+
+21:08:56 3633 found 5 objects at target
+
+21:08:56 3636 found 7 objects at target
+
+21:08:56 3650 found 1 objects at target
+
+21:08:56 3654 found 2 objects at target
+
+21:08:56 3657 found 4 objects at target
+
+21:08:57 3668 found 3 objects at target
+
+21:08:57 3671 found 4 objects at target
+
+21:08:58 3708 found 1 objects at target
+
+21:09:02 3826 found 4 objects at target
+
+21:09:04 3885 found 4 objects at target
+
+21:09:27 4572 found 3 objects at target
+
+21:09:28 4621 found 2 objects at target
+
+21:09:30 4664 found 2 objects at target
+
+21:09:31 4710 found 3 objects at target
+
+21:09:33 4771 found 2 objects at target
+
+21:09:35 4838 found 4 objects at target
+
+21:09:56 5455 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:09:56 5461 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:57 5496 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:57 5497 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:57 5502 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:57 5503 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:57 5504 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5505 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5506 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5512 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:09:58 5513 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5514 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:58 5517 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5518 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5519 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5520 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5521 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:58 5522 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5523 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5524 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5525 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5526 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5527 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:09:58 5528 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:58 5529 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5530 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:58 5531 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:59 5535 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5543 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:59 5544 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5545 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:59 5546 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5547 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:09:59 5553 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5556 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:59 5557 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:59 5558 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:59 5559 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5560 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:09:59 5561 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:09:59 5562 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:09:59 5563 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:10:00 5564 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:10:05 5721 Fraps::Fraps(): Fraps module unloaded
+21:10:05 5721 WorldManager::shutDown(): Successfully stopped.
+21:10:05 5721 ** Game stopped **
+21:10:05 5721 ****************************************************

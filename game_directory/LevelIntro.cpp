@@ -1,6 +1,8 @@
 #include "WorldManager.h"
 #include "DisplayManager.h"
 #include "ResourceManager.h"
+#include "Particle.h"
+#include "utility.h"
 
 #include "LevelIntro.h"
 #include "Saucer.h"
@@ -30,7 +32,7 @@ void LevelIntro::initialize() {
 	new Platform(df::Vector(304, 40));
 	new Platform(df::Vector(304, 60));
 	new Platform(df::Vector(360, 50));
-	new Platform(df::Vector(414, 50));
+	new Platform(df::Vector(430, 57));
 
 
 	df::Object * text_1 = new df::Object();
@@ -72,6 +74,7 @@ void LevelIntro::levelLogic() {
 		if (saucers.isEmpty()) {
 			progress = 2;
 			shooting_instruction->setSprite(RM.getSprite("intro_4"), true);
+			flashInstruction();
 			//Saucer* saucer = new Saucer(10, 0, 0, 1, 0);
 			//saucer->setPosition(df::Vector(550, 35));
 		}
@@ -83,6 +86,8 @@ void LevelIntro::levelLogic() {
 		if (count_down <= 0) {
 			progress = 3;
 			shooting_instruction->setSprite(RM.getSprite("intro_5"), true);
+			flashInstruction();
+
 			Saucer* saucer = new Saucer(10, 0, 0, 0, 0);
 			saucer->setPosition(df::Vector(530, 35));
 			Saucer* saucer1 = new Saucer(10, 0, 0, 0, 0);
@@ -98,6 +103,8 @@ void LevelIntro::levelLogic() {
 		if (saucers.isEmpty()) {
 			progress = 4;
 			shooting_instruction->setSprite(RM.getSprite("intro_6"), true);
+			flashInstruction();
+
 			Saucer* saucer = new Saucer(10, 0, 0, 0, 0);
 			saucer->setPosition(df::Vector(530, 35));
 			saucer->setSprite(RM.getSprite("intro_small"), true);
@@ -115,6 +122,8 @@ void LevelIntro::levelLogic() {
 		if (saucers.isEmpty()) {
 			progress = 5;
 			shooting_instruction->setSprite(RM.getSprite("intro_7"), true);
+			flashInstruction();
+
 			Saucer* saucer = new Saucer(10, 0, 0, 0, 0);
 			saucer->setPosition(df::Vector(530, 35));
 			Saucer* saucer1 = new Saucer(10, 0, 0, 0, 0);
@@ -135,6 +144,7 @@ void LevelIntro::levelLogic() {
 			progress = 6;
 			levelComplete();
 		}
+		break;
 	}
 	}
 }
@@ -146,4 +156,27 @@ int LevelIntro::eventHandler(const df::Event *p_e) {
 	}
 
 	return 0;
+}
+
+void LevelIntro::flashInstruction() {
+	df::Vector center = shooting_instruction->getPosition();
+	float width = shooting_instruction->getBox().getHorizontal();
+	float height = shooting_instruction->getBox().getVertical();
+	float width_unit = width / floor(width);
+	float height_unit = height / floor(height);
+
+	df::Vector corner = center - df::Vector(width / 2, height / 2);
+
+	for (int i = 0; i <= floor(width); i++) {
+		for (int j = 0; j <= floor(height); j++) {
+			if ((i == 0) || (i == floor(width)) || (j == 0) || (j == floor(height))) {
+				float x = ((float)i) * width_unit;
+				float y = ((float)j) * height_unit;
+				df::Vector at = corner + df::Vector(x, y);
+				df::Vector direction = at - center;
+				direction.normalize();
+				df::addParticles(15, 5, at , 0.1f, direction, 0.6f, 5.0f, 1.0f, 1.0f, 1.0f, 10, 5, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::PARTICLE);
+			}
+		}
+	}
 }

@@ -5,6 +5,7 @@
 class LevelIntro : public Level {
 private:
 	df::Object *shooting_instruction;
+	void flashInstruction();
 public:
 	LevelIntro();
 	void levelLogic() override;
