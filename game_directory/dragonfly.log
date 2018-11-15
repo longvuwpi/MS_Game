@@ -1,63 +1,41 @@
-12:18:55    0 ****************************************************
-12:18:55    0 ** Dragonfly version 4.8 **
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
-12:18:59   63 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
-12:19:01   63 ResourceManager::loadSound(): Cannot load sound from file 'sounds/saucer_death.wav'
-12:19:01   63 Fraps::Fraps(): Fraps module loaded.
-12:19:01   63 Pause::Pause(): Pause enabled.  Press any other key to resume.
-12:19:01    0 GameStart::GameStart(): Warning! Sprite 'level selection' not found
-12:19:02   20 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
-12:19:02   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 48 ms
-12:19:02   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
-12:19:02   23 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
-12:19:02   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
-12:19:02   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-12:19:02   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
-12:19:02   27 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-12:19:02   28 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-12:19:02   29 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-12:19:03   32 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-12:19:03   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-12:19:04   69 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-12:19:04   70 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
-12:19:04   71 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
-12:19:04   72 GameManager::run(): Can't keep up! frame_time 33 ms, split 57 ms
-12:19:04   73 GameManager::run(): Can't keep up! frame_time 33 ms, split 65 ms
-12:19:04   74 GameManager::run(): Can't keep up! frame_time 33 ms, split 57 ms
-12:19:04   75 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
-12:19:04   76 GameManager::run(): Can't keep up! frame_time 33 ms, split 70 ms
-12:19:04   77 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
-12:19:04   78 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
-12:19:04   79 GameManager::run(): Can't keep up! frame_time 33 ms, split 52 ms
-12:19:04   80 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
-12:19:04   81 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
-12:19:04   82 ResourceManager::getSound(): Sound 'saucer_death' not found
+15:57:13    0 ****************************************************
+15:57:13    0 ** Dragonfly version 4.8 **
+15:57:15    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 46 ms
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+15:57:18   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+15:57:20   90 ResourceManager::loadSound(): Cannot load sound from file 'sounds/saucer_death.wav'
+15:57:21   90 Fraps::Fraps(): Fraps module loaded.
+15:57:21   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+15:57:22   41 Fraps::Fraps(): Fraps module unloaded
+15:57:22   41 WorldManager::shutDown(): Successfully stopped.
+15:57:22   41 ** Game stopped **
+15:57:22   41 ****************************************************

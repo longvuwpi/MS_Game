@@ -13,7 +13,7 @@
 LevelSelection::LevelSelection() {
 	setType("LevelSelection");
 
-	df::Sprite *p_temp_sprite = RM.getSprite("level_selection");
+	df::Sprite *p_temp_sprite = RM.getSprite("level_select");
 	if (!p_temp_sprite)
 		LM.writeLog("GameStart::GameStart(): Warning! Sprite 'level selection' not found");
 	else {
@@ -24,17 +24,18 @@ LevelSelection::LevelSelection() {
 	registerInterest(df::MSE_EVENT);
 	registerInterest(df::STEP_EVENT);
 
-	setLocation(df::TOP_CENTER);
-	mouse_pos = df::Vector(0, 0);
-
 	int display_horiz, display_vert;
 	display_horiz = DM.getHorizontal();
 	display_vert = DM.getVertical();
 
+	//setLocation(df::TOP_CENTER);
+	setPosition(df::Vector(display_horiz / 2, 12));
+	mouse_pos = df::Vector(0, 0);
+
 	Level *level_intro = new LevelIntro();
-	level_intro->setPosition(df::Vector(display_horiz * 2 / 5, display_vert / 3));
+	level_intro->setPosition(df::Vector(display_horiz /4, display_vert *2/5));
 	Level *level_1 = new Level1();
-	level_1->setPosition(df::Vector(display_horiz * 2 / 5, display_vert * 2 / 3));
+	level_1->setPosition(df::Vector(display_horiz /4, display_vert * 3 / 5));
 }
 
 void LevelSelection::draw() {

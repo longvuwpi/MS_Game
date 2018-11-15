@@ -31,6 +31,7 @@ GameStart::GameStart() {
 	if (!p_temp_sprite)
 		LM.writeLog("GameStart::GameStart(): Warning! Sprite 'gamestart' not found");
 	else {
+		setTransparency('#');
 		setSprite(p_temp_sprite);
 		setSpriteSlowdown(15);
 	}
