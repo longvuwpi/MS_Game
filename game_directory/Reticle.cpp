@@ -108,10 +108,14 @@ void Reticle::draw() {
 					liw.currentObject()->setVisible(false);
 				}
 				else {
-					liw.currentObject()->setVisible(true);
+					if (liw.currentObject()->getType() != "Weapon") {
+						liw.currentObject()->setVisible(true);
+					}
 				}
 				liw.next();
 			}
+			hero->getCurrentWeapon()->setVisible(true);
+
 
 			for (int i = 0; i < WM.getView().getHorizontal(); i++) {
 				for (int j = 0; j < WM.getView().getVertical(); j++) {

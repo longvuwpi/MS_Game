@@ -72,6 +72,29 @@ Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType, int attac
 Saucer::~Saucer() {
 	// Send "view" event with points to interested ViewObjects.
 	// Add 10 points.
+	df::Vector center = getPosition();
+	float width = getBox().getHorizontal();
+	float height = getBox().getVertical();
+	float width_unit = width / floor(width);
+	float height_unit = height / floor(height);
+
+	df::Vector corner = center - df::Vector(width / 2, height / 2);
+
+	for (int i = 0; i <= floor(width); i++) {
+		for (int j = 0; j <= floor(height); j++) {
+			//if ((i == 0) || (i == floor(width)) || (j == 0) || (j == floor(height))) {
+				float x = ((float)i) * width_unit;
+				float y = ((float)j) * height_unit;
+				df::Vector at = corner + df::Vector(x, y);
+				df::Vector direction = at - center;
+				direction.normalize();
+				//df::addParticles(15, 5, at, 3.0f, direction, 0.6f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 5, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::PARTICLE);
+				df::addParticles(12, 5, at, 5.0f, df::Vector(1,0), 0.6f, 2.0f, 2.0f, 2.0f, 2.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)102, (unsigned char)178, (unsigned char)255, df::ParticleClass::PARTICLE);
+
+			//}
+		}
+	}
+
 	df::EventView ev(POINTS_STRING, 10, true);
 	WM.onEvent(&ev);
 }
@@ -261,10 +284,10 @@ void Saucer::die() {
 	//df::addParticles(df::ParticleType::SPARKS, getPosition(), 2.0, df::YELLOW);
 	//df::addParticles(df::ParticleType::SPARKS, getPosition(), 1.0, df::RED);
 	//df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)250, (unsigned char)200, (unsigned char)100);
-	df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 1), 1.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)0, (unsigned char)0, (unsigned char)100);
+	//df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 1), 1.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)0, (unsigned char)0, (unsigned char)100);
 	
 	//Play "explode" sound.
-	df::Sound *p_sound = RM.getSound("explode");
+	df::Sound *p_sound = RM.getSound("saucer_death");
 	p_sound->play();
 
 	WM.markForDelete(this);

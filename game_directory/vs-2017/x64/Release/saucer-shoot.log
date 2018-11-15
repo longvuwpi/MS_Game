@@ -1,7 +1,22 @@
-﻿  LevelIntro.cpp
+﻿  Reticle.cpp
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(70): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(93): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(94): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(122): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(161): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\game_directory\reticle.cpp(162): warning C4305: 'argument': truncation from 'double' to 'float'
   Generating code
-  2 of 932 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  1 of 932 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   saucer-shoot.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\game_directory\vs-2017\x64\Release\saucer-shoot.exe

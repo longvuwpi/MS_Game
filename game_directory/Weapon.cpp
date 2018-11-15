@@ -108,7 +108,12 @@ void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
 	df::ObjectList objects_at_target = WM.objectsAtPosition(target);
 	bool hit = false;
 	df::ObjectListIterator li(&objects_at_target);
-	LM.writeLog("found %d objects at target\n", objects_at_target.getCount());
+	//LM.writeLog("found %d objects at target\n", objects_at_target.getCount());
+	//li.first();
+	//while (!li.isDone()) {
+	//	LM.writeLog("%s", li.currentObject()->getType());
+	//	li.next();
+	//}
 
 	//See if hitting minions
 	li.first();
@@ -153,6 +158,9 @@ void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
 		}
 	}
 
+	if (hit) {
+		df::addParticles(20, 5, target, 2.0f, df::Vector(0,0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+	}
 }
 
 bool Weapon::canShoot() {
@@ -204,7 +212,7 @@ void Weapon::fire(df::Vector target) {
 	hero->getReticle()->expand();
 	df::Vector direction = (target - origin);
 	direction.normalize();
-	df::addParticles(60, 10, origin+df::Vector(0,0.3f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+	df::addParticles(60, 10, origin+df::Vector(0,0.5f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
 
 	//Increase inaccuracy for rifle
 	if (weapon_type == WeaponType::RIFLE) {

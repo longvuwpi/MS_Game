@@ -46,14 +46,15 @@ int LevelSelection::eventHandler(const df::Event *p_e) {
 		const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
 		if (p_mouse_event->getMouseAction() == df::MOVED) {
 			mouse_pos = p_mouse_event->getMousePosition();
-			df::ObjectList current_objects = WM.getAllObjects();
-			df::ObjectListIterator li(&current_objects);
-			li.first();
-			while (!li.isDone()) {
-				std::string type = li.currentObject()->getType();
-				LM.writeLog("%s\n", type);
-				li.next();
-			}
+			//df::ObjectList current_objects = WM.getAllObjects();
+			//LM.writeLog("%d", current_objects.getCount());
+			//df::ObjectListIterator li(&current_objects);
+			//li.first();
+			//while (!li.isDone()) {
+			//	std::string type = li.currentObject()->getType();
+			//	LM.writeLog("%s\n", type);
+			//	li.next();
+			//}
 			return 1;
 		}
 	}

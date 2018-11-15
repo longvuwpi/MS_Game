@@ -1,55 +1,41 @@
-16:18:58    0 ****************************************************
-16:18:58    0 ** Dragonfly version 4.8 **
-16:18:59    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/level_select.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/level_won.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/level_intro.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/level_1.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/1.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/2.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/3.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/4.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/5.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/6.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/7.txt'
-16:19:02   90 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
-16:19:02   90 ResourceManager::loadSprite(): Cannot open file 'sprites/intro/small.txt'
-16:19:05   90 ResourceManager::loadSound(): Cannot load sound from file 'sounds/level_won.wav'
-16:19:05   90 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_theme.wav'
-16:19:05   90 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_boss.wav'
-16:19:05   90 Fraps::Fraps(): Fraps module loaded.
-16:19:05   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
-16:19:12  204 Fraps::Fraps(): Fraps module unloaded
-16:19:12  204 WorldManager::shutDown(): Successfully stopped.
-16:19:12  204 ** Game stopped **
-16:19:12  204 ****************************************************
+02:21:34    0 ****************************************************
+02:21:34    0 ** Dragonfly version 4.8 **
+02:21:35    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+02:21:37   52 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+02:21:40   52 Fraps::Fraps(): Fraps module loaded.
+02:21:40   52 Pause::Pause(): Pause enabled.  Press any other key to resume.
+02:21:40    0 GameStart::GameStart(): Warning! Sprite 'level selection' not found
+02:21:40   28 Fraps::Fraps(): Fraps module unloaded
+02:21:40   28 WorldManager::shutDown(): Successfully stopped.
+02:21:40   28 ** Game stopped **
+02:21:40   28 ****************************************************

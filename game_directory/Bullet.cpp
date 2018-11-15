@@ -128,24 +128,6 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 				dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
 			}
 			else {
-				//Saucer *saucer_hit;
-				//if (type1 == "Saucer") {
-				//	saucer_hit = dynamic_cast <Saucer *> (p_collision_event->getObject1());
-				//}
-				//else {
-				//	saucer_hit = dynamic_cast <Saucer *> (p_collision_event->getObject2());
-				//}
-				//switch (saucer_hit->getEnemyType()) {
-				//case EnemyType::MINION:
-				//	saucer_hit->takeDamage(p_collision_event->getPosition(), damage);
-				//	break;
-				//case EnemyType::BOSS:
-				//	dynamic_cast <Boss *> (saucer_hit)->takeDamage(p_collision_event->getPosition(), damage);
-				//	break;
-				//case EnemyType::WEAKPOINT:
-				//	dynamic_cast <WeakPoint *> (saucer_hit)->takeDamage(p_collision_event->getPosition(), damage);
-				//	break;
-				//}
 				shot_from_weapon->dealDamageAt(p_collision_event->getPosition(), false);
 			}
 		}
@@ -163,11 +145,18 @@ void Bullet::step() {
 		df::Vector traveled = current_pos - last_position;
 		int distance = traveled.getMagnitude();
 		traveled.normalize();
+		df::Vector particle_dir = last_position - current_pos;
+		particle_dir.normalize();
+		if (bullet_type == HERO_BULLET) {
+			if (shot_from_weapon->getWeaponType() == WeaponType::LAUNCHER) {
+				df::addParticles(5, 2, current_pos + df::Vector(0, 0.5f), 2.0f, particle_dir, 0.8f, 2.0f, 1.0f, 1.0f, 1.0f, 15, 2, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+			}
+		}
 		for (int i = 0; i <= distance; i++) {
 			BulletTrail *trail = new BulletTrail(this);
 			df::Vector scaled(traveled.getX(), traveled.getY());
 			scaled.scale(i);
-			trail->setPosition(last_position + scaled);
+			trail->setPosition(last_position + scaled - df::Vector(0,0.3f));
 			trail->setVisible(isVisible());
 		}
 		last_position = current_pos;

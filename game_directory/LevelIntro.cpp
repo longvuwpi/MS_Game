@@ -84,6 +84,7 @@ void LevelIntro::levelLogic() {
 	{
 		count_down--;
 		if (count_down <= 0) {
+			count_down = 150;
 			progress = 3;
 			shooting_instruction->setSprite(RM.getSprite("intro_5"), true);
 			flashInstruction();

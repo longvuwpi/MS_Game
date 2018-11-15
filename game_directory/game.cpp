@@ -114,10 +114,13 @@ void loadResources(void) {
 
 	RM.loadSound("sounds/explode.wav", "explode");
 	RM.loadSound("sounds/nuke.wav", "nuke");
+	RM.loadSound("sounds/saucer_death.wav", "saucer_death");
 	RM.loadSound("sounds/game-over.wav", "game over");
 	RM.loadSound("sounds/level_won.wav", "level_won");
-	RM.loadMusic("sounds/start-music.wav", "start music");
 	
+
+	//music
+	RM.loadMusic("sounds/start-music.wav", "start music");	
 	//level music
 	RM.loadMusic("sounds/music_theme.wav", "music_theme");
 	RM.loadMusic("sounds/music_boss.wav", "music_boss");
