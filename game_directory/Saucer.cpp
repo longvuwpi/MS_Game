@@ -89,7 +89,7 @@ Saucer::~Saucer() {
 				df::Vector direction = at - center;
 				direction.normalize();
 				//df::addParticles(15, 5, at, 3.0f, direction, 0.6f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 5, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::PARTICLE);
-				df::addParticles(12, 5, at, 5.0f, df::Vector(1,0), 0.6f, 2.0f, 2.0f, 2.0f, 2.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)102, (unsigned char)178, (unsigned char)255, df::ParticleClass::PARTICLE);
+				df::addParticles(12, 5, at, 5.0f, df::Vector(1,0),0.1f, 2.0f, 2.0f, 2.0f, 2.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)102, (unsigned char)178, (unsigned char)255, df::ParticleClass::PARTICLE);
 
 			//}
 		}
