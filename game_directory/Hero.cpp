@@ -378,19 +378,19 @@ void Hero::refillAmmo() {
 }
 
 void Hero::pickHealth(){
-    health = health + regenerate_health;
-    if (health >= max_health){
+    health = max_health;
+    /*if (health >= max_health){
         health = max_health;
         //WM.markForDelete(this);
     }
-    //WM.markForDelete();
+    */
 }
 
-void Hero::pickPower(){
+void Hero::pickPower(float PowerGain){
     df::ObjectListIterator powerIterator(&weapon_list);
     powerIterator.first();
     while (!powerIterator.isDone()) {
-        (dynamic_cast <Weapon*> (powerIterator.currentObject()))->pickPower();
+        (dynamic_cast <Weapon*> (powerIterator.currentObject()))->pickPower(0.15);
         powerIterator.next();
     }
 

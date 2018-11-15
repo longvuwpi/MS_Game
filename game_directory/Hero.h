@@ -59,7 +59,7 @@ class Hero : public df::Object {
   void takeDamage(df::Vector at, int damage);
   void refillAmmo();
   void pickHealth();
-  void pickPower();
+  void pickPower(float PowerGain);
   Reticle *getReticle();
   Weapon *getCurrentWeapon();
 

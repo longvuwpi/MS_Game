@@ -41,7 +41,7 @@ int PowerPick::eventHandler(const df::Event *p_e) {
 				li.first();
 				if (collisions.remove(li.currentObject()) == 0) {
 					RM.getSound("pickup4")->play();
-					(dynamic_cast <Hero *> (li.currentObject()))->pickPower();
+					(dynamic_cast <Hero *> (li.currentObject()))->pickPower(float PowerGain);
 					std::cout << "collided with hero";
 				}
 			}

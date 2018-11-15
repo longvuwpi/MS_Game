@@ -108,7 +108,7 @@ int ItemPick::eventHandler(const df::Event *p_e) {
                     }
                     else if (item_type == POWERUP){
                         RM.getSound("pickup4")->play();
-                        (dynamic_cast <Hero *> (li.currentObject()))->pickPower();
+                        (dynamic_cast <Hero *> (li.currentObject()))->pickPower(0.15);
                         std::cout << "collided with hero";
                     }
 				}

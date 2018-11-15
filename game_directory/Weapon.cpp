@@ -29,9 +29,9 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	ammo_loaded_max = ammoLoadedMax;
 	ammo_backup_max = ammoBackupMax;
 	refillAmmo();
-    pickPower();
+    pickPower(0.15);
 	damage = dmg;
-    PowerGain = 10;
+    //PowerGain = 10;
     origin_damage = damage;
 	bullet_weight = bulletWeight;
 	bullet_affected_by_gravity = affectedByGravity;
@@ -338,9 +338,9 @@ void Weapon::refillAmmo() {
 	ammo_backup = ammo_backup_max;
 }
 
-void Weapon::pickPower(){
+void Weapon::pickPower(float PowerGain){
     shootingcount = 3;
-    damage = damage + PowerGain;
+    damage = damage + PowerGain * damage;
 
     std::cout << "weapon damage: (" << getDamage() << ")\n";
 }

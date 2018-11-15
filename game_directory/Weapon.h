@@ -23,7 +23,7 @@ private:
 	int ammo_loaded;
 	int ammo_backup;
 	int damage;
-    int PowerGain;
+    //int PowerGain;
     int origin_damage;
 	int last_shot_frame; //the frame number that the last shot was fired
 	bool bullet_affected_by_gravity;
@@ -54,7 +54,7 @@ public:
 	int getDamage();
 	void reload();
 	void refillAmmo();
-    void pickPower();
+    void pickPower(float PowerGain);
 	void toggleScope();
 	void dealDamageAt(df::Vector target, bool drawTrail);
 	int getAmmoLoaded();
