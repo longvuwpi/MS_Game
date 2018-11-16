@@ -85,7 +85,7 @@ Hero::Hero() {
 	weapon_list.insert(awp);
 	awp->setVisible(false);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 8, 0, 1, 30, 10, true, 0.4f, 20, 1.5f);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 8, 40, 1, 30, 10, true, 0.4f, 20, 1.5f);
 	weapon_list.insert(grenade_launcher);
 	grenade_launcher->setVisible(false);
 

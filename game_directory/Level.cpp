@@ -30,6 +30,7 @@ Level::Level(std::string level_name) {
 	registerInterest(df::MSE_EVENT);
 	setSolidness(df::SPECTRAL);
 	started = false;
+	start_frame = 0;
 }
 
 void Level::start() {
@@ -50,7 +51,7 @@ void Level::start() {
 	progress = 0;
 	started = true;
 	unregisterInterest(df::MSE_EVENT);
-
+	start_frame = GM.getStepCount();
 	initialize();
 }
 
@@ -95,7 +96,10 @@ void Level::step() {
 
 			//Check if hero fell off the platforms
 			if (hero->getPosition().getY() > WM.getView().getVertical()) {
-				hero->takeDamage(hero->getPosition(), 1000);
+				df::ObjectList go_objects = WM.objectsOfType("GameOver");
+				if (go_objects.getCount() <= 0) {
+					hero->takeDamage(hero->getPosition(), 1000);
+				}
 				return;
 			}
 			levelLogic();

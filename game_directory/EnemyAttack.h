@@ -9,8 +9,10 @@ class EnemyAttack {
 private:
 	Saucer * owner;
 	int fire_count_down;
+	int start_frame;
 public:
 	EnemyAttack(Saucer *saucer);
 	void attack();
-	void fire(float bulletSpeed);
+	void fireAtHero(float bulletSpeed);
+	void customFire(float bulletSpeed, df::Vector from, df::Vector to);
 };

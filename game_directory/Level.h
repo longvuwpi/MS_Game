@@ -12,6 +12,7 @@ protected:
 	Hero * hero;
 	df::ObjectList landscape;
 	int progress;
+	int start_frame;
 	bool started;
 	bool bossSpawned;
 	void levelComplete();

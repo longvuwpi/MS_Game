@@ -25,11 +25,12 @@ void Level1::levelLogic() {
 	}
 
 	if (progress == 1) {
-		if ((GM.getStepCount() % 180 == 0) ||
-			(GM.getStepCount() % 180 == 5) ||
-			(GM.getStepCount() % 180 == 10) ||
-			(GM.getStepCount() % 180 == 15) ||
-			(GM.getStepCount() % 180 == 20)) {
+		int i = (GM.getStepCount() - start_frame) % 180;
+		if ((i == 0) ||
+			(i == 5) ||
+			(i == 10) ||
+			(i == 15) ||
+			(i == 20)) {
 			Saucer *saucer = new Saucer(15, 5, 0, 3, 1);
 			df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 			saucer->setPosition(spawnPos);
@@ -37,7 +38,7 @@ void Level1::levelLogic() {
 		}
 	}
 	else if (progress == 2) {
-		int i = GM.getStepCount() % 180;
+		int i = (GM.getStepCount() - start_frame) % 180;
 		df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 
 		if ((i == 18) ||
@@ -45,7 +46,7 @@ void Level1::levelLogic() {
 			(i == 28) ||
 			(i == 33) ||
 			(i == 38)) {
-			Saucer *saucer = new Saucer(15, 5, 0, 1, 1);
+			Saucer *saucer = new Saucer(15, 5, 0, 1, 2);
 			spawnPos += df::Vector(0, (i - 18) * 3 / 5);
 			saucer->setPosition(spawnPos);
 			saucer->markStart();

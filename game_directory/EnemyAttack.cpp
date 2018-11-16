@@ -3,6 +3,7 @@
 
 #include "ObjectList.h"
 #include "WorldManager.h"
+#include "GameManager.h"
 
 #include "Bullet.h"
 #include "EnemyAttack.h"
@@ -12,6 +13,7 @@ int fire_rate = 90;
 EnemyAttack::EnemyAttack(Saucer *saucer) {
 	owner = saucer;
 	fire_count_down = fire_rate;
+	start_frame = GM.getStepCount();
 }
 
 void EnemyAttack::attack() {
@@ -24,9 +26,24 @@ void EnemyAttack::attack() {
 		if (fire_count_down <= 0)
 		{
 			fire_count_down = fire_rate;
-			fire(2);
+			fireAtHero(2);
 		}
 		break;
+	}
+	case 2:
+	{
+		int current = GM.getStepCount() - start_frame;
+		if (current % 120 == 0) {
+			df::ObjectList object_list = WM.objectsOfType("Hero");
+			if (object_list.getCount() > 0) {
+				df::ObjectListIterator li(&object_list);
+				li.first();
+				df::Vector hero_pos = li.currentObject()->getPosition();
+				df::Vector origin = owner->getPosition();
+				customFire(1, origin + df::Vector(0, 1.0f), hero_pos);
+				customFire(1, origin + df::Vector(0, -1.0f), hero_pos);
+			}
+		}
 	}
 	default:
 		break;
@@ -35,7 +52,7 @@ void EnemyAttack::attack() {
 	return;
 }
 
-void EnemyAttack::fire(float bulletSpeed) {
+void EnemyAttack::fireAtHero(float bulletSpeed) {
 	df::ObjectList object_list = WM.objectsOfType("Hero");
 	if (object_list.getCount() > 0) {
 		df::ObjectListIterator li(&object_list);
@@ -48,12 +65,22 @@ void EnemyAttack::fire(float bulletSpeed) {
 
 		// Fire Bullet towards target.
 		// Compute normalized vector to position, then scale by speed.
-		df::Vector v = hero_pos - origin;
-
-		//df::Vector v = getDirection();
-		v.normalize();
-		v.scale(bulletSpeed);
-		Bullet *p = new Bullet(origin, owner->getBulletSprite(), owner->getDamage(), owner->getBulletRadius());
-		p->setVelocity(v);
+		//df::Vector v = hero_pos - origin;
+		//v.normalize();
+		//v.scale(bulletSpeed);
+		//Bullet *p = new Bullet(origin, owner->getBulletSprite(), owner->getDamage(), owner->getBulletRadius());
+		//p->setVelocity(v);
+		customFire(bulletSpeed, origin, hero_pos);
 	}
+}
+
+void EnemyAttack::customFire(float bulletSpeed, df::Vector from, df::Vector to) {
+	df::Vector v = to - from;
+
+	//df::Vector v = getDirection();
+	v.normalize();
+	v.scale(bulletSpeed);
+	Bullet *p = new Bullet(from, owner->getBulletSprite(), owner->getDamage(), owner->getBulletRadius());
+	p->setVelocity(v);
+
 }

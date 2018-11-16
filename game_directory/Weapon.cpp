@@ -182,6 +182,7 @@ void Weapon::fire(df::Vector target) {
 	ammo_loaded--;
 	last_shot_frame = GM.getStepCount();
 	recoil = shot_recoil;
+
 	DM.shake(fire_rate, fire_rate, 3, false);
 
 	//If scoping, deal instant damage at target, else fire Bullet towards target.

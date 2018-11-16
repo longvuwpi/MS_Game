@@ -41,6 +41,7 @@ GameStart::GameStart() {
 
 	// Register for "keyboard" event.
 	registerInterest(df::KEYBOARD_EVENT);
+	registerInterest(df::STEP_EVENT);
 
 	// Play start music.
 	p_music = RM.getMusic("start music");
@@ -71,7 +72,30 @@ int GameStart::eventHandler(const df::Event *p_e) {
 		return 1;
 	}
 
+	if (p_e->getType() == df::STEP_EVENT) {
+		df::Vector center = getPosition();
+		float width = getBox().getHorizontal();
+		float height = getBox().getVertical();
+		float width_unit = width / floor(width);
+		float height_unit = height / floor(height);
 
+		df::Vector corner = center - df::Vector(width / 2, height / 2);
+
+		if (GM.getStepCount() % 3 == 0) {
+			for (int i = 0; i <= floor(width); i++) {
+				for (int j = 0; j <= floor(height); j++) {
+//					if ((i == 0) || (i == floor(width)) || (j == 0) || (j == floor(height))) {
+						float x = ((float)i) * width_unit;
+						float y = ((float)j) * height_unit;
+						df::Vector at = corner + df::Vector(x, y);
+						df::Vector direction = at - center;
+						direction.normalize();
+						df::addParticles(5, 5, at, 0.6f, direction, 0.1f, 3.0f, 1.0f, 1.0f, 1.0f, 15, 8, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::PARTICLE);
+					}
+				}
+			}
+//		}
+	}
 	// If get here, have ignored this event.
 	return 0;
 }
