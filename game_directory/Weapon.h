@@ -48,6 +48,7 @@ public:
 	bool canShoot();
 	float getBulletWeight();
 	float getBulletRadiusOfEffect();
+	int getBulletSpeed();
 	int getDamage();
 	void reload();
 	void refillAmmo();
@@ -55,5 +56,7 @@ public:
 	void dealDamageAt(df::Vector target, bool drawTrail);
 	int getAmmoLoaded();
 	int getAmmoBackup();
+	int getAmmoLoadedMax();
+	int getAmmoBackupMax();
 	WeaponType getWeaponType();
 };

@@ -28,6 +28,7 @@
 #include "EventPlayerJumping.h"
 #include "Saucer.h"
 #include "DamageIndicator.h"
+#include "AmmoDisplay.h"
 
 int moveSpeed = 2;
 int jumpHeight = 10;
@@ -97,9 +98,12 @@ Hero::Hero() {
 	weapon_view->setLocation(df::TOP_LEFT);
 	weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 	weapon_view->setColor(df::YELLOW);
+	weapon_view->setSolidness(df::SPECTRAL);
 
 	// Create reticle for firing bullets and aiming.
 	p_reticle = new Reticle(this);
+
+	new AmmoDisplay(this);
 }
 
 void Hero::setWalkingSprite() {
@@ -359,11 +363,15 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
 void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	new DamageIndicator(at, damage);
-	DM.shake(damage, damage, 3, false);
-	if (health <= 0) {
-		WM.markForDelete(this);
-		// Create GameOver object.
-		GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
+	DM.shake(damage*2, damage*2, 3, false);
+
+	df::ObjectList go_objects = WM.objectsOfType("GameOver");
+	if (go_objects.getCount() <= 0) {
+		if (health <= 0) {
+			WM.markForDelete(this);
+			// Create GameOver object.
+			GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
+		}
 	}
 }
 

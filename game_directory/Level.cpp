@@ -96,10 +96,10 @@ void Level::step() {
 
 			//Check if hero fell off the platforms
 			if (hero->getPosition().getY() > WM.getView().getVertical()) {
-				df::ObjectList go_objects = WM.objectsOfType("GameOver");
-				if (go_objects.getCount() <= 0) {
-					hero->takeDamage(hero->getPosition(), 1000);
-				}
+				//df::ObjectList go_objects = WM.objectsOfType("GameOver");
+				//if (go_objects.getCount() <= 0) {
+					hero->takeDamage(hero->getPosition(), 100);
+				//}
 				return;
 			}
 			levelLogic();

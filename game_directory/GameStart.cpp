@@ -38,6 +38,7 @@ GameStart::GameStart() {
 	
 	// Put in center of screen.
 	setLocation(df::CENTER_CENTER);
+	setCentered(true);
 
 	// Register for "keyboard" event.
 	registerInterest(df::KEYBOARD_EVENT);
@@ -81,20 +82,23 @@ int GameStart::eventHandler(const df::Event *p_e) {
 
 		df::Vector corner = center - df::Vector(width / 2, height / 2);
 
-		if (GM.getStepCount() % 3 == 0) {
+		if (GM.getStepCount() % 1 == 0) {
 			for (int i = 0; i <= floor(width); i++) {
 				for (int j = 0; j <= floor(height); j++) {
-//					if ((i == 0) || (i == floor(width)) || (j == 0) || (j == floor(height))) {
+					if ((i == 0) || (i == floor(width)) || (j == 0) || (j == floor(height))) {
 						float x = ((float)i) * width_unit;
 						float y = ((float)j) * height_unit;
 						df::Vector at = corner + df::Vector(x, y);
 						df::Vector direction = at - center;
 						direction.normalize();
-						df::addParticles(5, 5, at, 0.6f, direction, 0.1f, 3.0f, 1.0f, 1.0f, 1.0f, 15, 8, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::PARTICLE);
-					}
+						df::addParticles(5, 5, at, 0.6f, direction, 0.0f, 3.0f, 1.0f, 1.5f, 0.0f, 5, 3, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)204, (unsigned char)255, df::ParticleClass::PARTICLE);
+						//df::addParticles(5, 5, at, 2.0, direction, 0.2f, 3.0f, 5.0f, 1.5f, 0.0f, 20, 3, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)204, (unsigned char)255, df::ParticleClass::PARTICLE);
+
+						//df::addParticles(3, 5, at, 0.6f, direction, 3.0f, 1.0f, 1.0f, 1.0f, 1.0f, 5, 3, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)153, (unsigned char)255, df::ParticleClass::PARTICLE);
+				}
 				}
 			}
-//		}
+		}
 	}
 	// If get here, have ignored this event.
 	return 0;

@@ -343,10 +343,22 @@ int Weapon::getAmmoBackup() {
 	return ammo_backup;
 }
 
+int Weapon::getAmmoLoadedMax() {
+	return ammo_loaded_max;
+}
+
+int Weapon::getAmmoBackupMax() {
+	return ammo_backup_max;
+}
+
 WeaponType Weapon::getWeaponType() {
 	return weapon_type;
 }
 
 bool Weapon::isScoping() {
 	return is_scoping;
+}
+
+int Weapon::getBulletSpeed() {
+	return bullet_speed;
 }

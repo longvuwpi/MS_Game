@@ -72,10 +72,22 @@ void Reticle::draw() {
 		DM.drawCh(getPosition() + df::Vector(1.4f, -0.3f) + df::Vector(expand_size, 0), '_', df::GREEN);
 		break;
 	case WeaponType::LAUNCHER:
+	{
 		DM.drawCh(getPosition() + df::Vector(-2 - expand_size, -1.5 - expand_size), '\\', df::GREEN);
 		DM.drawCh(getPosition() + df::Vector(-2 - expand_size, 1.5 + expand_size), '/', df::GREEN);
 		DM.drawCh(getPosition() + df::Vector(2 + expand_size, 1.5 + expand_size), '\\', df::GREEN);
 		DM.drawCh(getPosition() + df::Vector(2 + expand_size, -1.5 - expand_size), '/', df::GREEN);
+		df::Vector currentPos = hero->getCurrentWeapon()->getPosition() + (df::Vector(hero->getCurrentWeapon()->getBox().getHorizontal() / 2, -1.5f));
+		df::Vector v = getPosition() - currentPos;
+		v.normalize();
+		v.scale(hero->getCurrentWeapon()->getBulletSpeed());
+		df::Vector gravity = df::Vector(0, hero->getCurrentWeapon()->getBulletWeight());
+		for (int i = 0; i <= 8; i++) {
+			DM.drawCh(currentPos, ':', df::CYAN);
+			currentPos += v;
+			v += gravity;
+		}
+	}
 		break;
 	case WeaponType::SNIPER:
 		if ((hero->getCurrentWeapon()->isScoping()) && (hero->getCurrentWeapon()->canShoot())) {

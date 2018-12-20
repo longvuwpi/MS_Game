@@ -94,6 +94,41 @@ void loadResources(void) {
 	RM.loadSprite("sprites/intro/7.txt", "intro_7");
 	RM.loadSprite("sprites/intro/small.txt", "intro_small");
 
+	//big numbers
+	RM.loadSprite("sprites/number_font/green_0.txt", "green_0");
+	RM.loadSprite("sprites/number_font/green_1.txt", "green_1");
+	RM.loadSprite("sprites/number_font/green_2.txt", "green_2");
+	RM.loadSprite("sprites/number_font/green_3.txt", "green_3");
+	RM.loadSprite("sprites/number_font/green_4.txt", "green_4");
+	RM.loadSprite("sprites/number_font/green_5.txt", "green_5");
+	RM.loadSprite("sprites/number_font/green_6.txt", "green_6");
+	RM.loadSprite("sprites/number_font/green_7.txt", "green_7");
+	RM.loadSprite("sprites/number_font/green_8.txt", "green_8");
+	RM.loadSprite("sprites/number_font/green_9.txt", "green_9");
+	RM.loadSprite("sprites/number_font/red_0.txt", "red_0");
+	RM.loadSprite("sprites/number_font/red_1.txt", "red_1");
+	RM.loadSprite("sprites/number_font/red_2.txt", "red_2");
+	RM.loadSprite("sprites/number_font/red_3.txt", "red_3");
+	RM.loadSprite("sprites/number_font/red_4.txt", "red_4");
+	RM.loadSprite("sprites/number_font/red_5.txt", "red_5");
+	RM.loadSprite("sprites/number_font/red_6.txt", "red_6");
+	RM.loadSprite("sprites/number_font/red_7.txt", "red_7");
+	RM.loadSprite("sprites/number_font/red_8.txt", "red_8");
+	RM.loadSprite("sprites/number_font/red_9.txt", "red_9");
+	RM.loadSprite("sprites/number_font/yellow_0.txt", "yellow_0");
+	RM.loadSprite("sprites/number_font/yellow_1.txt", "yellow_1");
+	RM.loadSprite("sprites/number_font/yellow_2.txt", "yellow_2");
+	RM.loadSprite("sprites/number_font/yellow_3.txt", "yellow_3");
+	RM.loadSprite("sprites/number_font/yellow_4.txt", "yellow_4");
+	RM.loadSprite("sprites/number_font/yellow_5.txt", "yellow_5");
+	RM.loadSprite("sprites/number_font/yellow_6.txt", "yellow_6");
+	RM.loadSprite("sprites/number_font/yellow_7.txt", "yellow_7");
+	RM.loadSprite("sprites/number_font/yellow_8.txt", "yellow_8");
+	RM.loadSprite("sprites/number_font/yellow_9.txt", "yellow_9");
+	RM.loadSprite("sprites/number_font/slash.txt", "slash");
+
+	//Ammo display
+	RM.loadSprite("sprites/ammo_display.txt", "ammo_display");
 
 	//Fire sounds
 	RM.loadSound("sounds/ak47_fire.wav", "AK47_fire");

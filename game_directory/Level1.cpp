@@ -56,17 +56,35 @@ void Level1::levelLogic() {
 		if (!bossSpawned) {
 			RM.getMusic("music_theme")->stop();
 			RM.getMusic("music_boss")->play();
-			Boss* boss = new Boss(1100);
+			boss = new Boss(1100);
 			boss->setPosition(df::Vector(700, 35.0f));
 			boss->createWeakPoint(df::Vector(-8.0f, -10.0f), 5, 500);
 			boss->createWeakPoint(df::Vector(10.0f, -9.0f), 5, 500);
 			bossSpawned = true;
+			start_frame = GM.getStepCount();
 		}
 		else {
 			df::ObjectList saucerlist = WM.objectsOfType("Saucer");
-			if (saucerlist.isEmpty()) {
+			//if (saucerlist.isEmpty()) {
+			//	progress = 4;
+			//	levelComplete();
+			//}
+			if (saucerlist.remove(boss) != 0) {
 				progress = 4;
 				levelComplete();
+			}
+			else {
+				int i = (GM.getStepCount() - start_frame) % 180;
+				df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
+
+				if ((i == 18) ||
+					(i == 23) ||
+					(i == 28)) {
+					Saucer *saucer = new Saucer(10, 3, 0, 1, 1);
+					spawnPos += df::Vector(0, (i - 18) * 3 / 5);
+					saucer->setPosition(spawnPos);
+					saucer->markStart();
+				}
 			}
 		}
 	}
@@ -97,7 +115,7 @@ void Level1::initialize() {
 
 	// Create an ammo refill box
 	AmmoRefill* ammo_refill = new AmmoRefill();
-	ammo_refill->setPosition(df::Vector(196, 47) - df::Vector(20, (platform->getSprite()->getHeight() / 2) + (ammo_refill->getSprite()->getHeight() / 2)));
+	ammo_refill->setPosition(df::Vector(533, 50) - df::Vector(20, (platform->getSprite()->getHeight() / 2) + (ammo_refill->getSprite()->getHeight() / 2)));
 
 	// setup world and view boundaries
 	int world_horiz, world_vert;
