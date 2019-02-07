@@ -109,10 +109,6 @@ void AmmoDisplay::step() {
 		int loaded2 = loaded_ammo % 10;
 		int backup1 = backup_ammo / 10;
 		int backup2 = backup_ammo % 10;
-		std::cout << "loaded_ammo" << loaded_ammo << "loaded 1" << loaded1;
-		std::cout << "loaded 2" << loaded2;
-		std::cout << "backup_ammo" << backup_ammo << "backup 1" << backup1;
-		std::cout << "backup 2" << backup2;
 
 		loaded1Name = loadedColor + std::to_string(loaded1);
 		loaded2Name = loadedColor + std::to_string(loaded2);

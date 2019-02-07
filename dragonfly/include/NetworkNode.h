@@ -81,7 +81,6 @@ class NetworkNode : public Object {
   /// Send message (supporting various message types).
   /// Return 1 if something sent, 0 if nothing sent, -1 if error.
   int sendMessage(MessageType msg_type, int sock_index=-1);
-  int sendMessage(MessageType msg_type, int object_id, int sock_index=-1);
   int sendMessage(MessageType msg_type, Object *p_obj, bool all_attr = false,
 		  int sock_index=-1);
   int sendMessage(MessageType msg_type, EventKeyboardAction action,

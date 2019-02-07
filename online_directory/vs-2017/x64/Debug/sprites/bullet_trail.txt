@@ -1,0 +1,9 @@
+frames 1
+width 5
+height 3
+color yellow
+#####
+##.##
+#####
+end
+eof

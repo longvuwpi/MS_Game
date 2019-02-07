@@ -10,7 +10,7 @@
 
 namespace df {
 
-const std::string NETWORK_MOUSE_EVENT = "df-mouse-network";
+const std::string NETWORK_MSE_EVENT = "df-mouse-network";
 
 class EventMouseNetwork : public EventMouse {
 

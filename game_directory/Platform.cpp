@@ -18,7 +18,7 @@ Platform::Platform(df::Vector pos) {
 	}
 	setCentered(true);
 	// Make the platforms hard.
-	setSolidness(df::HARD);
+	setSolidness(df::SOFT);
 	// Set other object properties.
 	setType("Platform");
 
@@ -34,18 +34,18 @@ int Platform::eventHandler(const df::Event *p_e) {
 		//printf("collided with hero");
 	}
 	
-	if (p_e->getType() == PLAYER_JUMPING_EVENT) {
-		setSolidness(df::SOFT);
-	}
+	//if (p_e->getType() == PLAYER_JUMPING_EVENT) {
+	//	setSolidness(df::SOFT);
+	//}
 
-	if (p_e->getType() == PLAYER_FALLING_EVENT) {
-		const EventPlayerFalling *p_event = dynamic_cast <EventPlayerFalling const *> (p_e);
-		const df::Vector playerPos = p_event->getPlayerPos();
-		df::Vector highest = getPosition() - *(new df::Vector(0, 12));
-		if (playerPos.getY() < highest.getY()) {
-			setSolidness(df::HARD);
-		}
-	}
+	//if (p_e->getType() == PLAYER_FALLING_EVENT) {
+	//	const EventPlayerFalling *p_event = dynamic_cast <EventPlayerFalling const *> (p_e);
+	//	const df::Vector playerPos = p_event->getPlayerPos();
+	//	df::Vector highest = getPosition() - *(new df::Vector(0, 12));
+	//	if (playerPos.getY() < highest.getY()) {
+	//		setSolidness(df::HARD);
+	//	}
+	//}
 
 	return 0;
 }

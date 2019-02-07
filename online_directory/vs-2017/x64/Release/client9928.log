@@ -1,0 +1,793 @@
+23:49:03    0 ****************************************************
+23:49:03    0 ** Dragonfly version 4.9 **
+23:49:03    0 Hello, Network! (v1.2)
+23:49:03    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+23:49:03    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+23:49:03    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+23:49:03    0 Client::Client(): Connecting to localhost at port 9876.
+23:49:03    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+23:49:03    0 NetworkManager::connect(): Connection established.
+23:49:03    0 Client::handleConnect(): Client connected!
+23:49:03    0 Client::Client(): Client started.
+23:49:03    0 GameManager::run(): starting game loop
+23:49:03    0 Client::eventHandler(): sending mouse input to server.
+23:49:04   12 Client::eventHandler(): sending mouse input to server.
+23:49:04   21 Client::eventHandler(): sending mouse input to server.
+23:49:04   22 Client::eventHandler(): sending mouse input to server.
+23:49:04   23 Client::eventHandler(): sending mouse input to server.
+23:49:04   23 Client::eventHandler(): sending mouse input to server.
+23:49:04   24 Client::eventHandler(): sending mouse input to server.
+23:49:04   24 Client::eventHandler(): sending mouse input to server.
+23:49:04   24 Client::eventHandler(): sending mouse input to server.
+23:49:04   25 Client::eventHandler(): sending mouse input to server.
+23:49:04   26 Client::eventHandler(): sending mouse input to server.
+23:49:04   27 Client::eventHandler(): sending mouse input to server.
+23:49:04   27 Client::eventHandler(): sending mouse input to server.
+23:49:04   27 Client::eventHandler(): sending mouse input to server.
+23:49:04   28 Client::eventHandler(): sending mouse input to server.
+23:49:04   28 Client::eventHandler(): sending mouse input to server.
+23:49:04   29 Client::eventHandler(): sending mouse input to server.
+23:49:04   33 Client::eventHandler(): sending mouse input to server.
+23:49:04   33 Client::eventHandler(): sending mouse input to server.
+23:49:04   34 Client::eventHandler(): sending mouse input to server.
+23:49:04   36 Client::eventHandler(): sending mouse input to server.
+23:49:04   37 Client::eventHandler(): sending mouse input to server.
+23:49:04   37 Client::eventHandler(): sending mouse input to server.
+23:49:04   37 Client::eventHandler(): sending mouse input to server.
+23:49:04   38 Client::eventHandler(): sending mouse input to server.
+23:49:04   39 Client::eventHandler(): sending mouse input to server.
+23:49:04   39 Client::eventHandler(): sending mouse input to server.
+23:49:04   40 Client::eventHandler(): sending mouse input to server.
+23:49:04   40 Client::eventHandler(): sending mouse input to server.
+23:49:04   40 Client::eventHandler(): sending mouse input to server.
+23:49:04   40 Client::eventHandler(): sending mouse input to server.
+23:49:04   41 Client::eventHandler(): sending mouse input to server.
+23:49:05   42 Client::eventHandler(): sending mouse input to server.
+23:49:05   42 Client::eventHandler(): sending mouse input to server.
+23:49:05   42 Client::eventHandler(): sending mouse input to server.
+23:49:05   42 Client::eventHandler(): sending mouse input to server.
+23:49:05   43 Client::eventHandler(): sending mouse input to server.
+23:49:05   44 Client::eventHandler(): sending mouse input to server.
+23:49:05   46 Client::eventHandler(): sending mouse input to server.
+23:49:05   47 Client::eventHandler(): sending mouse input to server.
+23:49:05   48 Client::eventHandler(): sending mouse input to server.
+23:49:05   48 Client::eventHandler(): sending mouse input to server.
+23:49:05   49 Client::eventHandler(): sending mouse input to server.
+23:49:05   50 Client::eventHandler(): sending mouse input to server.
+23:49:05   51 Client::eventHandler(): sending mouse input to server.
+23:49:05   51 Client::eventHandler(): sending mouse input to server.
+23:49:05   52 Client::eventHandler(): sending mouse input to server.
+23:49:05   53 Client::eventHandler(): sending mouse input to server.
+23:49:05   54 Client::eventHandler(): sending mouse input to server.
+23:49:05   54 NetworkManager::send(): Error! send() returned:
+23:49:05   54 	Unknown error
+23:49:05   54 NetworkNode::sendMessage(): Error sending!
+23:49:05   55 Client::eventHandler(): sending mouse input to server.
+23:49:05   55 NetworkManager::send(): Error! send() returned:
+23:49:05   55 	Unknown error
+23:49:05   55 NetworkNode::sendMessage(): Error sending!
+23:49:05   56 Client::eventHandler(): sending mouse input to server.
+23:49:05   56 NetworkManager::send(): Error! send() returned:
+23:49:05   56 	Unknown error
+23:49:05   56 NetworkNode::sendMessage(): Error sending!
+23:49:05   57 Client::eventHandler(): sending mouse input to server.
+23:49:05   57 NetworkManager::send(): Error! send() returned:
+23:49:05   57 	Unknown error
+23:49:05   57 NetworkNode::sendMessage(): Error sending!
+23:49:05   59 Client::eventHandler(): sending mouse input to server.
+23:49:05   59 NetworkManager::send(): Error! send() returned:
+23:49:05   59 	Unknown error
+23:49:05   59 NetworkNode::sendMessage(): Error sending!
+23:49:05   60 Client::eventHandler(): sending mouse input to server.
+23:49:05   60 NetworkManager::send(): Error! send() returned:
+23:49:05   60 	Unknown error
+23:49:05   60 NetworkNode::sendMessage(): Error sending!
+23:49:05   60 Client::eventHandler(): sending mouse input to server.
+23:49:05   60 NetworkManager::send(): Error! send() returned:
+23:49:05   60 	Unknown error
+23:49:05   60 NetworkNode::sendMessage(): Error sending!
+23:49:05   61 Client::eventHandler(): sending mouse input to server.
+23:49:05   61 NetworkManager::send(): Error! send() returned:
+23:49:05   61 	Unknown error
+23:49:05   61 NetworkNode::sendMessage(): Error sending!
+23:49:05   62 Client::eventHandler(): sending mouse input to server.
+23:49:05   62 NetworkManager::send(): Error! send() returned:
+23:49:05   62 	Unknown error
+23:49:05   62 NetworkNode::sendMessage(): Error sending!
+23:49:05   63 Client::eventHandler(): sending mouse input to server.
+23:49:05   63 NetworkManager::send(): Error! send() returned:
+23:49:05   63 	Unknown error
+23:49:05   63 NetworkNode::sendMessage(): Error sending!
+23:49:05   65 Client::eventHandler(): sending mouse input to server.
+23:49:05   65 NetworkManager::send(): Error! send() returned:
+23:49:05   65 	Unknown error
+23:49:05   65 NetworkNode::sendMessage(): Error sending!
+23:49:05   65 Client::eventHandler(): sending mouse input to server.
+23:49:05   65 NetworkManager::send(): Error! send() returned:
+23:49:05   65 	Unknown error
+23:49:05   65 NetworkNode::sendMessage(): Error sending!
+23:49:05   66 Client::eventHandler(): sending mouse input to server.
+23:49:05   66 NetworkManager::send(): Error! send() returned:
+23:49:05   66 	Unknown error
+23:49:05   66 NetworkNode::sendMessage(): Error sending!
+23:49:05   67 Client::eventHandler(): sending mouse input to server.
+23:49:05   67 NetworkManager::send(): Error! send() returned:
+23:49:05   67 	Unknown error
+23:49:05   67 NetworkNode::sendMessage(): Error sending!
+23:49:05   68 Client::eventHandler(): sending mouse input to server.
+23:49:05   68 NetworkManager::send(): Error! send() returned:
+23:49:05   68 	Unknown error
+23:49:05   68 NetworkNode::sendMessage(): Error sending!
+23:49:05   68 Client::eventHandler(): sending mouse input to server.
+23:49:05   68 NetworkManager::send(): Error! send() returned:
+23:49:05   68 	Unknown error
+23:49:05   68 NetworkNode::sendMessage(): Error sending!
+23:49:05   68 Client::eventHandler(): sending mouse input to server.
+23:49:05   68 NetworkManager::send(): Error! send() returned:
+23:49:05   68 	Unknown error
+23:49:05   68 NetworkNode::sendMessage(): Error sending!
+23:49:05   68 Client::eventHandler(): sending mouse input to server.
+23:49:05   68 NetworkManager::send(): Error! send() returned:
+23:49:05   68 	Unknown error
+23:49:05   68 NetworkNode::sendMessage(): Error sending!
+23:49:05   69 Client::eventHandler(): sending mouse input to server.
+23:49:05   69 NetworkManager::send(): Error! send() returned:
+23:49:05   69 	Unknown error
+23:49:05   69 NetworkNode::sendMessage(): Error sending!
+23:49:05   70 Client::eventHandler(): sending mouse input to server.
+23:49:05   70 NetworkManager::send(): Error! send() returned:
+23:49:05   70 	Unknown error
+23:49:05   70 NetworkNode::sendMessage(): Error sending!
+23:49:05   72 Client::eventHandler(): sending mouse input to server.
+23:49:05   72 NetworkManager::send(): Error! send() returned:
+23:49:05   72 	Unknown error
+23:49:05   72 NetworkNode::sendMessage(): Error sending!
+23:49:06   73 Client::eventHandler(): sending mouse input to server.
+23:49:06   73 NetworkManager::send(): Error! send() returned:
+23:49:06   73 	Unknown error
+23:49:06   73 NetworkNode::sendMessage(): Error sending!
+23:49:06   74 Client::eventHandler(): sending mouse input to server.
+23:49:06   74 NetworkManager::send(): Error! send() returned:
+23:49:06   74 	Unknown error
+23:49:06   74 NetworkNode::sendMessage(): Error sending!
+23:49:06   76 Client::eventHandler(): sending mouse input to server.
+23:49:06   76 NetworkManager::send(): Error! send() returned:
+23:49:06   76 	Unknown error
+23:49:06   76 NetworkNode::sendMessage(): Error sending!
+23:49:06   77 Client::eventHandler(): sending mouse input to server.
+23:49:06   77 NetworkManager::send(): Error! send() returned:
+23:49:06   77 	Unknown error
+23:49:06   77 NetworkNode::sendMessage(): Error sending!
+23:49:06   77 Client::eventHandler(): sending mouse input to server.
+23:49:06   77 NetworkManager::send(): Error! send() returned:
+23:49:06   77 	Unknown error
+23:49:06   77 NetworkNode::sendMessage(): Error sending!
+23:49:06   77 Client::eventHandler(): sending mouse input to server.
+23:49:06   77 NetworkManager::send(): Error! send() returned:
+23:49:06   77 	Unknown error
+23:49:06   77 NetworkNode::sendMessage(): Error sending!
+23:49:06   77 Client::eventHandler(): sending mouse input to server.
+23:49:06   77 NetworkManager::send(): Error! send() returned:
+23:49:06   77 	Unknown error
+23:49:06   77 NetworkNode::sendMessage(): Error sending!
+23:49:06   78 Client::eventHandler(): sending mouse input to server.
+23:49:06   78 NetworkManager::send(): Error! send() returned:
+23:49:06   78 	Unknown error
+23:49:06   78 NetworkNode::sendMessage(): Error sending!
+23:49:06   78 Client::eventHandler(): sending mouse input to server.
+23:49:06   78 NetworkManager::send(): Error! send() returned:
+23:49:06   78 	Unknown error
+23:49:06   78 NetworkNode::sendMessage(): Error sending!
+23:49:06   78 Client::eventHandler(): sending mouse input to server.
+23:49:06   78 NetworkManager::send(): Error! send() returned:
+23:49:06   78 	Unknown error
+23:49:06   78 NetworkNode::sendMessage(): Error sending!
+23:49:06   78 Client::eventHandler(): sending mouse input to server.
+23:49:06   78 NetworkManager::send(): Error! send() returned:
+23:49:06   78 	Unknown error
+23:49:06   78 NetworkNode::sendMessage(): Error sending!
+23:49:06   78 Client::eventHandler(): sending mouse input to server.
+23:49:06   78 NetworkManager::send(): Error! send() returned:
+23:49:06   78 	Unknown error
+23:49:06   78 NetworkNode::sendMessage(): Error sending!
+23:49:06   79 Client::eventHandler(): sending mouse input to server.
+23:49:06   79 NetworkManager::send(): Error! send() returned:
+23:49:06   79 	Unknown error
+23:49:06   79 NetworkNode::sendMessage(): Error sending!
+23:49:06   80 Client::eventHandler(): sending mouse input to server.
+23:49:06   80 NetworkManager::send(): Error! send() returned:
+23:49:06   80 	Unknown error
+23:49:06   80 NetworkNode::sendMessage(): Error sending!
+23:49:06   81 Client::eventHandler(): sending mouse input to server.
+23:49:06   81 NetworkManager::send(): Error! send() returned:
+23:49:06   81 	Unknown error
+23:49:06   81 NetworkNode::sendMessage(): Error sending!
+23:49:06   82 Client::eventHandler(): sending mouse input to server.
+23:49:06   82 NetworkManager::send(): Error! send() returned:
+23:49:06   82 	Unknown error
+23:49:06   82 NetworkNode::sendMessage(): Error sending!
+23:49:06   83 Client::eventHandler(): sending mouse input to server.
+23:49:06   83 NetworkManager::send(): Error! send() returned:
+23:49:06   83 	Unknown error
+23:49:06   83 NetworkNode::sendMessage(): Error sending!
+23:49:06   83 Client::eventHandler(): sending mouse input to server.
+23:49:06   83 NetworkManager::send(): Error! send() returned:
+23:49:06   83 	Unknown error
+23:49:06   83 NetworkNode::sendMessage(): Error sending!
+23:49:06   84 Client::eventHandler(): sending mouse input to server.
+23:49:06   84 NetworkManager::send(): Error! send() returned:
+23:49:06   84 	Unknown error
+23:49:06   84 NetworkNode::sendMessage(): Error sending!
+23:49:06   85 Client::eventHandler(): sending mouse input to server.
+23:49:06   85 NetworkManager::send(): Error! send() returned:
+23:49:06   85 	Unknown error
+23:49:06   85 NetworkNode::sendMessage(): Error sending!
+23:49:06   86 Client::eventHandler(): sending mouse input to server.
+23:49:06   86 NetworkManager::send(): Error! send() returned:
+23:49:06   86 	Unknown error
+23:49:06   86 NetworkNode::sendMessage(): Error sending!
+23:49:06   86 Client::eventHandler(): sending mouse input to server.
+23:49:06   86 NetworkManager::send(): Error! send() returned:
+23:49:06   86 	Unknown error
+23:49:06   86 NetworkNode::sendMessage(): Error sending!
+23:49:06   87 Client::eventHandler(): sending mouse input to server.
+23:49:06   87 NetworkManager::send(): Error! send() returned:
+23:49:06   87 	Unknown error
+23:49:06   87 NetworkNode::sendMessage(): Error sending!
+23:49:06   87 Client::eventHandler(): sending mouse input to server.
+23:49:06   87 NetworkManager::send(): Error! send() returned:
+23:49:06   87 	Unknown error
+23:49:06   87 NetworkNode::sendMessage(): Error sending!
+23:49:06   99 Client::eventHandler(): sending mouse input to server.
+23:49:06   99 NetworkManager::send(): Error! send() returned:
+23:49:06   99 	Unknown error
+23:49:06   99 NetworkNode::sendMessage(): Error sending!
+23:49:06  100 Client::eventHandler(): sending mouse input to server.
+23:49:06  100 NetworkManager::send(): Error! send() returned:
+23:49:06  100 	Unknown error
+23:49:06  100 NetworkNode::sendMessage(): Error sending!
+23:49:06  100 Client::eventHandler(): sending mouse input to server.
+23:49:06  100 NetworkManager::send(): Error! send() returned:
+23:49:06  100 	Unknown error
+23:49:06  100 NetworkNode::sendMessage(): Error sending!
+23:49:06  100 Client::eventHandler(): sending mouse input to server.
+23:49:06  100 NetworkManager::send(): Error! send() returned:
+23:49:06  100 	Unknown error
+23:49:06  100 NetworkNode::sendMessage(): Error sending!
+23:49:06  100 Client::eventHandler(): sending mouse input to server.
+23:49:06  100 NetworkManager::send(): Error! send() returned:
+23:49:06  100 	Unknown error
+23:49:06  100 NetworkNode::sendMessage(): Error sending!
+23:49:06  101 Client::eventHandler(): sending mouse input to server.
+23:49:06  101 NetworkManager::send(): Error! send() returned:
+23:49:06  101 	Unknown error
+23:49:06  101 NetworkNode::sendMessage(): Error sending!
+23:49:06  101 Client::eventHandler(): sending mouse input to server.
+23:49:06  101 NetworkManager::send(): Error! send() returned:
+23:49:06  101 	Unknown error
+23:49:06  101 NetworkNode::sendMessage(): Error sending!
+23:49:06  101 Client::eventHandler(): sending mouse input to server.
+23:49:06  101 NetworkManager::send(): Error! send() returned:
+23:49:06  101 	Unknown error
+23:49:06  101 NetworkNode::sendMessage(): Error sending!
+23:49:06  101 Client::eventHandler(): sending mouse input to server.
+23:49:06  101 NetworkManager::send(): Error! send() returned:
+23:49:06  101 	Unknown error
+23:49:06  101 NetworkNode::sendMessage(): Error sending!
+23:49:06  102 Client::eventHandler(): sending mouse input to server.
+23:49:06  102 NetworkManager::send(): Error! send() returned:
+23:49:06  102 	Unknown error
+23:49:06  102 NetworkNode::sendMessage(): Error sending!
+23:49:07  103 Client::eventHandler(): sending mouse input to server.
+23:49:07  103 NetworkManager::send(): Error! send() returned:
+23:49:07  103 	Unknown error
+23:49:07  103 NetworkNode::sendMessage(): Error sending!
+23:49:07  104 Client::eventHandler(): sending mouse input to server.
+23:49:07  104 NetworkManager::send(): Error! send() returned:
+23:49:07  104 	Unknown error
+23:49:07  104 NetworkNode::sendMessage(): Error sending!
+23:49:07  104 Client::eventHandler(): sending mouse input to server.
+23:49:07  104 NetworkManager::send(): Error! send() returned:
+23:49:07  104 	Unknown error
+23:49:07  104 NetworkNode::sendMessage(): Error sending!
+23:49:07  104 Client::eventHandler(): sending mouse input to server.
+23:49:07  104 NetworkManager::send(): Error! send() returned:
+23:49:07  104 	Unknown error
+23:49:07  104 NetworkNode::sendMessage(): Error sending!
+23:49:07  122 Client::eventHandler(): sending mouse input to server.
+23:49:07  122 NetworkManager::send(): Error! send() returned:
+23:49:07  122 	Unknown error
+23:49:07  122 NetworkNode::sendMessage(): Error sending!
+23:49:07  125 Client::eventHandler(): sending mouse input to server.
+23:49:07  125 NetworkManager::send(): Error! send() returned:
+23:49:07  125 	Unknown error
+23:49:07  125 NetworkNode::sendMessage(): Error sending!
+23:49:10  178 Client::eventHandler(): sending mouse input to server.
+23:49:10  178 NetworkManager::send(): Error! send() returned:
+23:49:10  178 	Unknown error
+23:49:10  178 NetworkNode::sendMessage(): Error sending!
+23:49:10  179 Client::eventHandler(): sending mouse input to server.
+23:49:10  179 NetworkManager::send(): Error! send() returned:
+23:49:10  179 	Unknown error
+23:49:10  179 NetworkNode::sendMessage(): Error sending!
+23:49:10  179 Client::eventHandler(): sending mouse input to server.
+23:49:10  179 NetworkManager::send(): Error! send() returned:
+23:49:10  179 	Unknown error
+23:49:10  179 NetworkNode::sendMessage(): Error sending!
+23:49:10  179 Client::eventHandler(): sending mouse input to server.
+23:49:10  179 NetworkManager::send(): Error! send() returned:
+23:49:10  179 	Unknown error
+23:49:10  179 NetworkNode::sendMessage(): Error sending!
+23:49:10  180 Client::eventHandler(): sending mouse input to server.
+23:49:10  180 NetworkManager::send(): Error! send() returned:
+23:49:10  180 	Unknown error
+23:49:10  180 NetworkNode::sendMessage(): Error sending!
+23:49:10  181 Client::eventHandler(): sending mouse input to server.
+23:49:10  181 NetworkManager::send(): Error! send() returned:
+23:49:10  181 	Unknown error
+23:49:10  181 NetworkNode::sendMessage(): Error sending!
+23:49:10  181 Client::eventHandler(): sending mouse input to server.
+23:49:10  181 NetworkManager::send(): Error! send() returned:
+23:49:10  181 	Unknown error
+23:49:10  181 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  182 Client::eventHandler(): sending mouse input to server.
+23:49:10  182 NetworkManager::send(): Error! send() returned:
+23:49:10  182 	Unknown error
+23:49:10  182 NetworkNode::sendMessage(): Error sending!
+23:49:10  183 Client::eventHandler(): sending mouse input to server.
+23:49:10  183 NetworkManager::send(): Error! send() returned:
+23:49:10  183 	Unknown error
+23:49:10  183 NetworkNode::sendMessage(): Error sending!
+23:49:10  183 Client::eventHandler(): sending mouse input to server.
+23:49:10  183 NetworkManager::send(): Error! send() returned:
+23:49:10  183 	Unknown error
+23:49:10  183 NetworkNode::sendMessage(): Error sending!
+23:49:10  184 Client::eventHandler(): sending mouse input to server.
+23:49:10  184 NetworkManager::send(): Error! send() returned:
+23:49:10  184 	Unknown error
+23:49:10  184 NetworkNode::sendMessage(): Error sending!
+23:49:10  185 Client::eventHandler(): sending mouse input to server.
+23:49:10  185 NetworkManager::send(): Error! send() returned:
+23:49:10  185 	Unknown error
+23:49:10  185 NetworkNode::sendMessage(): Error sending!
+23:49:10  187 Client::eventHandler(): sending mouse input to server.
+23:49:10  187 NetworkManager::send(): Error! send() returned:
+23:49:10  187 	Unknown error
+23:49:10  187 NetworkNode::sendMessage(): Error sending!
+23:49:10  188 Client::eventHandler(): sending mouse input to server.
+23:49:10  188 NetworkManager::send(): Error! send() returned:
+23:49:10  188 	Unknown error
+23:49:10  188 NetworkNode::sendMessage(): Error sending!
+23:49:10  189 Client::eventHandler(): sending mouse input to server.
+23:49:10  189 NetworkManager::send(): Error! send() returned:
+23:49:10  189 	Unknown error
+23:49:10  189 NetworkNode::sendMessage(): Error sending!
+23:49:10  190 Client::eventHandler(): sending mouse input to server.
+23:49:10  190 NetworkManager::send(): Error! send() returned:
+23:49:10  190 	Unknown error
+23:49:10  190 NetworkNode::sendMessage(): Error sending!
+23:49:10  190 Client::eventHandler(): sending mouse input to server.
+23:49:10  190 NetworkManager::send(): Error! send() returned:
+23:49:10  190 	Unknown error
+23:49:10  190 NetworkNode::sendMessage(): Error sending!
+23:49:10  190 Client::eventHandler(): sending mouse input to server.
+23:49:10  190 NetworkManager::send(): Error! send() returned:
+23:49:10  190 	Unknown error
+23:49:10  190 NetworkNode::sendMessage(): Error sending!
+23:49:10  191 Client::eventHandler(): sending mouse input to server.
+23:49:10  191 NetworkManager::send(): Error! send() returned:
+23:49:10  191 	Unknown error
+23:49:10  191 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  192 Client::eventHandler(): sending mouse input to server.
+23:49:10  192 NetworkManager::send(): Error! send() returned:
+23:49:10  192 	Unknown error
+23:49:10  192 NetworkNode::sendMessage(): Error sending!
+23:49:10  193 Client::eventHandler(): sending mouse input to server.
+23:49:10  193 NetworkManager::send(): Error! send() returned:
+23:49:10  193 	Unknown error
+23:49:10  193 NetworkNode::sendMessage(): Error sending!
+23:49:10  193 Client::eventHandler(): sending mouse input to server.
+23:49:10  193 NetworkManager::send(): Error! send() returned:
+23:49:10  193 	Unknown error
+23:49:10  193 NetworkNode::sendMessage(): Error sending!
+23:49:10  193 Client::eventHandler(): sending mouse input to server.
+23:49:10  193 NetworkManager::send(): Error! send() returned:
+23:49:10  193 	Unknown error
+23:49:10  193 NetworkNode::sendMessage(): Error sending!
+23:49:10  193 Client::eventHandler(): sending mouse input to server.
+23:49:10  193 NetworkManager::send(): Error! send() returned:
+23:49:10  193 	Unknown error
+23:49:10  193 NetworkNode::sendMessage(): Error sending!
+23:49:11  194 Client::eventHandler(): sending mouse input to server.
+23:49:11  194 NetworkManager::send(): Error! send() returned:
+23:49:11  194 	Unknown error
+23:49:11  194 NetworkNode::sendMessage(): Error sending!
+23:49:11  194 Client::eventHandler(): sending mouse input to server.
+23:49:11  194 NetworkManager::send(): Error! send() returned:
+23:49:11  194 	Unknown error
+23:49:11  194 NetworkNode::sendMessage(): Error sending!
+23:49:11  194 Client::eventHandler(): sending mouse input to server.
+23:49:11  194 NetworkManager::send(): Error! send() returned:
+23:49:11  194 	Unknown error
+23:49:11  194 NetworkNode::sendMessage(): Error sending!
+23:49:11  194 Client::eventHandler(): sending mouse input to server.
+23:49:11  194 NetworkManager::send(): Error! send() returned:
+23:49:11  194 	Unknown error
+23:49:11  194 NetworkNode::sendMessage(): Error sending!
+23:49:13  254 Client::eventHandler(): sending mouse input to server.
+23:49:13  254 NetworkManager::send(): Error! send() returned:
+23:49:13  254 	Unknown error
+23:49:13  254 NetworkNode::sendMessage(): Error sending!
+23:49:13  254 Client::eventHandler(): sending mouse input to server.
+23:49:13  254 NetworkManager::send(): Error! send() returned:
+23:49:13  254 	Unknown error
+23:49:13  254 NetworkNode::sendMessage(): Error sending!
+23:49:13  255 Client::eventHandler(): sending mouse input to server.
+23:49:13  255 NetworkManager::send(): Error! send() returned:
+23:49:13  255 	Unknown error
+23:49:13  255 NetworkNode::sendMessage(): Error sending!
+23:49:13  256 Client::eventHandler(): sending mouse input to server.
+23:49:13  256 NetworkManager::send(): Error! send() returned:
+23:49:13  256 	Unknown error
+23:49:13  256 NetworkNode::sendMessage(): Error sending!
+23:49:13  257 Client::eventHandler(): sending mouse input to server.
+23:49:13  257 NetworkManager::send(): Error! send() returned:
+23:49:13  257 	Unknown error
+23:49:13  257 NetworkNode::sendMessage(): Error sending!
+23:49:13  257 Client::eventHandler(): sending mouse input to server.
+23:49:13  257 NetworkManager::send(): Error! send() returned:
+23:49:13  257 	Unknown error
+23:49:13  257 NetworkNode::sendMessage(): Error sending!
+23:49:13  258 Client::eventHandler(): sending mouse input to server.
+23:49:13  258 NetworkManager::send(): Error! send() returned:
+23:49:13  258 	Unknown error
+23:49:13  258 NetworkNode::sendMessage(): Error sending!
+23:49:13  258 Client::eventHandler(): sending mouse input to server.
+23:49:13  258 NetworkManager::send(): Error! send() returned:
+23:49:13  258 	Unknown error
+23:49:13  258 NetworkNode::sendMessage(): Error sending!
+23:49:13  259 Client::eventHandler(): sending mouse input to server.
+23:49:13  259 NetworkManager::send(): Error! send() returned:
+23:49:13  259 	Unknown error
+23:49:13  259 NetworkNode::sendMessage(): Error sending!
+23:49:13  260 Client::eventHandler(): sending mouse input to server.
+23:49:13  260 NetworkManager::send(): Error! send() returned:
+23:49:13  260 	Unknown error
+23:49:13  260 NetworkNode::sendMessage(): Error sending!
+23:49:13  260 Client::eventHandler(): sending mouse input to server.
+23:49:13  260 NetworkManager::send(): Error! send() returned:
+23:49:13  260 	Unknown error
+23:49:13  260 NetworkNode::sendMessage(): Error sending!
+23:49:13  261 Client::eventHandler(): sending mouse input to server.
+23:49:13  261 NetworkManager::send(): Error! send() returned:
+23:49:13  261 	Unknown error
+23:49:13  261 NetworkNode::sendMessage(): Error sending!
+23:49:13  261 Client::eventHandler(): sending mouse input to server.
+23:49:13  261 NetworkManager::send(): Error! send() returned:
+23:49:13  261 	Unknown error
+23:49:13  261 NetworkNode::sendMessage(): Error sending!
+23:49:13  261 Client::eventHandler(): sending mouse input to server.
+23:49:13  261 NetworkManager::send(): Error! send() returned:
+23:49:13  261 	Unknown error
+23:49:13  261 NetworkNode::sendMessage(): Error sending!
+23:49:13  261 Client::eventHandler(): sending mouse input to server.
+23:49:13  261 NetworkManager::send(): Error! send() returned:
+23:49:13  261 	Unknown error
+23:49:13  261 NetworkNode::sendMessage(): Error sending!
+23:49:13  262 Client::eventHandler(): sending mouse input to server.
+23:49:13  262 NetworkManager::send(): Error! send() returned:
+23:49:13  262 	Unknown error
+23:49:13  262 NetworkNode::sendMessage(): Error sending!
+23:49:13  278 Client::eventHandler(): sending mouse input to server.
+23:49:13  278 NetworkManager::send(): Error! send() returned:
+23:49:13  278 	Unknown error
+23:49:13  278 NetworkNode::sendMessage(): Error sending!
+23:49:13  279 Client::eventHandler(): sending mouse input to server.
+23:49:13  279 NetworkManager::send(): Error! send() returned:
+23:49:13  279 	Unknown error
+23:49:13  279 NetworkNode::sendMessage(): Error sending!
+23:49:13  282 Client::eventHandler(): sending mouse input to server.
+23:49:13  282 NetworkManager::send(): Error! send() returned:
+23:49:13  282 	Unknown error
+23:49:13  282 NetworkNode::sendMessage(): Error sending!
+23:49:13  283 Client::eventHandler(): sending mouse input to server.
+23:49:13  283 NetworkManager::send(): Error! send() returned:
+23:49:13  283 	Unknown error
+23:49:13  283 NetworkNode::sendMessage(): Error sending!
+23:49:13  284 Client::eventHandler(): sending mouse input to server.
+23:49:13  284 NetworkManager::send(): Error! send() returned:
+23:49:13  284 	Unknown error
+23:49:13  284 NetworkNode::sendMessage(): Error sending!
+23:49:13  284 Client::eventHandler(): sending mouse input to server.
+23:49:13  284 NetworkManager::send(): Error! send() returned:
+23:49:13  284 	Unknown error
+23:49:13  284 NetworkNode::sendMessage(): Error sending!
+23:49:14  285 Client::eventHandler(): sending mouse input to server.
+23:49:14  285 NetworkManager::send(): Error! send() returned:
+23:49:14  285 	Unknown error
+23:49:14  285 NetworkNode::sendMessage(): Error sending!
+23:49:16  331 Client::eventHandler(): sending mouse input to server.
+23:49:16  331 NetworkManager::send(): Error! send() returned:
+23:49:16  331 	Unknown error
+23:49:16  331 NetworkNode::sendMessage(): Error sending!
+23:49:16  332 Client::eventHandler(): sending mouse input to server.
+23:49:16  332 NetworkManager::send(): Error! send() returned:
+23:49:16  332 	Unknown error
+23:49:16  332 NetworkNode::sendMessage(): Error sending!
+23:49:16  333 Client::eventHandler(): sending mouse input to server.
+23:49:16  333 NetworkManager::send(): Error! send() returned:
+23:49:16  333 	Unknown error
+23:49:16  333 NetworkNode::sendMessage(): Error sending!
+23:49:16  333 Client::eventHandler(): sending mouse input to server.
+23:49:16  333 NetworkManager::send(): Error! send() returned:
+23:49:16  333 	Unknown error
+23:49:16  333 NetworkNode::sendMessage(): Error sending!
+23:49:16  333 Client::eventHandler(): sending mouse input to server.
+23:49:16  333 NetworkManager::send(): Error! send() returned:
+23:49:16  333 	Unknown error
+23:49:16  333 NetworkNode::sendMessage(): Error sending!
+23:49:16  333 Client::eventHandler(): sending mouse input to server.
+23:49:16  333 NetworkManager::send(): Error! send() returned:
+23:49:16  333 	Unknown error
+23:49:16  333 NetworkNode::sendMessage(): Error sending!
+23:49:16  333 Client::eventHandler(): sending mouse input to server.
+23:49:16  333 NetworkManager::send(): Error! send() returned:
+23:49:16  333 	Unknown error
+23:49:16  333 NetworkNode::sendMessage(): Error sending!
+23:49:16  334 Client::eventHandler(): sending mouse input to server.
+23:49:16  334 NetworkManager::send(): Error! send() returned:
+23:49:16  334 	Unknown error
+23:49:16  334 NetworkNode::sendMessage(): Error sending!
+23:49:16  335 Client::eventHandler(): sending mouse input to server.
+23:49:16  335 NetworkManager::send(): Error! send() returned:
+23:49:16  335 	Unknown error
+23:49:16  335 NetworkNode::sendMessage(): Error sending!
+23:49:16  336 Client::eventHandler(): sending mouse input to server.
+23:49:16  336 NetworkManager::send(): Error! send() returned:
+23:49:16  336 	Unknown error
+23:49:16  336 NetworkNode::sendMessage(): Error sending!
+23:49:16  336 Client::eventHandler(): sending mouse input to server.
+23:49:16  336 NetworkManager::send(): Error! send() returned:
+23:49:16  336 	Unknown error
+23:49:16  336 NetworkNode::sendMessage(): Error sending!
+23:49:16  336 Client::eventHandler(): sending mouse input to server.
+23:49:16  336 NetworkManager::send(): Error! send() returned:
+23:49:16  336 	Unknown error
+23:49:16  336 NetworkNode::sendMessage(): Error sending!
+23:49:16  336 Client::eventHandler(): sending mouse input to server.
+23:49:16  336 NetworkManager::send(): Error! send() returned:
+23:49:16  336 	Unknown error
+23:49:16  336 NetworkNode::sendMessage(): Error sending!
+23:49:16  337 Client::eventHandler(): sending mouse input to server.
+23:49:16  337 NetworkManager::send(): Error! send() returned:
+23:49:16  337 	Unknown error
+23:49:16  337 NetworkNode::sendMessage(): Error sending!
+23:49:16  337 Client::eventHandler(): sending mouse input to server.
+23:49:16  337 NetworkManager::send(): Error! send() returned:
+23:49:16  337 	Unknown error
+23:49:16  337 NetworkNode::sendMessage(): Error sending!
+23:49:17  338 Client::eventHandler(): sending mouse input to server.
+23:49:17  338 NetworkManager::send(): Error! send() returned:
+23:49:17  338 	Unknown error
+23:49:17  338 NetworkNode::sendMessage(): Error sending!
+23:49:17  339 Client::eventHandler(): sending mouse input to server.
+23:49:17  339 NetworkManager::send(): Error! send() returned:
+23:49:17  339 	Unknown error
+23:49:17  339 NetworkNode::sendMessage(): Error sending!
+23:49:17  340 Client::eventHandler(): sending mouse input to server.
+23:49:17  340 NetworkManager::send(): Error! send() returned:
+23:49:17  340 	Unknown error
+23:49:17  340 NetworkNode::sendMessage(): Error sending!
+23:49:17  346 Client::eventHandler(): sending mouse input to server.
+23:49:17  346 NetworkManager::send(): Error! send() returned:
+23:49:17  346 	Unknown error
+23:49:17  346 NetworkNode::sendMessage(): Error sending!
+23:49:17  346 Client::eventHandler(): sending mouse input to server.
+23:49:17  346 NetworkManager::send(): Error! send() returned:
+23:49:17  346 	Unknown error
+23:49:17  346 NetworkNode::sendMessage(): Error sending!
+23:49:17  347 Client::eventHandler(): sending mouse input to server.
+23:49:17  347 NetworkManager::send(): Error! send() returned:
+23:49:17  347 	Unknown error
+23:49:17  347 NetworkNode::sendMessage(): Error sending!
+23:49:17  348 Client::eventHandler(): sending mouse input to server.
+23:49:17  348 NetworkManager::send(): Error! send() returned:
+23:49:17  348 	Unknown error
+23:49:17  348 NetworkNode::sendMessage(): Error sending!
+23:49:17  349 Client::eventHandler(): sending mouse input to server.
+23:49:17  349 NetworkManager::send(): Error! send() returned:
+23:49:17  349 	Unknown error
+23:49:17  349 NetworkNode::sendMessage(): Error sending!
+23:49:17  358 Client::eventHandler(): sending mouse input to server.
+23:49:17  358 NetworkManager::send(): Error! send() returned:
+23:49:17  358 	Unknown error
+23:49:17  358 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  359 Client::eventHandler(): sending mouse input to server.
+23:49:17  359 NetworkManager::send(): Error! send() returned:
+23:49:17  359 	Unknown error
+23:49:17  359 NetworkNode::sendMessage(): Error sending!
+23:49:17  360 Client::eventHandler(): sending mouse input to server.
+23:49:17  360 NetworkManager::send(): Error! send() returned:
+23:49:17  360 	Unknown error
+23:49:17  360 NetworkNode::sendMessage(): Error sending!
+23:49:17  360 Client::eventHandler(): sending mouse input to server.
+23:49:17  360 NetworkManager::send(): Error! send() returned:
+23:49:17  360 	Unknown error
+23:49:17  360 NetworkNode::sendMessage(): Error sending!
+23:49:17  360 Client::eventHandler(): sending mouse input to server.
+23:49:17  360 NetworkManager::send(): Error! send() returned:
+23:49:17  360 	Unknown error
+23:49:17  360 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:17  361 Client::eventHandler(): sending mouse input to server.
+23:49:17  361 NetworkManager::send(): Error! send() returned:
+23:49:17  361 	Unknown error
+23:49:17  361 NetworkNode::sendMessage(): Error sending!
+23:49:21  460 Client::eventHandler(): sending mouse input to server.
+23:49:21  460 NetworkManager::send(): Error! send() returned:
+23:49:21  460 	Unknown error
+23:49:21  460 NetworkNode::sendMessage(): Error sending!
+23:49:21  461 Client::eventHandler(): sending mouse input to server.
+23:49:21  461 NetworkManager::send(): Error! send() returned:
+23:49:21  461 	Unknown error
+23:49:21  461 NetworkNode::sendMessage(): Error sending!
+23:49:21  462 Client::eventHandler(): sending mouse input to server.
+23:49:21  462 NetworkManager::send(): Error! send() returned:
+23:49:21  462 	Unknown error
+23:49:21  462 NetworkNode::sendMessage(): Error sending!
+23:49:21  462 Client::eventHandler(): sending mouse input to server.
+23:49:21  462 NetworkManager::send(): Error! send() returned:
+23:49:21  462 	Unknown error
+23:49:21  462 NetworkNode::sendMessage(): Error sending!
+23:49:21  462 Client::eventHandler(): sending mouse input to server.
+23:49:21  462 NetworkManager::send(): Error! send() returned:
+23:49:21  462 	Unknown error
+23:49:21  462 NetworkNode::sendMessage(): Error sending!
+23:49:21  463 Client::eventHandler(): sending mouse input to server.
+23:49:21  463 NetworkManager::send(): Error! send() returned:
+23:49:21  463 	Unknown error
+23:49:21  463 NetworkNode::sendMessage(): Error sending!
+23:49:21  463 Client::eventHandler(): sending mouse input to server.
+23:49:21  463 NetworkManager::send(): Error! send() returned:
+23:49:21  463 	Unknown error
+23:49:21  463 NetworkNode::sendMessage(): Error sending!
+23:49:21  464 Client::eventHandler(): sending mouse input to server.
+23:49:21  464 NetworkManager::send(): Error! send() returned:
+23:49:21  464 	Unknown error
+23:49:21  464 NetworkNode::sendMessage(): Error sending!
+23:49:21  465 Client::eventHandler(): sending mouse input to server.
+23:49:21  465 NetworkManager::send(): Error! send() returned:
+23:49:21  465 	Unknown error
+23:49:21  465 NetworkNode::sendMessage(): Error sending!
+23:49:21  467 Client::eventHandler(): sending mouse input to server.
+23:49:21  467 NetworkManager::send(): Error! send() returned:
+23:49:21  467 	Unknown error
+23:49:21  467 NetworkNode::sendMessage(): Error sending!
+23:49:21  468 Client::eventHandler(): sending mouse input to server.
+23:49:21  468 NetworkManager::send(): Error! send() returned:
+23:49:21  468 	Unknown error
+23:49:21  468 NetworkNode::sendMessage(): Error sending!
+23:49:21  469 Client::eventHandler(): sending mouse input to server.
+23:49:21  469 NetworkManager::send(): Error! send() returned:
+23:49:21  469 	Unknown error
+23:49:21  469 NetworkNode::sendMessage(): Error sending!
+23:49:22  487 InputManager::getInput(): Window close event. Setting game over.
+23:49:22  487 GameManager::run(): Can't keep up! frame_time 33 ms, split 77 ms
+23:49:22  488 GameManager::run(): end of game loop
+23:49:22  488 NetworkManager::send(): Error! send() returned:
+23:49:22  488 	Unknown error
+23:49:22  488 NetworkNode::sendMessage(): Error sending!
+23:49:22  488 PathManager::shutDown(): successfully stopped.
+23:49:22  488 Path manager stopped
+23:49:22  488 WorldManager::shutDown(): Successfully stopped.
+23:49:22  488 World manager stopped
+23:49:22  488 ResourceManager::shutDown(): successfully stopped.
+23:49:22  488 Resource manager stopped
+23:49:22  488 NetworkManager::shutDown(): successfully stopped.
+23:49:22  488 Network manager stopped
+23:49:22  488 InputManager::shutDown(): successfully stopped.
+23:49:22  488 Input manager stopped
+23:49:22  488 DisplayManager::shutDown(): successfully stopped.
+23:49:22  488 Display manager stopped
+23:49:22  488 ** Game stopped **
+23:49:22  488 ****************************************************
+23:49:22  488 LogManager::shutDown(): successfully stopped.

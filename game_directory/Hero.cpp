@@ -30,8 +30,9 @@
 #include "DamageIndicator.h"
 #include "AmmoDisplay.h"
 
-int moveSpeed = 2;
-int jumpHeight = 10;
+float moveSpeed = 2.0f;
+float jumpHeight = 6.0f;
+float down_gravity = 2.0f;
 
 Hero::Hero() {
 
@@ -64,19 +65,18 @@ Hero::Hero() {
 	//p_reticle->draw();
 
 	// Set attributes that control actions.
-	move_slowdown = 1;
-	move_countdown = move_slowdown;
 	fire_slowdown = 5;
 	fire_countdown = fire_slowdown;
 	nuke_count = 1;
-	jump_max = 1;
+	jump_max = 4;
 	jump_count = jump_max;
 	max_health = 50;
 	health = 50;
 	isDucking = false;
 	p_OnPlatform = NULL;
 
-	setAcceleration(df::Vector(0, 2));
+	setAcceleration(df::Vector(0, down_gravity));
+	setSolidness(df::SOFT);
 
 	//Set up weapons
 	Weapon *ak47 = new Weapon("AK47", WeaponType::RIFLE, this, 10, 3, 30, 90, 8, false, 0, 0, 2.5f);
@@ -177,20 +177,40 @@ int Hero::eventHandler(const df::Event *p_e) {
 }
 
 void Hero::landedOn(Platform *platform) {
-	if (p_OnPlatform == NULL) {
-		p_OnPlatform = platform;
+	//if (p_OnPlatform == NULL) {
+	//	p_OnPlatform = platform;
 
-		std::cout << "Landed on platform, hero pos: (" << getPosition().getX() << "," << getPosition().getY() << ")\n";
-		//if player is hovering above platform, set player to be exactly on platform
-		df::Vector delta(0, -0.5 + (p_OnPlatform->getPosition().getY() - getPosition().getY()) - ((p_OnPlatform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
-		if (delta.getY() > 0)
-			setPosition(getPosition() + delta);
+	//	std::cout << "Landed on platform, hero pos: (" << getPosition().getX() << "," << getPosition().getY() << ")\n";
+	//	//if player is hovering above platform, set player to be exactly on platform
+	//	df::Vector delta(0, -0.5 + (p_OnPlatform->getPosition().getY() - getPosition().getY()) - ((p_OnPlatform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+	//	if (delta.getY() > 0)
+	//		setPosition(getPosition() + delta);
 
-		jump_count = jump_max;
+	//	jump_count = jump_max;
 
-		setCentered(true);
+	//	setCentered(true);
 
-		return;
+	//	return;
+	//}
+	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
+		df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+		if ((-2 <= delta.getY()) && (delta.getY() <= 0.5)) {
+			df::Vector newPosition(getPosition().getX(), platform->getPosition().getY() - (float)((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+			std::cout << "Putting hero on the platform from " << (float)getPosition().getY() << "to " << (float)newPosition.getY() << "\n";
+
+			setPosition(newPosition);
+
+			p_OnPlatform = platform;
+
+			jump_count = jump_max;
+
+			setAcceleration(df::Vector(0, 0));
+			setVelocity(df::Vector(getVelocity().getX(), 0));
+
+			setCentered(true);
+
+			return;
+		}
 	}
 }
 
@@ -234,16 +254,15 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 		}
 		break;
 	case df::Keyboard::SPACE:   // jump!
-		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-			if (jump_count > 0) {
-				if (isDucking) {
-					p_OnPlatform->setSolidness(df::SOFT);
-				}
-				else {
-					jump();
-				}
-				jump_count--;
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+		{
+			jump();
+		}
+		else if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED) {
+			if (p_OnPlatform == NULL) {
+				jump_count = 0;
 			}
+		}
 		break;
 	case df::Keyboard::F:       // change weapon
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
@@ -281,11 +300,6 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 // Move up or down.
 void Hero::move(int dx, int dy) {
 
-	// See if time to move.
-	if (move_countdown > 0)
-		return;
-	move_countdown = move_slowdown;
-
 	// If stays on window, allow move.
 	df::Vector new_pos(getPosition().getX() + dx, getPosition().getY() + dy);
 	df::WorldManager &world_manager = df::WorldManager::getInstance();
@@ -312,28 +326,31 @@ void Hero::step() {
 	//weapon_view->setValue(getCurrentWeapon()->getAmmo());
 	weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":" + std::to_string(getCurrentWeapon()->getAmmoLoaded()) + "/" + std::to_string(getCurrentWeapon()->getAmmoBackup()));
 
-	// Move countdown.
-	move_countdown--;
-	if (move_countdown < 0)
-		move_countdown = 0;
-
 	//Check to see if the hero is on a platform.
 	df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
 	if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
 		p_OnPlatform = NULL;
 	}
 
-	//
-	if (getVelocity().getY() < 3) {
-		if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {
-			df::Vector player_pos = getPosition();
-			EventPlayerFalling* eventPlayerFalling = new EventPlayerFalling(player_pos);
-			WM.onEvent(eventPlayerFalling);
-		}
-		//setVelocity(getVelocity() + *(new df::Vector(0, 2.0f)));
+	////
+	//if (getVelocity().getY() < 3) {
+	//	if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {
+	//		df::Vector player_pos = getPosition();
+	//		EventPlayerFalling* eventPlayerFalling = new EventPlayerFalling(player_pos);
+	//		WM.onEvent(eventPlayerFalling);
+	//	}
+	//	//setVelocity(getVelocity() + *(new df::Vector(0, 2.0f)));
+	//}
+	////Always falling down, but the maximum down velocity is 2
+	//else {  
+	//	setVelocity(df::Vector(getVelocity().getX(), 3));
+	//}
+
+	if (p_OnPlatform == NULL) {
+		setAcceleration(df::Vector(0, down_gravity));
 	}
-	//Always falling down, but the maximum down velocity is 2
-	else {
+
+	if (getVelocity().getY() >= 3) {
 		setVelocity(df::Vector(getVelocity().getX(), 3));
 	}
 
@@ -341,11 +358,22 @@ void Hero::step() {
 }
 
 void Hero::jump() {
-	setVelocity(df::Vector(0, -jumpHeight));
-	setCentered(true);
-	df::Vector player_pos = getPosition();
-	EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
-	WM.onEvent(eventPlayerJumping);
+	if (jump_count > 0) {
+		p_OnPlatform = NULL;
+
+		//setPosition(getPosition() + df::Vector(0, -1));
+		if (!isDucking) {
+			setVelocity(df::Vector(0, -jumpHeight));
+		}
+
+		setCentered(true);
+	
+		jump_count--;
+	
+	}
+	//df::Vector player_pos = getPosition();
+	//EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
+	//WM.onEvent(eventPlayerJumping);
 }
 
 // Called with Saucer collides.

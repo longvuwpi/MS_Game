@@ -1,0 +1,1140 @@
+02:08:39    0 ****************************************************
+02:08:39    0 ** Dragonfly version 4.9 **
+02:08:40    0 Hello, Network! (v1.2)
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+02:08:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+02:08:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+02:08:40    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ak47_fire.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_fire.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/grenade_fire.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ammo_empty.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ak47_reload.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_reload.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/launcher_reload.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_bolt.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/pickup1.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/pickup2.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/explode.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/nuke.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/saucer_death.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/game-over.wav'
+02:08:40    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/level_won.wav'
+02:08:40    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/start-music.wav'
+02:08:40    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_theme.wav'
+02:08:40    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_boss.wav'
+02:08:40    0 Client::Client(): Connecting to localhost at port 9876.
+02:08:40    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+02:08:40    0 NetworkManager::connect(): Connection established.
+02:08:40    0 Client::handleConnect(): Client connected!
+02:08:40    0 Client::Client(): Client started.
+02:08:40    0 GameManager::run(): starting game loop
+02:08:40    0 Client::eventHandler(): sending mouse input to server.
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 Client::createObject(): creating object type 'Platform'
+02:08:40    0 GameManager::run(): Warning! Residual network data.
+02:08:40    1 Client::createObject(): creating object type 'Platform'
+02:08:40    1 Client::createObject(): creating object type 'Platform'
+02:08:40    1 Client::createObject(): creating object type 'Hero'
+02:08:40    1 GameManager::run(): Warning! Residual network data.
+02:08:40    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+02:08:40    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+02:08:40    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+02:08:40    2 GameManager::run(): Warning! Residual network data.
+02:08:40    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 83 ms
+02:08:40    3 GameManager::run(): Warning! Residual network data.
+02:08:40    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 84 ms
+02:08:40    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 106 ms
+02:08:40    5 Client::eventHandler(): sending mouse input to server.
+02:08:40    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+02:08:40    6 Client::eventHandler(): sending mouse input to server.
+02:08:40    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 104 ms
+02:08:40    7 Client::eventHandler(): sending mouse input to server.
+02:08:40    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 110 ms
+02:08:41    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+02:08:41    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 85 ms
+02:08:42   22 GameManager::run(): Warning! Residual network data.
+02:08:42   23 GameManager::run(): Warning! Residual network data.
+02:08:42   24 GameManager::run(): Warning! Residual network data.
+02:08:42   25 Client::eventHandler(): sending mouse input to server.
+02:08:42   25 Client::eventHandler(): sending mouse input to server.
+02:08:42   25 GameManager::run(): Warning! Residual network data.
+02:08:42   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+02:08:42   26 Client::eventHandler(): sending mouse input to server.
+02:08:42   26 GameManager::run(): Warning! Residual network data.
+02:08:42   27 Client::eventHandler(): sending mouse input to server.
+02:08:42   27 GameManager::run(): Warning! Residual network data.
+02:08:42   28 Client::eventHandler(): sending mouse input to server.
+02:08:42   28 GameManager::run(): Warning! Residual network data.
+02:08:43   29 Client::eventHandler(): sending mouse input to server.
+02:08:43   29 GameManager::run(): Warning! Residual network data.
+02:08:43   30 GameManager::run(): Warning! Residual network data.
+02:08:43   31 Client::eventHandler(): sending mouse input to server.
+02:08:43   32 Client::eventHandler(): sending mouse input to server.
+02:08:43   33 Client::eventHandler(): sending mouse input to server.
+02:08:43   34 Client::eventHandler(): sending mouse input to server.
+02:08:43   35 Client::eventHandler(): sending mouse input to server.
+02:08:43   35 Client::eventHandler(): sending mouse input to server.
+02:08:43   36 Client::eventHandler(): sending mouse input to server.
+02:08:43   44 Client::eventHandler(): sending mouse input to server.
+02:08:43   45 Client::eventHandler(): sending mouse input to server.
+02:08:43   46 Client::eventHandler(): sending mouse input to server.
+02:08:43   47 Client::eventHandler(): sending mouse input to server.
+02:08:43   51 Client::eventHandler(): sending mouse input to server.
+02:08:43   51 Client::eventHandler(): sending keyboard input to server.
+02:08:43   51 Client::eventHandler(): sending keyboard input to server.
+02:08:43   52 Client::eventHandler(): sending keyboard input to server.
+02:08:43   53 Client::eventHandler(): sending keyboard input to server.
+02:08:43   54 Client::eventHandler(): sending keyboard input to server.
+02:08:43   55 Client::eventHandler(): sending keyboard input to server.
+02:08:43   56 Client::eventHandler(): sending keyboard input to server.
+02:08:44   66 Client::eventHandler(): sending mouse input to server.
+02:08:44   67 Client::eventHandler(): sending mouse input to server.
+02:08:44   68 Client::eventHandler(): sending mouse input to server.
+02:08:44   69 Client::eventHandler(): sending mouse input to server.
+02:08:44   69 Client::eventHandler(): sending mouse input to server.
+02:08:44   70 Client::eventHandler(): sending mouse input to server.
+02:08:44   71 Client::eventHandler(): sending mouse input to server.
+02:08:44   76 Client::eventHandler(): sending mouse input to server.
+02:08:44   76 Client::eventHandler(): sending mouse input to server.
+02:08:44   77 Client::eventHandler(): sending mouse input to server.
+02:08:44   78 Client::eventHandler(): sending mouse input to server.
+02:08:44   80 Client::eventHandler(): sending mouse input to server.
+02:08:44   81 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+02:08:44   86 Client::eventHandler(): sending keyboard input to server.
+02:08:44   86 NetworkManager::send(): Error! send() returned:
+02:08:44   86 	Unknown error
+02:08:44   86 NetworkNode::sendMessage(): Error sending!
+02:08:44   86 Client::eventHandler(): sending keyboard input to server.
+02:08:44   86 NetworkManager::send(): Error! send() returned:
+02:08:44   86 	Unknown error
+02:08:44   86 NetworkNode::sendMessage(): Error sending!
+02:08:44   87 Client::eventHandler(): sending keyboard input to server.
+02:08:44   87 NetworkManager::send(): Error! send() returned:
+02:08:44   87 	Unknown error
+02:08:44   87 NetworkNode::sendMessage(): Error sending!
+02:08:44   88 Client::eventHandler(): sending keyboard input to server.
+02:08:44   88 NetworkManager::send(): Error! send() returned:
+02:08:44   88 	Unknown error
+02:08:44   88 NetworkNode::sendMessage(): Error sending!
+02:08:45   89 Client::eventHandler(): sending keyboard input to server.
+02:08:45   89 NetworkManager::send(): Error! send() returned:
+02:08:45   89 	Unknown error
+02:08:45   89 NetworkNode::sendMessage(): Error sending!
+02:08:45   90 Client::eventHandler(): sending keyboard input to server.
+02:08:45   90 NetworkManager::send(): Error! send() returned:
+02:08:45   90 	Unknown error
+02:08:45   90 NetworkNode::sendMessage(): Error sending!
+02:08:45   91 Client::eventHandler(): sending keyboard input to server.
+02:08:45   91 NetworkManager::send(): Error! send() returned:
+02:08:45   91 	Unknown error
+02:08:45   91 NetworkNode::sendMessage(): Error sending!
+02:08:45   92 Client::eventHandler(): sending keyboard input to server.
+02:08:45   92 NetworkManager::send(): Error! send() returned:
+02:08:45   92 	Unknown error
+02:08:45   92 NetworkNode::sendMessage(): Error sending!
+02:08:45   93 Client::eventHandler(): sending keyboard input to server.
+02:08:45   93 NetworkManager::send(): Error! send() returned:
+02:08:45   93 	Unknown error
+02:08:45   93 NetworkNode::sendMessage(): Error sending!
+02:08:45   96 Client::eventHandler(): sending mouse input to server.
+02:08:45   96 NetworkManager::send(): Error! send() returned:
+02:08:45   96 	Unknown error
+02:08:45   96 NetworkNode::sendMessage(): Error sending!
+02:08:45   97 Client::eventHandler(): sending mouse input to server.
+02:08:45   97 NetworkManager::send(): Error! send() returned:
+02:08:45   97 	Unknown error
+02:08:45   97 NetworkNode::sendMessage(): Error sending!
+02:08:45   98 Client::eventHandler(): sending mouse input to server.
+02:08:45   98 NetworkManager::send(): Error! send() returned:
+02:08:45   98 	Unknown error
+02:08:45   98 NetworkNode::sendMessage(): Error sending!
+02:08:45   99 Client::eventHandler(): sending mouse input to server.
+02:08:45   99 NetworkManager::send(): Error! send() returned:
+02:08:45   99 	Unknown error
+02:08:45   99 NetworkNode::sendMessage(): Error sending!
+02:08:45  100 Client::eventHandler(): sending mouse input to server.
+02:08:45  100 NetworkManager::send(): Error! send() returned:
+02:08:45  100 	Unknown error
+02:08:45  100 NetworkNode::sendMessage(): Error sending!
+02:08:45  101 Client::eventHandler(): sending mouse input to server.
+02:08:45  101 NetworkManager::send(): Error! send() returned:
+02:08:45  101 	Unknown error
+02:08:45  101 NetworkNode::sendMessage(): Error sending!
+02:08:45  102 Client::eventHandler(): sending mouse input to server.
+02:08:45  102 NetworkManager::send(): Error! send() returned:
+02:08:45  102 	Unknown error
+02:08:45  102 NetworkNode::sendMessage(): Error sending!
+02:08:45  103 Client::eventHandler(): sending mouse input to server.
+02:08:45  103 NetworkManager::send(): Error! send() returned:
+02:08:45  103 	Unknown error
+02:08:45  103 NetworkNode::sendMessage(): Error sending!
+02:08:45  104 Client::eventHandler(): sending mouse input to server.
+02:08:45  104 NetworkManager::send(): Error! send() returned:
+02:08:45  104 	Unknown error
+02:08:45  104 NetworkNode::sendMessage(): Error sending!
+02:08:45  105 Client::eventHandler(): sending mouse input to server.
+02:08:45  105 NetworkManager::send(): Error! send() returned:
+02:08:45  105 	Unknown error
+02:08:45  105 NetworkNode::sendMessage(): Error sending!
+02:08:45  106 Client::eventHandler(): sending mouse input to server.
+02:08:45  106 NetworkManager::send(): Error! send() returned:
+02:08:45  106 	Unknown error
+02:08:45  106 NetworkNode::sendMessage(): Error sending!
+02:08:45  110 Client::eventHandler(): sending mouse input to server.
+02:08:45  110 NetworkManager::send(): Error! send() returned:
+02:08:45  110 	Unknown error
+02:08:45  110 NetworkNode::sendMessage(): Error sending!
+02:08:45  111 Client::eventHandler(): sending mouse input to server.
+02:08:45  111 NetworkManager::send(): Error! send() returned:
+02:08:45  111 	Unknown error
+02:08:45  111 NetworkNode::sendMessage(): Error sending!
+02:08:45  112 Client::eventHandler(): sending keyboard input to server.
+02:08:45  112 NetworkManager::send(): Error! send() returned:
+02:08:45  112 	Unknown error
+02:08:45  112 NetworkNode::sendMessage(): Error sending!
+02:08:45  112 Client::eventHandler(): sending keyboard input to server.
+02:08:45  112 NetworkManager::send(): Error! send() returned:
+02:08:45  112 	Unknown error
+02:08:45  112 NetworkNode::sendMessage(): Error sending!
+02:08:45  113 Client::eventHandler(): sending keyboard input to server.
+02:08:45  113 NetworkManager::send(): Error! send() returned:
+02:08:45  113 	Unknown error
+02:08:45  113 NetworkNode::sendMessage(): Error sending!
+02:08:45  114 Client::eventHandler(): sending keyboard input to server.
+02:08:45  114 NetworkManager::send(): Error! send() returned:
+02:08:45  114 	Unknown error
+02:08:45  114 NetworkNode::sendMessage(): Error sending!
+02:08:45  115 Client::eventHandler(): sending keyboard input to server.
+02:08:45  115 NetworkManager::send(): Error! send() returned:
+02:08:45  115 	Unknown error
+02:08:45  115 NetworkNode::sendMessage(): Error sending!
+02:08:45  116 Client::eventHandler(): sending keyboard input to server.
+02:08:45  116 NetworkManager::send(): Error! send() returned:
+02:08:45  116 	Unknown error
+02:08:45  116 NetworkNode::sendMessage(): Error sending!
+02:08:45  117 Client::eventHandler(): sending keyboard input to server.
+02:08:45  117 NetworkManager::send(): Error! send() returned:
+02:08:45  117 	Unknown error
+02:08:45  117 NetworkNode::sendMessage(): Error sending!
+02:08:45  118 Client::eventHandler(): sending keyboard input to server.
+02:08:45  118 NetworkManager::send(): Error! send() returned:
+02:08:45  118 	Unknown error
+02:08:45  118 NetworkNode::sendMessage(): Error sending!
+02:08:45  119 Client::eventHandler(): sending keyboard input to server.
+02:08:45  119 NetworkManager::send(): Error! send() returned:
+02:08:45  119 	Unknown error
+02:08:45  119 NetworkNode::sendMessage(): Error sending!
+02:08:46  120 Client::eventHandler(): sending keyboard input to server.
+02:08:46  120 NetworkManager::send(): Error! send() returned:
+02:08:46  120 	Unknown error
+02:08:46  120 NetworkNode::sendMessage(): Error sending!
+02:08:46  122 Client::eventHandler(): sending mouse input to server.
+02:08:46  122 NetworkManager::send(): Error! send() returned:
+02:08:46  122 	Unknown error
+02:08:46  122 NetworkNode::sendMessage(): Error sending!
+02:08:46  123 Client::eventHandler(): sending keyboard input to server.
+02:08:46  123 NetworkManager::send(): Error! send() returned:
+02:08:46  123 	Unknown error
+02:08:46  123 NetworkNode::sendMessage(): Error sending!
+02:08:46  123 Client::eventHandler(): sending keyboard input to server.
+02:08:46  123 NetworkManager::send(): Error! send() returned:
+02:08:46  123 	Unknown error
+02:08:46  123 NetworkNode::sendMessage(): Error sending!
+02:08:46  124 Client::eventHandler(): sending keyboard input to server.
+02:08:46  124 NetworkManager::send(): Error! send() returned:
+02:08:46  124 	Unknown error
+02:08:46  124 NetworkNode::sendMessage(): Error sending!
+02:08:46  125 Client::eventHandler(): sending keyboard input to server.
+02:08:46  125 NetworkManager::send(): Error! send() returned:
+02:08:46  125 	Unknown error
+02:08:46  125 NetworkNode::sendMessage(): Error sending!
+02:08:46  126 Client::eventHandler(): sending keyboard input to server.
+02:08:46  126 NetworkManager::send(): Error! send() returned:
+02:08:46  126 	Unknown error
+02:08:46  126 NetworkNode::sendMessage(): Error sending!
+02:08:46  127 Client::eventHandler(): sending keyboard input to server.
+02:08:46  127 NetworkManager::send(): Error! send() returned:
+02:08:46  127 	Unknown error
+02:08:46  127 NetworkNode::sendMessage(): Error sending!
+02:08:46  128 Client::eventHandler(): sending keyboard input to server.
+02:08:46  128 NetworkManager::send(): Error! send() returned:
+02:08:46  128 	Unknown error
+02:08:46  128 NetworkNode::sendMessage(): Error sending!
+02:08:46  129 Client::eventHandler(): sending keyboard input to server.
+02:08:46  129 NetworkManager::send(): Error! send() returned:
+02:08:46  129 	Unknown error
+02:08:46  129 NetworkNode::sendMessage(): Error sending!
+02:08:47  171 Client::eventHandler(): sending mouse input to server.
+02:08:47  171 NetworkManager::send(): Error! send() returned:
+02:08:47  171 	Unknown error
+02:08:47  171 NetworkNode::sendMessage(): Error sending!
+02:08:47  172 Client::eventHandler(): sending mouse input to server.
+02:08:47  172 NetworkManager::send(): Error! send() returned:
+02:08:47  172 	Unknown error
+02:08:47  172 NetworkNode::sendMessage(): Error sending!
+02:08:47  173 Client::eventHandler(): sending mouse input to server.
+02:08:47  173 NetworkManager::send(): Error! send() returned:
+02:08:47  173 	Unknown error
+02:08:47  173 NetworkNode::sendMessage(): Error sending!
+02:08:47  174 Client::eventHandler(): sending mouse input to server.
+02:08:47  174 NetworkManager::send(): Error! send() returned:
+02:08:47  174 	Unknown error
+02:08:47  174 NetworkNode::sendMessage(): Error sending!
+02:08:47  175 Client::eventHandler(): sending mouse input to server.
+02:08:47  175 NetworkManager::send(): Error! send() returned:
+02:08:47  175 	Unknown error
+02:08:47  175 NetworkNode::sendMessage(): Error sending!
+02:08:47  176 Client::eventHandler(): sending mouse input to server.
+02:08:47  176 NetworkManager::send(): Error! send() returned:
+02:08:47  176 	Unknown error
+02:08:47  176 NetworkNode::sendMessage(): Error sending!
+02:08:47  177 Client::eventHandler(): sending mouse input to server.
+02:08:47  177 NetworkManager::send(): Error! send() returned:
+02:08:47  177 	Unknown error
+02:08:47  177 NetworkNode::sendMessage(): Error sending!
+02:08:47  178 Client::eventHandler(): sending mouse input to server.
+02:08:47  178 NetworkManager::send(): Error! send() returned:
+02:08:47  178 	Unknown error
+02:08:47  178 NetworkNode::sendMessage(): Error sending!
+02:08:47  179 Client::eventHandler(): sending mouse input to server.
+02:08:47  179 NetworkManager::send(): Error! send() returned:
+02:08:47  179 	Unknown error
+02:08:47  179 NetworkNode::sendMessage(): Error sending!
+02:08:48  180 Client::eventHandler(): sending mouse input to server.
+02:08:48  180 NetworkManager::send(): Error! send() returned:
+02:08:48  180 	Unknown error
+02:08:48  180 NetworkNode::sendMessage(): Error sending!
+02:08:48  181 Client::eventHandler(): sending mouse input to server.
+02:08:48  181 NetworkManager::send(): Error! send() returned:
+02:08:48  181 	Unknown error
+02:08:48  181 NetworkNode::sendMessage(): Error sending!
+02:08:48  182 Client::eventHandler(): sending mouse input to server.
+02:08:48  182 NetworkManager::send(): Error! send() returned:
+02:08:48  182 	Unknown error
+02:08:48  182 NetworkNode::sendMessage(): Error sending!
+02:08:48  183 Client::eventHandler(): sending mouse input to server.
+02:08:48  183 NetworkManager::send(): Error! send() returned:
+02:08:48  183 	Unknown error
+02:08:48  183 NetworkNode::sendMessage(): Error sending!
+02:08:48  185 Client::eventHandler(): sending mouse input to server.
+02:08:48  185 NetworkManager::send(): Error! send() returned:
+02:08:48  185 	Unknown error
+02:08:48  185 NetworkNode::sendMessage(): Error sending!
+02:08:48  186 Client::eventHandler(): sending mouse input to server.
+02:08:48  186 NetworkManager::send(): Error! send() returned:
+02:08:48  186 	Unknown error
+02:08:48  186 NetworkNode::sendMessage(): Error sending!
+02:08:48  187 Client::eventHandler(): sending mouse input to server.
+02:08:48  187 NetworkManager::send(): Error! send() returned:
+02:08:48  187 	Unknown error
+02:08:48  187 NetworkNode::sendMessage(): Error sending!
+02:08:48  188 Client::eventHandler(): sending mouse input to server.
+02:08:48  188 NetworkManager::send(): Error! send() returned:
+02:08:48  188 	Unknown error
+02:08:48  188 NetworkNode::sendMessage(): Error sending!
+02:08:48  189 Client::eventHandler(): sending mouse input to server.
+02:08:48  189 NetworkManager::send(): Error! send() returned:
+02:08:48  189 	Unknown error
+02:08:48  189 NetworkNode::sendMessage(): Error sending!
+02:08:48  190 Client::eventHandler(): sending mouse input to server.
+02:08:48  190 NetworkManager::send(): Error! send() returned:
+02:08:48  190 	Unknown error
+02:08:48  190 NetworkNode::sendMessage(): Error sending!
+02:08:48  191 Client::eventHandler(): sending mouse input to server.
+02:08:48  191 NetworkManager::send(): Error! send() returned:
+02:08:48  191 	Unknown error
+02:08:48  191 NetworkNode::sendMessage(): Error sending!
+02:08:48  192 Client::eventHandler(): sending mouse input to server.
+02:08:48  192 NetworkManager::send(): Error! send() returned:
+02:08:48  192 	Unknown error
+02:08:48  192 NetworkNode::sendMessage(): Error sending!
+02:08:48  193 Client::eventHandler(): sending mouse input to server.
+02:08:48  193 NetworkManager::send(): Error! send() returned:
+02:08:48  193 	Unknown error
+02:08:48  193 NetworkNode::sendMessage(): Error sending!
+02:08:48  194 Client::eventHandler(): sending mouse input to server.
+02:08:48  194 NetworkManager::send(): Error! send() returned:
+02:08:48  194 	Unknown error
+02:08:48  194 NetworkNode::sendMessage(): Error sending!
+02:08:48  195 Client::eventHandler(): sending mouse input to server.
+02:08:48  195 NetworkManager::send(): Error! send() returned:
+02:08:48  195 	Unknown error
+02:08:48  195 NetworkNode::sendMessage(): Error sending!
+02:08:48  198 Client::eventHandler(): sending mouse input to server.
+02:08:48  198 NetworkManager::send(): Error! send() returned:
+02:08:48  198 	Unknown error
+02:08:48  198 NetworkNode::sendMessage(): Error sending!
+02:08:48  198 Client::eventHandler(): sending mouse input to server.
+02:08:48  198 NetworkManager::send(): Error! send() returned:
+02:08:48  198 	Unknown error
+02:08:48  198 NetworkNode::sendMessage(): Error sending!
+02:08:48  199 Client::eventHandler(): sending mouse input to server.
+02:08:48  199 NetworkManager::send(): Error! send() returned:
+02:08:48  199 	Unknown error
+02:08:48  199 NetworkNode::sendMessage(): Error sending!
+02:08:48  200 Client::eventHandler(): sending mouse input to server.
+02:08:48  200 NetworkManager::send(): Error! send() returned:
+02:08:48  200 	Unknown error
+02:08:48  200 NetworkNode::sendMessage(): Error sending!
+02:08:48  210 Client::eventHandler(): sending keyboard input to server.
+02:08:48  210 NetworkManager::send(): Error! send() returned:
+02:08:48  210 	Unknown error
+02:08:48  210 NetworkNode::sendMessage(): Error sending!
+02:08:48  210 Client::eventHandler(): sending keyboard input to server.
+02:08:48  210 NetworkManager::send(): Error! send() returned:
+02:08:48  210 	Unknown error
+02:08:48  210 NetworkNode::sendMessage(): Error sending!
+02:08:49  211 Client::eventHandler(): sending keyboard input to server.
+02:08:49  211 NetworkManager::send(): Error! send() returned:
+02:08:49  211 	Unknown error
+02:08:49  211 NetworkNode::sendMessage(): Error sending!
+02:08:49  212 Client::eventHandler(): sending keyboard input to server.
+02:08:49  212 NetworkManager::send(): Error! send() returned:
+02:08:49  212 	Unknown error
+02:08:49  212 NetworkNode::sendMessage(): Error sending!
+02:08:49  213 Client::eventHandler(): sending keyboard input to server.
+02:08:49  213 NetworkManager::send(): Error! send() returned:
+02:08:49  213 	Unknown error
+02:08:49  213 NetworkNode::sendMessage(): Error sending!
+02:08:49  214 Client::eventHandler(): sending keyboard input to server.
+02:08:49  214 NetworkManager::send(): Error! send() returned:
+02:08:49  214 	Unknown error
+02:08:49  214 NetworkNode::sendMessage(): Error sending!
+02:08:49  215 Client::eventHandler(): sending keyboard input to server.
+02:08:49  215 NetworkManager::send(): Error! send() returned:
+02:08:49  215 	Unknown error
+02:08:49  215 NetworkNode::sendMessage(): Error sending!
+02:08:49  216 Client::eventHandler(): sending keyboard input to server.
+02:08:49  216 NetworkManager::send(): Error! send() returned:
+02:08:49  216 	Unknown error
+02:08:49  216 NetworkNode::sendMessage(): Error sending!
+02:08:49  217 Client::eventHandler(): sending keyboard input to server.
+02:08:49  217 NetworkManager::send(): Error! send() returned:
+02:08:49  217 	Unknown error
+02:08:49  217 NetworkNode::sendMessage(): Error sending!
+02:08:49  218 Client::eventHandler(): sending keyboard input to server.
+02:08:49  218 NetworkManager::send(): Error! send() returned:
+02:08:49  218 	Unknown error
+02:08:49  218 NetworkNode::sendMessage(): Error sending!
+02:08:49  219 Client::eventHandler(): sending keyboard input to server.
+02:08:49  219 NetworkManager::send(): Error! send() returned:
+02:08:49  219 	Unknown error
+02:08:49  219 NetworkNode::sendMessage(): Error sending!
+02:08:49  220 Client::eventHandler(): sending keyboard input to server.
+02:08:49  220 NetworkManager::send(): Error! send() returned:
+02:08:49  220 	Unknown error
+02:08:49  220 NetworkNode::sendMessage(): Error sending!
+02:08:49  221 Client::eventHandler(): sending keyboard input to server.
+02:08:49  221 NetworkManager::send(): Error! send() returned:
+02:08:49  221 	Unknown error
+02:08:49  221 NetworkNode::sendMessage(): Error sending!
+02:08:49  222 Client::eventHandler(): sending keyboard input to server.
+02:08:49  222 NetworkManager::send(): Error! send() returned:
+02:08:49  222 	Unknown error
+02:08:49  222 NetworkNode::sendMessage(): Error sending!
+02:08:49  222 Client::eventHandler(): sending keyboard input to server.
+02:08:49  222 NetworkManager::send(): Error! send() returned:
+02:08:49  222 	Unknown error
+02:08:49  222 NetworkNode::sendMessage(): Error sending!
+02:08:49  223 Client::eventHandler(): sending keyboard input to server.
+02:08:49  223 NetworkManager::send(): Error! send() returned:
+02:08:49  223 	Unknown error
+02:08:49  223 NetworkNode::sendMessage(): Error sending!
+02:08:49  224 Client::eventHandler(): sending keyboard input to server.
+02:08:49  224 NetworkManager::send(): Error! send() returned:
+02:08:49  224 	Unknown error
+02:08:49  224 NetworkNode::sendMessage(): Error sending!
+02:08:49  225 Client::eventHandler(): sending keyboard input to server.
+02:08:49  225 NetworkManager::send(): Error! send() returned:
+02:08:49  225 	Unknown error
+02:08:49  225 NetworkNode::sendMessage(): Error sending!
+02:08:49  226 Client::eventHandler(): sending keyboard input to server.
+02:08:49  226 NetworkManager::send(): Error! send() returned:
+02:08:49  226 	Unknown error
+02:08:49  226 NetworkNode::sendMessage(): Error sending!
+02:08:49  227 Client::eventHandler(): sending keyboard input to server.
+02:08:49  227 NetworkManager::send(): Error! send() returned:
+02:08:49  227 	Unknown error
+02:08:49  227 NetworkNode::sendMessage(): Error sending!
+02:08:49  228 Client::eventHandler(): sending keyboard input to server.
+02:08:49  228 NetworkManager::send(): Error! send() returned:
+02:08:49  228 	Unknown error
+02:08:49  228 NetworkNode::sendMessage(): Error sending!
+02:08:49  229 Client::eventHandler(): sending keyboard input to server.
+02:08:49  229 NetworkManager::send(): Error! send() returned:
+02:08:49  229 	Unknown error
+02:08:49  229 NetworkNode::sendMessage(): Error sending!
+02:08:49  230 Client::eventHandler(): sending keyboard input to server.
+02:08:49  230 NetworkManager::send(): Error! send() returned:
+02:08:49  230 	Unknown error
+02:08:49  230 NetworkNode::sendMessage(): Error sending!
+02:08:49  231 Client::eventHandler(): sending keyboard input to server.
+02:08:49  231 NetworkManager::send(): Error! send() returned:
+02:08:49  231 	Unknown error
+02:08:49  231 NetworkNode::sendMessage(): Error sending!
+02:08:49  232 Client::eventHandler(): sending keyboard input to server.
+02:08:49  232 NetworkManager::send(): Error! send() returned:
+02:08:49  232 	Unknown error
+02:08:49  232 NetworkNode::sendMessage(): Error sending!
+02:08:49  232 Client::eventHandler(): sending keyboard input to server.
+02:08:49  232 NetworkManager::send(): Error! send() returned:
+02:08:49  232 	Unknown error
+02:08:49  232 NetworkNode::sendMessage(): Error sending!
+02:08:49  232 Client::eventHandler(): sending keyboard input to server.
+02:08:49  232 NetworkManager::send(): Error! send() returned:
+02:08:49  232 	Unknown error
+02:08:49  232 NetworkNode::sendMessage(): Error sending!
+02:08:49  233 Client::eventHandler(): sending keyboard input to server.
+02:08:49  233 NetworkManager::send(): Error! send() returned:
+02:08:49  233 	Unknown error
+02:08:49  233 NetworkNode::sendMessage(): Error sending!
+02:08:49  233 Client::eventHandler(): sending keyboard input to server.
+02:08:49  233 NetworkManager::send(): Error! send() returned:
+02:08:49  233 	Unknown error
+02:08:49  233 NetworkNode::sendMessage(): Error sending!
+02:08:49  234 Client::eventHandler(): sending keyboard input to server.
+02:08:49  234 NetworkManager::send(): Error! send() returned:
+02:08:49  234 	Unknown error
+02:08:49  234 NetworkNode::sendMessage(): Error sending!
+02:08:49  234 Client::eventHandler(): sending keyboard input to server.
+02:08:49  234 NetworkManager::send(): Error! send() returned:
+02:08:49  234 	Unknown error
+02:08:49  234 NetworkNode::sendMessage(): Error sending!
+02:08:49  235 Client::eventHandler(): sending keyboard input to server.
+02:08:49  235 NetworkManager::send(): Error! send() returned:
+02:08:49  235 	Unknown error
+02:08:49  235 NetworkNode::sendMessage(): Error sending!
+02:08:49  236 Client::eventHandler(): sending keyboard input to server.
+02:08:49  236 NetworkManager::send(): Error! send() returned:
+02:08:49  236 	Unknown error
+02:08:49  236 NetworkNode::sendMessage(): Error sending!
+02:08:49  237 Client::eventHandler(): sending keyboard input to server.
+02:08:49  237 NetworkManager::send(): Error! send() returned:
+02:08:49  237 	Unknown error
+02:08:49  237 NetworkNode::sendMessage(): Error sending!
+02:08:49  238 Client::eventHandler(): sending keyboard input to server.
+02:08:49  238 NetworkManager::send(): Error! send() returned:
+02:08:49  238 	Unknown error
+02:08:49  238 NetworkNode::sendMessage(): Error sending!
+02:08:49  239 Client::eventHandler(): sending keyboard input to server.
+02:08:49  239 NetworkManager::send(): Error! send() returned:
+02:08:49  239 	Unknown error
+02:08:49  239 NetworkNode::sendMessage(): Error sending!
+02:08:49  240 Client::eventHandler(): sending keyboard input to server.
+02:08:49  240 NetworkManager::send(): Error! send() returned:
+02:08:49  240 	Unknown error
+02:08:49  240 NetworkNode::sendMessage(): Error sending!
+02:08:50  241 Client::eventHandler(): sending keyboard input to server.
+02:08:50  241 NetworkManager::send(): Error! send() returned:
+02:08:50  241 	Unknown error
+02:08:50  241 NetworkNode::sendMessage(): Error sending!
+02:08:50  242 Client::eventHandler(): sending keyboard input to server.
+02:08:50  242 NetworkManager::send(): Error! send() returned:
+02:08:50  242 	Unknown error
+02:08:50  242 NetworkNode::sendMessage(): Error sending!
+02:08:50  249 Client::eventHandler(): sending keyboard input to server.
+02:08:50  249 NetworkManager::send(): Error! send() returned:
+02:08:50  249 	Unknown error
+02:08:50  249 NetworkNode::sendMessage(): Error sending!
+02:08:50  249 Client::eventHandler(): sending keyboard input to server.
+02:08:50  249 NetworkManager::send(): Error! send() returned:
+02:08:50  249 	Unknown error
+02:08:50  249 NetworkNode::sendMessage(): Error sending!
+02:08:50  250 Client::eventHandler(): sending keyboard input to server.
+02:08:50  250 NetworkManager::send(): Error! send() returned:
+02:08:50  250 	Unknown error
+02:08:50  250 NetworkNode::sendMessage(): Error sending!
+02:08:50  251 Client::eventHandler(): sending keyboard input to server.
+02:08:50  251 NetworkManager::send(): Error! send() returned:
+02:08:50  251 	Unknown error
+02:08:50  251 NetworkNode::sendMessage(): Error sending!
+02:08:50  252 Client::eventHandler(): sending keyboard input to server.
+02:08:50  252 NetworkManager::send(): Error! send() returned:
+02:08:50  252 	Unknown error
+02:08:50  252 NetworkNode::sendMessage(): Error sending!
+02:08:50  253 Client::eventHandler(): sending keyboard input to server.
+02:08:50  253 NetworkManager::send(): Error! send() returned:
+02:08:50  253 	Unknown error
+02:08:50  253 NetworkNode::sendMessage(): Error sending!
+02:08:50  254 Client::eventHandler(): sending keyboard input to server.
+02:08:50  254 NetworkManager::send(): Error! send() returned:
+02:08:50  254 	Unknown error
+02:08:50  254 NetworkNode::sendMessage(): Error sending!
+02:08:50  260 Client::eventHandler(): sending mouse input to server.
+02:08:50  260 NetworkManager::send(): Error! send() returned:
+02:08:50  260 	Unknown error
+02:08:50  260 NetworkNode::sendMessage(): Error sending!
+02:08:50  261 Client::eventHandler(): sending mouse input to server.
+02:08:50  261 NetworkManager::send(): Error! send() returned:
+02:08:50  261 	Unknown error
+02:08:50  261 NetworkNode::sendMessage(): Error sending!
+02:08:50  262 Client::eventHandler(): sending mouse input to server.
+02:08:50  262 NetworkManager::send(): Error! send() returned:
+02:08:50  262 	Unknown error
+02:08:50  262 NetworkNode::sendMessage(): Error sending!
+02:08:50  263 Client::eventHandler(): sending mouse input to server.
+02:08:50  263 NetworkManager::send(): Error! send() returned:
+02:08:50  263 	Unknown error
+02:08:50  263 NetworkNode::sendMessage(): Error sending!
+02:08:50  264 Client::eventHandler(): sending mouse input to server.
+02:08:50  264 NetworkManager::send(): Error! send() returned:
+02:08:50  264 	Unknown error
+02:08:50  264 NetworkNode::sendMessage(): Error sending!
+02:08:50  264 Client::eventHandler(): sending keyboard input to server.
+02:08:50  264 NetworkManager::send(): Error! send() returned:
+02:08:50  264 	Unknown error
+02:08:50  264 NetworkNode::sendMessage(): Error sending!
+02:08:50  264 Client::eventHandler(): sending mouse input to server.
+02:08:50  264 NetworkManager::send(): Error! send() returned:
+02:08:50  264 	Unknown error
+02:08:50  264 NetworkNode::sendMessage(): Error sending!
+02:08:50  264 Client::eventHandler(): sending keyboard input to server.
+02:08:50  264 NetworkManager::send(): Error! send() returned:
+02:08:50  264 	Unknown error
+02:08:50  264 NetworkNode::sendMessage(): Error sending!
+02:08:50  265 Client::eventHandler(): sending mouse input to server.
+02:08:50  265 NetworkManager::send(): Error! send() returned:
+02:08:50  265 	Unknown error
+02:08:50  265 NetworkNode::sendMessage(): Error sending!
+02:08:50  265 Client::eventHandler(): sending keyboard input to server.
+02:08:50  265 NetworkManager::send(): Error! send() returned:
+02:08:50  265 	Unknown error
+02:08:50  265 NetworkNode::sendMessage(): Error sending!
+02:08:50  266 Client::eventHandler(): sending keyboard input to server.
+02:08:50  266 NetworkManager::send(): Error! send() returned:
+02:08:50  266 	Unknown error
+02:08:50  266 NetworkNode::sendMessage(): Error sending!
+02:08:50  267 Client::eventHandler(): sending keyboard input to server.
+02:08:50  267 NetworkManager::send(): Error! send() returned:
+02:08:50  267 	Unknown error
+02:08:50  267 NetworkNode::sendMessage(): Error sending!
+02:08:50  268 Client::eventHandler(): sending keyboard input to server.
+02:08:50  268 NetworkManager::send(): Error! send() returned:
+02:08:50  268 	Unknown error
+02:08:50  268 NetworkNode::sendMessage(): Error sending!
+02:08:50  269 Client::eventHandler(): sending keyboard input to server.
+02:08:50  269 NetworkManager::send(): Error! send() returned:
+02:08:50  269 	Unknown error
+02:08:50  269 NetworkNode::sendMessage(): Error sending!
+02:08:50  270 Client::eventHandler(): sending keyboard input to server.
+02:08:50  270 NetworkManager::send(): Error! send() returned:
+02:08:50  270 	Unknown error
+02:08:50  270 NetworkNode::sendMessage(): Error sending!
+02:08:51  271 Client::eventHandler(): sending keyboard input to server.
+02:08:51  271 NetworkManager::send(): Error! send() returned:
+02:08:51  271 	Unknown error
+02:08:51  271 NetworkNode::sendMessage(): Error sending!
+02:08:51  272 Client::eventHandler(): sending keyboard input to server.
+02:08:51  272 NetworkManager::send(): Error! send() returned:
+02:08:51  272 	Unknown error
+02:08:51  272 NetworkNode::sendMessage(): Error sending!
+02:08:51  273 Client::eventHandler(): sending keyboard input to server.
+02:08:51  273 NetworkManager::send(): Error! send() returned:
+02:08:51  273 	Unknown error
+02:08:51  273 NetworkNode::sendMessage(): Error sending!
+02:08:51  274 Client::eventHandler(): sending keyboard input to server.
+02:08:51  274 NetworkManager::send(): Error! send() returned:
+02:08:51  274 	Unknown error
+02:08:51  274 NetworkNode::sendMessage(): Error sending!
+02:08:51  275 Client::eventHandler(): sending mouse input to server.
+02:08:51  275 NetworkManager::send(): Error! send() returned:
+02:08:51  275 	Unknown error
+02:08:51  275 NetworkNode::sendMessage(): Error sending!
+02:08:51  275 Client::eventHandler(): sending mouse input to server.
+02:08:51  275 NetworkManager::send(): Error! send() returned:
+02:08:51  275 	Unknown error
+02:08:51  275 NetworkNode::sendMessage(): Error sending!
+02:08:51  276 Client::eventHandler(): sending mouse input to server.
+02:08:51  276 NetworkManager::send(): Error! send() returned:
+02:08:51  276 	Unknown error
+02:08:51  276 NetworkNode::sendMessage(): Error sending!
+02:08:51  277 Client::eventHandler(): sending mouse input to server.
+02:08:51  277 NetworkManager::send(): Error! send() returned:
+02:08:51  277 	Unknown error
+02:08:51  277 NetworkNode::sendMessage(): Error sending!
+02:08:51  278 Client::eventHandler(): sending mouse input to server.
+02:08:51  278 NetworkManager::send(): Error! send() returned:
+02:08:51  278 	Unknown error
+02:08:51  278 NetworkNode::sendMessage(): Error sending!
+02:08:51  286 Client::eventHandler(): sending mouse input to server.
+02:08:51  286 NetworkManager::send(): Error! send() returned:
+02:08:51  286 	Unknown error
+02:08:51  286 NetworkNode::sendMessage(): Error sending!
+02:08:51  287 Client::eventHandler(): sending mouse input to server.
+02:08:51  287 NetworkManager::send(): Error! send() returned:
+02:08:51  287 	Unknown error
+02:08:51  287 NetworkNode::sendMessage(): Error sending!
+02:08:51  288 Client::eventHandler(): sending mouse input to server.
+02:08:51  288 NetworkManager::send(): Error! send() returned:
+02:08:51  288 	Unknown error
+02:08:51  288 NetworkNode::sendMessage(): Error sending!
+02:08:51  289 Client::eventHandler(): sending mouse input to server.
+02:08:51  289 NetworkManager::send(): Error! send() returned:
+02:08:51  289 	Unknown error
+02:08:51  289 NetworkNode::sendMessage(): Error sending!
+02:08:51  289 Client::eventHandler(): sending mouse input to server.
+02:08:51  289 NetworkManager::send(): Error! send() returned:
+02:08:51  289 	Unknown error
+02:08:51  289 NetworkNode::sendMessage(): Error sending!
+02:08:51  290 Client::eventHandler(): sending mouse input to server.
+02:08:51  290 NetworkManager::send(): Error! send() returned:
+02:08:51  290 	Unknown error
+02:08:51  290 NetworkNode::sendMessage(): Error sending!
+02:08:51  298 Client::eventHandler(): sending mouse input to server.
+02:08:51  298 NetworkManager::send(): Error! send() returned:
+02:08:51  298 	Unknown error
+02:08:51  298 NetworkNode::sendMessage(): Error sending!
+02:08:51  298 Client::eventHandler(): sending mouse input to server.
+02:08:51  298 NetworkManager::send(): Error! send() returned:
+02:08:51  298 	Unknown error
+02:08:51  298 NetworkNode::sendMessage(): Error sending!
+02:08:51  299 Client::eventHandler(): sending mouse input to server.
+02:08:51  299 NetworkManager::send(): Error! send() returned:
+02:08:51  299 	Unknown error
+02:08:51  299 NetworkNode::sendMessage(): Error sending!
+02:08:51  299 Client::eventHandler(): sending mouse input to server.
+02:08:51  299 NetworkManager::send(): Error! send() returned:
+02:08:51  299 	Unknown error
+02:08:51  299 NetworkNode::sendMessage(): Error sending!
+02:08:51  300 Client::eventHandler(): sending mouse input to server.
+02:08:51  300 NetworkManager::send(): Error! send() returned:
+02:08:51  300 	Unknown error
+02:08:51  300 NetworkNode::sendMessage(): Error sending!
+02:08:52  301 Client::eventHandler(): sending mouse input to server.
+02:08:52  301 NetworkManager::send(): Error! send() returned:
+02:08:52  301 	Unknown error
+02:08:52  301 NetworkNode::sendMessage(): Error sending!
+02:08:52  302 Client::eventHandler(): sending mouse input to server.
+02:08:52  302 NetworkManager::send(): Error! send() returned:
+02:08:52  302 	Unknown error
+02:08:52  302 NetworkNode::sendMessage(): Error sending!
+02:08:52  302 Client::eventHandler(): sending mouse input to server.
+02:08:52  302 NetworkManager::send(): Error! send() returned:
+02:08:52  302 	Unknown error
+02:08:52  302 NetworkNode::sendMessage(): Error sending!
+02:08:52  302 Client::eventHandler(): sending mouse input to server.
+02:08:52  302 NetworkManager::send(): Error! send() returned:
+02:08:52  302 	Unknown error
+02:08:52  302 NetworkNode::sendMessage(): Error sending!
+02:08:52  302 Client::eventHandler(): sending mouse input to server.
+02:08:52  302 NetworkManager::send(): Error! send() returned:
+02:08:52  302 	Unknown error
+02:08:52  302 NetworkNode::sendMessage(): Error sending!
+02:08:52  303 Client::eventHandler(): sending mouse input to server.
+02:08:52  303 NetworkManager::send(): Error! send() returned:
+02:08:52  303 	Unknown error
+02:08:52  303 NetworkNode::sendMessage(): Error sending!
+02:08:52  304 Client::eventHandler(): sending mouse input to server.
+02:08:52  304 NetworkManager::send(): Error! send() returned:
+02:08:52  304 	Unknown error
+02:08:52  304 NetworkNode::sendMessage(): Error sending!
+02:08:52  305 Client::eventHandler(): sending mouse input to server.
+02:08:52  305 NetworkManager::send(): Error! send() returned:
+02:08:52  305 	Unknown error
+02:08:52  305 NetworkNode::sendMessage(): Error sending!
+02:08:52  306 Client::eventHandler(): sending mouse input to server.
+02:08:52  306 NetworkManager::send(): Error! send() returned:
+02:08:52  306 	Unknown error
+02:08:52  306 NetworkNode::sendMessage(): Error sending!
+02:08:52  308 Client::eventHandler(): sending mouse input to server.
+02:08:52  308 NetworkManager::send(): Error! send() returned:
+02:08:52  308 	Unknown error
+02:08:52  308 NetworkNode::sendMessage(): Error sending!
+02:08:52  309 Client::eventHandler(): sending mouse input to server.
+02:08:52  309 NetworkManager::send(): Error! send() returned:
+02:08:52  309 	Unknown error
+02:08:52  309 NetworkNode::sendMessage(): Error sending!
+02:08:52  309 Client::eventHandler(): sending mouse input to server.
+02:08:52  309 NetworkManager::send(): Error! send() returned:
+02:08:52  309 	Unknown error
+02:08:52  309 NetworkNode::sendMessage(): Error sending!
+02:08:52  310 Client::eventHandler(): sending mouse input to server.
+02:08:52  310 NetworkManager::send(): Error! send() returned:
+02:08:52  310 	Unknown error
+02:08:52  310 NetworkNode::sendMessage(): Error sending!
+02:08:52  311 Client::eventHandler(): sending mouse input to server.
+02:08:52  311 NetworkManager::send(): Error! send() returned:
+02:08:52  311 	Unknown error
+02:08:52  311 NetworkNode::sendMessage(): Error sending!
+02:08:52  312 Client::eventHandler(): sending mouse input to server.
+02:08:52  312 NetworkManager::send(): Error! send() returned:
+02:08:52  312 	Unknown error
+02:08:52  312 NetworkNode::sendMessage(): Error sending!
+02:08:52  321 Client::eventHandler(): sending keyboard input to server.
+02:08:52  321 NetworkManager::send(): Error! send() returned:
+02:08:52  321 	Unknown error
+02:08:52  321 NetworkNode::sendMessage(): Error sending!
+02:08:52  321 Client::eventHandler(): sending keyboard input to server.
+02:08:52  321 NetworkManager::send(): Error! send() returned:
+02:08:52  321 	Unknown error
+02:08:52  321 NetworkNode::sendMessage(): Error sending!
+02:08:52  322 Client::eventHandler(): sending keyboard input to server.
+02:08:52  322 NetworkManager::send(): Error! send() returned:
+02:08:52  322 	Unknown error
+02:08:52  322 NetworkNode::sendMessage(): Error sending!
+02:08:52  323 Client::eventHandler(): sending keyboard input to server.
+02:08:52  323 NetworkManager::send(): Error! send() returned:
+02:08:52  323 	Unknown error
+02:08:52  323 NetworkNode::sendMessage(): Error sending!
+02:08:52  324 Client::eventHandler(): sending keyboard input to server.
+02:08:52  324 NetworkManager::send(): Error! send() returned:
+02:08:52  324 	Unknown error
+02:08:52  324 NetworkNode::sendMessage(): Error sending!
+02:08:52  325 Client::eventHandler(): sending keyboard input to server.
+02:08:52  325 NetworkManager::send(): Error! send() returned:
+02:08:52  325 	Unknown error
+02:08:52  325 NetworkNode::sendMessage(): Error sending!
+02:08:52  326 Client::eventHandler(): sending keyboard input to server.
+02:08:52  326 NetworkManager::send(): Error! send() returned:
+02:08:52  326 	Unknown error
+02:08:52  326 NetworkNode::sendMessage(): Error sending!
+02:08:52  327 Client::eventHandler(): sending keyboard input to server.
+02:08:52  327 NetworkManager::send(): Error! send() returned:
+02:08:52  327 	Unknown error
+02:08:52  327 NetworkNode::sendMessage(): Error sending!
+02:08:52  328 Client::eventHandler(): sending keyboard input to server.
+02:08:52  328 NetworkManager::send(): Error! send() returned:
+02:08:52  328 	Unknown error
+02:08:52  328 NetworkNode::sendMessage(): Error sending!
+02:08:52  329 Client::eventHandler(): sending keyboard input to server.
+02:08:52  329 NetworkManager::send(): Error! send() returned:
+02:08:52  329 	Unknown error
+02:08:52  329 NetworkNode::sendMessage(): Error sending!
+02:08:52  330 Client::eventHandler(): sending keyboard input to server.
+02:08:52  330 NetworkManager::send(): Error! send() returned:
+02:08:52  330 	Unknown error
+02:08:52  330 NetworkNode::sendMessage(): Error sending!
+02:08:52  330 Client::eventHandler(): sending keyboard input to server.
+02:08:52  330 NetworkManager::send(): Error! send() returned:
+02:08:52  330 	Unknown error
+02:08:52  330 NetworkNode::sendMessage(): Error sending!
+02:08:52  330 Client::eventHandler(): sending keyboard input to server.
+02:08:52  330 NetworkManager::send(): Error! send() returned:
+02:08:52  330 	Unknown error
+02:08:52  330 NetworkNode::sendMessage(): Error sending!
+02:08:52  331 Client::eventHandler(): sending keyboard input to server.
+02:08:52  331 NetworkManager::send(): Error! send() returned:
+02:08:52  331 	Unknown error
+02:08:52  331 NetworkNode::sendMessage(): Error sending!
+02:08:52  331 Client::eventHandler(): sending keyboard input to server.
+02:08:52  331 NetworkManager::send(): Error! send() returned:
+02:08:52  331 	Unknown error
+02:08:52  331 NetworkNode::sendMessage(): Error sending!
+02:08:53  332 Client::eventHandler(): sending keyboard input to server.
+02:08:53  332 NetworkManager::send(): Error! send() returned:
+02:08:53  332 	Unknown error
+02:08:53  332 NetworkNode::sendMessage(): Error sending!
+02:08:53  333 Client::eventHandler(): sending keyboard input to server.
+02:08:53  333 NetworkManager::send(): Error! send() returned:
+02:08:53  333 	Unknown error
+02:08:53  333 NetworkNode::sendMessage(): Error sending!
+02:08:53  334 Client::eventHandler(): sending keyboard input to server.
+02:08:53  334 NetworkManager::send(): Error! send() returned:
+02:08:53  334 	Unknown error
+02:08:53  334 NetworkNode::sendMessage(): Error sending!
+02:08:53  335 Client::eventHandler(): sending keyboard input to server.
+02:08:53  335 NetworkManager::send(): Error! send() returned:
+02:08:53  335 	Unknown error
+02:08:53  335 NetworkNode::sendMessage(): Error sending!
+02:08:53  336 Client::eventHandler(): sending keyboard input to server.
+02:08:53  336 NetworkManager::send(): Error! send() returned:
+02:08:53  336 	Unknown error
+02:08:53  336 NetworkNode::sendMessage(): Error sending!
+02:08:53  336 Client::eventHandler(): sending keyboard input to server.
+02:08:53  336 NetworkManager::send(): Error! send() returned:
+02:08:53  336 	Unknown error
+02:08:53  336 NetworkNode::sendMessage(): Error sending!
+02:08:53  336 Client::eventHandler(): sending keyboard input to server.
+02:08:53  336 NetworkManager::send(): Error! send() returned:
+02:08:53  336 	Unknown error
+02:08:53  336 NetworkNode::sendMessage(): Error sending!
+02:08:53  337 Client::eventHandler(): sending keyboard input to server.
+02:08:53  337 NetworkManager::send(): Error! send() returned:
+02:08:53  337 	Unknown error
+02:08:53  337 NetworkNode::sendMessage(): Error sending!
+02:08:53  337 Client::eventHandler(): sending keyboard input to server.
+02:08:53  337 NetworkManager::send(): Error! send() returned:
+02:08:53  337 	Unknown error
+02:08:53  337 NetworkNode::sendMessage(): Error sending!
+02:08:53  338 Client::eventHandler(): sending keyboard input to server.
+02:08:53  338 NetworkManager::send(): Error! send() returned:
+02:08:53  338 	Unknown error
+02:08:53  338 NetworkNode::sendMessage(): Error sending!
+02:08:53  338 Client::eventHandler(): sending keyboard input to server.
+02:08:53  338 NetworkManager::send(): Error! send() returned:
+02:08:53  338 	Unknown error
+02:08:53  338 NetworkNode::sendMessage(): Error sending!
+02:08:53  339 Client::eventHandler(): sending keyboard input to server.
+02:08:53  339 NetworkManager::send(): Error! send() returned:
+02:08:53  339 	Unknown error
+02:08:53  339 NetworkNode::sendMessage(): Error sending!
+02:08:53  339 Client::eventHandler(): sending mouse input to server.
+02:08:53  339 NetworkManager::send(): Error! send() returned:
+02:08:53  339 	Unknown error
+02:08:53  339 NetworkNode::sendMessage(): Error sending!
+02:08:53  339 Client::eventHandler(): sending keyboard input to server.
+02:08:53  339 NetworkManager::send(): Error! send() returned:
+02:08:53  339 	Unknown error
+02:08:53  339 NetworkNode::sendMessage(): Error sending!
+02:08:53  340 Client::eventHandler(): sending mouse input to server.
+02:08:53  340 NetworkManager::send(): Error! send() returned:
+02:08:53  340 	Unknown error
+02:08:53  340 NetworkNode::sendMessage(): Error sending!
+02:08:53  340 Client::eventHandler(): sending keyboard input to server.
+02:08:53  340 NetworkManager::send(): Error! send() returned:
+02:08:53  340 	Unknown error
+02:08:53  340 NetworkNode::sendMessage(): Error sending!
+02:08:53  341 Client::eventHandler(): sending mouse input to server.
+02:08:53  341 NetworkManager::send(): Error! send() returned:
+02:08:53  341 	Unknown error
+02:08:53  341 NetworkNode::sendMessage(): Error sending!
+02:08:53  341 Client::eventHandler(): sending mouse input to server.
+02:08:53  341 NetworkManager::send(): Error! send() returned:
+02:08:53  341 	Unknown error
+02:08:53  341 NetworkNode::sendMessage(): Error sending!
+02:08:53  341 Client::eventHandler(): sending keyboard input to server.
+02:08:53  341 NetworkManager::send(): Error! send() returned:
+02:08:53  341 	Unknown error
+02:08:53  341 NetworkNode::sendMessage(): Error sending!
+02:08:53  342 Client::eventHandler(): sending mouse input to server.
+02:08:53  342 NetworkManager::send(): Error! send() returned:
+02:08:53  342 	Unknown error
+02:08:53  342 NetworkNode::sendMessage(): Error sending!
+02:08:53  342 Client::eventHandler(): sending keyboard input to server.
+02:08:53  342 NetworkManager::send(): Error! send() returned:
+02:08:53  342 	Unknown error
+02:08:53  342 NetworkNode::sendMessage(): Error sending!
+02:08:53  343 Client::eventHandler(): sending mouse input to server.
+02:08:53  343 NetworkManager::send(): Error! send() returned:
+02:08:53  343 	Unknown error
+02:08:53  343 NetworkNode::sendMessage(): Error sending!
+02:08:53  343 Client::eventHandler(): sending mouse input to server.
+02:08:53  343 NetworkManager::send(): Error! send() returned:
+02:08:53  343 	Unknown error
+02:08:53  343 NetworkNode::sendMessage(): Error sending!
+02:08:53  343 Client::eventHandler(): sending keyboard input to server.
+02:08:53  343 NetworkManager::send(): Error! send() returned:
+02:08:53  343 	Unknown error
+02:08:53  343 NetworkNode::sendMessage(): Error sending!
+02:08:53  344 Client::eventHandler(): sending mouse input to server.
+02:08:53  344 NetworkManager::send(): Error! send() returned:
+02:08:53  344 	Unknown error
+02:08:53  344 NetworkNode::sendMessage(): Error sending!
+02:08:53  344 Client::eventHandler(): sending keyboard input to server.
+02:08:53  344 NetworkManager::send(): Error! send() returned:
+02:08:53  344 	Unknown error
+02:08:53  344 NetworkNode::sendMessage(): Error sending!
+02:08:54  363 InputManager::getInput(): Window close event. Setting game over.
+02:08:54  364 GameManager::run(): end of game loop
+02:08:54  364 NetworkManager::send(): Error! send() returned:
+02:08:54  364 	Unknown error
+02:08:54  364 NetworkNode::sendMessage(): Error sending!
+02:08:54  364 PathManager::shutDown(): successfully stopped.
+02:08:54  364 Path manager stopped
+02:08:54  364 WorldManager::shutDown(): Successfully stopped.
+02:08:54  364 World manager stopped
+02:08:54  364 ResourceManager::shutDown(): successfully stopped.
+02:08:54  364 Resource manager stopped
+02:08:54  364 NetworkManager::shutDown(): successfully stopped.
+02:08:54  364 Network manager stopped
+02:08:54  364 InputManager::shutDown(): successfully stopped.
+02:08:54  364 Input manager stopped
+02:08:54  364 DisplayManager::shutDown(): successfully stopped.
+02:08:54  364 Display manager stopped
+02:08:54  364 ** Game stopped **
+02:08:54  364 ****************************************************
+02:08:54  364 LogManager::shutDown(): successfully stopped.

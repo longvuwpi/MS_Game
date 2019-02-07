@@ -1,0 +1,239 @@
+14:42:15    0 ****************************************************
+14:42:15    0 ** Dragonfly version 4.9 **
+14:42:15    0 Hello, Network! (v1.2)
+14:42:15    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+14:42:15    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+14:42:15    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+14:42:15    0 Client::Client(): Connecting to local at port 9876.
+14:42:15    0 NetworkManager::connect(): Connecting to local, port 9876.
+14:42:16    0 NetworkManager::connect(): Error! getaddrinfo() returned:
+14:42:16    0 	Unknown error
+14:42:16    0 Client::Client(): Error!  Unable to connect.
+14:42:16    0 Client::Client(): Client started.
+14:42:16    0 GameManager::run(): starting game loop
+14:42:17   37 Client::eventHandler(): sending mouse input to server.
+14:42:17   37 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   39 Client::eventHandler(): sending mouse input to server.
+14:42:17   39 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   44 Client::eventHandler(): sending mouse input to server.
+14:42:17   44 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   44 Client::eventHandler(): sending mouse input to server.
+14:42:17   44 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   44 Client::eventHandler(): sending mouse input to server.
+14:42:17   44 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   45 Client::eventHandler(): sending mouse input to server.
+14:42:17   45 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   45 Client::eventHandler(): sending mouse input to server.
+14:42:17   45 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   46 Client::eventHandler(): sending mouse input to server.
+14:42:17   46 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   46 Client::eventHandler(): sending mouse input to server.
+14:42:17   46 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   47 Client::eventHandler(): sending mouse input to server.
+14:42:17   47 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:17   47 Client::eventHandler(): sending mouse input to server.
+14:42:17   47 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   48 Client::eventHandler(): sending mouse input to server.
+14:42:18   48 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   48 Client::eventHandler(): sending mouse input to server.
+14:42:18   48 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   49 Client::eventHandler(): sending mouse input to server.
+14:42:18   49 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   49 Client::eventHandler(): sending mouse input to server.
+14:42:18   49 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   50 Client::eventHandler(): sending mouse input to server.
+14:42:18   50 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   50 Client::eventHandler(): sending mouse input to server.
+14:42:18   50 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   51 Client::eventHandler(): sending mouse input to server.
+14:42:18   51 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   51 Client::eventHandler(): sending mouse input to server.
+14:42:18   51 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   52 Client::eventHandler(): sending mouse input to server.
+14:42:18   52 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   52 Client::eventHandler(): sending mouse input to server.
+14:42:18   52 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   53 Client::eventHandler(): sending mouse input to server.
+14:42:18   53 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   53 Client::eventHandler(): sending mouse input to server.
+14:42:18   53 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   54 Client::eventHandler(): sending mouse input to server.
+14:42:18   54 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   54 Client::eventHandler(): sending mouse input to server.
+14:42:18   54 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   55 Client::eventHandler(): sending mouse input to server.
+14:42:18   55 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   55 Client::eventHandler(): sending mouse input to server.
+14:42:18   55 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   56 Client::eventHandler(): sending mouse input to server.
+14:42:18   56 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   57 Client::eventHandler(): sending mouse input to server.
+14:42:18   57 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   58 Client::eventHandler(): sending mouse input to server.
+14:42:18   58 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   59 Client::eventHandler(): sending mouse input to server.
+14:42:18   59 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   60 Client::eventHandler(): sending mouse input to server.
+14:42:18   60 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   61 Client::eventHandler(): sending mouse input to server.
+14:42:18   61 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   62 Client::eventHandler(): sending mouse input to server.
+14:42:18   62 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   62 Client::eventHandler(): sending mouse input to server.
+14:42:18   62 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   63 Client::eventHandler(): sending mouse input to server.
+14:42:18   63 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   63 Client::eventHandler(): sending mouse input to server.
+14:42:18   63 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   64 Client::eventHandler(): sending mouse input to server.
+14:42:18   64 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   64 Client::eventHandler(): sending mouse input to server.
+14:42:18   64 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   65 Client::eventHandler(): sending mouse input to server.
+14:42:18   65 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   65 Client::eventHandler(): sending mouse input to server.
+14:42:18   65 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   66 Client::eventHandler(): sending mouse input to server.
+14:42:18   66 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   66 Client::eventHandler(): sending mouse input to server.
+14:42:18   66 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   67 Client::eventHandler(): sending mouse input to server.
+14:42:18   67 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   67 Client::eventHandler(): sending mouse input to server.
+14:42:18   67 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   68 Client::eventHandler(): sending mouse input to server.
+14:42:18   68 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   68 Client::eventHandler(): sending mouse input to server.
+14:42:18   68 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   69 Client::eventHandler(): sending mouse input to server.
+14:42:18   69 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   70 Client::eventHandler(): sending mouse input to server.
+14:42:18   70 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   70 Client::eventHandler(): sending mouse input to server.
+14:42:18   70 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   71 Client::eventHandler(): sending mouse input to server.
+14:42:18   71 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   71 Client::eventHandler(): sending mouse input to server.
+14:42:18   71 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   72 Client::eventHandler(): sending mouse input to server.
+14:42:18   72 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   72 Client::eventHandler(): sending mouse input to server.
+14:42:18   72 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   73 Client::eventHandler(): sending mouse input to server.
+14:42:18   73 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   73 Client::eventHandler(): sending mouse input to server.
+14:42:18   73 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   74 Client::eventHandler(): sending mouse input to server.
+14:42:18   74 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   75 Client::eventHandler(): sending mouse input to server.
+14:42:18   75 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   75 Client::eventHandler(): sending mouse input to server.
+14:42:18   75 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   76 Client::eventHandler(): sending mouse input to server.
+14:42:18   76 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:18   76 Client::eventHandler(): sending mouse input to server.
+14:42:18   76 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19   90 Client::eventHandler(): sending mouse input to server.
+14:42:19   90 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19   93 Client::eventHandler(): sending mouse input to server.
+14:42:19   93 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19   99 Client::eventHandler(): sending mouse input to server.
+14:42:19   99 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19   99 Client::eventHandler(): sending mouse input to server.
+14:42:19   99 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  100 Client::eventHandler(): sending mouse input to server.
+14:42:19  100 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  101 Client::eventHandler(): sending mouse input to server.
+14:42:19  101 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  101 Client::eventHandler(): sending mouse input to server.
+14:42:19  101 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  102 Client::eventHandler(): sending mouse input to server.
+14:42:19  102 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  102 Client::eventHandler(): sending mouse input to server.
+14:42:19  102 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  103 Client::eventHandler(): sending mouse input to server.
+14:42:19  103 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  103 Client::eventHandler(): sending mouse input to server.
+14:42:19  103 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  104 Client::eventHandler(): sending mouse input to server.
+14:42:19  104 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  104 Client::eventHandler(): sending mouse input to server.
+14:42:19  104 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  105 Client::eventHandler(): sending mouse input to server.
+14:42:19  105 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  105 Client::eventHandler(): sending mouse input to server.
+14:42:19  105 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  106 Client::eventHandler(): sending mouse input to server.
+14:42:19  106 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  106 Client::eventHandler(): sending mouse input to server.
+14:42:19  106 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:19  107 Client::eventHandler(): sending mouse input to server.
+14:42:19  107 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  108 Client::eventHandler(): sending mouse input to server.
+14:42:20  108 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  108 Client::eventHandler(): sending mouse input to server.
+14:42:20  108 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  109 Client::eventHandler(): sending mouse input to server.
+14:42:20  109 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  110 Client::eventHandler(): sending mouse input to server.
+14:42:20  110 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  111 Client::eventHandler(): sending mouse input to server.
+14:42:20  111 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  114 Client::eventHandler(): sending mouse input to server.
+14:42:20  114 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  116 Client::eventHandler(): sending mouse input to server.
+14:42:20  116 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  117 Client::eventHandler(): sending mouse input to server.
+14:42:20  117 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  118 Client::eventHandler(): sending mouse input to server.
+14:42:20  118 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  118 Client::eventHandler(): sending mouse input to server.
+14:42:20  118 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  119 Client::eventHandler(): sending mouse input to server.
+14:42:20  119 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  119 Client::eventHandler(): sending mouse input to server.
+14:42:20  119 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  119 Client::eventHandler(): sending mouse input to server.
+14:42:20  119 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:20  119 Client::eventHandler(): sending mouse input to server.
+14:42:20  119 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  233 Client::eventHandler(): sending mouse input to server.
+14:42:24  233 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  234 Client::eventHandler(): sending mouse input to server.
+14:42:24  234 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  234 Client::eventHandler(): sending mouse input to server.
+14:42:24  234 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  234 Client::eventHandler(): sending mouse input to server.
+14:42:24  234 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  234 Client::eventHandler(): sending mouse input to server.
+14:42:24  234 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  234 Client::eventHandler(): sending mouse input to server.
+14:42:24  234 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  244 Client::eventHandler(): sending mouse input to server.
+14:42:24  244 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  244 Client::eventHandler(): sending mouse input to server.
+14:42:24  244 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  244 Client::eventHandler(): sending mouse input to server.
+14:42:24  244 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  244 Client::eventHandler(): sending mouse input to server.
+14:42:24  244 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:24  245 Client::eventHandler(): sending mouse input to server.
+14:42:24  245 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:25  281 InputManager::getInput(): Window close event. Setting game over.
+14:42:25  282 GameManager::run(): end of game loop
+14:42:25  282 NetworkNode::sendMessage(): NM not connected. Cannot send.
+14:42:25  282 PathManager::shutDown(): successfully stopped.
+14:42:25  282 Path manager stopped
+14:42:25  282 WorldManager::shutDown(): Successfully stopped.
+14:42:25  282 World manager stopped
+14:42:25  282 ResourceManager::shutDown(): successfully stopped.
+14:42:25  282 Resource manager stopped
+14:42:25  282 NetworkManager::shutDown(): successfully stopped.
+14:42:25  282 Network manager stopped
+14:42:25  282 InputManager::shutDown(): successfully stopped.
+14:42:25  282 Input manager stopped
+14:42:25  282 DisplayManager::shutDown(): successfully stopped.
+14:42:25  282 Display manager stopped
+14:42:25  282 ** Game stopped **
+14:42:25  282 ****************************************************
+14:42:25  282 LogManager::shutDown(): successfully stopped.

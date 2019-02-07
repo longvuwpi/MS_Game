@@ -1,0 +1,153 @@
+00:13:05    0 ****************************************************
+00:13:05    0 ** Dragonfly version 4.9 **
+00:13:06    0 Hello, Network! (v1.2)
+00:13:06    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+00:13:06    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+00:13:06    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+00:13:06    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+00:13:06    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+00:13:06    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+00:13:06    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+00:13:06    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+00:13:06    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+00:13:06    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+00:13:06    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+00:13:06    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+00:13:06    0 Client::Client(): Connecting to localhost at port 9876.
+00:13:06    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+00:13:06    0 NetworkManager::connect(): Connection established.
+00:13:06    0 Client::handleConnect(): Client connected!
+00:13:06    0 Client::Client(): Client started.
+00:13:06    0 GameManager::run(): starting game loop
+00:13:06    0 Client::eventHandler(): sending mouse input to server.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Hero'
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Hero'
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Platform'
+00:13:06    0 Client::createObject(): uknown object type 'Platform'
+00:13:06    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    0 Client::createObject(): creating object type 'Hero'
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:06    2 Client::createObject(): creating object type 'Platform'
+00:13:06    2 Client::createObject(): uknown object type 'Platform'
+00:13:06    2 NetworkNode::handleData(): Error! p_obj is NULL.
+00:13:08   63 Client::eventHandler(): sending mouse input to server.
+00:13:08   64 Client::eventHandler(): sending mouse input to server.
+00:13:08   65 Client::eventHandler(): sending mouse input to server.
+00:13:09  115 InputManager::getInput(): Window close event. Setting game over.
+00:13:09  116 GameManager::run(): end of game loop
+00:13:09  116 PathManager::shutDown(): successfully stopped.
+00:13:09  116 Path manager stopped
+00:13:09  116 WorldManager::shutDown(): Successfully stopped.
+00:13:09  116 World manager stopped
+00:13:09  116 ResourceManager::shutDown(): successfully stopped.
+00:13:09  116 Resource manager stopped
+00:13:09  116 NetworkManager::shutDown(): successfully stopped.
+00:13:09  116 Network manager stopped
+00:13:09  116 InputManager::shutDown(): successfully stopped.
+00:13:09  116 Input manager stopped
+00:13:09  116 DisplayManager::shutDown(): successfully stopped.
+00:13:09  116 Display manager stopped
+00:13:09  116 ** Game stopped **
+00:13:09  116 ****************************************************
+00:13:09  116 LogManager::shutDown(): successfully stopped.

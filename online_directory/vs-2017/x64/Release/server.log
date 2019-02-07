@@ -1,0 +1,25 @@
+23:47:48    0 ****************************************************
+23:47:48    0 ** Dragonfly version 4.9 **
+23:47:49    0 Hello, Network! (v1.2)
+23:47:49    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+23:47:49    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+23:47:49    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+23:47:49    0 GameManager::run(): starting game loop
+23:47:52   90 GameManager::run(): end of game loop
+23:47:52   90 NetworkManager::setServer(): Ready for connections on port 9876.
+23:47:52   90 Server::Server(): Setup for 3 connections.
+23:47:52   90 Server::Server(): Server started
+23:47:52   90 GameManager::run(): starting game loop
+23:49:03 2079 NetworkManager::accept(): New connection.
+23:49:03 2079 Server::handleAccept(): server now connected socket: 0
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Platform sprite not found
+23:49:03 2079 Hero::Hero(): Warning! Sprite 'ship' not found
+23:49:03 2079 duck sprite not found

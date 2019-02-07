@@ -1,0 +1,16 @@
+﻿  Client.cpp
+  Explosion.cpp
+  game.cpp
+  Hero.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(121): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(127): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(262): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(266): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(431): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Platform.cpp
+  Reticle.cpp
+  Server.cpp
+  Generating code
+  All 343 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  game.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\online_directory\vs-2017\x64\Release\game.exe

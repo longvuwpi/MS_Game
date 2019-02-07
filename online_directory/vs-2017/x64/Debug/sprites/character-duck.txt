@@ -1,0 +1,11 @@
+frames 1
+width 13
+height 5
+color yellow
+       _____ 
+      [  ]__]
+     [-][___/
+ ___/ |`---' 
+|_)---`--o`-o
+end
+eof
