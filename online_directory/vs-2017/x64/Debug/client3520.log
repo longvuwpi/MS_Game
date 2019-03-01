@@ -1,0 +1,1234 @@
+16:43:54    0 ****************************************************
+16:43:54    0 ** Dragonfly version 4.9 **
+16:43:55    0 Hello, Network! (v1.2)
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+16:43:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+16:43:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+16:43:55    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+16:43:55    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+16:43:55    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+16:43:55    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+16:43:55    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+16:43:56    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+16:43:57    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+16:43:57    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+16:43:57    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+16:43:57    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+16:43:57    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+16:43:57    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+16:43:57    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+16:43:57    0 Client::Client(): Connecting to localhost at port 9876.
+16:43:57    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+16:43:57    0 NetworkManager::connect(): Connection established.
+16:43:57    0 Client::handleConnect(): Client connected!
+16:43:57    0 Client::Client(): Client started.
+16:43:57    0 GameManager::run(): starting game loop
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 Client::createObject(): creating object type 'Platform'
+16:43:57    1 GameManager::run(): Warning! Residual network data.
+16:43:57    2 Client::createObject(): creating object type 'Platform'
+16:43:57    2 Client::createObject(): creating object type 'Platform'
+16:43:57    2 Client::createObject(): creating object type 'Platform'
+16:43:57    2 Client::createObject(): creating object type 'Hero'
+16:43:57    2 Hero::deserialize()
+16:43:57    2 Hero::deserialize(): current health is 50
+16:43:57    2 Hero::deserialize(): current weapon is 1
+16:43:57    2 GameManager::run(): Warning! Residual network data.
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 Client::createObject(): creating object type 'Platform'
+16:43:57    3 GameManager::run(): Warning! Residual network data.
+16:43:57    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 52 ms
+16:43:57    4 Client::createObject(): creating object type 'Platform'
+16:43:57    4 Client::createObject(): creating object type 'Platform'
+16:43:57    4 Client::createObject(): creating object type 'Hero'
+16:43:57    4 Hero::deserialize()
+16:43:57    4 Hero::deserialize(): current health is 50
+16:43:57    4 Hero::deserialize(): current weapon is 1
+16:43:57    4 Hero::deserialize()
+16:43:57    4 Weapon::deserialize()
+16:43:57    4 GameManager::run(): Warning! Residual network data.
+16:43:58    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 82 ms
+16:43:58    5 Hero::deserialize()
+16:43:58    5 GameManager::run(): Warning! Residual network data.
+16:43:58    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:43:58    6 Weapon::deserialize()
+16:43:58    6 Weapon::deserialize(): fire_count_down is 0
+16:43:58    6 Weapon::deserialize(): ammo_loaded is 30
+16:43:58    6 Weapon::deserialize(): ammo_backup is 90
+16:43:58    6 Weapon::deserialize(): is_scoping is false
+16:43:58    6 Weapon::deserialize(): reloading is false
+16:43:58    6 Weapon::deserialize()
+16:43:58    6 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:43:58    6 Weapon::deserialize(): fire_count_down is 0
+16:43:58    6 Weapon::deserialize(): ammo_loaded is 10
+16:43:58    6 Weapon::deserialize(): ammo_backup is 30
+16:43:58    6 Weapon::deserialize(): is_scoping is false
+16:43:58    6 Weapon::deserialize(): reloading is false
+16:43:58    6 Weapon::deserialize()
+16:43:58    6 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:43:58    6 Weapon::deserialize(): fire_count_down is 0
+16:43:58    6 Weapon::deserialize(): ammo_loaded is 1
+16:43:58    6 Weapon::deserialize(): ammo_backup is 30
+16:43:58    6 Weapon::deserialize(): is_scoping is false
+16:43:58    6 Weapon::deserialize(): reloading is false
+16:43:58    6 Hero::deserialize()
+16:43:58    6 Weapon::deserialize()
+16:43:58    6 Hero::deserialize()
+16:43:58    6 GameManager::run(): Warning! Residual network data.
+16:43:58    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 80 ms
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 Weapon::deserialize()
+16:43:58    7 Hero::deserialize()
+16:43:58    7 GameManager::run(): Warning! Residual network data.
+16:43:58    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 69 ms
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 Hero::deserialize()
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 Hero::deserialize()
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 Hero::deserialize()
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 Hero::deserialize()
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 Hero::deserialize()
+16:43:58    8 Weapon::deserialize()
+16:43:58    8 GameManager::run(): Warning! Residual network data.
+16:43:58    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 61 ms
+16:43:58    9 Hero::deserialize()
+16:43:58    9 Weapon::deserialize()
+16:43:58    9 Hero::deserialize()
+16:43:58    9 Weapon::deserialize()
+16:43:58    9 Hero::deserialize()
+16:43:58    9 Weapon::deserialize()
+16:43:58    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 68 ms
+16:43:58   10 Hero::deserialize()
+16:43:58   10 Weapon::deserialize()
+16:43:58   10 Hero::deserialize()
+16:43:58   10 Weapon::deserialize()
+16:43:58   10 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:43:58   11 Hero::deserialize()
+16:43:58   11 Weapon::deserialize()
+16:43:58   11 Hero::deserialize()
+16:43:58   11 Weapon::deserialize()
+16:43:58   11 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
+16:43:58   12 Hero::deserialize()
+16:43:58   12 Weapon::deserialize()
+16:43:58   12 Hero::deserialize()
+16:43:58   12 Weapon::deserialize()
+16:43:58   12 GameManager::run(): Can't keep up! frame_time 33 ms, split 71 ms
+16:43:58   13 Hero::deserialize()
+16:43:58   13 Weapon::deserialize()
+16:43:58   13 Hero::deserialize()
+16:43:58   13 Weapon::deserialize()
+16:43:58   13 Hero::deserialize()
+16:43:58   13 Weapon::deserialize()
+16:43:58   13 Hero::deserialize()
+16:43:58   13 Weapon::deserialize()
+16:43:58   13 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:43:58   14 Hero::deserialize()
+16:43:58   14 Weapon::deserialize()
+16:43:58   14 Hero::deserialize()
+16:43:58   14 Weapon::deserialize()
+16:43:58   14 GameManager::run(): Can't keep up! frame_time 33 ms, split 76 ms
+16:43:58   15 Hero::deserialize()
+16:43:58   15 Weapon::deserialize()
+16:43:58   15 Hero::deserialize()
+16:43:58   15 Weapon::deserialize()
+16:43:58   15 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:43:58   16 Hero::deserialize()
+16:43:58   16 Weapon::deserialize()
+16:43:58   16 Hero::deserialize()
+16:43:58   16 Weapon::deserialize()
+16:43:58   16 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:43:58   17 Hero::deserialize()
+16:43:58   17 Weapon::deserialize()
+16:43:58   17 Hero::deserialize()
+16:43:58   17 Weapon::deserialize()
+16:43:58   17 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:43:58   18 Hero::deserialize()
+16:43:58   18 Weapon::deserialize()
+16:43:58   18 Hero::deserialize()
+16:43:58   18 Weapon::deserialize()
+16:43:58   18 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:43:58   19 Hero::deserialize()
+16:43:58   19 Weapon::deserialize()
+16:43:58   19 Hero::deserialize()
+16:43:58   19 Weapon::deserialize()
+16:43:58   19 Hero::deserialize()
+16:43:58   19 Weapon::deserialize()
+16:43:58   19 Hero::deserialize()
+16:43:58   19 Weapon::deserialize()
+16:43:59   19 GameManager::run(): Can't keep up! frame_time 33 ms, split 57 ms
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 Hero::deserialize()
+16:43:59   20 Weapon::deserialize()
+16:43:59   20 GameManager::run(): Warning! Residual network data.
+16:43:59   20 GameManager::run(): Can't keep up! frame_time 33 ms, split 885 ms
+16:43:59   21 Hero::deserialize()
+16:43:59   21 Weapon::deserialize()
+16:43:59   21 Hero::deserialize()
+16:43:59   21 Weapon::deserialize()
+16:43:59   21 Hero::deserialize()
+16:43:59   21 Weapon::deserialize()
+16:43:59   21 Hero::deserialize()
+16:43:59   21 Weapon::deserialize()
+16:43:59   21 Hero::deserialize()
+16:43:59   21 Weapon::deserialize()
+16:43:59   21 Hero::deserialize()
+16:43:59   21 GameManager::run(): Warning! Residual network data.
+16:43:59   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:43:59   22 Client::eventHandler(): sending mouse input to server.
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 Weapon::deserialize()
+16:43:59   22 Hero::deserialize()
+16:43:59   22 GameManager::run(): Warning! Residual network data.
+16:44:00   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:00   23 Client::eventHandler(): sending mouse input to server.
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 Hero::deserialize()
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 Hero::deserialize()
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 Hero::deserialize()
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 Hero::deserialize()
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 Hero::deserialize()
+16:44:00   23 Weapon::deserialize()
+16:44:00   23 GameManager::run(): Warning! Residual network data.
+16:44:00   23 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:00   24 Client::eventHandler(): sending mouse input to server.
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 Weapon::deserialize()
+16:44:00   24 Hero::deserialize()
+16:44:00   24 GameManager::run(): Warning! Residual network data.
+16:44:00   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 61 ms
+16:44:00   25 Client::eventHandler(): sending mouse input to server.
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 Weapon::deserialize()
+16:44:00   25 Hero::deserialize()
+16:44:00   25 GameManager::run(): Warning! Residual network data.
+16:44:00   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:00   26 Client::eventHandler(): sending mouse input to server.
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 Hero::deserialize()
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 Hero::deserialize()
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 Hero::deserialize()
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 Hero::deserialize()
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 Hero::deserialize()
+16:44:00   26 Weapon::deserialize()
+16:44:00   26 GameManager::run(): Warning! Residual network data.
+16:44:00   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:00   27 Client::eventHandler(): sending mouse input to server.
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 Weapon::deserialize()
+16:44:00   27 Hero::deserialize()
+16:44:00   27 GameManager::run(): Warning! Residual network data.
+16:44:00   27 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:00   28 Client::eventHandler(): sending mouse input to server.
+16:44:00   28 Weapon::deserialize()
+16:44:00   28 Hero::deserialize()
+16:44:00   28 Weapon::deserialize()
+16:44:00   28 Hero::deserialize()
+16:44:00   28 Weapon::deserialize()
+16:44:00   28 Hero::deserialize()
+16:44:00   28 Weapon::deserialize()
+16:44:00   28 Hero::deserialize()
+16:44:00   28 Weapon::deserialize()
+16:44:00   28 Hero::deserialize()
+16:44:00   28 GameManager::run(): Warning! Residual network data.
+16:44:00   28 GameManager::run(): Can't keep up! frame_time 33 ms, split 69 ms
+16:44:00   29 Client::eventHandler(): sending mouse input to server.
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 Hero::deserialize()
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 Hero::deserialize()
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 Hero::deserialize()
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 Hero::deserialize()
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 Hero::deserialize()
+16:44:00   29 Weapon::deserialize()
+16:44:00   29 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:00   30 Client::eventHandler(): sending mouse input to server.
+16:44:00   30 Hero::deserialize()
+16:44:00   30 Weapon::deserialize()
+16:44:00   30 Hero::deserialize()
+16:44:00   30 Weapon::deserialize()
+16:44:00   30 GameManager::run(): Can't keep up! frame_time 33 ms, split 66 ms
+16:44:00   31 Client::eventHandler(): sending mouse input to server.
+16:44:00   31 Hero::deserialize()
+16:44:00   31 Weapon::deserialize()
+16:44:00   31 Hero::deserialize()
+16:44:00   31 Weapon::deserialize()
+16:44:00   31 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:44:00   32 Client::eventHandler(): sending mouse input to server.
+16:44:00   32 Client::eventHandler(): sending keyboard input to server.
+16:44:00   32 Client::eventHandler(): sending mouse input to server.
+16:44:00   32 Client::eventHandler(): sending mouse input to server.
+16:44:00   32 Client::eventHandler(): sending keyboard input to server.
+16:44:00   32 Hero::deserialize()
+16:44:00   32 Weapon::deserialize()
+16:44:00   32 Hero::deserialize()
+16:44:00   32 Weapon::deserialize()
+16:44:00   32 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:44:00   33 Client::eventHandler(): sending mouse input to server.
+16:44:00   33 Client::eventHandler(): sending keyboard input to server.
+16:44:00   33 Hero::deserialize()
+16:44:00   33 Weapon::deserialize()
+16:44:00   33 Hero::deserialize()
+16:44:00   33 Weapon::deserialize()
+16:44:00   33 GameManager::run(): Can't keep up! frame_time 33 ms, split 53 ms
+16:44:00   34 Client::eventHandler(): sending mouse input to server.
+16:44:00   34 Client::eventHandler(): sending keyboard input to server.
+16:44:00   34 Hero::deserialize()
+16:44:00   34 Weapon::deserialize()
+16:44:00   34 Hero::deserialize()
+16:44:00   34 Weapon::deserialize()
+16:44:00   34 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:00   35 Client::eventHandler(): sending mouse input to server.
+16:44:00   35 Client::eventHandler(): sending keyboard input to server.
+16:44:00   35 Hero::deserialize()
+16:44:00   35 Weapon::deserialize()
+16:44:00   35 Hero::deserialize()
+16:44:00   35 Weapon::deserialize()
+16:44:00   35 Hero::deserialize()
+16:44:00   35 Weapon::deserialize()
+16:44:00   35 Hero::deserialize()
+16:44:00   35 Weapon::deserialize()
+16:44:00   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 72 ms
+16:44:00   36 Client::eventHandler(): sending keyboard input to server.
+16:44:00   36 Hero::deserialize()
+16:44:00   36 Weapon::deserialize()
+16:44:00   36 Hero::deserialize()
+16:44:00   36 Weapon::deserialize()
+16:44:00   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 79 ms
+16:44:00   37 Client::eventHandler(): sending mouse input to server.
+16:44:00   37 Client::eventHandler(): sending keyboard input to server.
+16:44:00   37 Hero::deserialize()
+16:44:00   37 Weapon::deserialize()
+16:44:00   37 Hero::deserialize()
+16:44:00   37 Weapon::deserialize()
+16:44:00   37 GameManager::run(): Can't keep up! frame_time 33 ms, split 68 ms
+16:44:00   38 Client::eventHandler(): sending mouse input to server.
+16:44:00   38 Client::eventHandler(): sending keyboard input to server.
+16:44:00   38 Client::eventHandler(): sending mouse input to server.
+16:44:00   38 Hero::deserialize()
+16:44:00   38 Weapon::deserialize()
+16:44:00   38 Hero::deserialize()
+16:44:00   38 Weapon::deserialize()
+16:44:01   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:01   39 Client::eventHandler(): sending mouse input to server.
+16:44:01   39 Hero::deserialize()
+16:44:01   39 Weapon::deserialize()
+16:44:01   39 Hero::deserialize()
+16:44:01   39 Weapon::deserialize()
+16:44:01   39 Hero::deserialize()
+16:44:01   39 Weapon::deserialize()
+16:44:01   39 Hero::deserialize()
+16:44:01   39 Weapon::deserialize()
+16:44:01   39 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:01   40 Client::eventHandler(): sending mouse input to server.
+16:44:01   40 Hero::deserialize()
+16:44:01   40 Weapon::deserialize()
+16:44:01   40 Hero::deserialize()
+16:44:01   40 Weapon::deserialize()
+16:44:01   40 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:01   41 Client::eventHandler(): sending mouse input to server.
+16:44:01   41 Hero::deserialize()
+16:44:01   41 Weapon::deserialize()
+16:44:01   41 Hero::deserialize()
+16:44:01   41 Weapon::deserialize()
+16:44:01   41 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:01   42 Client::eventHandler(): sending keyboard input to server.
+16:44:01   42 Client::eventHandler(): sending keyboard input to server.
+16:44:01   42 Hero::deserialize()
+16:44:01   42 Weapon::deserialize()
+16:44:01   42 Hero::deserialize()
+16:44:01   42 Weapon::deserialize()
+16:44:01   42 GameManager::run(): Can't keep up! frame_time 33 ms, split 65 ms
+16:44:01   43 Client::eventHandler(): sending mouse input to server.
+16:44:01   43 Client::eventHandler(): sending keyboard input to server.
+16:44:01   43 Hero::deserialize()
+16:44:01   43 Weapon::deserialize()
+16:44:01   43 Hero::deserialize()
+16:44:01   43 Weapon::deserialize()
+16:44:01   43 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:01   44 Client::eventHandler(): sending keyboard input to server.
+16:44:01   44 Hero::deserialize()
+16:44:01   44 Weapon::deserialize()
+16:44:01   44 Hero::deserialize()
+16:44:01   44 Weapon::deserialize()
+16:44:01   44 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:01   45 Client::eventHandler(): sending keyboard input to server.
+16:44:01   45 Hero::deserialize()
+16:44:01   45 Weapon::deserialize()
+16:44:01   45 Hero::deserialize()
+16:44:01   45 Weapon::deserialize()
+16:44:01   45 Hero::deserialize()
+16:44:01   45 Weapon::deserialize()
+16:44:01   45 Hero::deserialize()
+16:44:01   45 Weapon::deserialize()
+16:44:01   45 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:01   46 Client::eventHandler(): sending keyboard input to server.
+16:44:01   46 Hero::deserialize()
+16:44:01   46 Weapon::deserialize()
+16:44:01   46 Hero::deserialize()
+16:44:01   46 Weapon::deserialize()
+16:44:01   46 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:44:01   47 Client::eventHandler(): sending mouse input to server.
+16:44:01   47 Client::eventHandler(): sending keyboard input to server.
+16:44:01   47 GameManager::run(): Can't keep up! frame_time 33 ms, split 61 ms
+16:44:01   48 Client::eventHandler(): sending mouse input to server.
+16:44:01   48 Client::eventHandler(): sending keyboard input to server.
+16:44:01   48 Hero::deserialize()
+16:44:01   48 Weapon::deserialize()
+16:44:01   48 Hero::deserialize()
+16:44:01   48 Weapon::deserialize()
+16:44:01   48 Hero::deserialize()
+16:44:01   48 Weapon::deserialize()
+16:44:01   48 Hero::deserialize()
+16:44:01   48 GameManager::run(): Warning! Residual network data.
+16:44:01   48 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:44:01   49 Client::eventHandler(): sending mouse input to server.
+16:44:01   49 Client::eventHandler(): sending keyboard input to server.
+16:44:01   49 Client::eventHandler(): sending mouse input to server.
+16:44:01   49 Weapon::deserialize()
+16:44:01   49 Hero::deserialize()
+16:44:01   49 Weapon::deserialize()
+16:44:01   49 Hero::deserialize()
+16:44:01   49 Weapon::deserialize()
+16:44:01   49 GameManager::run(): Can't keep up! frame_time 33 ms, split 67 ms
+16:44:01   50 Client::eventHandler(): sending mouse input to server.
+16:44:01   50 Hero::deserialize()
+16:44:01   50 Weapon::deserialize()
+16:44:01   50 Hero::deserialize()
+16:44:01   50 Weapon::deserialize()
+16:44:01   50 GameManager::run(): Can't keep up! frame_time 33 ms, split 70 ms
+16:44:01   51 Client::eventHandler(): sending mouse input to server.
+16:44:01   51 Hero::deserialize()
+16:44:01   51 Weapon::deserialize()
+16:44:01   51 Hero::deserialize()
+16:44:01   51 Weapon::deserialize()
+16:44:01   51 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:44:01   52 Client::eventHandler(): sending mouse input to server.
+16:44:01   52 Hero::deserialize()
+16:44:01   52 Weapon::deserialize()
+16:44:01   52 Hero::deserialize()
+16:44:01   52 Weapon::deserialize()
+16:44:01   52 GameManager::run(): Can't keep up! frame_time 33 ms, split 65 ms
+16:44:01   53 Client::eventHandler(): sending mouse input to server.
+16:44:01   53 Hero::deserialize()
+16:44:01   53 Weapon::deserialize()
+16:44:01   53 Hero::deserialize()
+16:44:01   53 Weapon::deserialize()
+16:44:01   53 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:44:01   54 Client::eventHandler(): sending mouse input to server.
+16:44:01   54 Hero::deserialize()
+16:44:01   54 Weapon::deserialize()
+16:44:01   54 Hero::deserialize()
+16:44:01   54 Weapon::deserialize()
+16:44:01   54 Hero::deserialize()
+16:44:01   54 Weapon::deserialize()
+16:44:01   54 Hero::deserialize()
+16:44:01   54 Weapon::deserialize()
+16:44:02   54 GameManager::run(): Can't keep up! frame_time 33 ms, split 78 ms
+16:44:02   55 Client::eventHandler(): sending mouse input to server.
+16:44:02   55 Hero::deserialize()
+16:44:02   55 Weapon::deserialize()
+16:44:02   55 Hero::deserialize()
+16:44:02   55 Weapon::deserialize()
+16:44:02   55 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:02   56 Hero::deserialize()
+16:44:02   56 Weapon::deserialize()
+16:44:02   56 Hero::deserialize()
+16:44:02   56 Weapon::deserialize()
+16:44:02   56 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:02   57 Client::eventHandler(): sending mouse input to server.
+16:44:02   57 Client::eventHandler(): sending mouse input to server.
+16:44:02   57 Hero::deserialize()
+16:44:02   57 Weapon::deserialize()
+16:44:02   57 Hero::deserialize()
+16:44:02   57 Weapon::deserialize()
+16:44:02   57 Hero::deserialize()
+16:44:02   57 Weapon::deserialize()
+16:44:02   57 Hero::deserialize()
+16:44:02   57 Weapon::deserialize()
+16:44:02   57 GameManager::run(): Can't keep up! frame_time 33 ms, split 56 ms
+16:44:02   58 Hero::deserialize()
+16:44:02   58 Weapon::deserialize()
+16:44:02   58 Hero::deserialize()
+16:44:02   58 Weapon::deserialize()
+16:44:02   58 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+16:44:02   59 Hero::deserialize()
+16:44:02   59 Weapon::deserialize()
+16:44:02   59 Weapon::deserialize(): fire_count_down is 3
+16:44:02   59 Weapon::deserialize(): ammo_loaded is 8
+16:44:02   59 Hero::deserialize()
+16:44:02   59 Weapon::deserialize()
+16:44:02   59 Weapon::deserialize(): fire_count_down is 3
+16:44:02   59 Weapon::deserialize(): ammo_loaded is 29
+16:44:02   59 Client::createObject(): creating object type 'Bullet'
+16:44:02   59 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:44:02   60 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
+16:44:02   61 Hero::deserialize()
+16:44:02   61 Weapon::deserialize()
+16:44:02   61 Weapon::deserialize(): fire_count_down is 2
+16:44:02   61 Hero::deserialize()
+16:44:02   61 Weapon::deserialize()
+16:44:02   61 Weapon::deserialize(): fire_count_down is 2
+16:44:02   61 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   61 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   61 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   61 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   61 GameManager::run(): Warning! Residual network data.
+16:44:02   61 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   62 GameManager::run(): Warning! Residual network data.
+16:44:02   62 GameManager::run(): Can't keep up! frame_time 33 ms, split 57 ms
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   63 GameManager::run(): Warning! Residual network data.
+16:44:02   63 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
+16:44:02   64 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   64 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   64 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   64 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   64 Hero::deserialize()
+16:44:02   64 Weapon::deserialize()
+16:44:02   64 Weapon::deserialize(): fire_count_down is 1
+16:44:02   64 Hero::deserialize()
+16:44:02   64 Weapon::deserialize()
+16:44:02   64 Weapon::deserialize(): fire_count_down is 1
+16:44:02   64 GameManager::run(): Warning! Residual network data.
+16:44:02   64 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
+16:44:02   65 Client::eventHandler(): sending mouse input to server.
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   65 GameManager::run(): Warning! Residual network data.
+16:44:02   65 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:02   66 Client::eventHandler(): sending mouse input to server.
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   66 GameManager::run(): Warning! Residual network data.
+16:44:02   66 GameManager::run(): Can't keep up! frame_time 33 ms, split 75 ms
+16:44:02   67 Client::eventHandler(): sending mouse input to server.
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   67 Hero::deserialize()
+16:44:02   67 Weapon::deserialize()
+16:44:02   67 Weapon::deserialize(): fire_count_down is 0
+16:44:02   67 Hero::deserialize()
+16:44:02   67 GameManager::run(): Warning! Residual network data.
+16:44:02   67 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
+16:44:02   68 Client::eventHandler(): sending mouse input to server.
+16:44:02   68 Weapon::deserialize()
+16:44:02   68 Weapon::deserialize(): fire_count_down is 0
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   68 GameManager::run(): Warning! Residual network data.
+16:44:02   68 GameManager::run(): Can't keep up! frame_time 33 ms, split 58 ms
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   69 GameManager::run(): Warning! Residual network data.
+16:44:02   69 GameManager::run(): Can't keep up! frame_time 33 ms, split 70 ms
+16:44:02   70 Client::eventHandler(): sending mouse input to server.
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   70 GameManager::run(): Warning! Residual network data.
+16:44:02   70 GameManager::run(): Can't keep up! frame_time 33 ms, split 65 ms
+16:44:02   71 Client::eventHandler(): sending mouse input to server.
+16:44:02   71 Hero::deserialize()
+16:44:02   71 Weapon::deserialize()
+16:44:02   71 Hero::deserialize()
+16:44:02   71 Weapon::deserialize()
+16:44:02   71 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   71 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   71 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   71 Client::createObject(): creating object type 'BulletTrail'
+16:44:02   71 GameManager::run(): Warning! Residual network data.
+16:44:03   71 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:03   72 Client::eventHandler(): sending mouse input to server.
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   72 GameManager::run(): Warning! Residual network data.
+16:44:03   72 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:44:03   73 Client::eventHandler(): sending mouse input to server.
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   73 GameManager::run(): Warning! Residual network data.
+16:44:03   73 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:03   74 Client::eventHandler(): sending mouse input to server.
+16:44:03   74 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   74 Hero::deserialize()
+16:44:03   74 Weapon::deserialize()
+16:44:03   74 Hero::deserialize()
+16:44:03   74 Weapon::deserialize()
+16:44:03   74 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   74 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   74 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   74 GameManager::run(): Warning! Residual network data.
+16:44:03   74 GameManager::run(): Can't keep up! frame_time 33 ms, split 59 ms
+16:44:03   75 Client::eventHandler(): sending mouse input to server.
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   75 GameManager::run(): Warning! Residual network data.
+16:44:03   75 GameManager::run(): Can't keep up! frame_time 33 ms, split 61 ms
+16:44:03   76 Client::eventHandler(): sending mouse input to server.
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   76 GameManager::run(): Warning! Residual network data.
+16:44:03   76 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:44:03   77 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   77 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   77 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   77 Hero::deserialize()
+16:44:03   77 Weapon::deserialize()
+16:44:03   77 Hero::deserialize()
+16:44:03   77 Weapon::deserialize()
+16:44:03   77 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   77 GameManager::run(): Warning! Residual network data.
+16:44:03   77 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:03   78 Client::eventHandler(): sending mouse input to server.
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   78 GameManager::run(): Warning! Residual network data.
+16:44:03   78 GameManager::run(): Can't keep up! frame_time 33 ms, split 60 ms
+16:44:03   79 Client::eventHandler(): sending mouse input to server.
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   79 GameManager::run(): Warning! Residual network data.
+16:44:03   79 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:03   80 Client::eventHandler(): sending mouse input to server.
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   80 GameManager::run(): Warning! Residual network data.
+16:44:03   80 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:03   81 Client::eventHandler(): sending mouse input to server.
+16:44:03   81 Hero::deserialize()
+16:44:03   81 Weapon::deserialize()
+16:44:03   81 Hero::deserialize()
+16:44:03   81 Weapon::deserialize()
+16:44:03   81 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   81 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   81 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   81 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   81 GameManager::run(): Warning! Residual network data.
+16:44:03   81 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:03   82 Client::eventHandler(): sending mouse input to server.
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   82 GameManager::run(): Warning! Residual network data.
+16:44:03   82 GameManager::run(): Can't keep up! frame_time 33 ms, split 66 ms
+16:44:03   83 Client::eventHandler(): sending mouse input to server.
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   83 GameManager::run(): Warning! Residual network data.
+16:44:03   83 GameManager::run(): Can't keep up! frame_time 33 ms, split 68 ms
+16:44:03   84 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   84 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   84 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   84 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   84 Hero::deserialize()
+16:44:03   84 Weapon::deserialize()
+16:44:03   84 Hero::deserialize()
+16:44:03   84 Weapon::deserialize()
+16:44:03   84 GameManager::run(): Warning! Residual network data.
+16:44:03   84 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   85 GameManager::run(): Warning! Residual network data.
+16:44:03   85 GameManager::run(): Can't keep up! frame_time 33 ms, split 71 ms
+16:44:03   86 Client::eventHandler(): sending mouse input to server.
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   86 GameManager::run(): Warning! Residual network data.
+16:44:03   86 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Client::createObject(): creating object type 'BulletTrail'
+16:44:03   87 Hero::deserialize()
+16:44:03   87 GameManager::run(): Warning! Residual network data.
+16:44:04   87 GameManager::run(): Can't keep up! frame_time 33 ms, split 62 ms
+16:44:04   88 Weapon::deserialize()
+16:44:04   88 Hero::deserialize()
+16:44:04   88 Weapon::deserialize()
+16:44:04   88 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   88 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   88 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   88 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   88 GameManager::run(): Warning! Residual network data.
+16:44:04   88 GameManager::run(): Can't keep up! frame_time 33 ms, split 74 ms
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   89 GameManager::run(): Warning! Residual network data.
+16:44:04   89 GameManager::run(): Can't keep up! frame_time 33 ms, split 69 ms
+16:44:04   90 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   90 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   90 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   90 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   90 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   90 GameManager::run(): Warning! Residual network data.
+16:44:04   90 GameManager::run(): Can't keep up! frame_time 33 ms, split 92 ms
+16:44:04   91 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   91 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   91 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   91 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   91 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   91 Hero::deserialize()
+16:44:04   91 Weapon::deserialize()
+16:44:04   91 Hero::deserialize()
+16:44:04   91 GameManager::run(): Warning! Residual network data.
+16:44:04   91 GameManager::run(): Can't keep up! frame_time 33 ms, split 78 ms
+16:44:04   92 Weapon::deserialize()
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   92 GameManager::run(): Warning! Residual network data.
+16:44:04   92 GameManager::run(): Can't keep up! frame_time 33 ms, split 77 ms
+16:44:04   93 Client::eventHandler(): sending mouse input to server.
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   93 GameManager::run(): Warning! Residual network data.
+16:44:04   93 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:04   94 Client::eventHandler(): sending mouse input to server.
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 Client::createObject(): creating object type 'BulletTrail'
+16:44:04   94 GameManager::run(): Warning! Residual network data.
+16:44:04   94 GameManager::run(): Can't keep up! frame_time 33 ms, split 88 ms
+16:44:04   95 Hero::deserialize()
+16:44:04   95 Weapon::deserialize()
+16:44:04   95 Hero::deserialize()
+16:44:04   95 Weapon::deserialize()
+16:44:04   95 Hero::deserialize()
+16:44:04   95 Weapon::deserialize()
+16:44:04   95 Hero::deserialize()
+16:44:04   95 Weapon::deserialize()
+16:44:04   95 GameManager::run(): Warning! Residual network data.
+16:44:04   95 GameManager::run(): Can't keep up! frame_time 33 ms, split 88 ms
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 Hero::deserialize()
+16:44:04   96 Weapon::deserialize()
+16:44:04   96 GameManager::run(): Warning! Residual network data.
+16:44:04   96 GameManager::run(): Can't keep up! frame_time 33 ms, split 68 ms
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 Hero::deserialize()
+16:44:04   97 Weapon::deserialize()
+16:44:04   97 GameManager::run(): Warning! Residual network data.
+16:44:04   97 GameManager::run(): Can't keep up! frame_time 33 ms, split 90 ms
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 Hero::deserialize()
+16:44:04   98 Weapon::deserialize()
+16:44:04   98 GameManager::run(): Warning! Residual network data.
+16:44:04   98 GameManager::run(): Can't keep up! frame_time 33 ms, split 71 ms
+16:44:04   99 Hero::deserialize()
+16:44:04   99 Weapon::deserialize()
+16:44:04   99 Hero::deserialize()
+16:44:04   99 Weapon::deserialize()
+16:44:04   99 Hero::deserialize()
+16:44:04   99 Weapon::deserialize()
+16:44:04   99 Hero::deserialize()
+16:44:04   99 Weapon::deserialize()
+16:44:04   99 Hero::deserialize()
+16:44:04   99 GameManager::run(): Warning! Residual network data.
+16:44:04   99 GameManager::run(): Can't keep up! frame_time 33 ms, split 90 ms
+16:44:04  100 Weapon::deserialize()
+16:44:04  100 Hero::deserialize()
+16:44:04  100 Weapon::deserialize()
+16:44:04  100 Hero::deserialize()
+16:44:05  100 Weapon::deserialize()
+16:44:05  100 Hero::deserialize()
+16:44:05  100 Weapon::deserialize()
+16:44:05  100 Hero::deserialize()
+16:44:05  100 Weapon::deserialize()
+16:44:05  100 Hero::deserialize()
+16:44:05  100 Weapon::deserialize()
+16:44:05  100 Hero::deserialize()
+16:44:05  100 Weapon::deserialize()
+16:44:05  100 GameManager::run(): Warning! Residual network data.
+16:44:05  100 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:05  101 Hero::deserialize()
+16:44:05  101 Weapon::deserialize()
+16:44:05  101 Hero::deserialize()
+16:44:05  101 Weapon::deserialize()
+16:44:05  101 Hero::deserialize()
+16:44:05  101 Weapon::deserialize()
+16:44:05  101 Hero::deserialize()
+16:44:05  101 GameManager::run(): Warning! Residual network data.
+16:44:05  101 GameManager::run(): Can't keep up! frame_time 33 ms, split 77 ms
+16:44:05  102 Weapon::deserialize()
+16:44:05  102 Hero::deserialize()
+16:44:05  102 Weapon::deserialize()
+16:44:05  102 Hero::deserialize()
+16:44:05  102 Weapon::deserialize()
+16:44:05  102 Hero::deserialize()
+16:44:05  102 Weapon::deserialize()
+16:44:05  102 GameManager::run(): Warning! Residual network data.
+16:44:05  102 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+16:44:05  103 Hero::deserialize()
+16:44:05  103 Weapon::deserialize()
+16:44:05  103 Hero::deserialize()
+16:44:05  103 Weapon::deserialize()
+16:44:05  103 Hero::deserialize()
+16:44:05  103 Weapon::deserialize()
+16:44:05  103 Hero::deserialize()
+16:44:05  103 Weapon::deserialize()
+16:44:05  103 Hero::deserialize()
+16:44:05  103 Weapon::deserialize()
+16:44:05  103 Hero::deserialize()
+16:44:05  103 GameManager::run(): Warning! Residual network data.
+16:44:05  103 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 Hero::deserialize()
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 Hero::deserialize()
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 Hero::deserialize()
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 Hero::deserialize()
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 Hero::deserialize()
+16:44:05  104 Weapon::deserialize()
+16:44:05  104 GameManager::run(): Warning! Residual network data.
+16:44:05  104 GameManager::run(): Can't keep up! frame_time 33 ms, split 63 ms
+16:44:05  105 InputManager::getInput(): Window close event. Setting game over.
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 Hero::deserialize()
+16:44:05  105 Weapon::deserialize()
+16:44:05  105 GameManager::run(): Warning! Residual network data.
+16:44:05  105 GameManager::run(): Can't keep up! frame_time 33 ms, split 135 ms
+16:44:05  106 GameManager::run(): end of game loop
+16:44:05  106 PathManager::shutDown(): successfully stopped.
+16:44:05  106 Path manager stopped
+16:44:05  106 WorldManager::shutDown(): Successfully stopped.
+16:44:05  106 World manager stopped
+16:44:05  106 ResourceManager::shutDown(): successfully stopped.
+16:44:05  106 Resource manager stopped
+16:44:05  106 NetworkManager::shutDown(): successfully stopped.
+16:44:05  106 Network manager stopped
+16:44:05  106 InputManager::shutDown(): successfully stopped.
+16:44:05  106 Input manager stopped
+16:44:05  106 DisplayManager::shutDown(): successfully stopped.
+16:44:05  106 Display manager stopped
+16:44:05  106 ** Game stopped **
+16:44:05  106 ****************************************************
+16:44:05  106 LogManager::shutDown(): successfully stopped.

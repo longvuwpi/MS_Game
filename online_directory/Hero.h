@@ -18,8 +18,8 @@
 class Weapon;
 class Reticle;
 
-const int hero_att_count = 1;
-enum HeroAttribute { CURRENT_WEAPON };
+const int hero_att_count = 2;
+enum HeroAttribute { HEALTH, CURRENT_WEAPON };
 
 class Hero : public df::Object {
 
@@ -55,15 +55,15 @@ class Hero : public df::Object {
   void drawHealthBar();
   void reload();
  public:
-  Hero();
+  Hero(int sock_in, int client_sock_in);
   ~Hero();
   int eventHandler(const df::Event *p_e);
   int getHealth();
   void takeDamage(df::Vector at, int damage);
   void refillAmmo();
-  //Reticle *getReticle();
+  Reticle *getReticle();
   Weapon *getCurrentWeapon();
-
+  df::Vector viewPositionOnHero();
   // Custom serialize for local attributes.
   std::string serialize(bool all = false);
   // Custom deserialize for local attributes.

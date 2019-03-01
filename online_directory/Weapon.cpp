@@ -1,8 +1,8 @@
 #include "Weapon.h"
-//#include "Bullet.h"
-//#include "Saucer.h"
-//#include "WeakPoint.h"
-//#include "Boss.h"
+#include "Bullet.h"
+#include "Saucer.h"
+#include "WeakPoint.h"
+#include "Boss.h"
 #include "Explosion.h"
 
 #include "WorldManager.h"
@@ -102,59 +102,59 @@ void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
 	//Explosion *p_explosion = new Explosion("explosion", 0);
 	//p_explosion->setPosition(target);
 	//// Play "explode" sound.
-	//df::Sound *p_sound = RM.getSound("explode");
-	//p_sound->play();
+	df::Sound *p_sound = RM.getSound("explode");
+	p_sound->play();
 
-	//df::ObjectList objects_at_target = WM.objectsAtPosition(target);
-	//bool hit = false;
-	//df::ObjectListIterator li(&objects_at_target);
+	df::ObjectList objects_at_target = WM.objectsAtPosition(target);
+	bool hit = false;
+	df::ObjectListIterator li(&objects_at_target);
 
-	////See if hitting minions
-	//li.first();
-	//while (!li.isDone()) {
-	//	if (li.currentObject()->getType() == "Saucer") {
-	//		if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::MINION) {
-	//			hit = true;
-	//			dynamic_cast <Saucer *> (li.currentObject())->takeDamage(target, damage);
-	//			break;
-	//		}
-	//	}
-	//	li.next();
-	//}
+	//See if hitting minions
+	li.first();
+	while (!li.isDone()) {
+		if (li.currentObject()->getType() == "Saucer") {
+			if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::MINION) {
+				hit = true;
+				dynamic_cast <Saucer *> (li.currentObject())->takeDamage(target, damage);
+				break;
+			}
+		}
+		li.next();
+	}
 
-	////If didn't hit, see if hitting Weakpoints
-	//if (!hit) {
-	//	li.first();
-	//	while (!li.isDone()) {
-	//		if (li.currentObject()->getType() == "Saucer") {
-	//			if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::WEAKPOINT) {
-	//				hit = true;
-	//				dynamic_cast <WeakPoint *> (li.currentObject())->takeDamage(target, damage);
-	//				break;
-	//			}
-	//		}
-	//		li.next();
-	//	}
-	//}
+	//If didn't hit, see if hitting Weakpoints
+	if (!hit) {
+		li.first();
+		while (!li.isDone()) {
+			if (li.currentObject()->getType() == "Saucer") {
+				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::WEAKPOINT) {
+					hit = true;
+					dynamic_cast <WeakPoint *> (li.currentObject())->takeDamage(target, damage);
+					break;
+				}
+			}
+			li.next();
+		}
+	}
 
-	////If didn't hit, see if hitting Boss body
-	//if (!hit) {
-	//	li.first();
-	//	while (!li.isDone()) {
-	//		if (li.currentObject()->getType() == "Saucer") {
-	//			if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::BOSS) {
-	//				hit = true;
-	//				dynamic_cast <Boss *> (li.currentObject())->takeDamage(target, damage);
-	//				break;
-	//			}
-	//		}
-	//		li.next();
-	//	}
-	//}
+	//If didn't hit, see if hitting Boss body
+	if (!hit) {
+		li.first();
+		while (!li.isDone()) {
+			if (li.currentObject()->getType() == "Saucer") {
+				if (dynamic_cast <Saucer *> (li.currentObject())->getEnemyType() == EnemyType::BOSS) {
+					hit = true;
+					dynamic_cast <Boss *> (li.currentObject())->takeDamage(target, damage);
+					break;
+				}
+			}
+			li.next();
+		}
+	}
 
-	//if (hit) {
-	//	df::addParticles(20, 5, target, 2.0f, df::Vector(0,0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
-	//}
+	if (hit) {
+		df::addParticles(20, 5, target, 2.0f, df::Vector(0,0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+	}
 }
 
 bool Weapon::canShoot() {
@@ -197,8 +197,8 @@ void Weapon::fire(df::Vector target) {
 		v.normalize();
 		v.scale(bullet_speed);
 		printf("bullet velocity %f,%f\n", v.getX(), v.getY());
-		//Bullet *p = new Bullet(origin, bullet_sprite, this);
-		//p->setVelocity(v);
+		Bullet *p = new Bullet(origin, bullet_sprite, this);
+		p->setVelocity(v);
 	}
 
 	// Play "fire" sound.

@@ -152,23 +152,45 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\AmmoDisplay.h" />
+    <ClInclude Include="..\Boss.h" />
+    <ClInclude Include="..\Bullet.h" />
+    <ClInclude Include="..\BulletTrail.h" />
     <ClInclude Include="..\Client.h" />
+    <ClInclude Include="..\EnemyAttack.h" />
+    <ClInclude Include="..\EnemyMovement.h" />
+    <ClInclude Include="..\EventBossTookDamage.h" />
     <ClInclude Include="..\Explosion.h" />
     <ClInclude Include="..\Hero.h" />
+    <ClInclude Include="..\Level.h" />
+    <ClInclude Include="..\Level1.h" />
     <ClInclude Include="..\Platform.h" />
     <ClInclude Include="..\Reticle.h" />
+    <ClInclude Include="..\Saucer.h" />
     <ClInclude Include="..\Server.h" />
+    <ClInclude Include="..\util.h" />
+    <ClInclude Include="..\WeakPoint.h" />
     <ClInclude Include="..\Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\AmmoDisplay.cpp" />
+    <ClCompile Include="..\Boss.cpp" />
+    <ClCompile Include="..\Bullet.cpp" />
+    <ClCompile Include="..\BulletTrail.cpp" />
     <ClCompile Include="..\Client.cpp" />
+    <ClCompile Include="..\EnemyAttack.cpp" />
+    <ClCompile Include="..\EnemyMovement.cpp" />
+    <ClCompile Include="..\EventBossTookDamage.cpp" />
     <ClCompile Include="..\Explosion.cpp" />
     <ClCompile Include="..\game.cpp" />
     <ClCompile Include="..\Hero.cpp" />
+    <ClCompile Include="..\Level.cpp" />
+    <ClCompile Include="..\Level1.cpp" />
     <ClCompile Include="..\Platform.cpp" />
     <ClCompile Include="..\Reticle.cpp" />
+    <ClCompile Include="..\Saucer.cpp" />
     <ClCompile Include="..\Server.cpp" />
+    <ClCompile Include="..\util.cpp" />
+    <ClCompile Include="..\WeakPoint.cpp" />
     <ClCompile Include="..\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>

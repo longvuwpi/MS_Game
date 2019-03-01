@@ -52,6 +52,9 @@ enum MessageType {
 // 4) Mouse-x as float.
 // 5) Mouse-y as float.
 
+// CUSTOM:
+// 2) Bytes as a blob.
+
 class NetworkNode : public Object {
 
  protected:
@@ -87,6 +90,8 @@ class NetworkNode : public Object {
 		  Keyboard::Key key, int sock_index=-1);
   int sendMessage(MessageType msg_type, EventMouseAction action,
 		  Mouse::Button button, Vector mouse_position,
+		  int sock_index=-1);
+  int sendMessage(MessageType msg_type, int num_bytes, const void *bytes, 
 		  int sock_index=-1);
 
   /// Create Object of given type.

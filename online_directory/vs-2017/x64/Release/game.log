@@ -1,16 +1,60 @@
-﻿  Client.cpp
+﻿  AmmoDisplay.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\ammodisplay.cpp(158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\ammodisplay.cpp(169): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\ammodisplay.cpp(171): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\ammodisplay.cpp(172): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Boss.cpp
+  Bullet.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\bullet.cpp(179): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\bullet.cpp(191): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  BulletTrail.cpp
+  Client.cpp
+  EnemyAttack.cpp
+  EnemyMovement.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\enemymovement.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\enemymovement.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\enemymovement.cpp(69): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\enemymovement.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EventBossTookDamage.cpp
   Explosion.cpp
   game.cpp
   Hero.cpp
-c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(121): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(127): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(262): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(266): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(431): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(140): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(277): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(281): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\hero.cpp(443): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Level.cpp
+  Level1.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\level1.cpp(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\level1.cpp(92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Platform.cpp
   Reticle.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(85): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(86): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(95): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(122): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(124): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(125): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(150): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(189): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vuxua\documents\github\ms_game\online_directory\reticle.cpp(190): warning C4305: 'argument': truncation from 'double' to 'float'
+  Saucer.cpp
   Server.cpp
+  util.cpp
+  WeakPoint.cpp
+  Weapon.cpp
+c:\users\vuxua\documents\github\ms_game\online_directory\weapon.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\weapon.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\online_directory\weapon.cpp(198): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  All 343 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 818 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   game.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\online_directory\vs-2017\x64\Release\game.exe

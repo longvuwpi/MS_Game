@@ -8,6 +8,7 @@
 #include "ObjectList.h"
 #include "WorldManager.h"
 #include "LogManager.h"
+#include "NetworkManager.h"
 
 #include "Hero.h"
 #include "AmmoDisplay.h"
@@ -57,8 +58,10 @@ AmmoDisplay::AmmoDisplay(Hero *hero) {
 
 int AmmoDisplay::eventHandler(const df::Event *p_e) {
 	if (p_e->getType() == df::STEP_EVENT) {
-		step();
-		return 1;
+		if (!NM.isServer()) {
+			step();
+			return 1;
+		}
 	}
 
 	// If get here, have ignored this event.
@@ -148,15 +151,17 @@ void AmmoDisplay::step() {
 }
 
 void AmmoDisplay::draw() {
-	df::Object::draw();
-	df::ObjectList hero_list = WM.objectsOfType("Hero");
-	if (!hero_list.isEmpty()) {
-		DM.drawString(getPosition() - df::Vector(0, -1 + getSprite()->getHeight() / 2), owner->getCurrentWeapon()->getWeaponName(), df::Justification::CENTER_JUSTIFIED, df::Color::CYAN);
+	if (!NM.isServer()) {
+		df::Object::draw();
+		df::ObjectList hero_list = WM.objectsOfType("Hero");
+		if (!hero_list.isEmpty()) {
+			DM.drawString(getPosition() - df::Vector(0, -1 + getSprite()->getHeight() / 2), owner->getCurrentWeapon()->getWeaponName(), df::Justification::CENTER_JUSTIFIED, df::Color::CYAN);
+		}
+		loaded_1->draw();
+		loaded_2->draw();
+		backup_1->draw();
+		backup_2->draw();
 	}
-	loaded_1->draw();
-	loaded_2->draw();
-	backup_1->draw();
-	backup_2->draw();
 }
 
 void AmmoDisplay::positionSprites() {

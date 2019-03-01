@@ -1,0 +1,1722 @@
+12:42:05    0 ****************************************************
+12:42:05    0 ** Dragonfly version 4.9 **
+12:42:05    0 Hello, Network! (v1.2)
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+12:42:05    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+12:42:05    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+12:42:05    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+12:42:05    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+12:42:06    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+12:42:07    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+12:42:07    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+12:42:07    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+12:42:07    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+12:42:07    0 Client::Client(): Connecting to localhost at port 9876.
+12:42:07    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+12:42:07    0 NetworkManager::connect(): Connection established.
+12:42:07    0 Client::handleConnect(): Client connected! on socket index 1596138335.
+12:42:07    0 Client::Client(): Client started.
+12:42:07    0 GameManager::run(): starting game loop
+12:42:08    0 Client::eventHandler(): sending mouse input to server.
+12:42:08    0 Client::createObject(): creating object type 'Hero'
+12:42:08    0 Hero::deserialize()
+12:42:08    0 Hero::deserialize(): current health is 50
+12:42:08    0 Hero::deserialize(): current weapon is 1
+12:42:08    0 Client::createObject(): creating object type 'Level'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Platform'
+12:42:08    0 Client::createObject(): creating object type 'Hero'
+12:42:08    0 Hero::deserialize()
+12:42:08    0 Hero::deserialize(): current health is 50
+12:42:08    0 Hero::deserialize(): current weapon is 1
+12:42:08    0 Hero::deserialize()
+12:42:08    0 Weapon::deserialize()
+12:42:08    0 Hero::deserialize()
+12:42:08    0 Weapon::deserialize()
+12:42:08    0 Weapon::deserialize(): ammo_loaded is 30
+12:42:08    0 Weapon::deserialize(): ammo_backup is 90
+12:42:08    0 Weapon::deserialize()
+12:42:08    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+12:42:08    0 Weapon::deserialize(): ammo_loaded is 10
+12:42:08    0 Weapon::deserialize(): ammo_backup is 30
+12:42:08    0 Weapon::deserialize()
+12:42:08    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+12:42:08    0 Weapon::deserialize(): ammo_loaded is 1
+12:42:08    0 Weapon::deserialize(): ammo_backup is 30
+12:42:08    1 Client::eventHandler(): sending mouse input to server.
+12:42:08    1 Reticle received mouse event
+12:42:08    1 Client socket index 0 following hero id 20
+12:42:08    1 Reticle received step event
+12:42:08    1 Hero::deserialize()
+12:42:08    1 Weapon::deserialize()
+12:42:08    1 Hero::deserialize()
+12:42:08    1 Weapon::deserialize()
+12:42:08    2 Client socket index 0 following hero id 20
+12:42:08    2 Reticle received step event
+12:42:08    2 Hero::deserialize()
+12:42:08    2 Weapon::deserialize()
+12:42:08    2 Hero::deserialize()
+12:42:08    2 Weapon::deserialize()
+12:42:08    3 Client::eventHandler(): sending mouse input to server.
+12:42:08    3 Reticle received mouse event
+12:42:08    3 Client socket index 0 following hero id 20
+12:42:08    3 Reticle received step event
+12:42:08    3 Hero::deserialize()
+12:42:08    3 Weapon::deserialize()
+12:42:08    3 Hero::deserialize()
+12:42:08    3 Weapon::deserialize()
+12:42:08    4 Client::eventHandler(): sending mouse input to server.
+12:42:08    4 Reticle received mouse event
+12:42:08    4 Client::eventHandler(): sending mouse input to server.
+12:42:08    4 Reticle received mouse event
+12:42:08    4 Client::eventHandler(): sending mouse input to server.
+12:42:08    4 Reticle received mouse event
+12:42:08    4 Client socket index 0 following hero id 20
+12:42:08    4 Reticle received step event
+12:42:08    4 Hero::deserialize()
+12:42:08    4 Weapon::deserialize()
+12:42:08    4 Hero::deserialize()
+12:42:08    4 Weapon::deserialize()
+12:42:08    5 Client::eventHandler(): sending mouse input to server.
+12:42:08    5 Reticle received mouse event
+12:42:08    5 Client socket index 0 following hero id 20
+12:42:08    5 Reticle received step event
+12:42:08    5 Hero::deserialize()
+12:42:08    5 Weapon::deserialize()
+12:42:08    5 Hero::deserialize()
+12:42:08    5 Weapon::deserialize()
+12:42:08    6 Client::eventHandler(): sending mouse input to server.
+12:42:08    6 Reticle received mouse event
+12:42:08    6 Client socket index 0 following hero id 20
+12:42:08    6 Reticle received step event
+12:42:08    6 Hero::deserialize()
+12:42:08    6 Weapon::deserialize()
+12:42:08    6 Hero::deserialize()
+12:42:08    6 Weapon::deserialize()
+12:42:08    7 Client::eventHandler(): sending mouse input to server.
+12:42:08    7 Reticle received mouse event
+12:42:08    7 Client socket index 0 following hero id 20
+12:42:08    7 Reticle received step event
+12:42:08    7 Hero::deserialize()
+12:42:08    7 Weapon::deserialize()
+12:42:08    7 Hero::deserialize()
+12:42:08    7 Weapon::deserialize()
+12:42:08    8 Client::eventHandler(): sending mouse input to server.
+12:42:08    8 Reticle received mouse event
+12:42:08    8 Client socket index 0 following hero id 20
+12:42:08    8 Reticle received step event
+12:42:08    8 Hero::deserialize()
+12:42:08    8 Weapon::deserialize()
+12:42:08    8 Hero::deserialize()
+12:42:08    8 Weapon::deserialize()
+12:42:08    9 Client socket index 0 following hero id 20
+12:42:08    9 Reticle received step event
+12:42:08    9 Hero::deserialize()
+12:42:08    9 Weapon::deserialize()
+12:42:08    9 Hero::deserialize()
+12:42:08    9 Weapon::deserialize()
+12:42:08   10 Client::eventHandler(): sending mouse input to server.
+12:42:08   10 Reticle received mouse event
+12:42:08   10 Client socket index 0 following hero id 20
+12:42:08   10 Reticle received step event
+12:42:08   10 Hero::deserialize()
+12:42:08   10 Weapon::deserialize()
+12:42:08   10 Hero::deserialize()
+12:42:08   10 Weapon::deserialize()
+12:42:08   11 Client::eventHandler(): sending mouse input to server.
+12:42:08   11 Reticle received mouse event
+12:42:08   11 Client socket index 0 following hero id 20
+12:42:08   11 Reticle received step event
+12:42:08   11 Hero::deserialize()
+12:42:08   11 Weapon::deserialize()
+12:42:08   11 Hero::deserialize()
+12:42:08   11 Weapon::deserialize()
+12:42:08   12 Client::eventHandler(): sending mouse input to server.
+12:42:08   12 Reticle received mouse event
+12:42:08   12 Client::eventHandler(): sending mouse input to server.
+12:42:08   12 Reticle received mouse event
+12:42:08   12 Client socket index 0 following hero id 20
+12:42:08   12 Reticle received step event
+12:42:08   12 Hero::deserialize()
+12:42:08   12 Weapon::deserialize()
+12:42:08   12 Hero::deserialize()
+12:42:08   12 Weapon::deserialize()
+12:42:08   13 Client::eventHandler(): sending mouse input to server.
+12:42:08   13 Reticle received mouse event
+12:42:08   13 Client socket index 0 following hero id 20
+12:42:08   13 Reticle received step event
+12:42:08   13 Hero::deserialize()
+12:42:08   13 Weapon::deserialize()
+12:42:08   13 Hero::deserialize()
+12:42:08   13 Weapon::deserialize()
+12:42:08   14 Client::eventHandler(): sending mouse input to server.
+12:42:08   14 Reticle received mouse event
+12:42:08   14 Client socket index 0 following hero id 20
+12:42:08   14 Reticle received step event
+12:42:08   14 Hero::deserialize()
+12:42:08   14 Weapon::deserialize()
+12:42:08   14 Hero::deserialize()
+12:42:08   14 Weapon::deserialize()
+12:42:08   15 Client::eventHandler(): sending mouse input to server.
+12:42:08   15 Reticle received mouse event
+12:42:08   15 Client socket index 0 following hero id 20
+12:42:08   15 Reticle received step event
+12:42:08   15 Hero::deserialize()
+12:42:08   15 Weapon::deserialize()
+12:42:08   15 Hero::deserialize()
+12:42:08   15 Weapon::deserialize()
+12:42:08   16 Client::eventHandler(): sending mouse input to server.
+12:42:08   16 Reticle received mouse event
+12:42:08   16 Client socket index 0 following hero id 20
+12:42:08   16 Reticle received step event
+12:42:08   16 Hero::deserialize()
+12:42:08   16 Weapon::deserialize()
+12:42:08   16 Hero::deserialize()
+12:42:08   16 Weapon::deserialize()
+12:42:08   17 Client::eventHandler(): sending mouse input to server.
+12:42:08   17 Reticle received mouse event
+12:42:08   17 Client socket index 0 following hero id 20
+12:42:08   17 Reticle received step event
+12:42:08   17 Hero::deserialize()
+12:42:08   17 Weapon::deserialize()
+12:42:08   17 Hero::deserialize()
+12:42:08   17 Weapon::deserialize()
+12:42:08   18 Client::eventHandler(): sending mouse input to server.
+12:42:08   18 Reticle received mouse event
+12:42:08   18 Client socket index 0 following hero id 20
+12:42:08   18 Reticle received step event
+12:42:08   18 Hero::deserialize()
+12:42:08   18 Weapon::deserialize()
+12:42:08   18 Hero::deserialize()
+12:42:08   18 Weapon::deserialize()
+12:42:08   19 Client::eventHandler(): sending mouse input to server.
+12:42:08   19 Reticle received mouse event
+12:42:08   19 Client socket index 0 following hero id 20
+12:42:08   19 Reticle received step event
+12:42:08   19 Hero::deserialize()
+12:42:08   19 Weapon::deserialize()
+12:42:08   19 Hero::deserialize()
+12:42:08   19 Weapon::deserialize()
+12:42:08   20 Client::eventHandler(): sending mouse input to server.
+12:42:08   20 Reticle received mouse event
+12:42:08   20 Client socket index 0 following hero id 20
+12:42:08   20 Reticle received step event
+12:42:08   20 Hero::deserialize()
+12:42:08   20 Weapon::deserialize()
+12:42:08   20 Hero::deserialize()
+12:42:08   20 Weapon::deserialize()
+12:42:08   21 Client::eventHandler(): sending keyboard input to server.
+12:42:08   21 Client::eventHandler(): sending keyboard input to server.
+12:42:08   21 Client socket index 0 following hero id 20
+12:42:08   21 Reticle received step event
+12:42:08   21 Hero::deserialize()
+12:42:08   21 Weapon::deserialize()
+12:42:08   21 Hero::deserialize()
+12:42:08   21 Weapon::deserialize()
+12:42:08   22 Client::eventHandler(): sending mouse input to server.
+12:42:08   22 Reticle received mouse event
+12:42:08   22 Client::eventHandler(): sending keyboard input to server.
+12:42:08   22 Client socket index 0 following hero id 20
+12:42:08   22 Reticle received step event
+12:42:08   22 Hero::deserialize()
+12:42:08   22 Weapon::deserialize()
+12:42:08   22 Hero::deserialize()
+12:42:08   22 Weapon::deserialize()
+12:42:08   23 Client::eventHandler(): sending mouse input to server.
+12:42:08   23 Reticle received mouse event
+12:42:08   23 Client::eventHandler(): sending keyboard input to server.
+12:42:08   23 Client socket index 0 following hero id 20
+12:42:08   23 Reticle received step event
+12:42:08   23 Hero::deserialize()
+12:42:08   23 Weapon::deserialize()
+12:42:08   23 Hero::deserialize()
+12:42:08   23 Weapon::deserialize()
+12:42:08   24 Client::eventHandler(): sending keyboard input to server.
+12:42:08   24 Client socket index 0 following hero id 20
+12:42:08   24 Reticle received step event
+12:42:08   24 Hero::deserialize()
+12:42:08   24 Weapon::deserialize()
+12:42:08   24 Hero::deserialize()
+12:42:08   24 Weapon::deserialize()
+12:42:08   25 Client::eventHandler(): sending keyboard input to server.
+12:42:08   25 Client socket index 0 following hero id 20
+12:42:08   25 Reticle received step event
+12:42:08   25 Hero::deserialize()
+12:42:08   25 Weapon::deserialize()
+12:42:08   25 Hero::deserialize()
+12:42:08   25 Weapon::deserialize()
+12:42:08   26 Client::eventHandler(): sending keyboard input to server.
+12:42:08   26 Client socket index 0 following hero id 20
+12:42:08   26 Reticle received step event
+12:42:08   26 Hero::deserialize()
+12:42:08   26 Weapon::deserialize()
+12:42:08   26 Hero::deserialize()
+12:42:08   26 Weapon::deserialize()
+12:42:08   27 Client::eventHandler(): sending keyboard input to server.
+12:42:08   27 Client socket index 0 following hero id 20
+12:42:08   27 Reticle received step event
+12:42:08   27 Hero::deserialize()
+12:42:08   27 Weapon::deserialize()
+12:42:08   27 Hero::deserialize()
+12:42:08   27 Weapon::deserialize()
+12:42:08   28 Client::eventHandler(): sending keyboard input to server.
+12:42:08   28 Client socket index 0 following hero id 20
+12:42:08   28 Reticle received step event
+12:42:08   28 Hero::deserialize()
+12:42:08   28 Weapon::deserialize()
+12:42:08   28 Hero::deserialize()
+12:42:08   28 Weapon::deserialize()
+12:42:08   29 Client::eventHandler(): sending keyboard input to server.
+12:42:08   29 Client socket index 0 following hero id 20
+12:42:08   29 Reticle received step event
+12:42:08   29 Hero::deserialize()
+12:42:08   29 Weapon::deserialize()
+12:42:08   29 Hero::deserialize()
+12:42:08   29 Weapon::deserialize()
+12:42:09   30 Client::eventHandler(): sending keyboard input to server.
+12:42:09   30 Client socket index 0 following hero id 20
+12:42:09   30 Reticle received step event
+12:42:09   30 Hero::deserialize()
+12:42:09   30 Weapon::deserialize()
+12:42:09   30 Hero::deserialize()
+12:42:09   30 Weapon::deserialize()
+12:42:09   31 Client::eventHandler(): sending keyboard input to server.
+12:42:09   31 Client socket index 0 following hero id 20
+12:42:09   31 Reticle received step event
+12:42:09   31 Hero::deserialize()
+12:42:09   31 Weapon::deserialize()
+12:42:09   31 Hero::deserialize()
+12:42:09   31 Weapon::deserialize()
+12:42:09   32 Client::eventHandler(): sending keyboard input to server.
+12:42:09   32 Client socket index 0 following hero id 20
+12:42:09   32 Reticle received step event
+12:42:09   32 Hero::deserialize()
+12:42:09   32 Weapon::deserialize()
+12:42:09   32 Hero::deserialize()
+12:42:09   32 Weapon::deserialize()
+12:42:09   33 Client::eventHandler(): sending keyboard input to server.
+12:42:09   33 Client socket index 0 following hero id 20
+12:42:09   33 Reticle received step event
+12:42:09   33 Hero::deserialize()
+12:42:09   33 Weapon::deserialize()
+12:42:09   33 Hero::deserialize()
+12:42:09   33 Weapon::deserialize()
+12:42:09   34 Client socket index 0 following hero id 20
+12:42:09   34 Reticle received step event
+12:42:09   34 Hero::deserialize()
+12:42:09   34 Weapon::deserialize()
+12:42:09   34 Hero::deserialize()
+12:42:09   34 Weapon::deserialize()
+12:42:09   35 Client socket index 0 following hero id 20
+12:42:09   35 Reticle received step event
+12:42:09   35 Hero::deserialize()
+12:42:09   35 Weapon::deserialize()
+12:42:09   35 Hero::deserialize()
+12:42:09   35 Weapon::deserialize()
+12:42:09   36 Client socket index 0 following hero id 20
+12:42:09   36 Reticle received step event
+12:42:09   36 Hero::deserialize()
+12:42:09   36 Weapon::deserialize()
+12:42:09   36 Hero::deserialize()
+12:42:09   36 Weapon::deserialize()
+12:42:09   37 Client socket index 0 following hero id 20
+12:42:09   37 Reticle received step event
+12:42:09   37 Hero::deserialize()
+12:42:09   37 Weapon::deserialize()
+12:42:09   37 Hero::deserialize()
+12:42:09   37 Weapon::deserialize()
+12:42:09   38 Client socket index 0 following hero id 20
+12:42:09   38 Reticle received step event
+12:42:09   38 Hero::deserialize()
+12:42:09   38 Weapon::deserialize()
+12:42:09   38 Hero::deserialize()
+12:42:09   38 Weapon::deserialize()
+12:42:09   39 Client socket index 0 following hero id 20
+12:42:09   39 Reticle received step event
+12:42:09   39 Hero::deserialize()
+12:42:09   39 Weapon::deserialize()
+12:42:09   39 Hero::deserialize()
+12:42:09   39 Weapon::deserialize()
+12:42:09   40 Client socket index 0 following hero id 20
+12:42:09   40 Reticle received step event
+12:42:09   40 Hero::deserialize()
+12:42:09   40 Weapon::deserialize()
+12:42:09   40 Hero::deserialize()
+12:42:09   40 Weapon::deserialize()
+12:42:09   41 Client socket index 0 following hero id 20
+12:42:09   41 Reticle received step event
+12:42:09   41 Hero::deserialize()
+12:42:09   41 Weapon::deserialize()
+12:42:09   41 Hero::deserialize()
+12:42:09   41 Weapon::deserialize()
+12:42:09   42 Client::eventHandler(): sending keyboard input to server.
+12:42:09   42 Client::eventHandler(): sending keyboard input to server.
+12:42:09   42 Client socket index 0 following hero id 20
+12:42:09   42 Reticle received step event
+12:42:09   42 Hero::deserialize()
+12:42:09   42 Weapon::deserialize()
+12:42:09   42 Hero::deserialize()
+12:42:09   42 Weapon::deserialize()
+12:42:09   43 Client::eventHandler(): sending keyboard input to server.
+12:42:09   43 Client socket index 0 following hero id 20
+12:42:09   43 Reticle received step event
+12:42:09   43 Hero::deserialize()
+12:42:09   43 Weapon::deserialize()
+12:42:09   43 Hero::deserialize()
+12:42:09   43 Weapon::deserialize()
+12:42:09   44 Client::eventHandler(): sending keyboard input to server.
+12:42:09   44 Client socket index 0 following hero id 20
+12:42:09   44 Reticle received step event
+12:42:09   44 Hero::deserialize()
+12:42:09   44 Weapon::deserialize()
+12:42:09   44 Hero::deserialize()
+12:42:09   44 Weapon::deserialize()
+12:42:09   45 Client::eventHandler(): sending keyboard input to server.
+12:42:09   45 Client socket index 0 following hero id 20
+12:42:09   45 Reticle received step event
+12:42:09   45 Hero::deserialize()
+12:42:09   45 Weapon::deserialize()
+12:42:09   45 Hero::deserialize()
+12:42:09   45 Weapon::deserialize()
+12:42:09   46 Client::eventHandler(): sending keyboard input to server.
+12:42:09   46 Client::eventHandler(): sending keyboard input to server.
+12:42:09   46 Client::eventHandler(): sending keyboard input to server.
+12:42:09   46 Client socket index 0 following hero id 20
+12:42:09   46 Reticle received step event
+12:42:09   46 Hero::deserialize()
+12:42:09   46 Weapon::deserialize()
+12:42:09   46 Hero::deserialize()
+12:42:09   46 Weapon::deserialize()
+12:42:09   47 Client::eventHandler(): sending keyboard input to server.
+12:42:09   47 Client::eventHandler(): sending keyboard input to server.
+12:42:09   47 Client socket index 0 following hero id 20
+12:42:09   47 Reticle received step event
+12:42:09   47 Hero::deserialize()
+12:42:09   47 Weapon::deserialize()
+12:42:09   47 Hero::deserialize()
+12:42:09   47 Weapon::deserialize()
+12:42:09   48 Client::eventHandler(): sending keyboard input to server.
+12:42:09   48 Client::eventHandler(): sending keyboard input to server.
+12:42:09   48 Client socket index 0 following hero id 20
+12:42:09   48 Reticle received step event
+12:42:09   48 Hero::deserialize()
+12:42:09   48 Weapon::deserialize()
+12:42:09   48 Hero::deserialize()
+12:42:09   48 Weapon::deserialize()
+12:42:09   49 Client::eventHandler(): sending keyboard input to server.
+12:42:09   49 Client::eventHandler(): sending keyboard input to server.
+12:42:09   49 Client socket index 0 following hero id 20
+12:42:09   49 Reticle received step event
+12:42:09   49 Hero::deserialize()
+12:42:09   49 Weapon::deserialize()
+12:42:09   49 Hero::deserialize()
+12:42:09   49 Weapon::deserialize()
+12:42:09   50 Client::eventHandler(): sending keyboard input to server.
+12:42:09   50 Client::eventHandler(): sending keyboard input to server.
+12:42:09   50 Client socket index 0 following hero id 20
+12:42:09   50 Reticle received step event
+12:42:09   50 Hero::deserialize()
+12:42:09   50 Weapon::deserialize()
+12:42:09   50 Hero::deserialize()
+12:42:09   50 Weapon::deserialize()
+12:42:09   51 Client::eventHandler(): sending keyboard input to server.
+12:42:09   51 Client::eventHandler(): sending keyboard input to server.
+12:42:09   51 Client socket index 0 following hero id 20
+12:42:09   51 Reticle received step event
+12:42:09   51 Hero::deserialize()
+12:42:09   51 Weapon::deserialize()
+12:42:09   51 Hero::deserialize()
+12:42:09   51 Weapon::deserialize()
+12:42:09   52 Client::eventHandler(): sending keyboard input to server.
+12:42:09   52 Client::eventHandler(): sending keyboard input to server.
+12:42:09   52 Client socket index 0 following hero id 20
+12:42:09   52 Reticle received step event
+12:42:09   52 Hero::deserialize()
+12:42:09   52 Weapon::deserialize()
+12:42:09   52 Hero::deserialize()
+12:42:09   52 Weapon::deserialize()
+12:42:09   53 Client::eventHandler(): sending keyboard input to server.
+12:42:09   53 Client::eventHandler(): sending keyboard input to server.
+12:42:09   53 Client socket index 0 following hero id 20
+12:42:09   53 Reticle received step event
+12:42:09   53 Hero::deserialize()
+12:42:09   53 Weapon::deserialize()
+12:42:09   53 Hero::deserialize()
+12:42:09   53 Weapon::deserialize()
+12:42:09   54 Client::eventHandler(): sending keyboard input to server.
+12:42:09   54 Client::eventHandler(): sending keyboard input to server.
+12:42:09   54 Client socket index 0 following hero id 20
+12:42:09   54 Reticle received step event
+12:42:09   54 Hero::deserialize()
+12:42:09   54 Weapon::deserialize()
+12:42:09   54 Hero::deserialize()
+12:42:09   54 Weapon::deserialize()
+12:42:09   55 Client::eventHandler(): sending keyboard input to server.
+12:42:09   55 Client::eventHandler(): sending keyboard input to server.
+12:42:09   55 Client socket index 0 following hero id 20
+12:42:09   55 Reticle received step event
+12:42:09   55 Hero::deserialize()
+12:42:09   55 Weapon::deserialize()
+12:42:09   55 Hero::deserialize()
+12:42:09   55 Weapon::deserialize()
+12:42:09   56 Client::eventHandler(): sending keyboard input to server.
+12:42:09   56 Client socket index 0 following hero id 20
+12:42:09   56 Reticle received step event
+12:42:09   56 Hero::deserialize()
+12:42:09   56 Weapon::deserialize()
+12:42:09   56 Hero::deserialize()
+12:42:09   56 Weapon::deserialize()
+12:42:09   57 Client::eventHandler(): sending keyboard input to server.
+12:42:09   57 Client socket index 0 following hero id 20
+12:42:09   57 Reticle received step event
+12:42:09   57 Hero::deserialize()
+12:42:09   57 Weapon::deserialize()
+12:42:09   57 Hero::deserialize()
+12:42:09   57 Weapon::deserialize()
+12:42:09   58 Client::eventHandler(): sending keyboard input to server.
+12:42:09   58 Client socket index 0 following hero id 20
+12:42:09   58 Reticle received step event
+12:42:09   58 Hero::deserialize()
+12:42:09   58 Weapon::deserialize()
+12:42:09   58 Hero::deserialize()
+12:42:09   58 Weapon::deserialize()
+12:42:09   59 Client::eventHandler(): sending keyboard input to server.
+12:42:09   59 Client socket index 0 following hero id 20
+12:42:09   59 Reticle received step event
+12:42:09   59 Hero::deserialize()
+12:42:09   59 Weapon::deserialize()
+12:42:09   59 Hero::deserialize()
+12:42:09   59 Weapon::deserialize()
+12:42:10   60 Client::eventHandler(): sending keyboard input to server.
+12:42:10   60 Client socket index 0 following hero id 20
+12:42:10   60 Reticle received step event
+12:42:10   60 Hero::deserialize()
+12:42:10   60 Weapon::deserialize()
+12:42:10   60 Hero::deserialize()
+12:42:10   60 Weapon::deserialize()
+12:42:10   61 Client::eventHandler(): sending keyboard input to server.
+12:42:10   61 Client socket index 0 following hero id 20
+12:42:10   61 Reticle received step event
+12:42:10   61 Hero::deserialize()
+12:42:10   61 Weapon::deserialize()
+12:42:10   61 Hero::deserialize()
+12:42:10   61 Weapon::deserialize()
+12:42:10   62 Client::eventHandler(): sending keyboard input to server.
+12:42:10   62 Client socket index 0 following hero id 20
+12:42:10   62 Reticle received step event
+12:42:10   62 Hero::deserialize()
+12:42:10   62 Weapon::deserialize()
+12:42:10   62 Hero::deserialize()
+12:42:10   62 Weapon::deserialize()
+12:42:10   63 Client::eventHandler(): sending keyboard input to server.
+12:42:10   63 Client socket index 0 following hero id 20
+12:42:10   63 Reticle received step event
+12:42:10   63 Hero::deserialize()
+12:42:10   63 Weapon::deserialize()
+12:42:10   63 Hero::deserialize()
+12:42:10   63 Weapon::deserialize()
+12:42:10   64 Client::eventHandler(): sending keyboard input to server.
+12:42:10   64 Client socket index 0 following hero id 20
+12:42:10   64 Reticle received step event
+12:42:10   64 Hero::deserialize()
+12:42:10   64 Weapon::deserialize()
+12:42:10   64 Hero::deserialize()
+12:42:10   64 Weapon::deserialize()
+12:42:10   65 Client::eventHandler(): sending keyboard input to server.
+12:42:10   65 Client socket index 0 following hero id 20
+12:42:10   65 Reticle received step event
+12:42:10   65 Hero::deserialize()
+12:42:10   65 Weapon::deserialize()
+12:42:10   65 Hero::deserialize()
+12:42:10   65 Weapon::deserialize()
+12:42:10   66 Client::eventHandler(): sending keyboard input to server.
+12:42:10   66 Client socket index 0 following hero id 20
+12:42:10   66 Reticle received step event
+12:42:10   66 Hero::deserialize()
+12:42:10   66 Weapon::deserialize()
+12:42:10   66 Hero::deserialize()
+12:42:10   66 Weapon::deserialize()
+12:42:10   67 Client::eventHandler(): sending keyboard input to server.
+12:42:10   67 Client socket index 0 following hero id 20
+12:42:10   67 Reticle received step event
+12:42:10   67 Hero::deserialize()
+12:42:10   67 Weapon::deserialize()
+12:42:10   67 Hero::deserialize()
+12:42:10   67 Weapon::deserialize()
+12:42:10   68 Client::eventHandler(): sending keyboard input to server.
+12:42:10   68 Client socket index 0 following hero id 20
+12:42:10   68 Reticle received step event
+12:42:10   68 Hero::deserialize()
+12:42:10   68 Weapon::deserialize()
+12:42:10   68 Hero::deserialize()
+12:42:10   68 Weapon::deserialize()
+12:42:10   69 Client socket index 0 following hero id 20
+12:42:10   69 Reticle received step event
+12:42:10   69 Hero::deserialize()
+12:42:10   69 Weapon::deserialize()
+12:42:10   69 Hero::deserialize()
+12:42:10   69 Weapon::deserialize()
+12:42:10   70 Client::eventHandler(): sending mouse input to server.
+12:42:10   70 Reticle received mouse event
+12:42:10   70 Client socket index 0 following hero id 20
+12:42:10   70 Reticle received step event
+12:42:10   70 Hero::deserialize()
+12:42:10   70 Weapon::deserialize()
+12:42:10   70 Hero::deserialize()
+12:42:10   70 Weapon::deserialize()
+12:42:10   71 Client::eventHandler(): sending mouse input to server.
+12:42:10   71 Reticle received mouse event
+12:42:10   71 Client socket index 0 following hero id 20
+12:42:10   71 Reticle received step event
+12:42:10   71 Hero::deserialize()
+12:42:10   71 Weapon::deserialize()
+12:42:10   71 Hero::deserialize()
+12:42:10   71 Weapon::deserialize()
+12:42:10   72 Client::eventHandler(): sending mouse input to server.
+12:42:10   72 Reticle received mouse event
+12:42:10   72 Client socket index 0 following hero id 20
+12:42:10   72 Reticle received step event
+12:42:10   72 Hero::deserialize()
+12:42:10   72 Weapon::deserialize()
+12:42:10   72 Hero::deserialize()
+12:42:10   72 Weapon::deserialize()
+12:42:10   73 Client::eventHandler(): sending mouse input to server.
+12:42:10   73 Reticle received mouse event
+12:42:10   73 Client socket index 0 following hero id 20
+12:42:10   73 Reticle received step event
+12:42:10   73 Hero::deserialize()
+12:42:10   73 Weapon::deserialize()
+12:42:10   73 Hero::deserialize()
+12:42:10   73 Weapon::deserialize()
+12:42:10   74 Client::eventHandler(): sending mouse input to server.
+12:42:10   74 Reticle received mouse event
+12:42:10   74 Client socket index 0 following hero id 20
+12:42:10   74 Reticle received step event
+12:42:10   74 Hero::deserialize()
+12:42:10   74 Weapon::deserialize()
+12:42:10   74 Hero::deserialize()
+12:42:10   74 Weapon::deserialize()
+12:42:10   75 Client::eventHandler(): sending mouse input to server.
+12:42:10   75 Reticle received mouse event
+12:42:10   75 Client socket index 0 following hero id 20
+12:42:10   75 Reticle received step event
+12:42:10   75 Hero::deserialize()
+12:42:10   75 Weapon::deserialize()
+12:42:10   75 Hero::deserialize()
+12:42:10   75 Weapon::deserialize()
+12:42:10   76 Client socket index 0 following hero id 20
+12:42:10   76 Reticle received step event
+12:42:10   76 Hero::deserialize()
+12:42:10   76 Weapon::deserialize()
+12:42:10   76 Hero::deserialize()
+12:42:10   76 Weapon::deserialize()
+12:42:10   77 Client::eventHandler(): sending mouse input to server.
+12:42:10   77 Reticle received mouse event
+12:42:10   77 Client socket index 0 following hero id 20
+12:42:10   77 Reticle received step event
+12:42:10   77 Hero::deserialize()
+12:42:10   77 Weapon::deserialize()
+12:42:10   77 Hero::deserialize()
+12:42:10   77 Weapon::deserialize()
+12:42:10   78 Client socket index 0 following hero id 20
+12:42:10   78 Reticle received step event
+12:42:10   78 Hero::deserialize()
+12:42:10   78 Weapon::deserialize()
+12:42:10   78 Hero::deserialize()
+12:42:10   78 Weapon::deserialize()
+12:42:10   79 Client::eventHandler(): sending keyboard input to server.
+12:42:10   79 Client::eventHandler(): sending keyboard input to server.
+12:42:10   79 Client socket index 0 following hero id 20
+12:42:10   79 Reticle received step event
+12:42:10   79 Hero::deserialize()
+12:42:10   79 Weapon::deserialize()
+12:42:10   79 Hero::deserialize()
+12:42:10   79 Weapon::deserialize()
+12:42:10   80 Client::eventHandler(): sending keyboard input to server.
+12:42:10   80 Client socket index 0 following hero id 20
+12:42:10   80 Reticle received step event
+12:42:10   80 Hero::deserialize()
+12:42:10   80 Weapon::deserialize()
+12:42:10   80 Hero::deserialize()
+12:42:10   80 Weapon::deserialize()
+12:42:10   81 Client::eventHandler(): sending keyboard input to server.
+12:42:10   81 Client socket index 0 following hero id 20
+12:42:10   81 Reticle received step event
+12:42:10   81 Hero::deserialize()
+12:42:10   81 Weapon::deserialize()
+12:42:10   81 Hero::deserialize()
+12:42:10   81 Weapon::deserialize()
+12:42:10   82 Client::eventHandler(): sending keyboard input to server.
+12:42:10   82 Client socket index 0 following hero id 20
+12:42:10   82 Reticle received step event
+12:42:10   82 Hero::deserialize()
+12:42:10   82 Weapon::deserialize()
+12:42:10   82 Hero::deserialize()
+12:42:10   82 Weapon::deserialize()
+12:42:10   83 Client::eventHandler(): sending keyboard input to server.
+12:42:10   83 Client socket index 0 following hero id 20
+12:42:10   83 Reticle received step event
+12:42:10   83 Hero::deserialize()
+12:42:10   83 Weapon::deserialize()
+12:42:10   83 Hero::deserialize()
+12:42:10   83 Weapon::deserialize()
+12:42:10   84 Client::eventHandler(): sending keyboard input to server.
+12:42:10   84 Client socket index 0 following hero id 20
+12:42:10   84 Reticle received step event
+12:42:10   84 Hero::deserialize()
+12:42:10   84 Weapon::deserialize()
+12:42:10   84 Hero::deserialize()
+12:42:10   84 Weapon::deserialize()
+12:42:10   85 Client::eventHandler(): sending mouse input to server.
+12:42:10   85 Reticle received mouse event
+12:42:10   85 Client::eventHandler(): sending keyboard input to server.
+12:42:10   85 Client socket index 0 following hero id 20
+12:42:10   85 Reticle received step event
+12:42:10   85 Hero::deserialize()
+12:42:10   85 Weapon::deserialize()
+12:42:10   85 Hero::deserialize()
+12:42:10   85 Weapon::deserialize()
+12:42:10   86 Client::eventHandler(): sending mouse input to server.
+12:42:10   86 Reticle received mouse event
+12:42:10   86 Client::eventHandler(): sending mouse input to server.
+12:42:10   86 Reticle received mouse event
+12:42:10   86 Client::eventHandler(): sending keyboard input to server.
+12:42:10   86 Client socket index 0 following hero id 20
+12:42:10   86 Reticle received step event
+12:42:10   86 Hero::deserialize()
+12:42:10   86 Weapon::deserialize()
+12:42:10   86 Hero::deserialize()
+12:42:10   86 Weapon::deserialize()
+12:42:10   87 Client::eventHandler(): sending mouse input to server.
+12:42:10   87 Reticle received mouse event
+12:42:10   87 Client::eventHandler(): sending mouse input to server.
+12:42:10   87 Reticle received mouse event
+12:42:10   87 Client::eventHandler(): sending keyboard input to server.
+12:42:10   87 Client socket index 0 following hero id 20
+12:42:10   87 Reticle received step event
+12:42:10   87 Hero::deserialize()
+12:42:10   87 Weapon::deserialize()
+12:42:10   87 Hero::deserialize()
+12:42:10   87 Weapon::deserialize()
+12:42:10   88 Client::eventHandler(): sending mouse input to server.
+12:42:10   88 Reticle received mouse event
+12:42:10   88 Client::eventHandler(): sending keyboard input to server.
+12:42:10   88 Client socket index 0 following hero id 20
+12:42:10   88 Reticle received step event
+12:42:10   88 Hero::deserialize()
+12:42:10   88 Weapon::deserialize()
+12:42:10   88 Hero::deserialize()
+12:42:10   88 Weapon::deserialize()
+12:42:10   89 Client::eventHandler(): sending mouse input to server.
+12:42:10   89 Reticle received mouse event
+12:42:10   89 Client::eventHandler(): sending keyboard input to server.
+12:42:10   89 Client socket index 0 following hero id 20
+12:42:10   89 Reticle received step event
+12:42:10   89 Hero::deserialize()
+12:42:10   89 Weapon::deserialize()
+12:42:10   89 Hero::deserialize()
+12:42:10   89 Weapon::deserialize()
+12:42:10   90 Client::eventHandler(): sending mouse input to server.
+12:42:10   90 Reticle received mouse event
+12:42:10   90 Client::eventHandler(): sending keyboard input to server.
+12:42:10   90 Client socket index 0 following hero id 20
+12:42:10   90 Reticle received step event
+12:42:10   90 Hero::deserialize()
+12:42:10   90 Weapon::deserialize()
+12:42:10   90 Hero::deserialize()
+12:42:10   90 Weapon::deserialize()
+12:42:11   91 Client::eventHandler(): sending mouse input to server.
+12:42:11   91 Reticle received mouse event
+12:42:11   91 Client::eventHandler(): sending keyboard input to server.
+12:42:11   91 Client socket index 0 following hero id 20
+12:42:11   91 Reticle received step event
+12:42:11   91 Hero::deserialize()
+12:42:11   91 Weapon::deserialize()
+12:42:11   91 Hero::deserialize()
+12:42:11   91 Weapon::deserialize()
+12:42:11   92 Client::eventHandler(): sending mouse input to server.
+12:42:11   92 Reticle received mouse event
+12:42:11   92 Client::eventHandler(): sending keyboard input to server.
+12:42:11   92 Client socket index 0 following hero id 20
+12:42:11   92 Reticle received step event
+12:42:11   92 Hero::deserialize()
+12:42:11   92 Weapon::deserialize()
+12:42:11   92 Hero::deserialize()
+12:42:11   92 Weapon::deserialize()
+12:42:11   93 Client::eventHandler(): sending keyboard input to server.
+12:42:11   93 Client socket index 0 following hero id 20
+12:42:11   93 Reticle received step event
+12:42:11   93 Hero::deserialize()
+12:42:11   93 Weapon::deserialize()
+12:42:11   93 Hero::deserialize()
+12:42:11   93 Weapon::deserialize()
+12:42:11   94 Client::eventHandler(): sending mouse input to server.
+12:42:11   94 Reticle received mouse event
+12:42:11   94 Client socket index 0 following hero id 20
+12:42:11   94 Reticle received step event
+12:42:11   94 Hero::deserialize()
+12:42:11   94 Weapon::deserialize()
+12:42:11   94 Hero::deserialize()
+12:42:11   94 Weapon::deserialize()
+12:42:11   95 Client::eventHandler(): sending mouse input to server.
+12:42:11   95 Reticle received mouse event
+12:42:11   95 Client socket index 0 following hero id 20
+12:42:11   95 Reticle received step event
+12:42:11   95 Hero::deserialize()
+12:42:11   95 Weapon::deserialize()
+12:42:11   95 Hero::deserialize()
+12:42:11   95 Weapon::deserialize()
+12:42:11   96 Client::eventHandler(): sending mouse input to server.
+12:42:11   96 Reticle received mouse event
+12:42:11   96 Client socket index 0 following hero id 20
+12:42:11   96 Reticle received step event
+12:42:11   96 Hero::deserialize()
+12:42:11   96 Weapon::deserialize()
+12:42:11   96 Hero::deserialize()
+12:42:11   96 Weapon::deserialize()
+12:42:11   97 Client::eventHandler(): sending mouse input to server.
+12:42:11   97 Reticle received mouse event
+12:42:11   97 Client socket index 0 following hero id 20
+12:42:11   97 Reticle received step event
+12:42:11   97 Hero::deserialize()
+12:42:11   97 Weapon::deserialize()
+12:42:11   97 Hero::deserialize()
+12:42:11   97 Weapon::deserialize()
+12:42:11   98 Client::eventHandler(): sending mouse input to server.
+12:42:11   98 Reticle received mouse event
+12:42:11   98 Client::eventHandler(): sending mouse input to server.
+12:42:11   98 Reticle received mouse event
+12:42:11   98 Client socket index 0 following hero id 20
+12:42:11   98 Reticle received step event
+12:42:11   98 Hero::deserialize()
+12:42:11   98 Weapon::deserialize()
+12:42:11   98 Hero::deserialize()
+12:42:11   98 Weapon::deserialize()
+12:42:11   99 Client::eventHandler(): sending mouse input to server.
+12:42:11   99 Reticle received mouse event
+12:42:11   99 Client socket index 0 following hero id 20
+12:42:11   99 Reticle received step event
+12:42:11   99 Hero::deserialize()
+12:42:11   99 Weapon::deserialize()
+12:42:11   99 Hero::deserialize()
+12:42:11   99 Weapon::deserialize()
+12:42:11  100 Client::eventHandler(): sending mouse input to server.
+12:42:11  100 Reticle received mouse event
+12:42:11  100 Client socket index 0 following hero id 20
+12:42:11  100 Reticle received step event
+12:42:11  100 Hero::deserialize()
+12:42:11  100 Weapon::deserialize()
+12:42:11  100 Hero::deserialize()
+12:42:11  100 Weapon::deserialize()
+12:42:11  101 Client::eventHandler(): sending mouse input to server.
+12:42:11  101 Reticle received mouse event
+12:42:11  101 Client socket index 0 following hero id 20
+12:42:11  101 Reticle received step event
+12:42:11  101 Hero::deserialize()
+12:42:11  101 Weapon::deserialize()
+12:42:11  101 Hero::deserialize()
+12:42:11  101 Weapon::deserialize()
+12:42:11  102 Client::eventHandler(): sending mouse input to server.
+12:42:11  102 Reticle received mouse event
+12:42:11  102 Client socket index 0 following hero id 20
+12:42:11  102 Reticle received step event
+12:42:11  102 Hero::deserialize()
+12:42:11  102 Weapon::deserialize()
+12:42:11  102 Hero::deserialize()
+12:42:11  102 Weapon::deserialize()
+12:42:11  103 Client::eventHandler(): sending mouse input to server.
+12:42:11  103 Reticle received mouse event
+12:42:11  103 Client socket index 0 following hero id 20
+12:42:11  103 Reticle received step event
+12:42:11  103 Hero::deserialize()
+12:42:11  103 Weapon::deserialize()
+12:42:11  103 Hero::deserialize()
+12:42:11  103 Weapon::deserialize()
+12:42:11  104 Client::eventHandler(): sending mouse input to server.
+12:42:11  104 Reticle received mouse event
+12:42:11  104 Client::eventHandler(): sending mouse input to server.
+12:42:11  104 Reticle received mouse event
+12:42:11  104 Client socket index 0 following hero id 20
+12:42:11  104 Reticle received step event
+12:42:11  104 Hero::deserialize()
+12:42:11  104 Weapon::deserialize()
+12:42:11  104 Hero::deserialize()
+12:42:11  104 Weapon::deserialize()
+12:42:11  105 Client::eventHandler(): sending mouse input to server.
+12:42:11  105 Reticle received mouse event
+12:42:11  105 Client socket index 0 following hero id 20
+12:42:11  105 Reticle received step event
+12:42:11  105 Hero::deserialize()
+12:42:11  105 Weapon::deserialize()
+12:42:11  105 Hero::deserialize()
+12:42:11  105 Weapon::deserialize()
+12:42:11  106 Client::eventHandler(): sending mouse input to server.
+12:42:11  106 Reticle received mouse event
+12:42:11  106 Client socket index 0 following hero id 20
+12:42:11  106 Reticle received step event
+12:42:11  106 Hero::deserialize()
+12:42:11  106 Weapon::deserialize()
+12:42:11  106 Hero::deserialize()
+12:42:11  106 Weapon::deserialize()
+12:42:11  107 Client::eventHandler(): sending mouse input to server.
+12:42:11  107 Reticle received mouse event
+12:42:11  107 Client socket index 0 following hero id 20
+12:42:11  107 Reticle received step event
+12:42:11  107 Hero::deserialize()
+12:42:11  107 Weapon::deserialize()
+12:42:11  107 Hero::deserialize()
+12:42:11  107 Weapon::deserialize()
+12:42:11  108 Client::eventHandler(): sending mouse input to server.
+12:42:11  108 Reticle received mouse event
+12:42:11  108 Client::eventHandler(): sending keyboard input to server.
+12:42:11  108 Client::eventHandler(): sending mouse input to server.
+12:42:11  108 Reticle received mouse event
+12:42:11  108 Client::eventHandler(): sending keyboard input to server.
+12:42:11  108 Client socket index 0 following hero id 20
+12:42:11  108 Reticle received step event
+12:42:11  108 Hero::deserialize()
+12:42:11  108 Weapon::deserialize()
+12:42:11  108 Hero::deserialize()
+12:42:11  108 Weapon::deserialize()
+12:42:11  109 Client::eventHandler(): sending mouse input to server.
+12:42:11  109 Reticle received mouse event
+12:42:11  109 Client::eventHandler(): sending mouse input to server.
+12:42:11  109 Reticle received mouse event
+12:42:11  109 Client::eventHandler(): sending mouse input to server.
+12:42:11  109 Reticle received mouse event
+12:42:11  109 Client::eventHandler(): sending keyboard input to server.
+12:42:11  109 Client socket index 0 following hero id 20
+12:42:11  109 Reticle received step event
+12:42:11  109 Hero::deserialize()
+12:42:11  109 Weapon::deserialize()
+12:42:11  109 Hero::deserialize()
+12:42:11  109 Weapon::deserialize()
+12:42:11  110 Client::eventHandler(): sending mouse input to server.
+12:42:11  110 Reticle received mouse event
+12:42:11  110 Client::eventHandler(): sending keyboard input to server.
+12:42:11  110 Client socket index 0 following hero id 20
+12:42:11  110 Reticle received step event
+12:42:11  110 Hero::deserialize()
+12:42:11  110 Weapon::deserialize()
+12:42:11  110 Hero::deserialize()
+12:42:11  110 Weapon::deserialize()
+12:42:11  111 Client::eventHandler(): sending mouse input to server.
+12:42:11  111 Reticle received mouse event
+12:42:11  111 Client::eventHandler(): sending keyboard input to server.
+12:42:11  111 Client socket index 0 following hero id 20
+12:42:11  111 Reticle received step event
+12:42:11  111 Hero::deserialize()
+12:42:11  111 Weapon::deserialize()
+12:42:11  111 Hero::deserialize()
+12:42:11  111 Weapon::deserialize()
+12:42:11  112 Client::eventHandler(): sending mouse input to server.
+12:42:11  112 Reticle received mouse event
+12:42:11  112 Client::eventHandler(): sending keyboard input to server.
+12:42:11  112 Client socket index 0 following hero id 20
+12:42:11  112 Reticle received step event
+12:42:11  112 Hero::deserialize()
+12:42:11  112 Weapon::deserialize()
+12:42:11  112 Hero::deserialize()
+12:42:11  112 Weapon::deserialize()
+12:42:11  113 Client::eventHandler(): sending mouse input to server.
+12:42:11  113 Reticle received mouse event
+12:42:11  113 Client::eventHandler(): sending keyboard input to server.
+12:42:11  113 Client socket index 0 following hero id 20
+12:42:11  113 Reticle received step event
+12:42:11  113 Hero::deserialize()
+12:42:11  113 Weapon::deserialize()
+12:42:11  113 Hero::deserialize()
+12:42:11  113 Weapon::deserialize()
+12:42:11  114 Client::eventHandler(): sending mouse input to server.
+12:42:11  114 Reticle received mouse event
+12:42:11  114 Client::eventHandler(): sending mouse input to server.
+12:42:11  114 Reticle received mouse event
+12:42:11  114 Client::eventHandler(): sending keyboard input to server.
+12:42:11  114 Client socket index 0 following hero id 20
+12:42:11  114 Reticle received step event
+12:42:11  114 Hero::deserialize()
+12:42:11  114 Weapon::deserialize()
+12:42:11  114 Hero::deserialize()
+12:42:11  114 Weapon::deserialize()
+12:42:11  115 Client::eventHandler(): sending mouse input to server.
+12:42:11  115 Reticle received mouse event
+12:42:11  115 Client::eventHandler(): sending keyboard input to server.
+12:42:11  115 Client socket index 0 following hero id 20
+12:42:11  115 Reticle received step event
+12:42:11  115 Hero::deserialize()
+12:42:11  115 Weapon::deserialize()
+12:42:11  115 Hero::deserialize()
+12:42:11  115 Weapon::deserialize()
+12:42:11  116 Client::eventHandler(): sending mouse input to server.
+12:42:11  116 Reticle received mouse event
+12:42:11  116 Client::eventHandler(): sending keyboard input to server.
+12:42:11  116 Client::eventHandler(): sending mouse input to server.
+12:42:11  116 Reticle received mouse event
+12:42:11  116 Client socket index 0 following hero id 20
+12:42:11  116 Reticle received step event
+12:42:11  116 Hero::deserialize()
+12:42:11  116 Weapon::deserialize()
+12:42:11  116 Hero::deserialize()
+12:42:11  116 Weapon::deserialize()
+12:42:11  117 Client::eventHandler(): sending mouse input to server.
+12:42:11  117 Reticle received mouse event
+12:42:11  117 Client socket index 0 following hero id 20
+12:42:11  117 Reticle received step event
+12:42:11  117 Hero::deserialize()
+12:42:11  117 Weapon::deserialize()
+12:42:11  117 Hero::deserialize()
+12:42:11  117 Weapon::deserialize()
+12:42:11  118 Client::eventHandler(): sending mouse input to server.
+12:42:11  118 Reticle received mouse event
+12:42:11  118 Client::eventHandler(): sending keyboard input to server.
+12:42:11  118 Client::eventHandler(): sending keyboard input to server.
+12:42:11  118 Client socket index 0 following hero id 20
+12:42:11  118 Reticle received step event
+12:42:11  118 Hero::deserialize()
+12:42:11  118 Weapon::deserialize()
+12:42:11  118 Hero::deserialize()
+12:42:11  118 Weapon::deserialize()
+12:42:11  119 Client::eventHandler(): sending mouse input to server.
+12:42:11  119 Reticle received mouse event
+12:42:11  119 Client::eventHandler(): sending keyboard input to server.
+12:42:11  119 Client socket index 0 following hero id 20
+12:42:11  119 Reticle received step event
+12:42:11  119 Hero::deserialize()
+12:42:11  119 Weapon::deserialize()
+12:42:11  119 Hero::deserialize()
+12:42:11  119 Weapon::deserialize()
+12:42:11  120 Client::eventHandler(): sending mouse input to server.
+12:42:11  120 Reticle received mouse event
+12:42:11  120 Client::eventHandler(): sending keyboard input to server.
+12:42:11  120 Client socket index 0 following hero id 20
+12:42:11  120 Reticle received step event
+12:42:11  120 Hero::deserialize()
+12:42:11  120 Weapon::deserialize()
+12:42:11  120 Hero::deserialize()
+12:42:11  120 Weapon::deserialize()
+12:42:12  121 Client::eventHandler(): sending mouse input to server.
+12:42:12  121 Reticle received mouse event
+12:42:12  121 Client::eventHandler(): sending keyboard input to server.
+12:42:12  121 Client socket index 0 following hero id 20
+12:42:12  121 Reticle received step event
+12:42:12  121 Hero::deserialize()
+12:42:12  121 Weapon::deserialize()
+12:42:12  121 Hero::deserialize()
+12:42:12  121 Weapon::deserialize()
+12:42:12  122 Client::eventHandler(): sending mouse input to server.
+12:42:12  122 Reticle received mouse event
+12:42:12  122 Client::eventHandler(): sending keyboard input to server.
+12:42:12  122 Client socket index 0 following hero id 20
+12:42:12  122 Reticle received step event
+12:42:12  122 Hero::deserialize()
+12:42:12  122 Weapon::deserialize()
+12:42:12  122 Hero::deserialize()
+12:42:12  122 Weapon::deserialize()
+12:42:12  123 Client::eventHandler(): sending mouse input to server.
+12:42:12  123 Reticle received mouse event
+12:42:12  123 Client::eventHandler(): sending keyboard input to server.
+12:42:12  123 Client socket index 0 following hero id 20
+12:42:12  123 Reticle received step event
+12:42:12  123 Hero::deserialize()
+12:42:12  123 Weapon::deserialize()
+12:42:12  123 Hero::deserialize()
+12:42:12  123 Weapon::deserialize()
+12:42:12  124 Client::eventHandler(): sending mouse input to server.
+12:42:12  124 Reticle received mouse event
+12:42:12  124 Client::eventHandler(): sending keyboard input to server.
+12:42:12  124 Client socket index 0 following hero id 20
+12:42:12  124 Reticle received step event
+12:42:12  124 Hero::deserialize()
+12:42:12  124 Weapon::deserialize()
+12:42:12  124 Hero::deserialize()
+12:42:12  124 Weapon::deserialize()
+12:42:12  125 Client::eventHandler(): sending mouse input to server.
+12:42:12  125 Reticle received mouse event
+12:42:12  125 Client::eventHandler(): sending keyboard input to server.
+12:42:12  125 Client socket index 0 following hero id 20
+12:42:12  125 Reticle received step event
+12:42:12  125 Hero::deserialize()
+12:42:12  125 Weapon::deserialize()
+12:42:12  125 Hero::deserialize()
+12:42:12  125 Weapon::deserialize()
+12:42:12  126 Client::eventHandler(): sending mouse input to server.
+12:42:12  126 Reticle received mouse event
+12:42:12  126 Client::eventHandler(): sending keyboard input to server.
+12:42:12  126 Client socket index 0 following hero id 20
+12:42:12  126 Reticle received step event
+12:42:12  126 Hero::deserialize()
+12:42:12  126 Weapon::deserialize()
+12:42:12  126 Hero::deserialize()
+12:42:12  126 Weapon::deserialize()
+12:42:12  127 Client::eventHandler(): sending mouse input to server.
+12:42:12  127 Reticle received mouse event
+12:42:12  127 Client::eventHandler(): sending keyboard input to server.
+12:42:12  127 Client socket index 0 following hero id 20
+12:42:12  127 Reticle received step event
+12:42:12  127 Hero::deserialize()
+12:42:12  127 Weapon::deserialize()
+12:42:12  127 Hero::deserialize()
+12:42:12  127 Weapon::deserialize()
+12:42:12  128 Client::eventHandler(): sending mouse input to server.
+12:42:12  128 Reticle received mouse event
+12:42:12  128 Client::eventHandler(): sending keyboard input to server.
+12:42:12  128 Client socket index 0 following hero id 20
+12:42:12  128 Reticle received step event
+12:42:12  128 Hero::deserialize()
+12:42:12  128 Weapon::deserialize()
+12:42:12  128 Hero::deserialize()
+12:42:12  128 Weapon::deserialize()
+12:42:12  129 Client::eventHandler(): sending mouse input to server.
+12:42:12  129 Reticle received mouse event
+12:42:12  129 Client::eventHandler(): sending keyboard input to server.
+12:42:12  129 Client socket index 0 following hero id 20
+12:42:12  129 Reticle received step event
+12:42:12  129 Hero::deserialize()
+12:42:12  129 Weapon::deserialize()
+12:42:12  129 Hero::deserialize()
+12:42:12  129 Weapon::deserialize()
+12:42:12  130 Client::eventHandler(): sending keyboard input to server.
+12:42:12  130 Client socket index 0 following hero id 20
+12:42:12  130 Reticle received step event
+12:42:12  130 Hero::deserialize()
+12:42:12  130 Weapon::deserialize()
+12:42:12  130 Hero::deserialize()
+12:42:12  130 Weapon::deserialize()
+12:42:12  131 Client::eventHandler(): sending keyboard input to server.
+12:42:12  131 Client socket index 0 following hero id 20
+12:42:12  131 Reticle received step event
+12:42:12  131 Hero::deserialize()
+12:42:12  131 Weapon::deserialize()
+12:42:12  131 Hero::deserialize()
+12:42:12  131 Weapon::deserialize()
+12:42:12  132 Client socket index 0 following hero id 20
+12:42:12  132 Reticle received step event
+12:42:12  132 Hero::deserialize()
+12:42:12  132 Weapon::deserialize()
+12:42:12  132 Hero::deserialize()
+12:42:12  132 Weapon::deserialize()
+12:42:12  133 Client socket index 0 following hero id 20
+12:42:12  133 Reticle received step event
+12:42:12  133 Hero::deserialize()
+12:42:12  133 Weapon::deserialize()
+12:42:12  133 Weapon::deserialize()
+12:42:12  134 Client::eventHandler(): sending mouse input to server.
+12:42:12  134 Reticle received mouse event
+12:42:12  134 Client socket index 0 following hero id 20
+12:42:12  134 Reticle received step event
+12:42:12  134 Hero::deserialize()
+12:42:12  134 Weapon::deserialize()
+12:42:12  134 Weapon::deserialize()
+12:42:12  135 Client::eventHandler(): sending mouse input to server.
+12:42:12  135 Reticle received mouse event
+12:42:12  135 Client socket index 0 following hero id 20
+12:42:12  135 Reticle received step event
+12:42:12  135 Hero::deserialize()
+12:42:12  135 Weapon::deserialize()
+12:42:12  135 Weapon::deserialize()
+12:42:12  136 Client::eventHandler(): sending mouse input to server.
+12:42:12  136 Reticle received mouse event
+12:42:12  136 Client socket index 0 following hero id 20
+12:42:12  136 Reticle received step event
+12:42:12  136 Hero::deserialize()
+12:42:12  136 Weapon::deserialize()
+12:42:12  136 Weapon::deserialize()
+12:42:12  137 Client::eventHandler(): sending mouse input to server.
+12:42:12  137 Reticle received mouse event
+12:42:12  137 Client socket index 0 following hero id 20
+12:42:12  137 Reticle received step event
+12:42:12  137 Hero::deserialize()
+12:42:12  137 Weapon::deserialize()
+12:42:12  137 Weapon::deserialize()
+12:42:12  138 Client::eventHandler(): sending mouse input to server.
+12:42:12  138 Reticle received mouse event
+12:42:12  138 Client socket index 0 following hero id 20
+12:42:12  138 Reticle received step event
+12:42:12  138 Hero::deserialize()
+12:42:12  138 Weapon::deserialize()
+12:42:12  138 Weapon::deserialize()
+12:42:12  139 Client::eventHandler(): sending mouse input to server.
+12:42:12  139 Reticle received mouse event
+12:42:12  139 Client socket index 0 following hero id 20
+12:42:12  139 Reticle received step event
+12:42:12  139 Hero::deserialize()
+12:42:12  139 Weapon::deserialize()
+12:42:12  139 Weapon::deserialize()
+12:42:12  140 Client::eventHandler(): sending mouse input to server.
+12:42:12  140 Reticle received mouse event
+12:42:12  140 Client::eventHandler(): sending mouse input to server.
+12:42:12  140 Reticle received mouse event
+12:42:12  140 Client::eventHandler(): sending mouse input to server.
+12:42:12  140 Reticle received mouse event
+12:42:12  140 Client socket index 0 following hero id 20
+12:42:12  140 Reticle received step event
+12:42:12  140 Hero::deserialize()
+12:42:12  140 Weapon::deserialize()
+12:42:12  140 Weapon::deserialize()
+12:42:12  141 Client::eventHandler(): sending mouse input to server.
+12:42:12  141 Reticle received mouse event
+12:42:12  141 Client::eventHandler(): sending mouse input to server.
+12:42:12  141 Reticle received mouse event
+12:42:12  141 Client socket index 0 following hero id 20
+12:42:12  141 Reticle received step event
+12:42:12  141 Hero::deserialize()
+12:42:12  141 Weapon::deserialize()
+12:42:12  141 Weapon::deserialize()
+12:42:12  142 Client::eventHandler(): sending mouse input to server.
+12:42:12  142 Reticle received mouse event
+12:42:12  142 Client::eventHandler(): sending keyboard input to server.
+12:42:12  142 Client::eventHandler(): sending mouse input to server.
+12:42:12  142 Reticle received mouse event
+12:42:12  142 Client::eventHandler(): sending keyboard input to server.
+12:42:12  142 Client socket index 0 following hero id 20
+12:42:12  142 Reticle received step event
+12:42:12  142 Hero::deserialize()
+12:42:12  142 Weapon::deserialize()
+12:42:12  142 Weapon::deserialize()
+12:42:12  143 Client::eventHandler(): sending mouse input to server.
+12:42:12  143 Reticle received mouse event
+12:42:12  143 Client::eventHandler(): sending keyboard input to server.
+12:42:12  143 Client socket index 0 following hero id 20
+12:42:12  143 Reticle received step event
+12:42:12  143 Hero::deserialize()
+12:42:12  143 Weapon::deserialize()
+12:42:12  143 Weapon::deserialize()
+12:42:12  144 Client::eventHandler(): sending mouse input to server.
+12:42:12  144 Reticle received mouse event
+12:42:12  144 Client::eventHandler(): sending keyboard input to server.
+12:42:12  144 Client socket index 0 following hero id 20
+12:42:12  144 Reticle received step event
+12:42:12  144 Hero::deserialize()
+12:42:12  144 Weapon::deserialize()
+12:42:12  144 Hero::deserialize()
+12:42:12  144 Weapon::deserialize()
+12:42:12  145 Client::eventHandler(): sending mouse input to server.
+12:42:12  145 Reticle received mouse event
+12:42:12  145 Client::eventHandler(): sending keyboard input to server.
+12:42:12  145 Client socket index 0 following hero id 20
+12:42:12  145 Reticle received step event
+12:42:12  145 Hero::deserialize()
+12:42:12  145 Weapon::deserialize()
+12:42:12  145 Hero::deserialize()
+12:42:12  145 Weapon::deserialize()
+12:42:12  146 Client::eventHandler(): sending mouse input to server.
+12:42:12  146 Reticle received mouse event
+12:42:12  146 Client::eventHandler(): sending keyboard input to server.
+12:42:12  146 Client socket index 0 following hero id 20
+12:42:12  146 Reticle received step event
+12:42:12  146 Hero::deserialize()
+12:42:12  146 Weapon::deserialize()
+12:42:12  146 Hero::deserialize()
+12:42:12  146 Weapon::deserialize()
+12:42:12  147 Client::eventHandler(): sending mouse input to server.
+12:42:12  147 Reticle received mouse event
+12:42:12  147 Client::eventHandler(): sending keyboard input to server.
+12:42:12  147 Client::eventHandler(): sending mouse input to server.
+12:42:12  147 Reticle received mouse event
+12:42:12  147 Client socket index 0 following hero id 20
+12:42:12  147 Reticle received step event
+12:42:12  147 Hero::deserialize()
+12:42:12  147 Weapon::deserialize()
+12:42:12  147 Hero::deserialize()
+12:42:12  147 Weapon::deserialize()
+12:42:12  148 Client::eventHandler(): sending mouse input to server.
+12:42:12  148 Reticle received mouse event
+12:42:12  148 Client socket index 0 following hero id 20
+12:42:12  148 Reticle received step event
+12:42:12  148 Hero::deserialize()
+12:42:12  148 Weapon::deserialize()
+12:42:12  148 Hero::deserialize()
+12:42:12  148 Weapon::deserialize()
+12:42:12  149 Client socket index 0 following hero id 20
+12:42:12  149 Reticle received step event
+12:42:12  149 Hero::deserialize()
+12:42:12  149 Weapon::deserialize()
+12:42:12  149 Weapon::deserialize()
+12:42:12  150 Client socket index 0 following hero id 20
+12:42:12  150 Reticle received step event
+12:42:12  150 Hero::deserialize()
+12:42:12  150 Weapon::deserialize()
+12:42:12  150 Weapon::deserialize()
+12:42:13  151 Client socket index 0 following hero id 20
+12:42:13  151 Reticle received step event
+12:42:13  151 Hero::deserialize()
+12:42:13  151 Weapon::deserialize()
+12:42:13  151 Weapon::deserialize()
+12:42:13  152 Client socket index 0 following hero id 20
+12:42:13  152 Reticle received step event
+12:42:13  152 Hero::deserialize()
+12:42:13  152 Weapon::deserialize()
+12:42:13  152 Weapon::deserialize()
+12:42:13  153 Client socket index 0 following hero id 20
+12:42:13  153 Reticle received step event
+12:42:13  153 Hero::deserialize()
+12:42:13  153 Weapon::deserialize()
+12:42:13  153 Weapon::deserialize()
+12:42:13  154 Client socket index 0 following hero id 20
+12:42:13  154 Reticle received step event
+12:42:13  154 Hero::deserialize()
+12:42:13  154 Weapon::deserialize()
+12:42:13  154 Weapon::deserialize()
+12:42:13  155 Client socket index 0 following hero id 20
+12:42:13  155 Reticle received step event
+12:42:13  155 Hero::deserialize()
+12:42:13  155 Weapon::deserialize()
+12:42:13  155 Weapon::deserialize()
+12:42:13  156 Client socket index 0 following hero id 20
+12:42:13  156 Reticle received step event
+12:42:13  156 Hero::deserialize()
+12:42:13  156 Weapon::deserialize()
+12:42:13  156 Weapon::deserialize()
+12:42:13  157 Client socket index 0 following hero id 20
+12:42:13  157 Reticle received step event
+12:42:13  157 Hero::deserialize()
+12:42:13  157 Weapon::deserialize()
+12:42:13  157 Weapon::deserialize()
+12:42:13  158 Client socket index 0 following hero id 20
+12:42:13  158 Reticle received step event
+12:42:13  158 Hero::deserialize()
+12:42:13  158 Weapon::deserialize()
+12:42:13  158 Weapon::deserialize()
+12:42:13  159 Client socket index 0 following hero id 20
+12:42:13  159 Reticle received step event
+12:42:13  159 Hero::deserialize()
+12:42:13  159 Weapon::deserialize()
+12:42:13  159 Weapon::deserialize()
+12:42:13  160 Client socket index 0 following hero id 20
+12:42:13  160 Reticle received step event
+12:42:13  160 Hero::deserialize()
+12:42:13  160 Weapon::deserialize()
+12:42:13  160 Weapon::deserialize()
+12:42:13  161 Client socket index 0 following hero id 20
+12:42:13  161 Reticle received step event
+12:42:13  161 Hero::deserialize()
+12:42:13  161 Weapon::deserialize()
+12:42:13  161 Weapon::deserialize()
+12:42:13  162 Client socket index 0 following hero id 20
+12:42:13  162 Reticle received step event
+12:42:13  162 Hero::deserialize()
+12:42:13  162 Weapon::deserialize()
+12:42:13  162 Weapon::deserialize()
+12:42:13  163 Client socket index 0 following hero id 20
+12:42:13  163 Reticle received step event
+12:42:13  163 Hero::deserialize()
+12:42:13  163 Weapon::deserialize()
+12:42:13  163 Weapon::deserialize()
+12:42:13  164 Client socket index 0 following hero id 20
+12:42:13  164 Reticle received step event
+12:42:13  164 Hero::deserialize()
+12:42:13  164 Weapon::deserialize()
+12:42:13  164 Weapon::deserialize()
+12:42:13  165 Client socket index 0 following hero id 20
+12:42:13  165 Reticle received step event
+12:42:13  165 Hero::deserialize()
+12:42:13  165 Weapon::deserialize()
+12:42:13  165 Weapon::deserialize()
+12:42:13  166 Client socket index 0 following hero id 20
+12:42:13  166 Reticle received step event
+12:42:13  166 Hero::deserialize()
+12:42:13  166 Weapon::deserialize()
+12:42:13  166 Weapon::deserialize()
+12:42:13  167 Client socket index 0 following hero id 20
+12:42:13  167 Reticle received step event
+12:42:13  167 Hero::deserialize()
+12:42:13  167 Weapon::deserialize()
+12:42:13  167 Weapon::deserialize()
+12:42:13  168 Client socket index 0 following hero id 20
+12:42:13  168 Reticle received step event
+12:42:13  168 Hero::deserialize()
+12:42:13  168 Weapon::deserialize()
+12:42:13  168 Weapon::deserialize()
+12:42:13  169 Client socket index 0 following hero id 20
+12:42:13  169 Reticle received step event
+12:42:13  169 Hero::deserialize()
+12:42:13  169 Weapon::deserialize()
+12:42:13  169 Weapon::deserialize()
+12:42:13  170 Client socket index 0 following hero id 20
+12:42:13  170 Reticle received step event
+12:42:13  170 Hero::deserialize()
+12:42:13  170 Weapon::deserialize()
+12:42:13  170 Weapon::deserialize()
+12:42:13  171 Client socket index 0 following hero id 20
+12:42:13  171 Reticle received step event
+12:42:13  171 Hero::deserialize()
+12:42:13  171 Weapon::deserialize()
+12:42:13  171 Weapon::deserialize()
+12:42:13  172 Client socket index 0 following hero id 20
+12:42:13  172 Reticle received step event
+12:42:13  172 Hero::deserialize()
+12:42:13  172 Weapon::deserialize()
+12:42:13  172 Weapon::deserialize()
+12:42:13  173 Client socket index 0 following hero id 20
+12:42:13  173 Reticle received step event
+12:42:13  173 Hero::deserialize()
+12:42:13  173 Weapon::deserialize()
+12:42:13  173 Weapon::deserialize()
+12:42:13  174 Client socket index 0 following hero id 20
+12:42:13  174 Reticle received step event
+12:42:13  174 Hero::deserialize()
+12:42:13  174 Weapon::deserialize()
+12:42:13  174 Weapon::deserialize()
+12:42:13  175 Client socket index 0 following hero id 20
+12:42:13  175 Reticle received step event
+12:42:13  175 Hero::deserialize()
+12:42:13  175 Weapon::deserialize()
+12:42:13  175 Weapon::deserialize()
+12:42:13  176 Client socket index 0 following hero id 20
+12:42:13  176 Reticle received step event
+12:42:13  176 Hero::deserialize()
+12:42:13  176 Weapon::deserialize()
+12:42:13  176 Weapon::deserialize()
+12:42:13  177 Client socket index 0 following hero id 20
+12:42:13  177 Reticle received step event
+12:42:13  177 Hero::deserialize()
+12:42:13  177 Weapon::deserialize()
+12:42:13  177 Weapon::deserialize()
+12:42:13  178 Client socket index 0 following hero id 20
+12:42:13  178 Reticle received step event
+12:42:13  178 Hero::deserialize()
+12:42:13  178 Weapon::deserialize()
+12:42:13  178 Weapon::deserialize()
+12:42:13  179 Client socket index 0 following hero id 20
+12:42:13  179 Reticle received step event
+12:42:13  179 Hero::deserialize()
+12:42:13  179 Weapon::deserialize()
+12:42:13  179 Weapon::deserialize()
+12:42:13  180 Client socket index 0 following hero id 20
+12:42:13  180 Reticle received step event
+12:42:13  180 Hero::deserialize()
+12:42:13  180 Weapon::deserialize()
+12:42:13  180 Weapon::deserialize()
+12:42:13  181 Client socket index 0 following hero id 20
+12:42:13  181 Reticle received step event
+12:42:13  181 Hero::deserialize()
+12:42:13  181 Weapon::deserialize()
+12:42:13  181 Weapon::deserialize()
+12:42:14  182 Client socket index 0 following hero id 20
+12:42:14  182 Reticle received step event
+12:42:14  182 Hero::deserialize()
+12:42:14  182 Weapon::deserialize()
+12:42:14  182 Weapon::deserialize()
+12:42:14  183 Client socket index 0 following hero id 20
+12:42:14  183 Reticle received step event
+12:42:14  183 Hero::deserialize()
+12:42:14  183 Weapon::deserialize()
+12:42:14  183 Weapon::deserialize()
+12:42:14  184 Client socket index 0 following hero id 20
+12:42:14  184 Reticle received step event
+12:42:14  184 Hero::deserialize()
+12:42:14  184 Weapon::deserialize()
+12:42:14  184 Weapon::deserialize()
+12:42:14  185 Client socket index 0 following hero id 20
+12:42:14  185 Reticle received step event
+12:42:14  185 Hero::deserialize()
+12:42:14  185 Weapon::deserialize()
+12:42:14  185 Weapon::deserialize()
+12:42:14  186 Client socket index 0 following hero id 20
+12:42:14  186 Reticle received step event
+12:42:14  186 Hero::deserialize()
+12:42:14  186 Weapon::deserialize()
+12:42:14  186 Weapon::deserialize()
+12:42:14  187 Client socket index 0 following hero id 20
+12:42:14  187 Reticle received step event
+12:42:14  187 Hero::deserialize()
+12:42:14  187 Weapon::deserialize()
+12:42:14  187 Weapon::deserialize()
+12:42:14  188 Client socket index 0 following hero id 20
+12:42:14  188 Reticle received step event
+12:42:14  188 Hero::deserialize()
+12:42:14  188 Weapon::deserialize()
+12:42:14  188 Weapon::deserialize()
+12:42:14  189 Client socket index 0 following hero id 20
+12:42:14  189 Reticle received step event
+12:42:14  189 Hero::deserialize()
+12:42:14  189 Weapon::deserialize()
+12:42:14  189 Weapon::deserialize()
+12:42:14  190 Client socket index 0 following hero id 20
+12:42:14  190 Reticle received step event
+12:42:14  190 Hero::deserialize()
+12:42:14  190 Weapon::deserialize()
+12:42:14  190 Weapon::deserialize()
+12:42:14  191 Client socket index 0 following hero id 20
+12:42:14  191 Reticle received step event
+12:42:14  191 Hero::deserialize()
+12:42:14  191 Weapon::deserialize()
+12:42:14  191 Weapon::deserialize()
+12:42:14  192 Client socket index 0 following hero id 20
+12:42:14  192 Reticle received step event
+12:42:14  192 Hero::deserialize()
+12:42:14  192 Weapon::deserialize()
+12:42:14  192 Weapon::deserialize()
+12:42:14  193 Client socket index 0 following hero id 20
+12:42:14  193 Reticle received step event
+12:42:14  193 Hero::deserialize()
+12:42:14  193 Weapon::deserialize()
+12:42:14  193 Weapon::deserialize()
+12:42:14  194 Client socket index 0 following hero id 20
+12:42:14  194 Reticle received step event
+12:42:14  194 Hero::deserialize()
+12:42:14  194 Weapon::deserialize()
+12:42:14  194 Weapon::deserialize()
+12:42:14  195 Client socket index 0 following hero id 20
+12:42:14  195 Reticle received step event
+12:42:14  195 Hero::deserialize()
+12:42:14  195 Weapon::deserialize()
+12:42:14  195 Weapon::deserialize()
+12:42:14  196 Client socket index 0 following hero id 20
+12:42:14  196 Reticle received step event
+12:42:14  196 Hero::deserialize()
+12:42:14  196 Weapon::deserialize()
+12:42:14  196 Weapon::deserialize()
+12:42:14  197 Client socket index 0 following hero id 20
+12:42:14  197 Reticle received step event
+12:42:14  197 Hero::deserialize()
+12:42:14  197 Weapon::deserialize()
+12:42:14  197 Weapon::deserialize()
+12:42:14  198 Client socket index 0 following hero id 20
+12:42:14  198 Reticle received step event
+12:42:14  198 Hero::deserialize()
+12:42:14  198 Weapon::deserialize()
+12:42:14  198 Weapon::deserialize()
+12:42:14  199 InputManager::getInput(): Window close event. Setting game over.
+12:42:14  199 Client socket index 0 following hero id 20
+12:42:14  199 Reticle received step event
+12:42:14  199 Hero::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  199 Hero::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  199 Hero::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  199 Weapon::deserialize()
+12:42:14  200 GameManager::run(): end of game loop
+12:42:14  200 PathManager::shutDown(): successfully stopped.
+12:42:14  200 Path manager stopped
+12:42:14  200 WorldManager::shutDown(): Successfully stopped.
+12:42:14  200 World manager stopped
+12:42:14  200 ResourceManager::shutDown(): successfully stopped.
+12:42:14  200 Resource manager stopped
+12:42:14  200 NetworkManager::shutDown(): successfully stopped.
+12:42:14  200 Network manager stopped
+12:42:14  200 InputManager::shutDown(): successfully stopped.
+12:42:14  200 Input manager stopped
+12:42:14  200 DisplayManager::shutDown(): successfully stopped.
+12:42:14  200 Display manager stopped
+12:42:14  200 ** Game stopped **
+12:42:14  200 ****************************************************
+12:42:14  200 LogManager::shutDown(): successfully stopped.

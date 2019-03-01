@@ -12,7 +12,8 @@
 #include "NetworkNode.h"
 
 class Client : public df::NetworkNode {
-
+private:
+	int hero_id;
  public:
 
   // Constructor, connecting to server.

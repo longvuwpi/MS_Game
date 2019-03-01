@@ -1,0 +1,466 @@
+21:31:00    0 ****************************************************
+21:31:00    0 ** Dragonfly version 4.9 **
+21:31:01    0 Hello, Network! (v1.2)
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+21:31:01    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+21:31:01    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+21:31:01    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+21:31:01    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+21:31:02    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+21:31:02    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+21:31:02    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+21:31:02    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+21:31:03    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+21:31:04    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+21:31:04    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+21:31:04    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+21:31:04    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+21:31:04    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+21:31:04    0 Client::Client(): Connecting to localhost at port 9876.
+21:31:04    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+21:31:04    0 NetworkManager::connect(): Connection established.
+21:31:04    0 Client::handleConnect(): Client connected!
+21:31:04    0 Client::Client(): Client started.
+21:31:04    0 GameManager::run(): starting game loop
+21:31:04    0 Client::eventHandler(): sending mouse input to server.
+21:31:04    0 Client::eventHandler(): received custom network event.
+21:31:04    0 	message: 48
+21:31:04    0 GameManager::run(): Warning! Residual network data.
+21:31:04    1 GameManager::run(): Warning! Residual network data.
+21:31:04    2 GameManager::run(): Warning! Residual network data.
+21:31:04    3 GameManager::run(): Warning! Residual network data.
+21:31:04    4 GameManager::run(): Warning! Residual network data.
+21:31:04    5 GameManager::run(): Warning! Residual network data.
+21:31:04    6 GameManager::run(): Warning! Residual network data.
+21:31:04    7 GameManager::run(): Warning! Residual network data.
+21:31:04    8 GameManager::run(): Warning! Residual network data.
+21:31:05    9 GameManager::run(): Warning! Residual network data.
+21:31:05   10 GameManager::run(): Warning! Residual network data.
+21:31:05   11 GameManager::run(): Warning! Residual network data.
+21:31:05   12 GameManager::run(): Warning! Residual network data.
+21:31:05   13 GameManager::run(): Warning! Residual network data.
+21:31:05   14 GameManager::run(): Warning! Residual network data.
+21:31:05   15 GameManager::run(): Warning! Residual network data.
+21:31:05   16 GameManager::run(): Warning! Residual network data.
+21:31:05   17 GameManager::run(): Warning! Residual network data.
+21:31:05   18 GameManager::run(): Warning! Residual network data.
+21:31:05   19 GameManager::run(): Warning! Residual network data.
+21:31:05   20 GameManager::run(): Warning! Residual network data.
+21:31:05   21 GameManager::run(): Warning! Residual network data.
+21:31:05   22 GameManager::run(): Warning! Residual network data.
+21:31:05   23 GameManager::run(): Warning! Residual network data.
+21:31:05   24 GameManager::run(): Warning! Residual network data.
+21:31:05   25 GameManager::run(): Warning! Residual network data.
+21:31:05   26 GameManager::run(): Warning! Residual network data.
+21:31:05   27 GameManager::run(): Warning! Residual network data.
+21:31:05   28 GameManager::run(): Warning! Residual network data.
+21:31:05   29 GameManager::run(): Warning! Residual network data.
+21:31:05   30 GameManager::run(): Warning! Residual network data.
+21:31:05   31 GameManager::run(): Warning! Residual network data.
+21:31:05   32 GameManager::run(): Warning! Residual network data.
+21:31:05   33 GameManager::run(): Warning! Residual network data.
+21:31:05   34 GameManager::run(): Warning! Residual network data.
+21:31:05   35 GameManager::run(): Warning! Residual network data.
+21:31:05   36 GameManager::run(): Warning! Residual network data.
+21:31:05   37 GameManager::run(): Warning! Residual network data.
+21:31:05   38 GameManager::run(): Warning! Residual network data.
+21:31:06   39 GameManager::run(): Warning! Residual network data.
+21:31:06   40 GameManager::run(): Warning! Residual network data.
+21:31:06   41 GameManager::run(): Warning! Residual network data.
+21:31:06   42 GameManager::run(): Warning! Residual network data.
+21:31:06   43 GameManager::run(): Warning! Residual network data.
+21:31:06   44 GameManager::run(): Warning! Residual network data.
+21:31:06   45 GameManager::run(): Warning! Residual network data.
+21:31:06   46 GameManager::run(): Warning! Residual network data.
+21:31:06   47 GameManager::run(): Warning! Residual network data.
+21:31:06   48 GameManager::run(): Warning! Residual network data.
+21:31:06   49 GameManager::run(): Warning! Residual network data.
+21:31:06   50 GameManager::run(): Warning! Residual network data.
+21:31:06   51 GameManager::run(): Warning! Residual network data.
+21:31:06   52 GameManager::run(): Warning! Residual network data.
+21:31:06   53 GameManager::run(): Warning! Residual network data.
+21:31:06   54 GameManager::run(): Warning! Residual network data.
+21:31:06   55 GameManager::run(): Warning! Residual network data.
+21:31:06   56 GameManager::run(): Warning! Residual network data.
+21:31:06   57 GameManager::run(): Warning! Residual network data.
+21:31:06   58 GameManager::run(): Warning! Residual network data.
+21:31:06   59 GameManager::run(): Warning! Residual network data.
+21:31:06   60 GameManager::run(): Warning! Residual network data.
+21:31:06   61 GameManager::run(): Warning! Residual network data.
+21:31:06   62 GameManager::run(): Warning! Residual network data.
+21:31:06   63 GameManager::run(): Warning! Residual network data.
+21:31:06   64 GameManager::run(): Warning! Residual network data.
+21:31:06   65 GameManager::run(): Warning! Residual network data.
+21:31:06   66 GameManager::run(): Warning! Residual network data.
+21:31:06   67 GameManager::run(): Warning! Residual network data.
+21:31:06   68 GameManager::run(): Warning! Residual network data.
+21:31:07   69 GameManager::run(): Warning! Residual network data.
+21:31:07   70 GameManager::run(): Warning! Residual network data.
+21:31:07   71 GameManager::run(): Warning! Residual network data.
+21:31:07   72 GameManager::run(): Warning! Residual network data.
+21:31:07   73 GameManager::run(): Warning! Residual network data.
+21:31:07   74 GameManager::run(): Warning! Residual network data.
+21:31:07   75 GameManager::run(): Warning! Residual network data.
+21:31:07   76 GameManager::run(): Warning! Residual network data.
+21:31:07   77 GameManager::run(): Warning! Residual network data.
+21:31:07   78 GameManager::run(): Warning! Residual network data.
+21:31:07   79 GameManager::run(): Warning! Residual network data.
+21:31:07   80 GameManager::run(): Warning! Residual network data.
+21:31:07   81 GameManager::run(): Warning! Residual network data.
+21:31:07   82 GameManager::run(): Warning! Residual network data.
+21:31:07   83 GameManager::run(): Warning! Residual network data.
+21:31:07   84 GameManager::run(): Warning! Residual network data.
+21:31:07   85 GameManager::run(): Warning! Residual network data.
+21:31:07   86 GameManager::run(): Warning! Residual network data.
+21:31:07   87 GameManager::run(): Warning! Residual network data.
+21:31:07   88 GameManager::run(): Warning! Residual network data.
+21:31:07   89 GameManager::run(): Warning! Residual network data.
+21:31:07   90 GameManager::run(): Warning! Residual network data.
+21:31:07   91 GameManager::run(): Warning! Residual network data.
+21:31:07   92 GameManager::run(): Warning! Residual network data.
+21:31:07   93 GameManager::run(): Warning! Residual network data.
+21:31:07   94 GameManager::run(): Warning! Residual network data.
+21:31:07   95 GameManager::run(): Warning! Residual network data.
+21:31:07   96 GameManager::run(): Warning! Residual network data.
+21:31:07   97 GameManager::run(): Warning! Residual network data.
+21:31:07   98 GameManager::run(): Warning! Residual network data.
+21:31:07   99 GameManager::run(): Warning! Residual network data.
+21:31:08  100 GameManager::run(): Warning! Residual network data.
+21:31:08  101 GameManager::run(): Warning! Residual network data.
+21:31:08  102 GameManager::run(): Warning! Residual network data.
+21:31:08  103 GameManager::run(): Warning! Residual network data.
+21:31:08  104 GameManager::run(): Warning! Residual network data.
+21:31:08  105 GameManager::run(): Warning! Residual network data.
+21:31:08  106 GameManager::run(): Warning! Residual network data.
+21:31:08  107 GameManager::run(): Warning! Residual network data.
+21:31:08  108 GameManager::run(): Warning! Residual network data.
+21:31:08  109 GameManager::run(): Warning! Residual network data.
+21:31:08  110 GameManager::run(): Warning! Residual network data.
+21:31:08  111 GameManager::run(): Warning! Residual network data.
+21:31:08  112 GameManager::run(): Warning! Residual network data.
+21:31:08  113 GameManager::run(): Warning! Residual network data.
+21:31:08  114 GameManager::run(): Warning! Residual network data.
+21:31:08  115 GameManager::run(): Warning! Residual network data.
+21:31:08  116 GameManager::run(): Warning! Residual network data.
+21:31:08  117 GameManager::run(): Warning! Residual network data.
+21:31:08  118 GameManager::run(): Warning! Residual network data.
+21:31:08  119 GameManager::run(): Warning! Residual network data.
+21:31:08  120 GameManager::run(): Warning! Residual network data.
+21:31:08  121 GameManager::run(): Warning! Residual network data.
+21:31:08  122 GameManager::run(): Warning! Residual network data.
+21:31:08  123 GameManager::run(): Warning! Residual network data.
+21:31:08  124 GameManager::run(): Warning! Residual network data.
+21:31:08  125 GameManager::run(): Warning! Residual network data.
+21:31:08  126 GameManager::run(): Warning! Residual network data.
+21:31:08  127 GameManager::run(): Warning! Residual network data.
+21:31:08  128 GameManager::run(): Warning! Residual network data.
+21:31:08  129 GameManager::run(): Warning! Residual network data.
+21:31:09  130 GameManager::run(): Warning! Residual network data.
+21:31:09  131 GameManager::run(): Warning! Residual network data.
+21:31:09  132 GameManager::run(): Warning! Residual network data.
+21:31:09  133 GameManager::run(): Warning! Residual network data.
+21:31:09  134 GameManager::run(): Warning! Residual network data.
+21:31:09  135 GameManager::run(): Warning! Residual network data.
+21:31:09  136 GameManager::run(): Warning! Residual network data.
+21:31:09  137 GameManager::run(): Warning! Residual network data.
+21:31:09  138 GameManager::run(): Warning! Residual network data.
+21:31:09  139 GameManager::run(): Warning! Residual network data.
+21:31:09  140 GameManager::run(): Warning! Residual network data.
+21:31:09  141 GameManager::run(): Warning! Residual network data.
+21:31:09  142 GameManager::run(): Warning! Residual network data.
+21:31:09  143 GameManager::run(): Warning! Residual network data.
+21:31:09  144 GameManager::run(): Warning! Residual network data.
+21:31:09  145 GameManager::run(): Warning! Residual network data.
+21:31:09  146 GameManager::run(): Warning! Residual network data.
+21:31:09  147 GameManager::run(): Warning! Residual network data.
+21:31:09  148 GameManager::run(): Warning! Residual network data.
+21:31:09  149 GameManager::run(): Warning! Residual network data.
+21:31:09  150 GameManager::run(): Warning! Residual network data.
+21:31:09  151 GameManager::run(): Warning! Residual network data.
+21:31:09  152 GameManager::run(): Warning! Residual network data.
+21:31:09  153 GameManager::run(): Warning! Residual network data.
+21:31:09  154 GameManager::run(): Warning! Residual network data.
+21:31:09  155 GameManager::run(): Warning! Residual network data.
+21:31:09  156 GameManager::run(): Warning! Residual network data.
+21:31:09  157 GameManager::run(): Warning! Residual network data.
+21:31:09  158 GameManager::run(): Warning! Residual network data.
+21:31:09  159 GameManager::run(): Warning! Residual network data.
+21:31:10  160 GameManager::run(): Warning! Residual network data.
+21:31:10  161 GameManager::run(): Warning! Residual network data.
+21:31:10  162 GameManager::run(): Warning! Residual network data.
+21:31:10  163 GameManager::run(): Warning! Residual network data.
+21:31:10  164 GameManager::run(): Warning! Residual network data.
+21:31:10  165 GameManager::run(): Warning! Residual network data.
+21:31:10  166 GameManager::run(): Warning! Residual network data.
+21:31:10  167 GameManager::run(): Warning! Residual network data.
+21:31:10  168 GameManager::run(): Warning! Residual network data.
+21:31:10  169 GameManager::run(): Warning! Residual network data.
+21:31:10  170 GameManager::run(): Warning! Residual network data.
+21:31:10  171 GameManager::run(): Warning! Residual network data.
+21:31:10  172 GameManager::run(): Warning! Residual network data.
+21:31:10  173 GameManager::run(): Warning! Residual network data.
+21:31:10  174 GameManager::run(): Warning! Residual network data.
+21:31:10  175 GameManager::run(): Warning! Residual network data.
+21:31:10  176 GameManager::run(): Warning! Residual network data.
+21:31:10  177 GameManager::run(): Warning! Residual network data.
+21:31:10  178 GameManager::run(): Warning! Residual network data.
+21:31:10  179 GameManager::run(): Warning! Residual network data.
+21:31:10  180 GameManager::run(): Warning! Residual network data.
+21:31:10  181 GameManager::run(): Warning! Residual network data.
+21:31:10  182 GameManager::run(): Warning! Residual network data.
+21:31:10  183 GameManager::run(): Warning! Residual network data.
+21:31:10  184 GameManager::run(): Warning! Residual network data.
+21:31:10  185 GameManager::run(): Warning! Residual network data.
+21:31:10  186 GameManager::run(): Warning! Residual network data.
+21:31:10  187 GameManager::run(): Warning! Residual network data.
+21:31:10  188 GameManager::run(): Warning! Residual network data.
+21:31:10  189 GameManager::run(): Warning! Residual network data.
+21:31:10  190 GameManager::run(): Warning! Residual network data.
+21:31:11  191 GameManager::run(): Warning! Residual network data.
+21:31:11  192 GameManager::run(): Warning! Residual network data.
+21:31:11  193 GameManager::run(): Warning! Residual network data.
+21:31:11  194 GameManager::run(): Warning! Residual network data.
+21:31:11  195 GameManager::run(): Warning! Residual network data.
+21:31:11  196 GameManager::run(): Warning! Residual network data.
+21:31:11  197 GameManager::run(): Warning! Residual network data.
+21:31:11  198 GameManager::run(): Warning! Residual network data.
+21:31:11  199 GameManager::run(): Warning! Residual network data.
+21:31:11  200 GameManager::run(): Warning! Residual network data.
+21:31:11  201 GameManager::run(): Warning! Residual network data.
+21:31:11  202 GameManager::run(): Warning! Residual network data.
+21:31:11  203 GameManager::run(): Warning! Residual network data.
+21:31:11  204 GameManager::run(): Warning! Residual network data.
+21:31:11  205 GameManager::run(): Warning! Residual network data.
+21:31:11  206 GameManager::run(): Warning! Residual network data.
+21:31:11  207 GameManager::run(): Warning! Residual network data.
+21:31:11  208 GameManager::run(): Warning! Residual network data.
+21:31:11  209 GameManager::run(): Warning! Residual network data.
+21:31:11  210 GameManager::run(): Warning! Residual network data.
+21:31:11  211 GameManager::run(): Warning! Residual network data.
+21:31:11  212 GameManager::run(): Warning! Residual network data.
+21:31:11  213 GameManager::run(): Warning! Residual network data.
+21:31:11  214 GameManager::run(): Warning! Residual network data.
+21:31:11  215 GameManager::run(): Warning! Residual network data.
+21:31:11  216 GameManager::run(): Warning! Residual network data.
+21:31:11  217 GameManager::run(): Warning! Residual network data.
+21:31:11  218 GameManager::run(): Warning! Residual network data.
+21:31:11  219 GameManager::run(): Warning! Residual network data.
+21:31:11  220 GameManager::run(): Warning! Residual network data.
+21:31:12  221 GameManager::run(): Warning! Residual network data.
+21:31:12  222 GameManager::run(): Warning! Residual network data.
+21:31:12  223 GameManager::run(): Warning! Residual network data.
+21:31:12  224 GameManager::run(): Warning! Residual network data.
+21:31:12  225 GameManager::run(): Warning! Residual network data.
+21:31:12  226 GameManager::run(): Warning! Residual network data.
+21:31:12  227 GameManager::run(): Warning! Residual network data.
+21:31:12  228 GameManager::run(): Warning! Residual network data.
+21:31:12  229 GameManager::run(): Warning! Residual network data.
+21:31:12  230 GameManager::run(): Warning! Residual network data.
+21:31:12  231 GameManager::run(): Warning! Residual network data.
+21:31:12  232 GameManager::run(): Warning! Residual network data.
+21:31:12  233 GameManager::run(): Warning! Residual network data.
+21:31:12  234 GameManager::run(): Warning! Residual network data.
+21:31:12  235 GameManager::run(): Warning! Residual network data.
+21:31:12  236 GameManager::run(): Warning! Residual network data.
+21:31:12  237 GameManager::run(): Warning! Residual network data.
+21:31:12  238 GameManager::run(): Warning! Residual network data.
+21:31:12  239 GameManager::run(): Warning! Residual network data.
+21:31:12  240 GameManager::run(): Warning! Residual network data.
+21:31:12  241 GameManager::run(): Warning! Residual network data.
+21:31:12  242 GameManager::run(): Warning! Residual network data.
+21:31:12  243 GameManager::run(): Warning! Residual network data.

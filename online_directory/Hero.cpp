@@ -28,7 +28,7 @@
 //#include "GameOver.h"
 #include "Hero.h"
 #include "Client.h"
-
+#include "Server.h"
 //#include "EventPlayerFalling.h"
 //#include "EventPlayerJumping.h"
 //#include "Saucer.h"
@@ -39,7 +39,7 @@ float moveSpeed = 2.0f;
 float jumpHeight = 6.0f;
 float down_gravity = 2.0f;
 
-Hero::Hero() {
+Hero::Hero(int client_hero_id, int hero_id) {
 
 	// Link to "ship" sprite.
 	walk_sprite = RM.getSprite("character-walk");
@@ -86,6 +86,9 @@ Hero::Hero() {
 	}
 	setSolidness(df::SOFT);
 
+	//int hero_id = (socket_index + 1) * 20;
+	setId(hero_id);
+
 	//Set up weapons
 	Weapon *ak47 = new Weapon("AK47", WeaponType::RIFLE, this, 10, 3, 30, 90, 8, false, 0, 0, 2.5f);
 	weapon_list.insert(ak47);
@@ -101,16 +104,24 @@ Hero::Hero() {
 	weapon_selector = new df::ObjectListIterator(&weapon_list);
 	weapon_selector->first();
 
-	////Weapon view
-	//weapon_view = new df::ViewObject; // Count of nukes.
-	//weapon_view->setLocation(df::TOP_LEFT);
-	//weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
-	//weapon_view->setColor(df::YELLOW);
-	//weapon_view->setSolidness(df::SPECTRAL);
+	ak47->setId(hero_id + 1);
+	awp->setId(hero_id + 2);
+	grenade_launcher->setId(hero_id + 3);
+
+	// setup world and view boundaries
+	int world_horiz, world_vert;
+	world_horiz = DM.getHorizontal() * 10;
+	world_vert = DM.getVertical();
+	int window_horiz = DM.getHorizontal();
+	df::Vector world_corner(0, 0);
+	df::Box boundary(world_corner, (float)world_horiz, (float)world_vert);
+	WM.setBoundary(boundary);
+	df::Box window_boundary(world_corner, (float)window_horiz, (float)world_vert);
+	WM.setView(window_boundary);
 
 	//// Create reticle for firing bullets and aiming.
 	//
-	if (!NM.isServer()) {
+	if ((!NM.isServer()) && (client_hero_id == hero_id)) {
 		new AmmoDisplay(this);
 		p_reticle = new Reticle(this);
 	}
@@ -143,6 +154,13 @@ Hero::~Hero() {
 		}
 	}
 
+	if (NM.isServer()) {
+		df::ObjectList ol = WM.objectsOfType("Server");
+		df::ObjectListIterator oli(&ol);
+		oli.first();
+		Server *server = (Server *)oli.currentObject();
+		server->sendMessage(df::DELETE_OBJECT, this);
+	}
 	// Mark Reticle for deletion.
 	//WM.markForDelete(p_reticle);
 }
@@ -150,10 +168,6 @@ Hero::~Hero() {
 // Handle event.
 // Return 0 if ignored, else 1.
 int Hero::eventHandler(const df::Event *p_e) {
-	df::ObjectList ol = WM.objectsOfType("Client");
-	df::ObjectListIterator oli(&ol);
-	Client *client = (Client *)oli.currentObject();
-	oli.first();
 
 	if ((p_e->getType() == df::COLLISION_EVENT) && (NM.isServer())) {
 		//printf("collided with hero");
@@ -172,27 +186,31 @@ int Hero::eventHandler(const df::Event *p_e) {
 
 	if ((p_e->getType() == df::NETWORK_KEYBOARD_EVENT) && (NM.isServer())) {
 		df::EventKeyboardNetwork *p_n = (df::EventKeyboardNetwork *) p_e;
-		df::EventKeyboard e;
-		e.setKeyboardAction(p_n->getKeyboardAction());
-		e.setKey(p_n->getKey());
-		kbd(&e);
-		return 1;
+		if ((p_n->getSocketIndex() + 1)*20 == getId()) {
+			df::EventKeyboard e;
+			e.setKeyboardAction(p_n->getKeyboardAction());
+			e.setKey(p_n->getKey());
+			kbd(&e);
+			return 1;
+		}
 	}
 
 	if ((p_e->getType() == df::NETWORK_MSE_EVENT) && (NM.isServer())) {
 		df::EventMouseNetwork *p_n = (df::EventMouseNetwork *) p_e;
-		df::EventMouse e;
-		e.setMouseAction(p_n->getMouseAction());
-		e.setMouseButton(p_n->getMouseButton());
-		e.setMousePosition(p_n->getMousePosition());
-		mouse(&e);
+		if ((p_n->getSocketIndex() + 1) * 20 == getId()) {
+			df::EventMouse e;
+			e.setMouseAction(p_n->getMouseAction());
+			e.setMouseButton(p_n->getMouseButton());
+			e.setMousePosition(p_n->getMousePosition());
+			mouse(&e);
 
-		return 1;
+			return 1;
+		}
 	}
 
-	if ((p_e->getType() == df::STEP_EVENT) && (NM.isServer())) {
-		step();
-		return 1;
+	if (p_e->getType() == df::STEP_EVENT) {
+			step();
+			return 1;
 	}
 
 	// If get here, have ignored this event.
@@ -200,21 +218,7 @@ int Hero::eventHandler(const df::Event *p_e) {
 }
 
 void Hero::landedOn(Platform *platform) {
-	//if (p_OnPlatform == NULL) {
-	//	p_OnPlatform = platform;
 
-	//	std::cout << "Landed on platform, hero pos: (" << getPosition().getX() << "," << getPosition().getY() << ")\n";
-	//	//if player is hovering above platform, set player to be exactly on platform
-	//	df::Vector delta(0, -0.5 + (p_OnPlatform->getPosition().getY() - getPosition().getY()) - ((p_OnPlatform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
-	//	if (delta.getY() > 0)
-	//		setPosition(getPosition() + delta);
-
-	//	jump_count = jump_max;
-
-	//	setCentered(true);
-
-	//	return;
-	//}
 	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
 		df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
 		if ((-2 <= delta.getY()) && (delta.getY() <= 0.5)) {
@@ -242,7 +246,7 @@ void Hero::mouse(const df::EventMouse *p_mouse_event) {
 	// Pressed button?
 	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::LEFT)) {
-		fire(p_mouse_event->getMousePosition());
+		fire(viewPositionOnHero() + (p_mouse_event->getMousePosition()));
 	}
 	else if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::RIGHT)) {
@@ -348,36 +352,31 @@ void Hero::reload() {
 
 // Decrease rate restriction counters.
 void Hero::step() {
-	//weapon_view->setValue(getCurrentWeapon()->getAmmo());
-	//weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":" + std::to_string(getCurrentWeapon()->getAmmoLoaded()) + "/" + std::to_string(getCurrentWeapon()->getAmmoBackup()));
 
-	//Check to see if the hero is on a platform.
-	df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
-	if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
-		p_OnPlatform = NULL;
+	if (NM.isServer()) {
+		//Check to see if the hero is on a platform.
+		df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
+		if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
+			p_OnPlatform = NULL;
+		}
+
+		if (p_OnPlatform == NULL) {
+			setAcceleration(df::Vector(0, down_gravity));
+		}
+
+		if (getVelocity().getY() >= 3) {
+			setVelocity(df::Vector(getVelocity().getX(), 3));
+		}
+
+		if (getPosition().getY() > WM.getView().getVertical()) {
+			//df::ObjectList go_objects = WM.objectsOfType("GameOver");
+			//if (go_objects.getCount() <= 0) {
+			takeDamage(getPosition(), 100);
+			//}
+		}
 	}
 
-	////
-	//if (getVelocity().getY() < 3) {
-	//	if ((getVelocity().getY() <= 0) && ((getVelocity().getY() + 1.0f) > 0)) {
-	//		df::Vector player_pos = getPosition();
-	//		EventPlayerFalling* eventPlayerFalling = new EventPlayerFalling(player_pos);
-	//		WM.onEvent(eventPlayerFalling);
-	//	}
-	//	//setVelocity(getVelocity() + *(new df::Vector(0, 2.0f)));
-	//}
-	////Always falling down, but the maximum down velocity is 2
-	//else {  
-	//	setVelocity(df::Vector(getVelocity().getX(), 3));
-	//}
 
-	if (p_OnPlatform == NULL) {
-		setAcceleration(df::Vector(0, down_gravity));
-	}
-
-	if (getVelocity().getY() >= 3) {
-		setVelocity(df::Vector(getVelocity().getX(), 3));
-	}
 
 	drawHealthBar();
 }
@@ -415,6 +414,7 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
 
 void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
+	hero_modified[HEALTH] = true;
 	//new DamageIndicator(at, damage);
 	DM.shake(damage*2, damage*2, 3, false);
 
@@ -473,9 +473,13 @@ void Hero::drawHealthBar() {
 	DM.getWindow()->draw(shape);
 }
 
-//Reticle *Hero::getReticle() {
-//	return p_reticle;
-//}
+Reticle *Hero::getReticle() {
+	return p_reticle;
+}
+
+int Hero::getHealth() {
+	return health;
+}
 
 bool Hero::isModified() {
 	for (int i = 0; i < hero_att_count; i++) {
@@ -491,6 +495,11 @@ std::string Hero::serialize(bool all) {
 	std::string s = Object::serialize(all);
 
 	// Add Weapon-specific attributes.
+	if (all || hero_modified[HEALTH]) {
+		s += "health:" + df::toString(getHealth()) + ",";
+		hero_modified[HEALTH] = false;
+	}
+
 	if (all || hero_modified[CURRENT_WEAPON]) {
 		s += "current_weapon:" + df::toString(getCurrentWeapon()->getWeaponType()) + ",";
 		hero_modified[CURRENT_WEAPON] = false;
@@ -508,6 +517,13 @@ int Hero::deserialize(std::string str) {
 	// Get ready for parsing.
 	std::string val;
 
+	val = df::match("", "health");
+	if (!val.empty()) {
+		int i = atoi(val.c_str());
+		LM.writeLog("Hero::deserialize(): current health is %d", i);
+		health = i;
+	}
+
 	val = df::match("", "current_weapon");
 	if (!val.empty()) {
 		int i = atoi(val.c_str());
@@ -521,4 +537,26 @@ int Hero::deserialize(std::string str) {
 	}
 
 	return 0;
+}
+
+df::Vector Hero::viewPositionOnHero() {
+	float x, y;
+	df::Vector view_pos = getPosition() + df::Vector(WM.getView().getHorizontal() / 3, 0);
+	// Center view at position view_pos.
+	x = view_pos.getX() - WM.getView().getHorizontal() / 2;
+	y = view_pos.getY() - WM.getView().getVertical() / 2;
+
+	// Make sure horizontal not out of world boundaries.
+	if (x + WM.getView().getHorizontal() > WM.getBoundary().getHorizontal())
+		x = WM.getBoundary().getHorizontal() - WM.getView().getHorizontal();
+	if (x < 0)
+		x = 0;
+
+	// Make sure vertical not out of world boundaries.
+	if (y + WM.getView().getVertical() > WM.getBoundary().getVertical())
+		y = WM.getBoundary().getVertical() - WM.getView().getVertical();
+	if (y < 0)
+		y = 0;
+
+	return df::Vector(x, y);
 }

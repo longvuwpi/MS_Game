@@ -1,0 +1,1549 @@
+16:40:54    0 ****************************************************
+16:40:54    0 ** Dragonfly version 4.9 **
+16:40:55    0 Hello, Network! (v1.2)
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+16:40:55    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+16:40:55    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+16:40:55    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+16:40:55    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+16:40:55    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+16:40:56    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+16:40:57    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+16:40:57    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+16:40:57    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+16:40:57    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+16:40:57    0 Client::Client(): Connecting to localhost at port 9876.
+16:40:57    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+16:40:57    0 NetworkManager::connect(): Connection established.
+16:40:57    0 Client::handleConnect(): Client connected!
+16:40:57    0 Client::Client(): Client started.
+16:40:57    0 GameManager::run(): starting game loop
+16:40:58    0 Client::eventHandler(): sending mouse input to server.
+16:40:58    0 Client::createObject(): creating object type 'Platform'
+16:40:58    0 Client::createObject(): creating object type 'Platform'
+16:40:58    0 Client::createObject(): creating object type 'Platform'
+16:40:58    0 Client::createObject(): creating object type 'Platform'
+16:40:58    0 GameManager::run(): Warning! Residual network data.
+16:40:58    1 Client::createObject(): creating object type 'Platform'
+16:40:58    1 Client::createObject(): creating object type 'Platform'
+16:40:58    1 Client::createObject(): creating object type 'Platform'
+16:40:58    1 Client::createObject(): creating object type 'Platform'
+16:40:58    1 Client::createObject(): creating object type 'Platform'
+16:40:58    1 Client::createObject(): creating object type 'Hero'
+16:40:58    1 Hero::deserialize()
+16:40:58    1 Hero::deserialize(): current health is 50
+16:40:58    1 Hero::deserialize(): current weapon is 1
+16:40:58    1 GameManager::run(): Warning! Residual network data.
+16:40:58    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 93 ms
+16:40:58    2 Client::eventHandler(): sending mouse input to server.
+16:40:58    2 Client::eventHandler(): sending mouse input to server.
+16:40:58    2 Hero::deserialize()
+16:40:58    2 Weapon::deserialize()
+16:40:58    2 Weapon::deserialize(): fire_count_down is 0
+16:40:58    2 Weapon::deserialize(): ammo_loaded is 30
+16:40:58    2 Weapon::deserialize(): ammo_backup is 90
+16:40:58    2 Weapon::deserialize(): is_scoping is false
+16:40:58    2 Weapon::deserialize(): reloading is false
+16:40:58    2 Weapon::deserialize()
+16:40:58    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:40:58    2 Weapon::deserialize(): fire_count_down is 0
+16:40:58    2 Weapon::deserialize(): ammo_loaded is 10
+16:40:58    2 Weapon::deserialize(): ammo_backup is 30
+16:40:58    2 Weapon::deserialize(): is_scoping is false
+16:40:58    2 Weapon::deserialize(): reloading is false
+16:40:58    2 Weapon::deserialize()
+16:40:58    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:40:58    2 Weapon::deserialize(): fire_count_down is 0
+16:40:58    2 Weapon::deserialize(): ammo_loaded is 1
+16:40:58    2 Weapon::deserialize(): ammo_backup is 30
+16:40:58    2 Weapon::deserialize(): is_scoping is false
+16:40:58    2 Weapon::deserialize(): reloading is false
+16:40:58    2 Hero::deserialize()
+16:40:58    2 Weapon::deserialize()
+16:40:58    2 Hero::deserialize()
+16:40:58    2 Weapon::deserialize()
+16:40:58    2 Hero::deserialize()
+16:40:58    2 GameManager::run(): Warning! Residual network data.
+16:40:58    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 103 ms
+16:40:58    3 Client::eventHandler(): sending mouse input to server.
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 Hero::deserialize()
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 Hero::deserialize()
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 Hero::deserialize()
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 Hero::deserialize()
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 Hero::deserialize()
+16:40:58    3 Weapon::deserialize()
+16:40:58    3 GameManager::run(): Warning! Residual network data.
+16:40:58    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 90 ms
+16:40:58    4 Client::eventHandler(): sending mouse input to server.
+16:40:58    4 Hero::deserialize()
+16:40:58    4 Weapon::deserialize()
+16:40:58    4 Hero::deserialize()
+16:40:58    4 Weapon::deserialize()
+16:40:58    4 Hero::deserialize()
+16:40:58    4 Weapon::deserialize()
+16:40:58    4 Hero::deserialize()
+16:40:58    4 Weapon::deserialize()
+16:40:58    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 92 ms
+16:40:58    5 Client::eventHandler(): sending mouse input to server.
+16:40:58    5 Hero::deserialize()
+16:40:58    5 Weapon::deserialize()
+16:40:58    5 Hero::deserialize()
+16:40:58    5 Weapon::deserialize()
+16:40:58    5 Hero::deserialize()
+16:40:58    5 Weapon::deserialize()
+16:40:58    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 100 ms
+16:40:58    6 Client::eventHandler(): sending mouse input to server.
+16:40:58    6 Hero::deserialize()
+16:40:58    6 Weapon::deserialize()
+16:40:58    6 Hero::deserialize()
+16:40:58    6 Weapon::deserialize()
+16:40:58    6 Hero::deserialize()
+16:40:58    6 Weapon::deserialize()
+16:40:58    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 111 ms
+16:40:58    7 Client::eventHandler(): sending mouse input to server.
+16:40:58    7 Hero::deserialize()
+16:40:58    7 Weapon::deserialize()
+16:40:58    7 Hero::deserialize()
+16:40:58    7 Weapon::deserialize()
+16:40:58    7 Hero::deserialize()
+16:40:58    7 Weapon::deserialize()
+16:40:58    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 88 ms
+16:40:58    8 Client::eventHandler(): sending mouse input to server.
+16:40:58    8 Client::eventHandler(): sending mouse input to server.
+16:40:58    8 Hero::deserialize()
+16:40:58    8 Weapon::deserialize()
+16:40:58    8 Hero::deserialize()
+16:40:58    8 Weapon::deserialize()
+16:40:58    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 88 ms
+16:40:58    9 Client::eventHandler(): sending mouse input to server.
+16:40:58    9 Hero::deserialize()
+16:40:58    9 Weapon::deserialize()
+16:40:58    9 Hero::deserialize()
+16:40:58    9 Weapon::deserialize()
+16:40:58    9 Hero::deserialize()
+16:40:58    9 Weapon::deserialize()
+16:40:58    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 106 ms
+16:40:58   10 Client::eventHandler(): sending mouse input to server.
+16:40:58   10 Hero::deserialize()
+16:40:58   10 Weapon::deserialize()
+16:40:59   10 Hero::deserialize()
+16:40:59   10 Weapon::deserialize()
+16:40:59   10 Hero::deserialize()
+16:40:59   10 Weapon::deserialize()
+16:40:59   10 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:40:59   11 Client::eventHandler(): sending mouse input to server.
+16:40:59   11 Hero::deserialize()
+16:40:59   11 Weapon::deserialize()
+16:40:59   12 Client::eventHandler(): sending mouse input to server.
+16:40:59   12 Hero::deserialize()
+16:40:59   12 Weapon::deserialize()
+16:40:59   13 Hero::deserialize()
+16:40:59   13 Weapon::deserialize()
+16:40:59   13 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:40:59   14 Hero::deserialize()
+16:40:59   14 Weapon::deserialize()
+16:40:59   15 Hero::deserialize()
+16:40:59   15 Weapon::deserialize()
+16:40:59   16 Hero::deserialize()
+16:40:59   16 Weapon::deserialize()
+16:40:59   17 Hero::deserialize()
+16:40:59   17 Weapon::deserialize()
+16:40:59   18 Hero::deserialize()
+16:40:59   18 Weapon::deserialize()
+16:40:59   19 Hero::deserialize()
+16:40:59   19 Weapon::deserialize()
+16:40:59   20 Hero::deserialize()
+16:40:59   20 Weapon::deserialize()
+16:40:59   20 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:40:59   21 Hero::deserialize()
+16:40:59   21 Weapon::deserialize()
+16:40:59   22 Hero::deserialize()
+16:40:59   22 Weapon::deserialize()
+16:40:59   23 Hero::deserialize()
+16:40:59   23 Weapon::deserialize()
+16:40:59   24 Hero::deserialize()
+16:40:59   24 Weapon::deserialize()
+16:40:59   25 Hero::deserialize()
+16:40:59   25 Weapon::deserialize()
+16:40:59   26 Hero::deserialize()
+16:40:59   26 Weapon::deserialize()
+16:40:59   27 Hero::deserialize()
+16:40:59   27 Weapon::deserialize()
+16:40:59   28 Hero::deserialize()
+16:40:59   28 Weapon::deserialize()
+16:40:59   29 Hero::deserialize()
+16:40:59   29 Weapon::deserialize()
+16:40:59   30 Hero::deserialize()
+16:40:59   30 Weapon::deserialize()
+16:40:59   30 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:40:59   31 Hero::deserialize()
+16:40:59   31 Weapon::deserialize()
+16:40:59   31 Hero::deserialize()
+16:40:59   31 Weapon::deserialize()
+16:40:59   32 Hero::deserialize()
+16:40:59   32 Weapon::deserialize()
+16:40:59   33 Hero::deserialize()
+16:40:59   33 Weapon::deserialize()
+16:40:59   34 Hero::deserialize()
+16:40:59   34 Weapon::deserialize()
+16:40:59   35 Hero::deserialize()
+16:40:59   35 Weapon::deserialize()
+16:40:59   36 Hero::deserialize()
+16:40:59   36 Weapon::deserialize()
+16:40:59   37 Hero::deserialize()
+16:40:59   37 Weapon::deserialize()
+16:40:59   38 Hero::deserialize()
+16:40:59   38 Weapon::deserialize()
+16:40:59   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:40:59   39 Hero::deserialize()
+16:40:59   39 Weapon::deserialize()
+16:41:00   39 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:00   40 Hero::deserialize()
+16:41:00   40 Weapon::deserialize()
+16:41:00   40 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:00   41 Hero::deserialize()
+16:41:00   41 Weapon::deserialize()
+16:41:00   42 Hero::deserialize()
+16:41:00   42 Weapon::deserialize()
+16:41:00   43 Hero::deserialize()
+16:41:00   43 Weapon::deserialize()
+16:41:00   44 Hero::deserialize()
+16:41:00   44 Weapon::deserialize()
+16:41:00   45 Hero::deserialize()
+16:41:00   45 Weapon::deserialize()
+16:41:00   46 Hero::deserialize()
+16:41:00   46 Weapon::deserialize()
+16:41:00   47 Hero::deserialize()
+16:41:00   47 Weapon::deserialize()
+16:41:00   48 Hero::deserialize()
+16:41:00   48 Weapon::deserialize()
+16:41:00   48 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:00   49 Hero::deserialize()
+16:41:00   49 Weapon::deserialize()
+16:41:00   50 Hero::deserialize()
+16:41:00   50 Weapon::deserialize()
+16:41:00   51 Hero::deserialize()
+16:41:00   51 Weapon::deserialize()
+16:41:00   52 Hero::deserialize()
+16:41:00   52 Weapon::deserialize()
+16:41:00   53 Hero::deserialize()
+16:41:00   53 Weapon::deserialize()
+16:41:00   54 Hero::deserialize()
+16:41:00   54 Weapon::deserialize()
+16:41:00   55 Hero::deserialize()
+16:41:00   55 Weapon::deserialize()
+16:41:00   55 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:41:00   56 Hero::deserialize()
+16:41:00   56 Weapon::deserialize()
+16:41:00   56 Hero::deserialize()
+16:41:00   56 Weapon::deserialize()
+16:41:00   57 Client::eventHandler(): sending mouse input to server.
+16:41:00   57 Client::eventHandler(): sending mouse input to server.
+16:41:00   57 Hero::deserialize()
+16:41:00   57 Weapon::deserialize()
+16:41:00   58 Client::eventHandler(): sending mouse input to server.
+16:41:00   58 Hero::deserialize()
+16:41:00   58 Weapon::deserialize()
+16:41:00   59 Client::eventHandler(): sending mouse input to server.
+16:41:00   59 Hero::deserialize()
+16:41:00   59 Weapon::deserialize()
+16:41:00   60 Client::eventHandler(): sending mouse input to server.
+16:41:00   60 Hero::deserialize()
+16:41:00   60 Weapon::deserialize()
+16:41:00   61 Client::eventHandler(): sending mouse input to server.
+16:41:00   61 Client::eventHandler(): sending mouse input to server.
+16:41:00   61 Hero::deserialize()
+16:41:00   61 Weapon::deserialize()
+16:41:00   61 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:00   62 Client::eventHandler(): sending mouse input to server.
+16:41:00   62 Hero::deserialize()
+16:41:00   62 Weapon::deserialize()
+16:41:00   62 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:00   63 Client::eventHandler(): sending mouse input to server.
+16:41:00   63 Hero::deserialize()
+16:41:00   63 Weapon::deserialize()
+16:41:00   64 Hero::deserialize()
+16:41:00   64 Weapon::deserialize()
+16:41:00   65 Client::eventHandler(): sending mouse input to server.
+16:41:00   65 Hero::deserialize()
+16:41:00   65 Weapon::deserialize()
+16:41:00   66 Client::eventHandler(): sending mouse input to server.
+16:41:00   66 Hero::deserialize()
+16:41:00   66 Weapon::deserialize()
+16:41:00   67 Client::eventHandler(): sending mouse input to server.
+16:41:00   67 Hero::deserialize()
+16:41:00   67 Weapon::deserialize()
+16:41:00   68 Client::eventHandler(): sending mouse input to server.
+16:41:00   68 Client::eventHandler(): sending mouse input to server.
+16:41:00   68 Hero::deserialize()
+16:41:00   68 Weapon::deserialize()
+16:41:01   69 Client::eventHandler(): sending mouse input to server.
+16:41:01   69 Hero::deserialize()
+16:41:01   69 Weapon::deserialize()
+16:41:01   70 Client::eventHandler(): sending mouse input to server.
+16:41:01   70 Hero::deserialize()
+16:41:01   70 Weapon::deserialize()
+16:41:01   71 Client::eventHandler(): sending mouse input to server.
+16:41:01   71 Client::eventHandler(): sending mouse input to server.
+16:41:01   71 Hero::deserialize()
+16:41:01   71 Weapon::deserialize()
+16:41:01   72 Client::eventHandler(): sending mouse input to server.
+16:41:01   72 Hero::deserialize()
+16:41:01   72 Weapon::deserialize()
+16:41:01   73 Hero::deserialize()
+16:41:01   73 Weapon::deserialize()
+16:41:01   74 Client::eventHandler(): sending mouse input to server.
+16:41:01   74 Hero::deserialize()
+16:41:01   74 Weapon::deserialize()
+16:41:01   75 Client::eventHandler(): sending mouse input to server.
+16:41:01   75 Hero::deserialize()
+16:41:01   75 Weapon::deserialize()
+16:41:01   76 Client::eventHandler(): sending mouse input to server.
+16:41:01   76 Hero::deserialize()
+16:41:01   76 Weapon::deserialize()
+16:41:01   77 Client::eventHandler(): sending mouse input to server.
+16:41:01   77 Hero::deserialize()
+16:41:01   77 Weapon::deserialize()
+16:41:01   78 Client::eventHandler(): sending mouse input to server.
+16:41:01   78 Hero::deserialize()
+16:41:01   78 Weapon::deserialize()
+16:41:01   79 Client::eventHandler(): sending mouse input to server.
+16:41:01   79 Hero::deserialize()
+16:41:01   79 Weapon::deserialize()
+16:41:01   80 Hero::deserialize()
+16:41:01   80 Weapon::deserialize()
+16:41:01   81 Hero::deserialize()
+16:41:01   81 Weapon::deserialize()
+16:41:01   82 Client::eventHandler(): sending mouse input to server.
+16:41:01   82 Client::eventHandler(): sending mouse input to server.
+16:41:01   82 Hero::deserialize()
+16:41:01   82 Weapon::deserialize()
+16:41:01   83 Client::eventHandler(): sending mouse input to server.
+16:41:01   83 Hero::deserialize()
+16:41:01   83 Weapon::deserialize()
+16:41:01   94 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:01   95 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:01   96 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:02   97 GameManager::run(): Can't keep up! frame_time 33 ms, split 56 ms
+16:41:02   98 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
+16:41:02   99 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:41:02  102 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:02  103 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:02  111 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:02  112 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:03  141 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:03  152 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:04  155 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:04  156 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:04  157 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:04  158 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:04  161 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:06  227 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:06  228 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:06  240 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:06  241 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:07  250 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:07  255 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:07  256 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:10  361 Client::eventHandler(): sending mouse input to server.
+16:41:10  362 Client::eventHandler(): sending mouse input to server.
+16:41:10  363 Client::eventHandler(): sending mouse input to server.
+16:41:12  416 Client::eventHandler(): sending mouse input to server.
+16:41:12  417 Client::eventHandler(): sending mouse input to server.
+16:41:12  418 Client::eventHandler(): sending mouse input to server.
+16:41:12  421 GameManager::run(): Can't keep up! frame_time 33 ms, split 79 ms
+16:41:13  429 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:13  430 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:13  431 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:13  442 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:24  783 Client::eventHandler(): sending mouse input to server.
+16:41:24  783 NetworkManager::send(): Error! send() returned:
+16:41:24  783 	Unknown error
+16:41:24  783 NetworkNode::sendMessage(): Error sending!
+16:41:24  784 Client::eventHandler(): sending mouse input to server.
+16:41:24  784 NetworkManager::send(): Error! send() returned:
+16:41:24  784 	Unknown error
+16:41:24  784 NetworkNode::sendMessage(): Error sending!
+16:41:24  785 Client::eventHandler(): sending mouse input to server.
+16:41:24  785 NetworkManager::send(): Error! send() returned:
+16:41:24  785 	Unknown error
+16:41:24  785 NetworkNode::sendMessage(): Error sending!
+16:41:24  785 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:25  788 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:41:25  791 GameManager::run(): Can't keep up! frame_time 33 ms, split 45 ms
+16:41:25  792 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:25  793 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:25  794 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:25  795 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:26  821 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:26  822 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:27  850 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:28  885 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:28  893 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:29  911 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:45 1389 Client::eventHandler(): sending mouse input to server.
+16:41:45 1389 NetworkManager::send(): Error! send() returned:
+16:41:45 1389 	Unknown error
+16:41:45 1389 NetworkNode::sendMessage(): Error sending!
+16:41:45 1390 Client::eventHandler(): sending mouse input to server.
+16:41:45 1390 NetworkManager::send(): Error! send() returned:
+16:41:45 1390 	Unknown error
+16:41:45 1390 NetworkNode::sendMessage(): Error sending!
+16:41:45 1416 Client::eventHandler(): sending keyboard input to server.
+16:41:45 1416 NetworkManager::send(): Error! send() returned:
+16:41:45 1416 	Unknown error
+16:41:45 1416 NetworkNode::sendMessage(): Error sending!
+16:41:45 1417 Client::eventHandler(): sending keyboard input to server.
+16:41:45 1417 NetworkManager::send(): Error! send() returned:
+16:41:45 1417 	Unknown error
+16:41:45 1417 NetworkNode::sendMessage(): Error sending!
+16:41:46 1420 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1420 NetworkManager::send(): Error! send() returned:
+16:41:46 1420 	Unknown error
+16:41:46 1420 NetworkNode::sendMessage(): Error sending!
+16:41:46 1421 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1421 NetworkManager::send(): Error! send() returned:
+16:41:46 1421 	Unknown error
+16:41:46 1421 NetworkNode::sendMessage(): Error sending!
+16:41:46 1422 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1422 NetworkManager::send(): Error! send() returned:
+16:41:46 1422 	Unknown error
+16:41:46 1422 NetworkNode::sendMessage(): Error sending!
+16:41:46 1423 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1423 NetworkManager::send(): Error! send() returned:
+16:41:46 1423 	Unknown error
+16:41:46 1423 NetworkNode::sendMessage(): Error sending!
+16:41:46 1424 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1424 NetworkManager::send(): Error! send() returned:
+16:41:46 1424 	Unknown error
+16:41:46 1424 NetworkNode::sendMessage(): Error sending!
+16:41:46 1425 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1425 NetworkManager::send(): Error! send() returned:
+16:41:46 1425 	Unknown error
+16:41:46 1425 NetworkNode::sendMessage(): Error sending!
+16:41:46 1426 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1426 NetworkManager::send(): Error! send() returned:
+16:41:46 1426 	Unknown error
+16:41:46 1426 NetworkNode::sendMessage(): Error sending!
+16:41:46 1426 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1426 NetworkManager::send(): Error! send() returned:
+16:41:46 1426 	Unknown error
+16:41:46 1426 NetworkNode::sendMessage(): Error sending!
+16:41:46 1427 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1427 NetworkManager::send(): Error! send() returned:
+16:41:46 1427 	Unknown error
+16:41:46 1427 NetworkNode::sendMessage(): Error sending!
+16:41:46 1427 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1427 NetworkManager::send(): Error! send() returned:
+16:41:46 1427 	Unknown error
+16:41:46 1427 NetworkNode::sendMessage(): Error sending!
+16:41:46 1427 GameManager::run(): Can't keep up! frame_time 33 ms, split 52 ms
+16:41:46 1428 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1428 NetworkManager::send(): Error! send() returned:
+16:41:46 1428 	Unknown error
+16:41:46 1428 NetworkNode::sendMessage(): Error sending!
+16:41:46 1429 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1429 NetworkManager::send(): Error! send() returned:
+16:41:46 1429 	Unknown error
+16:41:46 1429 NetworkNode::sendMessage(): Error sending!
+16:41:46 1430 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1430 NetworkManager::send(): Error! send() returned:
+16:41:46 1430 	Unknown error
+16:41:46 1430 NetworkNode::sendMessage(): Error sending!
+16:41:46 1431 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1431 NetworkManager::send(): Error! send() returned:
+16:41:46 1431 	Unknown error
+16:41:46 1431 NetworkNode::sendMessage(): Error sending!
+16:41:46 1431 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1431 NetworkManager::send(): Error! send() returned:
+16:41:46 1431 	Unknown error
+16:41:46 1431 NetworkNode::sendMessage(): Error sending!
+16:41:46 1431 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:46 1432 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1432 NetworkManager::send(): Error! send() returned:
+16:41:46 1432 	Unknown error
+16:41:46 1432 NetworkNode::sendMessage(): Error sending!
+16:41:46 1432 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1432 NetworkManager::send(): Error! send() returned:
+16:41:46 1432 	Unknown error
+16:41:46 1432 NetworkNode::sendMessage(): Error sending!
+16:41:46 1432 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:46 1433 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1433 NetworkManager::send(): Error! send() returned:
+16:41:46 1433 	Unknown error
+16:41:46 1433 NetworkNode::sendMessage(): Error sending!
+16:41:46 1434 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1434 NetworkManager::send(): Error! send() returned:
+16:41:46 1434 	Unknown error
+16:41:46 1434 NetworkNode::sendMessage(): Error sending!
+16:41:46 1435 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1435 NetworkManager::send(): Error! send() returned:
+16:41:46 1435 	Unknown error
+16:41:46 1435 NetworkNode::sendMessage(): Error sending!
+16:41:46 1435 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1435 NetworkManager::send(): Error! send() returned:
+16:41:46 1435 	Unknown error
+16:41:46 1435 NetworkNode::sendMessage(): Error sending!
+16:41:46 1436 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1436 NetworkManager::send(): Error! send() returned:
+16:41:46 1436 	Unknown error
+16:41:46 1436 NetworkNode::sendMessage(): Error sending!
+16:41:46 1436 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1436 NetworkManager::send(): Error! send() returned:
+16:41:46 1436 	Unknown error
+16:41:46 1436 NetworkNode::sendMessage(): Error sending!
+16:41:46 1436 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:46 1437 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1437 NetworkManager::send(): Error! send() returned:
+16:41:46 1437 	Unknown error
+16:41:46 1437 NetworkNode::sendMessage(): Error sending!
+16:41:46 1438 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1438 NetworkManager::send(): Error! send() returned:
+16:41:46 1438 	Unknown error
+16:41:46 1438 NetworkNode::sendMessage(): Error sending!
+16:41:46 1439 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1439 NetworkManager::send(): Error! send() returned:
+16:41:46 1439 	Unknown error
+16:41:46 1439 NetworkNode::sendMessage(): Error sending!
+16:41:46 1439 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1439 NetworkManager::send(): Error! send() returned:
+16:41:46 1439 	Unknown error
+16:41:46 1439 NetworkNode::sendMessage(): Error sending!
+16:41:46 1440 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1440 NetworkManager::send(): Error! send() returned:
+16:41:46 1440 	Unknown error
+16:41:46 1440 NetworkNode::sendMessage(): Error sending!
+16:41:46 1440 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1440 NetworkManager::send(): Error! send() returned:
+16:41:46 1440 	Unknown error
+16:41:46 1440 NetworkNode::sendMessage(): Error sending!
+16:41:46 1441 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1441 NetworkManager::send(): Error! send() returned:
+16:41:46 1441 	Unknown error
+16:41:46 1441 NetworkNode::sendMessage(): Error sending!
+16:41:46 1441 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1441 NetworkManager::send(): Error! send() returned:
+16:41:46 1441 	Unknown error
+16:41:46 1441 NetworkNode::sendMessage(): Error sending!
+16:41:46 1442 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1442 NetworkManager::send(): Error! send() returned:
+16:41:46 1442 	Unknown error
+16:41:46 1442 NetworkNode::sendMessage(): Error sending!
+16:41:46 1443 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1443 NetworkManager::send(): Error! send() returned:
+16:41:46 1443 	Unknown error
+16:41:46 1443 NetworkNode::sendMessage(): Error sending!
+16:41:46 1444 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1444 NetworkManager::send(): Error! send() returned:
+16:41:46 1444 	Unknown error
+16:41:46 1444 NetworkNode::sendMessage(): Error sending!
+16:41:46 1445 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1445 NetworkManager::send(): Error! send() returned:
+16:41:46 1445 	Unknown error
+16:41:46 1445 NetworkNode::sendMessage(): Error sending!
+16:41:46 1445 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1445 NetworkManager::send(): Error! send() returned:
+16:41:46 1445 	Unknown error
+16:41:46 1445 NetworkNode::sendMessage(): Error sending!
+16:41:46 1445 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:46 1446 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1446 NetworkManager::send(): Error! send() returned:
+16:41:46 1446 	Unknown error
+16:41:46 1446 NetworkNode::sendMessage(): Error sending!
+16:41:46 1446 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1446 NetworkManager::send(): Error! send() returned:
+16:41:46 1446 	Unknown error
+16:41:46 1446 NetworkNode::sendMessage(): Error sending!
+16:41:46 1447 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1447 NetworkManager::send(): Error! send() returned:
+16:41:46 1447 	Unknown error
+16:41:46 1447 NetworkNode::sendMessage(): Error sending!
+16:41:46 1447 Client::eventHandler(): sending keyboard input to server.
+16:41:46 1447 NetworkManager::send(): Error! send() returned:
+16:41:46 1447 	Unknown error
+16:41:46 1447 NetworkNode::sendMessage(): Error sending!
+16:41:47 1448 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1448 NetworkManager::send(): Error! send() returned:
+16:41:47 1448 	Unknown error
+16:41:47 1448 NetworkNode::sendMessage(): Error sending!
+16:41:47 1449 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1449 NetworkManager::send(): Error! send() returned:
+16:41:47 1449 	Unknown error
+16:41:47 1449 NetworkNode::sendMessage(): Error sending!
+16:41:47 1449 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1449 NetworkManager::send(): Error! send() returned:
+16:41:47 1449 	Unknown error
+16:41:47 1449 NetworkNode::sendMessage(): Error sending!
+16:41:47 1450 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1450 NetworkManager::send(): Error! send() returned:
+16:41:47 1450 	Unknown error
+16:41:47 1450 NetworkNode::sendMessage(): Error sending!
+16:41:47 1450 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1450 NetworkManager::send(): Error! send() returned:
+16:41:47 1450 	Unknown error
+16:41:47 1450 NetworkNode::sendMessage(): Error sending!
+16:41:47 1450 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:47 1451 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1451 NetworkManager::send(): Error! send() returned:
+16:41:47 1451 	Unknown error
+16:41:47 1451 NetworkNode::sendMessage(): Error sending!
+16:41:47 1452 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1452 NetworkManager::send(): Error! send() returned:
+16:41:47 1452 	Unknown error
+16:41:47 1452 NetworkNode::sendMessage(): Error sending!
+16:41:47 1453 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1453 NetworkManager::send(): Error! send() returned:
+16:41:47 1453 	Unknown error
+16:41:47 1453 NetworkNode::sendMessage(): Error sending!
+16:41:47 1454 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1454 NetworkManager::send(): Error! send() returned:
+16:41:47 1454 	Unknown error
+16:41:47 1454 NetworkNode::sendMessage(): Error sending!
+16:41:47 1454 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1454 NetworkManager::send(): Error! send() returned:
+16:41:47 1454 	Unknown error
+16:41:47 1454 NetworkNode::sendMessage(): Error sending!
+16:41:47 1454 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:47 1455 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1455 NetworkManager::send(): Error! send() returned:
+16:41:47 1455 	Unknown error
+16:41:47 1455 NetworkNode::sendMessage(): Error sending!
+16:41:47 1455 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:47 1456 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1456 NetworkManager::send(): Error! send() returned:
+16:41:47 1456 	Unknown error
+16:41:47 1456 NetworkNode::sendMessage(): Error sending!
+16:41:47 1456 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:47 1457 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1457 NetworkManager::send(): Error! send() returned:
+16:41:47 1457 	Unknown error
+16:41:47 1457 NetworkNode::sendMessage(): Error sending!
+16:41:47 1457 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1457 NetworkManager::send(): Error! send() returned:
+16:41:47 1457 	Unknown error
+16:41:47 1457 NetworkNode::sendMessage(): Error sending!
+16:41:47 1457 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+16:41:47 1458 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1458 NetworkManager::send(): Error! send() returned:
+16:41:47 1458 	Unknown error
+16:41:47 1458 NetworkNode::sendMessage(): Error sending!
+16:41:47 1458 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1458 NetworkManager::send(): Error! send() returned:
+16:41:47 1458 	Unknown error
+16:41:47 1458 NetworkNode::sendMessage(): Error sending!
+16:41:47 1458 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
+16:41:47 1459 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1459 NetworkManager::send(): Error! send() returned:
+16:41:47 1459 	Unknown error
+16:41:47 1459 NetworkNode::sendMessage(): Error sending!
+16:41:47 1459 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:47 1460 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1460 NetworkManager::send(): Error! send() returned:
+16:41:47 1460 	Unknown error
+16:41:47 1460 NetworkNode::sendMessage(): Error sending!
+16:41:47 1460 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1460 NetworkManager::send(): Error! send() returned:
+16:41:47 1460 	Unknown error
+16:41:47 1460 NetworkNode::sendMessage(): Error sending!
+16:41:47 1460 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:47 1461 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1461 NetworkManager::send(): Error! send() returned:
+16:41:47 1461 	Unknown error
+16:41:47 1461 NetworkNode::sendMessage(): Error sending!
+16:41:47 1461 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1461 NetworkManager::send(): Error! send() returned:
+16:41:47 1461 	Unknown error
+16:41:47 1461 NetworkNode::sendMessage(): Error sending!
+16:41:47 1461 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:47 1462 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1462 NetworkManager::send(): Error! send() returned:
+16:41:47 1462 	Unknown error
+16:41:47 1462 NetworkNode::sendMessage(): Error sending!
+16:41:47 1462 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1462 NetworkManager::send(): Error! send() returned:
+16:41:47 1462 	Unknown error
+16:41:47 1462 NetworkNode::sendMessage(): Error sending!
+16:41:47 1462 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:47 1463 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1463 NetworkManager::send(): Error! send() returned:
+16:41:47 1463 	Unknown error
+16:41:47 1463 NetworkNode::sendMessage(): Error sending!
+16:41:47 1464 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1464 NetworkManager::send(): Error! send() returned:
+16:41:47 1464 	Unknown error
+16:41:47 1464 NetworkNode::sendMessage(): Error sending!
+16:41:47 1465 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1465 NetworkManager::send(): Error! send() returned:
+16:41:47 1465 	Unknown error
+16:41:47 1465 NetworkNode::sendMessage(): Error sending!
+16:41:47 1466 Client::eventHandler(): sending keyboard input to server.
+16:41:47 1466 NetworkManager::send(): Error! send() returned:
+16:41:47 1466 	Unknown error
+16:41:47 1466 NetworkNode::sendMessage(): Error sending!
+16:41:47 1466 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:48 1488 Client::eventHandler(): sending mouse input to server.
+16:41:48 1488 NetworkManager::send(): Error! send() returned:
+16:41:48 1488 	Unknown error
+16:41:48 1488 NetworkNode::sendMessage(): Error sending!
+16:41:48 1489 Client::eventHandler(): sending mouse input to server.
+16:41:48 1489 NetworkManager::send(): Error! send() returned:
+16:41:48 1489 	Unknown error
+16:41:48 1489 NetworkNode::sendMessage(): Error sending!
+16:41:49 1518 Client::eventHandler(): sending mouse input to server.
+16:41:49 1518 NetworkManager::send(): Error! send() returned:
+16:41:49 1518 	Unknown error
+16:41:49 1518 NetworkNode::sendMessage(): Error sending!
+16:41:49 1519 Client::eventHandler(): sending mouse input to server.
+16:41:49 1519 NetworkManager::send(): Error! send() returned:
+16:41:49 1519 	Unknown error
+16:41:49 1519 NetworkNode::sendMessage(): Error sending!
+16:41:49 1523 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:49 1524 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:49 1527 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:49 1528 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:49 1529 GameManager::run(): Can't keep up! frame_time 33 ms, split 45 ms
+16:41:49 1530 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:41:49 1531 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:41:50 1532 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:50 1533 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:50 1534 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+16:41:50 1535 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:50 1536 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:41:50 1537 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:50 1544 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:50 1545 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:50 1546 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:50 1550 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+16:41:50 1551 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:50 1552 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:50 1558 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:51 1559 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:51 1563 GameManager::run(): Can't keep up! frame_time 33 ms, split 53 ms
+16:41:51 1564 GameManager::run(): Can't keep up! frame_time 33 ms, split 45 ms
+16:41:51 1565 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:41:51 1566 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:51 1567 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:51 1568 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:51 1569 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:51 1570 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:51 1571 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:51 1576 GameManager::run(): Can't keep up! frame_time 33 ms, split 46 ms
+16:41:51 1579 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:51 1580 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:51 1583 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:53 1632 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:53 1636 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:54 1672 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:41:56 1726 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:57 1749 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:57 1753 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:58 1769 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:41:58 1775 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:58 1776 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:41:58 1777 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:58 1778 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:58 1779 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:41:58 1780 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:41:58 1781 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:41:58 1788 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:41:58 1789 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:41:58 1792 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:00 1830 Client::eventHandler(): sending mouse input to server.
+16:42:00 1830 NetworkManager::send(): Error! send() returned:
+16:42:00 1830 	Unknown error
+16:42:00 1830 NetworkNode::sendMessage(): Error sending!
+16:42:00 1831 Client::eventHandler(): sending mouse input to server.
+16:42:00 1831 NetworkManager::send(): Error! send() returned:
+16:42:00 1831 	Unknown error
+16:42:00 1831 NetworkNode::sendMessage(): Error sending!
+16:42:01 1882 Client::eventHandler(): sending mouse input to server.
+16:42:01 1882 NetworkManager::send(): Error! send() returned:
+16:42:01 1882 	Unknown error
+16:42:01 1882 NetworkNode::sendMessage(): Error sending!
+16:42:01 1883 Client::eventHandler(): sending mouse input to server.
+16:42:01 1883 NetworkManager::send(): Error! send() returned:
+16:42:01 1883 	Unknown error
+16:42:01 1883 NetworkNode::sendMessage(): Error sending!
+16:42:01 1884 Client::eventHandler(): sending mouse input to server.
+16:42:01 1884 NetworkManager::send(): Error! send() returned:
+16:42:01 1884 	Unknown error
+16:42:01 1884 NetworkNode::sendMessage(): Error sending!
+16:42:02 1911 Client::eventHandler(): sending mouse input to server.
+16:42:02 1911 NetworkManager::send(): Error! send() returned:
+16:42:02 1911 	Unknown error
+16:42:02 1911 NetworkNode::sendMessage(): Error sending!
+16:42:02 1912 Client::eventHandler(): sending mouse input to server.
+16:42:02 1912 NetworkManager::send(): Error! send() returned:
+16:42:02 1912 	Unknown error
+16:42:02 1912 NetworkNode::sendMessage(): Error sending!
+16:42:04 1959 Client::eventHandler(): sending keyboard input to server.
+16:42:04 1959 NetworkManager::send(): Error! send() returned:
+16:42:04 1959 	Unknown error
+16:42:04 1959 NetworkNode::sendMessage(): Error sending!
+16:42:04 1960 Client::eventHandler(): sending keyboard input to server.
+16:42:04 1960 NetworkManager::send(): Error! send() returned:
+16:42:04 1960 	Unknown error
+16:42:04 1960 NetworkNode::sendMessage(): Error sending!
+16:42:04 1970 Client::eventHandler(): sending keyboard input to server.
+16:42:04 1970 NetworkManager::send(): Error! send() returned:
+16:42:04 1970 	Unknown error
+16:42:04 1970 NetworkNode::sendMessage(): Error sending!
+16:42:04 1970 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:42:04 1971 GameManager::run(): Can't keep up! frame_time 33 ms, split 55 ms
+16:42:04 1972 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:05 1973 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:42:05 1982 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:05 1989 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:05 1997 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:06 2007 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:06 2015 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:08 2068 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:42:08 2074 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:09 2099 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:09 2100 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:09 2116 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:10 2131 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:10 2134 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:10 2136 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:11 2167 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:11 2168 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:12 2186 Client::eventHandler(): sending mouse input to server.
+16:42:12 2186 NetworkManager::send(): Error! send() returned:
+16:42:12 2186 	Unknown error
+16:42:12 2186 NetworkNode::sendMessage(): Error sending!
+16:42:12 2187 Client::eventHandler(): sending mouse input to server.
+16:42:12 2187 NetworkManager::send(): Error! send() returned:
+16:42:12 2187 	Unknown error
+16:42:12 2187 NetworkNode::sendMessage(): Error sending!
+16:42:12 2188 Client::eventHandler(): sending mouse input to server.
+16:42:12 2188 NetworkManager::send(): Error! send() returned:
+16:42:12 2188 	Unknown error
+16:42:12 2188 NetworkNode::sendMessage(): Error sending!
+16:42:12 2189 Client::eventHandler(): sending mouse input to server.
+16:42:12 2189 NetworkManager::send(): Error! send() returned:
+16:42:12 2189 	Unknown error
+16:42:12 2189 NetworkNode::sendMessage(): Error sending!
+16:42:12 2190 Client::eventHandler(): sending mouse input to server.
+16:42:12 2190 NetworkManager::send(): Error! send() returned:
+16:42:12 2190 	Unknown error
+16:42:12 2190 NetworkNode::sendMessage(): Error sending!
+16:42:12 2191 Client::eventHandler(): sending mouse input to server.
+16:42:12 2191 NetworkManager::send(): Error! send() returned:
+16:42:12 2191 	Unknown error
+16:42:12 2191 NetworkNode::sendMessage(): Error sending!
+16:42:12 2192 Client::eventHandler(): sending mouse input to server.
+16:42:12 2192 NetworkManager::send(): Error! send() returned:
+16:42:12 2192 	Unknown error
+16:42:12 2192 NetworkNode::sendMessage(): Error sending!
+16:42:12 2193 Client::eventHandler(): sending mouse input to server.
+16:42:12 2193 NetworkManager::send(): Error! send() returned:
+16:42:12 2193 	Unknown error
+16:42:12 2193 NetworkNode::sendMessage(): Error sending!
+16:42:12 2194 Client::eventHandler(): sending mouse input to server.
+16:42:12 2194 NetworkManager::send(): Error! send() returned:
+16:42:12 2194 	Unknown error
+16:42:12 2194 NetworkNode::sendMessage(): Error sending!
+16:42:12 2195 Client::eventHandler(): sending mouse input to server.
+16:42:12 2195 NetworkManager::send(): Error! send() returned:
+16:42:12 2195 	Unknown error
+16:42:12 2195 NetworkNode::sendMessage(): Error sending!
+16:42:12 2195 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:12 2196 Client::eventHandler(): sending mouse input to server.
+16:42:12 2196 NetworkManager::send(): Error! send() returned:
+16:42:12 2196 	Unknown error
+16:42:12 2196 NetworkNode::sendMessage(): Error sending!
+16:42:12 2197 Client::eventHandler(): sending mouse input to server.
+16:42:12 2197 NetworkManager::send(): Error! send() returned:
+16:42:12 2197 	Unknown error
+16:42:12 2197 NetworkNode::sendMessage(): Error sending!
+16:42:12 2198 Client::eventHandler(): sending mouse input to server.
+16:42:12 2198 NetworkManager::send(): Error! send() returned:
+16:42:12 2198 	Unknown error
+16:42:12 2198 NetworkNode::sendMessage(): Error sending!
+16:42:12 2199 Client::eventHandler(): sending mouse input to server.
+16:42:12 2199 NetworkManager::send(): Error! send() returned:
+16:42:12 2199 	Unknown error
+16:42:12 2199 NetworkNode::sendMessage(): Error sending!
+16:42:12 2200 Client::eventHandler(): sending mouse input to server.
+16:42:12 2200 NetworkManager::send(): Error! send() returned:
+16:42:12 2200 	Unknown error
+16:42:12 2200 NetworkNode::sendMessage(): Error sending!
+16:42:12 2201 Client::eventHandler(): sending mouse input to server.
+16:42:12 2201 NetworkManager::send(): Error! send() returned:
+16:42:12 2201 	Unknown error
+16:42:12 2201 NetworkNode::sendMessage(): Error sending!
+16:42:12 2202 Client::eventHandler(): sending mouse input to server.
+16:42:12 2202 NetworkManager::send(): Error! send() returned:
+16:42:12 2202 	Unknown error
+16:42:12 2202 NetworkNode::sendMessage(): Error sending!
+16:42:12 2203 Client::eventHandler(): sending mouse input to server.
+16:42:12 2203 NetworkManager::send(): Error! send() returned:
+16:42:12 2203 	Unknown error
+16:42:12 2203 NetworkNode::sendMessage(): Error sending!
+16:42:12 2204 Client::eventHandler(): sending mouse input to server.
+16:42:12 2204 NetworkManager::send(): Error! send() returned:
+16:42:12 2204 	Unknown error
+16:42:12 2204 NetworkNode::sendMessage(): Error sending!
+16:42:12 2205 Client::eventHandler(): sending mouse input to server.
+16:42:12 2205 NetworkManager::send(): Error! send() returned:
+16:42:12 2205 	Unknown error
+16:42:12 2205 NetworkNode::sendMessage(): Error sending!
+16:42:12 2206 Client::eventHandler(): sending mouse input to server.
+16:42:12 2206 NetworkManager::send(): Error! send() returned:
+16:42:12 2206 	Unknown error
+16:42:12 2206 NetworkNode::sendMessage(): Error sending!
+16:42:12 2207 Client::eventHandler(): sending mouse input to server.
+16:42:12 2207 NetworkManager::send(): Error! send() returned:
+16:42:12 2207 	Unknown error
+16:42:12 2207 NetworkNode::sendMessage(): Error sending!
+16:42:12 2208 Client::eventHandler(): sending mouse input to server.
+16:42:12 2208 NetworkManager::send(): Error! send() returned:
+16:42:12 2208 	Unknown error
+16:42:12 2208 NetworkNode::sendMessage(): Error sending!
+16:42:12 2209 Client::eventHandler(): sending mouse input to server.
+16:42:12 2209 NetworkManager::send(): Error! send() returned:
+16:42:12 2209 	Unknown error
+16:42:12 2209 NetworkNode::sendMessage(): Error sending!
+16:42:13 2216 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:13 2235 Client::eventHandler(): sending mouse input to server.
+16:42:13 2235 NetworkManager::send(): Error! send() returned:
+16:42:13 2235 	Unknown error
+16:42:13 2235 NetworkNode::sendMessage(): Error sending!
+16:42:14 2257 Client::eventHandler(): sending keyboard input to server.
+16:42:14 2257 NetworkManager::send(): Error! send() returned:
+16:42:14 2257 	Unknown error
+16:42:14 2257 NetworkNode::sendMessage(): Error sending!
+16:42:14 2258 Client::eventHandler(): sending keyboard input to server.
+16:42:14 2258 NetworkManager::send(): Error! send() returned:
+16:42:14 2258 	Unknown error
+16:42:14 2258 NetworkNode::sendMessage(): Error sending!
+16:42:15 2278 Client::eventHandler(): sending keyboard input to server.
+16:42:15 2278 NetworkManager::send(): Error! send() returned:
+16:42:15 2278 	Unknown error
+16:42:15 2278 NetworkNode::sendMessage(): Error sending!
+16:42:15 2279 Client::eventHandler(): sending keyboard input to server.
+16:42:15 2279 NetworkManager::send(): Error! send() returned:
+16:42:15 2279 	Unknown error
+16:42:15 2279 NetworkNode::sendMessage(): Error sending!
+16:42:15 2280 Client::eventHandler(): sending keyboard input to server.
+16:42:15 2280 NetworkManager::send(): Error! send() returned:
+16:42:15 2280 	Unknown error
+16:42:15 2280 NetworkNode::sendMessage(): Error sending!
+16:42:15 2281 Client::eventHandler(): sending keyboard input to server.
+16:42:15 2281 NetworkManager::send(): Error! send() returned:
+16:42:15 2281 	Unknown error
+16:42:15 2281 NetworkNode::sendMessage(): Error sending!
+16:42:15 2281 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:15 2290 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:16 2305 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:16 2306 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:16 2307 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:16 2308 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:16 2309 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:16 2324 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:16 2325 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:16 2326 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:17 2330 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+16:42:18 2370 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:18 2381 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:18 2382 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:18 2383 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:18 2384 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+16:42:18 2385 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:18 2386 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:19 2387 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:19 2388 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:19 2389 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:19 2390 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:19 2391 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:19 2392 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:19 2393 Client::eventHandler(): sending mouse input to server.
+16:42:19 2393 NetworkManager::send(): Error! send() returned:
+16:42:19 2393 	Unknown error
+16:42:19 2393 NetworkNode::sendMessage(): Error sending!
+16:42:19 2394 Client::eventHandler(): sending mouse input to server.
+16:42:19 2394 NetworkManager::send(): Error! send() returned:
+16:42:19 2394 	Unknown error
+16:42:19 2394 NetworkNode::sendMessage(): Error sending!
+16:42:19 2395 Client::eventHandler(): sending mouse input to server.
+16:42:19 2395 NetworkManager::send(): Error! send() returned:
+16:42:19 2395 	Unknown error
+16:42:19 2395 NetworkNode::sendMessage(): Error sending!
+16:42:19 2396 Client::eventHandler(): sending mouse input to server.
+16:42:19 2396 NetworkManager::send(): Error! send() returned:
+16:42:19 2396 	Unknown error
+16:42:19 2396 NetworkNode::sendMessage(): Error sending!
+16:42:19 2397 Client::eventHandler(): sending mouse input to server.
+16:42:19 2397 NetworkManager::send(): Error! send() returned:
+16:42:19 2397 	Unknown error
+16:42:19 2397 NetworkNode::sendMessage(): Error sending!
+16:42:19 2398 Client::eventHandler(): sending mouse input to server.
+16:42:19 2398 NetworkManager::send(): Error! send() returned:
+16:42:19 2398 	Unknown error
+16:42:19 2398 NetworkNode::sendMessage(): Error sending!
+16:42:19 2399 Client::eventHandler(): sending mouse input to server.
+16:42:19 2399 NetworkManager::send(): Error! send() returned:
+16:42:19 2399 	Unknown error
+16:42:19 2399 NetworkNode::sendMessage(): Error sending!
+16:42:19 2400 Client::eventHandler(): sending mouse input to server.
+16:42:19 2400 NetworkManager::send(): Error! send() returned:
+16:42:19 2400 	Unknown error
+16:42:19 2400 NetworkNode::sendMessage(): Error sending!
+16:42:19 2401 Client::eventHandler(): sending mouse input to server.
+16:42:19 2401 NetworkManager::send(): Error! send() returned:
+16:42:19 2401 	Unknown error
+16:42:19 2401 NetworkNode::sendMessage(): Error sending!
+16:42:19 2402 Client::eventHandler(): sending mouse input to server.
+16:42:19 2402 NetworkManager::send(): Error! send() returned:
+16:42:19 2402 	Unknown error
+16:42:19 2402 NetworkNode::sendMessage(): Error sending!
+16:42:19 2402 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:19 2403 Client::eventHandler(): sending mouse input to server.
+16:42:19 2403 NetworkManager::send(): Error! send() returned:
+16:42:19 2403 	Unknown error
+16:42:19 2403 NetworkNode::sendMessage(): Error sending!
+16:42:19 2404 Client::eventHandler(): sending mouse input to server.
+16:42:19 2404 NetworkManager::send(): Error! send() returned:
+16:42:19 2404 	Unknown error
+16:42:19 2404 NetworkNode::sendMessage(): Error sending!
+16:42:19 2405 Client::eventHandler(): sending mouse input to server.
+16:42:19 2405 NetworkManager::send(): Error! send() returned:
+16:42:19 2405 	Unknown error
+16:42:19 2405 NetworkNode::sendMessage(): Error sending!
+16:42:19 2405 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:19 2406 Client::eventHandler(): sending mouse input to server.
+16:42:19 2406 NetworkManager::send(): Error! send() returned:
+16:42:19 2406 	Unknown error
+16:42:19 2406 NetworkNode::sendMessage(): Error sending!
+16:42:19 2407 Client::eventHandler(): sending mouse input to server.
+16:42:19 2407 NetworkManager::send(): Error! send() returned:
+16:42:19 2407 	Unknown error
+16:42:19 2407 NetworkNode::sendMessage(): Error sending!
+16:42:19 2408 Client::eventHandler(): sending mouse input to server.
+16:42:19 2408 NetworkManager::send(): Error! send() returned:
+16:42:19 2408 	Unknown error
+16:42:19 2408 NetworkNode::sendMessage(): Error sending!
+16:42:19 2409 Client::eventHandler(): sending mouse input to server.
+16:42:19 2409 NetworkManager::send(): Error! send() returned:
+16:42:19 2409 	Unknown error
+16:42:19 2409 NetworkNode::sendMessage(): Error sending!
+16:42:19 2410 Client::eventHandler(): sending mouse input to server.
+16:42:19 2410 NetworkManager::send(): Error! send() returned:
+16:42:19 2410 	Unknown error
+16:42:19 2410 NetworkNode::sendMessage(): Error sending!
+16:42:19 2411 Client::eventHandler(): sending mouse input to server.
+16:42:19 2411 NetworkManager::send(): Error! send() returned:
+16:42:19 2411 	Unknown error
+16:42:19 2411 NetworkNode::sendMessage(): Error sending!
+16:42:19 2412 Client::eventHandler(): sending mouse input to server.
+16:42:19 2412 NetworkManager::send(): Error! send() returned:
+16:42:19 2412 	Unknown error
+16:42:19 2412 NetworkNode::sendMessage(): Error sending!
+16:42:19 2413 Client::eventHandler(): sending mouse input to server.
+16:42:19 2413 NetworkManager::send(): Error! send() returned:
+16:42:19 2413 	Unknown error
+16:42:19 2413 NetworkNode::sendMessage(): Error sending!
+16:42:19 2414 Client::eventHandler(): sending mouse input to server.
+16:42:19 2414 NetworkManager::send(): Error! send() returned:
+16:42:19 2414 	Unknown error
+16:42:19 2414 NetworkNode::sendMessage(): Error sending!
+16:42:19 2414 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:19 2415 Client::eventHandler(): sending mouse input to server.
+16:42:19 2415 NetworkManager::send(): Error! send() returned:
+16:42:19 2415 	Unknown error
+16:42:19 2415 NetworkNode::sendMessage(): Error sending!
+16:42:20 2415 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:20 2416 Client::eventHandler(): sending mouse input to server.
+16:42:20 2416 NetworkManager::send(): Error! send() returned:
+16:42:20 2416 	Unknown error
+16:42:20 2416 NetworkNode::sendMessage(): Error sending!
+16:42:20 2416 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:20 2417 Client::eventHandler(): sending mouse input to server.
+16:42:20 2417 NetworkManager::send(): Error! send() returned:
+16:42:20 2417 	Unknown error
+16:42:20 2417 NetworkNode::sendMessage(): Error sending!
+16:42:20 2418 Client::eventHandler(): sending mouse input to server.
+16:42:20 2418 NetworkManager::send(): Error! send() returned:
+16:42:20 2418 	Unknown error
+16:42:20 2418 NetworkNode::sendMessage(): Error sending!
+16:42:20 2419 Client::eventHandler(): sending mouse input to server.
+16:42:20 2419 NetworkManager::send(): Error! send() returned:
+16:42:20 2419 	Unknown error
+16:42:20 2419 NetworkNode::sendMessage(): Error sending!
+16:42:20 2420 Client::eventHandler(): sending mouse input to server.
+16:42:20 2420 NetworkManager::send(): Error! send() returned:
+16:42:20 2420 	Unknown error
+16:42:20 2420 NetworkNode::sendMessage(): Error sending!
+16:42:20 2421 Client::eventHandler(): sending mouse input to server.
+16:42:20 2421 NetworkManager::send(): Error! send() returned:
+16:42:20 2421 	Unknown error
+16:42:20 2421 NetworkNode::sendMessage(): Error sending!
+16:42:20 2421 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:20 2422 Client::eventHandler(): sending mouse input to server.
+16:42:20 2422 NetworkManager::send(): Error! send() returned:
+16:42:20 2422 	Unknown error
+16:42:20 2422 NetworkNode::sendMessage(): Error sending!
+16:42:20 2423 Client::eventHandler(): sending mouse input to server.
+16:42:20 2423 NetworkManager::send(): Error! send() returned:
+16:42:20 2423 	Unknown error
+16:42:20 2423 NetworkNode::sendMessage(): Error sending!
+16:42:20 2424 Client::eventHandler(): sending mouse input to server.
+16:42:20 2424 NetworkManager::send(): Error! send() returned:
+16:42:20 2424 	Unknown error
+16:42:20 2424 NetworkNode::sendMessage(): Error sending!
+16:42:20 2425 Client::eventHandler(): sending mouse input to server.
+16:42:20 2425 NetworkManager::send(): Error! send() returned:
+16:42:20 2425 	Unknown error
+16:42:20 2425 NetworkNode::sendMessage(): Error sending!
+16:42:20 2426 Client::eventHandler(): sending mouse input to server.
+16:42:20 2426 NetworkManager::send(): Error! send() returned:
+16:42:20 2426 	Unknown error
+16:42:20 2426 NetworkNode::sendMessage(): Error sending!
+16:42:20 2427 Client::eventHandler(): sending mouse input to server.
+16:42:20 2427 NetworkManager::send(): Error! send() returned:
+16:42:20 2427 	Unknown error
+16:42:20 2427 NetworkNode::sendMessage(): Error sending!
+16:42:20 2428 Client::eventHandler(): sending mouse input to server.
+16:42:20 2428 NetworkManager::send(): Error! send() returned:
+16:42:20 2428 	Unknown error
+16:42:20 2428 NetworkNode::sendMessage(): Error sending!
+16:42:20 2429 Client::eventHandler(): sending mouse input to server.
+16:42:20 2429 NetworkManager::send(): Error! send() returned:
+16:42:20 2429 	Unknown error
+16:42:20 2429 NetworkNode::sendMessage(): Error sending!
+16:42:20 2430 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:20 2431 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:20 2432 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:20 2433 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:20 2434 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:20 2435 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:20 2436 GameManager::run(): Can't keep up! frame_time 33 ms, split 45 ms
+16:42:20 2437 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+16:42:20 2438 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:21 2462 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2462 NetworkManager::send(): Error! send() returned:
+16:42:21 2462 	Unknown error
+16:42:21 2462 NetworkNode::sendMessage(): Error sending!
+16:42:21 2463 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2463 NetworkManager::send(): Error! send() returned:
+16:42:21 2463 	Unknown error
+16:42:21 2463 NetworkNode::sendMessage(): Error sending!
+16:42:21 2464 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2464 NetworkManager::send(): Error! send() returned:
+16:42:21 2464 	Unknown error
+16:42:21 2464 NetworkNode::sendMessage(): Error sending!
+16:42:21 2465 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2465 NetworkManager::send(): Error! send() returned:
+16:42:21 2465 	Unknown error
+16:42:21 2465 NetworkNode::sendMessage(): Error sending!
+16:42:21 2466 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2466 NetworkManager::send(): Error! send() returned:
+16:42:21 2466 	Unknown error
+16:42:21 2466 NetworkNode::sendMessage(): Error sending!
+16:42:21 2467 Client::eventHandler(): sending keyboard input to server.
+16:42:21 2467 NetworkManager::send(): Error! send() returned:
+16:42:21 2467 	Unknown error
+16:42:21 2467 NetworkNode::sendMessage(): Error sending!
+16:42:21 2470 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+16:42:21 2471 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:22 2472 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:42:22 2473 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2473 NetworkManager::send(): Error! send() returned:
+16:42:22 2473 	Unknown error
+16:42:22 2473 NetworkNode::sendMessage(): Error sending!
+16:42:22 2473 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:22 2474 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2474 NetworkManager::send(): Error! send() returned:
+16:42:22 2474 	Unknown error
+16:42:22 2474 NetworkNode::sendMessage(): Error sending!
+16:42:22 2474 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:22 2475 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2475 NetworkManager::send(): Error! send() returned:
+16:42:22 2475 	Unknown error
+16:42:22 2475 NetworkNode::sendMessage(): Error sending!
+16:42:22 2475 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:22 2476 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2476 NetworkManager::send(): Error! send() returned:
+16:42:22 2476 	Unknown error
+16:42:22 2476 NetworkNode::sendMessage(): Error sending!
+16:42:22 2477 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2477 NetworkManager::send(): Error! send() returned:
+16:42:22 2477 	Unknown error
+16:42:22 2477 NetworkNode::sendMessage(): Error sending!
+16:42:22 2478 Client::eventHandler(): sending keyboard input to server.
+16:42:22 2478 NetworkManager::send(): Error! send() returned:
+16:42:22 2478 	Unknown error
+16:42:22 2478 NetworkNode::sendMessage(): Error sending!
+16:42:22 2478 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:22 2479 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:22 2480 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:22 2481 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:22 2482 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:42:22 2483 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:22 2488 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:22 2491 Client::eventHandler(): sending mouse input to server.
+16:42:22 2491 NetworkManager::send(): Error! send() returned:
+16:42:22 2491 	Unknown error
+16:42:22 2491 NetworkNode::sendMessage(): Error sending!
+16:42:22 2492 Client::eventHandler(): sending mouse input to server.
+16:42:22 2492 NetworkManager::send(): Error! send() returned:
+16:42:22 2492 	Unknown error
+16:42:22 2492 NetworkNode::sendMessage(): Error sending!
+16:42:22 2492 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+16:42:22 2493 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:42:22 2494 GameManager::run(): Can't keep up! frame_time 33 ms, split 49 ms
+16:42:23 2500 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:23 2501 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:23 2502 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:23 2503 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:23 2504 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:23 2505 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+16:42:23 2506 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:23 2507 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:23 2517 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:23 2526 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+16:42:23 2527 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:24 2528 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:24 2529 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:24 2530 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+16:42:24 2531 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:24 2532 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+16:42:24 2543 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:24 2544 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:25 2575 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+16:42:25 2576 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+16:42:25 2577 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:25 2585 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+16:42:26 2603 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:26 2604 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:27 2618 Client::eventHandler(): sending mouse input to server.
+16:42:27 2618 NetworkManager::send(): Error! send() returned:
+16:42:27 2618 	Unknown error
+16:42:27 2618 NetworkNode::sendMessage(): Error sending!
+16:42:27 2619 Client::eventHandler(): sending mouse input to server.
+16:42:27 2619 NetworkManager::send(): Error! send() returned:
+16:42:27 2619 	Unknown error
+16:42:27 2619 NetworkNode::sendMessage(): Error sending!
+16:42:27 2622 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:27 2635 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:27 2636 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+16:42:28 2662 Client::eventHandler(): sending mouse input to server.
+16:42:28 2662 NetworkManager::send(): Error! send() returned:
+16:42:28 2662 	Unknown error
+16:42:28 2662 NetworkNode::sendMessage(): Error sending!
+16:42:28 2663 Client::eventHandler(): sending mouse input to server.
+16:42:28 2663 NetworkManager::send(): Error! send() returned:
+16:42:28 2663 	Unknown error
+16:42:28 2663 NetworkNode::sendMessage(): Error sending!
+16:42:28 2675 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:28 2676 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+16:42:29 2677 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+16:42:29 2702 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+16:42:36 2896 Client::eventHandler(): sending mouse input to server.
+16:42:36 2896 NetworkManager::send(): Error! send() returned:
+16:42:36 2896 	Unknown error
+16:42:36 2896 NetworkNode::sendMessage(): Error sending!
+16:42:36 2897 Client::eventHandler(): sending mouse input to server.
+16:42:36 2897 NetworkManager::send(): Error! send() returned:
+16:42:36 2897 	Unknown error
+16:42:36 2897 NetworkNode::sendMessage(): Error sending!
+16:42:39 2990 Client::eventHandler(): sending mouse input to server.
+16:42:39 2990 NetworkManager::send(): Error! send() returned:
+16:42:39 2990 	Unknown error
+16:42:39 2990 NetworkNode::sendMessage(): Error sending!
+16:42:39 2991 Client::eventHandler(): sending mouse input to server.
+16:42:39 2991 NetworkManager::send(): Error! send() returned:
+16:42:39 2991 	Unknown error
+16:42:39 2991 NetworkNode::sendMessage(): Error sending!
+16:42:39 3000 Client::eventHandler(): sending mouse input to server.
+16:42:39 3000 NetworkManager::send(): Error! send() returned:
+16:42:39 3000 	Unknown error
+16:42:39 3000 NetworkNode::sendMessage(): Error sending!
+16:42:39 3000 Client::eventHandler(): sending mouse input to server.
+16:42:39 3000 NetworkManager::send(): Error! send() returned:
+16:42:39 3000 	Unknown error
+16:42:39 3000 NetworkNode::sendMessage(): Error sending!
+16:42:39 3001 Client::eventHandler(): sending mouse input to server.
+16:42:39 3001 NetworkManager::send(): Error! send() returned:
+16:42:39 3001 	Unknown error
+16:42:39 3001 NetworkNode::sendMessage(): Error sending!
+16:42:39 3002 Client::eventHandler(): sending mouse input to server.
+16:42:39 3002 NetworkManager::send(): Error! send() returned:
+16:42:39 3002 	Unknown error
+16:42:39 3002 NetworkNode::sendMessage(): Error sending!
+16:42:39 3003 Client::eventHandler(): sending mouse input to server.
+16:42:39 3003 NetworkManager::send(): Error! send() returned:
+16:42:39 3003 	Unknown error
+16:42:39 3003 NetworkNode::sendMessage(): Error sending!
+16:42:39 3003 Client::eventHandler(): sending mouse input to server.
+16:42:39 3003 NetworkManager::send(): Error! send() returned:
+16:42:39 3003 	Unknown error
+16:42:39 3003 NetworkNode::sendMessage(): Error sending!
+16:42:39 3004 Client::eventHandler(): sending mouse input to server.
+16:42:39 3004 NetworkManager::send(): Error! send() returned:
+16:42:39 3004 	Unknown error
+16:42:39 3004 NetworkNode::sendMessage(): Error sending!
+16:42:39 3004 Client::eventHandler(): sending mouse input to server.
+16:42:39 3004 NetworkManager::send(): Error! send() returned:
+16:42:39 3004 	Unknown error
+16:42:39 3004 NetworkNode::sendMessage(): Error sending!
+16:42:39 3005 Client::eventHandler(): sending mouse input to server.
+16:42:39 3005 NetworkManager::send(): Error! send() returned:
+16:42:39 3005 	Unknown error
+16:42:39 3005 NetworkNode::sendMessage(): Error sending!
+16:42:39 3006 Client::eventHandler(): sending mouse input to server.
+16:42:39 3006 NetworkManager::send(): Error! send() returned:
+16:42:39 3006 	Unknown error
+16:42:39 3006 NetworkNode::sendMessage(): Error sending!
+16:42:39 3007 Client::eventHandler(): sending mouse input to server.
+16:42:39 3007 NetworkManager::send(): Error! send() returned:
+16:42:39 3007 	Unknown error
+16:42:39 3007 NetworkNode::sendMessage(): Error sending!
+16:42:39 3008 Client::eventHandler(): sending mouse input to server.
+16:42:39 3008 NetworkManager::send(): Error! send() returned:
+16:42:39 3008 	Unknown error
+16:42:39 3008 NetworkNode::sendMessage(): Error sending!
+16:42:39 3009 Client::eventHandler(): sending mouse input to server.
+16:42:39 3009 NetworkManager::send(): Error! send() returned:
+16:42:39 3009 	Unknown error
+16:42:39 3009 NetworkNode::sendMessage(): Error sending!
+16:42:40 3010 Client::eventHandler(): sending mouse input to server.
+16:42:40 3010 NetworkManager::send(): Error! send() returned:
+16:42:40 3010 	Unknown error
+16:42:40 3010 NetworkNode::sendMessage(): Error sending!
+16:42:40 3010 Client::eventHandler(): sending mouse input to server.
+16:42:40 3010 NetworkManager::send(): Error! send() returned:
+16:42:40 3010 	Unknown error
+16:42:40 3010 NetworkNode::sendMessage(): Error sending!
+16:42:40 3011 Client::eventHandler(): sending mouse input to server.
+16:42:40 3011 NetworkManager::send(): Error! send() returned:
+16:42:40 3011 	Unknown error
+16:42:40 3011 NetworkNode::sendMessage(): Error sending!
+16:42:40 3011 Client::eventHandler(): sending mouse input to server.
+16:42:40 3011 NetworkManager::send(): Error! send() returned:
+16:42:40 3011 	Unknown error
+16:42:40 3011 NetworkNode::sendMessage(): Error sending!
+16:42:41 3042 InputManager::getInput(): Window close event. Setting game over.
+16:42:41 3043 GameManager::run(): end of game loop
+16:42:41 3043 NetworkManager::send(): Error! send() returned:
+16:42:41 3043 	Unknown error
+16:42:41 3043 NetworkNode::sendMessage(): Error sending!
+16:42:41 3043 PathManager::shutDown(): successfully stopped.
+16:42:41 3043 Path manager stopped
+16:42:41 3043 WorldManager::shutDown(): Successfully stopped.
+16:42:41 3043 World manager stopped
+16:42:41 3043 ResourceManager::shutDown(): successfully stopped.
+16:42:41 3043 Resource manager stopped
+16:42:41 3043 NetworkManager::shutDown(): successfully stopped.
+16:42:41 3043 Network manager stopped
+16:42:41 3043 InputManager::shutDown(): successfully stopped.
+16:42:41 3043 Input manager stopped
+16:42:41 3043 DisplayManager::shutDown(): successfully stopped.
+16:42:41 3043 Display manager stopped
+16:42:41 3043 ** Game stopped **
+16:42:41 3043 ****************************************************
+16:42:41 3043 LogManager::shutDown(): successfully stopped.
