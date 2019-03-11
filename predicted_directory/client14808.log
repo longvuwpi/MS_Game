@@ -1,0 +1,865 @@
+03:17:30    0 ****************************************************
+03:17:30    0 ** Dragonfly version 4.9 **
+03:17:31    0 Hello, Network! (v1.2)
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+03:17:31    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+03:17:31    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+03:17:31    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+03:17:32    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+03:17:32    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+03:17:32    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+03:17:32    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+03:17:32    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+03:17:33    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+03:17:34    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+03:17:34    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+03:17:34    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+03:17:34    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+03:17:34    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+03:17:34    0 Client::Client(): Connecting to localhost at port 9876.
+03:17:34    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+03:17:34    0 NetworkManager::connect(): Connection established.
+03:17:34    0 Client::handleConnect(): Client connected!
+03:17:34    0 Client::Client(): Client started.
+03:17:34    0 GameManager::run(): starting game loop
+03:17:34    0 Client::eventHandler(): sending mouse input to server.
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 Client::createObject(): creating object type 'Platform'
+03:17:34    0 GameManager::run(): Warning! Residual network data.
+03:17:34    1 Client::createObject(): creating object type 'Platform'
+03:17:34    1 Client::createObject(): creating object type 'Hero'
+03:17:34    1 Weapon::deserialize()
+03:17:34    1 Weapon::deserialize(): ammo_loaded is 30
+03:17:34    1 Weapon::deserialize(): ammo_backup is 90
+03:17:34    1 Weapon::deserialize(): is_scoping is false
+03:17:34    1 Weapon::deserialize()
+03:17:34    1 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+03:17:34    1 Weapon::deserialize(): ammo_loaded is 10
+03:17:34    1 Weapon::deserialize(): ammo_backup is 30
+03:17:34    1 Weapon::deserialize(): is_scoping is false
+03:17:34    1 Weapon::deserialize()
+03:17:34    1 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+03:17:34    1 Weapon::deserialize(): ammo_loaded is 1
+03:17:34    1 Weapon::deserialize(): ammo_backup is 30
+03:17:34    1 Weapon::deserialize(): is_scoping is false
+03:17:34    1 GameManager::run(): Warning! Residual network data.
+03:17:34    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 Weapon::deserialize()
+03:17:34    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 90 ms
+03:17:34    3 Weapon::deserialize()
+03:17:34    3 Weapon::deserialize()
+03:17:34    3 Weapon::deserialize()
+03:17:35    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 85 ms
+03:17:35    4 Weapon::deserialize()
+03:17:35    4 Weapon::deserialize()
+03:17:35    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 80 ms
+03:17:35    5 Weapon::deserialize()
+03:17:35    5 Weapon::deserialize()
+03:17:35    5 Weapon::deserialize()
+03:17:35    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 88 ms
+03:17:35    6 Weapon::deserialize()
+03:17:35    6 Weapon::deserialize()
+03:17:35    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 77 ms
+03:17:35    7 Weapon::deserialize()
+03:17:35    7 Weapon::deserialize()
+03:17:35    7 Weapon::deserialize()
+03:17:35    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 75 ms
+03:17:35    8 Weapon::deserialize()
+03:17:35    8 Weapon::deserialize()
+03:17:35    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 80 ms
+03:17:35    9 Client::eventHandler(): sending mouse input to server.
+03:17:35    9 Weapon::deserialize()
+03:17:35    9 Weapon::deserialize()
+03:17:35    9 Weapon::deserialize()
+03:17:35    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 86 ms
+03:17:35   10 Client::eventHandler(): sending mouse input to server.
+03:17:35   10 Weapon::deserialize()
+03:17:35   10 Weapon::deserialize()
+03:17:35   11 Client::eventHandler(): sending mouse input to server.
+03:17:35   11 Weapon::deserialize()
+03:17:35   12 Client::eventHandler(): sending mouse input to server.
+03:17:35   12 Weapon::deserialize()
+03:17:35   13 Client::eventHandler(): sending mouse input to server.
+03:17:35   13 Weapon::deserialize()
+03:17:35   14 Client::eventHandler(): sending mouse input to server.
+03:17:35   14 Weapon::deserialize()
+03:17:35   15 Client::eventHandler(): sending mouse input to server.
+03:17:35   15 Weapon::deserialize()
+03:17:35   16 Client::eventHandler(): sending mouse input to server.
+03:17:35   16 Weapon::deserialize()
+03:17:35   17 Client::eventHandler(): sending mouse input to server.
+03:17:35   17 Client::eventHandler(): sending mouse input to server.
+03:17:35   17 Weapon::deserialize()
+03:17:35   18 Client::eventHandler(): sending mouse input to server.
+03:17:35   18 Client::eventHandler(): sending mouse input to server.
+03:17:35   18 Weapon::deserialize()
+03:17:35   19 Client::eventHandler(): sending mouse input to server.
+03:17:35   19 Weapon::deserialize()
+03:17:35   20 Client::eventHandler(): sending mouse input to server.
+03:17:35   20 Weapon::deserialize()
+03:17:35   21 Client::eventHandler(): sending mouse input to server.
+03:17:35   21 Weapon::deserialize()
+03:17:35   22 Client::eventHandler(): sending mouse input to server.
+03:17:35   22 Weapon::deserialize()
+03:17:35   23 Weapon::deserialize()
+03:17:35   24 Weapon::deserialize()
+03:17:36   25 Client::eventHandler(): sending mouse input to server.
+03:17:36   25 Weapon::deserialize()
+03:17:36   26 Client::eventHandler(): sending mouse input to server.
+03:17:36   26 Weapon::deserialize()
+03:17:36   27 Client::eventHandler(): sending mouse input to server.
+03:17:36   27 Client::eventHandler(): sending mouse input to server.
+03:17:36   27 Weapon::deserialize()
+03:17:36   28 Client::eventHandler(): sending mouse input to server.
+03:17:36   28 Client::eventHandler(): sending keyboard input to server.
+03:17:36   28 Client::eventHandler(): sending mouse input to server.
+03:17:36   28 Client::eventHandler(): sending keyboard input to server.
+03:17:36   28 Weapon::deserialize()
+03:17:36   29 Client::eventHandler(): sending mouse input to server.
+03:17:36   29 Client::eventHandler(): sending mouse input to server.
+03:17:36   29 Client::eventHandler(): sending keyboard input to server.
+03:17:36   29 Weapon::deserialize()
+03:17:36   30 Client::eventHandler(): sending mouse input to server.
+03:17:36   30 Client::eventHandler(): sending keyboard input to server.
+03:17:36   30 Weapon::deserialize()
+03:17:36   31 Client::eventHandler(): sending mouse input to server.
+03:17:36   31 Client::eventHandler(): sending keyboard input to server.
+03:17:36   31 Weapon::deserialize()
+03:17:36   32 Client::eventHandler(): sending mouse input to server.
+03:17:36   32 Client::eventHandler(): sending keyboard input to server.
+03:17:36   32 Weapon::deserialize()
+03:17:36   33 Client::eventHandler(): sending mouse input to server.
+03:17:36   33 Client::eventHandler(): sending keyboard input to server.
+03:17:36   33 Weapon::deserialize()
+03:17:36   34 Client::eventHandler(): sending mouse input to server.
+03:17:36   34 Client::eventHandler(): sending keyboard input to server.
+03:17:36   34 Client::eventHandler(): sending mouse input to server.
+03:17:36   34 Weapon::deserialize()
+03:17:36   35 Client::eventHandler(): sending mouse input to server.
+03:17:36   35 Weapon::deserialize()
+03:17:36   36 Client::eventHandler(): sending mouse input to server.
+03:17:36   36 Weapon::deserialize()
+03:17:36   37 Client::eventHandler(): sending mouse input to server.
+03:17:36   37 Weapon::deserialize()
+03:17:36   38 Client::eventHandler(): sending mouse input to server.
+03:17:36   38 Weapon::deserialize()
+03:17:36   39 Client::eventHandler(): sending mouse input to server.
+03:17:36   39 Weapon::deserialize()
+03:17:36   40 Weapon::deserialize()
+03:17:36   41 Client::eventHandler(): sending keyboard input to server.
+03:17:36   41 Client::eventHandler(): sending keyboard input to server.
+03:17:36   41 Weapon::deserialize()
+03:17:36   42 Client::eventHandler(): sending keyboard input to server.
+03:17:36   42 Weapon::deserialize()
+03:17:36   43 Client::eventHandler(): sending mouse input to server.
+03:17:36   43 Client::eventHandler(): sending keyboard input to server.
+03:17:36   43 Weapon::deserialize()
+03:17:36   44 Client::eventHandler(): sending mouse input to server.
+03:17:36   44 Client::eventHandler(): sending keyboard input to server.
+03:17:36   44 Weapon::deserialize()
+03:17:36   45 Client::eventHandler(): sending mouse input to server.
+03:17:36   45 Client::eventHandler(): sending keyboard input to server.
+03:17:36   45 Weapon::deserialize()
+03:17:36   46 Weapon::deserialize()
+03:17:36   47 Weapon::deserialize()
+03:17:36   48 Client::eventHandler(): sending mouse input to server.
+03:17:36   48 Weapon::deserialize()
+03:17:36   49 Weapon::deserialize()
+03:17:36   50 Client::eventHandler(): sending mouse input to server.
+03:17:36   50 Client::eventHandler(): sending mouse input to server.
+03:17:36   50 Weapon::deserialize()
+03:17:36   51 Client::eventHandler(): sending mouse input to server.
+03:17:36   51 Weapon::deserialize()
+03:17:36   52 Client::eventHandler(): sending mouse input to server.
+03:17:36   52 Weapon::deserialize()
+03:17:36   52 Weapon::deserialize(): ammo_loaded is 29
+03:17:36   53 Weapon::deserialize()
+03:17:36   54 Weapon::deserialize()
+03:17:37   56 Weapon::deserialize()
+03:17:37   57 Weapon::deserialize()
+03:17:37   58 Weapon::deserialize()
+03:17:37   59 Weapon::deserialize()
+03:17:37   60 Weapon::deserialize()
+03:17:37   61 Client::eventHandler(): sending mouse input to server.
+03:17:37   61 Weapon::deserialize()
+03:17:37   62 Client::eventHandler(): sending mouse input to server.
+03:17:37   62 Weapon::deserialize()
+03:17:37   63 Client::eventHandler(): sending mouse input to server.
+03:17:37   63 Client::eventHandler(): sending mouse input to server.
+03:17:37   63 Weapon::deserialize()
+03:17:37   64 Client::eventHandler(): sending mouse input to server.
+03:17:37   64 Weapon::deserialize()
+03:17:37   65 Client::eventHandler(): sending mouse input to server.
+03:17:37   65 Weapon::deserialize()
+03:17:37   66 Weapon::deserialize()
+03:17:37   67 Client::eventHandler(): sending keyboard input to server.
+03:17:37   67 Client::eventHandler(): sending keyboard input to server.
+03:17:37   67 Weapon::deserialize()
+03:17:37   68 Client::eventHandler(): sending keyboard input to server.
+03:17:37   68 Weapon::deserialize()
+03:17:37   69 Client::eventHandler(): sending keyboard input to server.
+03:17:37   69 Weapon::deserialize()
+03:17:37   70 Client::eventHandler(): sending keyboard input to server.
+03:17:37   70 Weapon::deserialize()
+03:17:37   71 Client::eventHandler(): sending keyboard input to server.
+03:17:37   71 Weapon::deserialize()
+03:17:37   72 Client::eventHandler(): sending mouse input to server.
+03:17:37   72 Client::eventHandler(): sending mouse input to server.
+03:17:37   72 Client::eventHandler(): sending keyboard input to server.
+03:17:37   72 Weapon::deserialize()
+03:17:37   73 Client::eventHandler(): sending mouse input to server.
+03:17:37   73 Client::eventHandler(): sending keyboard input to server.
+03:17:37   73 Weapon::deserialize()
+03:17:37   73 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+03:17:37   74 Client::eventHandler(): sending keyboard input to server.
+03:17:37   74 Client::eventHandler(): sending mouse input to server.
+03:17:37   74 Weapon::deserialize()
+03:17:37   74 Weapon::deserialize(): ammo_loaded is 28
+03:17:37   75 Client::eventHandler(): sending mouse input to server.
+03:17:37   75 Weapon::deserialize()
+03:17:37   76 Client::eventHandler(): sending mouse input to server.
+03:17:37   77 Client::eventHandler(): sending mouse input to server.
+03:17:37   77 Weapon::deserialize()
+03:17:37   78 Client::eventHandler(): sending mouse input to server.
+03:17:37   78 Weapon::deserialize()
+03:17:37   78 Weapon::deserialize(): ammo_loaded is 27
+03:17:37   79 Client::eventHandler(): sending mouse input to server.
+03:17:37   80 Client::eventHandler(): sending mouse input to server.
+03:17:37   80 Weapon::deserialize()
+03:17:37   81 Client::eventHandler(): sending mouse input to server.
+03:17:37   82 Client::eventHandler(): sending keyboard input to server.
+03:17:37   82 Client::eventHandler(): sending mouse input to server.
+03:17:37   82 Client::eventHandler(): sending keyboard input to server.
+03:17:37   82 Weapon::deserialize()
+03:17:37   83 Client::eventHandler(): sending mouse input to server.
+03:17:37   83 Client::eventHandler(): sending keyboard input to server.
+03:17:37   83 Weapon::deserialize()
+03:17:37   83 Weapon::deserialize(): ammo_loaded is 26
+03:17:37   84 Client::eventHandler(): sending mouse input to server.
+03:17:37   84 Client::eventHandler(): sending keyboard input to server.
+03:17:38   85 Client::eventHandler(): sending mouse input to server.
+03:17:38   85 Client::eventHandler(): sending mouse input to server.
+03:17:38   85 Client::eventHandler(): sending keyboard input to server.
+03:17:38   85 Weapon::deserialize()
+03:17:38   86 Client::eventHandler(): sending mouse input to server.
+03:17:38   86 Client::eventHandler(): sending keyboard input to server.
+03:17:38   86 Client::eventHandler(): sending mouse input to server.
+03:17:38   86 Client::eventHandler(): sending mouse input to server.
+03:17:38   87 Client::eventHandler(): sending mouse input to server.
+03:17:38   87 Weapon::deserialize()
+03:17:38   88 Client::eventHandler(): sending mouse input to server.
+03:17:38   88 Weapon::deserialize()
+03:17:38   89 Client::eventHandler(): sending mouse input to server.
+03:17:38   89 Weapon::deserialize()
+03:17:38   90 Client::eventHandler(): sending mouse input to server.
+03:17:38   90 Weapon::deserialize()
+03:17:38   91 Client::eventHandler(): sending mouse input to server.
+03:17:38   91 Weapon::deserialize()
+03:17:38   92 Client::eventHandler(): sending mouse input to server.
+03:17:38   92 Weapon::deserialize()
+03:17:38   93 Client::eventHandler(): sending mouse input to server.
+03:17:38   93 Weapon::deserialize()
+03:17:38   94 Weapon::deserialize()
+03:17:38   95 Weapon::deserialize()
+03:17:38   96 Weapon::deserialize()
+03:17:38   97 Client::eventHandler(): sending mouse input to server.
+03:17:38   97 Weapon::deserialize()
+03:17:38   98 Weapon::deserialize()
+03:17:38   99 Weapon::deserialize()
+03:17:38  100 Client::eventHandler(): sending keyboard input to server.
+03:17:38  100 Client::eventHandler(): sending keyboard input to server.
+03:17:38  100 Weapon::deserialize()
+03:17:38  101 Client::eventHandler(): sending keyboard input to server.
+03:17:38  101 Weapon::deserialize()
+03:17:38  102 Client::eventHandler(): sending keyboard input to server.
+03:17:38  102 Weapon::deserialize()
+03:17:38  102 Weapon::deserialize()
+03:17:38  103 Client::eventHandler(): sending keyboard input to server.
+03:17:38  103 Weapon::deserialize()
+03:17:38  104 Weapon::deserialize()
+03:17:38  105 Weapon::deserialize()
+03:17:38  106 Weapon::deserialize()
+03:17:38  107 Weapon::deserialize()
+03:17:38  108 Weapon::deserialize()
+03:17:38  109 Weapon::deserialize()
+03:17:38  110 Weapon::deserialize()
+03:17:38  111 Weapon::deserialize()
+03:17:38  112 Weapon::deserialize()
+03:17:38  113 Weapon::deserialize()
+03:17:38  114 Client::eventHandler(): sending keyboard input to server.
+03:17:38  114 Client::eventHandler(): sending keyboard input to server.
+03:17:38  114 Weapon::deserialize()
+03:17:38  115 Client::eventHandler(): sending keyboard input to server.
+03:17:38  115 Weapon::deserialize()
+03:17:39  116 Client::eventHandler(): sending keyboard input to server.
+03:17:39  116 Weapon::deserialize()
+03:17:39  117 Client::eventHandler(): sending keyboard input to server.
+03:17:39  117 Weapon::deserialize()
+03:17:39  118 Client::eventHandler(): sending mouse input to server.
+03:17:39  118 Client::eventHandler(): sending keyboard input to server.
+03:17:39  118 Weapon::deserialize()
+03:17:39  119 Client::eventHandler(): sending mouse input to server.
+03:17:39  119 Client::eventHandler(): sending keyboard input to server.
+03:17:39  119 Weapon::deserialize()
+03:17:39  120 Client::eventHandler(): sending mouse input to server.
+03:17:39  120 Client::eventHandler(): sending keyboard input to server.
+03:17:39  120 Weapon::deserialize()
+03:17:39  121 Client::eventHandler(): sending mouse input to server.
+03:17:39  121 Client::eventHandler(): sending keyboard input to server.
+03:17:39  121 Weapon::deserialize()
+03:17:39  122 Client::eventHandler(): sending mouse input to server.
+03:17:39  122 Client::eventHandler(): sending keyboard input to server.
+03:17:39  122 Client::eventHandler(): sending mouse input to server.
+03:17:39  122 Client::eventHandler(): sending mouse input to server.
+03:17:39  122 Weapon::deserialize()
+03:17:39  123 Client::eventHandler(): sending mouse input to server.
+03:17:39  123 Weapon::deserialize()
+03:17:39  124 Client::eventHandler(): sending mouse input to server.
+03:17:39  124 Weapon::deserialize()
+03:17:39  125 Weapon::deserialize()
+03:17:39  126 Weapon::deserialize()
+03:17:39  127 Weapon::deserialize()
+03:17:39  128 Weapon::deserialize()
+03:17:39  129 Client::eventHandler(): sending mouse input to server.
+03:17:39  129 Client::eventHandler(): sending mouse input to server.
+03:17:39  129 Client::eventHandler(): sending mouse input to server.
+03:17:39  129 Weapon::deserialize()
+03:17:39  130 Client::eventHandler(): sending mouse input to server.
+03:17:39  130 Client::eventHandler(): sending mouse input to server.
+03:17:39  130 Weapon::deserialize()
+03:17:39  131 Client::eventHandler(): sending mouse input to server.
+03:17:39  131 Weapon::deserialize()
+03:17:39  131 Weapon::deserialize(): is_scoping is true
+03:17:39  132 Weapon::deserialize()
+03:17:39  133 Weapon::deserialize()
+03:17:39  134 Weapon::deserialize()
+03:17:39  135 Weapon::deserialize()
+03:17:39  136 Weapon::deserialize()
+03:17:39  137 Weapon::deserialize()
+03:17:39  138 Weapon::deserialize()
+03:17:39  139 Weapon::deserialize()
+03:17:39  140 Weapon::deserialize()
+03:17:39  141 Weapon::deserialize()
+03:17:39  142 Weapon::deserialize()
+03:17:39  143 Weapon::deserialize()
+03:17:39  144 Weapon::deserialize()
+03:17:39  145 Weapon::deserialize()
+03:17:40  146 Weapon::deserialize()
+03:17:40  147 Weapon::deserialize()
+03:17:40  148 Weapon::deserialize()
+03:17:40  149 Weapon::deserialize()
+03:17:40  150 Weapon::deserialize()
+03:17:40  151 Weapon::deserialize()
+03:17:40  152 Client::eventHandler(): sending mouse input to server.
+03:17:40  152 Client::eventHandler(): sending mouse input to server.
+03:17:40  152 Weapon::deserialize()
+03:17:40  153 Client::eventHandler(): sending mouse input to server.
+03:17:40  153 Weapon::deserialize()
+03:17:40  154 Client::eventHandler(): sending mouse input to server.
+03:17:40  154 Weapon::deserialize()
+03:17:40  154 Weapon::deserialize(): ammo_loaded is 9
+03:17:40  156 Weapon::deserialize()
+03:17:40  157 Weapon::deserialize()
+03:17:40  158 Weapon::deserialize()
+03:17:40  159 Weapon::deserialize()
+03:17:40  160 Client::eventHandler(): sending mouse input to server.
+03:17:40  160 Client::eventHandler(): sending mouse input to server.
+03:17:40  160 Weapon::deserialize()
+03:17:40  161 Client::eventHandler(): sending mouse input to server.
+03:17:40  161 Weapon::deserialize()
+03:17:40  162 Client::eventHandler(): sending mouse input to server.
+03:17:40  162 Weapon::deserialize()
+03:17:40  163 Weapon::deserialize()
+03:17:40  164 Weapon::deserialize()
+03:17:40  165 Weapon::deserialize()
+03:17:40  166 Weapon::deserialize()
+03:17:40  167 Weapon::deserialize()
+03:17:40  168 Weapon::deserialize()
+03:17:40  169 Weapon::deserialize()
+03:17:40  170 Weapon::deserialize()
+03:17:40  171 Weapon::deserialize()
+03:17:40  172 Weapon::deserialize()
+03:17:40  173 Weapon::deserialize()
+03:17:40  174 Client::eventHandler(): sending keyboard input to server.
+03:17:40  174 Client::eventHandler(): sending keyboard input to server.
+03:17:40  174 Weapon::deserialize()
+03:17:40  175 Client::eventHandler(): sending mouse input to server.
+03:17:40  175 Client::eventHandler(): sending keyboard input to server.
+03:17:40  175 Weapon::deserialize()
+03:17:41  176 Client::eventHandler(): sending mouse input to server.
+03:17:41  176 Client::eventHandler(): sending keyboard input to server.
+03:17:41  176 Weapon::deserialize()
+03:17:41  177 Client::eventHandler(): sending mouse input to server.
+03:17:41  177 Client::eventHandler(): sending keyboard input to server.
+03:17:41  177 Weapon::deserialize()
+03:17:41  178 Client::eventHandler(): sending mouse input to server.
+03:17:41  178 Client::eventHandler(): sending keyboard input to server.
+03:17:41  178 Weapon::deserialize()
+03:17:41  179 Client::eventHandler(): sending mouse input to server.
+03:17:41  179 Client::eventHandler(): sending keyboard input to server.
+03:17:41  179 Client::eventHandler(): sending mouse input to server.
+03:17:41  179 Weapon::deserialize()
+03:17:41  180 Client::eventHandler(): sending mouse input to server.
+03:17:41  180 Weapon::deserialize()
+03:17:41  181 Client::eventHandler(): sending mouse input to server.
+03:17:41  181 Weapon::deserialize()
+03:17:41  182 Client::eventHandler(): sending mouse input to server.
+03:17:41  182 Weapon::deserialize()
+03:17:41  183 Client::eventHandler(): sending mouse input to server.
+03:17:41  183 Weapon::deserialize()
+03:17:41  184 Weapon::deserialize()
+03:17:41  185 Weapon::deserialize()
+03:17:41  186 Client::eventHandler(): sending mouse input to server.
+03:17:41  186 Weapon::deserialize()
+03:17:41  187 Client::eventHandler(): sending mouse input to server.
+03:17:41  187 Weapon::deserialize()
+03:17:41  188 Client::eventHandler(): sending mouse input to server.
+03:17:41  188 Weapon::deserialize()
+03:17:41  189 Client::eventHandler(): sending mouse input to server.
+03:17:41  189 Weapon::deserialize()
+03:17:41  190 Client::eventHandler(): sending mouse input to server.
+03:17:41  190 Weapon::deserialize()
+03:17:41  191 Client::eventHandler(): sending mouse input to server.
+03:17:41  191 Weapon::deserialize()
+03:17:41  192 Client::eventHandler(): sending mouse input to server.
+03:17:41  192 Weapon::deserialize()
+03:17:41  193 Client::eventHandler(): sending mouse input to server.
+03:17:41  193 Weapon::deserialize()
+03:17:41  194 Client::eventHandler(): sending mouse input to server.
+03:17:41  194 Weapon::deserialize()
+03:17:41  195 Client::eventHandler(): sending mouse input to server.
+03:17:41  195 Weapon::deserialize()
+03:17:41  196 Client::eventHandler(): sending mouse input to server.
+03:17:41  196 Weapon::deserialize()
+03:17:41  197 Client::eventHandler(): sending mouse input to server.
+03:17:41  197 Weapon::deserialize()
+03:17:41  198 Client::eventHandler(): sending mouse input to server.
+03:17:41  198 Weapon::deserialize()
+03:17:41  199 Client::eventHandler(): sending mouse input to server.
+03:17:41  199 Weapon::deserialize()
+03:17:41  200 Client::eventHandler(): sending mouse input to server.
+03:17:41  200 Weapon::deserialize()
+03:17:41  201 Client::eventHandler(): sending mouse input to server.
+03:17:41  201 Client::eventHandler(): sending mouse input to server.
+03:17:41  201 Weapon::deserialize()
+03:17:41  202 Client::eventHandler(): sending mouse input to server.
+03:17:41  202 Weapon::deserialize()
+03:17:41  203 Client::eventHandler(): sending mouse input to server.
+03:17:41  203 Weapon::deserialize()
+03:17:41  203 Weapon::deserialize(): ammo_loaded is 8
+03:17:41  204 Client::eventHandler(): sending mouse input to server.
+03:17:41  205 Client::eventHandler(): sending mouse input to server.
+03:17:41  205 Weapon::deserialize()
+03:17:42  206 Client::eventHandler(): sending mouse input to server.
+03:17:42  206 Weapon::deserialize()
+03:17:42  207 Weapon::deserialize()
+03:17:42  208 Weapon::deserialize()
+03:17:42  209 Weapon::deserialize()
+03:17:42  210 Client::eventHandler(): sending mouse input to server.
+03:17:42  210 Client::eventHandler(): sending mouse input to server.
+03:17:42  210 Weapon::deserialize()
+03:17:42  211 Client::eventHandler(): sending mouse input to server.
+03:17:42  211 Weapon::deserialize()
+03:17:42  212 Client::eventHandler(): sending mouse input to server.
+03:17:42  212 Weapon::deserialize()
+03:17:42  213 Weapon::deserialize()
+03:17:42  214 Weapon::deserialize()
+03:17:42  215 Weapon::deserialize()
+03:17:42  216 Weapon::deserialize()
+03:17:42  217 Weapon::deserialize()
+03:17:42  218 Weapon::deserialize()
+03:17:42  219 Client::eventHandler(): sending mouse input to server.
+03:17:42  219 Weapon::deserialize()
+03:17:42  220 Client::eventHandler(): sending mouse input to server.
+03:17:42  220 Weapon::deserialize()
+03:17:42  221 Client::eventHandler(): sending mouse input to server.
+03:17:42  221 Client::eventHandler(): sending mouse input to server.
+03:17:42  221 Weapon::deserialize()
+03:17:42  222 Client::eventHandler(): sending mouse input to server.
+03:17:42  222 Weapon::deserialize()
+03:17:42  223 Weapon::deserialize()
+03:17:42  224 Weapon::deserialize()
+03:17:42  225 Weapon::deserialize()
+03:17:42  226 Weapon::deserialize()
+03:17:42  227 Client::eventHandler(): sending mouse input to server.
+03:17:42  227 Weapon::deserialize()
+03:17:42  228 Weapon::deserialize()
+03:17:42  229 Weapon::deserialize()
+03:17:42  230 Weapon::deserialize()
+03:17:42  231 Weapon::deserialize()
+03:17:42  232 Weapon::deserialize()
+03:17:42  233 Weapon::deserialize()
+03:17:42  234 Weapon::deserialize()
+03:17:42  235 Weapon::deserialize()
+03:17:42  236 Weapon::deserialize()
+03:17:43  237 Weapon::deserialize()
+03:17:43  238 Weapon::deserialize()
+03:17:43  239 Weapon::deserialize()
+03:17:43  240 Weapon::deserialize()
+03:17:43  241 Weapon::deserialize()
+03:17:43  242 Weapon::deserialize()
+03:17:43  243 Weapon::deserialize()
+03:17:43  244 Client::eventHandler(): sending keyboard input to server.
+03:17:43  244 Client::eventHandler(): sending keyboard input to server.
+03:17:43  244 Weapon::deserialize()
+03:17:43  245 Client::eventHandler(): sending keyboard input to server.
+03:17:43  245 Weapon::deserialize()
+03:17:43  246 Client::eventHandler(): sending keyboard input to server.
+03:17:43  246 Weapon::deserialize()
+03:17:43  246 Weapon::deserialize(): is_scoping is false
+03:17:43  246 Weapon::deserialize()
+03:17:43  247 Client::eventHandler(): sending keyboard input to server.
+03:17:43  247 Weapon::deserialize()
+03:17:43  248 Client::eventHandler(): sending keyboard input to server.
+03:17:43  248 Weapon::deserialize()
+03:17:43  249 Weapon::deserialize()
+03:17:43  250 Weapon::deserialize()
+03:17:43  251 Weapon::deserialize()
+03:17:43  252 Weapon::deserialize()
+03:17:43  253 Weapon::deserialize()
+03:17:43  254 Weapon::deserialize()
+03:17:43  255 Weapon::deserialize()
+03:17:43  256 Weapon::deserialize()
+03:17:43  257 Weapon::deserialize()
+03:17:43  258 Weapon::deserialize()
+03:17:43  259 Weapon::deserialize()
+03:17:43  260 Client::eventHandler(): sending mouse input to server.
+03:17:43  260 Client::eventHandler(): sending mouse input to server.
+03:17:43  260 Weapon::deserialize()
+03:17:43  261 Client::eventHandler(): sending mouse input to server.
+03:17:43  261 Weapon::deserialize()
+03:17:43  262 Client::eventHandler(): sending mouse input to server.
+03:17:43  262 Weapon::deserialize()
+03:17:43  262 Weapon::deserialize(): ammo_loaded is 0
+03:17:43  263 Weapon::deserialize()
+03:17:43  265 Weapon::deserialize()
+03:17:43  266 Weapon::deserialize()
+03:17:44  267 Client::eventHandler(): sending mouse input to server.
+03:17:44  267 Client::eventHandler(): sending mouse input to server.
+03:17:44  267 Weapon::deserialize()
+03:17:44  268 Client::eventHandler(): sending mouse input to server.
+03:17:44  268 Weapon::deserialize()
+03:17:44  269 Weapon::deserialize()
+03:17:44  270 Weapon::deserialize()
+03:17:44  271 Weapon::deserialize()
+03:17:44  272 Weapon::deserialize()
+03:17:44  273 Weapon::deserialize()
+03:17:44  274 Weapon::deserialize()
+03:17:44  275 Weapon::deserialize()
+03:17:44  276 Client::eventHandler(): sending mouse input to server.
+03:17:44  276 Weapon::deserialize()
+03:17:44  277 Client::eventHandler(): sending mouse input to server.
+03:17:44  277 Weapon::deserialize()
+03:17:44  278 Client::eventHandler(): sending mouse input to server.
+03:17:44  278 Weapon::deserialize()
+03:17:44  279 Client::eventHandler(): sending mouse input to server.
+03:17:44  279 Weapon::deserialize()
+03:17:44  280 Client::eventHandler(): sending mouse input to server.
+03:17:44  280 Weapon::deserialize()
+03:17:44  281 Client::eventHandler(): sending mouse input to server.
+03:17:44  281 Weapon::deserialize()
+03:17:44  282 Client::eventHandler(): sending mouse input to server.
+03:17:44  282 Client::eventHandler(): sending mouse input to server.
+03:17:44  282 Weapon::deserialize()
+03:17:44  283 Client::eventHandler(): sending mouse input to server.
+03:17:44  283 Weapon::deserialize()
+03:17:44  284 Client::eventHandler(): sending mouse input to server.
+03:17:44  284 Weapon::deserialize()
+03:17:44  285 Client::eventHandler(): sending mouse input to server.
+03:17:44  285 Weapon::deserialize()
+03:17:44  286 Client::eventHandler(): sending mouse input to server.
+03:17:44  286 Weapon::deserialize()
+03:17:44  287 Client::eventHandler(): sending mouse input to server.
+03:17:44  287 Weapon::deserialize()
+03:17:44  288 Client::eventHandler(): sending mouse input to server.
+03:17:44  288 Weapon::deserialize()
+03:17:44  289 Weapon::deserialize()
+03:17:44  290 Weapon::deserialize()
+03:17:44  291 Weapon::deserialize()
+03:17:44  292 Weapon::deserialize()
+03:17:44  293 Weapon::deserialize()
+03:17:44  294 Weapon::deserialize()
+03:17:44  295 Weapon::deserialize()
+03:17:44  296 Weapon::deserialize()
+03:17:45  297 Weapon::deserialize()
+03:17:45  298 Weapon::deserialize()
+03:17:45  299 Weapon::deserialize()
+03:17:45  300 Weapon::deserialize()
+03:17:45  301 Weapon::deserialize()
+03:17:45  302 Weapon::deserialize()
+03:17:45  303 Weapon::deserialize()
+03:17:45  304 Client::eventHandler(): sending mouse input to server.
+03:17:45  304 Weapon::deserialize()
+03:17:45  305 Weapon::deserialize()
+03:17:45  306 Weapon::deserialize()
+03:17:45  307 Weapon::deserialize()
+03:17:45  308 Weapon::deserialize()
+03:17:45  308 Weapon::deserialize(): ammo_loaded is 1
+03:17:45  308 Weapon::deserialize(): ammo_backup is 29
+03:17:45  309 Weapon::deserialize()
+03:17:45  310 Weapon::deserialize()
+03:17:45  311 Weapon::deserialize()
+03:17:45  312 Weapon::deserialize()
+03:17:45  313 Weapon::deserialize()
+03:17:45  314 Weapon::deserialize()
+03:17:45  315 Weapon::deserialize()
+03:17:45  316 Weapon::deserialize()
+03:17:45  317 Weapon::deserialize()
+03:17:45  318 Weapon::deserialize()
+03:17:45  319 Weapon::deserialize()
+03:17:45  320 Weapon::deserialize()
+03:17:45  321 Weapon::deserialize()
+03:17:45  322 Weapon::deserialize()
+03:17:45  323 Weapon::deserialize()
+03:17:45  324 Weapon::deserialize()
+03:17:45  325 Weapon::deserialize()
+03:17:45  326 Weapon::deserialize()
+03:17:45  327 Weapon::deserialize()
+03:17:46  328 Weapon::deserialize()
+03:17:46  329 Weapon::deserialize()
+03:17:46  330 Weapon::deserialize()
+03:17:46  331 Weapon::deserialize()
+03:17:46  332 Weapon::deserialize()
+03:17:46  333 Weapon::deserialize()
+03:17:46  334 Weapon::deserialize()
+03:17:46  335 Weapon::deserialize()
+03:17:46  336 Weapon::deserialize()
+03:17:46  337 Weapon::deserialize()
+03:17:46  338 Weapon::deserialize()
+03:17:46  339 Weapon::deserialize()
+03:17:46  340 Weapon::deserialize()
+03:17:46  341 Weapon::deserialize()
+03:17:46  342 Weapon::deserialize()
+03:17:46  343 Weapon::deserialize()
+03:17:46  344 Weapon::deserialize()
+03:17:46  345 Weapon::deserialize()
+03:17:46  346 Weapon::deserialize()
+03:17:46  347 Weapon::deserialize()
+03:17:46  348 Weapon::deserialize()
+03:17:46  349 Weapon::deserialize()
+03:17:46  350 InputManager::getInput(): Window close event. Setting game over.
+03:17:46  350 Weapon::deserialize()
+03:17:46  350 Weapon::deserialize()
+03:17:46  350 Weapon::deserialize()
+03:17:46  351 GameManager::run(): end of game loop
+03:17:46  351 PathManager::shutDown(): successfully stopped.
+03:17:46  351 Path manager stopped
+03:17:46  351 WorldManager::shutDown(): Successfully stopped.
+03:17:46  351 World manager stopped
+03:17:46  351 ResourceManager::shutDown(): successfully stopped.
+03:17:46  351 Resource manager stopped
+03:17:46  351 NetworkManager::shutDown(): successfully stopped.
+03:17:46  351 Network manager stopped
+03:17:46  351 InputManager::shutDown(): successfully stopped.
+03:17:46  351 Input manager stopped
+03:17:46  351 DisplayManager::shutDown(): successfully stopped.
+03:17:46  351 Display manager stopped
+03:17:46  351 ** Game stopped **
+03:17:46  351 ****************************************************
+03:17:46  351 LogManager::shutDown(): successfully stopped.

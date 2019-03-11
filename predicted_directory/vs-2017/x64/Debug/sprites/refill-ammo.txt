@@ -1,0 +1,11 @@
+frames 1
+width 17
+height 5
+color green
+ ____.====.____  
+[______________] 
+|              |]
+|     AMMO     |/
+|______________| 
+end
+eof

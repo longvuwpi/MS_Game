@@ -1,0 +1,2198 @@
+04:20:39    0 ****************************************************
+04:20:39    0 ** Dragonfly version 4.9 **
+04:20:40    0 Hello, Network! (v1.2)
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+04:20:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+04:20:40    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+04:20:40    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+04:20:40    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+04:20:40    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+04:20:40    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+04:20:41    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+04:20:42    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+04:20:42    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+04:20:42    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+04:20:42    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+04:20:42    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+04:20:42    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+04:20:42    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+04:20:42    0 Client::Client(): Connecting to localhost at port 9876.
+04:20:42    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+04:20:42    0 NetworkManager::connect(): Connection established.
+04:20:42    0 Client::handleConnect(): Client connected!
+04:20:42    0 Client::Client(): Client started.
+04:20:42    0 GameManager::run(): starting game loop
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 Client::createObject(): creating object type 'Platform'
+04:20:42    0 GameManager::run(): Warning! Residual network data.
+04:20:42    1 Client::eventHandler(): sending mouse input to server.
+04:20:42    1 Client::createObject(): creating object type 'Platform'
+04:20:42    1 Client::createObject(): creating object type 'Platform'
+04:20:42    1 Client::createObject(): creating object type 'Platform'
+04:20:42    1 Client::createObject(): creating object type 'Hero'
+04:20:42    1 Hero::deserialize()
+04:20:42    1 Hero::deserialize(): current weapon is 1
+04:20:42    1 Hero::deserialize()
+04:20:42    1 GameManager::run(): Warning! Residual network data.
+04:20:43    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 92 ms
+04:20:43    2 Client::eventHandler(): sending mouse input to server.
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 Weapon::deserialize(): fire_count_down is 0
+04:20:43    2 Weapon::deserialize(): ammo_loaded is 30
+04:20:43    2 Weapon::deserialize(): ammo_backup is 90
+04:20:43    2 Weapon::deserialize(): is_scoping is false
+04:20:43    2 Weapon::deserialize(): reloading is false
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+04:20:43    2 Weapon::deserialize(): fire_count_down is 0
+04:20:43    2 Weapon::deserialize(): ammo_loaded is 10
+04:20:43    2 Weapon::deserialize(): ammo_backup is 30
+04:20:43    2 Weapon::deserialize(): is_scoping is false
+04:20:43    2 Weapon::deserialize(): reloading is false
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+04:20:43    2 Weapon::deserialize(): fire_count_down is 0
+04:20:43    2 Weapon::deserialize(): ammo_loaded is 1
+04:20:43    2 Weapon::deserialize(): ammo_backup is 30
+04:20:43    2 Weapon::deserialize(): is_scoping is false
+04:20:43    2 Weapon::deserialize(): reloading is false
+04:20:43    2 Hero::deserialize()
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 Hero::deserialize()
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 Hero::deserialize()
+04:20:43    2 Weapon::deserialize()
+04:20:43    2 Hero::deserialize()
+04:20:43    2 GameManager::run(): Warning! Residual network data.
+04:20:43    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+04:20:43    3 Client::eventHandler(): sending mouse input to server.
+04:20:43    3 Weapon::deserialize()
+04:20:43    3 Hero::deserialize()
+04:20:43    3 Weapon::deserialize()
+04:20:43    3 Hero::deserialize()
+04:20:43    3 Weapon::deserialize()
+04:20:43    3 Hero::deserialize()
+04:20:43    3 Weapon::deserialize()
+04:20:43    3 Hero::deserialize()
+04:20:43    3 Weapon::deserialize()
+04:20:43    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 80 ms
+04:20:43    4 Client::eventHandler(): sending mouse input to server.
+04:20:43    4 Hero::deserialize()
+04:20:43    4 Weapon::deserialize()
+04:20:43    4 Hero::deserialize()
+04:20:43    4 Weapon::deserialize()
+04:20:43    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 84 ms
+04:20:43    5 Client::eventHandler(): sending mouse input to server.
+04:20:43    5 Hero::deserialize()
+04:20:43    5 Weapon::deserialize()
+04:20:43    5 Hero::deserialize()
+04:20:43    5 Weapon::deserialize()
+04:20:43    5 Hero::deserialize()
+04:20:43    5 Weapon::deserialize()
+04:20:43    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 85 ms
+04:20:43    6 Client::eventHandler(): sending mouse input to server.
+04:20:43    6 Hero::deserialize()
+04:20:43    6 Weapon::deserialize()
+04:20:43    6 Hero::deserialize()
+04:20:43    6 Weapon::deserialize()
+04:20:43    6 Hero::deserialize()
+04:20:43    6 Weapon::deserialize()
+04:20:43    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 84 ms
+04:20:43    7 Hero::deserialize()
+04:20:43    7 Weapon::deserialize()
+04:20:43    7 Hero::deserialize()
+04:20:43    7 Weapon::deserialize()
+04:20:43    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 83 ms
+04:20:43    8 Client::eventHandler(): sending mouse input to server.
+04:20:43    8 Hero::deserialize()
+04:20:43    8 Weapon::deserialize()
+04:20:43    8 Hero::deserialize()
+04:20:43    8 Weapon::deserialize()
+04:20:43    8 Hero::deserialize()
+04:20:43    8 Weapon::deserialize()
+04:20:43    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 80 ms
+04:20:43    9 Client::eventHandler(): sending mouse input to server.
+04:20:43    9 Hero::deserialize()
+04:20:43    9 Weapon::deserialize()
+04:20:43    9 Hero::deserialize()
+04:20:43    9 Weapon::deserialize()
+04:20:43    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 81 ms
+04:20:43   10 Client::eventHandler(): sending mouse input to server.
+04:20:43   10 Hero::deserialize()
+04:20:43   10 Weapon::deserialize()
+04:20:43   10 Hero::deserialize()
+04:20:43   10 Weapon::deserialize()
+04:20:43   10 Hero::deserialize()
+04:20:43   10 Weapon::deserialize()
+04:20:43   11 Client::eventHandler(): sending mouse input to server.
+04:20:43   12 Client::eventHandler(): sending mouse input to server.
+04:20:43   12 Hero::deserialize()
+04:20:43   12 Weapon::deserialize()
+04:20:43   12 Hero::deserialize()
+04:20:43   12 Weapon::deserialize()
+04:20:43   13 Client::eventHandler(): sending mouse input to server.
+04:20:43   14 Hero::deserialize()
+04:20:43   14 Weapon::deserialize()
+04:20:43   15 Client::eventHandler(): sending mouse input to server.
+04:20:43   15 Hero::deserialize()
+04:20:43   15 Weapon::deserialize()
+04:20:43   15 Hero::deserialize()
+04:20:43   15 Weapon::deserialize()
+04:20:43   16 Client::eventHandler(): sending mouse input to server.
+04:20:43   17 Client::eventHandler(): sending mouse input to server.
+04:20:43   17 Hero::deserialize()
+04:20:43   17 Weapon::deserialize()
+04:20:43   18 Hero::deserialize()
+04:20:43   18 Weapon::deserialize()
+04:20:43   18 Hero::deserialize()
+04:20:43   18 Weapon::deserialize()
+04:20:44   20 Hero::deserialize()
+04:20:44   20 Weapon::deserialize()
+04:20:44   21 Hero::deserialize()
+04:20:44   21 Weapon::deserialize()
+04:20:44   21 Hero::deserialize()
+04:20:44   21 Weapon::deserialize()
+04:20:44   23 Hero::deserialize()
+04:20:44   23 Weapon::deserialize()
+04:20:44   23 Hero::deserialize()
+04:20:44   23 Weapon::deserialize()
+04:20:44   25 Hero::deserialize()
+04:20:44   25 Weapon::deserialize()
+04:20:44   25 Hero::deserialize()
+04:20:44   25 Weapon::deserialize()
+04:20:44   27 Hero::deserialize()
+04:20:44   27 Weapon::deserialize()
+04:20:44   27 Hero::deserialize()
+04:20:44   27 Weapon::deserialize()
+04:20:44   28 Hero::deserialize()
+04:20:44   28 Weapon::deserialize()
+04:20:44   30 Hero::deserialize()
+04:20:44   30 Weapon::deserialize()
+04:20:44   30 Hero::deserialize()
+04:20:44   30 Weapon::deserialize()
+04:20:44   31 Hero::deserialize()
+04:20:44   31 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 Hero::deserialize()
+04:20:45   33 Weapon::deserialize()
+04:20:45   33 GameManager::run(): Warning! Residual network data.
+04:20:45   34 Hero::deserialize()
+04:20:45   34 Weapon::deserialize()
+04:20:45   34 Hero::deserialize()
+04:20:45   34 Weapon::deserialize()
+04:20:45   34 Hero::deserialize()
+04:20:45   34 Weapon::deserialize()
+04:20:45   34 Hero::deserialize()
+04:20:45   34 GameManager::run(): Warning! Residual network data.
+04:20:45   34 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 Hero::deserialize()
+04:20:45   35 Weapon::deserialize()
+04:20:45   35 GameManager::run(): Warning! Residual network data.
+04:20:45   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+04:20:45   36 Client::eventHandler(): sending mouse input to server.
+04:20:45   36 Hero::deserialize()
+04:20:45   36 Weapon::deserialize()
+04:20:45   36 Hero::deserialize()
+04:20:45   36 Weapon::deserialize()
+04:20:45   36 Hero::deserialize()
+04:20:45   36 Weapon::deserialize()
+04:20:45   36 Hero::deserialize()
+04:20:45   36 Weapon::deserialize()
+04:20:45   36 Hero::deserialize()
+04:20:45   36 Weapon::deserialize()
+04:20:45   36 GameManager::run(): Warning! Residual network data.
+04:20:45   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+04:20:45   37 Client::eventHandler(): sending mouse input to server.
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 Weapon::deserialize()
+04:20:45   37 Hero::deserialize()
+04:20:45   37 GameManager::run(): Warning! Residual network data.
+04:20:45   37 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+04:20:45   38 Client::eventHandler(): sending mouse input to server.
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 Weapon::deserialize()
+04:20:45   38 Hero::deserialize()
+04:20:45   38 GameManager::run(): Warning! Residual network data.
+04:20:45   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+04:20:45   39 Client::eventHandler(): sending mouse input to server.
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 Hero::deserialize()
+04:20:45   39 Weapon::deserialize()
+04:20:45   39 GameManager::run(): Warning! Residual network data.
+04:20:45   39 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+04:20:45   40 Client::eventHandler(): sending mouse input to server.
+04:20:45   40 Hero::deserialize()
+04:20:45   40 Weapon::deserialize()
+04:20:45   40 Hero::deserialize()
+04:20:45   40 Weapon::deserialize()
+04:20:45   40 Hero::deserialize()
+04:20:45   40 Weapon::deserialize()
+04:20:45   40 Hero::deserialize()
+04:20:45   40 Weapon::deserialize()
+04:20:45   41 Client::eventHandler(): sending mouse input to server.
+04:20:45   41 Hero::deserialize()
+04:20:45   41 Weapon::deserialize()
+04:20:46   42 Hero::deserialize()
+04:20:46   42 Weapon::deserialize()
+04:20:46   43 Hero::deserialize()
+04:20:46   43 Weapon::deserialize()
+04:20:46   44 Hero::deserialize()
+04:20:46   44 Weapon::deserialize()
+04:20:46   45 Hero::deserialize()
+04:20:46   45 Weapon::deserialize()
+04:20:46   46 Hero::deserialize()
+04:20:46   46 Weapon::deserialize()
+04:20:46   47 Client::eventHandler(): sending mouse input to server.
+04:20:46   47 Hero::deserialize()
+04:20:46   47 Weapon::deserialize()
+04:20:46   48 Client::eventHandler(): sending mouse input to server.
+04:20:46   48 Hero::deserialize()
+04:20:46   48 Weapon::deserialize()
+04:20:46   49 Client::eventHandler(): sending mouse input to server.
+04:20:46   49 Hero::deserialize()
+04:20:46   49 Weapon::deserialize()
+04:20:46   50 Client::eventHandler(): sending mouse input to server.
+04:20:46   50 Hero::deserialize()
+04:20:46   50 Weapon::deserialize()
+04:20:46   51 Hero::deserialize()
+04:20:46   51 Weapon::deserialize()
+04:20:46   52 Hero::deserialize()
+04:20:46   52 Weapon::deserialize()
+04:20:46   53 Hero::deserialize()
+04:20:46   53 Weapon::deserialize()
+04:20:46   54 Hero::deserialize()
+04:20:46   54 Weapon::deserialize()
+04:20:46   55 Client::eventHandler(): sending mouse input to server.
+04:20:46   55 Hero::deserialize()
+04:20:46   55 Weapon::deserialize()
+04:20:46   56 Hero::deserialize()
+04:20:46   56 Weapon::deserialize()
+04:20:46   57 Hero::deserialize()
+04:20:46   57 Weapon::deserialize()
+04:20:46   57 Hero::deserialize()
+04:20:46   57 Weapon::deserialize()
+04:20:46   58 Hero::deserialize()
+04:20:46   58 Weapon::deserialize()
+04:20:46   59 Hero::deserialize()
+04:20:46   59 Weapon::deserialize()
+04:20:46   60 Hero::deserialize()
+04:20:46   60 Weapon::deserialize()
+04:20:46   61 Hero::deserialize()
+04:20:46   61 Weapon::deserialize()
+04:20:46   62 Hero::deserialize()
+04:20:46   62 Weapon::deserialize()
+04:20:46   63 Client::eventHandler(): sending mouse input to server.
+04:20:46   63 Client::eventHandler(): sending mouse input to server.
+04:20:46   63 Hero::deserialize()
+04:20:46   63 Weapon::deserialize()
+04:20:46   64 Client::eventHandler(): sending mouse input to server.
+04:20:46   64 Hero::deserialize()
+04:20:46   64 Weapon::deserialize()
+04:20:46   65 Hero::deserialize()
+04:20:46   65 Weapon::deserialize()
+04:20:46   65 Weapon::deserialize(): fire_count_down is 3
+04:20:46   65 Weapon::deserialize(): ammo_loaded is 29
+04:20:46   67 Hero::deserialize()
+04:20:46   67 Weapon::deserialize()
+04:20:46   67 Weapon::deserialize(): fire_count_down is 2
+04:20:46   68 Hero::deserialize()
+04:20:46   68 Weapon::deserialize()
+04:20:46   68 Weapon::deserialize(): fire_count_down is 1
+04:20:46   69 Client::eventHandler(): sending mouse input to server.
+04:20:46   69 Client::eventHandler(): sending mouse input to server.
+04:20:46   69 Hero::deserialize()
+04:20:46   69 Weapon::deserialize()
+04:20:46   69 Weapon::deserialize(): fire_count_down is 0
+04:20:46   70 Client::eventHandler(): sending mouse input to server.
+04:20:46   70 Hero::deserialize()
+04:20:46   70 Weapon::deserialize()
+04:20:46   71 Hero::deserialize()
+04:20:46   71 Weapon::deserialize()
+04:20:46   71 Weapon::deserialize(): fire_count_down is 3
+04:20:46   71 Weapon::deserialize(): ammo_loaded is 28
+04:20:47   72 Hero::deserialize()
+04:20:47   72 Weapon::deserialize()
+04:20:47   72 Weapon::deserialize(): fire_count_down is 2
+04:20:47   74 Hero::deserialize()
+04:20:47   74 Weapon::deserialize()
+04:20:47   74 Weapon::deserialize(): fire_count_down is 1
+04:20:47   75 Hero::deserialize()
+04:20:47   75 Weapon::deserialize()
+04:20:47   75 Weapon::deserialize(): fire_count_down is 0
+04:20:47   76 Hero::deserialize()
+04:20:47   76 Weapon::deserialize()
+04:20:47   77 Hero::deserialize()
+04:20:47   77 Weapon::deserialize()
+04:20:47   78 Hero::deserialize()
+04:20:47   78 Weapon::deserialize()
+04:20:47   79 Hero::deserialize()
+04:20:47   79 Weapon::deserialize()
+04:20:47   80 Hero::deserialize()
+04:20:47   80 Weapon::deserialize()
+04:20:47   81 Hero::deserialize()
+04:20:47   81 Weapon::deserialize()
+04:20:47   82 Hero::deserialize()
+04:20:47   82 Weapon::deserialize()
+04:20:47   83 Hero::deserialize()
+04:20:47   83 Weapon::deserialize()
+04:20:47   84 Hero::deserialize()
+04:20:47   84 Weapon::deserialize()
+04:20:47   85 Hero::deserialize()
+04:20:47   85 Weapon::deserialize()
+04:20:47   86 Hero::deserialize()
+04:20:47   86 Weapon::deserialize()
+04:20:47   87 Hero::deserialize()
+04:20:47   87 Weapon::deserialize()
+04:20:47   88 Hero::deserialize()
+04:20:47   88 Weapon::deserialize()
+04:20:47   89 Hero::deserialize()
+04:20:47   89 Weapon::deserialize()
+04:20:47   90 Hero::deserialize()
+04:20:47   90 Weapon::deserialize()
+04:20:47   91 Hero::deserialize()
+04:20:47   91 Weapon::deserialize()
+04:20:47   92 Hero::deserialize()
+04:20:47   92 Weapon::deserialize()
+04:20:47   93 Hero::deserialize()
+04:20:47   93 Weapon::deserialize()
+04:20:47   94 Hero::deserialize()
+04:20:47   94 Weapon::deserialize()
+04:20:47   95 Hero::deserialize()
+04:20:47   95 Weapon::deserialize()
+04:20:47   96 Hero::deserialize()
+04:20:47   96 Weapon::deserialize()
+04:20:47   97 Hero::deserialize()
+04:20:47   97 Weapon::deserialize()
+04:20:47   98 Hero::deserialize()
+04:20:47   98 Weapon::deserialize()
+04:20:47   99 Client::eventHandler(): sending keyboard input to server.
+04:20:47   99 Client::eventHandler(): sending keyboard input to server.
+04:20:47   99 Hero::deserialize()
+04:20:47   99 Weapon::deserialize()
+04:20:47  100 Client::eventHandler(): sending keyboard input to server.
+04:20:47  100 Hero::deserialize()
+04:20:47  100 Weapon::deserialize()
+04:20:47  101 Client::eventHandler(): sending keyboard input to server.
+04:20:47  101 Hero::deserialize()
+04:20:47  101 Weapon::deserialize()
+04:20:47  101 Weapon::deserialize()
+04:20:47  102 Client::eventHandler(): sending keyboard input to server.
+04:20:47  102 Hero::deserialize()
+04:20:47  102 Weapon::deserialize()
+04:20:48  103 Client::eventHandler(): sending keyboard input to server.
+04:20:48  103 Hero::deserialize()
+04:20:48  103 Weapon::deserialize()
+04:20:48  104 Hero::deserialize()
+04:20:48  104 Weapon::deserialize()
+04:20:48  105 Hero::deserialize()
+04:20:48  105 Weapon::deserialize()
+04:20:48  106 Hero::deserialize()
+04:20:48  106 Weapon::deserialize()
+04:20:48  107 Hero::deserialize()
+04:20:48  107 Weapon::deserialize()
+04:20:48  108 Hero::deserialize()
+04:20:48  108 Weapon::deserialize()
+04:20:48  109 Hero::deserialize()
+04:20:48  109 Weapon::deserialize()
+04:20:48  110 Hero::deserialize()
+04:20:48  110 Weapon::deserialize()
+04:20:48  111 Hero::deserialize()
+04:20:48  111 Weapon::deserialize()
+04:20:48  112 Hero::deserialize()
+04:20:48  112 Weapon::deserialize()
+04:20:48  113 Hero::deserialize()
+04:20:48  113 Weapon::deserialize()
+04:20:48  114 Hero::deserialize()
+04:20:48  114 Weapon::deserialize()
+04:20:48  115 Hero::deserialize()
+04:20:48  115 Weapon::deserialize()
+04:20:48  116 Hero::deserialize()
+04:20:48  116 Weapon::deserialize()
+04:20:48  117 Hero::deserialize()
+04:20:48  117 Weapon::deserialize()
+04:20:48  118 Hero::deserialize()
+04:20:48  118 Weapon::deserialize()
+04:20:48  119 Hero::deserialize()
+04:20:48  119 Weapon::deserialize()
+04:20:48  120 Hero::deserialize()
+04:20:48  120 Weapon::deserialize()
+04:20:48  121 Hero::deserialize()
+04:20:48  121 Weapon::deserialize()
+04:20:48  122 Hero::deserialize()
+04:20:48  122 Weapon::deserialize()
+04:20:48  123 Hero::deserialize()
+04:20:48  123 Weapon::deserialize()
+04:20:48  124 Hero::deserialize()
+04:20:48  124 Weapon::deserialize()
+04:20:48  125 Hero::deserialize()
+04:20:48  125 Weapon::deserialize()
+04:20:48  126 Hero::deserialize()
+04:20:48  126 Weapon::deserialize()
+04:20:48  127 Hero::deserialize()
+04:20:48  127 Weapon::deserialize()
+04:20:48  128 Hero::deserialize()
+04:20:48  128 Weapon::deserialize()
+04:20:48  129 Hero::deserialize()
+04:20:48  129 Weapon::deserialize()
+04:20:48  130 Hero::deserialize()
+04:20:48  130 Weapon::deserialize()
+04:20:48  131 Hero::deserialize()
+04:20:48  131 Weapon::deserialize()
+04:20:48  132 Hero::deserialize()
+04:20:48  132 Weapon::deserialize()
+04:20:49  133 Hero::deserialize()
+04:20:49  133 Weapon::deserialize()
+04:20:49  134 Hero::deserialize()
+04:20:49  134 Weapon::deserialize()
+04:20:49  135 Hero::deserialize()
+04:20:49  135 Weapon::deserialize()
+04:20:49  136 Hero::deserialize()
+04:20:49  136 Weapon::deserialize()
+04:20:49  137 Hero::deserialize()
+04:20:49  137 Weapon::deserialize()
+04:20:49  138 Hero::deserialize()
+04:20:49  138 Weapon::deserialize()
+04:20:49  139 Hero::deserialize()
+04:20:49  139 Weapon::deserialize()
+04:20:49  140 Hero::deserialize()
+04:20:49  140 Weapon::deserialize()
+04:20:49  141 Client::eventHandler(): sending keyboard input to server.
+04:20:49  141 Client::eventHandler(): sending keyboard input to server.
+04:20:49  141 Hero::deserialize()
+04:20:49  141 Weapon::deserialize()
+04:20:49  142 Client::eventHandler(): sending keyboard input to server.
+04:20:49  142 Hero::deserialize()
+04:20:49  142 Weapon::deserialize()
+04:20:49  143 Client::eventHandler(): sending keyboard input to server.
+04:20:49  143 Hero::deserialize()
+04:20:49  143 Weapon::deserialize()
+04:20:49  144 Client::eventHandler(): sending keyboard input to server.
+04:20:49  144 Hero::deserialize()
+04:20:49  144 Weapon::deserialize()
+04:20:49  145 Client::eventHandler(): sending keyboard input to server.
+04:20:49  145 Hero::deserialize()
+04:20:49  145 Weapon::deserialize()
+04:20:49  146 Client::eventHandler(): sending keyboard input to server.
+04:20:49  146 Hero::deserialize()
+04:20:49  146 Weapon::deserialize()
+04:20:49  147 Client::eventHandler(): sending keyboard input to server.
+04:20:49  147 Hero::deserialize()
+04:20:49  147 Weapon::deserialize()
+04:20:49  148 Client::eventHandler(): sending keyboard input to server.
+04:20:49  148 Hero::deserialize()
+04:20:49  148 Weapon::deserialize()
+04:20:49  149 Hero::deserialize()
+04:20:49  149 Weapon::deserialize()
+04:20:49  150 Hero::deserialize()
+04:20:49  150 Weapon::deserialize()
+04:20:49  151 Hero::deserialize()
+04:20:49  151 Weapon::deserialize()
+04:20:49  152 Hero::deserialize()
+04:20:49  152 Weapon::deserialize()
+04:20:49  153 Hero::deserialize()
+04:20:49  153 Weapon::deserialize()
+04:20:49  154 Hero::deserialize()
+04:20:49  154 Weapon::deserialize()
+04:20:49  155 Hero::deserialize()
+04:20:49  155 Weapon::deserialize()
+04:20:49  156 Client::eventHandler(): sending keyboard input to server.
+04:20:49  156 Client::eventHandler(): sending keyboard input to server.
+04:20:49  156 Hero::deserialize()
+04:20:49  156 Weapon::deserialize()
+04:20:49  157 Client::eventHandler(): sending keyboard input to server.
+04:20:49  157 Hero::deserialize()
+04:20:49  157 Weapon::deserialize()
+04:20:49  158 Client::eventHandler(): sending keyboard input to server.
+04:20:49  158 Hero::deserialize()
+04:20:49  158 Weapon::deserialize()
+04:20:49  159 Client::eventHandler(): sending keyboard input to server.
+04:20:49  159 Hero::deserialize()
+04:20:49  159 Weapon::deserialize()
+04:20:49  160 Client::eventHandler(): sending keyboard input to server.
+04:20:49  160 Hero::deserialize()
+04:20:49  160 Weapon::deserialize()
+04:20:49  161 Client::eventHandler(): sending keyboard input to server.
+04:20:49  161 Hero::deserialize()
+04:20:49  161 Weapon::deserialize()
+04:20:49  162 Client::eventHandler(): sending keyboard input to server.
+04:20:49  162 Hero::deserialize()
+04:20:49  162 Weapon::deserialize()
+04:20:50  163 Hero::deserialize()
+04:20:50  163 Weapon::deserialize()
+04:20:50  164 Hero::deserialize()
+04:20:50  164 Weapon::deserialize()
+04:20:50  165 Hero::deserialize()
+04:20:50  165 Weapon::deserialize()
+04:20:50  166 Hero::deserialize()
+04:20:50  166 Weapon::deserialize()
+04:20:50  167 Hero::deserialize()
+04:20:50  167 Weapon::deserialize()
+04:20:50  168 Hero::deserialize()
+04:20:50  168 Weapon::deserialize()
+04:20:50  169 Hero::deserialize()
+04:20:50  169 Weapon::deserialize()
+04:20:50  170 Hero::deserialize()
+04:20:50  170 Weapon::deserialize()
+04:20:50  171 Hero::deserialize()
+04:20:50  171 Weapon::deserialize()
+04:20:50  172 Hero::deserialize()
+04:20:50  172 Weapon::deserialize()
+04:20:50  173 Hero::deserialize()
+04:20:50  173 Weapon::deserialize()
+04:20:50  174 Hero::deserialize()
+04:20:50  174 Weapon::deserialize()
+04:20:50  175 Hero::deserialize()
+04:20:50  175 Weapon::deserialize()
+04:20:50  176 Hero::deserialize()
+04:20:50  176 Weapon::deserialize()
+04:20:50  177 Hero::deserialize()
+04:20:50  177 Weapon::deserialize()
+04:20:50  178 Hero::deserialize()
+04:20:50  178 Weapon::deserialize()
+04:20:50  179 Hero::deserialize()
+04:20:50  179 Weapon::deserialize()
+04:20:50  180 Hero::deserialize()
+04:20:50  180 Weapon::deserialize()
+04:20:50  181 Hero::deserialize()
+04:20:50  181 Weapon::deserialize()
+04:20:50  182 Hero::deserialize()
+04:20:50  182 Weapon::deserialize()
+04:20:50  183 Hero::deserialize()
+04:20:50  183 Weapon::deserialize()
+04:20:50  184 Hero::deserialize()
+04:20:50  184 Weapon::deserialize()
+04:20:50  185 Hero::deserialize()
+04:20:50  185 Weapon::deserialize()
+04:20:50  186 Hero::deserialize()
+04:20:50  186 Weapon::deserialize()
+04:20:50  187 Hero::deserialize()
+04:20:50  187 Weapon::deserialize()
+04:20:50  188 Hero::deserialize()
+04:20:50  188 Weapon::deserialize()
+04:20:50  189 Hero::deserialize()
+04:20:50  189 Weapon::deserialize()
+04:20:50  190 Hero::deserialize()
+04:20:50  190 Weapon::deserialize()
+04:20:50  191 Hero::deserialize()
+04:20:50  191 Weapon::deserialize()
+04:20:50  192 Hero::deserialize()
+04:20:50  192 Weapon::deserialize()
+04:20:50  193 Client::eventHandler(): sending mouse input to server.
+04:20:50  193 Client::eventHandler(): sending mouse input to server.
+04:20:50  193 Hero::deserialize()
+04:20:50  193 Weapon::deserialize()
+04:20:51  194 Client::eventHandler(): sending mouse input to server.
+04:20:51  194 Hero::deserialize()
+04:20:51  194 Weapon::deserialize()
+04:20:51  195 Client::eventHandler(): sending mouse input to server.
+04:20:51  195 Hero::deserialize()
+04:20:51  195 Weapon::deserialize()
+04:20:51  195 Weapon::deserialize(): fire_count_down is 40
+04:20:51  195 Weapon::deserialize(): ammo_loaded is 9
+04:20:51  196 Client::eventHandler(): sending mouse input to server.
+04:20:51  196 Hero::deserialize()
+04:20:51  196 Weapon::deserialize()
+04:20:51  196 Weapon::deserialize(): fire_count_down is 39
+04:20:51  198 Hero::deserialize()
+04:20:51  198 Weapon::deserialize()
+04:20:51  198 Weapon::deserialize(): fire_count_down is 38
+04:20:51  199 Hero::deserialize()
+04:20:51  199 Weapon::deserialize()
+04:20:51  199 Weapon::deserialize(): fire_count_down is 37
+04:20:51  200 Hero::deserialize()
+04:20:51  200 Weapon::deserialize()
+04:20:51  200 Weapon::deserialize(): fire_count_down is 36
+04:20:51  201 Hero::deserialize()
+04:20:51  201 Weapon::deserialize()
+04:20:51  201 Weapon::deserialize(): fire_count_down is 35
+04:20:51  202 Hero::deserialize()
+04:20:51  202 Weapon::deserialize()
+04:20:51  202 Weapon::deserialize(): fire_count_down is 34
+04:20:51  203 Hero::deserialize()
+04:20:51  203 Weapon::deserialize()
+04:20:51  203 Weapon::deserialize(): fire_count_down is 33
+04:20:51  204 Hero::deserialize()
+04:20:51  204 Weapon::deserialize()
+04:20:51  204 Weapon::deserialize(): fire_count_down is 32
+04:20:51  205 Hero::deserialize()
+04:20:51  205 Weapon::deserialize()
+04:20:51  205 Weapon::deserialize(): fire_count_down is 31
+04:20:51  206 Hero::deserialize()
+04:20:51  206 Weapon::deserialize()
+04:20:51  206 Weapon::deserialize(): fire_count_down is 30
+04:20:51  207 Hero::deserialize()
+04:20:51  207 Weapon::deserialize()
+04:20:51  207 Weapon::deserialize(): fire_count_down is 29
+04:20:51  208 Hero::deserialize()
+04:20:51  208 Weapon::deserialize()
+04:20:51  208 Weapon::deserialize(): fire_count_down is 28
+04:20:51  209 Hero::deserialize()
+04:20:51  209 Weapon::deserialize()
+04:20:51  209 Weapon::deserialize(): fire_count_down is 27
+04:20:51  210 Hero::deserialize()
+04:20:51  210 Weapon::deserialize()
+04:20:51  210 Weapon::deserialize(): fire_count_down is 26
+04:20:51  211 Hero::deserialize()
+04:20:51  211 Weapon::deserialize()
+04:20:51  211 Weapon::deserialize(): fire_count_down is 25
+04:20:51  212 Hero::deserialize()
+04:20:51  212 Weapon::deserialize()
+04:20:51  212 Weapon::deserialize(): fire_count_down is 24
+04:20:51  213 Hero::deserialize()
+04:20:51  213 Weapon::deserialize()
+04:20:51  213 Weapon::deserialize(): fire_count_down is 23
+04:20:51  214 Hero::deserialize()
+04:20:51  214 Weapon::deserialize()
+04:20:51  214 Weapon::deserialize(): fire_count_down is 22
+04:20:51  215 Hero::deserialize()
+04:20:51  215 Weapon::deserialize()
+04:20:51  215 Weapon::deserialize(): fire_count_down is 21
+04:20:51  216 Hero::deserialize()
+04:20:51  216 Weapon::deserialize()
+04:20:51  216 Weapon::deserialize(): fire_count_down is 20
+04:20:51  217 Hero::deserialize()
+04:20:51  217 Weapon::deserialize()
+04:20:51  217 Weapon::deserialize(): fire_count_down is 19
+04:20:51  218 Hero::deserialize()
+04:20:51  218 Weapon::deserialize()
+04:20:51  218 Weapon::deserialize(): fire_count_down is 18
+04:20:51  219 Hero::deserialize()
+04:20:51  219 Weapon::deserialize()
+04:20:51  219 Weapon::deserialize(): fire_count_down is 17
+04:20:51  220 Hero::deserialize()
+04:20:51  220 Weapon::deserialize()
+04:20:51  220 Weapon::deserialize(): fire_count_down is 16
+04:20:51  221 Hero::deserialize()
+04:20:51  221 Weapon::deserialize()
+04:20:51  221 Weapon::deserialize(): fire_count_down is 15
+04:20:51  222 Hero::deserialize()
+04:20:51  222 Weapon::deserialize()
+04:20:51  222 Weapon::deserialize(): fire_count_down is 14
+04:20:51  223 Hero::deserialize()
+04:20:51  223 Weapon::deserialize()
+04:20:51  223 Weapon::deserialize(): fire_count_down is 13
+04:20:52  224 Hero::deserialize()
+04:20:52  224 Weapon::deserialize()
+04:20:52  224 Weapon::deserialize(): fire_count_down is 12
+04:20:52  225 Hero::deserialize()
+04:20:52  225 Weapon::deserialize()
+04:20:52  225 Weapon::deserialize(): fire_count_down is 11
+04:20:52  226 Hero::deserialize()
+04:20:52  226 Weapon::deserialize()
+04:20:52  226 Weapon::deserialize(): fire_count_down is 10
+04:20:52  227 Hero::deserialize()
+04:20:52  227 Weapon::deserialize()
+04:20:52  227 Weapon::deserialize(): fire_count_down is 9
+04:20:52  228 Hero::deserialize()
+04:20:52  228 Weapon::deserialize()
+04:20:52  228 Weapon::deserialize(): fire_count_down is 8
+04:20:52  229 Hero::deserialize()
+04:20:52  229 Weapon::deserialize()
+04:20:52  229 Weapon::deserialize(): fire_count_down is 7
+04:20:52  230 Hero::deserialize()
+04:20:52  230 Weapon::deserialize()
+04:20:52  230 Weapon::deserialize(): fire_count_down is 6
+04:20:52  231 Hero::deserialize()
+04:20:52  231 Weapon::deserialize()
+04:20:52  231 Weapon::deserialize(): fire_count_down is 5
+04:20:52  232 Hero::deserialize()
+04:20:52  232 Weapon::deserialize()
+04:20:52  232 Weapon::deserialize(): fire_count_down is 4
+04:20:52  233 Hero::deserialize()
+04:20:52  233 Weapon::deserialize()
+04:20:52  233 Weapon::deserialize(): fire_count_down is 3
+04:20:52  234 Hero::deserialize()
+04:20:52  234 Weapon::deserialize()
+04:20:52  234 Weapon::deserialize(): fire_count_down is 2
+04:20:52  235 Hero::deserialize()
+04:20:52  235 Weapon::deserialize()
+04:20:52  235 Weapon::deserialize(): fire_count_down is 1
+04:20:52  236 Hero::deserialize()
+04:20:52  236 Weapon::deserialize()
+04:20:52  236 Weapon::deserialize(): fire_count_down is 0
+04:20:52  237 Hero::deserialize()
+04:20:52  237 Weapon::deserialize()
+04:20:52  238 Hero::deserialize()
+04:20:52  238 Weapon::deserialize()
+04:20:52  239 Hero::deserialize()
+04:20:52  239 Weapon::deserialize()
+04:20:52  240 Hero::deserialize()
+04:20:52  240 Weapon::deserialize()
+04:20:52  241 Client::eventHandler(): sending mouse input to server.
+04:20:52  241 Client::eventHandler(): sending mouse input to server.
+04:20:52  241 Hero::deserialize()
+04:20:52  241 Weapon::deserialize()
+04:20:52  242 Client::eventHandler(): sending mouse input to server.
+04:20:52  242 Hero::deserialize()
+04:20:52  242 Weapon::deserialize()
+04:20:52  243 Client::eventHandler(): sending mouse input to server.
+04:20:52  243 Hero::deserialize()
+04:20:52  243 Weapon::deserialize()
+04:20:52  244 Client::eventHandler(): sending mouse input to server.
+04:20:52  244 Hero::deserialize()
+04:20:52  244 Weapon::deserialize()
+04:20:52  245 Client::eventHandler(): sending mouse input to server.
+04:20:52  245 Hero::deserialize()
+04:20:52  245 Weapon::deserialize()
+04:20:52  246 Client::eventHandler(): sending mouse input to server.
+04:20:52  246 Hero::deserialize()
+04:20:52  246 Weapon::deserialize()
+04:20:52  247 Client::eventHandler(): sending mouse input to server.
+04:20:52  247 Hero::deserialize()
+04:20:52  247 Weapon::deserialize()
+04:20:52  248 Client::eventHandler(): sending mouse input to server.
+04:20:52  248 Hero::deserialize()
+04:20:52  248 Weapon::deserialize()
+04:20:52  249 Client::eventHandler(): sending mouse input to server.
+04:20:52  249 Hero::deserialize()
+04:20:52  249 Weapon::deserialize()
+04:20:52  250 Client::eventHandler(): sending mouse input to server.
+04:20:52  250 Hero::deserialize()
+04:20:52  250 Weapon::deserialize()
+04:20:52  251 Client::eventHandler(): sending mouse input to server.
+04:20:52  251 Hero::deserialize()
+04:20:52  251 Weapon::deserialize()
+04:20:52  252 Client::eventHandler(): sending mouse input to server.
+04:20:52  252 Hero::deserialize()
+04:20:52  252 Weapon::deserialize()
+04:20:52  253 Client::eventHandler(): sending mouse input to server.
+04:20:52  253 Client::eventHandler(): sending mouse input to server.
+04:20:52  253 Hero::deserialize()
+04:20:52  253 Weapon::deserialize()
+04:20:53  254 Client::eventHandler(): sending mouse input to server.
+04:20:53  254 Hero::deserialize()
+04:20:53  254 Weapon::deserialize()
+04:20:53  255 Client::eventHandler(): sending mouse input to server.
+04:20:53  255 Hero::deserialize()
+04:20:53  255 Weapon::deserialize()
+04:20:53  256 Client::eventHandler(): sending mouse input to server.
+04:20:53  256 Hero::deserialize()
+04:20:53  256 Weapon::deserialize()
+04:20:53  257 Client::eventHandler(): sending mouse input to server.
+04:20:53  257 Hero::deserialize()
+04:20:53  257 Weapon::deserialize()
+04:20:53  258 Client::eventHandler(): sending mouse input to server.
+04:20:53  258 Hero::deserialize()
+04:20:53  258 Weapon::deserialize()
+04:20:53  259 Client::eventHandler(): sending mouse input to server.
+04:20:53  259 Hero::deserialize()
+04:20:53  259 Weapon::deserialize()
+04:20:53  260 Hero::deserialize()
+04:20:53  260 Weapon::deserialize()
+04:20:53  261 Client::eventHandler(): sending mouse input to server.
+04:20:53  261 Hero::deserialize()
+04:20:53  261 Weapon::deserialize()
+04:20:53  262 Hero::deserialize()
+04:20:53  262 Weapon::deserialize()
+04:20:53  263 Hero::deserialize()
+04:20:53  263 Weapon::deserialize()
+04:20:53  264 Hero::deserialize()
+04:20:53  264 Weapon::deserialize()
+04:20:53  265 Hero::deserialize()
+04:20:53  265 Weapon::deserialize()
+04:20:53  266 Hero::deserialize()
+04:20:53  266 Weapon::deserialize()
+04:20:53  267 Hero::deserialize()
+04:20:53  267 Weapon::deserialize()
+04:20:53  268 Hero::deserialize()
+04:20:53  268 Weapon::deserialize()
+04:20:53  269 Hero::deserialize()
+04:20:53  269 Weapon::deserialize()
+04:20:53  270 Hero::deserialize()
+04:20:53  270 Weapon::deserialize()
+04:20:53  271 Hero::deserialize()
+04:20:53  271 Weapon::deserialize()
+04:20:53  272 Hero::deserialize()
+04:20:53  272 Weapon::deserialize()
+04:20:53  273 Hero::deserialize()
+04:20:53  273 Weapon::deserialize()
+04:20:53  274 Hero::deserialize()
+04:20:53  274 Weapon::deserialize()
+04:20:53  275 Hero::deserialize()
+04:20:53  275 Weapon::deserialize()
+04:20:53  276 Hero::deserialize()
+04:20:53  276 Weapon::deserialize()
+04:20:53  277 Hero::deserialize()
+04:20:53  277 Weapon::deserialize()
+04:20:53  278 Hero::deserialize()
+04:20:53  278 Weapon::deserialize()
+04:20:53  279 Hero::deserialize()
+04:20:53  279 Weapon::deserialize()
+04:20:53  280 Hero::deserialize()
+04:20:53  280 Weapon::deserialize()
+04:20:53  281 Hero::deserialize()
+04:20:53  281 Weapon::deserialize()
+04:20:53  282 Hero::deserialize()
+04:20:53  282 Weapon::deserialize()
+04:20:53  283 Hero::deserialize()
+04:20:53  283 Weapon::deserialize()
+04:20:54  284 Hero::deserialize()
+04:20:54  284 Weapon::deserialize()
+04:20:54  285 Hero::deserialize()
+04:20:54  285 Weapon::deserialize()
+04:20:54  286 Hero::deserialize()
+04:20:54  286 Weapon::deserialize()
+04:20:54  287 Hero::deserialize()
+04:20:54  287 Weapon::deserialize()
+04:20:54  288 Hero::deserialize()
+04:20:54  288 Weapon::deserialize()
+04:20:54  289 Hero::deserialize()
+04:20:54  289 Weapon::deserialize()
+04:20:54  290 Hero::deserialize()
+04:20:54  290 Weapon::deserialize()
+04:20:54  291 Hero::deserialize()
+04:20:54  291 Weapon::deserialize()
+04:20:54  292 Hero::deserialize()
+04:20:54  292 Weapon::deserialize()
+04:20:54  293 Hero::deserialize()
+04:20:54  293 Weapon::deserialize()
+04:20:54  294 Hero::deserialize()
+04:20:54  294 Weapon::deserialize()
+04:20:54  295 Hero::deserialize()
+04:20:54  295 Weapon::deserialize()
+04:20:54  296 Hero::deserialize()
+04:20:54  296 Weapon::deserialize()
+04:20:54  297 Hero::deserialize()
+04:20:54  297 Weapon::deserialize()
+04:20:54  298 Hero::deserialize()
+04:20:54  298 Weapon::deserialize()
+04:20:54  299 Hero::deserialize()
+04:20:54  299 Weapon::deserialize()
+04:20:54  300 Hero::deserialize()
+04:20:54  300 Weapon::deserialize()
+04:20:54  301 Hero::deserialize()
+04:20:54  301 Weapon::deserialize()
+04:20:54  302 Hero::deserialize()
+04:20:54  302 Weapon::deserialize()
+04:20:54  303 Hero::deserialize()
+04:20:54  303 Weapon::deserialize()
+04:20:54  304 Hero::deserialize()
+04:20:54  304 Weapon::deserialize()
+04:20:54  305 Hero::deserialize()
+04:20:54  305 Weapon::deserialize()
+04:20:54  306 Hero::deserialize()
+04:20:54  306 Weapon::deserialize()
+04:20:54  307 Hero::deserialize()
+04:20:54  307 Weapon::deserialize()
+04:20:54  308 Hero::deserialize()
+04:20:54  308 Weapon::deserialize()
+04:20:54  309 Hero::deserialize()
+04:20:54  309 Weapon::deserialize()
+04:20:54  310 Hero::deserialize()
+04:20:54  310 Weapon::deserialize()
+04:20:54  311 Hero::deserialize()
+04:20:54  311 Weapon::deserialize()
+04:20:54  312 Hero::deserialize()
+04:20:54  312 Weapon::deserialize()
+04:20:54  313 Hero::deserialize()
+04:20:54  313 Weapon::deserialize()
+04:20:54  314 Hero::deserialize()
+04:20:54  314 Weapon::deserialize()
+04:20:55  315 Hero::deserialize()
+04:20:55  315 Weapon::deserialize()
+04:20:55  316 Hero::deserialize()
+04:20:55  316 Weapon::deserialize()
+04:20:55  317 Hero::deserialize()
+04:20:55  317 Weapon::deserialize()
+04:20:55  318 Hero::deserialize()
+04:20:55  318 Weapon::deserialize()
+04:20:55  319 Hero::deserialize()
+04:20:55  319 Weapon::deserialize()
+04:20:55  320 Hero::deserialize()
+04:20:55  320 Weapon::deserialize()
+04:20:55  321 Client::eventHandler(): sending mouse input to server.
+04:20:55  321 Client::eventHandler(): sending mouse input to server.
+04:20:55  321 Hero::deserialize()
+04:20:55  321 Weapon::deserialize()
+04:20:55  322 Client::eventHandler(): sending mouse input to server.
+04:20:55  322 Hero::deserialize()
+04:20:55  322 Weapon::deserialize()
+04:20:55  323 Hero::deserialize()
+04:20:55  323 Weapon::deserialize()
+04:20:55  323 Weapon::deserialize(): is_scoping is true
+04:20:55  324 Hero::deserialize()
+04:20:55  324 Weapon::deserialize()
+04:20:55  325 Hero::deserialize()
+04:20:55  325 Weapon::deserialize()
+04:20:55  326 Hero::deserialize()
+04:20:55  326 Weapon::deserialize()
+04:20:55  327 Hero::deserialize()
+04:20:55  327 Weapon::deserialize()
+04:20:55  328 Hero::deserialize()
+04:20:55  328 Weapon::deserialize()
+04:20:55  329 Hero::deserialize()
+04:20:55  329 Weapon::deserialize()
+04:20:55  330 Hero::deserialize()
+04:20:55  330 Weapon::deserialize()
+04:20:55  331 Hero::deserialize()
+04:20:55  331 Weapon::deserialize()
+04:20:55  332 Hero::deserialize()
+04:20:55  332 Weapon::deserialize()
+04:20:55  333 Hero::deserialize()
+04:20:55  333 Weapon::deserialize()
+04:20:55  334 Hero::deserialize()
+04:20:55  334 Weapon::deserialize()
+04:20:55  335 Hero::deserialize()
+04:20:55  335 Weapon::deserialize()
+04:20:55  336 Hero::deserialize()
+04:20:55  336 Weapon::deserialize()
+04:20:55  337 Hero::deserialize()
+04:20:55  337 Weapon::deserialize()
+04:20:55  338 Hero::deserialize()
+04:20:55  338 Weapon::deserialize()
+04:20:55  339 Hero::deserialize()
+04:20:55  339 Weapon::deserialize()
+04:20:55  340 Hero::deserialize()
+04:20:55  340 Weapon::deserialize()
+04:20:55  341 Hero::deserialize()
+04:20:55  341 Weapon::deserialize()
+04:20:55  342 Hero::deserialize()
+04:20:55  342 Weapon::deserialize()
+04:20:55  343 Hero::deserialize()
+04:20:55  343 Weapon::deserialize()
+04:20:55  344 Hero::deserialize()
+04:20:55  344 Weapon::deserialize()
+04:20:56  345 Client::eventHandler(): sending mouse input to server.
+04:20:56  345 Client::eventHandler(): sending mouse input to server.
+04:20:56  345 Hero::deserialize()
+04:20:56  345 Weapon::deserialize()
+04:20:56  346 Client::eventHandler(): sending mouse input to server.
+04:20:56  346 Hero::deserialize()
+04:20:56  346 Weapon::deserialize()
+04:20:56  347 Hero::deserialize()
+04:20:56  347 Weapon::deserialize()
+04:20:56  347 Weapon::deserialize(): is_scoping is false
+04:20:56  348 Hero::deserialize()
+04:20:56  348 Weapon::deserialize()
+04:20:56  349 Hero::deserialize()
+04:20:56  349 Weapon::deserialize()
+04:20:56  350 Client::eventHandler(): sending mouse input to server.
+04:20:56  350 Client::eventHandler(): sending mouse input to server.
+04:20:56  350 Hero::deserialize()
+04:20:56  350 Weapon::deserialize()
+04:20:56  351 Hero::deserialize()
+04:20:56  351 Weapon::deserialize()
+04:20:56  352 Hero::deserialize()
+04:20:56  352 Weapon::deserialize()
+04:20:56  352 Weapon::deserialize(): is_scoping is true
+04:20:56  353 Hero::deserialize()
+04:20:56  353 Weapon::deserialize()
+04:20:56  354 Hero::deserialize()
+04:20:56  354 Weapon::deserialize()
+04:20:56  355 Hero::deserialize()
+04:20:56  355 Weapon::deserialize()
+04:20:56  356 Client::eventHandler(): sending mouse input to server.
+04:20:56  356 Client::eventHandler(): sending mouse input to server.
+04:20:56  356 Hero::deserialize()
+04:20:56  356 Weapon::deserialize()
+04:20:56  357 Client::eventHandler(): sending mouse input to server.
+04:20:56  357 Hero::deserialize()
+04:20:56  357 Weapon::deserialize()
+04:20:56  358 Client::eventHandler(): sending mouse input to server.
+04:20:56  358 Hero::deserialize()
+04:20:56  358 Weapon::deserialize()
+04:20:56  358 Weapon::deserialize(): is_scoping is false
+04:20:56  359 Hero::deserialize()
+04:20:56  359 Weapon::deserialize()
+04:20:56  360 Hero::deserialize()
+04:20:56  360 Weapon::deserialize()
+04:20:56  361 Hero::deserialize()
+04:20:56  361 Weapon::deserialize()
+04:20:56  362 Client::eventHandler(): sending mouse input to server.
+04:20:56  362 Client::eventHandler(): sending mouse input to server.
+04:20:56  362 Hero::deserialize()
+04:20:56  362 Weapon::deserialize()
+04:20:56  363 Client::eventHandler(): sending mouse input to server.
+04:20:56  363 Hero::deserialize()
+04:20:56  363 Weapon::deserialize()
+04:20:56  364 Client::eventHandler(): sending mouse input to server.
+04:20:56  364 Hero::deserialize()
+04:20:56  364 Weapon::deserialize()
+04:20:56  364 Weapon::deserialize(): is_scoping is true
+04:20:56  365 Hero::deserialize()
+04:20:56  365 Weapon::deserialize()
+04:20:56  366 Hero::deserialize()
+04:20:56  366 Weapon::deserialize()
+04:20:56  367 Hero::deserialize()
+04:20:56  367 Weapon::deserialize()
+04:20:56  368 Client::eventHandler(): sending mouse input to server.
+04:20:56  368 Hero::deserialize()
+04:20:56  368 Weapon::deserialize()
+04:20:56  369 Hero::deserialize()
+04:20:56  369 Weapon::deserialize()
+04:20:56  370 Hero::deserialize()
+04:20:56  370 Weapon::deserialize()
+04:20:56  371 Hero::deserialize()
+04:20:56  371 Weapon::deserialize()
+04:20:56  372 Hero::deserialize()
+04:20:56  372 Weapon::deserialize()
+04:20:56  373 Hero::deserialize()
+04:20:56  373 Weapon::deserialize()
+04:20:56  374 Client::eventHandler(): sending keyboard input to server.
+04:20:56  374 Client::eventHandler(): sending keyboard input to server.
+04:20:56  374 Hero::deserialize()
+04:20:56  374 Weapon::deserialize()
+04:20:57  375 Client::eventHandler(): sending keyboard input to server.
+04:20:57  375 Hero::deserialize()
+04:20:57  375 Weapon::deserialize()
+04:20:57  376 Client::eventHandler(): sending keyboard input to server.
+04:20:57  376 Hero::deserialize()
+04:20:57  376 Weapon::deserialize()
+04:20:57  376 Weapon::deserialize(): is_scoping is false
+04:20:57  376 Weapon::deserialize()
+04:20:57  377 Client::eventHandler(): sending keyboard input to server.
+04:20:57  377 Hero::deserialize()
+04:20:57  377 Weapon::deserialize()
+04:20:57  378 Client::eventHandler(): sending keyboard input to server.
+04:20:57  378 Hero::deserialize()
+04:20:57  378 Weapon::deserialize()
+04:20:57  379 Client::eventHandler(): sending keyboard input to server.
+04:20:57  379 Hero::deserialize()
+04:20:57  379 Weapon::deserialize()
+04:20:57  380 Hero::deserialize()
+04:20:57  380 Weapon::deserialize()
+04:20:57  381 Hero::deserialize()
+04:20:57  381 Weapon::deserialize()
+04:20:57  382 Hero::deserialize()
+04:20:57  382 Weapon::deserialize()
+04:20:57  383 Hero::deserialize()
+04:20:57  383 Weapon::deserialize()
+04:20:57  384 Hero::deserialize()
+04:20:57  384 Weapon::deserialize()
+04:20:57  385 Hero::deserialize()
+04:20:57  385 Weapon::deserialize()
+04:20:57  386 Hero::deserialize()
+04:20:57  386 Weapon::deserialize()
+04:20:57  387 Hero::deserialize()
+04:20:57  387 Weapon::deserialize()
+04:20:57  388 Hero::deserialize()
+04:20:57  388 Weapon::deserialize()
+04:20:57  389 Hero::deserialize()
+04:20:57  389 Weapon::deserialize()
+04:20:57  390 Hero::deserialize()
+04:20:57  390 Weapon::deserialize()
+04:20:57  391 Hero::deserialize()
+04:20:57  391 Weapon::deserialize()
+04:20:57  392 Hero::deserialize()
+04:20:57  392 Weapon::deserialize()
+04:20:57  393 Hero::deserialize()
+04:20:57  393 Weapon::deserialize()
+04:20:57  394 Hero::deserialize()
+04:20:57  394 Weapon::deserialize()
+04:20:57  395 Hero::deserialize()
+04:20:57  395 Weapon::deserialize()
+04:20:57  396 Hero::deserialize()
+04:20:57  396 Weapon::deserialize()
+04:20:57  397 Hero::deserialize()
+04:20:57  397 Weapon::deserialize()
+04:20:57  398 Hero::deserialize()
+04:20:57  398 Weapon::deserialize()
+04:20:57  399 Hero::deserialize()
+04:20:57  399 Weapon::deserialize()
+04:20:57  400 Hero::deserialize()
+04:20:57  400 Weapon::deserialize()
+04:20:57  401 Hero::deserialize()
+04:20:57  401 Weapon::deserialize()
+04:20:57  402 Hero::deserialize()
+04:20:57  402 Weapon::deserialize()
+04:20:57  403 Hero::deserialize()
+04:20:57  403 Weapon::deserialize()
+04:20:57  404 Hero::deserialize()
+04:20:57  404 Weapon::deserialize()
+04:20:57  405 Hero::deserialize()
+04:20:57  405 Weapon::deserialize()
+04:20:58  406 Client::eventHandler(): sending mouse input to server.
+04:20:58  406 Client::eventHandler(): sending mouse input to server.
+04:20:58  406 Hero::deserialize()
+04:20:58  406 Weapon::deserialize()
+04:20:58  407 Client::eventHandler(): sending mouse input to server.
+04:20:58  407 Hero::deserialize()
+04:20:58  407 Weapon::deserialize()
+04:20:58  408 Client::eventHandler(): sending mouse input to server.
+04:20:58  408 Hero::deserialize()
+04:20:58  408 Weapon::deserialize()
+04:20:58  408 Weapon::deserialize(): fire_count_down is 40
+04:20:58  408 Weapon::deserialize(): ammo_loaded is 0
+04:20:58  408 Weapon::deserialize(): reloading is false
+04:20:58  409 Client::eventHandler(): sending mouse input to server.
+04:20:58  409 Hero::deserialize()
+04:20:58  409 Weapon::deserialize()
+04:20:58  409 Weapon::deserialize(): fire_count_down is 39
+04:20:58  410 Client::eventHandler(): sending mouse input to server.
+04:20:58  410 Hero::deserialize()
+04:20:58  410 Weapon::deserialize()
+04:20:58  410 Weapon::deserialize(): fire_count_down is 38
+04:20:58  412 Hero::deserialize()
+04:20:58  412 Weapon::deserialize()
+04:20:58  412 Weapon::deserialize(): fire_count_down is 37
+04:20:58  413 Hero::deserialize()
+04:20:58  413 Weapon::deserialize()
+04:20:58  413 Weapon::deserialize(): fire_count_down is 36
+04:20:58  414 Hero::deserialize()
+04:20:58  414 Weapon::deserialize()
+04:20:58  414 Weapon::deserialize(): fire_count_down is 35
+04:20:58  415 Hero::deserialize()
+04:20:58  415 Weapon::deserialize()
+04:20:58  415 Weapon::deserialize(): fire_count_down is 34
+04:20:58  416 Hero::deserialize()
+04:20:58  416 Weapon::deserialize()
+04:20:58  416 Weapon::deserialize(): fire_count_down is 33
+04:20:58  417 Hero::deserialize()
+04:20:58  417 Weapon::deserialize()
+04:20:58  417 Weapon::deserialize(): fire_count_down is 32
+04:20:58  418 Hero::deserialize()
+04:20:58  418 Weapon::deserialize()
+04:20:58  418 Weapon::deserialize(): fire_count_down is 31
+04:20:58  419 Hero::deserialize()
+04:20:58  419 Weapon::deserialize()
+04:20:58  419 Weapon::deserialize(): fire_count_down is 30
+04:20:58  420 Hero::deserialize()
+04:20:58  420 Weapon::deserialize()
+04:20:58  420 Weapon::deserialize(): fire_count_down is 29
+04:20:58  421 Hero::deserialize()
+04:20:58  421 Weapon::deserialize()
+04:20:58  421 Weapon::deserialize(): fire_count_down is 28
+04:20:58  422 Hero::deserialize()
+04:20:58  422 Weapon::deserialize()
+04:20:58  422 Weapon::deserialize(): fire_count_down is 27
+04:20:58  423 Hero::deserialize()
+04:20:58  423 Weapon::deserialize()
+04:20:58  423 Weapon::deserialize(): fire_count_down is 26
+04:20:58  424 Hero::deserialize()
+04:20:58  424 Weapon::deserialize()
+04:20:58  424 Weapon::deserialize(): fire_count_down is 25
+04:20:58  425 Hero::deserialize()
+04:20:58  425 Weapon::deserialize()
+04:20:58  425 Weapon::deserialize(): fire_count_down is 24
+04:20:58  426 Hero::deserialize()
+04:20:58  426 Weapon::deserialize()
+04:20:58  426 Weapon::deserialize(): fire_count_down is 23
+04:20:58  427 Hero::deserialize()
+04:20:58  427 Weapon::deserialize()
+04:20:58  427 Weapon::deserialize(): fire_count_down is 22
+04:20:58  428 Hero::deserialize()
+04:20:58  428 Weapon::deserialize()
+04:20:58  428 Weapon::deserialize(): fire_count_down is 21
+04:20:58  429 Hero::deserialize()
+04:20:58  429 Weapon::deserialize()
+04:20:58  429 Weapon::deserialize(): fire_count_down is 20
+04:20:58  430 Hero::deserialize()
+04:20:58  430 Weapon::deserialize()
+04:20:58  430 Weapon::deserialize(): fire_count_down is 19
+04:20:58  431 Hero::deserialize()
+04:20:58  431 Weapon::deserialize()
+04:20:58  431 Weapon::deserialize(): fire_count_down is 18
+04:20:58  432 Hero::deserialize()
+04:20:58  432 Weapon::deserialize()
+04:20:58  432 Weapon::deserialize(): fire_count_down is 17
+04:20:58  433 Hero::deserialize()
+04:20:58  433 Weapon::deserialize()
+04:20:58  433 Weapon::deserialize(): fire_count_down is 16
+04:20:58  434 Hero::deserialize()
+04:20:58  434 Weapon::deserialize()
+04:20:58  434 Weapon::deserialize(): fire_count_down is 15
+04:20:58  435 Hero::deserialize()
+04:20:58  435 Weapon::deserialize()
+04:20:58  435 Weapon::deserialize(): fire_count_down is 14
+04:20:59  436 Hero::deserialize()
+04:20:59  436 Weapon::deserialize()
+04:20:59  436 Weapon::deserialize(): fire_count_down is 13
+04:20:59  437 Hero::deserialize()
+04:20:59  437 Weapon::deserialize()
+04:20:59  437 Weapon::deserialize(): fire_count_down is 12
+04:20:59  438 Hero::deserialize()
+04:20:59  438 Weapon::deserialize()
+04:20:59  438 Weapon::deserialize(): fire_count_down is 11
+04:20:59  439 Hero::deserialize()
+04:20:59  439 Weapon::deserialize()
+04:20:59  439 Weapon::deserialize(): fire_count_down is 10
+04:20:59  440 Hero::deserialize()
+04:20:59  440 Weapon::deserialize()
+04:20:59  440 Weapon::deserialize(): fire_count_down is 9
+04:20:59  441 Hero::deserialize()
+04:20:59  441 Weapon::deserialize()
+04:20:59  441 Weapon::deserialize(): fire_count_down is 8
+04:20:59  442 Hero::deserialize()
+04:20:59  442 Weapon::deserialize()
+04:20:59  442 Weapon::deserialize(): fire_count_down is 7
+04:20:59  443 Hero::deserialize()
+04:20:59  443 Weapon::deserialize()
+04:20:59  443 Weapon::deserialize(): fire_count_down is 6
+04:20:59  444 Hero::deserialize()
+04:20:59  444 Weapon::deserialize()
+04:20:59  444 Weapon::deserialize(): fire_count_down is 5
+04:20:59  445 Hero::deserialize()
+04:20:59  445 Weapon::deserialize()
+04:20:59  445 Weapon::deserialize(): fire_count_down is 4
+04:20:59  446 Hero::deserialize()
+04:20:59  446 Weapon::deserialize()
+04:20:59  446 Weapon::deserialize(): fire_count_down is 3
+04:20:59  447 Hero::deserialize()
+04:20:59  447 Weapon::deserialize()
+04:20:59  447 Weapon::deserialize(): fire_count_down is 2
+04:20:59  448 Hero::deserialize()
+04:20:59  448 Weapon::deserialize()
+04:20:59  448 Weapon::deserialize(): fire_count_down is 1
+04:20:59  449 Hero::deserialize()
+04:20:59  449 Weapon::deserialize()
+04:20:59  449 Weapon::deserialize(): fire_count_down is 0
+04:20:59  450 Hero::deserialize()
+04:20:59  450 Weapon::deserialize()
+04:20:59  451 Hero::deserialize()
+04:20:59  451 Weapon::deserialize()
+04:20:59  452 Hero::deserialize()
+04:20:59  452 Weapon::deserialize()
+04:20:59  453 Hero::deserialize()
+04:20:59  453 Weapon::deserialize()
+04:20:59  454 Hero::deserialize()
+04:20:59  454 Weapon::deserialize()
+04:20:59  454 Weapon::deserialize(): ammo_loaded is 1
+04:20:59  454 Weapon::deserialize(): ammo_backup is 29
+04:20:59  454 Weapon::deserialize(): reloading is false
+04:20:59  455 Hero::deserialize()
+04:20:59  455 Weapon::deserialize()
+04:20:59  456 Hero::deserialize()
+04:20:59  456 Weapon::deserialize()
+04:20:59  457 Hero::deserialize()
+04:20:59  457 Weapon::deserialize()
+04:20:59  458 Hero::deserialize()
+04:20:59  458 Weapon::deserialize()
+04:20:59  459 Hero::deserialize()
+04:20:59  459 Weapon::deserialize()
+04:20:59  460 Hero::deserialize()
+04:20:59  460 Weapon::deserialize()
+04:20:59  461 Hero::deserialize()
+04:20:59  461 Weapon::deserialize()
+04:20:59  462 Hero::deserialize()
+04:20:59  462 Weapon::deserialize()
+04:20:59  463 Hero::deserialize()
+04:20:59  463 Weapon::deserialize()
+04:20:59  464 Hero::deserialize()
+04:20:59  464 Weapon::deserialize()
+04:20:59  465 Hero::deserialize()
+04:20:59  465 Weapon::deserialize()
+04:21:00  466 Hero::deserialize()
+04:21:00  466 Weapon::deserialize()
+04:21:00  467 Hero::deserialize()
+04:21:00  467 Weapon::deserialize()
+04:21:00  468 Hero::deserialize()
+04:21:00  468 Weapon::deserialize()
+04:21:00  469 Hero::deserialize()
+04:21:00  469 Weapon::deserialize()
+04:21:00  470 Hero::deserialize()
+04:21:00  470 Weapon::deserialize()
+04:21:00  471 Hero::deserialize()
+04:21:00  471 Weapon::deserialize()
+04:21:00  472 Hero::deserialize()
+04:21:00  472 Weapon::deserialize()
+04:21:00  473 Client::eventHandler(): sending keyboard input to server.
+04:21:00  473 Client::eventHandler(): sending keyboard input to server.
+04:21:00  473 Hero::deserialize()
+04:21:00  473 Weapon::deserialize()
+04:21:00  474 Client::eventHandler(): sending keyboard input to server.
+04:21:00  474 Hero::deserialize()
+04:21:00  474 Weapon::deserialize()
+04:21:00  475 Client::eventHandler(): sending keyboard input to server.
+04:21:00  475 Hero::deserialize()
+04:21:00  475 Weapon::deserialize()
+04:21:00  475 Weapon::deserialize()
+04:21:00  476 Client::eventHandler(): sending keyboard input to server.
+04:21:00  476 Hero::deserialize()
+04:21:00  476 Weapon::deserialize()
+04:21:00  477 Client::eventHandler(): sending keyboard input to server.
+04:21:00  477 Hero::deserialize()
+04:21:00  477 Weapon::deserialize()
+04:21:00  478 Client::eventHandler(): sending keyboard input to server.
+04:21:00  478 Hero::deserialize()
+04:21:00  478 Weapon::deserialize()
+04:21:00  479 Hero::deserialize()
+04:21:00  479 Weapon::deserialize()
+04:21:00  480 Hero::deserialize()
+04:21:00  480 Weapon::deserialize()
+04:21:00  481 Hero::deserialize()
+04:21:00  481 Weapon::deserialize()
+04:21:00  482 Hero::deserialize()
+04:21:00  482 Weapon::deserialize()
+04:21:00  483 Hero::deserialize()
+04:21:00  483 Weapon::deserialize()
+04:21:00  484 Hero::deserialize()
+04:21:00  484 Weapon::deserialize()
+04:21:00  485 Hero::deserialize()
+04:21:00  485 Weapon::deserialize()
+04:21:00  486 Hero::deserialize()
+04:21:00  486 Weapon::deserialize()
+04:21:00  487 Hero::deserialize()
+04:21:00  487 Weapon::deserialize()
+04:21:00  488 Hero::deserialize()
+04:21:00  488 Weapon::deserialize()
+04:21:00  489 Hero::deserialize()
+04:21:00  489 Weapon::deserialize()
+04:21:00  490 Hero::deserialize()
+04:21:00  490 Weapon::deserialize()
+04:21:00  491 Hero::deserialize()
+04:21:00  491 Weapon::deserialize()
+04:21:00  492 Client::eventHandler(): sending mouse input to server.
+04:21:00  492 Client::eventHandler(): sending mouse input to server.
+04:21:00  492 Hero::deserialize()
+04:21:00  492 Weapon::deserialize()
+04:21:00  493 Client::eventHandler(): sending mouse input to server.
+04:21:00  493 Hero::deserialize()
+04:21:00  493 Weapon::deserialize()
+04:21:00  494 Client::eventHandler(): sending mouse input to server.
+04:21:00  494 Hero::deserialize()
+04:21:00  494 Weapon::deserialize()
+04:21:00  494 Weapon::deserialize(): fire_count_down is 3
+04:21:00  494 Weapon::deserialize(): ammo_loaded is 27
+04:21:00  495 Client::eventHandler(): sending mouse input to server.
+04:21:00  495 Hero::deserialize()
+04:21:00  495 Weapon::deserialize()
+04:21:00  495 Weapon::deserialize(): fire_count_down is 2
+04:21:00  496 Client::eventHandler(): sending mouse input to server.
+04:21:00  496 Hero::deserialize()
+04:21:00  496 Weapon::deserialize()
+04:21:00  496 Weapon::deserialize(): fire_count_down is 1
+04:21:01  497 Client::eventHandler(): sending mouse input to server.
+04:21:01  498 Hero::deserialize()
+04:21:01  498 Weapon::deserialize()
+04:21:01  498 Weapon::deserialize(): fire_count_down is 3
+04:21:01  498 Weapon::deserialize(): ammo_loaded is 26
+04:21:01  499 Hero::deserialize()
+04:21:01  499 Weapon::deserialize()
+04:21:01  499 Weapon::deserialize(): fire_count_down is 2
+04:21:01  501 Hero::deserialize()
+04:21:01  501 Weapon::deserialize()
+04:21:01  501 Weapon::deserialize(): fire_count_down is 1
+04:21:01  502 Hero::deserialize()
+04:21:01  502 Weapon::deserialize()
+04:21:01  502 Weapon::deserialize(): fire_count_down is 0
+04:21:01  503 Hero::deserialize()
+04:21:01  503 Weapon::deserialize()
+04:21:01  504 Hero::deserialize()
+04:21:01  504 Weapon::deserialize()
+04:21:01  505 Hero::deserialize()
+04:21:01  505 Weapon::deserialize()
+04:21:01  506 Hero::deserialize()
+04:21:01  506 Weapon::deserialize()
+04:21:01  507 Hero::deserialize()
+04:21:01  507 Weapon::deserialize()
+04:21:01  508 Hero::deserialize()
+04:21:01  508 Weapon::deserialize()
+04:21:01  509 Hero::deserialize()
+04:21:01  509 Weapon::deserialize()
+04:21:01  510 Hero::deserialize()
+04:21:01  510 Weapon::deserialize()
+04:21:01  511 Hero::deserialize()
+04:21:01  511 Weapon::deserialize()
+04:21:01  512 Hero::deserialize()
+04:21:01  512 Weapon::deserialize()
+04:21:01  513 Hero::deserialize()
+04:21:01  513 Weapon::deserialize()
+04:21:01  514 Client::eventHandler(): sending mouse input to server.
+04:21:01  514 Client::eventHandler(): sending mouse input to server.
+04:21:01  514 Hero::deserialize()
+04:21:01  514 Weapon::deserialize()
+04:21:01  515 Client::eventHandler(): sending mouse input to server.
+04:21:01  515 Hero::deserialize()
+04:21:01  515 Weapon::deserialize()
+04:21:01  516 Client::eventHandler(): sending mouse input to server.
+04:21:01  516 Hero::deserialize()
+04:21:01  516 Weapon::deserialize()
+04:21:01  516 Weapon::deserialize(): fire_count_down is 3
+04:21:01  516 Weapon::deserialize(): ammo_loaded is 25
+04:21:01  517 Client::eventHandler(): sending mouse input to server.
+04:21:01  517 Hero::deserialize()
+04:21:01  517 Weapon::deserialize()
+04:21:01  517 Weapon::deserialize(): fire_count_down is 2
+04:21:01  518 Client::eventHandler(): sending mouse input to server.
+04:21:01  519 Client::eventHandler(): sending mouse input to server.
+04:21:01  519 Hero::deserialize()
+04:21:01  519 Weapon::deserialize()
+04:21:01  519 Weapon::deserialize(): fire_count_down is 1
+04:21:01  520 Client::eventHandler(): sending mouse input to server.
+04:21:01  520 Hero::deserialize()
+04:21:01  520 Weapon::deserialize()
+04:21:01  520 Weapon::deserialize(): fire_count_down is 3
+04:21:01  520 Weapon::deserialize(): ammo_loaded is 24
+04:21:01  521 Client::eventHandler(): sending mouse input to server.
+04:21:01  522 Hero::deserialize()
+04:21:01  522 Weapon::deserialize()
+04:21:01  522 Weapon::deserialize(): fire_count_down is 2
+04:21:01  524 Hero::deserialize()
+04:21:01  524 Weapon::deserialize()
+04:21:01  524 Weapon::deserialize(): fire_count_down is 1
+04:21:01  525 Hero::deserialize()
+04:21:01  525 Weapon::deserialize()
+04:21:01  525 Weapon::deserialize(): fire_count_down is 0
+04:21:01  526 Hero::deserialize()
+04:21:01  526 Weapon::deserialize()
+04:21:02  527 Hero::deserialize()
+04:21:02  527 Weapon::deserialize()
+04:21:02  528 Hero::deserialize()
+04:21:02  528 Weapon::deserialize()
+04:21:02  529 Hero::deserialize()
+04:21:02  529 Weapon::deserialize()
+04:21:02  530 Hero::deserialize()
+04:21:02  530 Weapon::deserialize()
+04:21:02  531 Hero::deserialize()
+04:21:02  531 Weapon::deserialize()
+04:21:02  532 Hero::deserialize()
+04:21:02  532 Weapon::deserialize()
+04:21:02  533 Client::eventHandler(): sending keyboard input to server.
+04:21:02  533 Client::eventHandler(): sending keyboard input to server.
+04:21:02  533 Hero::deserialize()
+04:21:02  533 Weapon::deserialize()
+04:21:02  534 Client::eventHandler(): sending keyboard input to server.
+04:21:02  534 Hero::deserialize()
+04:21:02  534 Weapon::deserialize()
+04:21:02  535 Client::eventHandler(): sending keyboard input to server.
+04:21:02  535 Hero::deserialize()
+04:21:02  535 Weapon::deserialize()
+04:21:02  535 Weapon::deserialize()
+04:21:02  536 Client::eventHandler(): sending keyboard input to server.
+04:21:02  536 Hero::deserialize()
+04:21:02  536 Weapon::deserialize()
+04:21:02  537 Client::eventHandler(): sending keyboard input to server.
+04:21:02  537 Hero::deserialize()
+04:21:02  537 Weapon::deserialize()
+04:21:02  538 Client::eventHandler(): sending keyboard input to server.
+04:21:02  538 Hero::deserialize()
+04:21:02  538 Weapon::deserialize()
+04:21:02  539 Client::eventHandler(): sending keyboard input to server.
+04:21:02  539 Hero::deserialize()
+04:21:02  539 Weapon::deserialize()
+04:21:02  540 Hero::deserialize()
+04:21:02  540 Weapon::deserialize()
+04:21:02  541 Hero::deserialize()
+04:21:02  541 Weapon::deserialize()
+04:21:02  542 Hero::deserialize()
+04:21:02  542 Weapon::deserialize()
+04:21:02  543 Hero::deserialize()
+04:21:02  543 Weapon::deserialize()
+04:21:02  544 Hero::deserialize()
+04:21:02  544 Weapon::deserialize()
+04:21:02  545 Hero::deserialize()
+04:21:02  545 Weapon::deserialize()
+04:21:02  546 Hero::deserialize()
+04:21:02  546 Weapon::deserialize()
+04:21:02  547 Hero::deserialize()
+04:21:02  547 Weapon::deserialize()
+04:21:02  548 Hero::deserialize()
+04:21:02  548 Weapon::deserialize()
+04:21:02  549 Client::eventHandler(): sending mouse input to server.
+04:21:02  549 Client::eventHandler(): sending mouse input to server.
+04:21:02  549 Hero::deserialize()
+04:21:02  549 Weapon::deserialize()
+04:21:02  550 Client::eventHandler(): sending mouse input to server.
+04:21:02  550 Hero::deserialize()
+04:21:02  550 Weapon::deserialize()
+04:21:02  551 Client::eventHandler(): sending mouse input to server.
+04:21:02  551 Hero::deserialize()
+04:21:02  551 Weapon::deserialize()
+04:21:02  551 Weapon::deserialize(): fire_count_down is 40
+04:21:02  551 Weapon::deserialize(): ammo_loaded is 8
+04:21:02  552 Client::eventHandler(): sending mouse input to server.
+04:21:02  553 Client::eventHandler(): sending mouse input to server.
+04:21:02  553 Hero::deserialize()
+04:21:02  553 Weapon::deserialize()
+04:21:02  553 Weapon::deserialize(): fire_count_down is 39
+04:21:02  554 Client::eventHandler(): sending mouse input to server.
+04:21:02  554 Hero::deserialize()
+04:21:02  554 Weapon::deserialize()
+04:21:02  554 Weapon::deserialize(): fire_count_down is 38
+04:21:02  555 Client::eventHandler(): sending mouse input to server.
+04:21:02  555 Hero::deserialize()
+04:21:02  555 Weapon::deserialize()
+04:21:02  555 Weapon::deserialize(): fire_count_down is 37
+04:21:02  556 Client::eventHandler(): sending mouse input to server.
+04:21:02  556 Hero::deserialize()
+04:21:02  556 Weapon::deserialize()
+04:21:02  556 Weapon::deserialize(): fire_count_down is 36
+04:21:03  557 Client::eventHandler(): sending mouse input to server.
+04:21:03  557 Hero::deserialize()
+04:21:03  557 Weapon::deserialize()
+04:21:03  557 Weapon::deserialize(): fire_count_down is 35
+04:21:03  558 Client::eventHandler(): sending mouse input to server.
+04:21:03  558 Hero::deserialize()
+04:21:03  558 Weapon::deserialize()
+04:21:03  558 Weapon::deserialize(): fire_count_down is 34
+04:21:03  559 Client::eventHandler(): sending mouse input to server.
+04:21:03  559 Hero::deserialize()
+04:21:03  559 Weapon::deserialize()
+04:21:03  559 Weapon::deserialize(): fire_count_down is 33
+04:21:03  560 Client::eventHandler(): sending mouse input to server.
+04:21:03  560 Hero::deserialize()
+04:21:03  560 Weapon::deserialize()
+04:21:03  560 Weapon::deserialize(): fire_count_down is 32
+04:21:03  561 Client::eventHandler(): sending mouse input to server.
+04:21:03  561 Hero::deserialize()
+04:21:03  561 Weapon::deserialize()
+04:21:03  561 Weapon::deserialize(): fire_count_down is 31
+04:21:03  562 Hero::deserialize()
+04:21:03  562 Weapon::deserialize()
+04:21:03  562 Weapon::deserialize(): fire_count_down is 30
+04:21:03  563 Hero::deserialize()
+04:21:03  563 Weapon::deserialize()
+04:21:03  563 Weapon::deserialize(): fire_count_down is 29
+04:21:03  564 Hero::deserialize()
+04:21:03  564 Weapon::deserialize()
+04:21:03  564 Weapon::deserialize(): fire_count_down is 28
+04:21:03  565 Hero::deserialize()
+04:21:03  565 Weapon::deserialize()
+04:21:03  565 Weapon::deserialize(): fire_count_down is 27
+04:21:03  566 Hero::deserialize()
+04:21:03  566 Weapon::deserialize()
+04:21:03  566 Weapon::deserialize(): fire_count_down is 26
+04:21:03  567 Hero::deserialize()
+04:21:03  567 Weapon::deserialize()
+04:21:03  567 Weapon::deserialize(): fire_count_down is 25
+04:21:03  568 Hero::deserialize()
+04:21:03  568 Weapon::deserialize()
+04:21:03  568 Weapon::deserialize(): fire_count_down is 24
+04:21:03  569 Hero::deserialize()
+04:21:03  569 Weapon::deserialize()
+04:21:03  569 Weapon::deserialize(): fire_count_down is 23
+04:21:03  570 Hero::deserialize()
+04:21:03  570 Weapon::deserialize()
+04:21:03  570 Weapon::deserialize(): fire_count_down is 22
+04:21:03  571 Hero::deserialize()
+04:21:03  571 Weapon::deserialize()
+04:21:03  571 Weapon::deserialize(): fire_count_down is 21
+04:21:03  572 Hero::deserialize()
+04:21:03  572 Weapon::deserialize()
+04:21:03  572 Weapon::deserialize(): fire_count_down is 20
+04:21:03  572 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+04:21:03  573 Hero::deserialize()
+04:21:03  573 Weapon::deserialize()
+04:21:03  573 Weapon::deserialize(): fire_count_down is 19
+04:21:03  574 Hero::deserialize()
+04:21:03  574 Weapon::deserialize()
+04:21:03  574 Weapon::deserialize(): fire_count_down is 18
+04:21:03  575 Hero::deserialize()
+04:21:03  575 Weapon::deserialize()
+04:21:03  575 Weapon::deserialize(): fire_count_down is 17
+04:21:03  576 Hero::deserialize()
+04:21:03  576 Weapon::deserialize()
+04:21:03  576 Weapon::deserialize(): fire_count_down is 16
+04:21:03  577 Hero::deserialize()
+04:21:03  577 Weapon::deserialize()
+04:21:03  577 Weapon::deserialize(): fire_count_down is 15
+04:21:03  578 Hero::deserialize()
+04:21:03  578 Weapon::deserialize()
+04:21:03  578 Weapon::deserialize(): fire_count_down is 14
+04:21:03  579 Hero::deserialize()
+04:21:03  579 Weapon::deserialize()
+04:21:03  579 Weapon::deserialize(): fire_count_down is 13
+04:21:03  580 Hero::deserialize()
+04:21:03  580 Weapon::deserialize()
+04:21:03  580 Weapon::deserialize(): fire_count_down is 12
+04:21:03  581 Hero::deserialize()
+04:21:03  581 Weapon::deserialize()
+04:21:03  581 Weapon::deserialize(): fire_count_down is 11
+04:21:03  582 Client::eventHandler(): sending keyboard input to server.
+04:21:03  582 Client::eventHandler(): sending keyboard input to server.
+04:21:03  582 Hero::deserialize()
+04:21:03  582 Weapon::deserialize()
+04:21:03  582 Weapon::deserialize(): fire_count_down is 10
+04:21:03  583 Client::eventHandler(): sending keyboard input to server.
+04:21:03  583 Hero::deserialize()
+04:21:03  583 Weapon::deserialize()
+04:21:03  583 Weapon::deserialize(): fire_count_down is 9
+04:21:03  584 Client::eventHandler(): sending keyboard input to server.
+04:21:03  584 Hero::deserialize()
+04:21:03  584 Weapon::deserialize()
+04:21:03  584 Weapon::deserialize(): fire_count_down is 8
+04:21:03  584 Weapon::deserialize()
+04:21:03  585 Client::eventHandler(): sending keyboard input to server.
+04:21:03  585 Hero::deserialize()
+04:21:03  585 Weapon::deserialize()
+04:21:03  586 Client::eventHandler(): sending keyboard input to server.
+04:21:03  586 Hero::deserialize()
+04:21:03  586 Weapon::deserialize()
+04:21:04  587 Hero::deserialize()
+04:21:04  587 Weapon::deserialize()
+04:21:04  588 Hero::deserialize()
+04:21:04  588 Weapon::deserialize()
+04:21:04  589 Hero::deserialize()
+04:21:04  589 Weapon::deserialize()
+04:21:04  590 Hero::deserialize()
+04:21:04  590 Weapon::deserialize()
+04:21:04  591 Hero::deserialize()
+04:21:04  591 Weapon::deserialize()
+04:21:04  592 Hero::deserialize()
+04:21:04  592 Weapon::deserialize()
+04:21:04  593 Hero::deserialize()
+04:21:04  593 Weapon::deserialize()
+04:21:04  594 Hero::deserialize()
+04:21:04  594 Weapon::deserialize()
+04:21:04  595 Hero::deserialize()
+04:21:04  595 Weapon::deserialize()
+04:21:04  596 Hero::deserialize()
+04:21:04  596 Weapon::deserialize()
+04:21:04  597 Hero::deserialize()
+04:21:04  597 Weapon::deserialize()
+04:21:04  598 Hero::deserialize()
+04:21:04  598 Weapon::deserialize()
+04:21:04  599 Hero::deserialize()
+04:21:04  599 Weapon::deserialize()
+04:21:04  600 Hero::deserialize()
+04:21:04  600 Weapon::deserialize()
+04:21:04  601 Hero::deserialize()
+04:21:04  601 Weapon::deserialize()
+04:21:04  602 Client::eventHandler(): sending keyboard input to server.
+04:21:04  602 Client::eventHandler(): sending keyboard input to server.
+04:21:04  602 Hero::deserialize()
+04:21:04  602 Weapon::deserialize()
+04:21:04  603 Client::eventHandler(): sending keyboard input to server.
+04:21:04  603 Hero::deserialize()
+04:21:04  603 Weapon::deserialize()
+04:21:04  604 Client::eventHandler(): sending keyboard input to server.
+04:21:04  604 Hero::deserialize()
+04:21:04  604 Weapon::deserialize()
+04:21:04  604 Weapon::deserialize()
+04:21:04  605 Client::eventHandler(): sending keyboard input to server.
+04:21:04  605 Hero::deserialize()
+04:21:04  605 Weapon::deserialize()
+04:21:04  606 Client::eventHandler(): sending keyboard input to server.
+04:21:04  606 Hero::deserialize()
+04:21:04  606 Weapon::deserialize()
+04:21:04  607 Hero::deserialize()
+04:21:04  607 Weapon::deserialize()
+04:21:04  608 Hero::deserialize()
+04:21:04  608 Weapon::deserialize()
+04:21:04  609 Hero::deserialize()
+04:21:04  609 Weapon::deserialize()
+04:21:04  610 Hero::deserialize()
+04:21:04  610 Weapon::deserialize()
+04:21:04  611 Hero::deserialize()
+04:21:04  611 Weapon::deserialize()
+04:21:04  612 Hero::deserialize()
+04:21:04  612 Weapon::deserialize()
+04:21:04  613 Client::eventHandler(): sending mouse input to server.
+04:21:04  613 Client::eventHandler(): sending mouse input to server.
+04:21:04  613 Hero::deserialize()
+04:21:04  613 Weapon::deserialize()
+04:21:04  614 Client::eventHandler(): sending mouse input to server.
+04:21:04  614 Hero::deserialize()
+04:21:04  614 Weapon::deserialize()
+04:21:04  615 Client::eventHandler(): sending mouse input to server.
+04:21:04  615 Hero::deserialize()
+04:21:04  615 Weapon::deserialize()
+04:21:04  615 Weapon::deserialize(): fire_count_down is 3
+04:21:04  615 Weapon::deserialize(): ammo_loaded is 23
+04:21:04  616 Client::eventHandler(): sending mouse input to server.
+04:21:04  616 Hero::deserialize()
+04:21:04  616 Weapon::deserialize()
+04:21:04  616 Weapon::deserialize(): fire_count_down is 2
+04:21:04  617 Client::eventHandler(): sending mouse input to server.
+04:21:05  618 Client::eventHandler(): sending mouse input to server.
+04:21:05  618 Hero::deserialize()
+04:21:05  618 Weapon::deserialize()
+04:21:05  618 Weapon::deserialize(): fire_count_down is 1
+04:21:05  619 Client::eventHandler(): sending mouse input to server.
+04:21:05  619 Hero::deserialize()
+04:21:05  619 Weapon::deserialize()
+04:21:05  619 Weapon::deserialize(): fire_count_down is 3
+04:21:05  619 Weapon::deserialize(): ammo_loaded is 22
+04:21:05  620 Client::eventHandler(): sending mouse input to server.
+04:21:05  620 Hero::deserialize()
+04:21:05  620 Weapon::deserialize()
+04:21:05  620 Weapon::deserialize(): fire_count_down is 2
+04:21:05  621 Client::eventHandler(): sending mouse input to server.
+04:21:05  622 Client::eventHandler(): sending mouse input to server.
+04:21:05  622 Hero::deserialize()
+04:21:05  622 Weapon::deserialize()
+04:21:05  622 Weapon::deserialize(): fire_count_down is 1
+04:21:05  623 Client::eventHandler(): sending mouse input to server.
+04:21:05  623 Hero::deserialize()
+04:21:05  623 Weapon::deserialize()
+04:21:05  623 Weapon::deserialize(): fire_count_down is 3
+04:21:05  623 Weapon::deserialize(): ammo_loaded is 21
+04:21:05  624 Client::eventHandler(): sending mouse input to server.
+04:21:05  625 Client::eventHandler(): sending mouse input to server.
+04:21:05  625 Hero::deserialize()
+04:21:05  625 Weapon::deserialize()
+04:21:05  625 Weapon::deserialize(): fire_count_down is 2
+04:21:05  626 Client::eventHandler(): sending mouse input to server.
+04:21:05  627 Client::eventHandler(): sending mouse input to server.
+04:21:05  627 Hero::deserialize()
+04:21:05  627 Weapon::deserialize()
+04:21:05  627 Weapon::deserialize(): fire_count_down is 1
+04:21:05  628 Client::eventHandler(): sending mouse input to server.
+04:21:05  628 Hero::deserialize()
+04:21:05  628 Weapon::deserialize()
+04:21:05  628 Weapon::deserialize(): fire_count_down is 3
+04:21:05  628 Weapon::deserialize(): ammo_loaded is 20
+04:21:05  629 Client::eventHandler(): sending mouse input to server.
+04:21:05  630 Client::eventHandler(): sending mouse input to server.
+04:21:05  630 Hero::deserialize()
+04:21:05  630 Weapon::deserialize()
+04:21:05  630 Weapon::deserialize(): fire_count_down is 2
+04:21:05  631 Client::eventHandler(): sending mouse input to server.
+04:21:05  632 Client::eventHandler(): sending mouse input to server.
+04:21:05  632 Hero::deserialize()
+04:21:05  632 Weapon::deserialize()
+04:21:05  632 Weapon::deserialize(): fire_count_down is 1
+04:21:05  633 Client::eventHandler(): sending mouse input to server.
+04:21:05  633 Hero::deserialize()
+04:21:05  633 Weapon::deserialize()
+04:21:05  633 Weapon::deserialize(): fire_count_down is 3
+04:21:05  633 Weapon::deserialize(): ammo_loaded is 19
+04:21:05  634 Client::eventHandler(): sending mouse input to server.
+04:21:05  635 Client::eventHandler(): sending mouse input to server.
+04:21:05  635 Hero::deserialize()
+04:21:05  635 Weapon::deserialize()
+04:21:05  635 Weapon::deserialize(): fire_count_down is 2
+04:21:05  636 Client::eventHandler(): sending mouse input to server.
+04:21:05  636 Hero::deserialize()
+04:21:05  636 Weapon::deserialize()
+04:21:05  636 Weapon::deserialize(): fire_count_down is 1
+04:21:05  637 Client::eventHandler(): sending mouse input to server.
+04:21:05  637 Hero::deserialize()
+04:21:05  637 Weapon::deserialize()
+04:21:05  637 Weapon::deserialize(): fire_count_down is 3
+04:21:05  637 Weapon::deserialize(): ammo_loaded is 18
+04:21:05  638 Client::eventHandler(): sending mouse input to server.
+04:21:05  639 Hero::deserialize()
+04:21:05  639 Weapon::deserialize()
+04:21:05  639 Weapon::deserialize(): fire_count_down is 2
+04:21:05  640 Hero::deserialize()
+04:21:05  640 Weapon::deserialize()
+04:21:05  640 Weapon::deserialize(): fire_count_down is 1
+04:21:05  641 Hero::deserialize()
+04:21:05  641 Weapon::deserialize()
+04:21:05  641 Weapon::deserialize(): fire_count_down is 0
+04:21:05  643 Hero::deserialize()
+04:21:05  643 Weapon::deserialize()
+04:21:05  644 Hero::deserialize()
+04:21:05  644 Weapon::deserialize()
+04:21:05  645 Client::eventHandler(): sending mouse input to server.
+04:21:05  645 Hero::deserialize()
+04:21:05  645 Weapon::deserialize()
+04:21:05  646 Client::eventHandler(): sending mouse input to server.
+04:21:05  646 Hero::deserialize()
+04:21:05  646 Weapon::deserialize()
+04:21:05  647 Client::eventHandler(): sending mouse input to server.
+04:21:05  647 Hero::deserialize()
+04:21:05  647 Weapon::deserialize()
+04:21:06  648 Client::eventHandler(): sending mouse input to server.
+04:21:06  648 Hero::deserialize()
+04:21:06  648 Weapon::deserialize()
+04:21:06  649 Client::eventHandler(): sending mouse input to server.
+04:21:06  649 Hero::deserialize()
+04:21:06  649 Weapon::deserialize()
+04:21:06  649 Hero::deserialize()
+04:21:06  649 Weapon::deserialize()
+04:21:06  650 Client::eventHandler(): sending mouse input to server.
+04:21:06  651 Client::eventHandler(): sending mouse input to server.
+04:21:06  651 Hero::deserialize()
+04:21:06  651 Weapon::deserialize()
+04:21:06  652 Client::eventHandler(): sending mouse input to server.
+04:21:06  652 Hero::deserialize()
+04:21:06  652 Weapon::deserialize()
+04:21:06  653 Hero::deserialize()
+04:21:06  653 Weapon::deserialize()
+04:21:06  654 Hero::deserialize()
+04:21:06  654 Weapon::deserialize()
+04:21:06  654 Hero::deserialize()
+04:21:06  654 Weapon::deserialize()
+04:21:06  656 Hero::deserialize()
+04:21:06  656 Weapon::deserialize()
+04:21:06  657 Hero::deserialize()
+04:21:06  657 Weapon::deserialize()
+04:21:06  658 Hero::deserialize()
+04:21:06  658 Weapon::deserialize()
+04:21:06  659 Hero::deserialize()
+04:21:06  659 Weapon::deserialize()
+04:21:06  660 Hero::deserialize()
+04:21:06  660 Weapon::deserialize()
+04:21:06  661 Hero::deserialize()
+04:21:06  661 Weapon::deserialize()
+04:21:06  662 Hero::deserialize()
+04:21:06  662 Weapon::deserialize()
+04:21:06  663 Hero::deserialize()
+04:21:06  663 Weapon::deserialize()
+04:21:06  664 Hero::deserialize()
+04:21:06  664 Weapon::deserialize()
+04:21:06  664 Hero::deserialize()
+04:21:06  664 Weapon::deserialize()
+04:21:06  666 Hero::deserialize()
+04:21:06  666 Weapon::deserialize()
+04:21:06  666 Hero::deserialize()
+04:21:06  666 Weapon::deserialize()
+04:21:06  668 Hero::deserialize()
+04:21:06  668 Weapon::deserialize()
+04:21:06  669 Hero::deserialize()
+04:21:06  669 Weapon::deserialize()
+04:21:06  670 Hero::deserialize()
+04:21:06  670 Weapon::deserialize()
+04:21:06  671 Hero::deserialize()
+04:21:06  671 Weapon::deserialize()
+04:21:06  672 Hero::deserialize()
+04:21:06  672 Weapon::deserialize()
+04:21:06  672 Hero::deserialize()
+04:21:06  672 Weapon::deserialize()
+04:21:06  674 Hero::deserialize()
+04:21:06  674 Weapon::deserialize()
+04:21:06  675 Hero::deserialize()
+04:21:06  675 Weapon::deserialize()
+04:21:06  676 Hero::deserialize()
+04:21:06  676 Weapon::deserialize()
+04:21:06  676 Hero::deserialize()
+04:21:06  676 Weapon::deserialize()
+04:21:07  678 Hero::deserialize()
+04:21:07  678 Weapon::deserialize()
+04:21:07  679 Hero::deserialize()
+04:21:07  679 Weapon::deserialize()
+04:21:07  680 Hero::deserialize()
+04:21:07  680 Weapon::deserialize()
+04:21:07  681 Hero::deserialize()
+04:21:07  681 Weapon::deserialize()
+04:21:07  682 Hero::deserialize()
+04:21:07  682 Weapon::deserialize()
+04:21:07  683 Hero::deserialize()
+04:21:07  683 Weapon::deserialize()
+04:21:07  684 Hero::deserialize()
+04:21:07  684 Weapon::deserialize()
+04:21:07  685 Hero::deserialize()
+04:21:07  685 Weapon::deserialize()
+04:21:07  686 Hero::deserialize()
+04:21:07  686 Weapon::deserialize()
+04:21:07  687 Hero::deserialize()
+04:21:07  687 Weapon::deserialize()
+04:21:07  687 Hero::deserialize()
+04:21:07  687 Weapon::deserialize()
+04:21:07  689 Hero::deserialize()
+04:21:07  689 Weapon::deserialize()
+04:21:07  690 Hero::deserialize()
+04:21:07  690 Weapon::deserialize()
+04:21:07  691 Hero::deserialize()
+04:21:07  691 Weapon::deserialize()
+04:21:07  692 Hero::deserialize()
+04:21:07  692 Weapon::deserialize()
+04:21:07  693 Hero::deserialize()
+04:21:07  693 Weapon::deserialize()
+04:21:07  694 Hero::deserialize()
+04:21:07  694 Weapon::deserialize()
+04:21:07  694 Hero::deserialize()
+04:21:07  694 Weapon::deserialize()
+04:21:07  696 Hero::deserialize()
+04:21:07  696 Weapon::deserialize()
+04:21:07  697 Hero::deserialize()
+04:21:07  697 Weapon::deserialize()
+04:21:07  697 Hero::deserialize()
+04:21:07  697 Weapon::deserialize()
+04:21:07  699 Hero::deserialize()
+04:21:07  699 Weapon::deserialize()
+04:21:07  700 Hero::deserialize()
+04:21:07  700 Weapon::deserialize()
+04:21:07  701 Hero::deserialize()
+04:21:07  701 Weapon::deserialize()
+04:21:07  702 Hero::deserialize()
+04:21:07  702 Weapon::deserialize()
+04:21:07  703 Hero::deserialize()
+04:21:07  703 Weapon::deserialize()
+04:21:07  704 Hero::deserialize()
+04:21:07  704 Weapon::deserialize()
+04:21:07  705 Hero::deserialize()
+04:21:07  705 Weapon::deserialize()
+04:21:07  706 Hero::deserialize()
+04:21:07  706 Weapon::deserialize()
+04:21:07  707 Hero::deserialize()
+04:21:07  707 Weapon::deserialize()
+04:21:08  708 Hero::deserialize()
+04:21:08  708 Weapon::deserialize()
+04:21:08  709 Hero::deserialize()
+04:21:08  709 Weapon::deserialize()
+04:21:08  710 Hero::deserialize()
+04:21:08  710 Weapon::deserialize()
+04:21:08  711 Hero::deserialize()
+04:21:08  711 Weapon::deserialize()
+04:21:08  712 Hero::deserialize()
+04:21:08  712 Weapon::deserialize()
+04:21:08  713 Hero::deserialize()
+04:21:08  713 Weapon::deserialize()
+04:21:08  714 Hero::deserialize()
+04:21:08  714 Weapon::deserialize()
+04:21:08  714 Hero::deserialize()
+04:21:08  714 Weapon::deserialize()
+04:21:08  716 Hero::deserialize()
+04:21:08  716 Weapon::deserialize()
+04:21:08  717 InputManager::getInput(): Window close event. Setting game over.
+04:21:08  717 Hero::deserialize()
+04:21:08  717 Weapon::deserialize()
+04:21:08  717 Hero::deserialize()
+04:21:08  717 Weapon::deserialize()
+04:21:08  717 Hero::deserialize()
+04:21:08  717 Weapon::deserialize()
+04:21:08  717 Hero::deserialize()
+04:21:08  717 Weapon::deserialize()
+04:21:08  717 Hero::deserialize()
+04:21:08  717 Weapon::deserialize()
+04:21:08  718 GameManager::run(): end of game loop
+04:21:08  718 PathManager::shutDown(): successfully stopped.
+04:21:08  718 Path manager stopped
+04:21:08  718 WorldManager::shutDown(): Successfully stopped.
+04:21:08  718 World manager stopped
+04:21:08  718 ResourceManager::shutDown(): successfully stopped.
+04:21:08  718 Resource manager stopped
+04:21:08  718 NetworkManager::shutDown(): successfully stopped.
+04:21:08  718 Network manager stopped
+04:21:08  718 InputManager::shutDown(): successfully stopped.
+04:21:08  718 Input manager stopped
+04:21:08  718 DisplayManager::shutDown(): successfully stopped.
+04:21:08  718 Display manager stopped
+04:21:08  718 ** Game stopped **
+04:21:08  718 ****************************************************
+04:21:08  718 LogManager::shutDown(): successfully stopped.

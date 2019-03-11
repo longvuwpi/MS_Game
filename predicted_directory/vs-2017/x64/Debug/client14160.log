@@ -1,0 +1,86 @@
+00:13:35    0 ****************************************************
+00:13:35    0 ** Dragonfly version 4.9 **
+00:13:35    0 Hello, Network! (v1.2)
+00:13:35    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+00:13:35    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+00:13:35    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+00:13:35    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+00:13:35    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+00:13:35    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+00:13:35    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+00:13:35    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+00:13:35    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+00:13:35    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+00:13:35    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+00:13:35    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+00:13:35    0 Client::Client(): Connecting to localhost at port 9876.
+00:13:35    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+00:13:35    0 NetworkManager::connect(): Connection established.
+00:13:35    0 Client::handleConnect(): Client connected!
+00:13:35    0 Client::Client(): Client started.
+00:13:35    0 GameManager::run(): starting game loop
+00:13:38   85 Client::eventHandler(): sending mouse input to server.
+00:13:38   85 Client::eventHandler(): sending mouse input to server.
+00:13:38   85 NetworkManager::send(): Error! send() returned:
+00:13:38   85 	Unknown error
+00:13:38   85 NetworkNode::sendMessage(): Error sending!
+00:13:38   86 Client::eventHandler(): sending mouse input to server.
+00:13:38   86 NetworkManager::send(): Error! send() returned:
+00:13:38   86 	Unknown error
+00:13:38   86 NetworkNode::sendMessage(): Error sending!
+00:13:38   86 Client::eventHandler(): sending mouse input to server.
+00:13:38   86 NetworkManager::send(): Error! send() returned:
+00:13:38   86 	Unknown error
+00:13:38   86 NetworkNode::sendMessage(): Error sending!
+00:13:38   87 Client::eventHandler(): sending mouse input to server.
+00:13:38   87 NetworkManager::send(): Error! send() returned:
+00:13:38   87 	Unknown error
+00:13:38   87 NetworkNode::sendMessage(): Error sending!
+00:13:38   87 Client::eventHandler(): sending mouse input to server.
+00:13:38   87 NetworkManager::send(): Error! send() returned:
+00:13:38   87 	Unknown error
+00:13:38   87 NetworkNode::sendMessage(): Error sending!
+00:13:39  103 Client::eventHandler(): sending mouse input to server.
+00:13:39  103 NetworkManager::send(): Error! send() returned:
+00:13:39  103 	Unknown error
+00:13:39  103 NetworkNode::sendMessage(): Error sending!
+00:13:39  103 Client::eventHandler(): sending mouse input to server.
+00:13:39  103 NetworkManager::send(): Error! send() returned:
+00:13:39  103 	Unknown error
+00:13:39  103 NetworkNode::sendMessage(): Error sending!
+00:13:39  104 Client::eventHandler(): sending mouse input to server.
+00:13:39  104 NetworkManager::send(): Error! send() returned:
+00:13:39  104 	Unknown error
+00:13:39  104 NetworkNode::sendMessage(): Error sending!
+00:13:39  105 Client::eventHandler(): sending mouse input to server.
+00:13:39  105 NetworkManager::send(): Error! send() returned:
+00:13:39  105 	Unknown error
+00:13:39  105 NetworkNode::sendMessage(): Error sending!
+00:13:39  106 Client::eventHandler(): sending mouse input to server.
+00:13:39  106 NetworkManager::send(): Error! send() returned:
+00:13:39  106 	Unknown error
+00:13:39  106 NetworkNode::sendMessage(): Error sending!
+00:13:39  107 Client::eventHandler(): sending mouse input to server.
+00:13:39  107 NetworkManager::send(): Error! send() returned:
+00:13:39  107 	Unknown error
+00:13:39  107 NetworkNode::sendMessage(): Error sending!
+00:13:40  131 InputManager::getInput(): Window close event. Setting game over.
+00:13:40  132 GameManager::run(): end of game loop
+00:13:40  132 NetworkManager::send(): Error! send() returned:
+00:13:40  132 	Unknown error
+00:13:40  132 NetworkNode::sendMessage(): Error sending!
+00:13:40  132 PathManager::shutDown(): successfully stopped.
+00:13:40  132 Path manager stopped
+00:13:40  132 WorldManager::shutDown(): Successfully stopped.
+00:13:40  132 World manager stopped
+00:13:40  132 ResourceManager::shutDown(): successfully stopped.
+00:13:40  132 Resource manager stopped
+00:13:40  132 NetworkManager::shutDown(): successfully stopped.
+00:13:40  132 Network manager stopped
+00:13:40  132 InputManager::shutDown(): successfully stopped.
+00:13:40  132 Input manager stopped
+00:13:40  132 DisplayManager::shutDown(): successfully stopped.
+00:13:40  132 Display manager stopped
+00:13:40  132 ** Game stopped **
+00:13:40  132 ****************************************************
+00:13:40  132 LogManager::shutDown(): successfully stopped.

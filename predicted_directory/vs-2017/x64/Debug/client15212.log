@@ -1,0 +1,105 @@
+00:48:15    0 ****************************************************
+00:48:15    0 ** Dragonfly version 4.9 **
+00:48:15    0 Hello, Network! (v1.2)
+00:48:15    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+00:48:15    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+00:48:15    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+00:48:15    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+00:48:15    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+00:48:15    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+00:48:15    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+00:48:15    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+00:48:15    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+00:48:15    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+00:48:15    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+00:48:15    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+00:48:15    0 Client::Client(): Connecting to localhost at port 9876.
+00:48:15    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+00:48:15    0 NetworkManager::connect(): Connection established.
+00:48:15    0 Client::handleConnect(): Client connected!
+00:48:15    0 Client::Client(): Client started.
+00:48:15    0 GameManager::run(): starting game loop
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 Client::createObject(): creating object type 'Platform'
+00:48:15    0 GameManager::run(): Warning! Residual network data.
+00:48:15    1 Client::createObject(): creating object type 'Platform'
+00:48:15    1 Client::createObject(): creating object type 'Platform'
+00:48:15    1 Client::createObject(): creating object type 'Hero'
+00:48:16    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 72 ms
+00:48:16    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 67 ms
+00:48:16    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 61 ms
+00:48:16    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 68 ms
+00:48:16    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 65 ms
+00:48:16    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 85 ms
+00:48:16    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 69 ms
+00:48:16    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 79 ms
+00:48:16    9 Client::eventHandler(): sending mouse input to server.
+00:48:16    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 78 ms
+00:48:16   10 Client::eventHandler(): sending mouse input to server.
+00:48:16   11 Client::eventHandler(): sending mouse input to server.
+00:48:16   12 Client::eventHandler(): sending mouse input to server.
+00:48:16   13 Client::eventHandler(): sending mouse input to server.
+00:48:18   36 Client::eventHandler(): sending mouse input to server.
+00:48:18   36 Client::eventHandler(): sending mouse input to server.
+00:48:19   68 Client::eventHandler(): sending mouse input to server.
+00:48:19   69 Client::eventHandler(): sending mouse input to server.
+00:48:19   70 Client::eventHandler(): sending mouse input to server.
+00:48:19   71 Client::eventHandler(): sending mouse input to server.
+00:48:19   72 Client::eventHandler(): sending mouse input to server.
+00:48:19   73 Client::eventHandler(): sending mouse input to server.
+00:48:19   74 Client::eventHandler(): sending mouse input to server.
+00:48:19   75 Client::eventHandler(): sending mouse input to server.
+00:48:19   76 Client::eventHandler(): sending mouse input to server.
+00:48:19   77 Client::eventHandler(): sending mouse input to server.
+00:48:19   78 Client::eventHandler(): sending mouse input to server.
+00:48:19   79 Client::eventHandler(): sending mouse input to server.
+00:48:19   80 Client::eventHandler(): sending mouse input to server.
+00:48:19   81 Client::eventHandler(): sending mouse input to server.
+00:48:19   82 Client::eventHandler(): sending mouse input to server.
+00:48:19   83 Client::eventHandler(): sending mouse input to server.
+00:48:19   84 Client::eventHandler(): sending mouse input to server.
+00:48:19   85 Client::eventHandler(): sending mouse input to server.
+00:48:19   86 Client::eventHandler(): sending mouse input to server.
+00:48:19   87 Client::eventHandler(): sending mouse input to server.
+00:48:19   88 Client::eventHandler(): sending mouse input to server.
+00:48:19   89 Client::eventHandler(): sending mouse input to server.
+00:48:19   90 Client::eventHandler(): sending mouse input to server.
+00:48:19   91 Client::eventHandler(): sending mouse input to server.
+00:48:19   92 Client::eventHandler(): sending mouse input to server.
+00:48:19   93 Client::eventHandler(): sending mouse input to server.
+00:48:19   94 Client::eventHandler(): sending mouse input to server.
+00:48:19   95 Client::eventHandler(): sending mouse input to server.
+00:48:20   96 Client::eventHandler(): sending mouse input to server.
+00:48:20  112 Client::eventHandler(): sending mouse input to server.
+00:48:20  113 Client::eventHandler(): sending mouse input to server.
+00:48:20  114 Client::eventHandler(): sending mouse input to server.
+00:48:23  191 Client::eventHandler(): sending mouse input to server.
+00:48:23  192 Client::eventHandler(): sending mouse input to server.
+00:48:23  192 Client::eventHandler(): sending mouse input to server.
+00:48:23  193 Client::eventHandler(): sending mouse input to server.
+00:48:23  194 Client::eventHandler(): sending mouse input to server.
+00:48:23  195 Client::eventHandler(): sending mouse input to server.
+00:48:23  196 Client::eventHandler(): sending mouse input to server.
+00:48:23  196 Client::eventHandler(): sending mouse input to server.
+00:48:28  340 InputManager::getInput(): Window close event. Setting game over.
+00:48:28  341 GameManager::run(): end of game loop
+00:48:28  341 PathManager::shutDown(): successfully stopped.
+00:48:28  341 Path manager stopped
+00:48:28  341 WorldManager::shutDown(): Successfully stopped.
+00:48:28  341 World manager stopped
+00:48:28  341 ResourceManager::shutDown(): successfully stopped.
+00:48:28  341 Resource manager stopped
+00:48:28  341 NetworkManager::shutDown(): successfully stopped.
+00:48:28  341 Network manager stopped
+00:48:28  341 InputManager::shutDown(): successfully stopped.
+00:48:28  341 Input manager stopped
+00:48:28  341 DisplayManager::shutDown(): successfully stopped.
+00:48:28  341 Display manager stopped
+00:48:28  341 ** Game stopped **
+00:48:28  341 ****************************************************
+00:48:28  341 LogManager::shutDown(): successfully stopped.

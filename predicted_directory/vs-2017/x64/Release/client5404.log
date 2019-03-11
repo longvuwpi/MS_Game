@@ -1,0 +1,3661 @@
+16:44:57    0 ****************************************************
+16:44:57    0 ** Dragonfly version 4.9 **
+16:44:57    0 Hello, Network! (v1.2)
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+16:44:57    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+16:44:57    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+16:44:57    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+16:44:58    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+16:44:58    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+16:44:58    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+16:44:58    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+16:44:58    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+16:44:59    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+16:45:00    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+16:45:00    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+16:45:00    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+16:45:00    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+16:45:00    0 Client::Client(): Connecting to localhost at port 9876.
+16:45:00    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+16:45:00    0 NetworkManager::connect(): Connection established.
+16:45:00    0 Client::handleConnect(): Client connected!
+16:45:00    0 Client::Client(): Client started.
+16:45:00    0 GameManager::run(): starting game loop
+16:45:00    0 Client following hero id 0
+16:45:00    0 Client::eventHandler(): received custom network event.
+16:45:00    0 	message: 12340
+16:45:00    0 Client::createObject(): creating object type 'Hero'
+16:45:00    0 Hero::deserialize()
+16:45:00    0 Hero::deserialize(): current health is 50
+16:45:00    0 Hero::deserialize(): current weapon is 1
+16:45:00    0 Client::createObject(): creating object type 'Level'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Platform'
+16:45:00    0 Client::createObject(): creating object type 'Hero'
+16:45:00    0 Hero::deserialize()
+16:45:00    0 Hero::deserialize(): current health is 50
+16:45:00    0 Hero::deserialize(): current weapon is 1
+16:45:00    0 Hero::deserialize()
+16:45:00    0 Weapon::deserialize()
+16:45:00    0 Hero::deserialize()
+16:45:00    0 Weapon::deserialize()
+16:45:00    0 Weapon::deserialize(): ammo_loaded is 30
+16:45:00    0 Weapon::deserialize(): ammo_backup is 90
+16:45:00    0 Weapon::deserialize()
+16:45:00    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:45:00    0 Weapon::deserialize(): ammo_loaded is 10
+16:45:00    0 Weapon::deserialize(): ammo_backup is 30
+16:45:00    0 Weapon::deserialize()
+16:45:00    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+16:45:00    0 Weapon::deserialize(): ammo_loaded is 1
+16:45:00    0 Weapon::deserialize(): ammo_backup is 30
+16:45:00    1 Hero::deserialize()
+16:45:00    1 Weapon::deserialize()
+16:45:00    1 Hero::deserialize()
+16:45:00    1 Weapon::deserialize()
+16:45:00    2 Hero::deserialize()
+16:45:00    2 Weapon::deserialize()
+16:45:00    2 Hero::deserialize()
+16:45:00    2 Weapon::deserialize()
+16:45:00    3 Client::eventHandler(): sending mouse input to server.
+16:45:00    3 Hero::deserialize()
+16:45:00    3 Weapon::deserialize()
+16:45:00    3 Hero::deserialize()
+16:45:00    3 Weapon::deserialize()
+16:45:00    4 Client::eventHandler(): sending mouse input to server.
+16:45:00    4 Hero::deserialize()
+16:45:00    4 Weapon::deserialize()
+16:45:00    4 Hero::deserialize()
+16:45:00    4 Weapon::deserialize()
+16:45:00    5 Client::eventHandler(): sending mouse input to server.
+16:45:00    5 Hero::deserialize()
+16:45:00    5 Weapon::deserialize()
+16:45:00    5 Hero::deserialize()
+16:45:00    5 Weapon::deserialize()
+16:45:00    6 Client::eventHandler(): sending mouse input to server.
+16:45:00    6 Hero::deserialize()
+16:45:00    6 Weapon::deserialize()
+16:45:00    6 Hero::deserialize()
+16:45:00    6 Weapon::deserialize()
+16:45:00    7 Client::eventHandler(): sending mouse input to server.
+16:45:00    7 Hero::deserialize()
+16:45:00    7 Weapon::deserialize()
+16:45:00    7 Hero::deserialize()
+16:45:00    7 Weapon::deserialize()
+16:45:00    8 Client::eventHandler(): sending mouse input to server.
+16:45:00    8 Hero::deserialize()
+16:45:00    8 Weapon::deserialize()
+16:45:00    8 Hero::deserialize()
+16:45:00    8 Weapon::deserialize()
+16:45:00    9 Client::eventHandler(): sending mouse input to server.
+16:45:00    9 Hero::deserialize()
+16:45:00    9 Weapon::deserialize()
+16:45:00    9 Hero::deserialize()
+16:45:00    9 Weapon::deserialize()
+16:45:00   10 Client::eventHandler(): sending mouse input to server.
+16:45:00   10 Hero::deserialize()
+16:45:00   10 Weapon::deserialize()
+16:45:00   10 Hero::deserialize()
+16:45:00   10 Weapon::deserialize()
+16:45:00   11 Client::eventHandler(): sending mouse input to server.
+16:45:00   11 Hero::deserialize()
+16:45:00   11 Weapon::deserialize()
+16:45:00   11 Hero::deserialize()
+16:45:00   11 Weapon::deserialize()
+16:45:00   12 Client::eventHandler(): sending mouse input to server.
+16:45:00   12 Hero::deserialize()
+16:45:00   12 Weapon::deserialize()
+16:45:00   12 Hero::deserialize()
+16:45:00   12 Weapon::deserialize()
+16:45:00   13 Client::eventHandler(): sending mouse input to server.
+16:45:00   13 Client::eventHandler(): sending mouse input to server.
+16:45:00   13 Hero::deserialize()
+16:45:00   13 Weapon::deserialize()
+16:45:00   13 Hero::deserialize()
+16:45:00   13 Weapon::deserialize()
+16:45:00   14 Client::eventHandler(): sending mouse input to server.
+16:45:00   14 Hero::deserialize()
+16:45:00   14 Weapon::deserialize()
+16:45:00   14 Hero::deserialize()
+16:45:00   14 Weapon::deserialize()
+16:45:00   15 Client::eventHandler(): sending mouse input to server.
+16:45:00   15 Hero::deserialize()
+16:45:00   15 Weapon::deserialize()
+16:45:00   15 Hero::deserialize()
+16:45:00   15 Weapon::deserialize()
+16:45:00   16 Client::eventHandler(): sending mouse input to server.
+16:45:00   16 Hero::deserialize()
+16:45:00   16 Weapon::deserialize()
+16:45:00   16 Hero::deserialize()
+16:45:00   16 Weapon::deserialize()
+16:45:00   17 Client::eventHandler(): sending mouse input to server.
+16:45:00   17 Client::eventHandler(): sending mouse input to server.
+16:45:00   17 Hero::deserialize()
+16:45:00   17 Weapon::deserialize()
+16:45:00   17 Hero::deserialize()
+16:45:00   17 Weapon::deserialize()
+16:45:01   18 Client::eventHandler(): sending mouse input to server.
+16:45:01   18 Hero::deserialize()
+16:45:01   18 Weapon::deserialize()
+16:45:01   18 Hero::deserialize()
+16:45:01   18 Weapon::deserialize()
+16:45:01   19 Client::eventHandler(): sending mouse input to server.
+16:45:01   19 Hero::deserialize()
+16:45:01   19 Weapon::deserialize()
+16:45:01   19 Hero::deserialize()
+16:45:01   19 Weapon::deserialize()
+16:45:01   20 Client::eventHandler(): sending mouse input to server.
+16:45:01   20 Client::eventHandler(): sending mouse input to server.
+16:45:01   20 Hero::deserialize()
+16:45:01   20 Weapon::deserialize()
+16:45:01   20 Hero::deserialize()
+16:45:01   20 Weapon::deserialize()
+16:45:01   21 Client::eventHandler(): sending mouse input to server.
+16:45:01   21 Hero::deserialize()
+16:45:01   21 Weapon::deserialize()
+16:45:01   21 Hero::deserialize()
+16:45:01   21 Weapon::deserialize()
+16:45:01   22 Client::eventHandler(): sending mouse input to server.
+16:45:01   22 Client::eventHandler(): sending mouse input to server.
+16:45:01   22 Hero::deserialize()
+16:45:01   22 Weapon::deserialize()
+16:45:01   22 Hero::deserialize()
+16:45:01   22 Weapon::deserialize()
+16:45:01   23 Client::eventHandler(): sending mouse input to server.
+16:45:01   23 Hero::deserialize()
+16:45:01   23 Weapon::deserialize()
+16:45:01   23 Hero::deserialize()
+16:45:01   23 Weapon::deserialize()
+16:45:01   24 Client::eventHandler(): sending mouse input to server.
+16:45:01   24 Hero::deserialize()
+16:45:01   24 Weapon::deserialize()
+16:45:01   24 Hero::deserialize()
+16:45:01   24 Weapon::deserialize()
+16:45:01   25 Client::eventHandler(): sending mouse input to server.
+16:45:01   25 Hero::deserialize()
+16:45:01   25 Weapon::deserialize()
+16:45:01   25 Hero::deserialize()
+16:45:01   25 Weapon::deserialize()
+16:45:01   26 Client::eventHandler(): sending mouse input to server.
+16:45:01   26 Client::eventHandler(): sending mouse input to server.
+16:45:01   26 Client::eventHandler(): sending mouse input to server.
+16:45:01   26 Hero::deserialize()
+16:45:01   26 Weapon::deserialize()
+16:45:01   26 Hero::deserialize()
+16:45:01   26 Weapon::deserialize()
+16:45:01   27 Hero::deserialize()
+16:45:01   27 Weapon::deserialize()
+16:45:01   27 Hero::deserialize()
+16:45:01   27 Weapon::deserialize()
+16:45:01   28 Hero::deserialize()
+16:45:01   28 Weapon::deserialize()
+16:45:01   28 Hero::deserialize()
+16:45:01   28 Weapon::deserialize()
+16:45:01   29 Hero::deserialize()
+16:45:01   29 Weapon::deserialize()
+16:45:01   29 Hero::deserialize()
+16:45:01   29 Weapon::deserialize()
+16:45:01   30 Hero::deserialize()
+16:45:01   30 Weapon::deserialize()
+16:45:01   30 Hero::deserialize()
+16:45:01   30 Weapon::deserialize()
+16:45:01   31 Hero::deserialize()
+16:45:01   31 Weapon::deserialize()
+16:45:01   31 Hero::deserialize()
+16:45:01   31 Weapon::deserialize()
+16:45:01   32 Hero::deserialize()
+16:45:01   32 Weapon::deserialize()
+16:45:01   32 Hero::deserialize()
+16:45:01   32 Weapon::deserialize()
+16:45:01   33 Hero::deserialize()
+16:45:01   33 Weapon::deserialize()
+16:45:01   33 Hero::deserialize()
+16:45:01   33 Weapon::deserialize()
+16:45:01   34 Hero::deserialize()
+16:45:01   34 Weapon::deserialize()
+16:45:01   34 Hero::deserialize()
+16:45:01   34 Weapon::deserialize()
+16:45:01   35 Hero::deserialize()
+16:45:01   35 Weapon::deserialize()
+16:45:01   35 Hero::deserialize()
+16:45:01   35 Weapon::deserialize()
+16:45:01   36 Hero::deserialize()
+16:45:01   36 Weapon::deserialize()
+16:45:01   36 Hero::deserialize()
+16:45:01   36 Weapon::deserialize()
+16:45:01   37 Hero::deserialize()
+16:45:01   37 Weapon::deserialize()
+16:45:01   37 Hero::deserialize()
+16:45:01   37 Weapon::deserialize()
+16:45:01   38 Hero::deserialize()
+16:45:01   38 Weapon::deserialize()
+16:45:01   38 Hero::deserialize()
+16:45:01   38 Weapon::deserialize()
+16:45:01   39 Hero::deserialize()
+16:45:01   39 Weapon::deserialize()
+16:45:01   39 Hero::deserialize()
+16:45:01   39 Weapon::deserialize()
+16:45:01   40 Hero::deserialize()
+16:45:01   40 Weapon::deserialize()
+16:45:01   40 Hero::deserialize()
+16:45:01   40 Weapon::deserialize()
+16:45:01   41 Hero::deserialize()
+16:45:01   41 Weapon::deserialize()
+16:45:01   41 Hero::deserialize()
+16:45:01   41 Weapon::deserialize()
+16:45:01   42 Hero::deserialize()
+16:45:01   42 Weapon::deserialize()
+16:45:01   42 Hero::deserialize()
+16:45:01   42 Weapon::deserialize()
+16:45:01   43 Hero::deserialize()
+16:45:01   43 Weapon::deserialize()
+16:45:01   43 Hero::deserialize()
+16:45:01   43 Weapon::deserialize()
+16:45:01   44 Hero::deserialize()
+16:45:01   44 Weapon::deserialize()
+16:45:01   44 Hero::deserialize()
+16:45:01   44 Weapon::deserialize()
+16:45:01   45 Hero::deserialize()
+16:45:01   45 Weapon::deserialize()
+16:45:01   45 Hero::deserialize()
+16:45:01   45 Weapon::deserialize()
+16:45:01   46 Hero::deserialize()
+16:45:01   46 Weapon::deserialize()
+16:45:01   46 Hero::deserialize()
+16:45:01   46 Weapon::deserialize()
+16:45:01   47 Hero::deserialize()
+16:45:01   47 Weapon::deserialize()
+16:45:01   47 Hero::deserialize()
+16:45:01   47 Weapon::deserialize()
+16:45:01   48 Hero::deserialize()
+16:45:01   48 Weapon::deserialize()
+16:45:01   48 Hero::deserialize()
+16:45:01   48 Weapon::deserialize()
+16:45:02   49 Hero::deserialize()
+16:45:02   49 Weapon::deserialize()
+16:45:02   49 Hero::deserialize()
+16:45:02   49 Weapon::deserialize()
+16:45:02   50 Hero::deserialize()
+16:45:02   50 Weapon::deserialize()
+16:45:02   50 Hero::deserialize()
+16:45:02   50 Weapon::deserialize()
+16:45:02   51 Hero::deserialize()
+16:45:02   51 Weapon::deserialize()
+16:45:02   51 Hero::deserialize()
+16:45:02   51 Weapon::deserialize()
+16:45:02   52 Hero::deserialize()
+16:45:02   52 Weapon::deserialize()
+16:45:02   52 Hero::deserialize()
+16:45:02   52 Weapon::deserialize()
+16:45:02   53 Hero::deserialize()
+16:45:02   53 Weapon::deserialize()
+16:45:02   53 Hero::deserialize()
+16:45:02   53 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   54 Hero::deserialize()
+16:45:02   54 Weapon::deserialize()
+16:45:02   56 Hero::deserialize()
+16:45:02   56 Weapon::deserialize()
+16:45:02   56 Hero::deserialize()
+16:45:02   56 Weapon::deserialize()
+16:45:02   57 Hero::deserialize()
+16:45:02   57 Weapon::deserialize()
+16:45:02   57 Hero::deserialize()
+16:45:02   57 Weapon::deserialize()
+16:45:02   58 Client::eventHandler(): sending mouse input to server.
+16:45:02   58 Hero::deserialize()
+16:45:02   58 Weapon::deserialize()
+16:45:02   58 Hero::deserialize()
+16:45:02   58 Weapon::deserialize()
+16:45:02   59 Client::eventHandler(): sending mouse input to server.
+16:45:02   59 Hero::deserialize()
+16:45:02   59 Weapon::deserialize()
+16:45:02   59 Hero::deserialize()
+16:45:02   59 Weapon::deserialize()
+16:45:03   60 Client::eventHandler(): sending mouse input to server.
+16:45:03   60 Client::eventHandler(): sending mouse input to server.
+16:45:03   60 Client::eventHandler(): sending mouse input to server.
+16:45:03   60 Hero::deserialize()
+16:45:03   60 Weapon::deserialize()
+16:45:03   60 Hero::deserialize()
+16:45:03   60 Weapon::deserialize()
+16:45:03   61 Client::eventHandler(): sending mouse input to server.
+16:45:03   61 Hero::deserialize()
+16:45:03   61 Weapon::deserialize()
+16:45:03   61 Hero::deserialize()
+16:45:03   61 Weapon::deserialize()
+16:45:03   62 Client::eventHandler(): sending mouse input to server.
+16:45:03   62 Client::eventHandler(): sending mouse input to server.
+16:45:03   62 Hero::deserialize()
+16:45:03   62 Weapon::deserialize()
+16:45:03   62 Hero::deserialize()
+16:45:03   62 Weapon::deserialize()
+16:45:03   63 Client::eventHandler(): sending mouse input to server.
+16:45:03   63 Hero::deserialize()
+16:45:03   63 Weapon::deserialize()
+16:45:03   63 Hero::deserialize()
+16:45:03   63 Weapon::deserialize()
+16:45:03   64 Client::eventHandler(): sending mouse input to server.
+16:45:03   64 Client::eventHandler(): sending mouse input to server.
+16:45:03   64 Hero::deserialize()
+16:45:03   64 Weapon::deserialize()
+16:45:03   64 Hero::deserialize()
+16:45:03   64 Weapon::deserialize()
+16:45:03   65 Client::eventHandler(): sending mouse input to server.
+16:45:03   65 Hero::deserialize()
+16:45:03   65 Weapon::deserialize()
+16:45:03   65 Hero::deserialize()
+16:45:03   65 Weapon::deserialize()
+16:45:03   66 Client::eventHandler(): sending mouse input to server.
+16:45:03   66 Hero::deserialize()
+16:45:03   66 Weapon::deserialize()
+16:45:03   66 Hero::deserialize()
+16:45:03   66 Weapon::deserialize()
+16:45:03   67 Client::eventHandler(): sending mouse input to server.
+16:45:03   67 Hero::deserialize()
+16:45:03   67 Weapon::deserialize()
+16:45:03   67 Hero::deserialize()
+16:45:03   67 Weapon::deserialize()
+16:45:03   68 Client::eventHandler(): sending mouse input to server.
+16:45:03   68 Hero::deserialize()
+16:45:03   68 Weapon::deserialize()
+16:45:03   68 Hero::deserialize()
+16:45:03   68 Weapon::deserialize()
+16:45:03   69 Client::eventHandler(): sending mouse input to server.
+16:45:03   69 Hero::deserialize()
+16:45:03   69 Weapon::deserialize()
+16:45:03   69 Hero::deserialize()
+16:45:03   69 Weapon::deserialize()
+16:45:03   70 Client::eventHandler(): sending mouse input to server.
+16:45:03   70 Client::eventHandler(): sending keyboard input to server.
+16:45:03   70 Client::eventHandler(): sending keyboard input to server.
+16:45:03   70 Hero::deserialize()
+16:45:03   70 Weapon::deserialize()
+16:45:03   70 Hero::deserialize()
+16:45:03   70 Weapon::deserialize()
+16:45:03   71 Client::eventHandler(): sending keyboard input to server.
+16:45:03   71 Hero::deserialize()
+16:45:03   71 Weapon::deserialize()
+16:45:03   71 Hero::deserialize()
+16:45:03   71 Weapon::deserialize()
+16:45:03   72 Client::eventHandler(): sending keyboard input to server.
+16:45:03   72 Hero::deserialize()
+16:45:03   72 Weapon::deserialize()
+16:45:03   72 Hero::deserialize()
+16:45:03   72 Weapon::deserialize()
+16:45:03   73 Client::eventHandler(): sending keyboard input to server.
+16:45:03   73 Hero::deserialize()
+16:45:03   73 Weapon::deserialize()
+16:45:03   73 Hero::deserialize()
+16:45:03   73 Weapon::deserialize()
+16:45:03   74 Client::eventHandler(): sending keyboard input to server.
+16:45:03   74 Hero::deserialize()
+16:45:03   74 Weapon::deserialize()
+16:45:03   74 Hero::deserialize()
+16:45:03   74 Weapon::deserialize()
+16:45:03   75 Client::eventHandler(): sending keyboard input to server.
+16:45:03   75 Hero::deserialize()
+16:45:03   75 Weapon::deserialize()
+16:45:03   75 Hero::deserialize()
+16:45:03   75 Weapon::deserialize()
+16:45:03   76 Client::eventHandler(): sending keyboard input to server.
+16:45:03   76 Hero::deserialize()
+16:45:03   76 Weapon::deserialize()
+16:45:03   76 Hero::deserialize()
+16:45:03   76 Weapon::deserialize()
+16:45:03   77 Client::eventHandler(): sending keyboard input to server.
+16:45:03   77 Hero::deserialize()
+16:45:03   77 Weapon::deserialize()
+16:45:03   77 Hero::deserialize()
+16:45:03   77 Weapon::deserialize()
+16:45:03   78 Client::eventHandler(): sending mouse input to server.
+16:45:03   78 Client::eventHandler(): sending keyboard input to server.
+16:45:03   78 Hero::deserialize()
+16:45:03   78 Weapon::deserialize()
+16:45:03   78 Hero::deserialize()
+16:45:03   78 Weapon::deserialize()
+16:45:03   79 Client::eventHandler(): sending keyboard input to server.
+16:45:03   79 Hero::deserialize()
+16:45:03   79 Weapon::deserialize()
+16:45:03   79 Hero::deserialize()
+16:45:03   79 Weapon::deserialize()
+16:45:03   80 Client::eventHandler(): sending keyboard input to server.
+16:45:03   80 Hero::deserialize()
+16:45:03   80 Weapon::deserialize()
+16:45:03   80 Hero::deserialize()
+16:45:03   80 Weapon::deserialize()
+16:45:03   81 Client::eventHandler(): sending keyboard input to server.
+16:45:03   81 Hero::deserialize()
+16:45:03   81 Weapon::deserialize()
+16:45:03   81 Hero::deserialize()
+16:45:03   81 Weapon::deserialize()
+16:45:03   82 Client::eventHandler(): sending keyboard input to server.
+16:45:03   82 Hero::deserialize()
+16:45:03   82 Weapon::deserialize()
+16:45:03   82 Hero::deserialize()
+16:45:03   82 Weapon::deserialize()
+16:45:03   83 Client::eventHandler(): sending keyboard input to server.
+16:45:03   83 Hero::deserialize()
+16:45:03   83 Weapon::deserialize()
+16:45:03   83 Hero::deserialize()
+16:45:03   83 Weapon::deserialize()
+16:45:03   84 Client::eventHandler(): sending keyboard input to server.
+16:45:03   84 Hero::deserialize()
+16:45:03   84 Weapon::deserialize()
+16:45:03   84 Hero::deserialize()
+16:45:03   84 Weapon::deserialize()
+16:45:03   85 Client::eventHandler(): sending keyboard input to server.
+16:45:03   85 Hero::deserialize()
+16:45:03   85 Weapon::deserialize()
+16:45:03   85 Hero::deserialize()
+16:45:03   85 Weapon::deserialize()
+16:45:03   86 Client::eventHandler(): sending keyboard input to server.
+16:45:03   86 Hero::deserialize()
+16:45:03   86 Weapon::deserialize()
+16:45:03   86 Hero::deserialize()
+16:45:03   86 Weapon::deserialize()
+16:45:03   87 Client::eventHandler(): sending keyboard input to server.
+16:45:03   87 Hero::deserialize()
+16:45:03   87 Weapon::deserialize()
+16:45:03   87 Hero::deserialize()
+16:45:03   87 Weapon::deserialize()
+16:45:03   88 Client::eventHandler(): sending keyboard input to server.
+16:45:03   88 Hero::deserialize()
+16:45:03   88 Weapon::deserialize()
+16:45:03   88 Hero::deserialize()
+16:45:03   88 Weapon::deserialize()
+16:45:03   89 Client::eventHandler(): sending keyboard input to server.
+16:45:03   89 Client::eventHandler(): sending keyboard input to server.
+16:45:03   89 Client::eventHandler(): sending keyboard input to server.
+16:45:03   89 Hero::deserialize()
+16:45:03   89 Weapon::deserialize()
+16:45:03   89 Hero::deserialize()
+16:45:03   89 Weapon::deserialize()
+16:45:04   90 Client::eventHandler(): sending keyboard input to server.
+16:45:04   90 Hero::deserialize()
+16:45:04   90 Weapon::deserialize()
+16:45:04   90 Hero::deserialize()
+16:45:04   90 Weapon::deserialize()
+16:45:04   91 Client::eventHandler(): sending keyboard input to server.
+16:45:04   91 Hero::deserialize()
+16:45:04   91 Weapon::deserialize()
+16:45:04   91 Hero::deserialize()
+16:45:04   91 Weapon::deserialize()
+16:45:04   92 Client::eventHandler(): sending keyboard input to server.
+16:45:04   92 Hero::deserialize()
+16:45:04   92 Weapon::deserialize()
+16:45:04   92 Hero::deserialize()
+16:45:04   92 Weapon::deserialize()
+16:45:04   93 Client::eventHandler(): sending keyboard input to server.
+16:45:04   93 Hero::deserialize()
+16:45:04   93 Weapon::deserialize()
+16:45:04   93 Hero::deserialize()
+16:45:04   93 Weapon::deserialize()
+16:45:04   94 Client::eventHandler(): sending keyboard input to server.
+16:45:04   94 Hero::deserialize()
+16:45:04   94 Weapon::deserialize()
+16:45:04   94 Hero::deserialize()
+16:45:04   94 Weapon::deserialize()
+16:45:04   95 Client::eventHandler(): sending keyboard input to server.
+16:45:04   95 Hero::deserialize()
+16:45:04   95 Weapon::deserialize()
+16:45:04   95 Hero::deserialize()
+16:45:04   95 Weapon::deserialize()
+16:45:04   96 Client::eventHandler(): sending keyboard input to server.
+16:45:04   96 Hero::deserialize()
+16:45:04   96 Weapon::deserialize()
+16:45:04   96 Hero::deserialize()
+16:45:04   96 Weapon::deserialize()
+16:45:04   97 Client::eventHandler(): sending keyboard input to server.
+16:45:04   97 Hero::deserialize()
+16:45:04   97 Weapon::deserialize()
+16:45:04   97 Hero::deserialize()
+16:45:04   97 Weapon::deserialize()
+16:45:04   98 Client::eventHandler(): sending keyboard input to server.
+16:45:04   98 Hero::deserialize()
+16:45:04   98 Weapon::deserialize()
+16:45:04   98 Hero::deserialize()
+16:45:04   98 Weapon::deserialize()
+16:45:04   99 Client::eventHandler(): sending keyboard input to server.
+16:45:04   99 Hero::deserialize()
+16:45:04   99 Weapon::deserialize()
+16:45:04   99 Hero::deserialize()
+16:45:04   99 Weapon::deserialize()
+16:45:04  100 Client::eventHandler(): sending keyboard input to server.
+16:45:04  100 Hero::deserialize()
+16:45:04  100 Weapon::deserialize()
+16:45:04  100 Hero::deserialize()
+16:45:04  100 Weapon::deserialize()
+16:45:04  101 Client::eventHandler(): sending keyboard input to server.
+16:45:04  101 Hero::deserialize()
+16:45:04  101 Weapon::deserialize()
+16:45:04  101 Hero::deserialize()
+16:45:04  101 Weapon::deserialize()
+16:45:04  102 Client::eventHandler(): sending keyboard input to server.
+16:45:04  102 Hero::deserialize()
+16:45:04  102 Weapon::deserialize()
+16:45:04  102 Hero::deserialize()
+16:45:04  102 Weapon::deserialize()
+16:45:04  103 Client::eventHandler(): sending keyboard input to server.
+16:45:04  103 Hero::deserialize()
+16:45:04  103 Weapon::deserialize()
+16:45:04  103 Hero::deserialize()
+16:45:04  103 Weapon::deserialize()
+16:45:04  104 Client::eventHandler(): sending keyboard input to server.
+16:45:04  104 Hero::deserialize()
+16:45:04  104 Weapon::deserialize()
+16:45:04  104 Weapon::deserialize()
+16:45:04  105 Client::eventHandler(): sending keyboard input to server.
+16:45:04  105 Hero::deserialize()
+16:45:04  105 Weapon::deserialize()
+16:45:04  105 Weapon::deserialize()
+16:45:04  106 Hero::deserialize()
+16:45:04  106 Weapon::deserialize()
+16:45:04  106 Weapon::deserialize()
+16:45:04  107 Client::eventHandler(): sending mouse input to server.
+16:45:04  107 Client::eventHandler(): sending mouse input to server.
+16:45:04  107 Hero::deserialize()
+16:45:04  107 Weapon::deserialize()
+16:45:04  107 Weapon::deserialize()
+16:45:04  108 Client::eventHandler(): sending mouse input to server.
+16:45:04  108 Client::eventHandler(): sending keyboard input to server.
+16:45:04  108 Client::eventHandler(): sending mouse input to server.
+16:45:04  108 Client::eventHandler(): sending keyboard input to server.
+16:45:04  108 Hero::deserialize()
+16:45:04  108 Weapon::deserialize()
+16:45:04  108 Weapon::deserialize()
+16:45:04  109 Client::eventHandler(): sending mouse input to server.
+16:45:04  109 Client::eventHandler(): sending keyboard input to server.
+16:45:04  109 Hero::deserialize()
+16:45:04  109 Weapon::deserialize()
+16:45:04  109 Weapon::deserialize()
+16:45:04  110 Client::eventHandler(): sending keyboard input to server.
+16:45:04  110 Hero::deserialize()
+16:45:04  110 Weapon::deserialize()
+16:45:04  110 Weapon::deserialize()
+16:45:04  111 Client::eventHandler(): sending mouse input to server.
+16:45:04  111 Client::eventHandler(): sending keyboard input to server.
+16:45:04  111 Hero::deserialize()
+16:45:04  111 Weapon::deserialize()
+16:45:04  111 Weapon::deserialize()
+16:45:04  112 Client::eventHandler(): sending keyboard input to server.
+16:45:04  112 Hero::deserialize()
+16:45:04  112 Weapon::deserialize()
+16:45:04  112 Weapon::deserialize()
+16:45:04  113 Client::eventHandler(): sending keyboard input to server.
+16:45:04  113 Hero::deserialize()
+16:45:04  113 Weapon::deserialize()
+16:45:04  113 Weapon::deserialize()
+16:45:04  114 Client::eventHandler(): sending keyboard input to server.
+16:45:04  114 Hero::deserialize()
+16:45:04  114 Weapon::deserialize()
+16:45:04  114 Weapon::deserialize()
+16:45:04  115 Client::eventHandler(): sending mouse input to server.
+16:45:04  115 Client::eventHandler(): sending keyboard input to server.
+16:45:04  115 Hero::deserialize()
+16:45:04  115 Weapon::deserialize()
+16:45:04  115 Weapon::deserialize()
+16:45:04  116 Client::eventHandler(): sending keyboard input to server.
+16:45:04  116 Hero::deserialize()
+16:45:04  116 Weapon::deserialize()
+16:45:04  116 Weapon::deserialize()
+16:45:04  117 Client::eventHandler(): sending keyboard input to server.
+16:45:04  117 Hero::deserialize()
+16:45:04  117 Weapon::deserialize()
+16:45:04  117 Weapon::deserialize()
+16:45:04  118 Hero::deserialize()
+16:45:04  118 Weapon::deserialize()
+16:45:04  118 Weapon::deserialize()
+16:45:04  119 Hero::deserialize()
+16:45:04  119 Weapon::deserialize()
+16:45:04  119 Weapon::deserialize()
+16:45:05  120 Hero::deserialize()
+16:45:05  120 Weapon::deserialize()
+16:45:05  120 Weapon::deserialize()
+16:45:05  121 Hero::deserialize()
+16:45:05  121 Weapon::deserialize()
+16:45:05  121 Weapon::deserialize()
+16:45:05  122 Client::eventHandler(): sending keyboard input to server.
+16:45:05  122 Client::eventHandler(): sending keyboard input to server.
+16:45:05  122 Hero::deserialize()
+16:45:05  122 Weapon::deserialize()
+16:45:05  122 Weapon::deserialize()
+16:45:05  123 Client::eventHandler(): sending keyboard input to server.
+16:45:05  123 Hero::deserialize()
+16:45:05  123 Weapon::deserialize()
+16:45:05  123 Weapon::deserialize()
+16:45:05  124 Client::eventHandler(): sending keyboard input to server.
+16:45:05  124 Hero::deserialize()
+16:45:05  124 Weapon::deserialize()
+16:45:05  124 Weapon::deserialize()
+16:45:05  125 Client::eventHandler(): sending keyboard input to server.
+16:45:05  125 Hero::deserialize()
+16:45:05  125 Weapon::deserialize()
+16:45:05  125 Weapon::deserialize()
+16:45:05  126 Client::eventHandler(): sending keyboard input to server.
+16:45:05  126 Hero::deserialize()
+16:45:05  126 Weapon::deserialize()
+16:45:05  126 Weapon::deserialize()
+16:45:05  127 Client::eventHandler(): sending keyboard input to server.
+16:45:05  127 Hero::deserialize()
+16:45:05  127 Weapon::deserialize()
+16:45:05  127 Weapon::deserialize()
+16:45:05  128 Client::eventHandler(): sending keyboard input to server.
+16:45:05  128 Hero::deserialize()
+16:45:05  128 Weapon::deserialize()
+16:45:05  128 Weapon::deserialize()
+16:45:05  129 Client::eventHandler(): sending keyboard input to server.
+16:45:05  129 Hero::deserialize()
+16:45:05  129 Weapon::deserialize()
+16:45:05  129 Weapon::deserialize()
+16:45:05  130 Client::eventHandler(): sending keyboard input to server.
+16:45:05  130 Hero::deserialize()
+16:45:05  130 Weapon::deserialize()
+16:45:05  130 Weapon::deserialize()
+16:45:05  131 Client::eventHandler(): sending keyboard input to server.
+16:45:05  131 Hero::deserialize()
+16:45:05  131 Weapon::deserialize()
+16:45:05  131 Weapon::deserialize()
+16:45:05  132 Client::eventHandler(): sending keyboard input to server.
+16:45:05  132 Hero::deserialize()
+16:45:05  132 Weapon::deserialize()
+16:45:05  132 Weapon::deserialize()
+16:45:05  133 Client::eventHandler(): sending keyboard input to server.
+16:45:05  133 Hero::deserialize()
+16:45:05  133 Weapon::deserialize()
+16:45:05  133 Weapon::deserialize()
+16:45:05  134 Client::eventHandler(): sending keyboard input to server.
+16:45:05  134 Hero::deserialize()
+16:45:05  134 Weapon::deserialize()
+16:45:05  134 Weapon::deserialize()
+16:45:05  135 Client::eventHandler(): sending keyboard input to server.
+16:45:05  135 Hero::deserialize()
+16:45:05  135 Weapon::deserialize()
+16:45:05  135 Weapon::deserialize()
+16:45:05  136 Client::eventHandler(): sending keyboard input to server.
+16:45:05  136 Client::eventHandler(): sending keyboard input to server.
+16:45:05  136 Client::eventHandler(): sending keyboard input to server.
+16:45:05  136 Hero::deserialize()
+16:45:05  136 Weapon::deserialize()
+16:45:05  136 Weapon::deserialize()
+16:45:05  137 Client::eventHandler(): sending keyboard input to server.
+16:45:05  137 Client::eventHandler(): sending keyboard input to server.
+16:45:05  137 Hero::deserialize()
+16:45:05  137 Weapon::deserialize()
+16:45:05  137 Weapon::deserialize()
+16:45:05  138 Client::eventHandler(): sending keyboard input to server.
+16:45:05  138 Client::eventHandler(): sending keyboard input to server.
+16:45:05  138 Hero::deserialize()
+16:45:05  138 Weapon::deserialize()
+16:45:05  138 Weapon::deserialize()
+16:45:05  139 Client::eventHandler(): sending keyboard input to server.
+16:45:05  139 Client::eventHandler(): sending keyboard input to server.
+16:45:05  139 Hero::deserialize()
+16:45:05  139 Weapon::deserialize()
+16:45:05  139 Weapon::deserialize()
+16:45:05  140 Client::eventHandler(): sending keyboard input to server.
+16:45:05  140 Client::eventHandler(): sending keyboard input to server.
+16:45:05  140 Hero::deserialize()
+16:45:05  140 Weapon::deserialize()
+16:45:05  140 Weapon::deserialize()
+16:45:05  141 Client::eventHandler(): sending keyboard input to server.
+16:45:05  141 Client::eventHandler(): sending keyboard input to server.
+16:45:05  141 Hero::deserialize()
+16:45:05  141 Weapon::deserialize()
+16:45:05  141 Weapon::deserialize()
+16:45:05  142 Client::eventHandler(): sending keyboard input to server.
+16:45:05  142 Hero::deserialize()
+16:45:05  142 Weapon::deserialize()
+16:45:05  142 Weapon::deserialize()
+16:45:05  143 Client::eventHandler(): sending keyboard input to server.
+16:45:05  143 Hero::deserialize()
+16:45:05  143 Weapon::deserialize()
+16:45:05  143 Weapon::deserialize()
+16:45:05  144 Client::eventHandler(): sending keyboard input to server.
+16:45:05  144 Hero::deserialize()
+16:45:05  144 Weapon::deserialize()
+16:45:05  144 Weapon::deserialize()
+16:45:05  145 Client::eventHandler(): sending keyboard input to server.
+16:45:05  145 Hero::deserialize()
+16:45:05  145 Weapon::deserialize()
+16:45:05  145 Weapon::deserialize()
+16:45:05  146 Client::eventHandler(): sending keyboard input to server.
+16:45:05  146 Hero::deserialize()
+16:45:05  146 Weapon::deserialize()
+16:45:05  146 Weapon::deserialize()
+16:45:05  147 Client::eventHandler(): sending keyboard input to server.
+16:45:05  147 Hero::deserialize()
+16:45:05  147 Weapon::deserialize()
+16:45:05  147 Weapon::deserialize()
+16:45:05  148 Client::eventHandler(): sending keyboard input to server.
+16:45:05  148 Hero::deserialize()
+16:45:05  148 Weapon::deserialize()
+16:45:05  148 Weapon::deserialize()
+16:45:05  149 Client::eventHandler(): sending keyboard input to server.
+16:45:05  149 Hero::deserialize()
+16:45:05  149 Weapon::deserialize()
+16:45:05  149 Weapon::deserialize()
+16:45:05  150 Client::eventHandler(): sending keyboard input to server.
+16:45:05  150 Hero::deserialize()
+16:45:05  150 Weapon::deserialize()
+16:45:05  150 Weapon::deserialize()
+16:45:06  151 Client::eventHandler(): sending keyboard input to server.
+16:45:06  151 Hero::deserialize()
+16:45:06  151 Weapon::deserialize()
+16:45:06  151 Weapon::deserialize()
+16:45:06  152 Client::eventHandler(): sending keyboard input to server.
+16:45:06  152 Hero::deserialize()
+16:45:06  152 Weapon::deserialize()
+16:45:06  152 Weapon::deserialize()
+16:45:06  153 Client::eventHandler(): sending keyboard input to server.
+16:45:06  153 Hero::deserialize()
+16:45:06  153 Weapon::deserialize()
+16:45:06  153 Weapon::deserialize()
+16:45:06  154 Client::eventHandler(): sending keyboard input to server.
+16:45:06  154 Hero::deserialize()
+16:45:06  154 Weapon::deserialize()
+16:45:06  154 Weapon::deserialize()
+16:45:06  155 Client::eventHandler(): sending keyboard input to server.
+16:45:06  155 Hero::deserialize()
+16:45:06  155 Weapon::deserialize()
+16:45:06  155 Weapon::deserialize()
+16:45:06  156 Client::eventHandler(): sending keyboard input to server.
+16:45:06  156 Hero::deserialize()
+16:45:06  156 Weapon::deserialize()
+16:45:06  156 Weapon::deserialize()
+16:45:06  157 Client::eventHandler(): sending keyboard input to server.
+16:45:06  157 Hero::deserialize()
+16:45:06  157 Weapon::deserialize()
+16:45:06  157 Weapon::deserialize()
+16:45:06  158 Client::eventHandler(): sending keyboard input to server.
+16:45:06  158 Hero::deserialize()
+16:45:06  158 Weapon::deserialize()
+16:45:06  158 Weapon::deserialize()
+16:45:06  159 Client::eventHandler(): sending keyboard input to server.
+16:45:06  159 Hero::deserialize()
+16:45:06  159 Weapon::deserialize()
+16:45:06  159 Weapon::deserialize()
+16:45:06  160 Client::eventHandler(): sending keyboard input to server.
+16:45:06  160 Hero::deserialize()
+16:45:06  160 Weapon::deserialize()
+16:45:06  160 Weapon::deserialize()
+16:45:06  161 Client::eventHandler(): sending keyboard input to server.
+16:45:06  161 Hero::deserialize()
+16:45:06  161 Weapon::deserialize()
+16:45:06  161 Weapon::deserialize()
+16:45:06  162 Client::eventHandler(): sending keyboard input to server.
+16:45:06  162 Hero::deserialize()
+16:45:06  162 Weapon::deserialize()
+16:45:06  162 Weapon::deserialize()
+16:45:06  163 Client::eventHandler(): sending keyboard input to server.
+16:45:06  163 Hero::deserialize()
+16:45:06  163 Weapon::deserialize()
+16:45:06  163 Weapon::deserialize()
+16:45:06  164 Client::eventHandler(): sending keyboard input to server.
+16:45:06  164 Hero::deserialize()
+16:45:06  164 Weapon::deserialize()
+16:45:06  164 Weapon::deserialize()
+16:45:06  165 Client::eventHandler(): sending keyboard input to server.
+16:45:06  165 Hero::deserialize()
+16:45:06  165 Weapon::deserialize()
+16:45:06  165 Weapon::deserialize()
+16:45:06  166 Client::eventHandler(): sending keyboard input to server.
+16:45:06  166 Hero::deserialize()
+16:45:06  166 Weapon::deserialize()
+16:45:06  166 Weapon::deserialize()
+16:45:06  167 Client::eventHandler(): sending keyboard input to server.
+16:45:06  167 Client::eventHandler(): sending keyboard input to server.
+16:45:06  167 Client::eventHandler(): sending keyboard input to server.
+16:45:06  167 Hero::deserialize()
+16:45:06  167 Weapon::deserialize()
+16:45:06  167 Weapon::deserialize()
+16:45:06  168 Client::eventHandler(): sending keyboard input to server.
+16:45:06  168 Hero::deserialize()
+16:45:06  168 Weapon::deserialize()
+16:45:06  168 Weapon::deserialize()
+16:45:06  169 Client::eventHandler(): sending keyboard input to server.
+16:45:06  169 Hero::deserialize()
+16:45:06  169 Weapon::deserialize()
+16:45:06  169 Weapon::deserialize()
+16:45:06  170 Client::eventHandler(): sending keyboard input to server.
+16:45:06  170 Hero::deserialize()
+16:45:06  170 Weapon::deserialize()
+16:45:06  170 Weapon::deserialize()
+16:45:06  171 Client::eventHandler(): sending keyboard input to server.
+16:45:06  171 Hero::deserialize()
+16:45:06  171 Weapon::deserialize()
+16:45:06  171 Weapon::deserialize()
+16:45:06  172 Client::eventHandler(): sending keyboard input to server.
+16:45:06  172 Hero::deserialize()
+16:45:06  172 Weapon::deserialize()
+16:45:06  172 Weapon::deserialize()
+16:45:06  173 Client::eventHandler(): sending keyboard input to server.
+16:45:06  173 Hero::deserialize()
+16:45:06  173 Weapon::deserialize()
+16:45:06  173 Weapon::deserialize()
+16:45:06  174 Client::eventHandler(): sending keyboard input to server.
+16:45:06  174 Hero::deserialize()
+16:45:06  174 Weapon::deserialize()
+16:45:06  174 Weapon::deserialize()
+16:45:06  175 Client::eventHandler(): sending keyboard input to server.
+16:45:06  175 Hero::deserialize()
+16:45:06  175 Weapon::deserialize()
+16:45:06  175 Weapon::deserialize()
+16:45:06  176 Client::eventHandler(): sending keyboard input to server.
+16:45:06  176 Hero::deserialize()
+16:45:06  176 Weapon::deserialize()
+16:45:06  176 Weapon::deserialize()
+16:45:06  177 Client::eventHandler(): sending keyboard input to server.
+16:45:06  177 Hero::deserialize()
+16:45:06  177 Weapon::deserialize()
+16:45:06  177 Weapon::deserialize()
+16:45:06  178 Client::eventHandler(): sending keyboard input to server.
+16:45:06  178 Hero::deserialize()
+16:45:06  178 Weapon::deserialize()
+16:45:06  178 Weapon::deserialize()
+16:45:06  179 Client::eventHandler(): sending keyboard input to server.
+16:45:06  179 Hero::deserialize()
+16:45:06  179 Weapon::deserialize()
+16:45:06  179 Weapon::deserialize()
+16:45:06  180 Client::eventHandler(): sending keyboard input to server.
+16:45:06  180 Hero::deserialize()
+16:45:06  180 Weapon::deserialize()
+16:45:06  180 Weapon::deserialize()
+16:45:07  181 Client::eventHandler(): sending keyboard input to server.
+16:45:07  181 Hero::deserialize()
+16:45:07  181 Weapon::deserialize()
+16:45:07  181 Weapon::deserialize()
+16:45:07  182 Client::eventHandler(): sending keyboard input to server.
+16:45:07  182 Hero::deserialize()
+16:45:07  182 Weapon::deserialize()
+16:45:07  182 Weapon::deserialize()
+16:45:07  183 Client::eventHandler(): sending keyboard input to server.
+16:45:07  183 Hero::deserialize()
+16:45:07  183 Weapon::deserialize()
+16:45:07  183 Weapon::deserialize()
+16:45:07  184 Client::eventHandler(): sending mouse input to server.
+16:45:07  184 Client::eventHandler(): sending keyboard input to server.
+16:45:07  184 Hero::deserialize()
+16:45:07  184 Weapon::deserialize()
+16:45:07  184 Weapon::deserialize()
+16:45:07  185 Client::eventHandler(): sending mouse input to server.
+16:45:07  185 Client::eventHandler(): sending mouse input to server.
+16:45:07  185 Client::eventHandler(): sending keyboard input to server.
+16:45:07  185 Hero::deserialize()
+16:45:07  185 Weapon::deserialize()
+16:45:07  185 Weapon::deserialize()
+16:45:07  186 Client::eventHandler(): sending mouse input to server.
+16:45:07  186 Client::eventHandler(): sending mouse input to server.
+16:45:07  186 Client::eventHandler(): sending keyboard input to server.
+16:45:07  186 Hero::deserialize()
+16:45:07  186 Weapon::deserialize()
+16:45:07  186 Weapon::deserialize()
+16:45:07  187 Client::eventHandler(): sending mouse input to server.
+16:45:07  187 Client::eventHandler(): sending mouse input to server.
+16:45:07  187 Client::eventHandler(): sending keyboard input to server.
+16:45:07  187 Hero::deserialize()
+16:45:07  187 Weapon::deserialize()
+16:45:07  187 Weapon::deserialize()
+16:45:07  188 Client::eventHandler(): sending mouse input to server.
+16:45:07  188 Client::eventHandler(): sending mouse input to server.
+16:45:07  188 Client::eventHandler(): sending mouse input to server.
+16:45:07  188 Client::eventHandler(): sending keyboard input to server.
+16:45:07  188 Hero::deserialize()
+16:45:07  188 Weapon::deserialize()
+16:45:07  188 Weapon::deserialize()
+16:45:07  189 Client::eventHandler(): sending mouse input to server.
+16:45:07  189 Client::eventHandler(): sending mouse input to server.
+16:45:07  189 Client::eventHandler(): sending keyboard input to server.
+16:45:07  189 Hero::deserialize()
+16:45:07  189 Weapon::deserialize()
+16:45:07  189 Weapon::deserialize()
+16:45:07  190 Hero::deserialize()
+16:45:07  190 Weapon::deserialize()
+16:45:07  190 Weapon::deserialize()
+16:45:07  191 Hero::deserialize()
+16:45:07  191 Weapon::deserialize()
+16:45:07  191 Weapon::deserialize()
+16:45:07  192 Hero::deserialize()
+16:45:07  192 Weapon::deserialize()
+16:45:07  192 Weapon::deserialize()
+16:45:07  193 Hero::deserialize()
+16:45:07  193 Weapon::deserialize()
+16:45:07  193 Weapon::deserialize()
+16:45:07  194 Hero::deserialize()
+16:45:07  194 Weapon::deserialize()
+16:45:07  194 Weapon::deserialize()
+16:45:07  195 Hero::deserialize()
+16:45:07  195 Weapon::deserialize()
+16:45:07  195 Weapon::deserialize()
+16:45:07  196 Hero::deserialize()
+16:45:07  196 Weapon::deserialize()
+16:45:07  196 Weapon::deserialize()
+16:45:07  197 Hero::deserialize()
+16:45:07  197 Weapon::deserialize()
+16:45:07  197 Weapon::deserialize()
+16:45:07  198 Hero::deserialize()
+16:45:07  198 Weapon::deserialize()
+16:45:07  198 Weapon::deserialize()
+16:45:07  199 Hero::deserialize()
+16:45:07  199 Weapon::deserialize()
+16:45:07  199 Weapon::deserialize()
+16:45:07  200 Hero::deserialize()
+16:45:07  200 Weapon::deserialize()
+16:45:07  200 Weapon::deserialize()
+16:45:07  201 Hero::deserialize()
+16:45:07  201 Weapon::deserialize()
+16:45:07  201 Weapon::deserialize()
+16:45:07  202 Hero::deserialize()
+16:45:07  202 Weapon::deserialize()
+16:45:07  202 Weapon::deserialize()
+16:45:07  203 Hero::deserialize()
+16:45:07  203 Weapon::deserialize()
+16:45:07  203 Weapon::deserialize()
+16:45:07  204 Hero::deserialize()
+16:45:07  204 Weapon::deserialize()
+16:45:07  204 Weapon::deserialize()
+16:45:07  205 Hero::deserialize()
+16:45:07  205 Weapon::deserialize()
+16:45:07  205 Weapon::deserialize()
+16:45:07  206 Hero::deserialize()
+16:45:07  206 Weapon::deserialize()
+16:45:07  206 Weapon::deserialize()
+16:45:07  207 Hero::deserialize()
+16:45:07  207 Weapon::deserialize()
+16:45:07  207 Weapon::deserialize()
+16:45:07  208 Hero::deserialize()
+16:45:07  208 Weapon::deserialize()
+16:45:07  208 Weapon::deserialize()
+16:45:07  209 Hero::deserialize()
+16:45:07  209 Weapon::deserialize()
+16:45:07  209 Weapon::deserialize()
+16:45:07  210 Hero::deserialize()
+16:45:07  210 Weapon::deserialize()
+16:45:07  210 Weapon::deserialize()
+16:45:08  211 Hero::deserialize()
+16:45:08  211 Weapon::deserialize()
+16:45:08  211 Weapon::deserialize()
+16:45:08  212 Hero::deserialize()
+16:45:08  212 Weapon::deserialize()
+16:45:08  212 Weapon::deserialize()
+16:45:08  213 Hero::deserialize()
+16:45:08  213 Weapon::deserialize()
+16:45:08  213 Weapon::deserialize()
+16:45:08  214 Hero::deserialize()
+16:45:08  214 Weapon::deserialize()
+16:45:08  214 Weapon::deserialize()
+16:45:08  215 Hero::deserialize()
+16:45:08  215 Weapon::deserialize()
+16:45:08  215 Weapon::deserialize()
+16:45:08  216 Hero::deserialize()
+16:45:08  216 Weapon::deserialize()
+16:45:08  216 Weapon::deserialize()
+16:45:08  217 Hero::deserialize()
+16:45:08  217 Weapon::deserialize()
+16:45:08  217 Weapon::deserialize()
+16:45:08  218 Hero::deserialize()
+16:45:08  218 Weapon::deserialize()
+16:45:08  218 Weapon::deserialize(): fire_count_down is 3
+16:45:08  218 Weapon::deserialize(): ammo_loaded is 23
+16:45:08  218 Weapon::deserialize()
+16:45:08  218 Client::createObject(): creating object type 'Bullet'
+16:45:08  219 Hero::deserialize()
+16:45:08  219 Weapon::deserialize()
+16:45:08  219 Weapon::deserialize(): fire_count_down is 2
+16:45:08  219 Weapon::deserialize()
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  219 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Hero::deserialize()
+16:45:08  220 Weapon::deserialize()
+16:45:08  220 Weapon::deserialize(): fire_count_down is 1
+16:45:08  220 Weapon::deserialize()
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  220 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Hero::deserialize()
+16:45:08  221 Weapon::deserialize()
+16:45:08  221 Weapon::deserialize(): fire_count_down is 0
+16:45:08  221 Weapon::deserialize()
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  221 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Hero::deserialize()
+16:45:08  222 Weapon::deserialize()
+16:45:08  222 Weapon::deserialize()
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  222 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Hero::deserialize()
+16:45:08  223 Weapon::deserialize()
+16:45:08  223 Weapon::deserialize()
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  223 Client::createObject(): creating object type 'BulletTrail'
+16:45:08  224 Hero::deserialize()
+16:45:08  224 Weapon::deserialize()
+16:45:08  224 Weapon::deserialize()
+16:45:08  225 Hero::deserialize()
+16:45:08  225 Weapon::deserialize()
+16:45:08  225 Weapon::deserialize()
+16:45:08  226 Hero::deserialize()
+16:45:08  226 Weapon::deserialize()
+16:45:08  226 Weapon::deserialize()
+16:45:08  227 Hero::deserialize()
+16:45:08  227 Weapon::deserialize()
+16:45:08  227 Weapon::deserialize()
+16:45:08  228 Hero::deserialize()
+16:45:08  228 Weapon::deserialize()
+16:45:08  228 Weapon::deserialize()
+16:45:08  229 Hero::deserialize()
+16:45:08  229 Weapon::deserialize()
+16:45:08  229 Weapon::deserialize()
+16:45:08  230 Hero::deserialize()
+16:45:08  230 Weapon::deserialize()
+16:45:08  230 Weapon::deserialize()
+16:45:08  231 Hero::deserialize()
+16:45:08  231 Weapon::deserialize()
+16:45:08  231 Weapon::deserialize()
+16:45:08  232 Hero::deserialize()
+16:45:08  232 Weapon::deserialize()
+16:45:08  232 Weapon::deserialize()
+16:45:08  233 Hero::deserialize()
+16:45:08  233 Weapon::deserialize()
+16:45:08  233 Weapon::deserialize()
+16:45:08  234 Hero::deserialize()
+16:45:08  234 Weapon::deserialize()
+16:45:08  234 Weapon::deserialize()
+16:45:08  235 Hero::deserialize()
+16:45:08  235 Weapon::deserialize()
+16:45:08  235 Weapon::deserialize()
+16:45:08  236 Hero::deserialize()
+16:45:08  236 Weapon::deserialize()
+16:45:08  236 Weapon::deserialize()
+16:45:08  237 Hero::deserialize()
+16:45:08  237 Weapon::deserialize()
+16:45:08  237 Weapon::deserialize()
+16:45:08  238 Hero::deserialize()
+16:45:08  238 Weapon::deserialize()
+16:45:08  238 Weapon::deserialize()
+16:45:08  239 Hero::deserialize()
+16:45:08  239 Weapon::deserialize()
+16:45:08  239 Weapon::deserialize()
+16:45:08  240 Hero::deserialize()
+16:45:08  240 Weapon::deserialize()
+16:45:08  240 Weapon::deserialize()
+16:45:09  241 Hero::deserialize()
+16:45:09  241 Weapon::deserialize()
+16:45:09  241 Weapon::deserialize()
+16:45:09  242 Hero::deserialize()
+16:45:09  242 Weapon::deserialize()
+16:45:09  242 Weapon::deserialize()
+16:45:09  243 Hero::deserialize()
+16:45:09  243 Weapon::deserialize()
+16:45:09  243 Weapon::deserialize()
+16:45:09  244 Hero::deserialize()
+16:45:09  244 Weapon::deserialize()
+16:45:09  244 Weapon::deserialize()
+16:45:09  245 Hero::deserialize()
+16:45:09  245 Weapon::deserialize()
+16:45:09  245 Weapon::deserialize()
+16:45:09  246 Hero::deserialize()
+16:45:09  246 Weapon::deserialize()
+16:45:09  246 Weapon::deserialize()
+16:45:09  247 Hero::deserialize()
+16:45:09  247 Weapon::deserialize()
+16:45:09  247 Weapon::deserialize()
+16:45:09  248 Hero::deserialize()
+16:45:09  248 Weapon::deserialize()
+16:45:09  248 Weapon::deserialize()
+16:45:09  249 Hero::deserialize()
+16:45:09  249 Weapon::deserialize()
+16:45:09  249 Weapon::deserialize()
+16:45:09  250 Hero::deserialize()
+16:45:09  250 Weapon::deserialize()
+16:45:09  250 Weapon::deserialize()
+16:45:09  251 Hero::deserialize()
+16:45:09  251 Weapon::deserialize()
+16:45:09  251 Weapon::deserialize()
+16:45:09  252 Hero::deserialize()
+16:45:09  252 Weapon::deserialize()
+16:45:09  252 Weapon::deserialize()
+16:45:09  253 Hero::deserialize()
+16:45:09  253 Weapon::deserialize()
+16:45:09  253 Weapon::deserialize(): fire_count_down is 3
+16:45:09  253 Weapon::deserialize(): ammo_loaded is 22
+16:45:09  253 Weapon::deserialize()
+16:45:09  253 Client::createObject(): creating object type 'Bullet'
+16:45:09  254 Hero::deserialize()
+16:45:09  254 Weapon::deserialize()
+16:45:09  254 Weapon::deserialize(): fire_count_down is 2
+16:45:09  254 Weapon::deserialize()
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  254 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Hero::deserialize()
+16:45:09  255 Weapon::deserialize()
+16:45:09  255 Weapon::deserialize(): fire_count_down is 1
+16:45:09  255 Weapon::deserialize()
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  255 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  256 Hero::deserialize()
+16:45:09  256 Weapon::deserialize()
+16:45:09  256 Weapon::deserialize(): fire_count_down is 3
+16:45:09  256 Weapon::deserialize(): ammo_loaded is 21
+16:45:09  256 Weapon::deserialize()
+16:45:09  256 Client::createObject(): creating object type 'Bullet'
+16:45:09  257 Hero::deserialize()
+16:45:09  257 Weapon::deserialize()
+16:45:09  257 Weapon::deserialize(): fire_count_down is 2
+16:45:09  257 Weapon::deserialize()
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  257 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Hero::deserialize()
+16:45:09  258 Weapon::deserialize()
+16:45:09  258 Weapon::deserialize(): fire_count_down is 1
+16:45:09  258 Weapon::deserialize()
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  258 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Hero::deserialize()
+16:45:09  259 Weapon::deserialize()
+16:45:09  259 Weapon::deserialize(): fire_count_down is 0
+16:45:09  259 Weapon::deserialize()
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  259 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Hero::deserialize()
+16:45:09  260 Weapon::deserialize()
+16:45:09  260 Weapon::deserialize()
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  260 Client::createObject(): creating object type 'BulletTrail'
+16:45:09  261 Hero::deserialize()
+16:45:09  261 Weapon::deserialize()
+16:45:09  261 Weapon::deserialize()
+16:45:09  262 Hero::deserialize()
+16:45:09  262 Weapon::deserialize()
+16:45:09  262 Weapon::deserialize()
+16:45:09  263 Hero::deserialize()
+16:45:09  263 Weapon::deserialize()
+16:45:09  263 Weapon::deserialize()
+16:45:09  264 Hero::deserialize()
+16:45:09  264 Weapon::deserialize()
+16:45:09  264 Weapon::deserialize()
+16:45:09  265 Hero::deserialize()
+16:45:09  265 Weapon::deserialize()
+16:45:09  265 Weapon::deserialize()
+16:45:09  266 Hero::deserialize()
+16:45:09  266 Weapon::deserialize()
+16:45:09  266 Weapon::deserialize()
+16:45:09  267 Hero::deserialize()
+16:45:09  267 Weapon::deserialize()
+16:45:09  267 Weapon::deserialize()
+16:45:09  268 Hero::deserialize()
+16:45:09  268 Weapon::deserialize()
+16:45:09  268 Weapon::deserialize()
+16:45:09  269 Hero::deserialize()
+16:45:09  269 Weapon::deserialize()
+16:45:09  269 Weapon::deserialize()
+16:45:09  270 Hero::deserialize()
+16:45:09  270 Weapon::deserialize()
+16:45:09  270 Weapon::deserialize()
+16:45:09  271 Hero::deserialize()
+16:45:09  271 Weapon::deserialize()
+16:45:09  271 Weapon::deserialize()
+16:45:10  272 Hero::deserialize()
+16:45:10  272 Weapon::deserialize()
+16:45:10  272 Weapon::deserialize()
+16:45:10  273 Hero::deserialize()
+16:45:10  273 Weapon::deserialize()
+16:45:10  273 Weapon::deserialize()
+16:45:10  274 Hero::deserialize()
+16:45:10  274 Weapon::deserialize()
+16:45:10  274 Weapon::deserialize()
+16:45:10  275 Hero::deserialize()
+16:45:10  275 Weapon::deserialize()
+16:45:10  275 Weapon::deserialize()
+16:45:10  276 Hero::deserialize()
+16:45:10  276 Weapon::deserialize()
+16:45:10  276 Weapon::deserialize()
+16:45:10  277 Hero::deserialize()
+16:45:10  277 Weapon::deserialize()
+16:45:10  277 Weapon::deserialize()
+16:45:10  278 Hero::deserialize()
+16:45:10  278 Weapon::deserialize()
+16:45:10  278 Weapon::deserialize()
+16:45:10  279 Hero::deserialize()
+16:45:10  279 Weapon::deserialize()
+16:45:10  279 Weapon::deserialize()
+16:45:10  280 Hero::deserialize()
+16:45:10  280 Weapon::deserialize()
+16:45:10  280 Weapon::deserialize()
+16:45:10  281 Hero::deserialize()
+16:45:10  281 Weapon::deserialize()
+16:45:10  281 Weapon::deserialize()
+16:45:10  282 Hero::deserialize()
+16:45:10  282 Weapon::deserialize()
+16:45:10  282 Weapon::deserialize()
+16:45:10  283 Hero::deserialize()
+16:45:10  283 Weapon::deserialize()
+16:45:10  283 Weapon::deserialize()
+16:45:10  284 Hero::deserialize()
+16:45:10  284 Weapon::deserialize()
+16:45:10  284 Weapon::deserialize()
+16:45:10  285 Hero::deserialize()
+16:45:10  285 Weapon::deserialize()
+16:45:10  285 Weapon::deserialize()
+16:45:10  286 Hero::deserialize()
+16:45:10  286 Weapon::deserialize()
+16:45:10  286 Weapon::deserialize()
+16:45:10  287 Hero::deserialize()
+16:45:10  287 Weapon::deserialize()
+16:45:10  287 Weapon::deserialize()
+16:45:10  288 Hero::deserialize()
+16:45:10  288 Weapon::deserialize()
+16:45:10  288 Weapon::deserialize()
+16:45:10  289 Hero::deserialize()
+16:45:10  289 Weapon::deserialize()
+16:45:10  289 Weapon::deserialize()
+16:45:10  290 Hero::deserialize()
+16:45:10  290 Weapon::deserialize()
+16:45:10  290 Weapon::deserialize()
+16:45:10  291 Hero::deserialize()
+16:45:10  291 Weapon::deserialize()
+16:45:10  291 Weapon::deserialize()
+16:45:10  292 Hero::deserialize()
+16:45:10  292 Weapon::deserialize()
+16:45:10  292 Weapon::deserialize()
+16:45:10  293 Hero::deserialize()
+16:45:10  293 Weapon::deserialize()
+16:45:10  293 Weapon::deserialize()
+16:45:10  294 Hero::deserialize()
+16:45:10  294 Weapon::deserialize()
+16:45:10  294 Weapon::deserialize(): fire_count_down is 3
+16:45:10  294 Weapon::deserialize(): ammo_loaded is 20
+16:45:10  294 Weapon::deserialize()
+16:45:10  294 Client::createObject(): creating object type 'Bullet'
+16:45:10  295 Hero::deserialize()
+16:45:10  295 Weapon::deserialize()
+16:45:10  295 Weapon::deserialize(): fire_count_down is 2
+16:45:10  295 Weapon::deserialize()
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  295 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Hero::deserialize()
+16:45:10  296 Weapon::deserialize()
+16:45:10  296 Weapon::deserialize(): fire_count_down is 1
+16:45:10  296 Weapon::deserialize()
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  296 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Hero::deserialize()
+16:45:10  297 Weapon::deserialize()
+16:45:10  297 Weapon::deserialize(): fire_count_down is 3
+16:45:10  297 Weapon::deserialize(): ammo_loaded is 19
+16:45:10  297 Weapon::deserialize()
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  297 Client::createObject(): creating object type 'Bullet'
+16:45:10  298 Hero::deserialize()
+16:45:10  298 Weapon::deserialize()
+16:45:10  298 Weapon::deserialize(): fire_count_down is 2
+16:45:10  298 Weapon::deserialize()
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  298 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Hero::deserialize()
+16:45:10  299 Weapon::deserialize()
+16:45:10  299 Weapon::deserialize(): fire_count_down is 1
+16:45:10  299 Weapon::deserialize()
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  299 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Hero::deserialize()
+16:45:10  300 Weapon::deserialize()
+16:45:10  300 Weapon::deserialize(): fire_count_down is 0
+16:45:10  300 Weapon::deserialize()
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  300 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Hero::deserialize()
+16:45:10  301 Weapon::deserialize()
+16:45:10  301 Weapon::deserialize()
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:10  301 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Hero::deserialize()
+16:45:11  302 Weapon::deserialize()
+16:45:11  302 Weapon::deserialize()
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  302 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Hero::deserialize()
+16:45:11  303 Weapon::deserialize()
+16:45:11  303 Weapon::deserialize(): fire_count_down is 3
+16:45:11  303 Weapon::deserialize(): ammo_loaded is 18
+16:45:11  303 Weapon::deserialize()
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  303 Client::createObject(): creating object type 'Bullet'
+16:45:11  304 Hero::deserialize()
+16:45:11  304 Weapon::deserialize()
+16:45:11  304 Weapon::deserialize(): fire_count_down is 2
+16:45:11  304 Weapon::deserialize()
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  304 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Hero::deserialize()
+16:45:11  305 Weapon::deserialize()
+16:45:11  305 Weapon::deserialize(): fire_count_down is 1
+16:45:11  305 Weapon::deserialize()
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  305 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Hero::deserialize()
+16:45:11  306 Weapon::deserialize()
+16:45:11  306 Weapon::deserialize(): fire_count_down is 3
+16:45:11  306 Weapon::deserialize(): ammo_loaded is 17
+16:45:11  306 Weapon::deserialize()
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  306 Client::createObject(): creating object type 'Bullet'
+16:45:11  307 Hero::deserialize()
+16:45:11  307 Weapon::deserialize()
+16:45:11  307 Weapon::deserialize(): fire_count_down is 2
+16:45:11  307 Weapon::deserialize()
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  307 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Hero::deserialize()
+16:45:11  308 Weapon::deserialize()
+16:45:11  308 Weapon::deserialize(): fire_count_down is 1
+16:45:11  308 Weapon::deserialize()
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  308 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Hero::deserialize()
+16:45:11  309 Weapon::deserialize()
+16:45:11  309 Weapon::deserialize(): fire_count_down is 0
+16:45:11  309 Weapon::deserialize()
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  309 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Hero::deserialize()
+16:45:11  310 Weapon::deserialize()
+16:45:11  310 Weapon::deserialize()
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  310 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Hero::deserialize()
+16:45:11  311 Weapon::deserialize()
+16:45:11  311 Weapon::deserialize()
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  311 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Hero::deserialize()
+16:45:11  312 Weapon::deserialize()
+16:45:11  312 Weapon::deserialize()
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  312 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Hero::deserialize()
+16:45:11  313 Weapon::deserialize()
+16:45:11  313 Weapon::deserialize()
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  313 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Hero::deserialize()
+16:45:11  314 Weapon::deserialize()
+16:45:11  314 Weapon::deserialize()
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  314 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Hero::deserialize()
+16:45:11  315 Weapon::deserialize()
+16:45:11  315 Weapon::deserialize()
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  315 Client::createObject(): creating object type 'BulletTrail'
+16:45:11  316 Hero::deserialize()
+16:45:11  316 Weapon::deserialize()
+16:45:11  316 Weapon::deserialize()
+16:45:11  317 Hero::deserialize()
+16:45:11  317 Weapon::deserialize()
+16:45:11  317 Weapon::deserialize()
+16:45:11  318 Hero::deserialize()
+16:45:11  318 Weapon::deserialize()
+16:45:11  318 Weapon::deserialize()
+16:45:11  319 Hero::deserialize()
+16:45:11  319 Weapon::deserialize()
+16:45:11  319 Weapon::deserialize()
+16:45:11  320 Hero::deserialize()
+16:45:11  320 Weapon::deserialize()
+16:45:11  320 Weapon::deserialize()
+16:45:11  321 Hero::deserialize()
+16:45:11  321 Weapon::deserialize()
+16:45:11  321 Weapon::deserialize()
+16:45:11  322 Hero::deserialize()
+16:45:11  322 Weapon::deserialize()
+16:45:11  322 Weapon::deserialize()
+16:45:11  323 Hero::deserialize()
+16:45:11  323 Weapon::deserialize()
+16:45:11  323 Weapon::deserialize()
+16:45:11  324 Hero::deserialize()
+16:45:11  324 Weapon::deserialize()
+16:45:11  324 Weapon::deserialize()
+16:45:11  325 Hero::deserialize()
+16:45:11  325 Weapon::deserialize()
+16:45:11  325 Weapon::deserialize()
+16:45:11  326 Hero::deserialize()
+16:45:11  326 Weapon::deserialize()
+16:45:11  326 Weapon::deserialize()
+16:45:11  327 Hero::deserialize()
+16:45:11  327 Weapon::deserialize()
+16:45:11  327 Weapon::deserialize()
+16:45:11  328 Hero::deserialize()
+16:45:11  328 Weapon::deserialize()
+16:45:11  328 Weapon::deserialize()
+16:45:11  329 Hero::deserialize()
+16:45:11  329 Weapon::deserialize()
+16:45:11  329 Weapon::deserialize()
+16:45:11  330 Hero::deserialize()
+16:45:11  330 Weapon::deserialize()
+16:45:11  330 Weapon::deserialize()
+16:45:11  331 Hero::deserialize()
+16:45:11  331 Weapon::deserialize()
+16:45:11  331 Weapon::deserialize()
+16:45:12  332 Hero::deserialize()
+16:45:12  332 Weapon::deserialize()
+16:45:12  332 Weapon::deserialize()
+16:45:12  333 Hero::deserialize()
+16:45:12  333 Weapon::deserialize()
+16:45:12  333 Weapon::deserialize()
+16:45:12  334 Hero::deserialize()
+16:45:12  334 Weapon::deserialize()
+16:45:12  334 Weapon::deserialize()
+16:45:12  335 Hero::deserialize()
+16:45:12  335 Weapon::deserialize()
+16:45:12  335 Weapon::deserialize()
+16:45:12  336 Hero::deserialize()
+16:45:12  336 Weapon::deserialize()
+16:45:12  336 Weapon::deserialize()
+16:45:12  337 Hero::deserialize()
+16:45:12  337 Weapon::deserialize()
+16:45:12  337 Weapon::deserialize()
+16:45:12  338 Hero::deserialize()
+16:45:12  338 Weapon::deserialize()
+16:45:12  338 Weapon::deserialize()
+16:45:12  339 Hero::deserialize()
+16:45:12  339 Weapon::deserialize()
+16:45:12  339 Weapon::deserialize()
+16:45:12  340 Hero::deserialize()
+16:45:12  340 Weapon::deserialize()
+16:45:12  340 Weapon::deserialize()
+16:45:12  341 Hero::deserialize()
+16:45:12  341 Weapon::deserialize()
+16:45:12  341 Weapon::deserialize()
+16:45:12  342 Hero::deserialize()
+16:45:12  342 Weapon::deserialize()
+16:45:12  342 Weapon::deserialize()
+16:45:12  343 Hero::deserialize()
+16:45:12  343 Weapon::deserialize()
+16:45:12  343 Weapon::deserialize()
+16:45:12  344 Hero::deserialize()
+16:45:12  344 Weapon::deserialize()
+16:45:12  344 Weapon::deserialize()
+16:45:12  345 Hero::deserialize()
+16:45:12  345 Weapon::deserialize()
+16:45:12  345 Weapon::deserialize()
+16:45:12  346 Hero::deserialize()
+16:45:12  346 Weapon::deserialize()
+16:45:12  346 Weapon::deserialize()
+16:45:12  347 Hero::deserialize()
+16:45:12  347 Weapon::deserialize()
+16:45:12  347 Weapon::deserialize()
+16:45:12  348 Hero::deserialize()
+16:45:12  348 Weapon::deserialize()
+16:45:12  348 Weapon::deserialize()
+16:45:12  349 Hero::deserialize()
+16:45:12  349 Weapon::deserialize()
+16:45:12  349 Weapon::deserialize()
+16:45:12  350 Hero::deserialize()
+16:45:12  350 Weapon::deserialize()
+16:45:12  350 Weapon::deserialize()
+16:45:12  351 Hero::deserialize()
+16:45:12  351 Weapon::deserialize()
+16:45:12  351 Weapon::deserialize()
+16:45:12  352 Hero::deserialize()
+16:45:12  352 Weapon::deserialize()
+16:45:12  352 Weapon::deserialize()
+16:45:12  353 Hero::deserialize()
+16:45:12  353 Weapon::deserialize()
+16:45:12  353 Weapon::deserialize()
+16:45:12  354 Hero::deserialize()
+16:45:12  354 Weapon::deserialize()
+16:45:12  354 Weapon::deserialize()
+16:45:12  355 Hero::deserialize()
+16:45:12  355 Weapon::deserialize()
+16:45:12  355 Weapon::deserialize()
+16:45:12  356 Hero::deserialize()
+16:45:12  356 Weapon::deserialize()
+16:45:12  356 Weapon::deserialize()
+16:45:12  357 Hero::deserialize()
+16:45:12  357 Weapon::deserialize()
+16:45:12  357 Weapon::deserialize(): fire_count_down is 3
+16:45:12  357 Weapon::deserialize(): ammo_loaded is 16
+16:45:12  357 Weapon::deserialize()
+16:45:12  357 Client::createObject(): creating object type 'Bullet'
+16:45:12  358 Hero::deserialize()
+16:45:12  358 Weapon::deserialize()
+16:45:12  358 Weapon::deserialize(): fire_count_down is 2
+16:45:12  358 Weapon::deserialize()
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  358 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Hero::deserialize()
+16:45:12  359 Weapon::deserialize()
+16:45:12  359 Weapon::deserialize(): fire_count_down is 1
+16:45:12  359 Weapon::deserialize()
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  359 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Hero::deserialize()
+16:45:12  360 Weapon::deserialize()
+16:45:12  360 Weapon::deserialize(): fire_count_down is 3
+16:45:12  360 Weapon::deserialize(): ammo_loaded is 15
+16:45:12  360 Weapon::deserialize()
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  360 Client::createObject(): creating object type 'Bullet'
+16:45:12  361 Client::eventHandler(): sending mouse input to server.
+16:45:12  361 Hero::deserialize()
+16:45:12  361 Weapon::deserialize()
+16:45:12  361 Weapon::deserialize(): fire_count_down is 2
+16:45:12  361 Weapon::deserialize()
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  361 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Hero::deserialize()
+16:45:12  362 Weapon::deserialize()
+16:45:12  362 Weapon::deserialize(): fire_count_down is 1
+16:45:12  362 Weapon::deserialize()
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:12  362 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Hero::deserialize()
+16:45:13  363 Weapon::deserialize()
+16:45:13  363 Weapon::deserialize(): fire_count_down is 3
+16:45:13  363 Weapon::deserialize(): ammo_loaded is 14
+16:45:13  363 Weapon::deserialize()
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  363 Client::createObject(): creating object type 'Bullet'
+16:45:13  364 Hero::deserialize()
+16:45:13  364 Weapon::deserialize()
+16:45:13  364 Weapon::deserialize(): fire_count_down is 2
+16:45:13  364 Weapon::deserialize()
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  364 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Hero::deserialize()
+16:45:13  365 Weapon::deserialize()
+16:45:13  365 Weapon::deserialize(): fire_count_down is 1
+16:45:13  365 Weapon::deserialize()
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  365 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Hero::deserialize()
+16:45:13  366 Weapon::deserialize()
+16:45:13  366 Weapon::deserialize(): fire_count_down is 0
+16:45:13  366 Weapon::deserialize()
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  366 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Hero::deserialize()
+16:45:13  367 Weapon::deserialize()
+16:45:13  367 Weapon::deserialize()
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  367 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Hero::deserialize()
+16:45:13  368 Weapon::deserialize()
+16:45:13  368 Weapon::deserialize()
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  368 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Hero::deserialize()
+16:45:13  369 Weapon::deserialize()
+16:45:13  369 Weapon::deserialize()
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  369 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Hero::deserialize()
+16:45:13  370 Weapon::deserialize()
+16:45:13  370 Weapon::deserialize()
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  370 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Hero::deserialize()
+16:45:13  371 Weapon::deserialize()
+16:45:13  371 Weapon::deserialize()
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  371 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Hero::deserialize()
+16:45:13  372 Weapon::deserialize()
+16:45:13  372 Weapon::deserialize()
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  372 Client::createObject(): creating object type 'BulletTrail'
+16:45:13  373 Hero::deserialize()
+16:45:13  373 Weapon::deserialize()
+16:45:13  373 Weapon::deserialize()
+16:45:13  374 Hero::deserialize()
+16:45:13  374 Weapon::deserialize()
+16:45:13  374 Weapon::deserialize()
+16:45:13  375 Hero::deserialize()
+16:45:13  375 Weapon::deserialize()
+16:45:13  375 Weapon::deserialize()
+16:45:13  376 Hero::deserialize()
+16:45:13  376 Weapon::deserialize()
+16:45:13  376 Weapon::deserialize()
+16:45:13  377 Hero::deserialize()
+16:45:13  377 Weapon::deserialize()
+16:45:13  377 Weapon::deserialize()
+16:45:13  378 Hero::deserialize()
+16:45:13  378 Weapon::deserialize()
+16:45:13  378 Weapon::deserialize()
+16:45:13  379 Hero::deserialize()
+16:45:13  379 Weapon::deserialize()
+16:45:13  379 Weapon::deserialize()
+16:45:13  380 Hero::deserialize()
+16:45:13  380 Weapon::deserialize()
+16:45:13  380 Weapon::deserialize()
+16:45:13  381 Hero::deserialize()
+16:45:13  381 Weapon::deserialize()
+16:45:13  381 Weapon::deserialize()
+16:45:13  382 Hero::deserialize()
+16:45:13  382 Weapon::deserialize()
+16:45:13  382 Weapon::deserialize()
+16:45:13  383 Hero::deserialize()
+16:45:13  383 Weapon::deserialize()
+16:45:13  383 Weapon::deserialize()
+16:45:13  384 Hero::deserialize()
+16:45:13  384 Weapon::deserialize()
+16:45:13  384 Weapon::deserialize()
+16:45:13  385 Hero::deserialize()
+16:45:13  385 Weapon::deserialize()
+16:45:13  385 Weapon::deserialize()
+16:45:13  386 Hero::deserialize()
+16:45:13  386 Weapon::deserialize()
+16:45:13  386 Weapon::deserialize()
+16:45:13  387 Hero::deserialize()
+16:45:13  387 Weapon::deserialize()
+16:45:13  387 Weapon::deserialize()
+16:45:13  388 Hero::deserialize()
+16:45:13  388 Weapon::deserialize()
+16:45:13  388 Weapon::deserialize()
+16:45:13  389 Hero::deserialize()
+16:45:13  389 Weapon::deserialize()
+16:45:13  389 Weapon::deserialize()
+16:45:13  390 Hero::deserialize()
+16:45:13  390 Weapon::deserialize()
+16:45:13  390 Weapon::deserialize()
+16:45:13  391 Hero::deserialize()
+16:45:13  391 Weapon::deserialize()
+16:45:13  391 Weapon::deserialize()
+16:45:13  392 Hero::deserialize()
+16:45:13  392 Weapon::deserialize()
+16:45:13  392 Weapon::deserialize()
+16:45:14  393 Hero::deserialize()
+16:45:14  393 Weapon::deserialize()
+16:45:14  393 Weapon::deserialize()
+16:45:14  394 Hero::deserialize()
+16:45:14  394 Weapon::deserialize()
+16:45:14  394 Weapon::deserialize()
+16:45:14  395 Hero::deserialize()
+16:45:14  395 Weapon::deserialize()
+16:45:14  395 Weapon::deserialize()
+16:45:14  396 Hero::deserialize()
+16:45:14  396 Weapon::deserialize()
+16:45:14  396 Weapon::deserialize()
+16:45:14  397 Hero::deserialize()
+16:45:14  397 Weapon::deserialize()
+16:45:14  397 Weapon::deserialize()
+16:45:14  398 Hero::deserialize()
+16:45:14  398 Weapon::deserialize()
+16:45:14  398 Weapon::deserialize()
+16:45:14  399 Hero::deserialize()
+16:45:14  399 Weapon::deserialize()
+16:45:14  399 Weapon::deserialize()
+16:45:14  400 Hero::deserialize()
+16:45:14  400 Weapon::deserialize()
+16:45:14  400 Weapon::deserialize()
+16:45:14  401 Hero::deserialize()
+16:45:14  401 Weapon::deserialize()
+16:45:14  401 Weapon::deserialize()
+16:45:14  402 Hero::deserialize()
+16:45:14  402 Weapon::deserialize()
+16:45:14  402 Weapon::deserialize()
+16:45:14  403 Hero::deserialize()
+16:45:14  403 Weapon::deserialize()
+16:45:14  403 Weapon::deserialize()
+16:45:14  404 Hero::deserialize()
+16:45:14  404 Weapon::deserialize()
+16:45:14  404 Weapon::deserialize()
+16:45:14  405 Hero::deserialize()
+16:45:14  405 Weapon::deserialize()
+16:45:14  405 Weapon::deserialize()
+16:45:14  406 Hero::deserialize()
+16:45:14  406 Weapon::deserialize()
+16:45:14  406 Weapon::deserialize()
+16:45:14  407 Hero::deserialize()
+16:45:14  407 Weapon::deserialize()
+16:45:14  407 Weapon::deserialize()
+16:45:14  408 Hero::deserialize()
+16:45:14  408 Weapon::deserialize()
+16:45:14  408 Weapon::deserialize()
+16:45:14  409 Hero::deserialize()
+16:45:14  409 Weapon::deserialize()
+16:45:14  409 Weapon::deserialize()
+16:45:14  410 Hero::deserialize()
+16:45:14  410 Weapon::deserialize()
+16:45:14  410 Weapon::deserialize()
+16:45:14  411 Hero::deserialize()
+16:45:14  411 Weapon::deserialize()
+16:45:14  411 Weapon::deserialize()
+16:45:14  412 Hero::deserialize()
+16:45:14  412 Weapon::deserialize()
+16:45:14  412 Weapon::deserialize()
+16:45:14  413 Hero::deserialize()
+16:45:14  413 Weapon::deserialize()
+16:45:14  413 Weapon::deserialize()
+16:45:14  414 Hero::deserialize()
+16:45:14  414 Weapon::deserialize()
+16:45:14  414 Weapon::deserialize()
+16:45:14  415 Hero::deserialize()
+16:45:14  415 Weapon::deserialize()
+16:45:14  415 Weapon::deserialize()
+16:45:14  416 Hero::deserialize()
+16:45:14  416 Weapon::deserialize()
+16:45:14  416 Weapon::deserialize()
+16:45:14  417 Hero::deserialize()
+16:45:14  417 Weapon::deserialize()
+16:45:14  417 Weapon::deserialize()
+16:45:14  418 Hero::deserialize()
+16:45:14  418 Weapon::deserialize()
+16:45:14  418 Weapon::deserialize()
+16:45:14  419 Hero::deserialize()
+16:45:14  419 Weapon::deserialize()
+16:45:14  419 Weapon::deserialize()
+16:45:14  420 Hero::deserialize()
+16:45:14  420 Weapon::deserialize()
+16:45:14  420 Weapon::deserialize()
+16:45:14  421 Hero::deserialize()
+16:45:14  421 Weapon::deserialize()
+16:45:14  421 Weapon::deserialize()
+16:45:14  422 Hero::deserialize()
+16:45:14  422 Weapon::deserialize()
+16:45:14  422 Weapon::deserialize()
+16:45:15  423 Hero::deserialize()
+16:45:15  423 Weapon::deserialize()
+16:45:15  423 Weapon::deserialize()
+16:45:15  424 Hero::deserialize()
+16:45:15  424 Weapon::deserialize()
+16:45:15  424 Weapon::deserialize()
+16:45:15  425 Hero::deserialize()
+16:45:15  425 Weapon::deserialize()
+16:45:15  425 Weapon::deserialize()
+16:45:15  426 Hero::deserialize()
+16:45:15  426 Weapon::deserialize()
+16:45:15  426 Weapon::deserialize()
+16:45:15  427 Hero::deserialize()
+16:45:15  427 Weapon::deserialize()
+16:45:15  427 Weapon::deserialize()
+16:45:15  428 Hero::deserialize()
+16:45:15  428 Weapon::deserialize()
+16:45:15  428 Weapon::deserialize()
+16:45:15  429 Hero::deserialize()
+16:45:15  429 Weapon::deserialize()
+16:45:15  429 Weapon::deserialize()
+16:45:15  430 Hero::deserialize()
+16:45:15  430 Weapon::deserialize()
+16:45:15  430 Weapon::deserialize()
+16:45:15  431 Hero::deserialize()
+16:45:15  431 Weapon::deserialize()
+16:45:15  431 Weapon::deserialize()
+16:45:15  432 Hero::deserialize()
+16:45:15  432 Weapon::deserialize()
+16:45:15  432 Weapon::deserialize()
+16:45:15  433 Hero::deserialize()
+16:45:15  433 Weapon::deserialize()
+16:45:15  433 Weapon::deserialize()
+16:45:15  434 Hero::deserialize()
+16:45:15  434 Weapon::deserialize()
+16:45:15  434 Weapon::deserialize()
+16:45:15  435 Hero::deserialize()
+16:45:15  435 Weapon::deserialize()
+16:45:15  435 Weapon::deserialize()
+16:45:15  436 Hero::deserialize()
+16:45:15  436 Weapon::deserialize()
+16:45:15  436 Weapon::deserialize()
+16:45:15  437 Hero::deserialize()
+16:45:15  437 Weapon::deserialize()
+16:45:15  437 Weapon::deserialize()
+16:45:15  438 Hero::deserialize()
+16:45:15  438 Weapon::deserialize()
+16:45:15  438 Weapon::deserialize()
+16:45:15  439 Hero::deserialize()
+16:45:15  439 Weapon::deserialize()
+16:45:15  439 Weapon::deserialize()
+16:45:15  440 Hero::deserialize()
+16:45:15  440 Weapon::deserialize()
+16:45:15  440 Weapon::deserialize()
+16:45:15  441 Hero::deserialize()
+16:45:15  441 Weapon::deserialize()
+16:45:15  441 Weapon::deserialize()
+16:45:15  442 Hero::deserialize()
+16:45:15  442 Weapon::deserialize()
+16:45:15  442 Weapon::deserialize()
+16:45:15  443 Hero::deserialize()
+16:45:15  443 Weapon::deserialize()
+16:45:15  443 Weapon::deserialize()
+16:45:15  444 Hero::deserialize()
+16:45:15  444 Weapon::deserialize()
+16:45:15  444 Weapon::deserialize()
+16:45:15  445 Hero::deserialize()
+16:45:15  445 Weapon::deserialize()
+16:45:15  445 Weapon::deserialize()
+16:45:15  446 Hero::deserialize()
+16:45:15  446 Weapon::deserialize()
+16:45:15  446 Weapon::deserialize()
+16:45:15  447 Hero::deserialize()
+16:45:15  447 Weapon::deserialize()
+16:45:15  447 Weapon::deserialize()
+16:45:15  448 Hero::deserialize()
+16:45:15  448 Weapon::deserialize()
+16:45:15  448 Weapon::deserialize()
+16:45:15  449 Hero::deserialize()
+16:45:15  449 Weapon::deserialize()
+16:45:15  449 Weapon::deserialize()
+16:45:15  450 Hero::deserialize()
+16:45:15  450 Weapon::deserialize()
+16:45:15  450 Weapon::deserialize()
+16:45:15  451 Hero::deserialize()
+16:45:15  451 Weapon::deserialize()
+16:45:15  451 Weapon::deserialize()
+16:45:15  452 Hero::deserialize()
+16:45:15  452 Weapon::deserialize()
+16:45:15  452 Weapon::deserialize()
+16:45:15  453 Hero::deserialize()
+16:45:15  453 Weapon::deserialize()
+16:45:15  453 Weapon::deserialize()
+16:45:16  454 Hero::deserialize()
+16:45:16  454 Weapon::deserialize()
+16:45:16  454 Weapon::deserialize()
+16:45:16  455 Hero::deserialize()
+16:45:16  455 Weapon::deserialize()
+16:45:16  455 Weapon::deserialize()
+16:45:16  456 Hero::deserialize()
+16:45:16  456 Weapon::deserialize()
+16:45:16  456 Weapon::deserialize()
+16:45:16  457 Hero::deserialize()
+16:45:16  457 Weapon::deserialize()
+16:45:16  457 Weapon::deserialize()
+16:45:16  458 Hero::deserialize()
+16:45:16  458 Weapon::deserialize()
+16:45:16  458 Weapon::deserialize()
+16:45:16  459 Hero::deserialize()
+16:45:16  459 Weapon::deserialize()
+16:45:16  459 Weapon::deserialize()
+16:45:16  460 Hero::deserialize()
+16:45:16  460 Weapon::deserialize()
+16:45:16  460 Weapon::deserialize()
+16:45:16  461 Hero::deserialize()
+16:45:16  461 Weapon::deserialize()
+16:45:16  461 Weapon::deserialize()
+16:45:16  462 Hero::deserialize()
+16:45:16  462 Weapon::deserialize()
+16:45:16  462 Weapon::deserialize()
+16:45:16  463 Hero::deserialize()
+16:45:16  463 Weapon::deserialize()
+16:45:16  463 Weapon::deserialize()
+16:45:16  464 Hero::deserialize()
+16:45:16  464 Weapon::deserialize()
+16:45:16  464 Weapon::deserialize()
+16:45:16  465 Hero::deserialize()
+16:45:16  465 Weapon::deserialize()
+16:45:16  465 Weapon::deserialize()
+16:45:16  466 Hero::deserialize()
+16:45:16  466 Weapon::deserialize()
+16:45:16  466 Weapon::deserialize()
+16:45:16  467 Hero::deserialize()
+16:45:16  467 Weapon::deserialize()
+16:45:16  467 Weapon::deserialize()
+16:45:16  468 Hero::deserialize()
+16:45:16  468 Weapon::deserialize()
+16:45:16  468 Weapon::deserialize()
+16:45:16  469 Hero::deserialize()
+16:45:16  469 Weapon::deserialize()
+16:45:16  469 Weapon::deserialize()
+16:45:16  470 Hero::deserialize()
+16:45:16  470 Weapon::deserialize()
+16:45:16  470 Weapon::deserialize()
+16:45:16  471 Hero::deserialize()
+16:45:16  471 Weapon::deserialize()
+16:45:16  471 Weapon::deserialize()
+16:45:16  472 Hero::deserialize()
+16:45:16  472 Weapon::deserialize()
+16:45:16  472 Weapon::deserialize()
+16:45:16  473 Hero::deserialize()
+16:45:16  473 Weapon::deserialize()
+16:45:16  473 Weapon::deserialize()
+16:45:16  474 Hero::deserialize()
+16:45:16  474 Weapon::deserialize()
+16:45:16  474 Weapon::deserialize()
+16:45:16  475 Hero::deserialize()
+16:45:16  475 Weapon::deserialize()
+16:45:16  475 Weapon::deserialize()
+16:45:16  476 Hero::deserialize()
+16:45:16  476 Weapon::deserialize()
+16:45:16  476 Weapon::deserialize()
+16:45:16  477 Hero::deserialize()
+16:45:16  477 Weapon::deserialize()
+16:45:16  477 Weapon::deserialize()
+16:45:16  478 Hero::deserialize()
+16:45:16  478 Weapon::deserialize()
+16:45:16  478 Weapon::deserialize()
+16:45:16  479 Hero::deserialize()
+16:45:16  479 Weapon::deserialize()
+16:45:16  479 Weapon::deserialize()
+16:45:16  480 Hero::deserialize()
+16:45:16  480 Weapon::deserialize()
+16:45:16  480 Weapon::deserialize()
+16:45:16  481 Hero::deserialize()
+16:45:16  481 Weapon::deserialize()
+16:45:16  481 Weapon::deserialize()
+16:45:16  482 Hero::deserialize()
+16:45:16  482 Weapon::deserialize()
+16:45:16  482 Weapon::deserialize()
+16:45:16  483 Hero::deserialize()
+16:45:16  483 Weapon::deserialize()
+16:45:16  483 Weapon::deserialize()
+16:45:17  484 Hero::deserialize()
+16:45:17  484 Weapon::deserialize()
+16:45:17  484 Weapon::deserialize()
+16:45:17  485 Hero::deserialize()
+16:45:17  485 Weapon::deserialize()
+16:45:17  485 Weapon::deserialize()
+16:45:17  486 Hero::deserialize()
+16:45:17  486 Weapon::deserialize()
+16:45:17  486 Weapon::deserialize()
+16:45:17  487 Hero::deserialize()
+16:45:17  487 Weapon::deserialize()
+16:45:17  487 Weapon::deserialize()
+16:45:17  488 Hero::deserialize()
+16:45:17  488 Weapon::deserialize()
+16:45:17  488 Weapon::deserialize()
+16:45:17  489 Hero::deserialize()
+16:45:17  489 Weapon::deserialize()
+16:45:17  489 Weapon::deserialize()
+16:45:17  490 Hero::deserialize()
+16:45:17  490 Weapon::deserialize()
+16:45:17  490 Weapon::deserialize()
+16:45:17  491 Hero::deserialize()
+16:45:17  491 Weapon::deserialize()
+16:45:17  491 Weapon::deserialize()
+16:45:17  492 Hero::deserialize()
+16:45:17  492 Weapon::deserialize()
+16:45:17  492 Weapon::deserialize()
+16:45:17  493 Hero::deserialize()
+16:45:17  493 Weapon::deserialize()
+16:45:17  493 Weapon::deserialize()
+16:45:17  494 Hero::deserialize()
+16:45:17  494 Weapon::deserialize()
+16:45:17  494 Weapon::deserialize()
+16:45:17  495 Hero::deserialize()
+16:45:17  495 Weapon::deserialize()
+16:45:17  495 Weapon::deserialize()
+16:45:17  496 Hero::deserialize()
+16:45:17  496 Weapon::deserialize()
+16:45:17  496 Weapon::deserialize()
+16:45:17  497 Hero::deserialize()
+16:45:17  497 Weapon::deserialize()
+16:45:17  497 Weapon::deserialize()
+16:45:17  498 Hero::deserialize()
+16:45:17  498 Weapon::deserialize()
+16:45:17  498 Weapon::deserialize()
+16:45:17  499 Hero::deserialize()
+16:45:17  499 Weapon::deserialize()
+16:45:17  499 Weapon::deserialize()
+16:45:17  500 Hero::deserialize()
+16:45:17  500 Weapon::deserialize()
+16:45:17  500 Weapon::deserialize()
+16:45:17  501 Hero::deserialize()
+16:45:17  501 Weapon::deserialize()
+16:45:17  501 Weapon::deserialize()
+16:45:17  502 Hero::deserialize()
+16:45:17  502 Weapon::deserialize()
+16:45:17  502 Weapon::deserialize()
+16:45:17  503 Hero::deserialize()
+16:45:17  503 Weapon::deserialize()
+16:45:17  503 Weapon::deserialize()
+16:45:17  504 Hero::deserialize()
+16:45:17  504 Weapon::deserialize()
+16:45:17  504 Weapon::deserialize()
+16:45:17  505 Hero::deserialize()
+16:45:17  505 Weapon::deserialize()
+16:45:17  505 Weapon::deserialize()
+16:45:17  506 Hero::deserialize()
+16:45:17  506 Weapon::deserialize()
+16:45:17  506 Weapon::deserialize()
+16:45:17  507 Hero::deserialize()
+16:45:17  507 Weapon::deserialize()
+16:45:17  507 Weapon::deserialize()
+16:45:17  508 Hero::deserialize()
+16:45:17  508 Weapon::deserialize()
+16:45:17  508 Weapon::deserialize()
+16:45:17  509 Hero::deserialize()
+16:45:17  509 Weapon::deserialize()
+16:45:17  509 Weapon::deserialize()
+16:45:17  510 Hero::deserialize()
+16:45:17  510 Weapon::deserialize()
+16:45:17  510 Weapon::deserialize()
+16:45:17  511 Hero::deserialize()
+16:45:17  511 Weapon::deserialize()
+16:45:17  511 Weapon::deserialize()
+16:45:17  512 Hero::deserialize()
+16:45:17  512 Weapon::deserialize()
+16:45:17  512 Weapon::deserialize()
+16:45:17  513 Hero::deserialize()
+16:45:17  513 Weapon::deserialize()
+16:45:17  513 Weapon::deserialize()
+16:45:18  514 Hero::deserialize()
+16:45:18  514 Weapon::deserialize()
+16:45:18  514 Weapon::deserialize()
+16:45:18  515 Hero::deserialize()
+16:45:18  515 Weapon::deserialize()
+16:45:18  515 Weapon::deserialize()
+16:45:18  516 Hero::deserialize()
+16:45:18  516 Weapon::deserialize()
+16:45:18  516 Weapon::deserialize()
+16:45:18  517 Hero::deserialize()
+16:45:18  517 Weapon::deserialize()
+16:45:18  517 Weapon::deserialize()
+16:45:18  518 Hero::deserialize()
+16:45:18  518 Weapon::deserialize()
+16:45:18  518 Weapon::deserialize()
+16:45:18  519 Hero::deserialize()
+16:45:18  519 Weapon::deserialize()
+16:45:18  519 Weapon::deserialize()
+16:45:18  520 Hero::deserialize()
+16:45:18  520 Weapon::deserialize()
+16:45:18  520 Weapon::deserialize()
+16:45:18  521 Hero::deserialize()
+16:45:18  521 Weapon::deserialize()
+16:45:18  521 Weapon::deserialize()
+16:45:18  522 Hero::deserialize()
+16:45:18  522 Weapon::deserialize()
+16:45:18  522 Weapon::deserialize()
+16:45:18  523 Hero::deserialize()
+16:45:18  523 Weapon::deserialize()
+16:45:18  523 Weapon::deserialize()
+16:45:18  524 Hero::deserialize()
+16:45:18  524 Weapon::deserialize()
+16:45:18  524 Weapon::deserialize()
+16:45:18  525 Hero::deserialize()
+16:45:18  525 Weapon::deserialize()
+16:45:18  525 Weapon::deserialize()
+16:45:18  526 Hero::deserialize()
+16:45:18  526 Weapon::deserialize()
+16:45:18  526 Weapon::deserialize()
+16:45:18  527 Hero::deserialize()
+16:45:18  527 Weapon::deserialize()
+16:45:18  527 Weapon::deserialize()
+16:45:18  528 Hero::deserialize()
+16:45:18  528 Weapon::deserialize()
+16:45:18  528 Weapon::deserialize()
+16:45:18  529 Hero::deserialize()
+16:45:18  529 Weapon::deserialize()
+16:45:18  529 Weapon::deserialize()
+16:45:18  530 Hero::deserialize()
+16:45:18  530 Weapon::deserialize()
+16:45:18  530 Weapon::deserialize()
+16:45:18  531 Hero::deserialize()
+16:45:18  531 Weapon::deserialize()
+16:45:18  531 Weapon::deserialize()
+16:45:18  532 Hero::deserialize()
+16:45:18  532 Weapon::deserialize()
+16:45:18  532 Weapon::deserialize()
+16:45:18  533 Hero::deserialize()
+16:45:18  533 Weapon::deserialize()
+16:45:18  533 Weapon::deserialize()
+16:45:18  534 Hero::deserialize()
+16:45:18  534 Weapon::deserialize()
+16:45:18  534 Weapon::deserialize()
+16:45:18  535 Hero::deserialize()
+16:45:18  535 Weapon::deserialize()
+16:45:18  535 Weapon::deserialize()
+16:45:18  536 Hero::deserialize()
+16:45:18  536 Weapon::deserialize()
+16:45:18  536 Weapon::deserialize()
+16:45:18  537 Hero::deserialize()
+16:45:18  537 Weapon::deserialize()
+16:45:18  537 Weapon::deserialize()
+16:45:18  538 Hero::deserialize()
+16:45:18  538 Weapon::deserialize()
+16:45:18  538 Weapon::deserialize()
+16:45:18  539 Hero::deserialize()
+16:45:18  539 Weapon::deserialize()
+16:45:18  539 Weapon::deserialize()
+16:45:18  540 Hero::deserialize()
+16:45:18  540 Weapon::deserialize()
+16:45:18  540 Weapon::deserialize()
+16:45:18  541 Hero::deserialize()
+16:45:18  541 Weapon::deserialize()
+16:45:18  541 Weapon::deserialize()
+16:45:18  542 Hero::deserialize()
+16:45:18  542 Weapon::deserialize()
+16:45:18  542 Weapon::deserialize()
+16:45:18  543 Hero::deserialize()
+16:45:18  543 Weapon::deserialize()
+16:45:18  543 Weapon::deserialize()
+16:45:18  544 Hero::deserialize()
+16:45:18  544 Weapon::deserialize()
+16:45:19  544 Weapon::deserialize()
+16:45:19  545 Hero::deserialize()
+16:45:19  545 Weapon::deserialize()
+16:45:19  545 Weapon::deserialize()
+16:45:19  546 Hero::deserialize()
+16:45:19  546 Weapon::deserialize()
+16:45:19  546 Weapon::deserialize()
+16:45:19  547 Hero::deserialize()
+16:45:19  547 Weapon::deserialize()
+16:45:19  547 Weapon::deserialize()
+16:45:19  548 Hero::deserialize()
+16:45:19  548 Weapon::deserialize()
+16:45:19  548 Weapon::deserialize()
+16:45:19  549 Hero::deserialize()
+16:45:19  549 Weapon::deserialize()
+16:45:19  549 Weapon::deserialize()
+16:45:19  550 Hero::deserialize()
+16:45:19  550 Weapon::deserialize()
+16:45:19  550 Weapon::deserialize()
+16:45:19  551 Hero::deserialize()
+16:45:19  551 Weapon::deserialize()
+16:45:19  551 Weapon::deserialize()
+16:45:19  552 Hero::deserialize()
+16:45:19  552 Weapon::deserialize()
+16:45:19  552 Weapon::deserialize()
+16:45:19  553 Hero::deserialize()
+16:45:19  553 Weapon::deserialize()
+16:45:19  553 Weapon::deserialize()
+16:45:19  554 Hero::deserialize()
+16:45:19  554 Weapon::deserialize()
+16:45:19  554 Weapon::deserialize()
+16:45:19  555 Hero::deserialize()
+16:45:19  555 Weapon::deserialize()
+16:45:19  555 Weapon::deserialize()
+16:45:19  556 Hero::deserialize()
+16:45:19  556 Weapon::deserialize()
+16:45:19  556 Weapon::deserialize()
+16:45:19  557 Hero::deserialize()
+16:45:19  557 Weapon::deserialize()
+16:45:19  557 Weapon::deserialize()
+16:45:19  558 Hero::deserialize()
+16:45:19  558 Weapon::deserialize()
+16:45:19  558 Weapon::deserialize()
+16:45:19  559 Hero::deserialize()
+16:45:19  559 Weapon::deserialize()
+16:45:19  559 Weapon::deserialize()
+16:45:19  560 Hero::deserialize()
+16:45:19  560 Weapon::deserialize()
+16:45:19  560 Weapon::deserialize()
+16:45:19  561 Hero::deserialize()
+16:45:19  561 Weapon::deserialize()
+16:45:19  561 Weapon::deserialize()
+16:45:19  562 Hero::deserialize()
+16:45:19  562 Weapon::deserialize()
+16:45:19  562 Weapon::deserialize()
+16:45:19  563 Hero::deserialize()
+16:45:19  563 Weapon::deserialize()
+16:45:19  563 Weapon::deserialize()
+16:45:19  564 Hero::deserialize()
+16:45:19  564 Weapon::deserialize()
+16:45:19  564 Weapon::deserialize()
+16:45:19  565 Hero::deserialize()
+16:45:19  565 Weapon::deserialize()
+16:45:19  565 Weapon::deserialize()
+16:45:19  566 Hero::deserialize()
+16:45:19  566 Weapon::deserialize()
+16:45:19  566 Weapon::deserialize()
+16:45:19  567 Hero::deserialize()
+16:45:19  567 Weapon::deserialize()
+16:45:19  567 Weapon::deserialize()
+16:45:19  568 Hero::deserialize()
+16:45:19  568 Weapon::deserialize()
+16:45:19  568 Weapon::deserialize()
+16:45:19  569 Hero::deserialize()
+16:45:19  569 Weapon::deserialize()
+16:45:19  569 Weapon::deserialize()
+16:45:19  570 Hero::deserialize()
+16:45:19  570 Weapon::deserialize()
+16:45:19  570 Weapon::deserialize()
+16:45:19  571 Hero::deserialize()
+16:45:19  571 Weapon::deserialize()
+16:45:19  571 Weapon::deserialize()
+16:45:19  572 Hero::deserialize()
+16:45:19  572 Weapon::deserialize()
+16:45:19  572 Weapon::deserialize()
+16:45:19  573 Hero::deserialize()
+16:45:19  573 Weapon::deserialize()
+16:45:19  573 Weapon::deserialize()
+16:45:19  574 Hero::deserialize()
+16:45:19  574 Weapon::deserialize()
+16:45:19  574 Weapon::deserialize()
+16:45:20  575 Hero::deserialize()
+16:45:20  575 Weapon::deserialize()
+16:45:20  575 Weapon::deserialize()
+16:45:20  576 Hero::deserialize()
+16:45:20  576 Weapon::deserialize()
+16:45:20  576 Weapon::deserialize()
+16:45:20  577 Hero::deserialize()
+16:45:20  577 Weapon::deserialize()
+16:45:20  577 Weapon::deserialize()
+16:45:20  578 Hero::deserialize()
+16:45:20  578 Weapon::deserialize()
+16:45:20  578 Weapon::deserialize()
+16:45:20  579 Hero::deserialize()
+16:45:20  579 Weapon::deserialize()
+16:45:20  579 Weapon::deserialize()
+16:45:20  580 Hero::deserialize()
+16:45:20  580 Weapon::deserialize()
+16:45:20  580 Weapon::deserialize()
+16:45:20  581 Hero::deserialize()
+16:45:20  581 Weapon::deserialize()
+16:45:20  581 Weapon::deserialize()
+16:45:20  582 Hero::deserialize()
+16:45:20  582 Weapon::deserialize()
+16:45:20  582 Weapon::deserialize()
+16:45:20  583 Hero::deserialize()
+16:45:20  583 Weapon::deserialize()
+16:45:20  583 Weapon::deserialize()
+16:45:20  584 Hero::deserialize()
+16:45:20  584 Weapon::deserialize()
+16:45:20  584 Weapon::deserialize()
+16:45:20  585 Hero::deserialize()
+16:45:20  585 Weapon::deserialize()
+16:45:20  585 Weapon::deserialize()
+16:45:20  586 Hero::deserialize()
+16:45:20  586 Weapon::deserialize()
+16:45:20  586 Weapon::deserialize()
+16:45:20  587 Hero::deserialize()
+16:45:20  587 Weapon::deserialize()
+16:45:20  587 Weapon::deserialize()
+16:45:20  588 Hero::deserialize()
+16:45:20  588 Weapon::deserialize()
+16:45:20  588 Weapon::deserialize()
+16:45:20  589 Hero::deserialize()
+16:45:20  589 Weapon::deserialize()
+16:45:20  589 Weapon::deserialize()
+16:45:20  590 Hero::deserialize()
+16:45:20  590 Weapon::deserialize()
+16:45:20  590 Weapon::deserialize()
+16:45:20  591 Hero::deserialize()
+16:45:20  591 Weapon::deserialize()
+16:45:20  591 Weapon::deserialize()
+16:45:20  592 Hero::deserialize()
+16:45:20  592 Weapon::deserialize()
+16:45:20  592 Weapon::deserialize()
+16:45:20  593 Hero::deserialize()
+16:45:20  593 Weapon::deserialize()
+16:45:20  593 Weapon::deserialize()
+16:45:20  594 Hero::deserialize()
+16:45:20  594 Weapon::deserialize()
+16:45:20  594 Weapon::deserialize()
+16:45:20  595 Hero::deserialize()
+16:45:20  595 Weapon::deserialize()
+16:45:20  595 Weapon::deserialize()
+16:45:20  596 Hero::deserialize()
+16:45:20  596 Weapon::deserialize()
+16:45:20  596 Weapon::deserialize()
+16:45:20  597 Hero::deserialize()
+16:45:20  597 Weapon::deserialize()
+16:45:20  597 Weapon::deserialize()
+16:45:20  598 Hero::deserialize()
+16:45:20  598 Weapon::deserialize()
+16:45:20  598 Weapon::deserialize()
+16:45:20  599 Hero::deserialize()
+16:45:20  599 Weapon::deserialize()
+16:45:20  599 Weapon::deserialize()
+16:45:20  600 Hero::deserialize()
+16:45:20  600 Weapon::deserialize()
+16:45:20  600 Weapon::deserialize()
+16:45:20  601 Hero::deserialize()
+16:45:20  601 Weapon::deserialize()
+16:45:20  601 Weapon::deserialize()
+16:45:20  602 Hero::deserialize()
+16:45:20  602 Weapon::deserialize()
+16:45:20  602 Weapon::deserialize()
+16:45:20  603 Hero::deserialize()
+16:45:20  603 Weapon::deserialize()
+16:45:20  603 Weapon::deserialize()
+16:45:20  604 Hero::deserialize()
+16:45:20  604 Weapon::deserialize()
+16:45:20  604 Weapon::deserialize()
+16:45:21  605 Hero::deserialize()
+16:45:21  605 Weapon::deserialize()
+16:45:21  605 Weapon::deserialize()
+16:45:21  606 Hero::deserialize()
+16:45:21  606 Weapon::deserialize()
+16:45:21  606 Weapon::deserialize()
+16:45:21  607 Hero::deserialize()
+16:45:21  607 Weapon::deserialize()
+16:45:21  607 Weapon::deserialize()
+16:45:21  608 Hero::deserialize()
+16:45:21  608 Weapon::deserialize()
+16:45:21  608 Weapon::deserialize()
+16:45:21  609 Hero::deserialize()
+16:45:21  609 Weapon::deserialize()
+16:45:21  609 Weapon::deserialize()
+16:45:21  610 Hero::deserialize()
+16:45:21  610 Weapon::deserialize()
+16:45:21  610 Weapon::deserialize()
+16:45:21  611 Hero::deserialize()
+16:45:21  611 Weapon::deserialize()
+16:45:21  611 Weapon::deserialize()
+16:45:21  612 Hero::deserialize()
+16:45:21  612 Weapon::deserialize()
+16:45:21  612 Weapon::deserialize()
+16:45:21  613 Hero::deserialize()
+16:45:21  613 Weapon::deserialize()
+16:45:21  613 Weapon::deserialize()
+16:45:21  614 Hero::deserialize()
+16:45:21  614 Weapon::deserialize()
+16:45:21  614 Weapon::deserialize()
+16:45:21  615 Hero::deserialize()
+16:45:21  615 Weapon::deserialize()
+16:45:21  615 Weapon::deserialize()
+16:45:21  616 Hero::deserialize()
+16:45:21  616 Weapon::deserialize()
+16:45:21  616 Weapon::deserialize()
+16:45:21  617 Hero::deserialize()
+16:45:21  617 Weapon::deserialize()
+16:45:21  617 Weapon::deserialize()
+16:45:21  618 Hero::deserialize()
+16:45:21  618 Weapon::deserialize()
+16:45:21  618 Weapon::deserialize()
+16:45:21  619 Hero::deserialize()
+16:45:21  619 Weapon::deserialize()
+16:45:21  619 Weapon::deserialize()
+16:45:21  620 Hero::deserialize()
+16:45:21  620 Weapon::deserialize()
+16:45:21  620 Weapon::deserialize()
+16:45:21  621 Hero::deserialize()
+16:45:21  621 Weapon::deserialize()
+16:45:21  621 Weapon::deserialize()
+16:45:21  622 Hero::deserialize()
+16:45:21  622 Weapon::deserialize()
+16:45:21  622 Weapon::deserialize()
+16:45:21  623 Hero::deserialize()
+16:45:21  623 Weapon::deserialize()
+16:45:21  623 Weapon::deserialize()
+16:45:21  624 Hero::deserialize()
+16:45:21  624 Weapon::deserialize()
+16:45:21  624 Weapon::deserialize()
+16:45:21  625 Hero::deserialize()
+16:45:21  625 Weapon::deserialize()
+16:45:21  625 Weapon::deserialize()
+16:45:21  626 Hero::deserialize()
+16:45:21  626 Weapon::deserialize()
+16:45:21  626 Weapon::deserialize()
+16:45:21  627 Hero::deserialize()
+16:45:21  627 Weapon::deserialize()
+16:45:21  627 Weapon::deserialize()
+16:45:21  628 Hero::deserialize()
+16:45:21  628 Weapon::deserialize()
+16:45:21  628 Weapon::deserialize()
+16:45:21  629 Hero::deserialize()
+16:45:21  629 Weapon::deserialize()
+16:45:21  629 Weapon::deserialize()
+16:45:21  630 Hero::deserialize()
+16:45:21  630 Weapon::deserialize()
+16:45:21  630 Weapon::deserialize()
+16:45:21  631 Client::eventHandler(): sending mouse input to server.
+16:45:21  631 Client::eventHandler(): sending mouse input to server.
+16:45:21  631 Hero::deserialize()
+16:45:21  631 Weapon::deserialize()
+16:45:21  631 Weapon::deserialize()
+16:45:21  632 Client::eventHandler(): sending mouse input to server.
+16:45:21  632 Client::eventHandler(): sending mouse input to server.
+16:45:21  632 Hero::deserialize()
+16:45:21  632 Weapon::deserialize()
+16:45:21  632 Weapon::deserialize()
+16:45:21  633 Hero::deserialize()
+16:45:21  633 Weapon::deserialize()
+16:45:21  633 Weapon::deserialize()
+16:45:21  634 Hero::deserialize()
+16:45:21  634 Weapon::deserialize()
+16:45:21  634 Weapon::deserialize()
+16:45:22  635 Hero::deserialize()
+16:45:22  635 Weapon::deserialize()
+16:45:22  635 Weapon::deserialize()
+16:45:22  636 Hero::deserialize()
+16:45:22  636 Weapon::deserialize()
+16:45:22  636 Weapon::deserialize()
+16:45:22  637 Hero::deserialize()
+16:45:22  637 Weapon::deserialize()
+16:45:22  637 Weapon::deserialize()
+16:45:22  638 Hero::deserialize()
+16:45:22  638 Weapon::deserialize()
+16:45:22  638 Weapon::deserialize()
+16:45:22  639 Hero::deserialize()
+16:45:22  639 Weapon::deserialize()
+16:45:22  639 Weapon::deserialize()
+16:45:22  640 Hero::deserialize()
+16:45:22  640 Weapon::deserialize()
+16:45:22  640 Weapon::deserialize()
+16:45:22  641 Hero::deserialize()
+16:45:22  641 Weapon::deserialize()
+16:45:22  641 Weapon::deserialize()
+16:45:22  642 Client::eventHandler(): sending mouse input to server.
+16:45:22  642 Hero::deserialize()
+16:45:22  642 Weapon::deserialize()
+16:45:22  642 Weapon::deserialize()
+16:45:22  643 Client::eventHandler(): sending mouse input to server.
+16:45:22  643 Hero::deserialize()
+16:45:22  643 Weapon::deserialize()
+16:45:22  643 Weapon::deserialize()
+16:45:22  644 Client::eventHandler(): sending mouse input to server.
+16:45:22  644 Hero::deserialize()
+16:45:22  644 Weapon::deserialize()
+16:45:22  644 Weapon::deserialize()
+16:45:22  645 Client::eventHandler(): sending mouse input to server.
+16:45:22  645 Hero::deserialize()
+16:45:22  645 Weapon::deserialize()
+16:45:22  645 Weapon::deserialize()
+16:45:22  646 Hero::deserialize()
+16:45:22  646 Weapon::deserialize()
+16:45:22  646 Weapon::deserialize()
+16:45:22  647 Hero::deserialize()
+16:45:22  647 Weapon::deserialize()
+16:45:22  647 Weapon::deserialize()
+16:45:22  648 Client::eventHandler(): sending mouse input to server.
+16:45:22  648 Hero::deserialize()
+16:45:22  648 Weapon::deserialize()
+16:45:22  648 Weapon::deserialize()
+16:45:22  649 Client::eventHandler(): sending mouse input to server.
+16:45:22  649 Hero::deserialize()
+16:45:22  649 Weapon::deserialize()
+16:45:22  649 Weapon::deserialize()
+16:45:22  650 Client::eventHandler(): sending mouse input to server.
+16:45:22  650 Hero::deserialize()
+16:45:22  650 Weapon::deserialize()
+16:45:22  650 Weapon::deserialize()
+16:45:22  651 Hero::deserialize()
+16:45:22  651 Weapon::deserialize()
+16:45:22  651 Weapon::deserialize()
+16:45:22  652 Hero::deserialize()
+16:45:22  652 Weapon::deserialize()
+16:45:22  652 Weapon::deserialize()
+16:45:22  653 Hero::deserialize()
+16:45:22  653 Weapon::deserialize()
+16:45:22  653 Weapon::deserialize()
+16:45:22  654 Hero::deserialize()
+16:45:22  654 Weapon::deserialize()
+16:45:22  654 Weapon::deserialize()
+16:45:22  655 Hero::deserialize()
+16:45:22  655 Weapon::deserialize()
+16:45:22  655 Weapon::deserialize()
+16:45:22  656 Hero::deserialize()
+16:45:22  656 Weapon::deserialize()
+16:45:22  656 Weapon::deserialize()
+16:45:22  657 Hero::deserialize()
+16:45:22  657 Weapon::deserialize()
+16:45:22  657 Weapon::deserialize()
+16:45:22  658 Hero::deserialize()
+16:45:22  658 Weapon::deserialize()
+16:45:22  658 Weapon::deserialize()
+16:45:22  659 Hero::deserialize()
+16:45:22  659 Weapon::deserialize()
+16:45:22  659 Weapon::deserialize()
+16:45:22  660 Hero::deserialize()
+16:45:22  660 Weapon::deserialize()
+16:45:22  660 Weapon::deserialize()
+16:45:22  661 Hero::deserialize()
+16:45:22  661 Weapon::deserialize()
+16:45:22  661 Weapon::deserialize()
+16:45:22  662 Hero::deserialize()
+16:45:22  662 Weapon::deserialize()
+16:45:22  662 Weapon::deserialize()
+16:45:22  663 Hero::deserialize()
+16:45:22  663 Weapon::deserialize()
+16:45:22  663 Weapon::deserialize()
+16:45:22  664 Hero::deserialize()
+16:45:22  664 Weapon::deserialize()
+16:45:22  664 Weapon::deserialize()
+16:45:22  665 Hero::deserialize()
+16:45:22  665 Weapon::deserialize()
+16:45:22  665 Weapon::deserialize()
+16:45:23  666 Hero::deserialize()
+16:45:23  666 Weapon::deserialize()
+16:45:23  666 Weapon::deserialize()
+16:45:23  667 Hero::deserialize()
+16:45:23  667 Weapon::deserialize()
+16:45:23  667 Weapon::deserialize()
+16:45:23  668 Hero::deserialize()
+16:45:23  668 Weapon::deserialize()
+16:45:23  668 Weapon::deserialize()
+16:45:23  669 Hero::deserialize()
+16:45:23  669 Weapon::deserialize()
+16:45:23  669 Weapon::deserialize()
+16:45:23  670 Hero::deserialize()
+16:45:23  670 Weapon::deserialize()
+16:45:23  670 Weapon::deserialize()
+16:45:23  671 Hero::deserialize()
+16:45:23  671 Weapon::deserialize()
+16:45:23  671 Weapon::deserialize()
+16:45:23  672 Hero::deserialize()
+16:45:23  672 Weapon::deserialize()
+16:45:23  672 Weapon::deserialize()
+16:45:23  673 Hero::deserialize()
+16:45:23  673 Weapon::deserialize()
+16:45:23  673 Weapon::deserialize()
+16:45:23  674 Hero::deserialize()
+16:45:23  674 Weapon::deserialize()
+16:45:23  674 Weapon::deserialize()
+16:45:23  675 Hero::deserialize()
+16:45:23  675 Weapon::deserialize()
+16:45:23  675 Weapon::deserialize()
+16:45:23  676 Hero::deserialize()
+16:45:23  676 Weapon::deserialize()
+16:45:23  676 Weapon::deserialize()
+16:45:23  677 Hero::deserialize()
+16:45:23  677 Weapon::deserialize()
+16:45:23  677 Weapon::deserialize()
+16:45:23  678 Hero::deserialize()
+16:45:23  678 Weapon::deserialize()
+16:45:23  678 Weapon::deserialize()
+16:45:23  679 Hero::deserialize()
+16:45:23  679 Weapon::deserialize()
+16:45:23  679 Weapon::deserialize()
+16:45:23  680 Hero::deserialize()
+16:45:23  680 Weapon::deserialize()
+16:45:23  680 Weapon::deserialize()
+16:45:23  681 Hero::deserialize()
+16:45:23  681 Weapon::deserialize()
+16:45:23  681 Weapon::deserialize()
+16:45:23  682 Hero::deserialize()
+16:45:23  682 Weapon::deserialize()
+16:45:23  682 Weapon::deserialize()
+16:45:23  683 Client::eventHandler(): sending mouse input to server.
+16:45:23  683 Hero::deserialize()
+16:45:23  683 Weapon::deserialize()
+16:45:23  683 Weapon::deserialize()
+16:45:23  684 Client::eventHandler(): sending mouse input to server.
+16:45:23  684 Hero::deserialize()
+16:45:23  684 Weapon::deserialize()
+16:45:23  684 Weapon::deserialize()
+16:45:23  685 Hero::deserialize()
+16:45:23  685 Weapon::deserialize()
+16:45:23  685 Weapon::deserialize()
+16:45:23  686 Client::eventHandler(): sending mouse input to server.
+16:45:23  686 Hero::deserialize()
+16:45:23  686 Weapon::deserialize()
+16:45:23  686 Weapon::deserialize()
+16:45:23  687 Client::eventHandler(): sending mouse input to server.
+16:45:23  687 Hero::deserialize()
+16:45:23  687 Weapon::deserialize()
+16:45:23  687 Weapon::deserialize()
+16:45:23  688 Hero::deserialize()
+16:45:23  688 Weapon::deserialize()
+16:45:23  688 Weapon::deserialize()
+16:45:23  689 Hero::deserialize()
+16:45:23  689 Weapon::deserialize()
+16:45:23  689 Weapon::deserialize()
+16:45:23  690 Client::eventHandler(): sending mouse input to server.
+16:45:23  690 Hero::deserialize()
+16:45:23  690 Weapon::deserialize()
+16:45:23  690 Weapon::deserialize()
+16:45:23  691 Client::eventHandler(): sending mouse input to server.
+16:45:23  691 Hero::deserialize()
+16:45:23  691 Weapon::deserialize()
+16:45:23  691 Weapon::deserialize()
+16:45:23  692 Client::eventHandler(): sending mouse input to server.
+16:45:23  692 Client::eventHandler(): sending mouse input to server.
+16:45:23  692 Client::eventHandler(): sending mouse input to server.
+16:45:23  692 Hero::deserialize()
+16:45:23  692 Weapon::deserialize()
+16:45:23  692 Weapon::deserialize()
+16:45:23  693 Client::eventHandler(): sending mouse input to server.
+16:45:23  693 Hero::deserialize()
+16:45:23  693 Weapon::deserialize()
+16:45:23  693 Weapon::deserialize()
+16:45:23  694 Client::eventHandler(): sending mouse input to server.
+16:45:23  694 Hero::deserialize()
+16:45:23  694 Weapon::deserialize()
+16:45:23  694 Weapon::deserialize()
+16:45:23  695 Client::eventHandler(): sending mouse input to server.
+16:45:23  695 Client::eventHandler(): sending mouse input to server.
+16:45:23  695 Client::eventHandler(): sending mouse input to server.
+16:45:23  695 Hero::deserialize()
+16:45:23  695 Weapon::deserialize()
+16:45:23  695 Weapon::deserialize()
+16:45:24  696 Client::eventHandler(): sending mouse input to server.
+16:45:24  696 Client::eventHandler(): sending mouse input to server.
+16:45:24  696 Client::eventHandler(): sending mouse input to server.
+16:45:24  696 Hero::deserialize()
+16:45:24  696 Weapon::deserialize()
+16:45:24  696 Weapon::deserialize()
+16:45:24  697 Client::eventHandler(): sending mouse input to server.
+16:45:24  697 Hero::deserialize()
+16:45:24  697 Weapon::deserialize()
+16:45:24  697 Weapon::deserialize()
+16:45:24  698 Hero::deserialize()
+16:45:24  698 Weapon::deserialize()
+16:45:24  698 Weapon::deserialize()
+16:45:24  699 Hero::deserialize()
+16:45:24  699 Weapon::deserialize()
+16:45:24  699 Weapon::deserialize()
+16:45:24  700 Hero::deserialize()
+16:45:24  700 Weapon::deserialize()
+16:45:24  700 Weapon::deserialize()
+16:45:24  701 Hero::deserialize()
+16:45:24  701 Weapon::deserialize()
+16:45:24  701 Weapon::deserialize()
+16:45:24  702 Hero::deserialize()
+16:45:24  702 Weapon::deserialize()
+16:45:24  702 Weapon::deserialize()
+16:45:24  707 Hero::deserialize()
+16:45:24  707 Weapon::deserialize()
+16:45:24  707 Weapon::deserialize()
+16:45:24  707 Hero::deserialize()
+16:45:24  707 Weapon::deserialize()
+16:45:24  707 Weapon::deserialize()
+16:45:24  708 Hero::deserialize()
+16:45:24  708 Weapon::deserialize()
+16:45:24  708 Weapon::deserialize()
+16:45:24  709 Hero::deserialize()
+16:45:24  709 Weapon::deserialize()
+16:45:24  709 Weapon::deserialize()
+16:45:24  710 Hero::deserialize()
+16:45:24  710 Weapon::deserialize()
+16:45:24  710 Weapon::deserialize()
+16:45:24  711 Hero::deserialize()
+16:45:24  711 Weapon::deserialize()
+16:45:24  711 Weapon::deserialize()
+16:45:24  712 Hero::deserialize()
+16:45:24  712 Weapon::deserialize()
+16:45:24  712 Weapon::deserialize()
+16:45:24  713 Hero::deserialize()
+16:45:24  713 Weapon::deserialize()
+16:45:24  713 Weapon::deserialize()
+16:45:24  714 Hero::deserialize()
+16:45:24  714 Weapon::deserialize()
+16:45:24  714 Weapon::deserialize()
+16:45:24  715 Hero::deserialize()
+16:45:24  715 Weapon::deserialize()
+16:45:24  715 Weapon::deserialize()
+16:45:24  716 Hero::deserialize()
+16:45:24  716 Weapon::deserialize()
+16:45:24  716 Weapon::deserialize()
+16:45:24  717 Hero::deserialize()
+16:45:24  717 Weapon::deserialize()
+16:45:24  717 Weapon::deserialize()
+16:45:24  718 Hero::deserialize()
+16:45:24  718 Weapon::deserialize()
+16:45:24  718 Weapon::deserialize()
+16:45:24  719 Hero::deserialize()
+16:45:24  719 Weapon::deserialize()
+16:45:24  719 Weapon::deserialize()
+16:45:24  720 InputManager::getInput(): Window close event. Setting game over.
+16:45:24  720 Hero::deserialize()
+16:45:24  720 Weapon::deserialize()
+16:45:24  720 Weapon::deserialize()
+16:45:24  720 Hero::deserialize()
+16:45:24  720 Weapon::deserialize()
+16:45:24  720 Weapon::deserialize()
+16:45:24  721 GameManager::run(): end of game loop
+16:45:24  721 PathManager::shutDown(): successfully stopped.
+16:45:24  721 Path manager stopped
+16:45:24  721 WorldManager::shutDown(): Successfully stopped.
+16:45:24  721 World manager stopped
+16:45:24  721 ResourceManager::shutDown(): successfully stopped.
+16:45:24  721 Resource manager stopped
+16:45:24  721 NetworkManager::shutDown(): successfully stopped.
+16:45:24  721 Network manager stopped
+16:45:24  721 InputManager::shutDown(): successfully stopped.
+16:45:24  721 Input manager stopped
+16:45:24  721 DisplayManager::shutDown(): successfully stopped.
+16:45:24  721 Display manager stopped
+16:45:24  721 ** Game stopped **
+16:45:24  721 ****************************************************
+16:45:24  721 LogManager::shutDown(): successfully stopped.

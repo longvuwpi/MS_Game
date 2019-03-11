@@ -1,0 +1,2593 @@
+13:18:47    0 ****************************************************
+13:18:47    0 ** Dragonfly version 4.9 **
+13:18:47    0 Hello, Network! (v1.2)
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+13:18:47    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+13:18:47    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+13:18:47    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+13:18:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+13:18:48    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+13:18:48    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+13:18:48    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+13:18:48    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+13:18:48    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+13:18:48    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+13:18:49    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+13:18:50    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+13:18:50    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+13:18:50    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+13:18:50    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+13:18:50    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+13:18:50    0 Client::Client(): Connecting to localhost at port 9876.
+13:18:50    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+13:18:50    0 NetworkManager::connect(): Connection established.
+13:18:50    0 Client::handleConnect(): Client connected!
+13:18:50    0 Client::Client(): Client started.
+13:18:50    0 GameManager::run(): starting game loop
+13:18:50    0 Client::eventHandler(): sending mouse input to server.
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Platform'
+13:18:50    0 Client::createObject(): creating object type 'Hero'
+13:18:50    0 Hero::deserialize()
+13:18:50    0 Hero::deserialize()
+13:18:50    0 Weapon::deserialize()
+13:18:50    0 Weapon::deserialize(): ammo_loaded is 30
+13:18:50    0 Weapon::deserialize(): ammo_backup is 90
+13:18:50    0 Weapon::deserialize()
+13:18:50    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+13:18:50    0 Weapon::deserialize(): ammo_loaded is 10
+13:18:50    0 Weapon::deserialize(): ammo_backup is 30
+13:18:50    0 Weapon::deserialize()
+13:18:50    0 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+13:18:50    0 Weapon::deserialize(): ammo_loaded is 1
+13:18:50    0 Weapon::deserialize(): ammo_backup is 30
+13:18:50    0 Hero::deserialize()
+13:18:50    0 Weapon::deserialize()
+13:18:50    1 Client::eventHandler(): sending mouse input to server.
+13:18:50    2 Hero::deserialize()
+13:18:50    2 Weapon::deserialize()
+13:18:50    3 Client::eventHandler(): sending mouse input to server.
+13:18:50    3 Hero::deserialize()
+13:18:50    3 Weapon::deserialize()
+13:18:50    4 Client::eventHandler(): sending mouse input to server.
+13:18:50    4 Hero::deserialize()
+13:18:50    4 Weapon::deserialize()
+13:18:50    5 Client::eventHandler(): sending mouse input to server.
+13:18:50    5 Hero::deserialize()
+13:18:50    5 Weapon::deserialize()
+13:18:50    6 Client::eventHandler(): sending mouse input to server.
+13:18:50    6 Hero::deserialize()
+13:18:50    6 Weapon::deserialize()
+13:18:50    7 Client::eventHandler(): sending mouse input to server.
+13:18:50    7 Hero::deserialize()
+13:18:50    7 Weapon::deserialize()
+13:18:50    8 Client::eventHandler(): sending mouse input to server.
+13:18:50    8 Hero::deserialize()
+13:18:50    8 Weapon::deserialize()
+13:18:50    9 Client::eventHandler(): sending mouse input to server.
+13:18:50    9 Hero::deserialize()
+13:18:50    9 Weapon::deserialize()
+13:18:50   10 Client::eventHandler(): sending mouse input to server.
+13:18:50   10 Hero::deserialize()
+13:18:50   10 Weapon::deserialize()
+13:18:50   11 Client::eventHandler(): sending mouse input to server.
+13:18:50   11 Hero::deserialize()
+13:18:50   11 Weapon::deserialize()
+13:18:50   12 Client::eventHandler(): sending mouse input to server.
+13:18:50   12 Hero::deserialize()
+13:18:50   12 Weapon::deserialize()
+13:18:50   13 Client::eventHandler(): sending mouse input to server.
+13:18:50   13 Hero::deserialize()
+13:18:50   13 Weapon::deserialize()
+13:18:50   14 Client::eventHandler(): sending mouse input to server.
+13:18:50   14 Hero::deserialize()
+13:18:50   14 Weapon::deserialize()
+13:18:51   15 Client::eventHandler(): sending mouse input to server.
+13:18:51   15 Hero::deserialize()
+13:18:51   15 Weapon::deserialize()
+13:18:51   16 Client::eventHandler(): sending mouse input to server.
+13:18:51   16 Hero::deserialize()
+13:18:51   16 Weapon::deserialize()
+13:18:51   17 Client::eventHandler(): sending mouse input to server.
+13:18:51   17 Client::eventHandler(): sending mouse input to server.
+13:18:51   17 Hero::deserialize()
+13:18:51   17 Weapon::deserialize()
+13:18:51   18 Client::eventHandler(): sending mouse input to server.
+13:18:51   18 Hero::deserialize()
+13:18:51   18 Weapon::deserialize()
+13:18:51   19 Client::eventHandler(): sending mouse input to server.
+13:18:51   19 Hero::deserialize()
+13:18:51   19 Weapon::deserialize()
+13:18:51   20 Client::eventHandler(): sending mouse input to server.
+13:18:51   20 Hero::deserialize()
+13:18:51   20 Weapon::deserialize()
+13:18:51   21 Client::eventHandler(): sending mouse input to server.
+13:18:51   21 Hero::deserialize()
+13:18:51   21 Weapon::deserialize()
+13:18:51   22 Client::eventHandler(): sending mouse input to server.
+13:18:51   22 Hero::deserialize()
+13:18:51   22 Weapon::deserialize()
+13:18:51   23 Client::eventHandler(): sending mouse input to server.
+13:18:51   23 Hero::deserialize()
+13:18:51   23 Weapon::deserialize()
+13:18:51   24 Client::eventHandler(): sending mouse input to server.
+13:18:51   24 Hero::deserialize()
+13:18:51   24 Weapon::deserialize()
+13:18:51   25 Client::eventHandler(): sending mouse input to server.
+13:18:51   25 Hero::deserialize()
+13:18:51   25 Weapon::deserialize()
+13:18:51   26 Client::eventHandler(): sending mouse input to server.
+13:18:51   26 Hero::deserialize()
+13:18:51   26 Weapon::deserialize()
+13:18:51   27 Client::eventHandler(): sending mouse input to server.
+13:18:51   27 Hero::deserialize()
+13:18:51   27 Weapon::deserialize()
+13:18:51   28 Client::eventHandler(): sending mouse input to server.
+13:18:51   28 Hero::deserialize()
+13:18:51   28 Weapon::deserialize()
+13:18:51   29 Client::eventHandler(): sending mouse input to server.
+13:18:51   29 Hero::deserialize()
+13:18:51   29 Weapon::deserialize()
+13:18:51   30 Client::eventHandler(): sending mouse input to server.
+13:18:51   30 Hero::deserialize()
+13:18:51   30 Weapon::deserialize()
+13:18:51   31 Client::eventHandler(): sending mouse input to server.
+13:18:51   31 Hero::deserialize()
+13:18:51   31 Weapon::deserialize()
+13:18:51   32 Client::eventHandler(): sending mouse input to server.
+13:18:51   32 Hero::deserialize()
+13:18:51   32 Weapon::deserialize()
+13:18:51   33 Client::eventHandler(): sending mouse input to server.
+13:18:51   33 Hero::deserialize()
+13:18:51   33 Weapon::deserialize()
+13:18:51   34 Hero::deserialize()
+13:18:51   34 Weapon::deserialize()
+13:18:51   35 Client::eventHandler(): sending mouse input to server.
+13:18:51   35 Hero::deserialize()
+13:18:51   35 Weapon::deserialize()
+13:18:51   36 Client::eventHandler(): sending mouse input to server.
+13:18:51   36 Hero::deserialize()
+13:18:51   36 Weapon::deserialize()
+13:18:51   37 Client::eventHandler(): sending mouse input to server.
+13:18:51   37 Hero::deserialize()
+13:18:51   37 Weapon::deserialize()
+13:18:51   38 Client::eventHandler(): sending mouse input to server.
+13:18:51   38 Hero::deserialize()
+13:18:51   38 Weapon::deserialize()
+13:18:51   39 Client::eventHandler(): sending mouse input to server.
+13:18:51   39 Hero::deserialize()
+13:18:51   39 Weapon::deserialize()
+13:18:51   40 Client::eventHandler(): sending mouse input to server.
+13:18:51   40 Client::eventHandler(): sending mouse input to server.
+13:18:51   40 Hero::deserialize()
+13:18:51   40 Weapon::deserialize()
+13:18:51   41 Client::eventHandler(): sending mouse input to server.
+13:18:51   41 Hero::deserialize()
+13:18:51   41 Weapon::deserialize()
+13:18:51   42 Client::eventHandler(): sending mouse input to server.
+13:18:51   42 Hero::deserialize()
+13:18:51   42 Weapon::deserialize()
+13:18:51   42 Weapon::deserialize(): fire_count_down is 3
+13:18:51   42 Weapon::deserialize(): ammo_loaded is 29
+13:18:51   43 Client::eventHandler(): sending mouse input to server.
+13:18:51   43 Hero::deserialize()
+13:18:51   43 Weapon::deserialize()
+13:18:51   43 Weapon::deserialize(): fire_count_down is 2
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   43 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::eventHandler(): sending mouse input to server.
+13:18:51   44 Hero::deserialize()
+13:18:51   44 Weapon::deserialize()
+13:18:51   44 Weapon::deserialize(): fire_count_down is 1
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   44 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::eventHandler(): sending mouse input to server.
+13:18:51   45 Hero::deserialize()
+13:18:51   45 Weapon::deserialize()
+13:18:51   45 Weapon::deserialize(): fire_count_down is 3
+13:18:51   45 Weapon::deserialize(): ammo_loaded is 28
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'BulletTrail'
+13:18:51   45 Client::createObject(): creating object type 'Bullet'
+13:18:52   46 Client::eventHandler(): sending mouse input to server.
+13:18:52   46 Hero::deserialize()
+13:18:52   46 Weapon::deserialize()
+13:18:52   46 Weapon::deserialize(): fire_count_down is 2
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   46 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::eventHandler(): sending mouse input to server.
+13:18:52   47 Hero::deserialize()
+13:18:52   47 Weapon::deserialize()
+13:18:52   47 Weapon::deserialize(): fire_count_down is 1
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   47 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::eventHandler(): sending mouse input to server.
+13:18:52   48 Client::eventHandler(): sending mouse input to server.
+13:18:52   48 Client::eventHandler(): sending mouse input to server.
+13:18:52   48 Hero::deserialize()
+13:18:52   48 Weapon::deserialize()
+13:18:52   48 Weapon::deserialize(): fire_count_down is 3
+13:18:52   48 Weapon::deserialize(): ammo_loaded is 27
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   48 Client::createObject(): creating object type 'Bullet'
+13:18:52   49 Client::eventHandler(): sending mouse input to server.
+13:18:52   49 Client::eventHandler(): sending mouse input to server.
+13:18:52   49 Hero::deserialize()
+13:18:52   49 Weapon::deserialize()
+13:18:52   49 Weapon::deserialize(): fire_count_down is 2
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   49 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::eventHandler(): sending mouse input to server.
+13:18:52   50 Client::eventHandler(): sending mouse input to server.
+13:18:52   50 Hero::deserialize()
+13:18:52   50 Weapon::deserialize()
+13:18:52   50 Weapon::deserialize(): fire_count_down is 1
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   50 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::eventHandler(): sending mouse input to server.
+13:18:52   51 Client::eventHandler(): sending mouse input to server.
+13:18:52   51 Hero::deserialize()
+13:18:52   51 Weapon::deserialize()
+13:18:52   51 Weapon::deserialize(): fire_count_down is 3
+13:18:52   51 Weapon::deserialize(): ammo_loaded is 26
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   51 Client::createObject(): creating object type 'Bullet'
+13:18:52   52 Client::eventHandler(): sending mouse input to server.
+13:18:52   52 Client::eventHandler(): sending mouse input to server.
+13:18:52   52 Hero::deserialize()
+13:18:52   52 Weapon::deserialize()
+13:18:52   52 Weapon::deserialize(): fire_count_down is 2
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   52 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::eventHandler(): sending mouse input to server.
+13:18:52   53 Client::eventHandler(): sending mouse input to server.
+13:18:52   53 Hero::deserialize()
+13:18:52   53 Weapon::deserialize()
+13:18:52   53 Weapon::deserialize(): fire_count_down is 1
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   53 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::eventHandler(): sending mouse input to server.
+13:18:52   54 Client::eventHandler(): sending mouse input to server.
+13:18:52   54 Hero::deserialize()
+13:18:52   54 Weapon::deserialize()
+13:18:52   54 Weapon::deserialize(): fire_count_down is 3
+13:18:52   54 Weapon::deserialize(): ammo_loaded is 25
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   54 Client::createObject(): creating object type 'Bullet'
+13:18:52   55 Hero::deserialize()
+13:18:52   55 Weapon::deserialize()
+13:18:52   55 Weapon::deserialize(): fire_count_down is 2
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   55 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Hero::deserialize()
+13:18:52   56 Weapon::deserialize()
+13:18:52   56 Weapon::deserialize(): fire_count_down is 1
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   56 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Hero::deserialize()
+13:18:52   57 Weapon::deserialize()
+13:18:52   57 Weapon::deserialize(): fire_count_down is 0
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   57 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::eventHandler(): sending mouse input to server.
+13:18:52   58 Hero::deserialize()
+13:18:52   58 Weapon::deserialize()
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   58 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::eventHandler(): sending mouse input to server.
+13:18:52   59 Hero::deserialize()
+13:18:52   59 Weapon::deserialize()
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   59 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::eventHandler(): sending mouse input to server.
+13:18:52   60 Hero::deserialize()
+13:18:52   60 Weapon::deserialize()
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   60 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::eventHandler(): sending mouse input to server.
+13:18:52   61 Hero::deserialize()
+13:18:52   61 Weapon::deserialize()
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   61 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::eventHandler(): sending mouse input to server.
+13:18:52   62 Hero::deserialize()
+13:18:52   62 Weapon::deserialize()
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   62 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::eventHandler(): sending mouse input to server.
+13:18:52   63 Hero::deserialize()
+13:18:52   63 Weapon::deserialize()
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   63 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::eventHandler(): sending mouse input to server.
+13:18:52   64 Hero::deserialize()
+13:18:52   64 Weapon::deserialize()
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   64 Client::createObject(): creating object type 'BulletTrail'
+13:18:52   65 Client::eventHandler(): sending mouse input to server.
+13:18:52   65 Hero::deserialize()
+13:18:52   65 Weapon::deserialize()
+13:18:52   66 Client::eventHandler(): sending mouse input to server.
+13:18:52   66 Hero::deserialize()
+13:18:52   66 Weapon::deserialize()
+13:18:52   67 Client::eventHandler(): sending mouse input to server.
+13:18:52   67 Hero::deserialize()
+13:18:52   67 Weapon::deserialize()
+13:18:52   68 Client::eventHandler(): sending mouse input to server.
+13:18:52   68 Hero::deserialize()
+13:18:52   68 Weapon::deserialize()
+13:18:52   69 Client::eventHandler(): sending mouse input to server.
+13:18:52   69 Hero::deserialize()
+13:18:52   69 Weapon::deserialize()
+13:18:52   70 Client::eventHandler(): sending mouse input to server.
+13:18:52   70 Hero::deserialize()
+13:18:52   70 Weapon::deserialize()
+13:18:52   71 Client::eventHandler(): sending mouse input to server.
+13:18:52   71 Hero::deserialize()
+13:18:52   71 Weapon::deserialize()
+13:18:52   72 Client::eventHandler(): sending mouse input to server.
+13:18:52   72 Hero::deserialize()
+13:18:52   72 Weapon::deserialize()
+13:18:52   73 Client::eventHandler(): sending mouse input to server.
+13:18:52   73 Hero::deserialize()
+13:18:52   73 Weapon::deserialize()
+13:18:52   74 Client::eventHandler(): sending mouse input to server.
+13:18:52   74 Hero::deserialize()
+13:18:52   74 Weapon::deserialize()
+13:18:52   75 Client::eventHandler(): sending mouse input to server.
+13:18:52   75 Hero::deserialize()
+13:18:52   75 Weapon::deserialize()
+13:18:53   76 Client::eventHandler(): sending mouse input to server.
+13:18:53   76 Hero::deserialize()
+13:18:53   76 Weapon::deserialize()
+13:18:53   77 Client::eventHandler(): sending mouse input to server.
+13:18:53   77 Hero::deserialize()
+13:18:53   77 Weapon::deserialize()
+13:18:53   78 Client::eventHandler(): sending mouse input to server.
+13:18:53   78 Hero::deserialize()
+13:18:53   78 Weapon::deserialize()
+13:18:53   79 Client::eventHandler(): sending mouse input to server.
+13:18:53   79 Hero::deserialize()
+13:18:53   79 Weapon::deserialize()
+13:18:53   80 Client::eventHandler(): sending mouse input to server.
+13:18:53   80 Hero::deserialize()
+13:18:53   80 Weapon::deserialize()
+13:18:53   81 Client::eventHandler(): sending mouse input to server.
+13:18:53   81 Hero::deserialize()
+13:18:53   81 Weapon::deserialize()
+13:18:53   82 Client::eventHandler(): sending mouse input to server.
+13:18:53   82 Hero::deserialize()
+13:18:53   82 Weapon::deserialize()
+13:18:53   83 Client::eventHandler(): sending mouse input to server.
+13:18:53   83 Hero::deserialize()
+13:18:53   83 Weapon::deserialize()
+13:18:53   84 Client::eventHandler(): sending mouse input to server.
+13:18:53   84 Hero::deserialize()
+13:18:53   84 Weapon::deserialize()
+13:18:53   85 Client::eventHandler(): sending mouse input to server.
+13:18:53   85 Hero::deserialize()
+13:18:53   85 Weapon::deserialize()
+13:18:53   86 Hero::deserialize()
+13:18:53   86 Weapon::deserialize()
+13:18:53   87 Hero::deserialize()
+13:18:53   87 Weapon::deserialize()
+13:18:53   88 Hero::deserialize()
+13:18:53   88 Weapon::deserialize()
+13:18:53   89 Hero::deserialize()
+13:18:53   89 Weapon::deserialize()
+13:18:53   90 Hero::deserialize()
+13:18:53   90 Weapon::deserialize()
+13:18:53   91 Hero::deserialize()
+13:18:53   91 Weapon::deserialize()
+13:18:53   93 Hero::deserialize()
+13:18:53   93 Weapon::deserialize()
+13:18:53   93 Hero::deserialize()
+13:18:53   93 Weapon::deserialize()
+13:18:53   95 Hero::deserialize()
+13:18:53   95 Weapon::deserialize()
+13:18:53   95 Hero::deserialize()
+13:18:53   96 Weapon::deserialize()
+13:18:53   96 Hero::deserialize()
+13:18:53   97 Weapon::deserialize()
+13:18:53   97 Hero::deserialize()
+13:18:53   97 Weapon::deserialize()
+13:18:53   98 Client::eventHandler(): sending mouse input to server.
+13:18:53   98 Hero::deserialize()
+13:18:53   98 Weapon::deserialize()
+13:18:53  100 Hero::deserialize()
+13:18:53  100 Weapon::deserialize()
+13:18:53  100 Hero::deserialize()
+13:18:53  100 Weapon::deserialize()
+13:18:53  102 Hero::deserialize()
+13:18:53  102 Weapon::deserialize()
+13:18:53  102 Hero::deserialize()
+13:18:53  102 Weapon::deserialize()
+13:18:53  103 Hero::deserialize()
+13:18:53  103 Weapon::deserialize()
+13:18:53  105 Hero::deserialize()
+13:18:53  105 Weapon::deserialize()
+13:18:53  105 Hero::deserialize()
+13:18:54  106 Weapon::deserialize()
+13:18:54  107 Hero::deserialize()
+13:18:54  107 Weapon::deserialize()
+13:18:54  107 Hero::deserialize()
+13:18:54  108 Weapon::deserialize()
+13:18:54  109 Hero::deserialize()
+13:18:54  109 Weapon::deserialize()
+13:18:54  110 Hero::deserialize()
+13:18:54  110 Weapon::deserialize()
+13:18:54  110 Hero::deserialize()
+13:18:54  110 Weapon::deserialize()
+13:18:54  112 Hero::deserialize()
+13:18:54  112 Weapon::deserialize()
+13:18:54  113 Hero::deserialize()
+13:18:54  113 Weapon::deserialize()
+13:18:54  113 Hero::deserialize()
+13:18:54  113 Weapon::deserialize()
+13:18:54  115 Hero::deserialize()
+13:18:54  115 Weapon::deserialize()
+13:18:54  116 Hero::deserialize()
+13:18:54  116 Weapon::deserialize()
+13:18:54  116 Hero::deserialize()
+13:18:54  116 Weapon::deserialize()
+13:18:54  118 Hero::deserialize()
+13:18:54  118 Weapon::deserialize()
+13:18:54  118 Hero::deserialize()
+13:18:54  118 Weapon::deserialize()
+13:18:54  120 Hero::deserialize()
+13:18:54  120 Weapon::deserialize()
+13:18:54  120 Hero::deserialize()
+13:18:54  120 Weapon::deserialize()
+13:18:54  122 Hero::deserialize()
+13:18:54  122 Weapon::deserialize()
+13:18:54  122 Hero::deserialize()
+13:18:54  122 Weapon::deserialize()
+13:18:54  124 Hero::deserialize()
+13:18:54  124 Weapon::deserialize()
+13:18:54  124 Hero::deserialize()
+13:18:54  124 Weapon::deserialize()
+13:18:54  126 Hero::deserialize()
+13:18:54  126 Weapon::deserialize()
+13:18:54  126 Hero::deserialize()
+13:18:54  126 Weapon::deserialize()
+13:18:54  128 Hero::deserialize()
+13:18:54  128 Weapon::deserialize()
+13:18:54  128 Hero::deserialize()
+13:18:54  129 Weapon::deserialize()
+13:18:54  130 Client::eventHandler(): sending mouse input to server.
+13:18:54  130 Hero::deserialize()
+13:18:54  130 Weapon::deserialize()
+13:18:54  130 Hero::deserialize()
+13:18:54  130 Weapon::deserialize()
+13:18:54  131 Client::eventHandler(): sending mouse input to server.
+13:18:54  131 Hero::deserialize()
+13:18:54  131 Weapon::deserialize()
+13:18:54  132 Client::eventHandler(): sending mouse input to server.
+13:18:54  133 Client::eventHandler(): sending mouse input to server.
+13:18:54  133 Hero::deserialize()
+13:18:54  133 Weapon::deserialize()
+13:18:54  133 Hero::deserialize()
+13:18:54  133 Weapon::deserialize()
+13:18:54  134 Client::eventHandler(): sending mouse input to server.
+13:18:54  134 Client::eventHandler(): sending mouse input to server.
+13:18:54  134 Hero::deserialize()
+13:18:54  134 Weapon::deserialize()
+13:18:54  135 Client::eventHandler(): sending mouse input to server.
+13:18:54  135 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:55  136 Client::eventHandler(): sending mouse input to server.
+13:18:55  136 Hero::deserialize()
+13:18:55  136 Weapon::deserialize()
+13:18:55  136 Hero::deserialize()
+13:18:55  136 Weapon::deserialize()
+13:18:55  136 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  137 Client::eventHandler(): sending mouse input to server.
+13:18:55  137 Hero::deserialize()
+13:18:55  137 Weapon::deserialize()
+13:18:55  137 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  138 Client::eventHandler(): sending mouse input to server.
+13:18:55  138 Hero::deserialize()
+13:18:55  138 Weapon::deserialize()
+13:18:55  138 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  139 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+13:18:55  140 Hero::deserialize()
+13:18:55  140 Weapon::deserialize()
+13:18:55  140 Hero::deserialize()
+13:18:55  140 Weapon::deserialize()
+13:18:55  140 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:55  141 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+13:18:55  142 Hero::deserialize()
+13:18:55  142 Weapon::deserialize()
+13:18:55  142 Hero::deserialize()
+13:18:55  143 Client::eventHandler(): sending mouse input to server.
+13:18:55  143 Weapon::deserialize()
+13:18:55  143 Hero::deserialize()
+13:18:55  143 Weapon::deserialize()
+13:18:55  144 Client::eventHandler(): sending mouse input to server.
+13:18:55  144 Hero::deserialize()
+13:18:55  144 Weapon::deserialize()
+13:18:55  146 Hero::deserialize()
+13:18:55  146 Weapon::deserialize()
+13:18:55  146 Hero::deserialize()
+13:18:55  146 Weapon::deserialize()
+13:18:55  147 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  148 Hero::deserialize()
+13:18:55  148 Weapon::deserialize()
+13:18:55  148 Hero::deserialize()
+13:18:55  148 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  149 Weapon::deserialize()
+13:18:55  149 Hero::deserialize()
+13:18:55  149 Weapon::deserialize()
+13:18:55  149 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:55  150 Hero::deserialize()
+13:18:55  150 Weapon::deserialize()
+13:18:55  150 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:55  151 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:55  152 Hero::deserialize()
+13:18:55  152 Weapon::deserialize()
+13:18:55  152 Hero::deserialize()
+13:18:55  152 Weapon::deserialize()
+13:18:55  152 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  153 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  154 Hero::deserialize()
+13:18:55  154 Weapon::deserialize()
+13:18:55  154 Hero::deserialize()
+13:18:55  154 Weapon::deserialize()
+13:18:55  154 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+13:18:55  156 Hero::deserialize()
+13:18:55  156 Weapon::deserialize()
+13:18:55  156 Hero::deserialize()
+13:18:55  156 Weapon::deserialize()
+13:18:55  156 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:55  158 Hero::deserialize()
+13:18:55  158 Weapon::deserialize()
+13:18:55  158 Hero::deserialize()
+13:18:55  159 Weapon::deserialize()
+13:18:55  160 Hero::deserialize()
+13:18:55  160 Weapon::deserialize()
+13:18:55  160 Hero::deserialize()
+13:18:55  160 Weapon::deserialize()
+13:18:55  160 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:55  161 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:55  162 Hero::deserialize()
+13:18:55  162 Weapon::deserialize()
+13:18:55  162 Hero::deserialize()
+13:18:55  162 Weapon::deserialize()
+13:18:55  162 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:18:55  163 Hero::deserialize()
+13:18:55  163 Weapon::deserialize()
+13:18:55  164 Hero::deserialize()
+13:18:55  164 Weapon::deserialize()
+13:18:56  165 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:56  166 Hero::deserialize()
+13:18:56  166 Weapon::deserialize()
+13:18:56  167 Hero::deserialize()
+13:18:56  167 Weapon::deserialize()
+13:18:56  168 Hero::deserialize()
+13:18:56  168 Weapon::deserialize()
+13:18:56  168 Hero::deserialize()
+13:18:56  168 Weapon::deserialize()
+13:18:56  170 Hero::deserialize()
+13:18:56  170 Weapon::deserialize()
+13:18:56  170 Hero::deserialize()
+13:18:56  170 Weapon::deserialize()
+13:18:56  172 Hero::deserialize()
+13:18:56  172 Weapon::deserialize()
+13:18:56  172 Hero::deserialize()
+13:18:56  172 Weapon::deserialize()
+13:18:56  174 Hero::deserialize()
+13:18:56  174 Weapon::deserialize()
+13:18:56  175 Hero::deserialize()
+13:18:56  175 Weapon::deserialize()
+13:18:56  175 Hero::deserialize()
+13:18:56  175 Weapon::deserialize()
+13:18:56  177 Hero::deserialize()
+13:18:56  177 Weapon::deserialize()
+13:18:56  177 Hero::deserialize()
+13:18:56  177 Weapon::deserialize()
+13:18:56  178 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  179 Hero::deserialize()
+13:18:56  179 Weapon::deserialize()
+13:18:56  179 Hero::deserialize()
+13:18:56  179 Weapon::deserialize()
+13:18:56  181 Hero::deserialize()
+13:18:56  181 Weapon::deserialize()
+13:18:56  181 Hero::deserialize()
+13:18:56  182 Weapon::deserialize()
+13:18:56  182 Hero::deserialize()
+13:18:56  183 Weapon::deserialize()
+13:18:56  183 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  184 Hero::deserialize()
+13:18:56  184 Weapon::deserialize()
+13:18:56  184 Hero::deserialize()
+13:18:56  184 Weapon::deserialize()
+13:18:56  184 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:56  185 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  186 Hero::deserialize()
+13:18:56  186 Weapon::deserialize()
+13:18:56  186 Hero::deserialize()
+13:18:56  187 Weapon::deserialize()
+13:18:56  187 Hero::deserialize()
+13:18:56  187 Weapon::deserialize()
+13:18:56  189 Hero::deserialize()
+13:18:56  189 Weapon::deserialize()
+13:18:56  189 Hero::deserialize()
+13:18:56  189 Weapon::deserialize()
+13:18:56  189 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  190 Hero::deserialize()
+13:18:56  190 Weapon::deserialize()
+13:18:56  190 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  191 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:56  192 Hero::deserialize()
+13:18:56  192 Weapon::deserialize()
+13:18:56  192 Hero::deserialize()
+13:18:56  193 Weapon::deserialize()
+13:18:56  194 Hero::deserialize()
+13:18:56  194 Weapon::deserialize()
+13:18:56  194 Hero::deserialize()
+13:18:56  194 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  195 Weapon::deserialize()
+13:18:57  195 Hero::deserialize()
+13:18:57  195 Weapon::deserialize()
+13:18:57  195 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:57  196 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  197 Hero::deserialize()
+13:18:57  197 Weapon::deserialize()
+13:18:57  197 Hero::deserialize()
+13:18:57  197 Weapon::deserialize()
+13:18:57  197 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  198 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  199 Hero::deserialize()
+13:18:57  199 Weapon::deserialize()
+13:18:57  199 Hero::deserialize()
+13:18:57  199 Weapon::deserialize()
+13:18:57  199 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:57  200 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  201 Hero::deserialize()
+13:18:57  201 Weapon::deserialize()
+13:18:57  201 Hero::deserialize()
+13:18:57  201 Weapon::deserialize()
+13:18:57  201 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:57  203 Hero::deserialize()
+13:18:57  203 Weapon::deserialize()
+13:18:57  203 Hero::deserialize()
+13:18:57  203 Weapon::deserialize()
+13:18:57  203 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:57  204 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  205 Hero::deserialize()
+13:18:57  205 Weapon::deserialize()
+13:18:57  205 Hero::deserialize()
+13:18:57  206 Weapon::deserialize()
+13:18:57  207 Hero::deserialize()
+13:18:57  207 Weapon::deserialize()
+13:18:57  207 Hero::deserialize()
+13:18:57  207 Weapon::deserialize()
+13:18:57  209 Hero::deserialize()
+13:18:57  209 Weapon::deserialize()
+13:18:57  209 Hero::deserialize()
+13:18:57  209 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:57  210 Weapon::deserialize()
+13:18:57  211 Hero::deserialize()
+13:18:57  211 Weapon::deserialize()
+13:18:57  211 Hero::deserialize()
+13:18:57  212 Weapon::deserialize()
+13:18:57  213 Client::eventHandler(): sending mouse input to server.
+13:18:57  213 Hero::deserialize()
+13:18:57  213 Weapon::deserialize()
+13:18:57  213 Hero::deserialize()
+13:18:57  213 Weapon::deserialize()
+13:18:57  214 Client::eventHandler(): sending mouse input to server.
+13:18:57  214 Hero::deserialize()
+13:18:57  214 Weapon::deserialize()
+13:18:57  215 Client::eventHandler(): sending mouse input to server.
+13:18:57  215 Hero::deserialize()
+13:18:57  215 Weapon::deserialize()
+13:18:57  216 Client::eventHandler(): sending mouse input to server.
+13:18:57  216 Hero::deserialize()
+13:18:57  216 Weapon::deserialize()
+13:18:57  216 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:57  217 Client::eventHandler(): sending mouse input to server.
+13:18:57  217 Hero::deserialize()
+13:18:57  217 Weapon::deserialize()
+13:18:57  217 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+13:18:57  219 Client::eventHandler(): sending mouse input to server.
+13:18:57  219 Hero::deserialize()
+13:18:57  219 Weapon::deserialize()
+13:18:57  219 Hero::deserialize()
+13:18:57  219 Weapon::deserialize()
+13:18:57  220 Client::eventHandler(): sending mouse input to server.
+13:18:57  220 Hero::deserialize()
+13:18:57  220 Weapon::deserialize()
+13:18:57  221 Client::eventHandler(): sending mouse input to server.
+13:18:57  221 Hero::deserialize()
+13:18:57  221 Weapon::deserialize()
+13:18:57  222 Client::eventHandler(): sending mouse input to server.
+13:18:57  222 Client::eventHandler(): sending mouse input to server.
+13:18:57  222 Client::eventHandler(): sending mouse input to server.
+13:18:57  222 Hero::deserialize()
+13:18:57  222 Weapon::deserialize()
+13:18:57  223 Client::eventHandler(): sending mouse input to server.
+13:18:57  223 Hero::deserialize()
+13:18:57  223 Weapon::deserialize()
+13:18:57  223 Weapon::deserialize(): fire_count_down is 3
+13:18:57  223 Weapon::deserialize(): ammo_loaded is 24
+13:18:57  223 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:57  224 Client::eventHandler(): sending mouse input to server.
+13:18:57  224 Client::eventHandler(): sending mouse input to server.
+13:18:57  224 Client::createObject(): creating object type 'Bullet'
+13:18:57  224 Hero::deserialize()
+13:18:57  224 Weapon::deserialize()
+13:18:57  224 Weapon::deserialize(): fire_count_down is 2
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:57  224 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  225 Client::eventHandler(): sending mouse input to server.
+13:18:58  225 Client::eventHandler(): sending mouse input to server.
+13:18:58  225 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  225 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  225 Hero::deserialize()
+13:18:58  225 Weapon::deserialize()
+13:18:58  225 Weapon::deserialize(): fire_count_down is 1
+13:18:58  225 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::eventHandler(): sending mouse input to server.
+13:18:58  226 Client::eventHandler(): sending mouse input to server.
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Hero::deserialize()
+13:18:58  226 Weapon::deserialize()
+13:18:58  226 Weapon::deserialize(): fire_count_down is 3
+13:18:58  226 Weapon::deserialize(): ammo_loaded is 23
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  226 Client::createObject(): creating object type 'Bullet'
+13:18:58  227 Client::eventHandler(): sending mouse input to server.
+13:18:58  227 Client::eventHandler(): sending mouse input to server.
+13:18:58  227 Hero::deserialize()
+13:18:58  227 Weapon::deserialize()
+13:18:58  227 Weapon::deserialize(): fire_count_down is 2
+13:18:58  228 Client::eventHandler(): sending mouse input to server.
+13:18:58  228 Client::eventHandler(): sending mouse input to server.
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Hero::deserialize()
+13:18:58  228 Weapon::deserialize()
+13:18:58  228 Weapon::deserialize(): fire_count_down is 1
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  228 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  229 Client::eventHandler(): sending mouse input to server.
+13:18:58  229 Client::eventHandler(): sending mouse input to server.
+13:18:58  229 Hero::deserialize()
+13:18:58  229 Weapon::deserialize()
+13:18:58  229 Weapon::deserialize(): fire_count_down is 3
+13:18:58  229 Weapon::deserialize(): ammo_loaded is 22
+13:18:58  229 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:58  230 Client::eventHandler(): sending mouse input to server.
+13:18:58  230 Client::eventHandler(): sending mouse input to server.
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'Bullet'
+13:18:58  230 Hero::deserialize()
+13:18:58  230 Weapon::deserialize()
+13:18:58  230 Weapon::deserialize(): fire_count_down is 2
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  230 GameManager::run(): Warning! Residual network data.
+13:18:58  230 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+13:18:58  231 Client::eventHandler(): sending mouse input to server.
+13:18:58  231 Client::eventHandler(): sending mouse input to server.
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Hero::deserialize()
+13:18:58  231 Weapon::deserialize()
+13:18:58  231 Weapon::deserialize(): fire_count_down is 1
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  231 GameManager::run(): Warning! Residual network data.
+13:18:58  231 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:18:58  232 Client::eventHandler(): sending mouse input to server.
+13:18:58  232 Client::eventHandler(): sending mouse input to server.
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Hero::deserialize()
+13:18:58  232 Weapon::deserialize()
+13:18:58  232 Weapon::deserialize(): fire_count_down is 3
+13:18:58  232 Weapon::deserialize(): ammo_loaded is 21
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  232 Client::createObject(): creating object type 'Bullet'
+13:18:58  233 Client::eventHandler(): sending mouse input to server.
+13:18:58  233 Client::eventHandler(): sending mouse input to server.
+13:18:58  233 Hero::deserialize()
+13:18:58  233 Weapon::deserialize()
+13:18:58  233 Weapon::deserialize(): fire_count_down is 2
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  233 GameManager::run(): Warning! Residual network data.
+13:18:58  234 Client::eventHandler(): sending mouse input to server.
+13:18:58  234 Client::eventHandler(): sending mouse input to server.
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Hero::deserialize()
+13:18:58  234 Weapon::deserialize()
+13:18:58  234 Weapon::deserialize(): fire_count_down is 1
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  234 GameManager::run(): Warning! Residual network data.
+13:18:58  234 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:58  235 Client::eventHandler(): sending mouse input to server.
+13:18:58  235 Client::eventHandler(): sending mouse input to server.
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Hero::deserialize()
+13:18:58  235 Weapon::deserialize()
+13:18:58  235 Weapon::deserialize(): fire_count_down is 3
+13:18:58  235 Weapon::deserialize(): ammo_loaded is 20
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  235 GameManager::run(): Warning! Residual network data.
+13:18:58  236 Client::eventHandler(): sending mouse input to server.
+13:18:58  236 Client::eventHandler(): sending mouse input to server.
+13:18:58  236 Client::createObject(): creating object type 'Bullet'
+13:18:58  236 Hero::deserialize()
+13:18:58  236 Weapon::deserialize()
+13:18:58  236 Weapon::deserialize(): fire_count_down is 2
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  236 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::eventHandler(): sending mouse input to server.
+13:18:58  237 Client::eventHandler(): sending mouse input to server.
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Hero::deserialize()
+13:18:58  237 Weapon::deserialize()
+13:18:58  237 Weapon::deserialize(): fire_count_down is 1
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  237 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::eventHandler(): sending mouse input to server.
+13:18:58  238 Client::eventHandler(): sending mouse input to server.
+13:18:58  238 Hero::deserialize()
+13:18:58  238 Weapon::deserialize()
+13:18:58  238 Weapon::deserialize(): fire_count_down is 3
+13:18:58  238 Weapon::deserialize(): ammo_loaded is 19
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  238 Client::createObject(): creating object type 'Bullet'
+13:18:58  239 Client::eventHandler(): sending mouse input to server.
+13:18:58  239 Client::eventHandler(): sending mouse input to server.
+13:18:58  239 Hero::deserialize()
+13:18:58  239 Weapon::deserialize()
+13:18:58  239 Weapon::deserialize(): fire_count_down is 2
+13:18:58  240 Client::eventHandler(): sending mouse input to server.
+13:18:58  240 Client::eventHandler(): sending mouse input to server.
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Hero::deserialize()
+13:18:58  240 Weapon::deserialize()
+13:18:58  240 Weapon::deserialize(): fire_count_down is 1
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  240 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::eventHandler(): sending mouse input to server.
+13:18:58  241 Client::eventHandler(): sending mouse input to server.
+13:18:58  241 Hero::deserialize()
+13:18:58  241 Weapon::deserialize()
+13:18:58  241 Weapon::deserialize(): fire_count_down is 3
+13:18:58  241 Weapon::deserialize(): ammo_loaded is 18
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  241 Client::createObject(): creating object type 'Bullet'
+13:18:58  242 Client::eventHandler(): sending mouse input to server.
+13:18:58  242 Client::eventHandler(): sending mouse input to server.
+13:18:58  242 Hero::deserialize()
+13:18:58  242 Weapon::deserialize()
+13:18:58  242 Weapon::deserialize(): fire_count_down is 2
+13:18:58  243 Client::eventHandler(): sending mouse input to server.
+13:18:58  243 Client::eventHandler(): sending mouse input to server.
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Hero::deserialize()
+13:18:58  243 Weapon::deserialize()
+13:18:58  243 Weapon::deserialize(): fire_count_down is 1
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  243 GameManager::run(): Warning! Residual network data.
+13:18:58  244 Client::eventHandler(): sending mouse input to server.
+13:18:58  244 Client::eventHandler(): sending mouse input to server.
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Hero::deserialize()
+13:18:58  244 Weapon::deserialize()
+13:18:58  244 Weapon::deserialize(): fire_count_down is 3
+13:18:58  244 Weapon::deserialize(): ammo_loaded is 17
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  244 Client::createObject(): creating object type 'Bullet'
+13:18:58  245 Client::eventHandler(): sending mouse input to server.
+13:18:58  245 Client::eventHandler(): sending mouse input to server.
+13:18:58  245 Hero::deserialize()
+13:18:58  245 Weapon::deserialize()
+13:18:58  245 Weapon::deserialize(): fire_count_down is 2
+13:18:58  245 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  245 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  245 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  245 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::eventHandler(): sending mouse input to server.
+13:18:58  246 Client::eventHandler(): sending mouse input to server.
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Hero::deserialize()
+13:18:58  246 Weapon::deserialize()
+13:18:58  246 Weapon::deserialize(): fire_count_down is 1
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  246 GameManager::run(): Warning! Residual network data.
+13:18:58  247 Client::eventHandler(): sending mouse input to server.
+13:18:58  247 Client::eventHandler(): sending mouse input to server.
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Hero::deserialize()
+13:18:58  247 Weapon::deserialize()
+13:18:58  247 Weapon::deserialize(): fire_count_down is 3
+13:18:58  247 Weapon::deserialize(): ammo_loaded is 16
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  247 Client::createObject(): creating object type 'Bullet'
+13:18:58  249 Client::eventHandler(): sending mouse input to server.
+13:18:58  249 Hero::deserialize()
+13:18:58  249 Weapon::deserialize()
+13:18:58  249 Weapon::deserialize(): fire_count_down is 2
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Hero::deserialize()
+13:18:58  249 Weapon::deserialize()
+13:18:58  249 Weapon::deserialize(): fire_count_down is 1
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  249 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::eventHandler(): sending mouse input to server.
+13:18:58  250 Hero::deserialize()
+13:18:58  250 Weapon::deserialize()
+13:18:58  250 Weapon::deserialize(): fire_count_down is 0
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  250 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::eventHandler(): sending mouse input to server.
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Hero::deserialize()
+13:18:58  251 Weapon::deserialize()
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  251 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::eventHandler(): sending mouse input to server.
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Hero::deserialize()
+13:18:58  252 Weapon::deserialize()
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  252 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Hero::deserialize()
+13:18:58  254 Weapon::deserialize()
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Hero::deserialize()
+13:18:58  254 Weapon::deserialize()
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:58  254 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Hero::deserialize()
+13:18:59  256 Weapon::deserialize()
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Hero::deserialize()
+13:18:59  256 Weapon::deserialize()
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  256 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  257 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:59  258 Hero::deserialize()
+13:18:59  258 Weapon::deserialize()
+13:18:59  258 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:59  259 Hero::deserialize()
+13:18:59  259 Weapon::deserialize()
+13:18:59  259 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:59  260 Hero::deserialize()
+13:18:59  260 Weapon::deserialize()
+13:18:59  261 Hero::deserialize()
+13:18:59  261 Weapon::deserialize()
+13:18:59  262 Hero::deserialize()
+13:18:59  262 Weapon::deserialize()
+13:18:59  263 Hero::deserialize()
+13:18:59  263 Weapon::deserialize()
+13:18:59  263 Hero::deserialize()
+13:18:59  263 Weapon::deserialize()
+13:18:59  263 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:59  264 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:59  265 Hero::deserialize()
+13:18:59  265 Weapon::deserialize()
+13:18:59  265 Hero::deserialize()
+13:18:59  265 Weapon::deserialize()
+13:18:59  267 Hero::deserialize()
+13:18:59  267 Weapon::deserialize()
+13:18:59  267 Hero::deserialize()
+13:18:59  267 Weapon::deserialize()
+13:18:59  267 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:18:59  269 Hero::deserialize()
+13:18:59  269 Weapon::deserialize()
+13:18:59  269 Hero::deserialize()
+13:18:59  269 Weapon::deserialize()
+13:18:59  271 Hero::deserialize()
+13:18:59  271 Weapon::deserialize()
+13:18:59  271 Hero::deserialize()
+13:18:59  271 Weapon::deserialize()
+13:18:59  272 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:18:59  273 Hero::deserialize()
+13:18:59  273 Weapon::deserialize()
+13:18:59  273 Hero::deserialize()
+13:18:59  273 Weapon::deserialize()
+13:18:59  275 Hero::deserialize()
+13:18:59  275 Weapon::deserialize()
+13:18:59  275 Hero::deserialize()
+13:18:59  276 Weapon::deserialize()
+13:18:59  276 Hero::deserialize()
+13:18:59  276 Weapon::deserialize()
+13:18:59  276 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:18:59  278 Client::eventHandler(): sending mouse input to server.
+13:18:59  278 Client::eventHandler(): sending mouse input to server.
+13:18:59  278 Hero::deserialize()
+13:18:59  278 Weapon::deserialize()
+13:18:59  278 Hero::deserialize()
+13:18:59  278 Weapon::deserialize()
+13:18:59  279 Hero::deserialize()
+13:18:59  280 Weapon::deserialize()
+13:18:59  280 Weapon::deserialize(): fire_count_down is 3
+13:18:59  280 Weapon::deserialize(): ammo_loaded is 15
+13:18:59  280 Client::createObject(): creating object type 'Bullet'
+13:18:59  280 Hero::deserialize()
+13:18:59  280 Weapon::deserialize()
+13:18:59  280 Weapon::deserialize(): fire_count_down is 2
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Hero::deserialize()
+13:18:59  281 Weapon::deserialize()
+13:18:59  281 Weapon::deserialize(): fire_count_down is 1
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  281 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Hero::deserialize()
+13:18:59  283 Weapon::deserialize()
+13:18:59  283 Weapon::deserialize(): fire_count_down is 0
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Hero::deserialize()
+13:18:59  283 Weapon::deserialize()
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 Client::createObject(): creating object type 'BulletTrail'
+13:18:59  283 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:00  284 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:19:00  285 Hero::deserialize()
+13:19:00  285 Weapon::deserialize()
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Hero::deserialize()
+13:19:00  285 Weapon::deserialize()
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  285 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:19:00  286 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  286 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  286 Hero::deserialize()
+13:19:00  286 Weapon::deserialize()
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Hero::deserialize()
+13:19:00  287 Weapon::deserialize()
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  287 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Hero::deserialize()
+13:19:00  289 Weapon::deserialize()
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Client::createObject(): creating object type 'BulletTrail'
+13:19:00  289 Hero::deserialize()
+13:19:00  289 Weapon::deserialize()
+13:19:00  290 Hero::deserialize()
+13:19:00  290 Weapon::deserialize()
+13:19:00  291 Client::eventHandler(): sending mouse input to server.
+13:19:00  291 Hero::deserialize()
+13:19:00  291 Weapon::deserialize()
+13:19:00  292 Client::eventHandler(): sending mouse input to server.
+13:19:00  292 Hero::deserialize()
+13:19:00  292 Weapon::deserialize()
+13:19:00  293 Client::eventHandler(): sending mouse input to server.
+13:19:00  293 Hero::deserialize()
+13:19:00  293 Weapon::deserialize()
+13:19:00  294 Client::eventHandler(): sending mouse input to server.
+13:19:00  294 Hero::deserialize()
+13:19:00  294 Weapon::deserialize()
+13:19:00  294 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:19:00  295 Hero::deserialize()
+13:19:00  295 Weapon::deserialize()
+13:19:00  295 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:19:00  296 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:19:00  297 Hero::deserialize()
+13:19:00  297 Weapon::deserialize()
+13:19:00  297 Hero::deserialize()
+13:19:00  297 Weapon::deserialize()
+13:19:00  298 Hero::deserialize()
+13:19:00  298 Weapon::deserialize()
+13:19:00  300 Hero::deserialize()
+13:19:00  300 Weapon::deserialize()
+13:19:00  300 Hero::deserialize()
+13:19:00  300 Weapon::deserialize()
+13:19:00  301 Hero::deserialize()
+13:19:00  301 Weapon::deserialize()
+13:19:00  301 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:19:00  303 Hero::deserialize()
+13:19:00  303 Weapon::deserialize()
+13:19:00  303 Hero::deserialize()
+13:19:00  303 Weapon::deserialize()
+13:19:00  305 Hero::deserialize()
+13:19:00  305 Weapon::deserialize()
+13:19:00  306 Hero::deserialize()
+13:19:00  306 Weapon::deserialize()
+13:19:00  306 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:00  307 Hero::deserialize()
+13:19:00  307 Weapon::deserialize()
+13:19:00  307 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:00  308 Hero::deserialize()
+13:19:00  308 Weapon::deserialize()
+13:19:00  309 Hero::deserialize()
+13:19:00  309 Weapon::deserialize()
+13:19:00  309 Hero::deserialize()
+13:19:00  310 Weapon::deserialize()
+13:19:00  311 Hero::deserialize()
+13:19:00  311 Weapon::deserialize()
+13:19:00  312 Hero::deserialize()
+13:19:00  312 Weapon::deserialize()
+13:19:00  313 Hero::deserialize()
+13:19:00  313 Weapon::deserialize()
+13:19:01  314 Client::eventHandler(): sending mouse input to server.
+13:19:01  314 Hero::deserialize()
+13:19:01  314 Weapon::deserialize()
+13:19:01  314 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:01  315 Hero::deserialize()
+13:19:01  315 Weapon::deserialize()
+13:19:01  316 Hero::deserialize()
+13:19:01  316 Weapon::deserialize()
+13:19:01  317 Hero::deserialize()
+13:19:01  317 Weapon::deserialize()
+13:19:01  318 Hero::deserialize()
+13:19:01  318 Weapon::deserialize()
+13:19:01  319 Hero::deserialize()
+13:19:01  319 Weapon::deserialize()
+13:19:01  320 Hero::deserialize()
+13:19:01  320 Weapon::deserialize()
+13:19:01  321 Hero::deserialize()
+13:19:01  321 Weapon::deserialize()
+13:19:01  322 Hero::deserialize()
+13:19:01  322 Weapon::deserialize()
+13:19:01  323 Hero::deserialize()
+13:19:01  323 Weapon::deserialize()
+13:19:01  324 Hero::deserialize()
+13:19:01  324 Weapon::deserialize()
+13:19:01  324 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:19:01  325 Hero::deserialize()
+13:19:01  325 Weapon::deserialize()
+13:19:01  325 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:01  326 Hero::deserialize()
+13:19:01  326 Weapon::deserialize()
+13:19:01  326 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+13:19:01  327 Hero::deserialize()
+13:19:01  327 Weapon::deserialize()
+13:19:01  328 Hero::deserialize()
+13:19:01  328 Weapon::deserialize()
+13:19:01  329 Hero::deserialize()
+13:19:01  329 Weapon::deserialize()
+13:19:01  330 Hero::deserialize()
+13:19:01  330 Weapon::deserialize()
+13:19:01  330 Hero::deserialize()
+13:19:01  330 Weapon::deserialize()
+13:19:01  332 Hero::deserialize()
+13:19:01  332 Weapon::deserialize()
+13:19:01  332 Hero::deserialize()
+13:19:01  332 Weapon::deserialize()
+13:19:01  334 Hero::deserialize()
+13:19:01  334 Weapon::deserialize()
+13:19:01  335 Hero::deserialize()
+13:19:01  335 Weapon::deserialize()
+13:19:01  335 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:01  336 Hero::deserialize()
+13:19:01  336 Weapon::deserialize()
+13:19:01  336 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:01  337 Hero::deserialize()
+13:19:01  337 Weapon::deserialize()
+13:19:01  337 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:19:01  338 Hero::deserialize()
+13:19:01  338 Weapon::deserialize()
+13:19:01  338 Hero::deserialize()
+13:19:01  338 Weapon::deserialize()
+13:19:01  340 Hero::deserialize()
+13:19:01  340 Weapon::deserialize()
+13:19:01  340 Hero::deserialize()
+13:19:01  340 Weapon::deserialize()
+13:19:01  342 Hero::deserialize()
+13:19:01  342 Weapon::deserialize()
+13:19:01  342 Hero::deserialize()
+13:19:01  342 Weapon::deserialize()
+13:19:01  342 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:01  343 Hero::deserialize()
+13:19:01  343 Weapon::deserialize()
+13:19:02  344 Client::eventHandler(): sending mouse input to server.
+13:19:02  344 Hero::deserialize()
+13:19:02  344 Weapon::deserialize()
+13:19:02  345 Client::eventHandler(): sending mouse input to server.
+13:19:02  345 Hero::deserialize()
+13:19:02  345 Weapon::deserialize()
+13:19:02  346 Client::eventHandler(): sending mouse input to server.
+13:19:02  346 Hero::deserialize()
+13:19:02  346 Weapon::deserialize()
+13:19:02  347 Client::eventHandler(): sending mouse input to server.
+13:19:02  347 Hero::deserialize()
+13:19:02  347 Weapon::deserialize()
+13:19:02  347 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+13:19:02  348 Client::eventHandler(): sending mouse input to server.
+13:19:02  348 Hero::deserialize()
+13:19:02  348 Weapon::deserialize()
+13:19:02  348 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+13:19:02  350 Client::eventHandler(): sending mouse input to server.
+13:19:02  350 Hero::deserialize()
+13:19:02  350 Weapon::deserialize()
+13:19:02  350 Hero::deserialize()
+13:19:02  350 Weapon::deserialize()
+13:19:02  352 Client::eventHandler(): sending mouse input to server.
+13:19:02  352 Hero::deserialize()
+13:19:02  352 Weapon::deserialize()
+13:19:02  352 Hero::deserialize()
+13:19:02  352 Weapon::deserialize()
+13:19:02  353 Client::eventHandler(): sending mouse input to server.
+13:19:02  353 Hero::deserialize()
+13:19:02  353 Weapon::deserialize()
+13:19:02  353 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+13:19:02  354 Hero::deserialize()
+13:19:02  354 Weapon::deserialize()
+13:19:02  354 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+13:19:02  356 Hero::deserialize()
+13:19:02  356 Weapon::deserialize()
+13:19:02  356 Hero::deserialize()
+13:19:02  356 Weapon::deserialize()
+13:19:02  358 Hero::deserialize()
+13:19:02  358 Weapon::deserialize()
+13:19:02  358 Hero::deserialize()
+13:19:02  359 Weapon::deserialize()
+13:19:02  360 Hero::deserialize()
+13:19:02  360 Weapon::deserialize()
+13:19:02  360 Hero::deserialize()
+13:19:02  360 Weapon::deserialize()
+13:19:02  362 Hero::deserialize()
+13:19:02  362 Weapon::deserialize()
+13:19:02  362 Hero::deserialize()
+13:19:02  362 Weapon::deserialize()
+13:19:02  364 Hero::deserialize()
+13:19:02  364 Weapon::deserialize()
+13:19:02  364 Hero::deserialize()
+13:19:02  364 Weapon::deserialize()
+13:19:02  366 Hero::deserialize()
+13:19:02  366 Weapon::deserialize()
+13:19:02  367 InputManager::getInput(): Window close event. Setting game over.
+13:19:02  367 Hero::deserialize()
+13:19:02  367 Weapon::deserialize()
+13:19:02  367 Hero::deserialize()
+13:19:02  367 Weapon::deserialize()
+13:19:02  367 Hero::deserialize()
+13:19:02  367 Weapon::deserialize()
+13:19:02  367 Hero::deserialize()
+13:19:02  367 Weapon::deserialize()
+13:19:02  368 GameManager::run(): end of game loop
+13:19:02  368 PathManager::shutDown(): successfully stopped.
+13:19:02  368 Path manager stopped
+13:19:02  368 WorldManager::shutDown(): Successfully stopped.
+13:19:02  368 World manager stopped
+13:19:02  368 ResourceManager::shutDown(): successfully stopped.
+13:19:02  368 Resource manager stopped
+13:19:02  368 NetworkManager::shutDown(): successfully stopped.
+13:19:02  368 Network manager stopped
+13:19:02  368 InputManager::shutDown(): successfully stopped.
+13:19:02  368 Input manager stopped
+13:19:02  368 DisplayManager::shutDown(): successfully stopped.
+13:19:02  368 Display manager stopped
+13:19:02  368 ** Game stopped **
+13:19:02  368 ****************************************************
+13:19:02  368 LogManager::shutDown(): successfully stopped.

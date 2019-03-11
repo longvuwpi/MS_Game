@@ -1,0 +1,2295 @@
+23:48:51    0 ****************************************************
+23:48:51    0 ** Dragonfly version 4.9 **
+23:48:51    0 Hello, Network! (v1.2)
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+23:48:51    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+23:48:51    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+23:48:51    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ak47_fire.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_fire.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/grenade_fire.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ammo_empty.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/ak47_reload.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_reload.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/launcher_reload.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/awp_bolt.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/pickup1.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/pickup2.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/explode.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/nuke.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/saucer_death.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/game-over.wav'
+23:48:51    0 ResourceManager::loadSound(): Cannot load sound from file 'sounds/level_won.wav'
+23:48:51    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/start-music.wav'
+23:48:51    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_theme.wav'
+23:48:51    0 ResourceManager::loadmusic(): Cannot load music from file 'sounds/music_boss.wav'
+23:48:51    0 Client::Client(): Connecting to localhost at port 9876.
+23:48:51    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+23:48:51    0 NetworkManager::connect(): Connection established.
+23:48:51    0 Client::handleConnect(): Client connected!
+23:48:51    0 Client::Client(): Client started.
+23:48:51    0 GameManager::run(): starting game loop
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 Client::createObject(): creating object type 'Platform'
+23:48:51    0 GameManager::run(): Warning! Residual network data.
+23:48:51    1 Client::createObject(): creating object type 'Platform'
+23:48:51    1 Client::createObject(): creating object type 'Platform'
+23:48:51    1 Client::createObject(): creating object type 'Hero'
+23:48:52    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 83 ms
+23:48:52    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 75 ms
+23:48:52    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 73 ms
+23:48:52    4 GameManager::run(): Can't keep up! frame_time 33 ms, split 90 ms
+23:48:52    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 82 ms
+23:48:52    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 79 ms
+23:48:52    7 GameManager::run(): Can't keep up! frame_time 33 ms, split 107 ms
+23:48:52    8 Client::eventHandler(): sending mouse input to server.
+23:48:52    8 GameManager::run(): Can't keep up! frame_time 33 ms, split 84 ms
+23:48:52    9 Client::eventHandler(): sending mouse input to server.
+23:48:52    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 72 ms
+23:48:52   10 Client::eventHandler(): sending mouse input to server.
+23:48:52   11 Client::eventHandler(): sending mouse input to server.
+23:48:52   12 Client::eventHandler(): sending mouse input to server.
+23:48:52   13 Client::eventHandler(): sending mouse input to server.
+23:48:52   14 Client::eventHandler(): sending mouse input to server.
+23:48:52   14 Client::eventHandler(): sending mouse input to server.
+23:48:52   15 Client::eventHandler(): sending mouse input to server.
+23:48:53   23 Client::eventHandler(): sending mouse input to server.
+23:48:53   24 Client::eventHandler(): sending mouse input to server.
+23:48:53   28 Client::eventHandler(): sending mouse input to server.
+23:48:53   29 Client::eventHandler(): sending mouse input to server.
+23:48:55   46 Client::eventHandler(): sending mouse input to server.
+23:48:55   47 Client::eventHandler(): sending mouse input to server.
+23:48:55   48 Client::eventHandler(): sending mouse input to server.
+23:48:55   49 Client::eventHandler(): sending mouse input to server.
+23:48:55   57 Client::eventHandler(): sending mouse input to server.
+23:48:55   57 Client::eventHandler(): sending mouse input to server.
+23:48:55   58 Client::eventHandler(): sending mouse input to server.
+23:48:55   59 Client::eventHandler(): sending mouse input to server.
+23:48:55   60 Client::eventHandler(): sending mouse input to server.
+23:48:55   61 Client::eventHandler(): sending mouse input to server.
+23:48:56   62 Client::eventHandler(): sending mouse input to server.
+23:48:56   62 Client::eventHandler(): sending mouse input to server.
+23:48:56   63 Client::eventHandler(): sending mouse input to server.
+23:48:56   63 Client::eventHandler(): sending mouse input to server.
+23:48:56   64 Client::eventHandler(): sending mouse input to server.
+23:48:56   67 Client::eventHandler(): sending mouse input to server.
+23:48:56   67 Client::eventHandler(): sending mouse input to server.
+23:48:56   67 Client::eventHandler(): sending mouse input to server.
+23:48:56   68 Client::eventHandler(): sending mouse input to server.
+23:48:56   69 Client::eventHandler(): sending mouse input to server.
+23:48:56   78 Client::eventHandler(): sending keyboard input to server.
+23:48:56   78 Client::eventHandler(): sending keyboard input to server.
+23:48:56   79 Client::eventHandler(): sending keyboard input to server.
+23:48:56   80 Client::eventHandler(): sending keyboard input to server.
+23:48:56   81 Client::eventHandler(): sending keyboard input to server.
+23:48:56   82 Client::eventHandler(): sending keyboard input to server.
+23:48:56   83 Client::eventHandler(): sending keyboard input to server.
+23:48:56   84 Client::eventHandler(): sending keyboard input to server.
+23:48:56   85 Client::eventHandler(): sending keyboard input to server.
+23:48:57   99 Client::eventHandler(): sending keyboard input to server.
+23:48:57   99 Client::eventHandler(): sending keyboard input to server.
+23:48:57  100 Client::eventHandler(): sending keyboard input to server.
+23:48:57  101 Client::eventHandler(): sending keyboard input to server.
+23:48:57  102 Client::eventHandler(): sending keyboard input to server.
+23:48:57  103 Client::eventHandler(): sending keyboard input to server.
+23:48:57  104 Client::eventHandler(): sending keyboard input to server.
+23:48:57  105 Client::eventHandler(): sending keyboard input to server.
+23:48:57  106 Client::eventHandler(): sending keyboard input to server.
+23:48:57  107 Client::eventHandler(): sending keyboard input to server.
+23:48:57  116 Client::eventHandler(): sending mouse input to server.
+23:48:57  117 Client::eventHandler(): sending mouse input to server.
+23:48:57  122 Client::eventHandler(): sending keyboard input to server.
+23:48:57  122 Client::eventHandler(): sending keyboard input to server.
+23:48:58  123 Client::eventHandler(): sending keyboard input to server.
+23:48:58  124 Client::eventHandler(): sending keyboard input to server.
+23:48:58  125 Client::eventHandler(): sending keyboard input to server.
+23:48:58  126 Client::eventHandler(): sending keyboard input to server.
+23:48:58  131 Client::eventHandler(): sending mouse input to server.
+23:48:58  132 Client::eventHandler(): sending mouse input to server.
+23:48:58  135 Client::eventHandler(): sending mouse input to server.
+23:48:58  136 Client::eventHandler(): sending mouse input to server.
+23:48:58  137 Client::eventHandler(): sending mouse input to server.
+23:48:58  138 Client::eventHandler(): sending mouse input to server.
+23:48:58  139 Client::eventHandler(): sending mouse input to server.
+23:48:58  143 Client::eventHandler(): sending mouse input to server.
+23:48:58  143 Client::eventHandler(): sending mouse input to server.
+23:48:58  144 Client::eventHandler(): sending mouse input to server.
+23:48:58  145 Client::eventHandler(): sending mouse input to server.
+23:48:58  151 Client::eventHandler(): sending mouse input to server.
+23:48:58  152 Client::eventHandler(): sending mouse input to server.
+23:48:59  153 Client::eventHandler(): sending mouse input to server.
+23:48:59  154 Client::eventHandler(): sending mouse input to server.
+23:48:59  155 Client::eventHandler(): sending mouse input to server.
+23:48:59  156 Client::eventHandler(): sending mouse input to server.
+23:48:59  157 Client::eventHandler(): sending mouse input to server.
+23:48:59  158 Client::eventHandler(): sending mouse input to server.
+23:48:59  159 Client::eventHandler(): sending mouse input to server.
+23:48:59  160 Client::eventHandler(): sending mouse input to server.
+23:48:59  161 Client::eventHandler(): sending mouse input to server.
+23:48:59  162 Client::eventHandler(): sending mouse input to server.
+23:48:59  177 Client::eventHandler(): sending mouse input to server.
+23:48:59  178 Client::eventHandler(): sending mouse input to server.
+23:48:59  179 Client::eventHandler(): sending mouse input to server.
+23:48:59  180 Client::eventHandler(): sending mouse input to server.
+23:48:59  181 Client::eventHandler(): sending mouse input to server.
+23:48:59  182 Client::eventHandler(): sending mouse input to server.
+23:49:00  183 Client::eventHandler(): sending mouse input to server.
+23:49:00  184 Client::eventHandler(): sending mouse input to server.
+23:49:00  187 Client::eventHandler(): sending mouse input to server.
+23:49:00  187 Client::eventHandler(): sending mouse input to server.
+23:49:00  188 Client::eventHandler(): sending mouse input to server.
+23:49:00  189 Client::eventHandler(): sending mouse input to server.
+23:49:00  190 Client::eventHandler(): sending mouse input to server.
+23:49:00  190 Client::eventHandler(): sending mouse input to server.
+23:49:00  191 Client::eventHandler(): sending mouse input to server.
+23:49:00  191 Client::eventHandler(): sending mouse input to server.
+23:49:00  200 Client::eventHandler(): sending mouse input to server.
+23:49:00  201 Client::eventHandler(): sending mouse input to server.
+23:49:00  202 Client::eventHandler(): sending mouse input to server.
+23:49:00  203 Client::eventHandler(): sending mouse input to server.
+23:49:00  204 Client::eventHandler(): sending mouse input to server.
+23:49:00  204 Client::eventHandler(): sending mouse input to server.
+23:49:00  205 Client::eventHandler(): sending mouse input to server.
+23:49:00  206 Client::eventHandler(): sending mouse input to server.
+23:49:00  209 Client::eventHandler(): sending mouse input to server.
+23:49:00  209 Client::eventHandler(): sending mouse input to server.
+23:49:00  210 Client::eventHandler(): sending mouse input to server.
+23:49:00  211 Client::eventHandler(): sending mouse input to server.
+23:49:01  215 Client::eventHandler(): sending mouse input to server.
+23:49:01  216 Client::eventHandler(): sending mouse input to server.
+23:49:01  217 Client::eventHandler(): sending mouse input to server.
+23:49:01  218 Client::eventHandler(): sending mouse input to server.
+23:49:01  220 Client::eventHandler(): sending mouse input to server.
+23:49:01  220 Client::eventHandler(): sending mouse input to server.
+23:49:01  221 Client::eventHandler(): sending mouse input to server.
+23:49:01  225 Client::eventHandler(): sending mouse input to server.
+23:49:01  225 Client::eventHandler(): sending mouse input to server.
+23:49:01  226 Client::eventHandler(): sending mouse input to server.
+23:49:01  229 Client::eventHandler(): sending mouse input to server.
+23:49:01  229 Client::eventHandler(): sending mouse input to server.
+23:49:01  230 Client::eventHandler(): sending mouse input to server.
+23:49:01  233 Client::eventHandler(): sending mouse input to server.
+23:49:01  233 Client::eventHandler(): sending mouse input to server.
+23:49:01  234 Client::eventHandler(): sending mouse input to server.
+23:49:02  246 Client::eventHandler(): sending keyboard input to server.
+23:49:02  246 Client::eventHandler(): sending keyboard input to server.
+23:49:02  247 Client::eventHandler(): sending keyboard input to server.
+23:49:02  248 Client::eventHandler(): sending keyboard input to server.
+23:49:02  249 Client::eventHandler(): sending mouse input to server.
+23:49:02  249 Client::eventHandler(): sending keyboard input to server.
+23:49:02  250 Client::eventHandler(): sending keyboard input to server.
+23:49:02  251 Client::eventHandler(): sending keyboard input to server.
+23:49:02  252 Client::eventHandler(): sending keyboard input to server.
+23:49:02  256 Client::eventHandler(): sending keyboard input to server.
+23:49:02  256 Client::eventHandler(): sending keyboard input to server.
+23:49:02  257 Client::eventHandler(): sending mouse input to server.
+23:49:02  257 Client::eventHandler(): sending keyboard input to server.
+23:49:02  258 Client::eventHandler(): sending keyboard input to server.
+23:49:02  259 Client::eventHandler(): sending keyboard input to server.
+23:49:02  260 Client::eventHandler(): sending keyboard input to server.
+23:49:02  261 Client::eventHandler(): sending keyboard input to server.
+23:49:02  262 Client::eventHandler(): sending keyboard input to server.
+23:49:02  263 Client::eventHandler(): sending keyboard input to server.
+23:49:02  264 Client::eventHandler(): sending keyboard input to server.
+23:49:03  276 Client::eventHandler(): sending keyboard input to server.
+23:49:03  276 Client::eventHandler(): sending keyboard input to server.
+23:49:03  277 Client::eventHandler(): sending keyboard input to server.
+23:49:03  278 Client::eventHandler(): sending keyboard input to server.
+23:49:03  279 Client::eventHandler(): sending keyboard input to server.
+23:49:03  280 Client::eventHandler(): sending keyboard input to server.
+23:49:03  281 Client::eventHandler(): sending keyboard input to server.
+23:49:03  282 Client::eventHandler(): sending keyboard input to server.
+23:49:03  283 Client::eventHandler(): sending keyboard input to server.
+23:49:03  286 Client::eventHandler(): sending keyboard input to server.
+23:49:03  286 Client::eventHandler(): sending keyboard input to server.
+23:49:03  287 Client::eventHandler(): sending keyboard input to server.
+23:49:03  288 Client::eventHandler(): sending keyboard input to server.
+23:49:03  289 Client::eventHandler(): sending keyboard input to server.
+23:49:03  290 Client::eventHandler(): sending keyboard input to server.
+23:49:03  291 Client::eventHandler(): sending keyboard input to server.
+23:49:03  292 Client::eventHandler(): sending keyboard input to server.
+23:49:03  293 Client::eventHandler(): sending keyboard input to server.
+23:49:03  294 Client::eventHandler(): sending keyboard input to server.
+23:49:03  296 Client::eventHandler(): sending mouse input to server.
+23:49:03  296 Client::eventHandler(): sending mouse input to server.
+23:49:03  297 Client::eventHandler(): sending mouse input to server.
+23:49:03  298 Client::eventHandler(): sending mouse input to server.
+23:49:03  299 Client::eventHandler(): sending mouse input to server.
+23:49:03  300 Client::eventHandler(): sending mouse input to server.
+23:49:03  301 Client::eventHandler(): sending mouse input to server.
+23:49:03  302 Client::eventHandler(): sending mouse input to server.
+23:49:03  303 Client::eventHandler(): sending mouse input to server.
+23:49:03  304 Client::eventHandler(): sending mouse input to server.
+23:49:04  305 Client::eventHandler(): sending mouse input to server.
+23:49:04  306 Client::eventHandler(): sending mouse input to server.
+23:49:04  307 Client::eventHandler(): sending mouse input to server.
+23:49:04  308 Client::eventHandler(): sending mouse input to server.
+23:49:04  309 Client::eventHandler(): sending mouse input to server.
+23:49:04  310 Client::eventHandler(): sending mouse input to server.
+23:49:04  311 Client::eventHandler(): sending mouse input to server.
+23:49:04  312 Client::eventHandler(): sending mouse input to server.
+23:49:04  313 Client::eventHandler(): sending mouse input to server.
+23:49:04  314 Client::eventHandler(): sending mouse input to server.
+23:49:04  315 Client::eventHandler(): sending mouse input to server.
+23:49:04  316 Client::eventHandler(): sending mouse input to server.
+23:49:04  317 Client::eventHandler(): sending mouse input to server.
+23:49:04  318 Client::eventHandler(): sending mouse input to server.
+23:49:04  319 Client::eventHandler(): sending mouse input to server.
+23:49:04  320 Client::eventHandler(): sending mouse input to server.
+23:49:04  321 Client::eventHandler(): sending mouse input to server.
+23:49:04  325 Client::eventHandler(): sending mouse input to server.
+23:49:04  325 Client::eventHandler(): sending mouse input to server.
+23:49:04  326 Client::eventHandler(): sending mouse input to server.
+23:49:04  327 Client::eventHandler(): sending mouse input to server.
+23:49:04  331 Client::eventHandler(): sending mouse input to server.
+23:49:04  331 Client::eventHandler(): sending mouse input to server.
+23:49:04  332 Client::eventHandler(): sending mouse input to server.
+23:49:04  333 Client::eventHandler(): sending mouse input to server.
+23:49:05  336 Client::eventHandler(): sending keyboard input to server.
+23:49:05  336 Client::eventHandler(): sending keyboard input to server.
+23:49:05  337 Client::eventHandler(): sending mouse input to server.
+23:49:05  337 Client::eventHandler(): sending mouse input to server.
+23:49:05  337 Client::eventHandler(): sending keyboard input to server.
+23:49:05  338 Client::eventHandler(): sending mouse input to server.
+23:49:05  338 Client::eventHandler(): sending keyboard input to server.
+23:49:05  339 Client::eventHandler(): sending mouse input to server.
+23:49:05  339 Client::eventHandler(): sending keyboard input to server.
+23:49:05  340 Client::eventHandler(): sending keyboard input to server.
+23:49:05  341 Client::eventHandler(): sending keyboard input to server.
+23:49:05  342 Client::eventHandler(): sending keyboard input to server.
+23:49:05  343 Client::eventHandler(): sending mouse input to server.
+23:49:05  343 Client::eventHandler(): sending mouse input to server.
+23:49:05  344 Client::eventHandler(): sending mouse input to server.
+23:49:05  348 Client::eventHandler(): sending mouse input to server.
+23:49:05  348 Client::eventHandler(): sending mouse input to server.
+23:49:05  349 Client::eventHandler(): sending mouse input to server.
+23:49:05  353 Client::eventHandler(): sending mouse input to server.
+23:49:05  353 Client::eventHandler(): sending mouse input to server.
+23:49:05  354 Client::eventHandler(): sending mouse input to server.
+23:49:05  357 Client::eventHandler(): sending mouse input to server.
+23:49:05  357 Client::eventHandler(): sending mouse input to server.
+23:49:05  358 Client::eventHandler(): sending mouse input to server.
+23:49:05  361 Client::eventHandler(): sending mouse input to server.
+23:49:05  361 Client::eventHandler(): sending mouse input to server.
+23:49:05  362 Client::eventHandler(): sending mouse input to server.
+23:49:06  365 Client::eventHandler(): sending mouse input to server.
+23:49:06  365 Client::eventHandler(): sending mouse input to server.
+23:49:06  366 Client::eventHandler(): sending mouse input to server.
+23:49:06  367 Client::eventHandler(): sending mouse input to server.
+23:49:06  369 Client::eventHandler(): sending mouse input to server.
+23:49:06  369 Client::eventHandler(): sending mouse input to server.
+23:49:06  370 Client::eventHandler(): sending mouse input to server.
+23:49:06  371 Client::eventHandler(): sending mouse input to server.
+23:49:06  376 Client::eventHandler(): sending mouse input to server.
+23:49:06  377 Client::eventHandler(): sending mouse input to server.
+23:49:06  378 Client::eventHandler(): sending mouse input to server.
+23:49:06  379 Client::eventHandler(): sending mouse input to server.
+23:49:06  380 Client::eventHandler(): sending mouse input to server.
+23:49:08  434 Client::eventHandler(): sending mouse input to server.
+23:49:08  435 Client::eventHandler(): sending mouse input to server.
+23:49:08  436 Client::eventHandler(): sending mouse input to server.
+23:49:08  436 Client::eventHandler(): sending mouse input to server.
+23:49:08  437 Client::eventHandler(): sending mouse input to server.
+23:49:08  438 Client::eventHandler(): sending mouse input to server.
+23:49:08  439 Client::eventHandler(): sending mouse input to server.
+23:49:08  440 Client::eventHandler(): sending mouse input to server.
+23:49:08  441 Client::eventHandler(): sending mouse input to server.
+23:49:08  442 Client::eventHandler(): sending mouse input to server.
+23:49:08  443 Client::eventHandler(): sending mouse input to server.
+23:49:08  444 Client::eventHandler(): sending mouse input to server.
+23:49:08  445 Client::eventHandler(): sending mouse input to server.
+23:49:08  447 Client::eventHandler(): sending mouse input to server.
+23:49:08  448 Client::eventHandler(): sending mouse input to server.
+23:49:08  449 Client::eventHandler(): sending mouse input to server.
+23:49:08  450 Client::eventHandler(): sending mouse input to server.
+23:49:08  451 Client::eventHandler(): sending mouse input to server.
+23:49:09  466 Client::eventHandler(): sending mouse input to server.
+23:49:09  467 Client::eventHandler(): sending mouse input to server.
+23:49:09  468 Client::eventHandler(): sending mouse input to server.
+23:49:09  469 Client::eventHandler(): sending mouse input to server.
+23:49:09  470 Client::eventHandler(): sending mouse input to server.
+23:49:09  471 Client::eventHandler(): sending mouse input to server.
+23:49:09  472 Client::eventHandler(): sending mouse input to server.
+23:49:09  473 Client::eventHandler(): sending mouse input to server.
+23:49:09  474 Client::eventHandler(): sending mouse input to server.
+23:49:09  475 Client::eventHandler(): sending mouse input to server.
+23:49:10  507 Client::eventHandler(): sending mouse input to server.
+23:49:10  507 Client::eventHandler(): sending mouse input to server.
+23:49:10  508 Client::eventHandler(): sending mouse input to server.
+23:49:10  509 Client::eventHandler(): sending mouse input to server.
+23:49:10  509 Client::eventHandler(): sending mouse input to server.
+23:49:10  510 Client::eventHandler(): sending mouse input to server.
+23:49:10  511 Client::eventHandler(): sending mouse input to server.
+23:49:10  512 Client::eventHandler(): sending mouse input to server.
+23:49:10  514 Client::eventHandler(): sending mouse input to server.
+23:49:11  517 Client::eventHandler(): sending mouse input to server.
+23:49:11  518 Client::eventHandler(): sending mouse input to server.
+23:49:11  519 Client::eventHandler(): sending mouse input to server.
+23:49:11  520 Client::eventHandler(): sending mouse input to server.
+23:49:11  521 Client::eventHandler(): sending mouse input to server.
+23:49:11  521 Client::eventHandler(): sending mouse input to server.
+23:49:11  522 Client::eventHandler(): sending mouse input to server.
+23:49:11  523 Client::eventHandler(): sending mouse input to server.
+23:49:11  525 Client::eventHandler(): sending mouse input to server.
+23:49:11  526 Client::eventHandler(): sending mouse input to server.
+23:49:11  527 Client::eventHandler(): sending mouse input to server.
+23:49:11  528 Client::eventHandler(): sending mouse input to server.
+23:49:11  529 Client::eventHandler(): sending mouse input to server.
+23:49:11  530 Client::eventHandler(): sending mouse input to server.
+23:49:11  531 Client::eventHandler(): sending mouse input to server.
+23:49:11  532 Client::eventHandler(): sending mouse input to server.
+23:49:11  533 Client::eventHandler(): sending mouse input to server.
+23:49:11  534 Client::eventHandler(): sending mouse input to server.
+23:49:11  535 Client::eventHandler(): sending mouse input to server.
+23:49:11  536 Client::eventHandler(): sending mouse input to server.
+23:49:11  537 Client::eventHandler(): sending mouse input to server.
+23:49:11  538 Client::eventHandler(): sending mouse input to server.
+23:49:11  539 Client::eventHandler(): sending mouse input to server.
+23:49:15  665 Client::eventHandler(): sending mouse input to server.
+23:49:15  666 Client::eventHandler(): sending mouse input to server.
+23:49:15  667 Client::eventHandler(): sending mouse input to server.
+23:49:17  700 Client::eventHandler(): sending mouse input to server.
+23:49:17  701 Client::eventHandler(): sending mouse input to server.
+23:49:17  702 Client::eventHandler(): sending mouse input to server.
+23:49:18  750 Client::eventHandler(): sending keyboard input to server.
+23:49:18  751 Client::eventHandler(): sending keyboard input to server.
+23:49:18  752 Client::eventHandler(): sending keyboard input to server.
+23:49:18  753 Client::eventHandler(): sending keyboard input to server.
+23:49:19  775 Client::eventHandler(): sending keyboard input to server.
+23:49:19  776 Client::eventHandler(): sending keyboard input to server.
+23:49:19  777 Client::eventHandler(): sending keyboard input to server.
+23:49:19  778 Client::eventHandler(): sending keyboard input to server.
+23:49:20  794 Client::eventHandler(): sending mouse input to server.
+23:49:20  795 Client::eventHandler(): sending mouse input to server.
+23:49:20  796 Client::eventHandler(): sending mouse input to server.
+23:49:20  797 Client::eventHandler(): sending mouse input to server.
+23:49:20  800 Client::eventHandler(): sending mouse input to server.
+23:49:20  801 Client::eventHandler(): sending mouse input to server.
+23:49:20  801 Client::eventHandler(): sending mouse input to server.
+23:49:20  802 Client::eventHandler(): sending mouse input to server.
+23:49:20  803 Client::eventHandler(): sending mouse input to server.
+23:49:20  804 Client::eventHandler(): sending mouse input to server.
+23:49:20  805 Client::eventHandler(): sending mouse input to server.
+23:49:20  807 Client::eventHandler(): sending mouse input to server.
+23:49:20  808 Client::eventHandler(): sending mouse input to server.
+23:49:20  810 Client::eventHandler(): sending mouse input to server.
+23:49:20  810 Client::eventHandler(): sending mouse input to server.
+23:49:20  810 Client::eventHandler(): sending mouse input to server.
+23:49:20  811 Client::eventHandler(): sending mouse input to server.
+23:49:20  811 Client::eventHandler(): sending mouse input to server.
+23:49:20  817 Client::eventHandler(): sending mouse input to server.
+23:49:20  817 Client::eventHandler(): sending keyboard input to server.
+23:49:20  817 Client::eventHandler(): sending keyboard input to server.
+23:49:20  818 Client::eventHandler(): sending mouse input to server.
+23:49:20  818 Client::eventHandler(): sending keyboard input to server.
+23:49:20  819 Client::eventHandler(): sending keyboard input to server.
+23:49:21  820 Client::eventHandler(): sending keyboard input to server.
+23:49:21  821 Client::eventHandler(): sending keyboard input to server.
+23:49:21  822 Client::eventHandler(): sending mouse input to server.
+23:49:21  822 Client::eventHandler(): sending keyboard input to server.
+23:49:21  823 Client::eventHandler(): sending mouse input to server.
+23:49:21  823 Client::eventHandler(): sending keyboard input to server.
+23:49:21  824 Client::eventHandler(): sending mouse input to server.
+23:49:21  824 Client::eventHandler(): sending keyboard input to server.
+23:49:21  825 Client::eventHandler(): sending keyboard input to server.
+23:49:21  826 Client::eventHandler(): sending keyboard input to server.
+23:49:21  827 Client::eventHandler(): sending keyboard input to server.
+23:49:21  827 Client::eventHandler(): sending keyboard input to server.
+23:49:21  827 Client::eventHandler(): sending keyboard input to server.
+23:49:21  828 Client::eventHandler(): sending keyboard input to server.
+23:49:21  828 Client::eventHandler(): sending keyboard input to server.
+23:49:21  829 Client::eventHandler(): sending keyboard input to server.
+23:49:21  829 Client::eventHandler(): sending keyboard input to server.
+23:49:21  830 Client::eventHandler(): sending mouse input to server.
+23:49:21  830 Client::eventHandler(): sending keyboard input to server.
+23:49:21  830 Client::eventHandler(): sending keyboard input to server.
+23:49:21  831 Client::eventHandler(): sending mouse input to server.
+23:49:21  831 Client::eventHandler(): sending keyboard input to server.
+23:49:21  831 Client::eventHandler(): sending keyboard input to server.
+23:49:21  832 Client::eventHandler(): sending mouse input to server.
+23:49:21  832 Client::eventHandler(): sending keyboard input to server.
+23:49:21  832 Client::eventHandler(): sending keyboard input to server.
+23:49:21  833 Client::eventHandler(): sending keyboard input to server.
+23:49:21  833 Client::eventHandler(): sending keyboard input to server.
+23:49:21  834 Client::eventHandler(): sending keyboard input to server.
+23:49:21  834 Client::eventHandler(): sending keyboard input to server.
+23:49:21  835 Client::eventHandler(): sending keyboard input to server.
+23:49:21  835 Client::eventHandler(): sending keyboard input to server.
+23:49:21  836 Client::eventHandler(): sending keyboard input to server.
+23:49:21  837 Client::eventHandler(): sending keyboard input to server.
+23:49:21  838 Client::eventHandler(): sending keyboard input to server.
+23:49:21  839 Client::eventHandler(): sending keyboard input to server.
+23:49:21  840 Client::eventHandler(): sending keyboard input to server.
+23:49:21  841 Client::eventHandler(): sending keyboard input to server.
+23:49:21  842 Client::eventHandler(): sending keyboard input to server.
+23:49:21  843 Client::eventHandler(): sending keyboard input to server.
+23:49:21  844 Client::eventHandler(): sending keyboard input to server.
+23:49:21  845 Client::eventHandler(): sending keyboard input to server.
+23:49:21  846 Client::eventHandler(): sending keyboard input to server.
+23:49:21  847 Client::eventHandler(): sending keyboard input to server.
+23:49:21  848 Client::eventHandler(): sending keyboard input to server.
+23:49:21  849 Client::eventHandler(): sending keyboard input to server.
+23:49:22  850 Client::eventHandler(): sending keyboard input to server.
+23:49:22  851 Client::eventHandler(): sending keyboard input to server.
+23:49:22  852 Client::eventHandler(): sending keyboard input to server.
+23:49:22  853 Client::eventHandler(): sending keyboard input to server.
+23:49:22  854 Client::eventHandler(): sending keyboard input to server.
+23:49:22  855 Client::eventHandler(): sending keyboard input to server.
+23:49:22  856 Client::eventHandler(): sending keyboard input to server.
+23:49:22  857 Client::eventHandler(): sending keyboard input to server.
+23:49:22  858 Client::eventHandler(): sending keyboard input to server.
+23:49:22  859 Client::eventHandler(): sending keyboard input to server.
+23:49:22  859 Client::eventHandler(): sending keyboard input to server.
+23:49:22  859 Client::eventHandler(): sending keyboard input to server.
+23:49:22  860 Client::eventHandler(): sending keyboard input to server.
+23:49:22  860 Client::eventHandler(): sending keyboard input to server.
+23:49:22  861 Client::eventHandler(): sending keyboard input to server.
+23:49:22  861 Client::eventHandler(): sending keyboard input to server.
+23:49:22  862 Client::eventHandler(): sending keyboard input to server.
+23:49:22  862 Client::eventHandler(): sending keyboard input to server.
+23:49:22  863 Client::eventHandler(): sending keyboard input to server.
+23:49:22  863 Client::eventHandler(): sending keyboard input to server.
+23:49:22  864 Client::eventHandler(): sending keyboard input to server.
+23:49:22  864 Client::eventHandler(): sending keyboard input to server.
+23:49:22  865 Client::eventHandler(): sending keyboard input to server.
+23:49:22  865 Client::eventHandler(): sending keyboard input to server.
+23:49:22  866 Client::eventHandler(): sending keyboard input to server.
+23:49:22  866 Client::eventHandler(): sending keyboard input to server.
+23:49:22  867 Client::eventHandler(): sending keyboard input to server.
+23:49:22  867 Client::eventHandler(): sending keyboard input to server.
+23:49:22  868 Client::eventHandler(): sending keyboard input to server.
+23:49:22  868 Client::eventHandler(): sending keyboard input to server.
+23:49:22  869 Client::eventHandler(): sending keyboard input to server.
+23:49:22  869 Client::eventHandler(): sending keyboard input to server.
+23:49:22  870 Client::eventHandler(): sending keyboard input to server.
+23:49:22  879 Client::eventHandler(): sending keyboard input to server.
+23:49:22  879 Client::eventHandler(): sending keyboard input to server.
+23:49:23  880 Client::eventHandler(): sending keyboard input to server.
+23:49:23  881 Client::eventHandler(): sending keyboard input to server.
+23:49:23  882 Client::eventHandler(): sending keyboard input to server.
+23:49:23  883 Client::eventHandler(): sending keyboard input to server.
+23:49:23  884 Client::eventHandler(): sending keyboard input to server.
+23:49:23  884 Client::eventHandler(): sending keyboard input to server.
+23:49:23  884 Client::eventHandler(): sending keyboard input to server.
+23:49:23  885 Client::eventHandler(): sending keyboard input to server.
+23:49:23  885 Client::eventHandler(): sending keyboard input to server.
+23:49:23  886 Client::eventHandler(): sending keyboard input to server.
+23:49:23  886 Client::eventHandler(): sending keyboard input to server.
+23:49:23  887 Client::eventHandler(): sending keyboard input to server.
+23:49:23  887 Client::eventHandler(): sending keyboard input to server.
+23:49:23  888 Client::eventHandler(): sending mouse input to server.
+23:49:23  888 Client::eventHandler(): sending keyboard input to server.
+23:49:23  888 Client::eventHandler(): sending keyboard input to server.
+23:49:23  889 Client::eventHandler(): sending keyboard input to server.
+23:49:23  889 Client::eventHandler(): sending keyboard input to server.
+23:49:23  890 Client::eventHandler(): sending keyboard input to server.
+23:49:23  890 Client::eventHandler(): sending keyboard input to server.
+23:49:23  891 Client::eventHandler(): sending keyboard input to server.
+23:49:23  891 Client::eventHandler(): sending keyboard input to server.
+23:49:23  892 Client::eventHandler(): sending keyboard input to server.
+23:49:23  892 Client::eventHandler(): sending keyboard input to server.
+23:49:23  893 Client::eventHandler(): sending keyboard input to server.
+23:49:23  893 Client::eventHandler(): sending keyboard input to server.
+23:49:23  894 Client::eventHandler(): sending mouse input to server.
+23:49:23  894 Client::eventHandler(): sending keyboard input to server.
+23:49:23  894 Client::eventHandler(): sending keyboard input to server.
+23:49:23  895 Client::eventHandler(): sending mouse input to server.
+23:49:23  895 Client::eventHandler(): sending keyboard input to server.
+23:49:23  895 Client::eventHandler(): sending keyboard input to server.
+23:49:23  896 Client::eventHandler(): sending keyboard input to server.
+23:49:23  896 Client::eventHandler(): sending mouse input to server.
+23:49:23  896 Client::eventHandler(): sending keyboard input to server.
+23:49:23  897 Client::eventHandler(): sending keyboard input to server.
+23:49:23  898 Client::eventHandler(): sending keyboard input to server.
+23:49:23  899 Client::eventHandler(): sending keyboard input to server.
+23:49:23  900 Client::eventHandler(): sending keyboard input to server.
+23:49:23  901 Client::eventHandler(): sending keyboard input to server.
+23:49:23  902 Client::eventHandler(): sending keyboard input to server.
+23:49:23  903 Client::eventHandler(): sending keyboard input to server.
+23:49:23  904 Client::eventHandler(): sending keyboard input to server.
+23:49:23  905 Client::eventHandler(): sending keyboard input to server.
+23:49:23  906 Client::eventHandler(): sending keyboard input to server.
+23:49:23  907 Client::eventHandler(): sending keyboard input to server.
+23:49:23  908 Client::eventHandler(): sending keyboard input to server.
+23:49:24  930 Client::eventHandler(): sending keyboard input to server.
+23:49:24  930 Client::eventHandler(): sending keyboard input to server.
+23:49:24  931 Client::eventHandler(): sending mouse input to server.
+23:49:24  931 Client::eventHandler(): sending keyboard input to server.
+23:49:24  932 Client::eventHandler(): sending keyboard input to server.
+23:49:24  932 Client::eventHandler(): sending keyboard input to server.
+23:49:24  932 Client::eventHandler(): sending keyboard input to server.
+23:49:24  933 Client::eventHandler(): sending keyboard input to server.
+23:49:24  933 Client::eventHandler(): sending keyboard input to server.
+23:49:24  934 Client::eventHandler(): sending keyboard input to server.
+23:49:24  934 Client::eventHandler(): sending keyboard input to server.
+23:49:24  935 Client::eventHandler(): sending keyboard input to server.
+23:49:24  935 Client::eventHandler(): sending keyboard input to server.
+23:49:24  936 Client::eventHandler(): sending keyboard input to server.
+23:49:24  936 Client::eventHandler(): sending keyboard input to server.
+23:49:24  937 Client::eventHandler(): sending keyboard input to server.
+23:49:24  937 Client::eventHandler(): sending keyboard input to server.
+23:49:24  938 Client::eventHandler(): sending keyboard input to server.
+23:49:24  938 Client::eventHandler(): sending keyboard input to server.
+23:49:24  939 Client::eventHandler(): sending keyboard input to server.
+23:49:24  939 Client::eventHandler(): sending keyboard input to server.
+23:49:24  940 Client::eventHandler(): sending keyboard input to server.
+23:49:24  940 Client::eventHandler(): sending keyboard input to server.
+23:49:25  941 Client::eventHandler(): sending keyboard input to server.
+23:49:25  941 Client::eventHandler(): sending keyboard input to server.
+23:49:25  942 Client::eventHandler(): sending keyboard input to server.
+23:49:25  942 Client::eventHandler(): sending keyboard input to server.
+23:49:25  943 Client::eventHandler(): sending keyboard input to server.
+23:49:25  943 Client::eventHandler(): sending keyboard input to server.
+23:49:25  944 Client::eventHandler(): sending keyboard input to server.
+23:49:25  944 Client::eventHandler(): sending keyboard input to server.
+23:49:25  945 Client::eventHandler(): sending keyboard input to server.
+23:49:25  945 Client::eventHandler(): sending keyboard input to server.
+23:49:25  946 Client::eventHandler(): sending keyboard input to server.
+23:49:25  946 Client::eventHandler(): sending keyboard input to server.
+23:49:25  947 Client::eventHandler(): sending keyboard input to server.
+23:49:25  947 Client::eventHandler(): sending keyboard input to server.
+23:49:25  948 Client::eventHandler(): sending keyboard input to server.
+23:49:25  948 Client::eventHandler(): sending keyboard input to server.
+23:49:25  949 Client::eventHandler(): sending keyboard input to server.
+23:49:25  949 Client::eventHandler(): sending keyboard input to server.
+23:49:25  950 Client::eventHandler(): sending keyboard input to server.
+23:49:25  950 Client::eventHandler(): sending keyboard input to server.
+23:49:25  951 Client::eventHandler(): sending keyboard input to server.
+23:49:25  951 Client::eventHandler(): sending keyboard input to server.
+23:49:25  952 Client::eventHandler(): sending keyboard input to server.
+23:49:25  952 Client::eventHandler(): sending keyboard input to server.
+23:49:25  953 Client::eventHandler(): sending keyboard input to server.
+23:49:25  953 Client::eventHandler(): sending keyboard input to server.
+23:49:25  954 Client::eventHandler(): sending keyboard input to server.
+23:49:25  954 Client::eventHandler(): sending keyboard input to server.
+23:49:25  955 Client::eventHandler(): sending keyboard input to server.
+23:49:25  955 Client::eventHandler(): sending keyboard input to server.
+23:49:25  956 Client::eventHandler(): sending keyboard input to server.
+23:49:25  956 Client::eventHandler(): sending keyboard input to server.
+23:49:25  957 Client::eventHandler(): sending keyboard input to server.
+23:49:25  958 Client::eventHandler(): sending keyboard input to server.
+23:49:25  959 Client::eventHandler(): sending keyboard input to server.
+23:49:25  960 Client::eventHandler(): sending keyboard input to server.
+23:49:25  961 Client::eventHandler(): sending keyboard input to server.
+23:49:25  962 Client::eventHandler(): sending keyboard input to server.
+23:49:25  963 Client::eventHandler(): sending keyboard input to server.
+23:49:25  964 Client::eventHandler(): sending keyboard input to server.
+23:49:25  965 Client::eventHandler(): sending keyboard input to server.
+23:49:25  966 Client::eventHandler(): sending keyboard input to server.
+23:49:25  967 Client::eventHandler(): sending keyboard input to server.
+23:49:25  968 Client::eventHandler(): sending keyboard input to server.
+23:49:25  969 Client::eventHandler(): sending keyboard input to server.
+23:49:25  970 Client::eventHandler(): sending keyboard input to server.
+23:49:26  971 Client::eventHandler(): sending keyboard input to server.
+23:49:26  972 Client::eventHandler(): sending keyboard input to server.
+23:49:26  973 Client::eventHandler(): sending keyboard input to server.
+23:49:26  974 Client::eventHandler(): sending keyboard input to server.
+23:49:26  975 Client::eventHandler(): sending keyboard input to server.
+23:49:26  976 Client::eventHandler(): sending keyboard input to server.
+23:49:26  977 Client::eventHandler(): sending keyboard input to server.
+23:49:26  977 Client::eventHandler(): sending keyboard input to server.
+23:49:26  977 Client::eventHandler(): sending keyboard input to server.
+23:49:26  978 Client::eventHandler(): sending keyboard input to server.
+23:49:26  978 Client::eventHandler(): sending keyboard input to server.
+23:49:26  979 Client::eventHandler(): sending keyboard input to server.
+23:49:26  979 Client::eventHandler(): sending keyboard input to server.
+23:49:26  980 Client::eventHandler(): sending keyboard input to server.
+23:49:26  980 Client::eventHandler(): sending keyboard input to server.
+23:49:26  981 Client::eventHandler(): sending mouse input to server.
+23:49:26  981 Client::eventHandler(): sending keyboard input to server.
+23:49:26  981 Client::eventHandler(): sending keyboard input to server.
+23:49:26  982 Client::eventHandler(): sending mouse input to server.
+23:49:26  982 Client::eventHandler(): sending keyboard input to server.
+23:49:26  982 Client::eventHandler(): sending keyboard input to server.
+23:49:26  983 Client::eventHandler(): sending mouse input to server.
+23:49:26  983 Client::eventHandler(): sending keyboard input to server.
+23:49:26  983 Client::eventHandler(): sending keyboard input to server.
+23:49:26  984 Client::eventHandler(): sending mouse input to server.
+23:49:26  984 Client::eventHandler(): sending keyboard input to server.
+23:49:26  984 Client::eventHandler(): sending keyboard input to server.
+23:49:26  985 Client::eventHandler(): sending keyboard input to server.
+23:49:26  985 Client::eventHandler(): sending keyboard input to server.
+23:49:26  986 Client::eventHandler(): sending keyboard input to server.
+23:49:26  986 Client::eventHandler(): sending keyboard input to server.
+23:49:26  987 Client::eventHandler(): sending keyboard input to server.
+23:49:26  987 Client::eventHandler(): sending keyboard input to server.
+23:49:26  988 Client::eventHandler(): sending keyboard input to server.
+23:49:26  988 Client::eventHandler(): sending keyboard input to server.
+23:49:26  989 Client::eventHandler(): sending keyboard input to server.
+23:49:26  989 Client::eventHandler(): sending keyboard input to server.
+23:49:26  989 Client::eventHandler(): sending keyboard input to server.
+23:49:26  989 Client::eventHandler(): sending keyboard input to server.
+23:49:26  990 Client::eventHandler(): sending keyboard input to server.
+23:49:26  990 Client::eventHandler(): sending keyboard input to server.
+23:49:26  991 Client::eventHandler(): sending keyboard input to server.
+23:49:26  991 Client::eventHandler(): sending keyboard input to server.
+23:49:26  992 Client::eventHandler(): sending keyboard input to server.
+23:49:26  992 Client::eventHandler(): sending keyboard input to server.
+23:49:26  993 Client::eventHandler(): sending keyboard input to server.
+23:49:26  993 Client::eventHandler(): sending keyboard input to server.
+23:49:26  994 Client::eventHandler(): sending keyboard input to server.
+23:49:26  994 Client::eventHandler(): sending keyboard input to server.
+23:49:26  995 Client::eventHandler(): sending keyboard input to server.
+23:49:26  995 Client::eventHandler(): sending keyboard input to server.
+23:49:26  996 Client::eventHandler(): sending keyboard input to server.
+23:49:26  996 Client::eventHandler(): sending keyboard input to server.
+23:49:26  997 Client::eventHandler(): sending keyboard input to server.
+23:49:26  997 Client::eventHandler(): sending keyboard input to server.
+23:49:26  998 Client::eventHandler(): sending keyboard input to server.
+23:49:26  998 Client::eventHandler(): sending keyboard input to server.
+23:49:26  999 Client::eventHandler(): sending keyboard input to server.
+23:49:26  999 Client::eventHandler(): sending keyboard input to server.
+23:49:26 1000 Client::eventHandler(): sending keyboard input to server.
+23:49:26 1000 Client::eventHandler(): sending keyboard input to server.
+23:49:26 1001 Client::eventHandler(): sending keyboard input to server.
+23:49:26 1001 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1002 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1002 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1003 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1003 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1004 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1004 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1005 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1005 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1006 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1006 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1007 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1007 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1008 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1008 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1009 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1009 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1010 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1010 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1011 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1012 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1013 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1014 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1015 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1015 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1015 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1016 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1016 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1017 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1017 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1018 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1018 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1019 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1020 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1021 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1022 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1023 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1024 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1025 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1026 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1027 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1027 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1027 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1028 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1028 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1029 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1029 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1030 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1030 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1031 Client::eventHandler(): sending keyboard input to server.
+23:49:27 1031 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1032 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1032 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1033 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1033 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1034 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1034 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1035 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1035 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1036 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1036 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1037 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1037 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1038 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1039 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1040 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1041 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1042 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1043 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1044 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1045 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1046 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1047 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1048 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1049 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1049 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1050 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1050 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1050 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1051 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1051 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1052 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1052 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1053 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1053 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1054 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1054 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1055 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1055 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1056 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1056 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1057 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1058 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1059 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1060 Client::eventHandler(): sending keyboard input to server.
+23:49:28 1061 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1062 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1063 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1064 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1065 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1066 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1067 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1068 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1069 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1069 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1069 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1070 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1070 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1071 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1071 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1072 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1072 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1073 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1073 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1074 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1074 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1075 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1076 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1077 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1078 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1079 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1080 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1081 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1082 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1083 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1084 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1085 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1086 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1087 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1087 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1087 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1088 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1089 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1090 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1090 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1090 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1091 Client::eventHandler(): sending keyboard input to server.
+23:49:29 1091 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1092 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1092 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1093 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1093 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1094 Client::eventHandler(): sending mouse input to server.
+23:49:30 1094 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1094 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1095 Client::eventHandler(): sending mouse input to server.
+23:49:30 1095 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1095 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1096 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1096 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1097 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1097 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1098 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1098 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1099 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1099 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1100 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1100 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1101 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1101 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1102 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1103 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1104 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1105 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1106 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1107 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1108 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1109 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1110 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1111 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1112 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1113 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1113 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1113 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1114 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1114 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1115 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1115 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1116 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1116 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1117 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1117 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1118 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1118 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1119 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1119 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1119 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1119 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1120 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1120 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1120 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1121 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1121 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1122 Client::eventHandler(): sending keyboard input to server.
+23:49:30 1122 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1123 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1123 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1124 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1124 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1125 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1125 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1126 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1126 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1127 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1127 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1128 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1128 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1129 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1129 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1130 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1131 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1132 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1133 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1134 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1135 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1136 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1136 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1136 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1137 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1137 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1138 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1138 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1139 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1139 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1140 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1140 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1141 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1141 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1142 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1142 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1143 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1143 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1144 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1144 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1145 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1145 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1145 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1145 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1146 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1146 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1146 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1147 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1147 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1147 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1148 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1148 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1148 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1149 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1149 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1149 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1150 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1150 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1150 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1151 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1151 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1151 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1152 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1152 Client::eventHandler(): sending keyboard input to server.
+23:49:31 1152 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1153 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1153 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1153 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1154 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1154 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1155 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1155 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1156 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1156 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1157 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1157 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1158 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1158 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1159 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1159 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1160 Client::eventHandler(): sending mouse input to server.
+23:49:32 1160 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1160 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1161 Client::eventHandler(): sending mouse input to server.
+23:49:32 1161 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1161 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1162 Client::eventHandler(): sending mouse input to server.
+23:49:32 1162 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1162 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1163 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1163 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1164 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1164 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1165 Client::eventHandler(): sending mouse input to server.
+23:49:32 1165 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1165 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1166 Client::eventHandler(): sending mouse input to server.
+23:49:32 1166 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1166 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1167 Client::eventHandler(): sending mouse input to server.
+23:49:32 1167 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1167 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1168 Client::eventHandler(): sending mouse input to server.
+23:49:32 1168 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1168 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1169 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1169 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1170 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1170 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1171 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1171 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1172 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1172 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1173 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1173 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1174 Client::eventHandler(): sending mouse input to server.
+23:49:32 1174 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1174 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1175 Client::eventHandler(): sending mouse input to server.
+23:49:32 1175 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1175 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1176 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1176 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1177 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1177 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1178 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1178 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1179 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1179 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1180 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1180 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1181 Client::eventHandler(): sending mouse input to server.
+23:49:32 1181 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1181 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1181 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1182 Client::eventHandler(): sending keyboard input to server.
+23:49:32 1182 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1183 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1183 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1184 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1184 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1185 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1186 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1187 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1188 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1189 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1190 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1191 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1192 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1193 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1193 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1193 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1194 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1194 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1195 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1195 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1196 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1196 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1197 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1198 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1199 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1199 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1199 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1200 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1200 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1201 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1201 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1202 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1202 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1203 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1203 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1204 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1205 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1206 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1206 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1206 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1207 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1207 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1208 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1208 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1209 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1210 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1211 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1212 Client::eventHandler(): sending keyboard input to server.
+23:49:33 1213 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1214 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1215 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1216 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1216 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1216 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1217 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1217 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1218 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1218 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1219 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1219 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1220 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1221 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1222 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1222 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1222 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1223 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1223 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1224 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1224 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1225 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1225 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1226 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1227 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1228 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1229 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1230 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1231 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1232 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1234 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1234 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1235 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1236 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1236 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1236 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1237 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1238 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1241 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1241 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1242 Client::eventHandler(): sending keyboard input to server.
+23:49:34 1243 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1244 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1254 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1254 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1255 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1256 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1259 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1259 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1260 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1271 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1271 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1272 Client::eventHandler(): sending keyboard input to server.
+23:49:35 1273 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1276 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1276 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1277 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1278 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1288 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1288 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1289 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1290 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1293 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1293 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1294 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1295 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1303 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1303 Client::eventHandler(): sending keyboard input to server.
+23:49:36 1304 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1305 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1306 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1307 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1309 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1309 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1310 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1311 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1324 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1324 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1325 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1326 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1327 Client::eventHandler(): sending mouse input to server.
+23:49:37 1328 Client::eventHandler(): sending mouse input to server.
+23:49:37 1328 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1328 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1329 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1330 Client::eventHandler(): sending keyboard input to server.
+23:49:37 1331 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1342 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1342 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1343 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1344 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1346 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1346 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1347 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1348 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1349 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1362 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1362 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1363 Client::eventHandler(): sending keyboard input to server.
+23:49:38 1364 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1366 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1366 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1367 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1368 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1369 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1370 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1371 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1372 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1373 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1380 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1380 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1381 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1382 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1383 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1385 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1385 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1386 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1387 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1388 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1389 Client::eventHandler(): sending keyboard input to server.
+23:49:39 1390 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1401 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1401 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1402 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1403 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1404 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1406 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1406 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1407 Client::eventHandler(): sending mouse input to server.
+23:49:40 1407 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1408 Client::eventHandler(): sending mouse input to server.
+23:49:40 1408 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1409 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1410 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1411 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1412 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1413 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1418 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1418 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1419 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1420 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1423 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1423 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1424 Client::eventHandler(): sending keyboard input to server.
+23:49:40 1425 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1426 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1427 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1437 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1437 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1438 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1439 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1440 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1441 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1441 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1442 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1443 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1444 Client::eventHandler(): sending keyboard input to server.
+23:49:41 1445 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1456 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1456 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1457 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1458 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1459 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1461 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1461 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1462 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1463 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1464 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1465 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1466 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1467 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1478 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1478 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1479 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1480 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1481 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1481 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1481 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1482 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1482 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1483 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1483 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1484 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1484 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1485 Client::eventHandler(): sending keyboard input to server.
+23:49:42 1485 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1486 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1486 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1487 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1487 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1488 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1488 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1489 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1489 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1490 Client::eventHandler(): sending mouse input to server.
+23:49:43 1490 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1492 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1492 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1493 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1494 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1495 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1496 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1497 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1502 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1502 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1503 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1504 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1505 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1506 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1507 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1514 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1514 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1515 Client::eventHandler(): sending keyboard input to server.
+23:49:43 1516 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1517 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1518 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1519 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1520 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1521 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1522 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1523 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1524 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1525 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1526 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1527 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1528 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1529 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1530 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1531 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1532 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1533 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1538 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1538 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1539 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1540 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1541 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1542 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1543 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1544 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1545 Client::eventHandler(): sending keyboard input to server.
+23:49:44 1546 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1547 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1548 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1549 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1550 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1551 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1561 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1561 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1562 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1563 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1564 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1566 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1566 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1567 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1568 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1569 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1570 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1571 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1572 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1573 Client::eventHandler(): sending keyboard input to server.
+23:49:45 1574 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1580 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1580 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1581 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1582 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1583 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1584 Client::eventHandler(): sending mouse input to server.
+23:49:46 1584 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1585 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1585 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1586 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1587 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1588 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1589 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1596 Client::eventHandler(): sending mouse input to server.
+23:49:46 1604 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1604 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1605 Client::eventHandler(): sending keyboard input to server.
+23:49:46 1606 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1609 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1609 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1610 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1611 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1612 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1625 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1625 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1626 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1627 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1629 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1630 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1630 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1631 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1632 Client::eventHandler(): sending keyboard input to server.
+23:49:47 1633 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1644 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1644 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1645 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1646 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1647 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1650 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1650 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1651 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1652 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1653 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1654 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1655 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1663 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1663 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1664 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1665 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1666 Client::eventHandler(): sending keyboard input to server.
+23:49:48 1667 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1669 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1669 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1670 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1671 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1672 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1673 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1674 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1675 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1676 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1685 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1685 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1686 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1687 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1688 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1689 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1690 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1691 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1692 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1693 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1694 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1695 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1696 Client::eventHandler(): sending keyboard input to server.
+23:49:49 1697 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1698 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1699 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1700 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1710 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1710 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1711 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1712 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1713 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1714 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1715 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1716 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1717 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1718 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1719 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1720 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1721 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1722 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1723 Client::eventHandler(): sending keyboard input to server.
+23:49:50 1724 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1734 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1734 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1735 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1736 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1752 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1752 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1753 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1754 Client::eventHandler(): sending keyboard input to server.
+23:49:51 1755 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1776 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1776 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1777 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1778 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1779 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1780 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1781 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1782 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1783 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1784 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1785 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1786 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1787 Client::eventHandler(): sending keyboard input to server.
+23:49:52 1788 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1789 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1790 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1791 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1792 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1797 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1797 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1798 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1799 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1800 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1801 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1802 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1803 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1804 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1805 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1807 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1807 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1808 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1809 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1810 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1811 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1816 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1816 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1817 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1818 Client::eventHandler(): sending keyboard input to server.
+23:49:53 1819 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1820 Client::eventHandler(): sending mouse input to server.
+23:49:54 1820 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1821 Client::eventHandler(): sending mouse input to server.
+23:49:54 1821 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1822 Client::eventHandler(): sending mouse input to server.
+23:49:54 1822 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1823 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1824 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1825 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1828 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1828 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1829 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1830 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1831 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1832 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1843 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1844 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1844 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1845 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1846 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1847 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1848 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1848 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1848 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1849 Client::eventHandler(): sending keyboard input to server.
+23:49:54 1849 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1850 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1850 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1851 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1851 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1852 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1852 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1853 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1853 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1854 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1854 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1855 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1855 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1856 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1856 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1857 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1857 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1858 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1858 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1858 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1858 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1859 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1859 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1860 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1861 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1862 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1863 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1864 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1865 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1866 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1867 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1868 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1868 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1868 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1869 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1869 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1870 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1870 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1871 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1871 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1872 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1872 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1873 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1873 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1874 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1874 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1875 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1875 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1876 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1876 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1877 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1878 Client::eventHandler(): sending keyboard input to server.
+23:49:55 1879 Client::eventHandler(): sending keyboard input to server.
+23:49:56 1880 Client::eventHandler(): sending keyboard input to server.
+23:49:56 1881 Client::eventHandler(): sending keyboard input to server.
+23:49:56 1899 Client::eventHandler(): sending mouse input to server.
+23:49:56 1900 Client::eventHandler(): sending mouse input to server.
+23:49:56 1902 Client::eventHandler(): sending mouse input to server.
+23:49:56 1903 Client::eventHandler(): sending mouse input to server.
+23:50:02 2085 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2085 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2086 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2087 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2088 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2089 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2090 Client::eventHandler(): sending keyboard input to server.
+23:50:02 2091 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2092 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2093 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2094 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2095 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2096 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2097 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2106 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2106 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2107 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2108 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2109 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2110 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2111 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2112 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2113 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2114 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2115 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2116 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2117 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2118 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2119 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2120 Client::eventHandler(): sending keyboard input to server.
+23:50:03 2121 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2127 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2127 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2128 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2129 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2130 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2131 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2132 Client::eventHandler(): sending keyboard input to server.
+23:50:04 2133 Client::eventHandler(): sending keyboard input to server.
+23:50:12 2394 Client::eventHandler(): sending mouse input to server.
+23:50:13 2396 Client::eventHandler(): sending mouse input to server.
+23:50:13 2398 Client::eventHandler(): sending mouse input to server.
+23:50:13 2401 Client::eventHandler(): sending mouse input to server.
+23:50:14 2431 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2431 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2432 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2433 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2434 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2435 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2436 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2437 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2438 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2439 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2440 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2444 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2444 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2445 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2446 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2447 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2448 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2449 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2450 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2451 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2452 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2453 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2454 Client::eventHandler(): sending keyboard input to server.
+23:50:14 2455 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2456 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2457 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2458 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2459 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2460 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2461 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2462 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2463 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2463 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2464 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2465 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2466 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2467 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2468 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2469 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2470 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2471 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2472 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2472 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2472 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2473 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2473 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2474 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2474 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2475 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2476 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2477 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2478 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2479 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2480 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2481 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2482 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2483 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2483 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2483 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2484 Client::eventHandler(): sending keyboard input to server.
+23:50:15 2485 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2486 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2487 Client::eventHandler(): sending mouse input to server.
+23:50:16 2487 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2488 Client::eventHandler(): sending mouse input to server.
+23:50:16 2488 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2489 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2490 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2490 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2490 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2491 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2491 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2492 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2493 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2494 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2495 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2495 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2495 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2496 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2496 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2497 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2498 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2499 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2499 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2499 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2500 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2500 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2501 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2502 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2503 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2503 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2503 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2504 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2505 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2506 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2507 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2507 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2507 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2508 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2509 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2510 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2511 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2511 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2511 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2512 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2513 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2514 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2515 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2515 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2515 Client::eventHandler(): sending keyboard input to server.
+23:50:16 2516 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2517 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2518 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2518 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2518 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2519 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2520 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2521 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2522 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2522 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2522 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2523 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2524 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2525 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2525 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2525 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2526 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2526 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2527 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2528 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2529 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2529 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2529 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2530 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2530 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2531 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2532 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2533 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2533 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2533 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2534 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2534 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2535 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2536 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2536 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2536 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2537 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2537 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2538 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2539 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2540 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2540 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2540 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2541 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2541 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2542 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2543 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2544 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2544 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2544 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2545 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2545 Client::eventHandler(): sending keyboard input to server.
+23:50:17 2546 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2547 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2548 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2548 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2548 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2549 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2549 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2550 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2551 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2552 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2552 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2552 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2553 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2553 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2554 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2555 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2572 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2572 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2573 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2574 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2575 Client::eventHandler(): sending keyboard input to server.
+23:50:18 2576 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2581 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2581 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2582 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2583 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2584 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2585 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2586 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2587 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2588 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2589 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2590 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2595 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2595 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2596 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2597 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2598 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2599 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2600 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2601 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2602 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2603 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2604 Client::eventHandler(): sending keyboard input to server.
+23:50:19 2605 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2610 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2610 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2611 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2612 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2613 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2614 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2615 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2616 Client::eventHandler(): sending keyboard input to server.
+23:50:20 2617 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2639 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2639 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2640 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2641 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2642 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2643 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2644 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2652 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2652 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2653 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2654 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2655 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2656 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2657 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2658 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2659 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2660 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2661 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2662 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2663 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2664 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2666 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2666 Client::eventHandler(): sending mouse input to server.
+23:50:21 2666 Client::eventHandler(): sending keyboard input to server.
+23:50:21 2667 Client::eventHandler(): sending mouse input to server.
+23:50:21 2667 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2668 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2669 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2670 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2671 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2672 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2673 Client::eventHandler(): sending mouse input to server.
+23:50:22 2673 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2674 Client::eventHandler(): sending mouse input to server.
+23:50:22 2674 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2675 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2676 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2677 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2678 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2680 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2680 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2681 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2682 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2683 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2684 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2685 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2686 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2687 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2688 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2689 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2690 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2693 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2693 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2694 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2695 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2696 Client::eventHandler(): sending keyboard input to server.
+23:50:22 2697 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2698 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2699 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2700 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2701 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2702 Client::eventHandler(): sending keyboard input to server.
+23:50:23 2706 Client::eventHandler(): sending mouse input to server.
+23:50:23 2707 Client::eventHandler(): sending mouse input to server.
+23:50:23 2708 Client::eventHandler(): sending mouse input to server.
+23:50:23 2709 Client::eventHandler(): sending mouse input to server.
+23:50:23 2710 Client::eventHandler(): sending mouse input to server.
+23:50:23 2711 Client::eventHandler(): sending mouse input to server.
+23:50:23 2712 Client::eventHandler(): sending mouse input to server.
+23:50:23 2713 Client::eventHandler(): sending mouse input to server.
+23:50:26 2815 Client::eventHandler(): sending keyboard input to server.
+23:50:26 2815 Client::eventHandler(): sending keyboard input to server.
+23:50:26 2816 Client::eventHandler(): sending keyboard input to server.
+23:50:26 2817 Client::eventHandler(): sending keyboard input to server.
+23:50:26 2818 Client::eventHandler(): sending keyboard input to server.
+23:50:26 2819 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2820 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2821 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2822 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2827 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2827 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2828 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2829 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2830 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2831 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2832 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2833 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2834 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2835 Client::eventHandler(): sending keyboard input to server.
+23:50:27 2836 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2866 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2866 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2867 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2868 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2869 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2870 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2871 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2872 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2873 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2874 Client::eventHandler(): sending keyboard input to server.
+23:50:28 2875 Client::eventHandler(): sending keyboard input to server.
+23:50:35 3089 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+23:50:55 3696 Client::eventHandler(): sending mouse input to server.
+23:50:55 3697 Client::eventHandler(): sending mouse input to server.
+23:50:56 3698 Client::eventHandler(): sending mouse input to server.
+23:50:56 3702 Client::eventHandler(): sending mouse input to server.
+23:50:56 3703 Client::eventHandler(): sending mouse input to server.
+23:50:56 3704 Client::eventHandler(): sending mouse input to server.
+23:50:56 3709 Client::eventHandler(): sending mouse input to server.
+23:50:56 3710 Client::eventHandler(): sending mouse input to server.
+23:50:56 3711 Client::eventHandler(): sending mouse input to server.
+23:50:56 3712 Client::eventHandler(): sending mouse input to server.
+23:50:57 3756 Client::eventHandler(): sending mouse input to server.
+23:50:57 3757 Client::eventHandler(): sending mouse input to server.
+23:50:58 3761 Client::eventHandler(): sending mouse input to server.
+23:50:58 3762 Client::eventHandler(): sending mouse input to server.
+23:50:58 3763 Client::eventHandler(): sending mouse input to server.
+23:50:58 3764 Client::eventHandler(): sending mouse input to server.
+23:50:58 3765 Client::eventHandler(): sending mouse input to server.
+23:50:58 3766 Client::eventHandler(): sending mouse input to server.
+23:50:58 3767 Client::eventHandler(): sending mouse input to server.
+23:50:58 3768 Client::eventHandler(): sending mouse input to server.
+23:50:58 3769 Client::eventHandler(): sending mouse input to server.
+23:50:58 3770 Client::eventHandler(): sending mouse input to server.
+23:50:58 3771 Client::eventHandler(): sending mouse input to server.
+23:50:58 3772 Client::eventHandler(): sending mouse input to server.
+23:50:58 3773 Client::eventHandler(): sending mouse input to server.
+23:50:58 3774 Client::eventHandler(): sending mouse input to server.
+23:50:58 3775 Client::eventHandler(): sending mouse input to server.
+23:50:58 3777 Client::eventHandler(): sending mouse input to server.
+23:50:58 3777 Client::eventHandler(): sending mouse input to server.
+23:50:58 3778 Client::eventHandler(): sending mouse input to server.
+23:50:58 3779 Client::eventHandler(): sending mouse input to server.
+23:50:59 3793 Client::eventHandler(): sending mouse input to server.
+23:50:59 3794 Client::eventHandler(): sending mouse input to server.
+23:50:59 3795 Client::eventHandler(): sending mouse input to server.
+23:50:59 3807 Client::eventHandler(): sending mouse input to server.
+23:50:59 3808 Client::eventHandler(): sending mouse input to server.
+23:50:59 3811 Client::eventHandler(): sending mouse input to server.
+23:50:59 3813 Client::eventHandler(): sending mouse input to server.
+23:51:00 3822 Client::eventHandler(): sending mouse input to server.
+23:51:00 3823 Client::eventHandler(): sending mouse input to server.
+23:51:00 3824 Client::eventHandler(): sending mouse input to server.
+23:51:00 3826 Client::eventHandler(): sending mouse input to server.
+23:51:00 3833 Client::eventHandler(): sending mouse input to server.
+23:51:00 3834 Client::eventHandler(): sending mouse input to server.
+23:51:00 3835 Client::eventHandler(): sending mouse input to server.
+23:51:00 3836 Client::eventHandler(): sending mouse input to server.
+23:51:00 3837 Client::eventHandler(): sending mouse input to server.
+23:51:01 3851 Client::eventHandler(): sending mouse input to server.
+23:51:01 3852 Client::eventHandler(): sending mouse input to server.
+23:51:01 3853 Client::eventHandler(): sending mouse input to server.
+23:51:01 3855 Client::eventHandler(): sending mouse input to server.
+23:51:01 3856 Client::eventHandler(): sending mouse input to server.
+23:51:01 3857 Client::eventHandler(): sending mouse input to server.
+23:51:01 3858 Client::eventHandler(): sending mouse input to server.
+23:51:01 3859 Client::eventHandler(): sending mouse input to server.
+23:51:01 3859 Client::eventHandler(): sending mouse input to server.
+23:51:01 3860 Client::eventHandler(): sending mouse input to server.
+23:51:01 3861 Client::eventHandler(): sending mouse input to server.
+23:51:01 3862 Client::eventHandler(): sending mouse input to server.
+23:51:01 3863 Client::eventHandler(): sending mouse input to server.
+23:51:01 3864 Client::eventHandler(): sending mouse input to server.
+23:51:01 3865 Client::eventHandler(): sending mouse input to server.
+23:51:01 3866 Client::eventHandler(): sending mouse input to server.
+23:51:01 3871 Client::eventHandler(): sending mouse input to server.
+23:51:01 3872 Client::eventHandler(): sending mouse input to server.
+23:51:01 3875 Client::eventHandler(): sending mouse input to server.
+23:51:01 3876 Client::eventHandler(): sending mouse input to server.
+23:51:01 3877 Client::eventHandler(): sending mouse input to server.
+23:51:03 3919 Client::eventHandler(): sending mouse input to server.
+23:51:03 3923 Client::eventHandler(): sending mouse input to server.
+23:51:04 3950 Client::eventHandler(): sending mouse input to server.
+23:51:04 3951 Client::eventHandler(): sending mouse input to server.
+23:51:04 3952 Client::eventHandler(): sending mouse input to server.
+23:51:04 3953 Client::eventHandler(): sending mouse input to server.
+23:51:04 3954 Client::eventHandler(): sending mouse input to server.
+23:51:04 3955 Client::eventHandler(): sending mouse input to server.
+23:51:04 3956 Client::eventHandler(): sending mouse input to server.
+23:51:04 3957 Client::eventHandler(): sending mouse input to server.
+23:51:04 3958 Client::eventHandler(): sending mouse input to server.
+23:51:04 3959 Client::eventHandler(): sending mouse input to server.
+23:51:04 3960 Client::eventHandler(): sending mouse input to server.
+23:51:04 3961 Client::eventHandler(): sending mouse input to server.
+23:51:04 3963 Client::eventHandler(): sending mouse input to server.
+23:51:04 3964 Client::eventHandler(): sending mouse input to server.
+23:51:04 3965 Client::eventHandler(): sending mouse input to server.
+23:51:04 3966 Client::eventHandler(): sending mouse input to server.
+23:51:04 3967 Client::eventHandler(): sending mouse input to server.
+23:51:04 3968 Client::eventHandler(): sending mouse input to server.
+23:51:04 3968 Client::eventHandler(): sending mouse input to server.
+23:51:04 3969 Client::eventHandler(): sending mouse input to server.
+23:51:04 3970 Client::eventHandler(): sending mouse input to server.
+23:51:05 3971 Client::eventHandler(): sending mouse input to server.
+23:51:05 3972 Client::eventHandler(): sending mouse input to server.
+23:51:05 3973 Client::eventHandler(): sending mouse input to server.
+23:51:05 3974 Client::eventHandler(): sending mouse input to server.
+23:51:05 3975 Client::eventHandler(): sending mouse input to server.
+23:51:05 3980 Client::eventHandler(): sending mouse input to server.
+23:51:05 3981 Client::eventHandler(): sending mouse input to server.
+23:51:05 3984 Client::eventHandler(): sending mouse input to server.
+23:51:05 3991 Client::eventHandler(): sending mouse input to server.
+23:51:05 3992 Client::eventHandler(): sending mouse input to server.
+23:51:05 3992 Client::eventHandler(): sending mouse input to server.
+23:51:05 3993 Client::eventHandler(): sending mouse input to server.
+23:51:05 3994 Client::eventHandler(): sending mouse input to server.
+23:51:05 3996 Client::eventHandler(): sending mouse input to server.
+23:51:05 3997 Client::eventHandler(): sending mouse input to server.
+23:51:05 3998 Client::eventHandler(): sending mouse input to server.
+23:51:05 3999 Client::eventHandler(): sending mouse input to server.
+23:51:07 4050 Client::eventHandler(): sending mouse input to server.
+23:51:07 4051 Client::eventHandler(): sending mouse input to server.
+23:51:07 4052 Client::eventHandler(): sending mouse input to server.
+23:51:07 4053 Client::eventHandler(): sending mouse input to server.
+23:51:07 4054 Client::eventHandler(): sending mouse input to server.
+23:51:07 4055 Client::eventHandler(): sending mouse input to server.
+23:51:07 4056 Client::eventHandler(): sending mouse input to server.
+23:51:07 4059 Client::eventHandler(): sending mouse input to server.
+23:51:07 4061 Client::eventHandler(): sending mouse input to server.
+23:51:08 4062 Client::eventHandler(): sending mouse input to server.
+23:51:08 4063 Client::eventHandler(): sending mouse input to server.
+23:51:08 4067 Client::eventHandler(): sending mouse input to server.
+23:51:08 4070 Client::eventHandler(): sending mouse input to server.
+23:51:08 4071 Client::eventHandler(): sending mouse input to server.
+23:51:08 4072 Client::eventHandler(): sending mouse input to server.
+23:51:08 4073 Client::eventHandler(): sending mouse input to server.
+23:51:08 4081 Client::eventHandler(): sending mouse input to server.
+23:51:08 4082 Client::eventHandler(): sending mouse input to server.
+23:51:08 4083 Client::eventHandler(): sending mouse input to server.
+23:51:09 4114 Client::eventHandler(): sending mouse input to server.
+23:51:09 4115 Client::eventHandler(): sending mouse input to server.
+23:51:09 4117 Client::eventHandler(): sending mouse input to server.
+23:51:09 4121 Client::eventHandler(): sending mouse input to server.
+23:51:10 4122 Client::eventHandler(): sending mouse input to server.
+23:51:10 4123 Client::eventHandler(): sending mouse input to server.
+23:51:10 4151 Client::eventHandler(): sending mouse input to server.
+23:51:10 4152 Client::eventHandler(): sending mouse input to server.
+23:51:11 4156 Client::eventHandler(): sending mouse input to server.
+23:51:11 4157 Client::eventHandler(): sending mouse input to server.
+23:51:11 4158 Client::eventHandler(): sending mouse input to server.
+23:51:11 4162 Client::eventHandler(): sending mouse input to server.
+23:51:11 4163 Client::eventHandler(): sending mouse input to server.
+23:51:11 4164 Client::eventHandler(): sending mouse input to server.
+23:51:11 4179 Client::eventHandler(): sending mouse input to server.
+23:51:11 4180 Client::eventHandler(): sending mouse input to server.
+23:51:14 4248 Client::eventHandler(): sending mouse input to server.
+23:51:14 4249 Client::eventHandler(): sending mouse input to server.
+23:51:14 4250 Client::eventHandler(): sending mouse input to server.
+23:51:14 4251 Client::eventHandler(): sending mouse input to server.
+23:51:14 4252 Client::eventHandler(): sending mouse input to server.
+23:51:14 4253 Client::eventHandler(): sending mouse input to server.
+23:51:14 4254 Client::eventHandler(): sending mouse input to server.
+23:51:14 4255 Client::eventHandler(): sending mouse input to server.
+23:51:14 4262 Client::eventHandler(): sending mouse input to server.
+23:51:14 4272 Client::eventHandler(): sending mouse input to server.
+23:51:15 4277 Client::eventHandler(): sending mouse input to server.
+23:51:15 4279 Client::eventHandler(): sending mouse input to server.
+23:51:15 4281 Client::eventHandler(): sending mouse input to server.
+23:51:15 4283 Client::eventHandler(): sending mouse input to server.
+23:51:17 4354 Client::eventHandler(): sending mouse input to server.
+23:51:18 4377 Client::eventHandler(): sending mouse input to server.
+23:51:18 4378 Client::eventHandler(): sending mouse input to server.
+23:51:18 4379 Client::eventHandler(): sending mouse input to server.
+23:51:18 4380 Client::eventHandler(): sending mouse input to server.
+23:51:18 4387 Client::eventHandler(): sending mouse input to server.
+23:51:18 4388 Client::eventHandler(): sending mouse input to server.
+23:51:18 4389 Client::eventHandler(): sending mouse input to server.
+23:51:19 4402 Client::eventHandler(): sending mouse input to server.
+23:51:19 4403 Client::eventHandler(): sending mouse input to server.
+23:51:19 4404 Client::eventHandler(): sending mouse input to server.
+23:51:19 4405 Client::eventHandler(): sending mouse input to server.
+23:51:19 4406 Client::eventHandler(): sending mouse input to server.
+23:51:19 4407 Client::eventHandler(): sending mouse input to server.
+23:51:19 4408 Client::eventHandler(): sending mouse input to server.
+23:51:19 4409 Client::eventHandler(): sending mouse input to server.
+23:51:19 4410 Client::eventHandler(): sending mouse input to server.
+23:51:19 4411 Client::eventHandler(): sending mouse input to server.
+23:51:19 4411 Client::eventHandler(): sending mouse input to server.
+23:51:19 4412 Client::eventHandler(): sending mouse input to server.
+23:51:19 4413 Client::eventHandler(): sending mouse input to server.
+23:51:19 4414 Client::eventHandler(): sending mouse input to server.
+23:51:19 4415 Client::eventHandler(): sending mouse input to server.
+23:51:19 4416 Client::eventHandler(): sending mouse input to server.
+23:51:19 4417 Client::eventHandler(): sending mouse input to server.
+23:51:19 4418 Client::eventHandler(): sending mouse input to server.
+23:51:19 4419 Client::eventHandler(): sending mouse input to server.
+23:51:19 4420 Client::eventHandler(): sending mouse input to server.
+23:51:19 4421 Client::eventHandler(): sending mouse input to server.
+23:51:19 4422 Client::eventHandler(): sending mouse input to server.
+23:51:19 4423 Client::eventHandler(): sending mouse input to server.
+23:51:19 4424 Client::eventHandler(): sending mouse input to server.
+23:51:20 4425 Client::eventHandler(): sending mouse input to server.
+23:51:20 4426 Client::eventHandler(): sending mouse input to server.
+23:51:20 4428 Client::eventHandler(): sending mouse input to server.
+23:51:20 4428 Client::eventHandler(): sending mouse input to server.
+23:51:20 4429 Client::eventHandler(): sending mouse input to server.
+23:51:20 4429 Client::eventHandler(): sending mouse input to server.
+23:51:20 4430 Client::eventHandler(): sending mouse input to server.
+23:51:20 4437 Client::eventHandler(): sending mouse input to server.
+23:51:20 4438 Client::eventHandler(): sending mouse input to server.
+23:51:20 4438 Client::eventHandler(): sending mouse input to server.
+23:51:20 4439 Client::eventHandler(): sending mouse input to server.
+23:51:20 4440 Client::eventHandler(): sending mouse input to server.
+23:51:20 4440 Client::eventHandler(): sending mouse input to server.
+23:51:20 4441 Client::eventHandler(): sending mouse input to server.
+23:51:20 4442 Client::eventHandler(): sending mouse input to server.
+23:51:20 4442 Client::eventHandler(): sending mouse input to server.
+23:51:22 4502 Client::eventHandler(): sending mouse input to server.
+23:51:22 4503 Client::eventHandler(): sending mouse input to server.
+23:51:22 4504 Client::eventHandler(): sending mouse input to server.
+23:51:22 4505 Client::eventHandler(): sending mouse input to server.
+23:51:22 4508 Client::eventHandler(): sending mouse input to server.
+23:51:22 4509 Client::eventHandler(): sending mouse input to server.
+23:51:22 4509 Client::eventHandler(): sending mouse input to server.
+23:51:22 4510 Client::eventHandler(): sending mouse input to server.
+23:51:22 4511 Client::eventHandler(): sending mouse input to server.
+23:51:22 4512 Client::eventHandler(): sending mouse input to server.
+23:51:22 4514 Client::eventHandler(): sending mouse input to server.
+23:51:25 4584 InputManager::getInput(): Window close event. Setting game over.
+23:51:25 4585 GameManager::run(): end of game loop
+23:51:25 4585 PathManager::shutDown(): successfully stopped.
+23:51:25 4585 Path manager stopped
+23:51:25 4585 WorldManager::shutDown(): Successfully stopped.
+23:51:25 4585 World manager stopped
+23:51:25 4585 ResourceManager::shutDown(): successfully stopped.
+23:51:25 4585 Resource manager stopped
+23:51:25 4585 NetworkManager::shutDown(): successfully stopped.
+23:51:25 4585 Network manager stopped
+23:51:25 4585 InputManager::shutDown(): successfully stopped.
+23:51:25 4585 Input manager stopped
+23:51:25 4585 DisplayManager::shutDown(): successfully stopped.
+23:51:25 4585 Display manager stopped
+23:51:25 4585 ** Game stopped **
+23:51:25 4585 ****************************************************
+23:51:25 4585 LogManager::shutDown(): successfully stopped.

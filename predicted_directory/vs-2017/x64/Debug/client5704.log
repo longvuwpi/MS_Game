@@ -1,0 +1,92 @@
+00:12:45    0 ****************************************************
+00:12:45    0 ** Dragonfly version 4.9 **
+00:12:45    0 Hello, Network! (v1.2)
+00:12:45    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+00:12:45    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+00:12:45    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+00:12:45    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+00:12:45    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+00:12:45    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+00:12:45    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+00:12:45    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+00:12:45    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+00:12:45    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+00:12:45    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+00:12:45    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+00:12:45    0 Client::Client(): Connecting to localhost at port 9876.
+00:12:45    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+00:12:45    0 NetworkManager::connect(): Connection established.
+00:12:45    0 Client::handleConnect(): Client connected!
+00:12:45    0 Client::Client(): Client started.
+00:12:45    0 GameManager::run(): starting game loop
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Platform'
+00:12:45    0 Client::createObject(): uknown object type 'Platform'
+00:12:45    0 NetworkNode::handleData(): Error! p_obj is NULL.
+00:12:45    0 Client::createObject(): creating object type 'Hero'
+00:12:46   18 Client::eventHandler(): sending mouse input to server.
+00:12:46   19 Client::eventHandler(): sending mouse input to server.
+00:12:46   19 Client::eventHandler(): sending mouse input to server.
+00:12:46   20 Client::eventHandler(): sending mouse input to server.
+00:12:46   21 Client::eventHandler(): sending mouse input to server.
+00:12:46   21 Client::eventHandler(): sending mouse input to server.
+00:12:46   22 Client::eventHandler(): sending mouse input to server.
+00:12:46   23 Client::eventHandler(): sending mouse input to server.
+00:12:46   23 Client::eventHandler(): sending mouse input to server.
+00:12:46   24 Client::eventHandler(): sending mouse input to server.
+00:12:46   25 Client::eventHandler(): sending mouse input to server.
+00:12:46   26 Client::eventHandler(): sending mouse input to server.
+00:12:46   27 Client::eventHandler(): sending mouse input to server.
+00:12:46   28 Client::eventHandler(): sending mouse input to server.
+00:12:46   28 Client::eventHandler(): sending mouse input to server.
+00:12:46   29 Client::eventHandler(): sending mouse input to server.
+00:12:46   30 Client::eventHandler(): sending mouse input to server.
+00:12:46   31 Client::eventHandler(): sending mouse input to server.
+00:12:46   33 Client::eventHandler(): sending mouse input to server.
+00:12:46   33 Client::eventHandler(): sending mouse input to server.
+00:12:47   34 Client::eventHandler(): sending mouse input to server.
+00:12:47   35 Client::eventHandler(): sending mouse input to server.
+00:12:47   36 Client::eventHandler(): sending mouse input to server.
+00:12:50   98 GameManager::run(): Warning! Residual network data.
+00:12:50   98 GameManager::run(): Can't keep up! frame_time 33 ms, split 1018 ms
+00:12:50   99 GameManager::run(): Warning! Residual network data.
+00:12:51  131 InputManager::getInput(): Window close event. Setting game over.
+00:12:51  132 GameManager::run(): end of game loop
+00:12:51  132 PathManager::shutDown(): successfully stopped.
+00:12:51  132 Path manager stopped
+00:12:51  132 WorldManager::shutDown(): Successfully stopped.
+00:12:51  132 World manager stopped
+00:12:51  132 ResourceManager::shutDown(): successfully stopped.
+00:12:51  132 Resource manager stopped
+00:12:51  132 NetworkManager::shutDown(): successfully stopped.
+00:12:51  132 Network manager stopped
+00:12:51  132 InputManager::shutDown(): successfully stopped.
+00:12:51  132 Input manager stopped
+00:12:51  132 DisplayManager::shutDown(): successfully stopped.
+00:12:51  132 Display manager stopped
+00:12:51  132 ** Game stopped **
+00:12:51  132 ****************************************************
+00:12:51  132 LogManager::shutDown(): successfully stopped.
