@@ -81,10 +81,10 @@ Hero::Hero(int client_hero_id, int hero_id) {
 	isDucking = false;
 	p_OnPlatform = NULL;
 
-	if (NM.isServer()) {
+	//if (NM.isServer()) {
 		setAcceleration(df::Vector(0, down_gravity));
 
-	}
+	//}
 	setSolidness(df::SOFT);
 
 	//int hero_id = (socket_index + 1) * 20;
@@ -174,7 +174,7 @@ Hero::~Hero() {
 // Return 0 if ignored, else 1.
 int Hero::eventHandler(const df::Event *p_e) {
 
-	if ((p_e->getType() == df::COLLISION_EVENT) && (NM.isServer())) {
+	if (p_e->getType() == df::COLLISION_EVENT) {
 		//printf("collided with hero");
 		const df::EventCollision *p_collision_event = dynamic_cast <df::EventCollision const *> (p_e);
 		if (p_collision_event->getObject1()->getType() == "Platform") {
