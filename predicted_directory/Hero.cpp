@@ -134,12 +134,16 @@ void Hero::setWalkingSprite() {
 	setTransparency();	   // Transparent sprite.
 	setPosition(getPosition() + df::Vector(0, -0.5 + (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
 	setCentered(true);
+	m_modified[df::SPRITE] = false;
+	m_modified[df::POSITION] = false;
 }
 
 void Hero::setDuckingSprite() {
 	setSprite(duck_sprite);
 	setPosition(getPosition() + df::Vector(0, -0.5 + (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
 	setCentered(true);
+	m_modified[df::SPRITE] = false;
+	m_modified[df::POSITION] = false;
 }
 
 Hero::~Hero() {
@@ -242,6 +246,13 @@ void Hero::landedOn(Platform *platform) {
 
 			setCentered(true);
 
+			//clear all flags since code is executed similarly on server and clients
+			m_modified[df::POSITION] = false;
+			m_modified[df::ACCELERATION] = false;
+			m_modified[df::SPEED] = false;
+			m_modified[df::DIRECTION] = false;
+			m_modified[df::SPRITE] = false;
+
 			return;
 		}
 	}
@@ -340,7 +351,10 @@ void Hero::move(int dx, int dy) {
 	df::WorldManager &world_manager = df::WorldManager::getInstance();
 	if ((new_pos.getY() > 3) &&
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
+	{
 		world_manager.moveObject(this, new_pos);
+		m_modified[df::POSITION] = false;
+	}
 }
 
 Weapon *Hero::getCurrentWeapon() {
@@ -359,7 +373,7 @@ void Hero::reload() {
 // Decrease rate restriction counters.
 void Hero::step() {
 
-	if (NM.isServer()) {
+	//if (NM.isServer()) {
 		//Check to see if the hero is on a platform.
 		df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
 		if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
@@ -368,21 +382,23 @@ void Hero::step() {
 
 		if (p_OnPlatform == NULL) {
 			setAcceleration(df::Vector(0, down_gravity));
+			m_modified[df::ACCELERATION] = false;
 		}
 
 		if (getVelocity().getY() >= 3) {
 			setVelocity(df::Vector(getVelocity().getX(), 3));
+			m_modified[df::SPEED] = false;
+			m_modified[df::DIRECTION] = false;
 		}
 
-		if (getPosition().getY() > WM.getView().getVertical()) {
-			//df::ObjectList go_objects = WM.objectsOfType("GameOver");
-			//if (go_objects.getCount() <= 0) {
-			takeDamage(getPosition(), 100);
-			//}
+		if (NM.isServer()) {
+			if (getPosition().getY() > WM.getView().getVertical()) {
+				//df::ObjectList go_objects = WM.objectsOfType("GameOver");
+				//if (go_objects.getCount() <= 0) {
+				takeDamage(getPosition(), 100);
+				//}
+			}
 		}
-	}
-
-
 
 	drawHealthBar();
 }
@@ -394,6 +410,8 @@ void Hero::jump() {
 		//setPosition(getPosition() + df::Vector(0, -1));
 		if (!isDucking) {
 			setVelocity(df::Vector(0, -jumpHeight));
+			m_modified[df::SPEED] = false;
+			m_modified[df::DIRECTION] = false;
 		}
 
 		setCentered(true);

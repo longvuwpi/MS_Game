@@ -61,6 +61,9 @@ class Object {
  public:
   static int max_id;	        ///< Monotonically increasing identifier.
 
+protected:
+  bool m_modified[ATTR_COUNT];  ///< Mod. attrib. since last serialize().
+
  private:
   int m_id;		        ///< Unique game engine defined identifier.
   std::string m_type;	        ///< Game-programmer defined identification.
@@ -83,7 +86,6 @@ class Object {
   bool m_no_soft;               ///< True if won't move on SOFT Objects.
   int m_event_count;            ///< Number of events of interest.
   std::string m_event_name[MAX_OBJ_EVENTS]; ///< Names of events interested in.
-  bool m_modified[ATTR_COUNT];  ///< Mod. attrib. since last serialize().
   Shape m_shape;	        ///< Basic geometric shape to draw.
   PathFind *m_p_path_find;      ///< Object performing pathfinding.
   Path m_path;                  ///< If following path, holds path information.
