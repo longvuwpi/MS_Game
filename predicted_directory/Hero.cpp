@@ -524,13 +524,7 @@ int Hero::deserialize(std::string str) {
 
 	df::Vector serializedPosition = getPosition();
 
-	if ((currentPosition - serializedPosition).getMagnitude() > 4.0f) {
-		setPosition(df::Vector(((currentPosition + serializedPosition).getX() / 2.0f), ((currentPosition + serializedPosition).getY() / 2.0f)));
-		LM.writeLog("Fixing up hero position");
-	}
-	else {
-		setPosition(currentPosition);
-	}
+	setPosition(currentPosition);
 
 	// Get ready for parsing.
 	std::string val;
@@ -540,6 +534,11 @@ int Hero::deserialize(std::string str) {
 		int i = atoi(val.c_str());
 		LM.writeLog("Hero::deserialize(): current health is %d", i);
 		health = i;
+
+		if ((currentPosition - serializedPosition).getMagnitude() > 4.0f) {
+			setPosition(df::Vector(((currentPosition + serializedPosition).getX() / 2.0f), ((currentPosition + serializedPosition).getY() / 2.0f)));
+			LM.writeLog("Fixing up hero position");
+		}
 	}
 
 	val = df::match("", "current_weapon");
