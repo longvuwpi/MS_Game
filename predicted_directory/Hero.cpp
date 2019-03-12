@@ -65,8 +65,9 @@ Hero::Hero(int client_hero_id, int hero_id) {
 
 	// Set starting location.
 	//df::Vector p(7, WM.getBoundary().getVertical()/2);
-	df::Vector p(70, 40);
+	df::Vector p(60, 40);
 	setPosition(p);
+	m_modified[df::POSITION] = false;
 
 	//p_reticle->draw();
 
@@ -83,6 +84,7 @@ Hero::Hero(int client_hero_id, int hero_id) {
 
 	//if (NM.isServer()) {
 		setAcceleration(df::Vector(0, down_gravity));
+		m_modified[df::ACCELERATION] = false;
 
 	//}
 	setSolidness(df::SOFT);
