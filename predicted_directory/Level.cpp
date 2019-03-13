@@ -113,7 +113,7 @@ void Level::step() {
 			//WM.setViewPosition(hero->getPosition() + df::Vector(WM.getView().getHorizontal() / 3, 0));
 
 			//Check if hero fell off the platforms
-			//levelLogic();
+			levelLogic();
 		}
 	}
 }

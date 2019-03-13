@@ -65,7 +65,7 @@ Hero::Hero(int client_hero_id, int hero_id) {
 
 	// Set starting location.
 	//df::Vector p(7, WM.getBoundary().getVertical()/2);
-	df::Vector p(60, 40);
+	df::Vector p(60, 25);
 	setPosition(p);
 	m_modified[df::POSITION] = false;
 
@@ -230,6 +230,9 @@ int Hero::eventHandler(const df::Event *p_e) {
 }
 
 void Hero::landedOn(Platform *platform) {
+	if (!NM.isServer()) {
+		LM.writeLog("Hero collided with fucking platform");
+	}
 
 	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
 		df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
@@ -540,14 +543,13 @@ int Hero::deserialize(std::string str) {
 	df::Vector currentPosition = getPosition();
 
 	// Do main deserialize from parent.
-	Object::deserialize(str);
-
-	df::Vector serializedPosition = getPosition();
-
-	setPosition(currentPosition);
+	//Object::deserialize(str);
+	//df::Vector serializedPosition = getPosition();
+	//setPosition(currentPosition);
 
 	// Get ready for parsing.
 	std::string val;
+	df::match(str, "");
 
 	val = df::match("", "health");
 	if (!val.empty()) {
@@ -555,10 +557,10 @@ int Hero::deserialize(std::string str) {
 		LM.writeLog("Hero::deserialize(): current health is %d", i);
 		health = i;
 
-		if ((currentPosition - serializedPosition).getMagnitude() > 4.0f) {
-			setPosition(df::Vector(((currentPosition + serializedPosition).getX() / 2.0f), ((currentPosition + serializedPosition).getY() / 2.0f)));
-			LM.writeLog("Fixing up hero position");
-		}
+		//if ((currentPosition - serializedPosition).getMagnitude() > 4.0f) {
+		//	setPosition(df::Vector(((currentPosition + serializedPosition).getX() / 2.0f), ((currentPosition + serializedPosition).getY() / 2.0f)));
+		//	LM.writeLog("Fixing up hero position");
+		//}
 	}
 
 	val = df::match("", "current_weapon");
