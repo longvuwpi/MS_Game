@@ -27,4 +27,5 @@ public:
 	void hit(const df::EventCollision *p_collision_event);
 	int getDamage();
 	BulletType getBulletType();
+	int deserialize(std::string str) override;
 };

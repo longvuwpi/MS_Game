@@ -18,8 +18,8 @@
 #include "Boss.h"
 #include "Level1.h"
 
-Server::Server() {
-
+Server::Server(bool isPredicted) {
+	is_predicted = isPredicted;
 	// Set as network server.
 	setType("Server");
 	NM.setServer(true);
@@ -31,6 +31,10 @@ Server::Server() {
 	registerInterest(df::STEP_EVENT);
 
 	LM.writeLog("Server::Server(): Server started");
+}
+
+bool Server::getIsPredicted() {
+	return is_predicted;
 }
 
 // Handle event.
@@ -51,11 +55,14 @@ int Server::eventHandler(const df::Event *p_e) {
 // If any Objects need to be synchronized, send to Clients.
 void Server::doSync() {
 
+	df::ObjectList *failList = new df::ObjectList();
+
 	// Iterate through all Objects.
 	df::ObjectList ol = WM.getAllObjects();
 	df::ObjectListIterator li(&ol);
 	for (li.first(); !li.isDone(); li.next()) {
 		Object *p_o = (Object *)li.currentObject();
+		int res = 0;
 
 		// Explosions synchronized when first created here,
 		// then when deleted in Explosion destructor.
@@ -65,7 +72,7 @@ void Server::doSync() {
 				p_o->getType().c_str(), p_o->getId());
 
 			// Send to all connected sockets.
-			sendMessage(df::SYNC_OBJECT, p_o);
+			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
 		// Reticle(s) synchronized when first created or when change position.
@@ -78,13 +85,17 @@ void Server::doSync() {
 		//  sendMessage(df::SYNC_OBJECT, p_o);
 		//}
 
-		if (p_o->isModified() &&
-			(p_o->getType() == "Hero")) {
-			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
-				p_o->getType().c_str(), p_o->getId());
+		if (p_o->getType() == "Hero") {
+			if (p_o->isModified()) {
+				LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+					p_o->getType().c_str(), p_o->getId());
 
-			// Send to all connected sockets.
-			sendMessage(df::SYNC_OBJECT, p_o);
+				// Send to all connected sockets.
+				res = sendMessage(df::SYNC_OBJECT, p_o);
+			}
+			else {
+				LM.writeLog("Server::doSync(): Hero was not modified");
+			}
 		}
 
 		if ((p_o->isModified(df::ID) ||
@@ -94,25 +105,25 @@ void Server::doSync() {
 				p_o->getType().c_str(), p_o->getId());
 
 			// Send to all connected sockets.
-			sendMessage(df::SYNC_OBJECT, p_o);
+			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
 		if ((p_o->getType() == "Weapon") && p_o->isModified()) {
 			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
 				p_o->getType().c_str(), p_o->getId());
-			sendMessage(df::SYNC_OBJECT, p_o);
+			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
 		if ((p_o->getType() == "Bullet") && p_o->isModified()) {
 			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
 				p_o->getType().c_str(), p_o->getId());
-			sendMessage(df::SYNC_OBJECT, p_o);
+			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
-		if ((p_o->getType() == "BulletTrail") && p_o->isModified()) {
+		if ((p_o->getType() == "BulletTrail") && p_o->isModified(df::ID)) {
 			//LM.writeLog("Server::doSync(): SYNC %s (id %d).",
-			   // p_o->getType().c_str(), p_o->getId());
-			sendMessage(df::SYNC_OBJECT, p_o);
+			//    p_o->getType().c_str(), p_o->getId());
+			//res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
 		if ((p_o->isModified(df::ID) ||
@@ -122,10 +133,25 @@ void Server::doSync() {
 				p_o->getType().c_str(), p_o->getId());
 
 			// Send to all connected sockets.
-			sendMessage(df::SYNC_OBJECT, p_o);
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
+
+		if (res == -1) {
+			failList->insert(p_o);
 		}
 
 	} // End of iterate through all Objects.
+
+	df::ObjectListIterator fli(failList);
+	for (fli.first(); !fli.isDone(); fli.next()) {
+		Object *p_fo = (Object *)fli.currentObject();
+
+		LM.writeLog("Server::resending sync message(): SYNC %s (id %d).",
+			p_fo->getType().c_str(), p_fo->getId());
+
+		sendMessage(df::SYNC_OBJECT, p_fo, "ALL");
+
+	}
 }
 
 // Handle accept.
@@ -161,14 +187,14 @@ int Server::handleAccept(const df::EventNetwork *p_e) {
 	int hero_id = 0;
 
 	if (sock_in == 0) {
-		Hero *newHero = new Hero(0, 20);
+		Hero *newHero = new Hero(0, 20, is_predicted);
 		Level1 *level1 = new Level1();
 		level1->start();
 		hero_id = newHero->getId();
 	}
 	else if (sock_in == 1) {
 		int temp = df::Object::max_id;
-		Hero *newHero = new Hero(1, 40);
+		Hero *newHero = new Hero(1, 40, is_predicted);
 		df::Object::max_id = temp;
 		hero_id = newHero->getId();
 	}
@@ -176,11 +202,16 @@ int Server::handleAccept(const df::EventNetwork *p_e) {
 	//std::string id_str = "Your hero id: " + std::to_string(hero_id);
 	std::string id_str = std::to_string(hero_id);
 	const char *buff = id_str.c_str();
-	LM.writeLog("Server::eventHandler(): sending custom message: '%s'",
+	LM.writeLog("Server::eventHandler(): sending hero id message: '%s'",
 		buff);
+
+	const char *buff2 = is_predicted ? " true" : "false";
+	LM.writeLog("Server::eventHandler(): sending is_predicted message: '%s'",
+		buff2);
 	
-	// Send to all connected sockets.
+	// Send to newly connected socket.
 	sendMessage(df::CUSTOM_MESSAGE, (int)strlen(buff) + 1, buff, sock_in);
+	//sendMessage(df::CUSTOM_MESSAGE, (int)strlen(buff2) + 1, buff2, sock_in);
 
 	// Send all Reticles and Explosions to newly connected client.
 	df::ObjectList ol = WM.getAllObjects();
@@ -188,7 +219,7 @@ int Server::handleAccept(const df::EventNetwork *p_e) {
 	for (li.first(); !li.isDone(); li.next()) {
 		Object *p_o = (Object *)li.currentObject();
 		if (p_o->getType() == "Explosion" || p_o->getType() == "Hero" || p_o->getType() == "Platform" || p_o->getType() == "Saucer" || p_o->getType() == "Level")
-			sendMessage(df::SYNC_OBJECT, p_o, true);
+			sendMessage(df::SYNC_OBJECT, p_o, "ALL");
 			//sendMessage(df::SYNC_OBJECT, p_o, p_e->getSocketIndex());
 	}
 

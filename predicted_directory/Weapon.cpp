@@ -153,7 +153,7 @@ void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
 	}
 
 	if (hit) {
-		df::addParticles(20, 5, target, 2.0f, df::Vector(0,0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+		df::addParticles(20, 5, target, 2.0f, df::Vector(0, 0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
 	}
 }
 
@@ -174,25 +174,27 @@ void Weapon::fire(df::Vector target) {
 	}
 	fire_count_down = fire_rate; 		weapon_modified[FIRE_COUNT_DOWN] = true;
 	ammo_loaded--;						weapon_modified[AMMO_LOADED] = true;
+	current_target = target;			weapon_modified[CURRENT_TARGET] = true;
 	last_shot_frame = GM.getStepCount();
 	recoil = shot_recoil;
 
 	DM.shake(fire_rate, fire_rate, 3, false);
-
+	LM.writeLog("Weapon just fired, ammo is %d", ammo_loaded);
 	//If scoping, deal instant damage at target, else fire Bullet towards target.
 	if (weapon_type == WeaponType::SNIPER) {
 		if (is_scoping) {
 			dealDamageAt(target, true);
 		}
 		else {
-			dealDamageAt(calculateInaccurateTarget(target), true);
+			current_target = calculateInaccurateTarget(target);
+			dealDamageAt(current_target, true);
 		}
 	}
 	else {
 		//Calculate the hit target based on inaccuracy
-		df::Vector actualTarget = calculateInaccurateTarget(target);
+		current_target = calculateInaccurateTarget(target);
 		// Compute normalized vector to position, then scale by bullet speed.
-		df::Vector v = actualTarget - origin;
+		df::Vector v = current_target - origin;
 		//df::Vector v = getDirection();
 		v.normalize();
 		v.scale(bullet_speed);
@@ -207,7 +209,7 @@ void Weapon::fire(df::Vector target) {
 	//hero->getReticle()->expand();
 	df::Vector direction = (target - origin);
 	direction.normalize();
-	df::addParticles(60, 10, origin+df::Vector(0,0.5f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+	df::addParticles(60, 10, origin + df::Vector(0, 0.5f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
 
 	//Increase inaccuracy for rifle
 	if (weapon_type == WeaponType::RIFLE) {
@@ -245,7 +247,7 @@ void Weapon::toggleScope() {
 		while (!li.isDone()) {
 			if (li.currentObject()->getType() != "Weapon") {
 				li.currentObject()->setVisible(true);
-			}             
+			}
 			li.next();
 		}
 	}
@@ -299,7 +301,10 @@ void Weapon::step() {
 	recoil -= 0.35f;
 	if (recoil < 0) recoil = 0;
 
-	if (isVisible()) { setPosition(hero->getPosition() + df::Vector(3, 1) + df::Vector(-recoil, 0)); }
+	if (isVisible()) {
+		setPosition(hero->getPosition() + df::Vector(3, 1) + df::Vector(-recoil, 0));
+	}
+
 }
 
 std::string Weapon::getWeaponName() {
@@ -365,45 +370,38 @@ bool Weapon::isScoping() {
 	return is_scoping;
 }
 
-bool Weapon::isWeaponModified(WeaponAttribute weapon_attribute) {
-	return weapon_modified[weapon_attribute];
-}
-
-bool Weapon::isWeaponModified() {
+bool Weapon::isModified() const {
 	for (int i = 0; i < weapon_att_count; i++) {
 		if (weapon_modified[i]) return true;
 	}
-	return false;
-}
-
-bool Weapon::isModified() {
-	return (Object::isModified() || isWeaponModified());
+	return Object::isModified();
 }
 
 int Weapon::getBulletSpeed() {
 	return bullet_speed;
 }
 
-std::string Weapon::serialize(bool all) {
-	LM.writeLog(5, "Weapon::serialize()");
+std::string Weapon::serialize(std::string all) {
+	LM.writeLog(1, "Weapon::serialize() %s", all);
 
 	// Do main serialize from parent.
 	std::string s = Object::serialize(all);
 
 	// Add Weapon-specific attributes.
-	if (all || weapon_modified[FIRE_COUNT_DOWN]) {
+	if ((all == "ALL") || weapon_modified[FIRE_COUNT_DOWN]) {
 		s += "fire_count_down:" + df::toString(fire_count_down) + ",";
 		weapon_modified[FIRE_COUNT_DOWN] = false;
 	}
-	if (all || weapon_modified[AMMO_LOADED]) {
+	if ((all == "ALL") || weapon_modified[AMMO_LOADED]) {
 		s += "ammo_loaded:" + df::toString(ammo_loaded) + ",";
 		weapon_modified[AMMO_LOADED] = false;
+		LM.writeLog("Serialized ammo loaded, %d", ammo_loaded);
 	}
-	if (all || weapon_modified[AMMO_BACKUP]) {
+	if ((all == "ALL") || weapon_modified[AMMO_BACKUP]) {
 		s += "ammo_backup:" + df::toString(ammo_backup) + ",";
 		weapon_modified[AMMO_BACKUP] = false;
-	}	
-	if (all || weapon_modified[IS_RELOADING]) {
+	}
+	if ((all == "ALL") || weapon_modified[IS_RELOADING]) {
 		if (reloading) {
 			s += "reloading:true,";
 		}
@@ -412,14 +410,19 @@ std::string Weapon::serialize(bool all) {
 		}
 		weapon_modified[IS_RELOADING] = false;
 	}
-	if (all || weapon_modified[IS_SCOPING]) {
-		if(is_scoping) {
+	if ((all == "ALL") || weapon_modified[IS_SCOPING]) {
+		if (is_scoping) {
 			s += "is_scoping:true,";
 		}
 		else {
 			s += "is_scoping:false,";
 		}
 		weapon_modified[IS_SCOPING] = false;
+	}
+	if ((all == "ALL") || weapon_modified[CURRENT_TARGET]) {
+		s += "current_target_x:" + df::toString(current_target.getX()) + ",";
+		s += "current_target_y:" + df::toString(current_target.getY()) + ",";
+		weapon_modified[CURRENT_TARGET] = false;
 	}
 	//s += "socket_index:" + df::toString(getSocketIndex()) + ",";
 
@@ -431,12 +434,17 @@ std::string Weapon::serialize(bool all) {
 int Weapon::deserialize(std::string str) {
 	LM.writeLog("Weapon::deserialize()");
 
-	// Do main deserialize from parent.
-	Object::deserialize(str);
+	if (!hero->isPredicted()) {
+		// Do main deserialize from parent.
+		Object::deserialize(str);
+	}
 
 	// Get ready for parsing.
 	std::string val;
+	bool just_shot = false;
+	df::match(str, "");
 
+	// Look for attributes
 	val = df::match("", "fire_count_down");
 	if (!val.empty()) {
 		int i = atoi(val.c_str());
@@ -444,11 +452,20 @@ int Weapon::deserialize(std::string str) {
 		fire_count_down = i;
 	}
 
-	// Look for attributes
 	val = df::match("", "ammo_loaded");
 	if (!val.empty()) {
 		int i = atoi(val.c_str());
-		LM.writeLog("Weapon::deserialize(): ammo_loaded is %d", i);
+		LM.writeLog("Weapon::deserialize(): current ammo_loaded is %d", ammo_loaded);
+		LM.writeLog("Weapon::deserialize(): new ammo_loaded is %d", i);
+		if (i < ammo_loaded) {
+			just_shot = true;
+			val = df::match("", "current_target_x");
+			float x = atof(val.c_str());
+			val = df::match("", "current_target_y");
+			float y = atof(val.c_str());
+			current_target = df::Vector(x, y);
+			LM.writeLog("Weapon::deserialize(): updated current target to (%f,%f)", current_target.getX(), current_target.getY());
+		}
 		ammo_loaded = i;
 	}
 
@@ -480,6 +497,28 @@ int Weapon::deserialize(std::string str) {
 		else {
 			LM.writeLog("Weapon::deserialize(): reloading is false");
 			reloading = false;
+		}
+	}
+
+	if (just_shot) {
+		df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
+		df::Sound *p_sound = df::ResourceManager::getInstance().getSound(weapon_name + "_fire");
+		p_sound->play();
+		//hero->getReticle()->expand();
+		df::Vector direction = (current_target - origin);
+		direction.normalize();
+		df::addParticles(60, 10, origin + df::Vector(0, 0.5f), 0.1f, direction, 0.6f, 3.0f, 1.0f, 1.0f, 1.0f, 5, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+		DM.shake(fire_rate, fire_rate, 3, false);
+
+		if (weapon_type == WeaponType::SNIPER) {
+			df::Vector traveled = current_target - origin;
+			int distance = traveled.getMagnitude();
+			traveled.normalize();
+			for (int i = 0; i <= distance; i++) {
+				df::Vector scaled(traveled.getX(), traveled.getY());
+				scaled.scale(i);
+				DM.drawCh(origin + scaled, '.', df::YELLOW);
+			}
 		}
 	}
 

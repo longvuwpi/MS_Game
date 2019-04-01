@@ -58,6 +58,12 @@ class Particle : public Object {
   /// Handle step events.
   /// Return 0 if ignored, else 1.
   int eventHandler(const Event *p_e);
+
+  /// Log warning if trying to serialize particles.
+  virtual std::string serialize(std::string attr="");
+
+  /// Log warning if trying to deserialize particles.
+  virtual int deserialize(std::string s);
 };
 
 } // end of namespace df

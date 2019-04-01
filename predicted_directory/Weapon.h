@@ -9,8 +9,8 @@ class Hero;
 
 enum WeaponType {SNIPER, RIFLE, LAUNCHER};
 
-const int weapon_att_count = 5;
-enum WeaponAttribute{FIRE_COUNT_DOWN, AMMO_LOADED, AMMO_BACKUP, IS_RELOADING, IS_SCOPING};
+const int weapon_att_count = 6;
+enum WeaponAttribute{FIRE_COUNT_DOWN, AMMO_LOADED, AMMO_BACKUP, IS_RELOADING, IS_SCOPING, CURRENT_TARGET};
 
 class Weapon : public df::Object {
 
@@ -42,6 +42,7 @@ private:
 	Hero *hero; 
 	void step();
 	df::Vector calculateInaccurateTarget(df::Vector target);
+	df::Vector current_target;
 public:
 	Weapon(std::string weaponName, WeaponType weaponType, Hero *owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int damage,bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration);
 	void fire(df::Vector target);
@@ -65,11 +66,9 @@ public:
 	int getAmmoBackupMax();
 	WeaponType getWeaponType();
 
-	bool isWeaponModified(WeaponAttribute weapon_attribute);
-	bool isWeaponModified();
-	bool isModified();
+	bool isModified() const override;
 	// Custom serialize for local attributes.
-	std::string serialize(bool all = false);
+	std::string serialize(std::string all = "");
 	// Custom deserialize for local attributes.
 	int deserialize(std::string str);
 };

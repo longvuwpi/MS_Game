@@ -31,11 +31,12 @@ void Level1::levelLogic() {
 
 	if (progress == 1) {
 		int i = (GM.getStepCount() - start_frame) % 180;
-		if ((i == 0) ||
-			(i == 5) ||
-			(i == 10) ||
-			(i == 15) ||
-			(i == 20)) {
+		//if ((i == 0) ||
+		//	(i == 5) ||
+		//	(i == 10) ||
+		//	(i == 15) ||
+		//	(i == 20)) {
+		if (i == 0) {
 			Saucer *saucer = new Saucer(15, 5, 0, 3, 1);
 			//df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 			df::Vector spawnPos(hero->viewPositionOnHero().getX() + WM.getView().getHorizontal(), 30);

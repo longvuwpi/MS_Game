@@ -15,10 +15,12 @@
 namespace df {
 
 /// Count of number of button modified attribute categories.
-const int BATTR_COUNT = 2;
+const int BATTR_COUNT = 4;
 
 /// Categories of button attributes that indicate modification.
 enum ButtonAttribute {
+  ALL_BUTTON,
+  MODIFIED_BUTTON,
   HIGHLIGHT_COLOR,
   DEFAULT_COLOR,
 };
@@ -57,8 +59,10 @@ class Button : public ViewObject {
   virtual void callback() = 0;
 
   /// Serialize Button attributes to single string.
-  /// Only modified attributes (unless all is true).
-  virtual std::string serialize(bool all = false);
+  /// Can specify attribute to serialize (default "" means all modified).
+  /// If attr is "ALL", serialize all attributes (modified or not).
+  /// Clear m_bmodified[] array for attributes serialized.
+  virtual std::string serialize(std::string attr="");
 
   /// Deserialize string to become attributes.
   /// Rerturn 0 if no errors, else -1.  

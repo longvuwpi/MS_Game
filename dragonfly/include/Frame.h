@@ -5,7 +5,12 @@
 #ifndef __FRAME_H__
 #define __FRAME_H__
 
+// System includes.
 #include <string>
+
+// Engine includes.
+#include "Color.h"
+#include "Vector.h"
 
 namespace df {
 
@@ -40,6 +45,12 @@ class Frame {
 
   /// Get frame characters (stored as string).
   std::string getString() const;
+
+  /// Draw self centered at position (x,y) with color.
+  /// Don't draw transparent characters (0 means none).
+  /// Return 0 if ok, else -1.
+  /// Note: top-left coordinate is (0,0).
+  int draw(Vector position, Color color, char transparency) const;
 };
 
 } // end of namespace df

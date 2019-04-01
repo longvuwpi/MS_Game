@@ -164,6 +164,7 @@
     <ClInclude Include="..\Level.h" />
     <ClInclude Include="..\Level1.h" />
     <ClInclude Include="..\Platform.h" />
+    <ClInclude Include="..\ReadyButton.h" />
     <ClInclude Include="..\Reticle.h" />
     <ClInclude Include="..\Saucer.h" />
     <ClInclude Include="..\Server.h" />
@@ -186,6 +187,7 @@
     <ClCompile Include="..\Level.cpp" />
     <ClCompile Include="..\Level1.cpp" />
     <ClCompile Include="..\Platform.cpp" />
+    <ClCompile Include="..\ReadyButton.cpp" />
     <ClCompile Include="..\Reticle.cpp" />
     <ClCompile Include="..\Saucer.cpp" />
     <ClCompile Include="..\Server.cpp" />

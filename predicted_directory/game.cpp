@@ -7,6 +7,10 @@
 // System includes.
 #include <stdlib.h>		// for setenv()
 #include <string>
+#include <iostream>
+#include <chrono>
+#include <ctime>
+#include <time.h>
 #if defined(_WIN32) || defined(_WIN64)
 #include <process.h>
 #else
@@ -29,18 +33,42 @@ void loadResources(void);
  
 int main(int argc, char *argv[]) {
   bool is_server;
+  bool is_predicted;
+
+  auto current_time = std::chrono::system_clock::now();
+  std::time_t current_time_t = std::chrono::system_clock::to_time_t(current_time);
+  std::to_string(current_time_t);
+  struct tm * timeinfo = localtime(&current_time_t);
+  char timestring[80];
+  //strftime(timestring, 80, "%H%M%S", timeinfo);
+  strftime(timestring, 80, "%H%M", timeinfo);
 
   // Must specify 0 args if server, 1 arg if client.
-  if (argc != 1 && argc != 2)
+  if (argc != 2 && argc != 3)
     usage();
 
+  std::string log_file;
+
   // Setup logfile: server or client.
-  if (argc == 1) {
+  if (argc == 2) {
     is_server = true;
+	std::string predicted_string;
+	//if (strcmp("true", argv[1])) {
+	if (std::string(argv[1]).find("true") != std::string::npos) {
+		is_predicted = true;
+		predicted_string = "_server_p.log";
+	}
+	else {
+		is_predicted = false;
+		predicted_string = "_server_np.log";
+	}
+
+	 log_file = timestring + predicted_string;
+
 #if defined(_WIN32) || defined(_WIN64)
-	_putenv_s("DRAGONFLY_LOG", "server.log");
+	_putenv_s("DRAGONFLY_LOG", log_file.c_str());
 #else
-	setenv("DRAGONFLY_LOG", "server.log", 1);
+	setenv("DRAGONFLY_LOG", log_file.c_str(), 1);
 #endif
   } else {
     is_server = false;
@@ -49,13 +77,13 @@ int main(int argc, char *argv[]) {
 #else
     int pid = getpid();
 #endif    
-    std::string logfile = "client";
-    logfile += std::to_string(pid);
-    logfile += ".log";
+    log_file = std::string(timestring) + "_client_" + std::string(argv[2]) + ".log";
+    //log_file += std::to_string(pid);
+    //log_file += ".log";
 #if defined(_WIN32) || defined(_WIN64)
-    _putenv_s("DRAGONFLY_LOG", logfile.c_str());
+    _putenv_s("DRAGONFLY_LOG", log_file.c_str());
 #else
-    setenv("DRAGONFLY_LOG", logfile.c_str(), 1);
+    setenv("DRAGONFLY_LOG", log_file.c_str(), 1);
 #endif
   }
 
@@ -68,8 +96,10 @@ int main(int argc, char *argv[]) {
 
   // Setup logging.
   LM.setFlush(true);
+  //LM.setLogLevel(20);
   LM.setLogLevel(1);
   LM.writeLog("Hello, Network! (v%.1f)", VERSION);
+  LM.writeLog(log_file.c_str());
 
   // Load game resources.
   loadResources();
@@ -78,7 +108,7 @@ int main(int argc, char *argv[]) {
   df::NetworkNode *p_node;
   if (is_server) {
     df::splash();
-    p_node = (df::NetworkNode *) new Server;
+    p_node = (df::NetworkNode *) new Server(is_predicted);
   } else {
     p_node = (df::NetworkNode *) new Client(argv[1]);
   }
@@ -212,8 +242,8 @@ void loadResources(void) {
 // Print usage message and exit.
 void usage(void) {
   fprintf(stderr, "Hello, Network! (v%.1f)\n", VERSION);
-  fprintf(stderr, "Usage: game [server name]:\n");
-  fprintf(stderr, "\t[server name]  run as a client, connect to server\n");
-  fprintf(stderr, "\t(no arg)       otherwise, run as a sever\n");
+  fprintf(stderr, "Usage: game.exe [server name]:\n");
+  fprintf(stderr, "\t[server name] [username]  run as a client, connect to server\n");
+  fprintf(stderr, "\t[is_predicted]			   otherwise, run as a sever\n");
   exit(1);
 }

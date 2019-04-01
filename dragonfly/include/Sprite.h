@@ -67,6 +67,12 @@ class Sprite {
 
   /// Get label associated with sprite.
   std::string getLabel() const;
+
+  /// Draw indicated frame centered at position (x,y).
+  /// Don't draw transparent characters (0 means none).
+  /// Return 0 if ok, else -1.
+  /// Note: top-left coordinate is (0,0).
+  int draw(int frame_number, Vector position, char transparency) const;
 };
 
 } // end of namespace df

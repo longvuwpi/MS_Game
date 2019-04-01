@@ -15,10 +15,12 @@
 namespace df {
 
 /// Count of number of text entry modified attribute categories.
-const int TATTR_COUNT = 6;
+const int TATTR_COUNT = 8;
 
 /// Categories of text entry attributes that indicate modification.
 enum TextEntryAttribute {
+  ALL_TEXT,
+  MODIFIED_TEXT,
   TEXT,
   LIMIT,
   CURSOR,
@@ -88,9 +90,11 @@ class TextEntry : public ViewObject {
   /// Draw viewstring + text entered.
   virtual void draw();
 
-  /// Serialize Button attributes to single string.
-  /// Only modified attributes (unless all is true).
-  virtual std::string serialize(bool all = false);
+  /// Serialize TextEntry attributes to single string.
+  /// Can specify attribute to serialize (default "" means all modified).
+  /// If attr is "ALL", serialize all attributes (modified or not).
+  /// Clear m_tmodified[] array for attributes serialized.
+  virtual std::string serialize(std::string attr="");
 
   /// Deserialize string to become attributes.
   /// Rerturn 0 if no errors, else -1.  

@@ -5,8 +5,8 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(171)
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(172): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Boss.cpp
   Bullet.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(179): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(191): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(180): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(195): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   BulletTrail.cpp
   Client.cpp
   EnemyAttack.cpp
@@ -18,16 +18,18 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\enemymovement.cpp(70
   EventBossTookDamage.cpp
   Explosion.cpp
   game.cpp
+c:\users\vuxua\documents\github\ms_game\predicted_directory\game.cpp(41): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
   Hero.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(137): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(145): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(299): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(303): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(472): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(153): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(310): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(314): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(500): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Level.cpp
   Level1.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Platform.cpp
   Reticle.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(85): warning C4305: 'argument': truncation from 'double' to 'float'
@@ -53,8 +55,58 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(190): wa
   Weapon.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(198): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(200): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(463): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(465): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(515): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(519): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  All 818 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 838 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
+libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Circle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Circle.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Clock.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Clock.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Config.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Config.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(DisplayManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(DisplayManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Event.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Event.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventCollision.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventCollision.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventCustomNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventCustomNetwork.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventKeyboard.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventKeyboard.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventKeyboardNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventKeyboardNetwork.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventMouse.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventMouse.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventMouseNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventMouseNetwork.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventNetwork.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventOut.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventOut.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventPath.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventPath.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventStep.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventStep.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventView.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventView.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Firework.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Firework.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Frame.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Frame.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(GameManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(GameManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(InputManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(InputManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Line.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Line.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(LogManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(LogManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Manager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Manager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Music.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Music.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(NetworkManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(NetworkManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(NetworkNode.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(NetworkNode.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Object.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Object.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ObjectList.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ObjectList.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ObjectListIterator.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ObjectListIterator.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Particle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Particle.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Path.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Path.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(PathFind.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(PathFind.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(PathManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(PathManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Precipitation.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Precipitation.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ResourceManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ResourceManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(SceneGraph.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(SceneGraph.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Shape.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Shape.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Sound.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Sound.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Splash.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Splash.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(SplashDragonfly.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(SplashDragonfly.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Sprite.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Sprite.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(utility.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(utility.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Vector.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Vector.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ViewObject.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ViewObject.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(WorldManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(WorldManager.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
   game.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\game.exe

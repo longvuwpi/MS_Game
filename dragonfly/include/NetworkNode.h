@@ -53,7 +53,7 @@ enum MessageType {
 // 5) Mouse-y as float.
 
 // CUSTOM:
-// 2) Bytes as a blob.
+// 2) Bytes as blob.
 
 class NetworkNode : public Object {
 
@@ -82,15 +82,34 @@ class NetworkNode : public Object {
   virtual int handleData(const EventNetwork *p_e);
 
   /// Send message (supporting various message types).
+  /// Send message from Server to Client.
+  /// SET_GAME_OVER
   /// Return 1 if something sent, 0 if nothing sent, -1 if error.
   int sendMessage(MessageType msg_type, int sock_index=-1);
-  int sendMessage(MessageType msg_type, Object *p_obj, bool all_attr = false,
-		  int sock_index=-1);
+
+  /// Send message from Server to Client.
+  /// SYNC_OBJECT or DELETE_OBJECT
+  /// Synchronize attr, passed to serialize().
+  /// Return 1 if something sent, 0 if nothing sent, -1 if error.
+  int sendMessage(MessageType msg_type, Object *p_obj,
+		  std::string attr="", int sock_index=-1);
+
+  /// Send message from Client to Server.
+  /// KEYBOARD_INPUT
+  /// Return 1 if something sent, 0 if nothing sent, -1 if error.
   int sendMessage(MessageType msg_type, EventKeyboardAction action,
 		  Keyboard::Key key, int sock_index=-1);
+
+  /// Send message from Client to Server.
+  /// MOUSE_INPUT
+  /// Return 1 if something sent, 0 if nothing sent, -1 if error.
   int sendMessage(MessageType msg_type, EventMouseAction action,
 		  Mouse::Button button, Vector mouse_position,
 		  int sock_index=-1);
+
+  /// Send message from Client to Server.
+  /// CUSTOM_MESSAGE
+  /// Return 1 if something sent, 0 if nothing sent, -1 if error.
   int sendMessage(MessageType msg_type, int num_bytes, const void *bytes, 
 		  int sock_index=-1);
 

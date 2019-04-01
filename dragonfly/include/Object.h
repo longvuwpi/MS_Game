@@ -60,7 +60,6 @@ class Object {
 
  public:
   static int max_id;	        ///< Monotonically increasing identifier.
-
 protected:
   bool m_modified[ATTR_COUNT];  ///< Mod. attrib. since last serialize().
 
@@ -278,19 +277,20 @@ protected:
   void setSpriteSlowdownCount(int new_sprite_slowdown_count);
   int getSpriteSlowdownCount() const;
   
-  /// Serialize attributes to single string.
-  /// e.g., "id:110,is_active:true, ...
-  /// Only modified attributes are serialized (unless all is true).
-  /// If not all, clear modified[] array, as appropriate.
-  virtual std::string serialize(bool all=false);
+  /// Serialize attributes to string. e.g., "id:4,pos-x:2.2,pos-y:0.9...".
+  /// Default ("") is only attributes modified since last serialize().
+  /// Can specify specific attribute(s) to serialize (modified or not).
+  /// If attr is "ALL" then serialize all attributes (modified or not).
+  /// Clear m_modified[] array for attributes serialized.
+  virtual std::string serialize(std::string attr="");
 
-  /// Deserialize string to become attributes.
+  /// Deserialize string to become attributes and apply.
   /// Return 0 if no errors, else -1.  
   virtual int deserialize(std::string s);
 
   /// Return true if attribute modified since last serialize.
   virtual bool isModified(enum ObjectAttribute attribute) const;
-  
+
   /// Return true if any attribute modified since last serialize.
   virtual bool isModified() const;
 

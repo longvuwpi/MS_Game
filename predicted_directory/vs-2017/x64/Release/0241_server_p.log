@@ -1,0 +1,2160 @@
+02:41:14    0 ****************************************************
+02:41:14    0 ** Dragonfly version 4.12 **
+02:41:14    0 Hello, Network! (v1.2)
+02:41:14    0 0241_server_p.log
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+02:41:14    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+02:41:14    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+02:41:14    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+02:41:14    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+02:41:15    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+02:41:15    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+02:41:15    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+02:41:15    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+02:41:15    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+02:41:16    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+02:41:17    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+02:41:17    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+02:41:17    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+02:41:17    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+02:41:17    0 GameManager::run(): starting game loop
+02:41:20   88 GameManager::run(): end of game loop
+02:41:20   88 NetworkManager::setServer(): Ready for connections on port 9876.
+02:41:20   88 Server::Server(): Setup for 3 connections.
+02:41:20   88 Server::Server(): Server started
+02:41:20   88 GameManager::run(): starting game loop
+02:41:25  164 NetworkManager::accept(): New connection.
+02:41:25  164 Server::handleAccept(): server now connected socket: 0
+02:41:25  164 Server::eventHandler(): sending hero id message: '20'
+02:41:25  164 Server::eventHandler(): sending is_predicted message: ' true'
+02:41:25  165 Server::doSync(): SYNC Hero (id 20).
+02:41:25  165 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  165 Server::doSync(): SYNC Weapon (id 22).
+02:41:25  165 Server::doSync(): SYNC Weapon (id 23).
+02:41:25  166 Server::doSync(): SYNC Hero (id 20).
+02:41:25  166 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  167 Server::doSync(): SYNC Hero (id 20).
+02:41:25  167 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  168 Server::doSync(): SYNC Hero (id 20).
+02:41:25  168 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  169 Server::doSync(): SYNC Hero (id 20).
+02:41:25  169 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  170 Server::doSync(): SYNC Hero (id 20).
+02:41:25  170 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  171 Server::doSync(): SYNC Hero (id 20).
+02:41:25  171 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  172 Server::doSync(): SYNC Hero (id 20).
+02:41:25  172 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  173 Server::doSync(): SYNC Hero (id 20).
+02:41:25  173 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  174 Server::doSync(): SYNC Hero (id 20).
+02:41:25  174 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  175 Server::doSync(): SYNC Hero (id 20).
+02:41:25  175 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  176 Server::doSync(): SYNC Hero (id 20).
+02:41:25  176 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  177 Server::doSync(): SYNC Hero (id 20).
+02:41:25  177 Server::doSync(): SYNC Weapon (id 21).
+02:41:25  178 Server::doSync(): SYNC Hero (id 20).
+02:41:25  178 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  179 Server::doSync(): SYNC Hero (id 20).
+02:41:26  179 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  180 Server::doSync(): SYNC Hero (id 20).
+02:41:26  180 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  181 Server::doSync(): SYNC Hero (id 20).
+02:41:26  181 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  182 Server::doSync(): SYNC Hero (id 20).
+02:41:26  182 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  183 Server::doSync(): SYNC Hero (id 20).
+02:41:26  183 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  184 Server::doSync(): SYNC Hero (id 20).
+02:41:26  184 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  185 Server::doSync(): SYNC Hero (id 20).
+02:41:26  185 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  186 Server::doSync(): SYNC Hero (id 20).
+02:41:26  186 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  187 Server::doSync(): SYNC Hero (id 20).
+02:41:26  187 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  188 Server::doSync(): SYNC Hero (id 20).
+02:41:26  188 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  189 Server::doSync(): SYNC Hero (id 20).
+02:41:26  189 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  190 Server::doSync(): SYNC Hero (id 20).
+02:41:26  190 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  191 Server::doSync(): SYNC Hero (id 20).
+02:41:26  191 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  192 Server::doSync(): SYNC Hero (id 20).
+02:41:26  192 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  193 Server::doSync(): SYNC Hero (id 20).
+02:41:26  193 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  194 Server::doSync(): SYNC Hero (id 20).
+02:41:26  194 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  195 Server::doSync(): SYNC Hero (id 20).
+02:41:26  195 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  196 Server::doSync(): SYNC Hero (id 20).
+02:41:26  196 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  197 Server::doSync(): SYNC Hero (id 20).
+02:41:26  197 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  198 Server::doSync(): SYNC Hero (id 20).
+02:41:26  198 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  199 Server::doSync(): SYNC Hero (id 20).
+02:41:26  199 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  200 Server::doSync(): SYNC Hero (id 20).
+02:41:26  200 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  201 Server::doSync(): SYNC Hero (id 20).
+02:41:26  201 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  202 Server::doSync(): SYNC Hero (id 20).
+02:41:26  202 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  203 Server::doSync(): SYNC Hero (id 20).
+02:41:26  203 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  204 Server::doSync(): SYNC Hero (id 20).
+02:41:26  204 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  205 Server::doSync(): SYNC Hero (id 20).
+02:41:26  205 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  206 Server::doSync(): SYNC Hero (id 20).
+02:41:26  206 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  207 Server::doSync(): SYNC Hero (id 20).
+02:41:26  207 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  208 Server::doSync(): SYNC Hero (id 20).
+02:41:26  208 Server::doSync(): SYNC Weapon (id 21).
+02:41:26  209 Server::doSync(): SYNC Hero (id 20).
+02:41:26  209 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  210 Server::doSync(): SYNC Hero (id 20).
+02:41:27  210 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  211 Server::doSync(): SYNC Hero (id 20).
+02:41:27  211 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  212 Server::doSync(): SYNC Hero (id 20).
+02:41:27  212 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  213 Server::doSync(): SYNC Hero (id 20).
+02:41:27  213 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  214 Server::doSync(): SYNC Hero (id 20).
+02:41:27  214 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  215 Server::doSync(): SYNC Hero (id 20).
+02:41:27  215 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  216 Server::doSync(): SYNC Hero (id 20).
+02:41:27  216 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  217 Server::doSync(): SYNC Hero (id 20).
+02:41:27  217 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  218 Server::doSync(): SYNC Hero (id 20).
+02:41:27  218 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  219 Server::doSync(): SYNC Hero (id 20).
+02:41:27  219 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  220 Server::doSync(): SYNC Hero (id 20).
+02:41:27  220 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  221 Server::doSync(): SYNC Hero (id 20).
+02:41:27  221 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  222 Server::doSync(): SYNC Hero (id 20).
+02:41:27  222 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  223 Server::doSync(): SYNC Hero (id 20).
+02:41:27  223 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  224 Server::doSync(): SYNC Hero (id 20).
+02:41:27  224 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  225 Server::doSync(): SYNC Hero (id 20).
+02:41:27  225 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  226 Server::doSync(): SYNC Hero (id 20).
+02:41:27  226 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  227 Server::doSync(): SYNC Hero (id 20).
+02:41:27  227 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  228 Server::doSync(): SYNC Hero (id 20).
+02:41:27  228 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  229 Server::doSync(): SYNC Hero (id 20).
+02:41:27  229 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  230 Server::doSync(): SYNC Hero (id 20).
+02:41:27  230 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  231 Server::doSync(): SYNC Hero (id 20).
+02:41:27  231 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  232 Server::doSync(): SYNC Hero (id 20).
+02:41:27  232 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  233 Server::doSync(): SYNC Hero (id 20).
+02:41:27  233 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  234 Server::doSync(): SYNC Hero (id 20).
+02:41:27  234 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  235 Server::doSync(): SYNC Hero (id 20).
+02:41:27  235 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  236 Server::doSync(): SYNC Hero (id 20).
+02:41:27  236 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  237 Server::doSync(): SYNC Hero (id 20).
+02:41:27  237 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  238 Server::doSync(): SYNC Hero (id 20).
+02:41:27  238 Server::doSync(): SYNC Weapon (id 21).
+02:41:27  239 Server::doSync(): SYNC Hero (id 20).
+02:41:27  239 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  240 Server::doSync(): SYNC Hero (id 20).
+02:41:28  240 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  241 Server::doSync(): SYNC Hero (id 20).
+02:41:28  241 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  242 Server::doSync(): SYNC Hero (id 20).
+02:41:28  242 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  243 Server::doSync(): SYNC Hero (id 20).
+02:41:28  243 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  244 Server::doSync(): SYNC Hero (id 20).
+02:41:28  244 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  245 Server::doSync(): SYNC Hero (id 20).
+02:41:28  245 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  246 Server::doSync(): SYNC Hero (id 20).
+02:41:28  246 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  247 Server::doSync(): SYNC Hero (id 20).
+02:41:28  247 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  248 Server::doSync(): SYNC Hero (id 20).
+02:41:28  248 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  249 Server::doSync(): SYNC Hero (id 20).
+02:41:28  249 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  250 Server::doSync(): SYNC Hero (id 20).
+02:41:28  250 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  251 Server::doSync(): SYNC Hero (id 20).
+02:41:28  251 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  252 Server::doSync(): SYNC Hero (id 20).
+02:41:28  252 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  253 Server::doSync(): SYNC Hero (id 20).
+02:41:28  253 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  254 Server::doSync(): SYNC Hero (id 20).
+02:41:28  254 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  255 Server::doSync(): SYNC Hero (id 20).
+02:41:28  255 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  256 Server::doSync(): SYNC Hero (id 20).
+02:41:28  256 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  257 Server::doSync(): SYNC Hero (id 20).
+02:41:28  257 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  258 Server::doSync(): SYNC Hero (id 20).
+02:41:28  258 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  259 Server::doSync(): SYNC Hero (id 20).
+02:41:28  259 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  260 Server::doSync(): SYNC Hero (id 20).
+02:41:28  260 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  261 Server::doSync(): SYNC Hero (id 20).
+02:41:28  261 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  262 Server::doSync(): SYNC Hero (id 20).
+02:41:28  262 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  263 Server::doSync(): SYNC Hero (id 20).
+02:41:28  263 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  264 Server::doSync(): Hero was not modified
+02:41:28  264 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  265 Server::doSync(): Hero was not modified
+02:41:28  265 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  266 Server::doSync(): Hero was not modified
+02:41:28  266 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  267 Server::doSync(): Hero was not modified
+02:41:28  267 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  268 Server::doSync(): Hero was not modified
+02:41:28  268 Server::doSync(): SYNC Weapon (id 21).
+02:41:28  269 Server::doSync(): Hero was not modified
+02:41:28  269 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  270 Server::doSync(): Hero was not modified
+02:41:29  270 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  271 Server::doSync(): Hero was not modified
+02:41:29  271 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  272 Server::doSync(): Hero was not modified
+02:41:29  272 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  273 Server::doSync(): Hero was not modified
+02:41:29  273 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  274 Server::doSync(): Hero was not modified
+02:41:29  274 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  275 Server::doSync(): Hero was not modified
+02:41:29  275 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  276 Server::doSync(): Hero was not modified
+02:41:29  276 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  277 Server::doSync(): Hero was not modified
+02:41:29  277 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  278 Server::doSync(): Hero was not modified
+02:41:29  278 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  279 Server::doSync(): Hero was not modified
+02:41:29  279 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  280 Server::doSync(): Hero was not modified
+02:41:29  280 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  281 Server::doSync(): Hero was not modified
+02:41:29  281 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  282 Server::doSync(): Hero was not modified
+02:41:29  282 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  283 Server::doSync(): Hero was not modified
+02:41:29  283 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  284 Server::doSync(): Hero was not modified
+02:41:29  284 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  285 Server::doSync(): Hero was not modified
+02:41:29  285 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  286 Server::doSync(): Hero was not modified
+02:41:29  286 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  287 Server::doSync(): Hero was not modified
+02:41:29  287 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  288 Server::doSync(): Hero was not modified
+02:41:29  288 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  289 Server::doSync(): Hero was not modified
+02:41:29  289 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  290 Server::doSync(): Hero was not modified
+02:41:29  290 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  291 Server::doSync(): Hero was not modified
+02:41:29  291 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  292 Server::doSync(): Hero was not modified
+02:41:29  292 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  293 Server::doSync(): SYNC Hero (id 20).
+02:41:29  293 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  294 Server::doSync(): SYNC Hero (id 20).
+02:41:29  294 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  295 Server::doSync(): SYNC Hero (id 20).
+02:41:29  295 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  296 Server::doSync(): SYNC Hero (id 20).
+02:41:29  296 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  297 Server::doSync(): SYNC Hero (id 20).
+02:41:29  297 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  298 Server::doSync(): SYNC Hero (id 20).
+02:41:29  298 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  299 Server::doSync(): SYNC Hero (id 20).
+02:41:29  299 Server::doSync(): SYNC Weapon (id 21).
+02:41:29  300 Server::doSync(): SYNC Hero (id 20).
+02:41:29  300 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  301 Server::doSync(): SYNC Hero (id 20).
+02:41:30  301 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  302 Server::doSync(): SYNC Hero (id 20).
+02:41:30  302 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  303 Server::doSync(): SYNC Hero (id 20).
+02:41:30  303 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  304 Server::doSync(): SYNC Hero (id 20).
+02:41:30  304 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  305 Server::doSync(): Hero was not modified
+02:41:30  305 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  306 Server::doSync(): Hero was not modified
+02:41:30  306 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  307 Server::doSync(): Hero was not modified
+02:41:30  307 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  308 Server::doSync(): SYNC Hero (id 20).
+02:41:30  308 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  309 Server::doSync(): SYNC Hero (id 20).
+02:41:30  309 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  310 Server::doSync(): SYNC Hero (id 20).
+02:41:30  310 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  311 Server::doSync(): SYNC Hero (id 20).
+02:41:30  311 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  312 Server::doSync(): SYNC Hero (id 20).
+02:41:30  312 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  313 Server::doSync(): SYNC Hero (id 20).
+02:41:30  313 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  314 Server::doSync(): SYNC Hero (id 20).
+02:41:30  314 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  315 Server::doSync(): SYNC Hero (id 20).
+02:41:30  315 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  316 Server::doSync(): SYNC Hero (id 20).
+02:41:30  316 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  317 Server::doSync(): SYNC Hero (id 20).
+02:41:30  317 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  318 Server::doSync(): SYNC Hero (id 20).
+02:41:30  318 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  319 Server::doSync(): SYNC Hero (id 20).
+02:41:30  319 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  320 Server::doSync(): Hero was not modified
+02:41:30  320 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  321 Server::doSync(): Hero was not modified
+02:41:30  321 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  322 Server::doSync(): Hero was not modified
+02:41:30  322 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  323 Server::doSync(): Hero was not modified
+02:41:30  323 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  324 Server::doSync(): SYNC Hero (id 20).
+02:41:30  324 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  325 Server::doSync(): SYNC Hero (id 20).
+02:41:30  325 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  326 Server::doSync(): SYNC Hero (id 20).
+02:41:30  326 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  327 Server::doSync(): SYNC Hero (id 20).
+02:41:30  327 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  328 Server::doSync(): SYNC Hero (id 20).
+02:41:30  328 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  329 Server::doSync(): SYNC Hero (id 20).
+02:41:30  329 Server::doSync(): SYNC Weapon (id 21).
+02:41:30  330 Server::doSync(): SYNC Hero (id 20).
+02:41:30  330 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  331 Server::doSync(): SYNC Hero (id 20).
+02:41:31  331 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  332 Server::doSync(): SYNC Hero (id 20).
+02:41:31  332 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  333 Server::doSync(): SYNC Hero (id 20).
+02:41:31  333 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  334 Server::doSync(): SYNC Hero (id 20).
+02:41:31  334 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  335 Server::doSync(): SYNC Hero (id 20).
+02:41:31  335 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  336 Server::doSync(): SYNC Hero (id 20).
+02:41:31  336 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  337 Server::doSync(): SYNC Hero (id 20).
+02:41:31  337 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  338 Server::doSync(): SYNC Hero (id 20).
+02:41:31  338 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  339 Server::doSync(): SYNC Hero (id 20).
+02:41:31  339 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  340 Server::doSync(): SYNC Hero (id 20).
+02:41:31  340 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  341 Server::doSync(): SYNC Hero (id 20).
+02:41:31  341 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  342 Server::doSync(): Hero was not modified
+02:41:31  342 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  343 Server::doSync(): Hero was not modified
+02:41:31  343 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  344 Server::doSync(): Hero was not modified
+02:41:31  344 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  345 Server::doSync(): Hero was not modified
+02:41:31  345 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  346 Server::doSync(): Hero was not modified
+02:41:31  346 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  347 Server::doSync(): Hero was not modified
+02:41:31  347 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  348 Server::doSync(): Hero was not modified
+02:41:31  348 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  349 Server::doSync(): Hero was not modified
+02:41:31  349 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  350 Server::doSync(): Hero was not modified
+02:41:31  350 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  351 Server::doSync(): Hero was not modified
+02:41:31  351 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  352 Server::doSync(): Hero was not modified
+02:41:31  352 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  353 Server::doSync(): Hero was not modified
+02:41:31  353 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  354 Server::doSync(): Hero was not modified
+02:41:31  354 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  355 Server::doSync(): Hero was not modified
+02:41:31  355 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  356 Server::doSync(): Hero was not modified
+02:41:31  356 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  357 Server::doSync(): Hero was not modified
+02:41:31  357 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  358 Server::doSync(): Hero was not modified
+02:41:31  358 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  359 Server::doSync(): Hero was not modified
+02:41:31  359 Server::doSync(): SYNC Weapon (id 21).
+02:41:31  360 Server::doSync(): SYNC Hero (id 20).
+02:41:31  360 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  361 Server::doSync(): SYNC Hero (id 20).
+02:41:32  361 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  362 Server::doSync(): SYNC Hero (id 20).
+02:41:32  362 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  363 Server::doSync(): SYNC Hero (id 20).
+02:41:32  363 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  363 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  364 Server::doSync(): SYNC Hero (id 20).
+02:41:32  364 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  364 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  365 Server::doSync(): SYNC Hero (id 20).
+02:41:32  365 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  365 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  366 Server::doSync(): SYNC Hero (id 20).
+02:41:32  366 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  366 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  367 Server::doSync(): SYNC Hero (id 20).
+02:41:32  367 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  367 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  368 Server::doSync(): SYNC Hero (id 20).
+02:41:32  368 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  368 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  368 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  369 Server::doSync(): SYNC Hero (id 20).
+02:41:32  369 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  369 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  369 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  370 Server::doSync(): SYNC Hero (id 20).
+02:41:32  370 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  370 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  370 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  371 Server::doSync(): SYNC Hero (id 20).
+02:41:32  371 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  371 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  371 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  372 Server::doSync(): SYNC Hero (id 20).
+02:41:32  372 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  372 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  372 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  373 Server::doSync(): SYNC Hero (id 20).
+02:41:32  373 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  373 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  373 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  373 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  374 Server::doSync(): Hero was not modified
+02:41:32  374 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  374 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  374 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  374 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  375 Server::doSync(): Hero was not modified
+02:41:32  375 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  375 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  375 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  375 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  376 Server::doSync(): Hero was not modified
+02:41:32  376 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  376 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  376 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  376 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  377 Server::doSync(): Hero was not modified
+02:41:32  377 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  377 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  377 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  377 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  378 Server::doSync(): Hero was not modified
+02:41:32  378 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  378 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  378 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  378 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  378 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  379 Server::doSync(): Hero was not modified
+02:41:32  379 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  379 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  379 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  379 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  379 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  380 Server::doSync(): Hero was not modified
+02:41:32  380 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  380 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  380 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  380 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  380 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  381 Server::doSync(): Hero was not modified
+02:41:32  381 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  381 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  381 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  381 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  381 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  382 Server::doSync(): Hero was not modified
+02:41:32  382 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  382 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  382 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  382 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  382 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  383 Server::doSync(): Hero was not modified
+02:41:32  383 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  383 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  383 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  383 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  383 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  383 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  384 Server::doSync(): Hero was not modified
+02:41:32  384 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  384 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  384 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  384 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  384 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  384 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  385 Server::doSync(): Hero was not modified
+02:41:32  385 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  385 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  385 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  385 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  385 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  385 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  386 Server::doSync(): Hero was not modified
+02:41:32  386 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  386 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  386 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  386 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  386 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  386 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  387 Server::doSync(): Hero was not modified
+02:41:32  387 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  387 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  387 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  387 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  387 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  387 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  388 Server::doSync(): Hero was not modified
+02:41:32  388 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  388 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  388 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  388 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  388 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  388 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  389 Server::doSync(): Hero was not modified
+02:41:32  389 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  389 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  389 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  389 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  389 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  389 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  390 Server::doSync(): Hero was not modified
+02:41:32  390 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  390 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  390 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  390 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  390 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  390 Server::doSync(): SYNC Saucer (id 122).
+02:41:32  391 Server::doSync(): Hero was not modified
+02:41:32  391 Server::doSync(): SYNC Weapon (id 21).
+02:41:32  391 Server::doSync(): SYNC Saucer (id 118).
+02:41:32  391 Server::doSync(): SYNC Saucer (id 119).
+02:41:32  391 Server::doSync(): SYNC Saucer (id 120).
+02:41:32  391 Server::doSync(): SYNC Saucer (id 121).
+02:41:32  391 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  392 Server::doSync(): Hero was not modified
+02:41:33  392 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  392 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  392 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  392 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  392 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  392 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  393 Server::doSync(): Hero was not modified
+02:41:33  393 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  393 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  393 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  393 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  393 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  393 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  394 Server::doSync(): Hero was not modified
+02:41:33  394 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  394 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  394 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  394 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  394 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  394 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  395 Server::doSync(): Hero was not modified
+02:41:33  395 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  395 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  395 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  395 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  395 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  395 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  396 Server::doSync(): Hero was not modified
+02:41:33  396 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  396 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  396 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  396 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  396 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  396 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  397 Server::doSync(): Hero was not modified
+02:41:33  397 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  397 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  397 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  397 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  397 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  397 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  398 Server::doSync(): Hero was not modified
+02:41:33  398 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  398 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  398 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  398 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  398 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  398 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  399 Server::doSync(): Hero was not modified
+02:41:33  399 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  399 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  399 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  399 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  399 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  399 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  400 Server::doSync(): Hero was not modified
+02:41:33  400 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  400 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  400 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  400 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  400 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  400 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  401 Server::doSync(): Hero was not modified
+02:41:33  401 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  401 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  401 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  401 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  401 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  401 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  402 Server::doSync(): Hero was not modified
+02:41:33  402 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  402 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  402 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  402 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  402 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  402 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  403 Server::doSync(): Hero was not modified
+02:41:33  403 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  403 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  403 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  403 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  403 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  403 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  404 Server::doSync(): Hero was not modified
+02:41:33  404 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  404 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  404 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  404 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  404 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  404 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  405 Server::doSync(): Hero was not modified
+02:41:33  405 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  405 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  405 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  405 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  405 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  405 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  406 Server::doSync(): Hero was not modified
+02:41:33  406 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  406 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  406 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  406 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  406 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  406 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  407 Server::doSync(): Hero was not modified
+02:41:33  407 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  407 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  407 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  407 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  407 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  407 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  408 Server::doSync(): Hero was not modified
+02:41:33  408 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  408 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  408 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  408 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  408 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  408 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  409 Server::doSync(): SYNC Hero (id 20).
+02:41:33  409 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  409 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  409 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  409 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  409 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  409 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  410 Server::doSync(): SYNC Hero (id 20).
+02:41:33  410 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  410 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  410 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  410 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  410 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  410 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  411 Server::doSync(): SYNC Hero (id 20).
+02:41:33  411 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  411 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  411 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  411 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  411 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  411 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  412 Server::doSync(): SYNC Hero (id 20).
+02:41:33  412 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  412 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  412 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  412 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  412 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  412 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  413 Server::doSync(): SYNC Hero (id 20).
+02:41:33  413 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  413 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  413 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  413 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  413 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  413 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  414 Server::doSync(): SYNC Hero (id 20).
+02:41:33  414 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  414 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  414 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  414 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  414 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  414 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  415 Server::doSync(): SYNC Hero (id 20).
+02:41:33  415 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  415 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  415 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  415 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  415 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  415 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  416 Server::doSync(): SYNC Hero (id 20).
+02:41:33  416 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  416 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  416 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  416 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  416 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  416 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  417 Server::doSync(): SYNC Hero (id 20).
+02:41:33  417 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  417 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  417 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  417 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  417 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  417 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  418 Server::doSync(): SYNC Hero (id 20).
+02:41:33  418 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  418 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  418 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  418 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  418 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  418 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  419 Server::doSync(): SYNC Hero (id 20).
+02:41:33  419 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  419 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  419 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  419 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  419 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  419 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  420 Server::doSync(): SYNC Hero (id 20).
+02:41:33  420 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  420 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  420 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  420 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  420 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  420 Server::doSync(): SYNC Saucer (id 122).
+02:41:33  421 Server::doSync(): Hero was not modified
+02:41:33  421 Server::doSync(): SYNC Weapon (id 21).
+02:41:33  421 Server::doSync(): SYNC Saucer (id 118).
+02:41:33  421 Server::doSync(): SYNC Saucer (id 119).
+02:41:33  421 Server::doSync(): SYNC Saucer (id 120).
+02:41:33  421 Server::doSync(): SYNC Saucer (id 121).
+02:41:33  421 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  422 Server::doSync(): Hero was not modified
+02:41:34  422 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  422 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  422 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  422 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  422 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  422 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  423 Server::doSync(): Hero was not modified
+02:41:34  423 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  423 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  423 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  423 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  423 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  423 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  424 Server::doSync(): Hero was not modified
+02:41:34  424 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  424 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  424 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  424 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  424 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  424 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  425 Server::doSync(): Hero was not modified
+02:41:34  425 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  425 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  425 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  425 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  425 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  425 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  426 Server::doSync(): Hero was not modified
+02:41:34  426 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  426 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  426 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  426 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  426 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  426 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  427 Server::doSync(): SYNC Hero (id 20).
+02:41:34  427 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  427 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  427 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  427 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  427 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  427 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  428 Server::doSync(): SYNC Hero (id 20).
+02:41:34  428 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  428 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  428 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  428 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  428 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  428 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  429 Server::doSync(): SYNC Hero (id 20).
+02:41:34  429 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  429 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  429 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  429 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  429 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  429 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  430 Server::doSync(): SYNC Hero (id 20).
+02:41:34  430 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  430 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  430 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  430 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  430 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  430 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  431 Server::doSync(): SYNC Hero (id 20).
+02:41:34  431 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  431 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  431 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  431 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  431 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  431 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  432 Server::doSync(): SYNC Hero (id 20).
+02:41:34  432 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  432 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  432 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  432 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  432 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  432 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  433 Server::doSync(): SYNC Hero (id 20).
+02:41:34  433 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  433 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  433 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  433 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  433 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  433 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  434 Server::doSync(): SYNC Hero (id 20).
+02:41:34  434 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  434 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  434 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  434 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  434 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  434 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  435 Server::doSync(): SYNC Hero (id 20).
+02:41:34  435 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  435 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  435 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  435 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  435 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  435 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  436 Server::doSync(): SYNC Hero (id 20).
+02:41:34  436 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  436 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  436 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  436 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  436 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  436 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  437 Server::doSync(): SYNC Hero (id 20).
+02:41:34  437 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  437 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  437 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  437 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  437 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  437 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  438 Server::doSync(): SYNC Hero (id 20).
+02:41:34  438 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  438 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  438 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  438 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  438 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  438 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  439 Server::doSync(): SYNC Hero (id 20).
+02:41:34  439 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  439 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  439 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  439 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  439 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  439 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  440 Server::doSync(): SYNC Hero (id 20).
+02:41:34  440 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  440 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  440 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  440 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  440 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  440 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  441 Server::doSync(): SYNC Hero (id 20).
+02:41:34  441 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  441 Server::doSync(): SYNC Saucer (id 118).
+02:41:34  441 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  441 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  441 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  441 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  441 Hero took damage!! It hurts!
+02:41:34  442 Server::doSync(): SYNC Hero (id 20).
+02:41:34  442 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  442 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  442 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  442 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  442 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  443 Server::doSync(): SYNC Hero (id 20).
+02:41:34  443 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  443 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  443 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  443 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  443 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  444 Server::doSync(): SYNC Hero (id 20).
+02:41:34  444 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  444 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  444 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  444 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  444 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  445 Server::doSync(): SYNC Hero (id 20).
+02:41:34  445 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  445 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  445 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  445 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  445 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  446 Server::doSync(): SYNC Hero (id 20).
+02:41:34  446 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  446 Server::doSync(): SYNC Saucer (id 119).
+02:41:34  446 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  446 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  446 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  446 Hero took damage!! It hurts!
+02:41:34  447 Server::doSync(): SYNC Hero (id 20).
+02:41:34  447 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  447 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  447 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  447 Server::doSync(): SYNC Saucer (id 122).
+02:41:34  447 Hero took damage!! It hurts!
+02:41:34  448 Server::doSync(): Hero was not modified
+02:41:34  448 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  448 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  448 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  449 Server::doSync(): Hero was not modified
+02:41:34  449 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  449 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  449 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  450 Server::doSync(): Hero was not modified
+02:41:34  450 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  450 Server::doSync(): SYNC Saucer (id 120).
+02:41:34  450 Server::doSync(): SYNC Saucer (id 121).
+02:41:34  450 Hero took damage!! It hurts!
+02:41:34  451 Server::doSync(): SYNC Weapon (id 21).
+02:41:34  451 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  452 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  452 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  453 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  453 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  454 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  454 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  455 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  455 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  456 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  456 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  457 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  457 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  458 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  458 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  459 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  459 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  460 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  460 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  461 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  461 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  462 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  462 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  463 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  463 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  464 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  464 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  465 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  465 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  466 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  466 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  467 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  467 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  468 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  468 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  469 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  469 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  470 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  470 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  471 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  471 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  472 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  472 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  473 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  473 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  474 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  474 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  475 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  475 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  476 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  476 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  477 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  477 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  478 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  478 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  479 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  479 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  480 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  480 Server::doSync(): SYNC Saucer (id 120).
+02:41:35  481 Server::doSync(): SYNC Weapon (id 21).
+02:41:35  481 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  482 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  482 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  483 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  483 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  484 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  484 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  485 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  485 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  486 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  486 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  487 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  487 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  488 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  488 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  489 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  489 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  490 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  490 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  491 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  491 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  492 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  492 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  493 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  493 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  494 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  494 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  495 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  495 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  496 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  496 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  497 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  497 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  498 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  498 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  499 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  499 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  500 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  500 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  501 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  501 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  502 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  502 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  503 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  503 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  504 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  504 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  505 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  505 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  506 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  506 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  507 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  507 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  508 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  508 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  509 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  509 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  510 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  510 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  511 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  511 Server::doSync(): SYNC Saucer (id 120).
+02:41:36  512 Server::doSync(): SYNC Weapon (id 21).
+02:41:36  512 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  513 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  513 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  514 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  514 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  515 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  515 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  516 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  516 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  517 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  517 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  518 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  518 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  519 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  519 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  520 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  520 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  521 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  521 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  522 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  522 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  523 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  523 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  524 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  524 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  525 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  525 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  526 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  526 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  527 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  527 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  528 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  528 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  529 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  529 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  530 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  530 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  531 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  531 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  532 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  532 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  533 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  533 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  534 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  534 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  535 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  535 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  536 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  536 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  537 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  537 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  538 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  538 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  539 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  539 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  540 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  540 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  541 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  541 Server::doSync(): SYNC Saucer (id 120).
+02:41:37  542 Server::doSync(): SYNC Weapon (id 21).
+02:41:37  542 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  543 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  543 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  544 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  544 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  545 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  545 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  546 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  546 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  547 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  547 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  548 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  548 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  549 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  549 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  550 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  550 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  551 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  551 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  552 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  552 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  553 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  553 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  554 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  554 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  555 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  555 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  556 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  556 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  557 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  557 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  558 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  558 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  559 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  559 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  560 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  560 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  561 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  561 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  562 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  562 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  563 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  563 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  564 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  564 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  565 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  565 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  566 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  566 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  567 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  567 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  568 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  568 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  569 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  569 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  570 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  570 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  571 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  571 Server::doSync(): SYNC Saucer (id 120).
+02:41:38  572 Server::doSync(): SYNC Weapon (id 21).
+02:41:38  572 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  573 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  573 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  574 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  574 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  575 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  575 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  576 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  576 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  577 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  577 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  578 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  578 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  579 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  579 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  580 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  580 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  581 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  581 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  582 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  582 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  583 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  583 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  584 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  584 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  585 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  585 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  586 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  586 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  587 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  587 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  588 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  588 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  589 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  589 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  590 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  590 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  591 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  591 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  592 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  592 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  593 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  593 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  594 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  594 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  595 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  595 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  596 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  596 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  597 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  597 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  598 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  598 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  599 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  599 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  600 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  600 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  601 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  601 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  602 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  602 Server::doSync(): SYNC Saucer (id 120).
+02:41:39  603 Server::doSync(): SYNC Weapon (id 21).
+02:41:39  603 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  604 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  604 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  605 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  605 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  606 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  606 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  607 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  607 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  608 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  608 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  609 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  609 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  610 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  610 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  611 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  611 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  612 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  612 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  613 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  613 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  614 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  614 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  615 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  615 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  616 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  616 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  617 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  617 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  618 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  618 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  619 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  619 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  620 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  620 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  621 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  621 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  622 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  622 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  623 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  623 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  624 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  624 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  625 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  625 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  626 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  626 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  627 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  627 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  628 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  628 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  629 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  629 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  630 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  630 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  631 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  631 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  632 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  632 Server::doSync(): SYNC Saucer (id 120).
+02:41:40  633 Server::doSync(): SYNC Weapon (id 21).
+02:41:40  633 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  634 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  634 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  635 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  635 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  636 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  636 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  637 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  637 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  638 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  638 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  639 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  639 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  640 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  640 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  641 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  641 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  642 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  642 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  643 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  643 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  644 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  644 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  645 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  645 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  646 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  646 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  647 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  647 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  648 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  648 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  649 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  649 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  650 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  650 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  651 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  651 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  652 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  652 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  653 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  653 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  654 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  654 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  655 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  655 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  655 NetworkManager::send(): Error! send() returned:
+02:41:41  655 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  655 NetworkNode::sendMessage(): Error sending!
+02:41:41  655 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  655 NetworkManager::send(): Error! send() returned:
+02:41:41  655 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  655 NetworkNode::sendMessage(): Error sending!
+02:41:41  656 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  656 NetworkManager::send(): Error! send() returned:
+02:41:41  656 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  656 NetworkNode::sendMessage(): Error sending!
+02:41:41  656 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  656 NetworkManager::send(): Error! send() returned:
+02:41:41  656 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  656 NetworkNode::sendMessage(): Error sending!
+02:41:41  656 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  656 NetworkManager::send(): Error! send() returned:
+02:41:41  656 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  656 NetworkNode::sendMessage(): Error sending!
+02:41:41  656 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  656 NetworkManager::send(): Error! send() returned:
+02:41:41  656 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  656 NetworkNode::sendMessage(): Error sending!
+02:41:41  657 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  657 NetworkManager::send(): Error! send() returned:
+02:41:41  657 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  657 NetworkNode::sendMessage(): Error sending!
+02:41:41  657 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  657 NetworkManager::send(): Error! send() returned:
+02:41:41  657 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  657 NetworkNode::sendMessage(): Error sending!
+02:41:41  657 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  657 NetworkManager::send(): Error! send() returned:
+02:41:41  657 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  657 NetworkNode::sendMessage(): Error sending!
+02:41:41  657 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  657 NetworkManager::send(): Error! send() returned:
+02:41:41  657 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  657 NetworkNode::sendMessage(): Error sending!
+02:41:41  658 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  658 NetworkManager::send(): Error! send() returned:
+02:41:41  658 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  658 NetworkNode::sendMessage(): Error sending!
+02:41:41  658 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  658 NetworkManager::send(): Error! send() returned:
+02:41:41  658 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  658 NetworkNode::sendMessage(): Error sending!
+02:41:41  658 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  658 NetworkManager::send(): Error! send() returned:
+02:41:41  658 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  658 NetworkNode::sendMessage(): Error sending!
+02:41:41  658 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  658 NetworkManager::send(): Error! send() returned:
+02:41:41  658 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  658 NetworkNode::sendMessage(): Error sending!
+02:41:41  659 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  659 NetworkManager::send(): Error! send() returned:
+02:41:41  659 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  659 NetworkNode::sendMessage(): Error sending!
+02:41:41  659 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  659 NetworkManager::send(): Error! send() returned:
+02:41:41  659 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  659 NetworkNode::sendMessage(): Error sending!
+02:41:41  659 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  659 NetworkManager::send(): Error! send() returned:
+02:41:41  659 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  659 NetworkNode::sendMessage(): Error sending!
+02:41:41  659 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  659 NetworkManager::send(): Error! send() returned:
+02:41:41  659 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  659 NetworkNode::sendMessage(): Error sending!
+02:41:41  660 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  660 NetworkManager::send(): Error! send() returned:
+02:41:41  660 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  660 NetworkNode::sendMessage(): Error sending!
+02:41:41  660 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  660 NetworkManager::send(): Error! send() returned:
+02:41:41  660 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  660 NetworkNode::sendMessage(): Error sending!
+02:41:41  660 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  660 NetworkManager::send(): Error! send() returned:
+02:41:41  660 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  660 NetworkNode::sendMessage(): Error sending!
+02:41:41  660 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  660 NetworkManager::send(): Error! send() returned:
+02:41:41  660 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  660 NetworkNode::sendMessage(): Error sending!
+02:41:41  661 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  661 NetworkManager::send(): Error! send() returned:
+02:41:41  661 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  661 NetworkNode::sendMessage(): Error sending!
+02:41:41  661 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  661 NetworkManager::send(): Error! send() returned:
+02:41:41  661 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  661 NetworkNode::sendMessage(): Error sending!
+02:41:41  661 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  661 NetworkManager::send(): Error! send() returned:
+02:41:41  661 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  661 NetworkNode::sendMessage(): Error sending!
+02:41:41  661 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  661 NetworkManager::send(): Error! send() returned:
+02:41:41  661 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  661 NetworkNode::sendMessage(): Error sending!
+02:41:41  662 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  662 NetworkManager::send(): Error! send() returned:
+02:41:41  662 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  662 NetworkNode::sendMessage(): Error sending!
+02:41:41  662 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  662 NetworkManager::send(): Error! send() returned:
+02:41:41  662 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  662 NetworkNode::sendMessage(): Error sending!
+02:41:41  662 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  662 NetworkManager::send(): Error! send() returned:
+02:41:41  662 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  662 NetworkNode::sendMessage(): Error sending!
+02:41:41  662 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  662 NetworkManager::send(): Error! send() returned:
+02:41:41  662 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  662 NetworkNode::sendMessage(): Error sending!
+02:41:41  663 Server::doSync(): SYNC Weapon (id 21).
+02:41:41  663 NetworkManager::send(): Error! send() returned:
+02:41:41  663 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  663 NetworkNode::sendMessage(): Error sending!
+02:41:41  663 Server::doSync(): SYNC Saucer (id 120).
+02:41:41  663 NetworkManager::send(): Error! send() returned:
+02:41:41  663 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  663 NetworkNode::sendMessage(): Error sending!
+02:41:41  663 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:41  663 NetworkManager::send(): Error! send() returned:
+02:41:41  663 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  663 NetworkNode::sendMessage(): Error sending!
+02:41:41  663 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:41  663 NetworkManager::send(): Error! send() returned:
+02:41:41  663 	10053 - An established connection was aborted by the software in your host machine.
+02:41:41  663 NetworkNode::sendMessage(): Error sending!
+02:41:42  664 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  664 NetworkManager::send(): Error! send() returned:
+02:41:42  664 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  664 NetworkNode::sendMessage(): Error sending!
+02:41:42  664 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  664 NetworkManager::send(): Error! send() returned:
+02:41:42  664 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  664 NetworkNode::sendMessage(): Error sending!
+02:41:42  664 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  664 NetworkManager::send(): Error! send() returned:
+02:41:42  664 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  664 NetworkNode::sendMessage(): Error sending!
+02:41:42  664 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  664 NetworkManager::send(): Error! send() returned:
+02:41:42  664 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  664 NetworkNode::sendMessage(): Error sending!
+02:41:42  665 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  665 NetworkManager::send(): Error! send() returned:
+02:41:42  665 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  665 NetworkNode::sendMessage(): Error sending!
+02:41:42  665 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  665 NetworkManager::send(): Error! send() returned:
+02:41:42  665 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  665 NetworkNode::sendMessage(): Error sending!
+02:41:42  665 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  665 NetworkManager::send(): Error! send() returned:
+02:41:42  665 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  665 NetworkNode::sendMessage(): Error sending!
+02:41:42  665 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  665 NetworkManager::send(): Error! send() returned:
+02:41:42  665 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  665 NetworkNode::sendMessage(): Error sending!
+02:41:42  666 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  666 NetworkManager::send(): Error! send() returned:
+02:41:42  666 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  666 NetworkNode::sendMessage(): Error sending!
+02:41:42  666 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  666 NetworkManager::send(): Error! send() returned:
+02:41:42  666 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  666 NetworkNode::sendMessage(): Error sending!
+02:41:42  666 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  666 NetworkManager::send(): Error! send() returned:
+02:41:42  666 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  666 NetworkNode::sendMessage(): Error sending!
+02:41:42  666 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  666 NetworkManager::send(): Error! send() returned:
+02:41:42  666 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  666 NetworkNode::sendMessage(): Error sending!
+02:41:42  667 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  667 NetworkManager::send(): Error! send() returned:
+02:41:42  667 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  667 NetworkNode::sendMessage(): Error sending!
+02:41:42  667 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  667 NetworkManager::send(): Error! send() returned:
+02:41:42  667 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  667 NetworkNode::sendMessage(): Error sending!
+02:41:42  667 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  667 NetworkManager::send(): Error! send() returned:
+02:41:42  667 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  667 NetworkNode::sendMessage(): Error sending!
+02:41:42  667 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  667 NetworkManager::send(): Error! send() returned:
+02:41:42  667 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  667 NetworkNode::sendMessage(): Error sending!
+02:41:42  668 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  668 NetworkManager::send(): Error! send() returned:
+02:41:42  668 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  668 NetworkNode::sendMessage(): Error sending!
+02:41:42  668 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  668 NetworkManager::send(): Error! send() returned:
+02:41:42  668 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  668 NetworkNode::sendMessage(): Error sending!
+02:41:42  668 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  668 NetworkManager::send(): Error! send() returned:
+02:41:42  668 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  668 NetworkNode::sendMessage(): Error sending!
+02:41:42  668 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  668 NetworkManager::send(): Error! send() returned:
+02:41:42  668 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  668 NetworkNode::sendMessage(): Error sending!
+02:41:42  669 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  669 NetworkManager::send(): Error! send() returned:
+02:41:42  669 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  669 NetworkNode::sendMessage(): Error sending!
+02:41:42  669 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  669 NetworkManager::send(): Error! send() returned:
+02:41:42  669 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  669 NetworkNode::sendMessage(): Error sending!
+02:41:42  669 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  669 NetworkManager::send(): Error! send() returned:
+02:41:42  669 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  669 NetworkNode::sendMessage(): Error sending!
+02:41:42  669 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  669 NetworkManager::send(): Error! send() returned:
+02:41:42  669 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  669 NetworkNode::sendMessage(): Error sending!
+02:41:42  670 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  670 NetworkManager::send(): Error! send() returned:
+02:41:42  670 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  670 NetworkNode::sendMessage(): Error sending!
+02:41:42  670 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  670 NetworkManager::send(): Error! send() returned:
+02:41:42  670 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  670 NetworkNode::sendMessage(): Error sending!
+02:41:42  670 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  670 NetworkManager::send(): Error! send() returned:
+02:41:42  670 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  670 NetworkNode::sendMessage(): Error sending!
+02:41:42  670 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  670 NetworkManager::send(): Error! send() returned:
+02:41:42  670 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  670 NetworkNode::sendMessage(): Error sending!
+02:41:42  671 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  671 NetworkManager::send(): Error! send() returned:
+02:41:42  671 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  671 NetworkNode::sendMessage(): Error sending!
+02:41:42  671 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  671 NetworkManager::send(): Error! send() returned:
+02:41:42  671 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  671 NetworkNode::sendMessage(): Error sending!
+02:41:42  671 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  671 NetworkManager::send(): Error! send() returned:
+02:41:42  671 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  671 NetworkNode::sendMessage(): Error sending!
+02:41:42  671 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  671 NetworkManager::send(): Error! send() returned:
+02:41:42  671 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  671 NetworkNode::sendMessage(): Error sending!
+02:41:42  672 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  672 NetworkManager::send(): Error! send() returned:
+02:41:42  672 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  672 NetworkNode::sendMessage(): Error sending!
+02:41:42  672 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  672 NetworkManager::send(): Error! send() returned:
+02:41:42  672 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  672 NetworkNode::sendMessage(): Error sending!
+02:41:42  672 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  672 NetworkManager::send(): Error! send() returned:
+02:41:42  672 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  672 NetworkNode::sendMessage(): Error sending!
+02:41:42  672 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  672 NetworkManager::send(): Error! send() returned:
+02:41:42  672 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  672 NetworkNode::sendMessage(): Error sending!
+02:41:42  673 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  673 NetworkManager::send(): Error! send() returned:
+02:41:42  673 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  673 NetworkNode::sendMessage(): Error sending!
+02:41:42  673 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  673 NetworkManager::send(): Error! send() returned:
+02:41:42  673 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  673 NetworkNode::sendMessage(): Error sending!
+02:41:42  673 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  673 NetworkManager::send(): Error! send() returned:
+02:41:42  673 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  673 NetworkNode::sendMessage(): Error sending!
+02:41:42  673 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  673 NetworkManager::send(): Error! send() returned:
+02:41:42  673 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  673 NetworkNode::sendMessage(): Error sending!
+02:41:42  674 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  674 NetworkManager::send(): Error! send() returned:
+02:41:42  674 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  674 NetworkNode::sendMessage(): Error sending!
+02:41:42  674 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  674 NetworkManager::send(): Error! send() returned:
+02:41:42  674 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  674 NetworkNode::sendMessage(): Error sending!
+02:41:42  674 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  674 NetworkManager::send(): Error! send() returned:
+02:41:42  674 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  674 NetworkNode::sendMessage(): Error sending!
+02:41:42  674 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  674 NetworkManager::send(): Error! send() returned:
+02:41:42  674 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  674 NetworkNode::sendMessage(): Error sending!
+02:41:42  675 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  675 NetworkManager::send(): Error! send() returned:
+02:41:42  675 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  675 NetworkNode::sendMessage(): Error sending!
+02:41:42  675 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  675 NetworkManager::send(): Error! send() returned:
+02:41:42  675 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  675 NetworkNode::sendMessage(): Error sending!
+02:41:42  675 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  675 NetworkManager::send(): Error! send() returned:
+02:41:42  675 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  675 NetworkNode::sendMessage(): Error sending!
+02:41:42  675 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  675 NetworkManager::send(): Error! send() returned:
+02:41:42  675 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  675 NetworkNode::sendMessage(): Error sending!
+02:41:42  676 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  676 NetworkManager::send(): Error! send() returned:
+02:41:42  676 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  676 NetworkNode::sendMessage(): Error sending!
+02:41:42  676 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  676 NetworkManager::send(): Error! send() returned:
+02:41:42  676 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  676 NetworkNode::sendMessage(): Error sending!
+02:41:42  676 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  676 NetworkManager::send(): Error! send() returned:
+02:41:42  676 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  676 NetworkNode::sendMessage(): Error sending!
+02:41:42  676 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  676 NetworkManager::send(): Error! send() returned:
+02:41:42  676 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  676 NetworkNode::sendMessage(): Error sending!
+02:41:42  677 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  677 NetworkManager::send(): Error! send() returned:
+02:41:42  677 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  677 NetworkNode::sendMessage(): Error sending!
+02:41:42  677 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  677 NetworkManager::send(): Error! send() returned:
+02:41:42  677 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  677 NetworkNode::sendMessage(): Error sending!
+02:41:42  677 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  677 NetworkManager::send(): Error! send() returned:
+02:41:42  677 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  677 NetworkNode::sendMessage(): Error sending!
+02:41:42  677 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  677 NetworkManager::send(): Error! send() returned:
+02:41:42  677 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  677 NetworkNode::sendMessage(): Error sending!
+02:41:42  678 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  678 NetworkManager::send(): Error! send() returned:
+02:41:42  678 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  678 NetworkNode::sendMessage(): Error sending!
+02:41:42  678 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  678 NetworkManager::send(): Error! send() returned:
+02:41:42  678 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  678 NetworkNode::sendMessage(): Error sending!
+02:41:42  678 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  678 NetworkManager::send(): Error! send() returned:
+02:41:42  678 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  678 NetworkNode::sendMessage(): Error sending!
+02:41:42  678 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  678 NetworkManager::send(): Error! send() returned:
+02:41:42  678 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  678 NetworkNode::sendMessage(): Error sending!
+02:41:42  679 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  679 NetworkManager::send(): Error! send() returned:
+02:41:42  679 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  679 NetworkNode::sendMessage(): Error sending!
+02:41:42  679 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  679 NetworkManager::send(): Error! send() returned:
+02:41:42  679 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  679 NetworkNode::sendMessage(): Error sending!
+02:41:42  679 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  679 NetworkManager::send(): Error! send() returned:
+02:41:42  679 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  679 NetworkNode::sendMessage(): Error sending!
+02:41:42  679 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  679 NetworkManager::send(): Error! send() returned:
+02:41:42  679 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  679 NetworkNode::sendMessage(): Error sending!
+02:41:42  680 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  680 NetworkManager::send(): Error! send() returned:
+02:41:42  680 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  680 NetworkNode::sendMessage(): Error sending!
+02:41:42  680 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  680 NetworkManager::send(): Error! send() returned:
+02:41:42  680 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  680 NetworkNode::sendMessage(): Error sending!
+02:41:42  680 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  680 NetworkManager::send(): Error! send() returned:
+02:41:42  680 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  680 NetworkNode::sendMessage(): Error sending!
+02:41:42  680 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  680 NetworkManager::send(): Error! send() returned:
+02:41:42  680 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  680 NetworkNode::sendMessage(): Error sending!
+02:41:42  681 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  681 NetworkManager::send(): Error! send() returned:
+02:41:42  681 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  681 NetworkNode::sendMessage(): Error sending!
+02:41:42  681 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  681 NetworkManager::send(): Error! send() returned:
+02:41:42  681 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  681 NetworkNode::sendMessage(): Error sending!
+02:41:42  681 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  681 NetworkManager::send(): Error! send() returned:
+02:41:42  681 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  681 NetworkNode::sendMessage(): Error sending!
+02:41:42  681 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  681 NetworkManager::send(): Error! send() returned:
+02:41:42  681 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  681 NetworkNode::sendMessage(): Error sending!
+02:41:42  682 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  682 NetworkManager::send(): Error! send() returned:
+02:41:42  682 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  682 NetworkNode::sendMessage(): Error sending!
+02:41:42  682 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  682 NetworkManager::send(): Error! send() returned:
+02:41:42  682 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  682 NetworkNode::sendMessage(): Error sending!
+02:41:42  682 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  682 NetworkManager::send(): Error! send() returned:
+02:41:42  682 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  682 NetworkNode::sendMessage(): Error sending!
+02:41:42  682 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  682 NetworkManager::send(): Error! send() returned:
+02:41:42  682 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  682 NetworkNode::sendMessage(): Error sending!
+02:41:42  683 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  683 NetworkManager::send(): Error! send() returned:
+02:41:42  683 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  683 NetworkNode::sendMessage(): Error sending!
+02:41:42  683 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  683 NetworkManager::send(): Error! send() returned:
+02:41:42  683 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  683 NetworkNode::sendMessage(): Error sending!
+02:41:42  683 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  683 NetworkManager::send(): Error! send() returned:
+02:41:42  683 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  683 NetworkNode::sendMessage(): Error sending!
+02:41:42  683 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  683 NetworkManager::send(): Error! send() returned:
+02:41:42  683 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  683 NetworkNode::sendMessage(): Error sending!
+02:41:42  684 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  684 NetworkManager::send(): Error! send() returned:
+02:41:42  684 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  684 NetworkNode::sendMessage(): Error sending!
+02:41:42  684 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  684 NetworkManager::send(): Error! send() returned:
+02:41:42  684 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  684 NetworkNode::sendMessage(): Error sending!
+02:41:42  684 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  684 NetworkManager::send(): Error! send() returned:
+02:41:42  684 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  684 NetworkNode::sendMessage(): Error sending!
+02:41:42  684 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  684 NetworkManager::send(): Error! send() returned:
+02:41:42  684 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  684 NetworkNode::sendMessage(): Error sending!
+02:41:42  685 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  685 NetworkManager::send(): Error! send() returned:
+02:41:42  685 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  685 NetworkNode::sendMessage(): Error sending!
+02:41:42  685 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  685 NetworkManager::send(): Error! send() returned:
+02:41:42  685 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  685 NetworkNode::sendMessage(): Error sending!
+02:41:42  685 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  685 NetworkManager::send(): Error! send() returned:
+02:41:42  685 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  685 NetworkNode::sendMessage(): Error sending!
+02:41:42  685 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  685 NetworkManager::send(): Error! send() returned:
+02:41:42  685 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  685 NetworkNode::sendMessage(): Error sending!
+02:41:42  686 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  686 NetworkManager::send(): Error! send() returned:
+02:41:42  686 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  686 NetworkNode::sendMessage(): Error sending!
+02:41:42  686 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  686 NetworkManager::send(): Error! send() returned:
+02:41:42  686 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  686 NetworkNode::sendMessage(): Error sending!
+02:41:42  686 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  686 NetworkManager::send(): Error! send() returned:
+02:41:42  686 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  686 NetworkNode::sendMessage(): Error sending!
+02:41:42  686 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  686 NetworkManager::send(): Error! send() returned:
+02:41:42  686 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  686 NetworkNode::sendMessage(): Error sending!
+02:41:42  687 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  687 NetworkManager::send(): Error! send() returned:
+02:41:42  687 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  687 NetworkNode::sendMessage(): Error sending!
+02:41:42  687 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  687 NetworkManager::send(): Error! send() returned:
+02:41:42  687 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  687 NetworkNode::sendMessage(): Error sending!
+02:41:42  687 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  687 NetworkManager::send(): Error! send() returned:
+02:41:42  687 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  687 NetworkNode::sendMessage(): Error sending!
+02:41:42  687 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  687 NetworkManager::send(): Error! send() returned:
+02:41:42  687 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  687 NetworkNode::sendMessage(): Error sending!
+02:41:42  688 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  688 NetworkManager::send(): Error! send() returned:
+02:41:42  688 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  688 NetworkNode::sendMessage(): Error sending!
+02:41:42  688 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  688 NetworkManager::send(): Error! send() returned:
+02:41:42  688 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  688 NetworkNode::sendMessage(): Error sending!
+02:41:42  688 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  688 NetworkManager::send(): Error! send() returned:
+02:41:42  688 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  688 NetworkNode::sendMessage(): Error sending!
+02:41:42  688 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  688 NetworkManager::send(): Error! send() returned:
+02:41:42  688 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  688 NetworkNode::sendMessage(): Error sending!
+02:41:42  689 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  689 NetworkManager::send(): Error! send() returned:
+02:41:42  689 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  689 NetworkNode::sendMessage(): Error sending!
+02:41:42  689 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  689 NetworkManager::send(): Error! send() returned:
+02:41:42  689 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  689 NetworkNode::sendMessage(): Error sending!
+02:41:42  689 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  689 NetworkManager::send(): Error! send() returned:
+02:41:42  689 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  689 NetworkNode::sendMessage(): Error sending!
+02:41:42  689 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  689 NetworkManager::send(): Error! send() returned:
+02:41:42  689 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  689 NetworkNode::sendMessage(): Error sending!
+02:41:42  690 InputManager::getInput(): Window close event. Setting game over.
+02:41:42  690 Server::doSync(): SYNC Weapon (id 21).
+02:41:42  690 NetworkManager::send(): Error! send() returned:
+02:41:42  690 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  690 NetworkNode::sendMessage(): Error sending!
+02:41:42  690 Server::doSync(): SYNC Saucer (id 120).
+02:41:42  690 NetworkManager::send(): Error! send() returned:
+02:41:42  690 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  690 NetworkNode::sendMessage(): Error sending!
+02:41:42  690 Server::resending sync message(): SYNC Weapon (id 21).
+02:41:42  690 NetworkManager::send(): Error! send() returned:
+02:41:42  690 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  690 NetworkNode::sendMessage(): Error sending!
+02:41:42  690 Server::resending sync message(): SYNC Saucer (id 120).
+02:41:42  690 NetworkManager::send(): Error! send() returned:
+02:41:42  690 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  690 NetworkNode::sendMessage(): Error sending!
+02:41:42  691 GameManager::run(): end of game loop
+02:41:42  691 NetworkManager::send(): Error! send() returned:
+02:41:42  691 	10053 - An established connection was aborted by the software in your host machine.
+02:41:42  691 NetworkNode::sendMessage(): Error sending!
+02:41:42  691 PathManager::shutDown(): successfully stopped.
+02:41:42  691 Path manager stopped

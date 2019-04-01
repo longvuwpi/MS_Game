@@ -7,7 +7,7 @@
 
 #include "Manager.h"
 
-#define DF_VERSION 4.9		/// Dragonfly version
+#define DF_VERSION 4.12		/// Dragonfly version
 
 // Two-letter acronym for easier access to manager.
 #define GM df::GameManager::getInstance()

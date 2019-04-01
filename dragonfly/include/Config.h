@@ -13,6 +13,48 @@
 
 namespace df {
 
+////////////////////////////////////////////////////////////
+// Compiler warning for deprecated functions and classes
+//
+// Usage:
+//
+// class DF_DEPRECATED Class {
+//     DF_DEPRECATED void method();
+// };
+//
+// DF_DEPRECATED void function();
+//
+
+#if defined(DF_NO_DEPRECATED_WARNINGS)
+
+  // User explicitly requests to disable deprecation warnings.
+  #define DF_DEPRECATED
+
+#elif defined(_MSC_VER)
+
+  // Microsoft C++ compiler
+  // Note: On newer MSVC versions, using deprecated functions causes
+  // compiler error. In order to trigger warning instead of error,
+  // compiler flag /sdl- (instead of /sdl) must be specified.
+#define DF_DEPRECATED __declspec(deprecated)
+
+#elif defined(__GNUC__)
+
+  // g++ and Clang
+#define DF_DEPRECATED __attribute__ ((deprecated))
+
+#else
+
+  // Other compilers are not supported, leave class or function as-is.
+  // Sometimes, #pragma directive works, otherwise users get
+  // a warning (no error!) for unrecognized #pragma.
+#pragma message("DF_DEPRECATED not supported by your compiler")
+
+#define DF_DEPRECATED
+
+#endif
+////////////////////////////////////////////////////////////
+  
 class Config {
 
  private:

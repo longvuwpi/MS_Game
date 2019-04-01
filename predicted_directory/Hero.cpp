@@ -40,7 +40,9 @@ float moveSpeed = 2.0f;
 float jumpHeight = 6.0f;
 float down_gravity = 2.0f;
 
-Hero::Hero(int client_hero_id, int hero_id) {
+Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
+	is_predicted = isPredicted;
+	hero_modified[IS_PREDICTED] = true;
 
 	// Link to "ship" sprite.
 	walk_sprite = RM.getSprite("character-walk");
@@ -67,7 +69,7 @@ Hero::Hero(int client_hero_id, int hero_id) {
 	//df::Vector p(7, WM.getBoundary().getVertical()/2);
 	df::Vector p(60, 25);
 	setPosition(p);
-	m_modified[df::POSITION] = false;
+	if (is_predicted) m_modified[df::POSITION] = false;
 
 	//p_reticle->draw();
 
@@ -83,8 +85,8 @@ Hero::Hero(int client_hero_id, int hero_id) {
 	p_OnPlatform = NULL;
 
 	//if (NM.isServer()) {
-		setAcceleration(df::Vector(0, down_gravity));
-		m_modified[df::ACCELERATION] = false;
+	setAcceleration(df::Vector(0, down_gravity));
+	if (is_predicted) m_modified[df::ACCELERATION] = false;
 
 	//}
 	setSolidness(df::SOFT);
@@ -130,22 +132,30 @@ Hero::Hero(int client_hero_id, int hero_id) {
 	}
 }
 
+bool Hero::isPredicted() {
+	return is_predicted;
+}
+
 void Hero::setWalkingSprite() {
 	setSprite(walk_sprite);
 	setSpriteSlowdown(5);  // 1/3 speed animation.
 	setTransparency();	   // Transparent sprite.
 	setPosition(getPosition() + df::Vector(0, -0.5 + (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
 	setCentered(true);
-	m_modified[df::SPRITE] = false;
-	m_modified[df::POSITION] = false;
+	if (is_predicted) {
+		m_modified[df::SPRITE] = false;
+		m_modified[df::POSITION] = false;
+	}
 }
 
 void Hero::setDuckingSprite() {
 	setSprite(duck_sprite);
 	setPosition(getPosition() + df::Vector(0, -0.5 + (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
 	setCentered(true);
-	m_modified[df::SPRITE] = false;
-	m_modified[df::POSITION] = false;
+	if (is_predicted) {
+		m_modified[df::SPRITE] = false;
+		m_modified[df::POSITION] = false;
+	}
 }
 
 Hero::~Hero() {
@@ -176,7 +186,7 @@ Hero::~Hero() {
 // Return 0 if ignored, else 1.
 int Hero::eventHandler(const df::Event *p_e) {
 
-	if (p_e->getType() == df::COLLISION_EVENT) {
+	if ((p_e->getType() == df::COLLISION_EVENT) && (NM.isServer() || is_predicted)) {
 		//printf("collided with hero");
 		const df::EventCollision *p_collision_event = dynamic_cast <df::EventCollision const *> (p_e);
 		if (p_collision_event->getObject1()->getType() == "Platform") {
@@ -193,7 +203,7 @@ int Hero::eventHandler(const df::Event *p_e) {
 
 	if ((p_e->getType() == df::NETWORK_KEYBOARD_EVENT) && (NM.isServer())) {
 		df::EventKeyboardNetwork *p_n = (df::EventKeyboardNetwork *) p_e;
-		if ((p_n->getSocketIndex() + 1)*20 == getId()) {
+		if ((p_n->getSocketIndex() + 1) * 20 == getId()) {
 			df::EventKeyboard e;
 			e.setKeyboardAction(p_n->getKeyboardAction());
 			e.setKey(p_n->getKey());
@@ -216,8 +226,8 @@ int Hero::eventHandler(const df::Event *p_e) {
 	}
 
 	if (p_e->getType() == df::STEP_EVENT) {
-			step();
-			return 1;
+		step();
+		return 1;
 	}
 
 	if ((p_e->getType() == df::KEYBOARD_EVENT) && (!NM.isServer())) {
@@ -231,7 +241,7 @@ int Hero::eventHandler(const df::Event *p_e) {
 
 void Hero::landedOn(Platform *platform) {
 	if (!NM.isServer()) {
-		LM.writeLog("Hero collided with fucking platform");
+		LM.writeLog("Hero collided with platform");
 	}
 
 	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
@@ -252,12 +262,13 @@ void Hero::landedOn(Platform *platform) {
 			setCentered(true);
 
 			//clear all flags since code is executed similarly on server and clients
-			m_modified[df::POSITION] = false;
-			m_modified[df::ACCELERATION] = false;
-			m_modified[df::SPEED] = false;
-			m_modified[df::DIRECTION] = false;
-			m_modified[df::SPRITE] = false;
-
+			if (is_predicted) {
+				m_modified[df::POSITION] = false;
+				m_modified[df::ACCELERATION] = false;
+				m_modified[df::SPEED] = false;
+				m_modified[df::DIRECTION] = false;
+				m_modified[df::SPRITE] = false;
+			}
 			return;
 		}
 	}
@@ -327,11 +338,12 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 			}
 			hero_modified[CURRENT_WEAPON] = true;
 			getCurrentWeapon()->setVisible(true);
+
 			//weapon_view->setViewString(getCurrentWeapon()->getWeaponName() + ":");
 		}
 		//move(-1);
 		break;
-	case df::Keyboard::R:   
+	case df::Keyboard::R:
 		if ((p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) && (NM.isServer())) {
 			reload();
 		}
@@ -358,7 +370,7 @@ void Hero::move(int dx, int dy) {
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 	{
 		world_manager.moveObject(this, new_pos);
-		m_modified[df::POSITION] = false;
+		if (is_predicted) m_modified[df::POSITION] = false;
 	}
 }
 
@@ -378,7 +390,7 @@ void Hero::reload() {
 // Decrease rate restriction counters.
 void Hero::step() {
 
-	//if (NM.isServer()) {
+	if (NM.isServer() || is_predicted) {
 		//Check to see if the hero is on a platform.
 		df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
 		if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
@@ -387,13 +399,15 @@ void Hero::step() {
 
 		if (p_OnPlatform == NULL) {
 			setAcceleration(df::Vector(0, down_gravity));
-			m_modified[df::ACCELERATION] = false;
+			if (is_predicted) m_modified[df::ACCELERATION] = false;
 		}
 
 		if (getVelocity().getY() >= 3) {
 			setVelocity(df::Vector(getVelocity().getX(), 3));
-			m_modified[df::SPEED] = false;
-			m_modified[df::DIRECTION] = false;
+			if (is_predicted) {
+				m_modified[df::SPEED] = false;
+				m_modified[df::DIRECTION] = false;
+			}
 		}
 
 		if (NM.isServer()) {
@@ -405,6 +419,16 @@ void Hero::step() {
 			}
 		}
 
+
+		getCurrentWeapon()->setAcceleration(getAcceleration());
+		getCurrentWeapon()->setVelocity(getVelocity());
+		if (is_predicted) {
+			m_modified[df::ACCELERATION] = false;
+			m_modified[df::SPEED] = false;
+			m_modified[df::DIRECTION] = false;
+		}
+	}
+
 	drawHealthBar();
 }
 
@@ -415,14 +439,16 @@ void Hero::jump() {
 		//setPosition(getPosition() + df::Vector(0, -1));
 		if (!isDucking) {
 			setVelocity(df::Vector(0, -jumpHeight));
-			m_modified[df::SPEED] = false;
-			m_modified[df::DIRECTION] = false;
+			if (is_predicted) {
+				m_modified[df::SPEED] = false;
+				m_modified[df::DIRECTION] = false;
+			}
 		}
 
 		setCentered(true);
-	
+
 		jump_count--;
-	
+
 	}
 	//df::Vector player_pos = getPosition();
 	//EventPlayerJumping* eventPlayerJumping = new EventPlayerJumping(player_pos);
@@ -444,8 +470,10 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
 void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	hero_modified[HEALTH] = true;
+
+	LM.writeLog("Hero took damage!! It hurts! Current health is %d", health);
 	//new DamageIndicator(at, damage);
-	DM.shake(damage*2, damage*2, 3, false);
+	DM.shake(damage * 2, damage * 2, 3, false);
 
 	df::ObjectList go_objects = WM.objectsOfType("GameOver");
 	if (go_objects.getCount() <= 0) {
@@ -510,28 +538,35 @@ int Hero::getHealth() {
 	return health;
 }
 
-bool Hero::isModified() {
+bool Hero::isModified() const{
 	for (int i = 0; i < hero_att_count; i++) {
 		if (hero_modified[i]) return true;
 	}
 	return Object::isModified();
 }
 
-std::string Hero::serialize(bool all) {
-	LM.writeLog(5, "Hero::serialize()");
+std::string Hero::serialize(std::string all) {
+	LM.writeLog(1,"Hero::serialize() %s", all);
 
 	// Do main serialize from parent.
 	std::string s = Object::serialize(all);
 
 	// Add Weapon-specific attributes.
-	if (all || hero_modified[HEALTH]) {
+	if ((all == "ALL") || hero_modified[HEALTH]) {
+		LM.writeLog("Hero::serialize(): serializing health %d", health);
 		s += "health:" + df::toString(getHealth()) + ",";
 		hero_modified[HEALTH] = false;
 	}
 
-	if (all || hero_modified[CURRENT_WEAPON]) {
+	if ((all == "ALL") || hero_modified[CURRENT_WEAPON]) {
 		s += "current_weapon:" + df::toString(getCurrentWeapon()->getWeaponType()) + ",";
 		hero_modified[CURRENT_WEAPON] = false;
+	}
+
+	if ((all == "ALL") || hero_modified[IS_PREDICTED]) {
+		std::string predicted = is_predicted ? "1" : "0";
+		s += "is_predicted:" + predicted + ",";
+		hero_modified[IS_PREDICTED] = false;
 	}
 
 	return s;
@@ -543,7 +578,8 @@ int Hero::deserialize(std::string str) {
 	df::Vector currentPosition = getPosition();
 
 	// Do main deserialize from parent.
-	//Object::deserialize(str);
+
+	if (!is_predicted) Object::deserialize(str);
 	//df::Vector serializedPosition = getPosition();
 	//setPosition(currentPosition);
 
@@ -573,6 +609,13 @@ int Hero::deserialize(std::string str) {
 				weapon_selector->first();
 			}
 		}
+	}
+
+	val = df::match("", "is_predicted");
+	if (!val.empty()) {
+		int i = atoi(val.c_str());
+		LM.writeLog("Hero::deserialize(): is_predicted is %d", i);
+		is_predicted = (i == 1) ? true : false;
 	}
 
 	return 0;

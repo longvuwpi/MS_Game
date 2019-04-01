@@ -10,6 +10,7 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 
 // Engine includes.
+#include "Config.h" // For DF_DEPRECATED.
 #include "Frame.h"
 #include "Manager.h"
 #include "Vector.h"
@@ -88,12 +89,9 @@ class DisplayManager : public Manager {
   int drawCh(Vector world_pos, char ch, unsigned char r, 
 	     unsigned char g, unsigned char b) const;
 
-  /// Draw single sprite frame at window location (x,y) with color.
-  /// If centered true, then center frame at (x,y).
-  /// Don't draw transparent characters (0 means none).
-  /// Return 0 if ok, else -1.
-  int drawFrame(Vector world_pos, Frame frame, bool centered, 
-                Color color, char transparent=0) const;
+  /// Deprecated. Just uses Frame::draw().
+  DF_DEPRECATED int drawFrame(Vector world_pos, Frame frame, bool centered, 
+			      Color color, char transparent=0) const;
 
   /// Draw string at window location (x,y) with color.
   /// Justified left, center or right.

@@ -77,7 +77,7 @@ int Client::eventHandler(const df::Event *p_e) {
 
 		  df::Object *hero = WM.objectWithId(hero_id);
 		  if (hero != NULL) {
-			  if (hero->getType() == "Hero") {
+			  if ((hero->getType() == "Hero") && (((Hero *)hero)->isPredicted())) {
 				  hero->eventHandler(p_e);
 			  }
 		  }
@@ -89,6 +89,7 @@ int Client::eventHandler(const df::Event *p_e) {
 	  df::Object *hero = WM.objectWithId(hero_id);
 	  if (hero != NULL) {
 		  LM.writeLog("Client following hero id %d", hero->getId());
+		  LM.writeLog("Hero is %s", (((Hero*)hero)->isPredicted()) ? "predicted" : "nonpredicted");
 		  WM.setViewPosition(hero->getPosition() + df::Vector(WM.getView().getHorizontal() / 3, 0));
 	  }
   }

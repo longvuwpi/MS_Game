@@ -106,8 +106,10 @@ class ViewObject : public Object {
   void setPosition(Vector new_pos);
 
   /// Serialize ViewObject attributes to single string.
-  /// Only modified attributes (unless all is true).
-  virtual std::string serialize(bool all=false);
+  /// Can specify attribute to serialize (default "" means all modified).
+  /// If attr is "ALL", serialize all attributes (modified or not).
+  /// Clear m_vmodified[] array for attributes serialized.
+  virtual std::string serialize(std::string attr="");
 
   /// Deserialize string to become attributes.
   /// Return 0 if no errors, else -1.  

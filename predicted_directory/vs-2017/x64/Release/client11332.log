@@ -1,0 +1,629 @@
+05:47:27    0 ****************************************************
+05:47:27    0 ** Dragonfly version 4.12 **
+05:47:28    0 Hello, Network! (v1.2)
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+05:47:28    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+05:47:28    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+05:47:28    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+05:47:28    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+05:47:28    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+05:47:28    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+05:47:28    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+05:47:29    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+05:47:30    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+05:47:30    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+05:47:30    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+05:47:30    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+05:47:30    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+05:47:30    0 Client::Client(): Connecting to localhost at port 9876.
+05:47:30    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+05:47:30    0 NetworkManager::connect(): Connection established.
+05:47:30    0 Client::handleConnect(): Client connected!
+05:47:30    0 Client::Client(): Client started.
+05:47:30    0 GameManager::run(): starting game loop
+05:47:30    0 Client::eventHandler(): sending mouse input to server.
+05:47:30    0 Client::eventHandler(): received custom network event.
+05:47:30    0 	message: 20
+05:47:30    0 Client::createObject(): creating object type 'Hero'
+05:47:30    0 Hero::deserialize()
+05:47:30    0 Hero::deserialize(): current health is 50
+05:47:30    0 Hero::deserialize(): current weapon is 1
+05:47:30    0 Client::createObject(): creating object type 'Level'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    0 Client::createObject(): creating object type 'Platform'
+05:47:30    1 Client::eventHandler(): sending mouse input to server.
+05:47:30    1 Reticle received mouse event
+05:47:30    1 Client following hero id 20
+05:47:30    1 Reticle received step event
+05:47:30    1 Hero::deserialize()
+05:47:30    1 Weapon::deserialize()
+05:47:30    1 Weapon::deserialize(): ammo_loaded is 30
+05:47:30    1 Weapon::deserialize(): ammo_backup is 90
+05:47:30    1 Weapon::deserialize()
+05:47:30    1 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+05:47:30    1 Weapon::deserialize(): ammo_loaded is 10
+05:47:30    1 Weapon::deserialize(): ammo_backup is 30
+05:47:30    1 Weapon::deserialize()
+05:47:30    1 SceneGraph::updateAltitude(): remove from old altitude (2) failed!
+05:47:30    1 Weapon::deserialize(): ammo_loaded is 1
+05:47:30    1 Weapon::deserialize(): ammo_backup is 30
+05:47:30    2 Client following hero id 20
+05:47:30    2 Reticle received step event
+05:47:30    2 Hero::deserialize()
+05:47:30    2 Weapon::deserialize()
+05:47:30    3 Client following hero id 20
+05:47:30    3 Reticle received step event
+05:47:30    3 Hero::deserialize()
+05:47:30    3 Weapon::deserialize()
+05:47:30    4 Client following hero id 20
+05:47:30    4 Reticle received step event
+05:47:30    4 Hero::deserialize()
+05:47:30    4 Weapon::deserialize()
+05:47:30    5 Client::eventHandler(): sending mouse input to server.
+05:47:30    5 Reticle received mouse event
+05:47:30    5 Client following hero id 20
+05:47:30    5 Reticle received step event
+05:47:30    5 Hero::deserialize()
+05:47:30    5 Weapon::deserialize()
+05:47:30    6 Client following hero id 20
+05:47:30    6 Reticle received step event
+05:47:30    6 Hero::deserialize()
+05:47:30    6 Weapon::deserialize()
+05:47:30    7 Client::eventHandler(): sending keyboard input to server.
+05:47:30    7 Predicting keyboard input
+05:47:30    7 Client::eventHandler(): sending mouse input to server.
+05:47:30    7 Reticle received mouse event
+05:47:30    7 Client::eventHandler(): sending keyboard input to server.
+05:47:30    7 Predicting keyboard input
+05:47:30    7 Client following hero id 20
+05:47:30    7 Reticle received step event
+05:47:30    7 Hero::deserialize()
+05:47:30    7 Weapon::deserialize()
+05:47:30    8 Client::eventHandler(): sending mouse input to server.
+05:47:30    8 Reticle received mouse event
+05:47:30    8 Client::eventHandler(): sending keyboard input to server.
+05:47:30    8 Predicting keyboard input
+05:47:30    8 Client following hero id 20
+05:47:30    8 Reticle received step event
+05:47:30    8 Hero::deserialize()
+05:47:30    8 Weapon::deserialize()
+05:47:30    8 Hero collided with fucking platform
+05:47:30    9 Client::eventHandler(): sending mouse input to server.
+05:47:30    9 Reticle received mouse event
+05:47:30    9 Client::eventHandler(): sending keyboard input to server.
+05:47:30    9 Predicting keyboard input
+05:47:30    9 Hero collided with fucking platform
+05:47:30    9 Client following hero id 20
+05:47:30    9 Reticle received step event
+05:47:30    9 Hero::deserialize()
+05:47:30    9 Weapon::deserialize()
+05:47:30   10 Client::eventHandler(): sending keyboard input to server.
+05:47:30   10 Predicting keyboard input
+05:47:30   10 Hero collided with fucking platform
+05:47:30   10 Client following hero id 20
+05:47:30   10 Reticle received step event
+05:47:30   10 Hero::deserialize()
+05:47:30   10 Weapon::deserialize()
+05:47:30   11 Client::eventHandler(): sending mouse input to server.
+05:47:30   11 Reticle received mouse event
+05:47:30   11 Client::eventHandler(): sending keyboard input to server.
+05:47:30   11 Predicting keyboard input
+05:47:30   11 Hero collided with fucking platform
+05:47:30   11 Client following hero id 20
+05:47:30   11 Reticle received step event
+05:47:30   12 Client::eventHandler(): sending mouse input to server.
+05:47:30   12 Reticle received mouse event
+05:47:30   12 Client::eventHandler(): sending keyboard input to server.
+05:47:30   12 Predicting keyboard input
+05:47:30   12 Hero collided with fucking platform
+05:47:30   12 Client following hero id 20
+05:47:30   12 Reticle received step event
+05:47:30   12 Hero::deserialize()
+05:47:30   12 Weapon::deserialize()
+05:47:30   13 Client::eventHandler(): sending mouse input to server.
+05:47:30   13 Reticle received mouse event
+05:47:30   13 Client::eventHandler(): sending keyboard input to server.
+05:47:30   13 Predicting keyboard input
+05:47:30   13 Hero collided with fucking platform
+05:47:30   13 Client following hero id 20
+05:47:30   13 Reticle received step event
+05:47:30   13 Hero::deserialize()
+05:47:30   13 Weapon::deserialize()
+05:47:30   14 Client::eventHandler(): sending mouse input to server.
+05:47:30   14 Reticle received mouse event
+05:47:30   14 Client::eventHandler(): sending keyboard input to server.
+05:47:30   14 Predicting keyboard input
+05:47:30   14 Hero collided with fucking platform
+05:47:30   14 Client following hero id 20
+05:47:30   14 Reticle received step event
+05:47:30   14 Hero::deserialize()
+05:47:30   14 Weapon::deserialize()
+05:47:31   15 Client::eventHandler(): sending mouse input to server.
+05:47:31   15 Reticle received mouse event
+05:47:31   15 Client::eventHandler(): sending keyboard input to server.
+05:47:31   15 Predicting keyboard input
+05:47:31   15 Hero collided with fucking platform
+05:47:31   15 Client following hero id 20
+05:47:31   15 Reticle received step event
+05:47:31   15 Hero::deserialize()
+05:47:31   15 Weapon::deserialize()
+05:47:31   16 Client::eventHandler(): sending mouse input to server.
+05:47:31   16 Reticle received mouse event
+05:47:31   16 Client::eventHandler(): sending keyboard input to server.
+05:47:31   16 Predicting keyboard input
+05:47:31   16 Hero collided with fucking platform
+05:47:31   16 Client following hero id 20
+05:47:31   16 Reticle received step event
+05:47:31   16 Hero::deserialize()
+05:47:31   16 Weapon::deserialize()
+05:47:31   17 Client::eventHandler(): sending mouse input to server.
+05:47:31   17 Reticle received mouse event
+05:47:31   17 Client::eventHandler(): sending keyboard input to server.
+05:47:31   17 Predicting keyboard input
+05:47:31   17 Hero collided with fucking platform
+05:47:31   17 Client following hero id 20
+05:47:31   17 Reticle received step event
+05:47:31   17 Hero::deserialize()
+05:47:31   17 Weapon::deserialize()
+05:47:31   18 Client::eventHandler(): sending mouse input to server.
+05:47:31   18 Reticle received mouse event
+05:47:31   18 Client::eventHandler(): sending keyboard input to server.
+05:47:31   18 Predicting keyboard input
+05:47:31   18 Hero collided with fucking platform
+05:47:31   18 Client following hero id 20
+05:47:31   18 Reticle received step event
+05:47:31   18 Hero::deserialize()
+05:47:31   18 Weapon::deserialize()
+05:47:31   19 Client::eventHandler(): sending mouse input to server.
+05:47:31   19 Reticle received mouse event
+05:47:31   19 Client::eventHandler(): sending keyboard input to server.
+05:47:31   19 Predicting keyboard input
+05:47:31   19 Hero collided with fucking platform
+05:47:31   19 Client following hero id 20
+05:47:31   19 Reticle received step event
+05:47:31   19 Hero::deserialize()
+05:47:31   19 Weapon::deserialize()
+05:47:31   20 Client::eventHandler(): sending mouse input to server.
+05:47:31   20 Reticle received mouse event
+05:47:31   20 Client::eventHandler(): sending mouse input to server.
+05:47:31   20 Reticle received mouse event
+05:47:31   20 Client::eventHandler(): sending keyboard input to server.
+05:47:31   20 Predicting keyboard input
+05:47:31   20 Hero collided with fucking platform
+05:47:31   20 Client following hero id 20
+05:47:31   20 Reticle received step event
+05:47:31   20 Hero::deserialize()
+05:47:31   20 Weapon::deserialize()
+05:47:31   21 Client::eventHandler(): sending mouse input to server.
+05:47:31   21 Reticle received mouse event
+05:47:31   21 Client::eventHandler(): sending mouse input to server.
+05:47:31   21 Reticle received mouse event
+05:47:31   21 Client::eventHandler(): sending keyboard input to server.
+05:47:31   21 Predicting keyboard input
+05:47:31   21 Hero collided with fucking platform
+05:47:31   21 Client following hero id 20
+05:47:31   21 Reticle received step event
+05:47:31   21 Hero::deserialize()
+05:47:31   21 Weapon::deserialize()
+05:47:31   21 Hero::deserialize()
+05:47:31   21 Weapon::deserialize()
+05:47:31   22 Client::eventHandler(): sending mouse input to server.
+05:47:31   22 Reticle received mouse event
+05:47:31   22 Client::eventHandler(): sending mouse input to server.
+05:47:31   22 Reticle received mouse event
+05:47:31   22 Client::eventHandler(): sending mouse input to server.
+05:47:31   22 Reticle received mouse event
+05:47:31   22 Client::eventHandler(): sending keyboard input to server.
+05:47:31   22 Predicting keyboard input
+05:47:31   22 Hero collided with fucking platform
+05:47:31   22 Client following hero id 20
+05:47:31   22 Reticle received step event
+05:47:31   23 Client::eventHandler(): sending mouse input to server.
+05:47:31   23 Reticle received mouse event
+05:47:31   23 Client::eventHandler(): sending mouse input to server.
+05:47:31   23 Reticle received mouse event
+05:47:31   23 Client::eventHandler(): sending keyboard input to server.
+05:47:31   23 Predicting keyboard input
+05:47:31   23 Hero collided with fucking platform
+05:47:31   23 Client following hero id 20
+05:47:31   23 Reticle received step event
+05:47:31   23 Hero::deserialize()
+05:47:31   23 Weapon::deserialize()
+05:47:31   24 Client::eventHandler(): sending mouse input to server.
+05:47:31   24 Reticle received mouse event
+05:47:31   24 Client::eventHandler(): sending mouse input to server.
+05:47:31   24 Reticle received mouse event
+05:47:31   24 Client::eventHandler(): sending keyboard input to server.
+05:47:31   24 Predicting keyboard input
+05:47:31   24 Client::eventHandler(): sending mouse input to server.
+05:47:31   24 Reticle received mouse event
+05:47:31   24 Client::eventHandler(): sending keyboard input to server.
+05:47:31   24 Predicting keyboard input
+05:47:31   24 Client::eventHandler(): sending keyboard input to server.
+05:47:31   24 Predicting keyboard input
+05:47:31   24 Hero collided with fucking platform
+05:47:31   24 Client following hero id 20
+05:47:31   24 Reticle received step event
+05:47:31   24 Hero::deserialize()
+05:47:31   24 Weapon::deserialize()
+05:47:31   25 Client::eventHandler(): sending mouse input to server.
+05:47:31   25 Reticle received mouse event
+05:47:31   25 Client::eventHandler(): sending keyboard input to server.
+05:47:31   25 Predicting keyboard input
+05:47:31   25 Client::eventHandler(): sending keyboard input to server.
+05:47:31   25 Predicting keyboard input
+05:47:31   25 Client following hero id 20
+05:47:31   25 Reticle received step event
+05:47:31   25 Hero::deserialize()
+05:47:31   25 Weapon::deserialize()
+05:47:31   26 Client::eventHandler(): sending mouse input to server.
+05:47:31   26 Reticle received mouse event
+05:47:31   26 Client::eventHandler(): sending keyboard input to server.
+05:47:31   26 Predicting keyboard input
+05:47:31   26 Client::eventHandler(): sending keyboard input to server.
+05:47:31   26 Predicting keyboard input
+05:47:31   26 Client following hero id 20
+05:47:31   26 Reticle received step event
+05:47:31   26 Hero::deserialize()
+05:47:31   26 Weapon::deserialize()
+05:47:31   27 Client::eventHandler(): sending mouse input to server.
+05:47:31   27 Reticle received mouse event
+05:47:31   27 Client::eventHandler(): sending keyboard input to server.
+05:47:31   27 Predicting keyboard input
+05:47:31   27 Client::eventHandler(): sending keyboard input to server.
+05:47:31   27 Predicting keyboard input
+05:47:31   27 Client following hero id 20
+05:47:31   27 Reticle received step event
+05:47:31   27 Hero::deserialize()
+05:47:31   27 Weapon::deserialize()
+05:47:31   28 Client::eventHandler(): sending mouse input to server.
+05:47:31   28 Reticle received mouse event
+05:47:31   28 Client::eventHandler(): sending keyboard input to server.
+05:47:31   28 Predicting keyboard input
+05:47:31   28 Client::eventHandler(): sending mouse input to server.
+05:47:31   28 Reticle received mouse event
+05:47:31   28 Client::eventHandler(): sending keyboard input to server.
+05:47:31   28 Predicting keyboard input
+05:47:31   28 Client following hero id 20
+05:47:31   28 Reticle received step event
+05:47:31   28 Hero::deserialize()
+05:47:31   28 Weapon::deserialize()
+05:47:31   29 Client::eventHandler(): sending mouse input to server.
+05:47:31   29 Reticle received mouse event
+05:47:31   29 Client::eventHandler(): sending keyboard input to server.
+05:47:31   29 Predicting keyboard input
+05:47:31   29 Client following hero id 20
+05:47:31   29 Reticle received step event
+05:47:31   29 Hero::deserialize()
+05:47:31   29 Weapon::deserialize()
+05:47:31   29 Hero::deserialize()
+05:47:31   29 Weapon::deserialize()
+05:47:31   30 Client::eventHandler(): sending mouse input to server.
+05:47:31   30 Reticle received mouse event
+05:47:31   30 Client::eventHandler(): sending mouse input to server.
+05:47:31   30 Reticle received mouse event
+05:47:31   30 Client::eventHandler(): sending keyboard input to server.
+05:47:31   30 Predicting keyboard input
+05:47:31   30 Client following hero id 20
+05:47:31   30 Reticle received step event
+05:47:31   31 Client::eventHandler(): sending mouse input to server.
+05:47:31   31 Reticle received mouse event
+05:47:31   31 Client::eventHandler(): sending keyboard input to server.
+05:47:31   31 Predicting keyboard input
+05:47:31   31 Client following hero id 20
+05:47:31   31 Reticle received step event
+05:47:31   31 Hero::deserialize()
+05:47:31   31 Weapon::deserialize()
+05:47:31   32 Client::eventHandler(): sending mouse input to server.
+05:47:31   32 Reticle received mouse event
+05:47:31   32 Client::eventHandler(): sending keyboard input to server.
+05:47:31   32 Predicting keyboard input
+05:47:31   32 Client following hero id 20
+05:47:31   32 Reticle received step event
+05:47:31   32 Hero::deserialize()
+05:47:31   32 Weapon::deserialize()
+05:47:31   33 Client::eventHandler(): sending keyboard input to server.
+05:47:31   33 Predicting keyboard input
+05:47:31   33 Client following hero id 20
+05:47:31   33 Reticle received step event
+05:47:31   33 Hero::deserialize()
+05:47:31   33 Weapon::deserialize()
+05:47:31   34 Client::eventHandler(): sending keyboard input to server.
+05:47:31   34 Predicting keyboard input
+05:47:31   34 Client following hero id 20
+05:47:31   34 Reticle received step event
+05:47:31   34 Hero::deserialize()
+05:47:31   34 Weapon::deserialize()
+05:47:31   35 Client::eventHandler(): sending mouse input to server.
+05:47:31   35 Reticle received mouse event
+05:47:31   35 Client::eventHandler(): sending keyboard input to server.
+05:47:31   35 Predicting keyboard input
+05:47:31   35 Hero collided with fucking platform
+05:47:31   35 Client following hero id 20
+05:47:31   35 Reticle received step event
+05:47:31   35 Hero::deserialize()
+05:47:31   35 Weapon::deserialize()
+05:47:31   35 Hero collided with fucking platform
+05:47:31   36 Client::eventHandler(): sending mouse input to server.
+05:47:31   36 Reticle received mouse event
+05:47:31   36 Client::eventHandler(): sending keyboard input to server.
+05:47:31   36 Predicting keyboard input
+05:47:31   36 Hero collided with fucking platform
+05:47:31   36 Client following hero id 20
+05:47:31   36 Reticle received step event
+05:47:31   36 Hero::deserialize()
+05:47:31   36 Weapon::deserialize()
+05:47:31   36 Hero collided with fucking platform
+05:47:31   37 Client::eventHandler(): sending mouse input to server.
+05:47:31   37 Reticle received mouse event
+05:47:31   37 Client::eventHandler(): sending keyboard input to server.
+05:47:31   37 Predicting keyboard input
+05:47:31   37 Hero collided with fucking platform
+05:47:31   37 Client following hero id 20
+05:47:31   37 Reticle received step event
+05:47:31   37 Hero::deserialize()
+05:47:31   37 Weapon::deserialize()
+05:47:31   38 Client::eventHandler(): sending mouse input to server.
+05:47:31   38 Reticle received mouse event
+05:47:31   38 Client::eventHandler(): sending keyboard input to server.
+05:47:31   38 Predicting keyboard input
+05:47:31   38 Client following hero id 20
+05:47:31   38 Reticle received step event
+05:47:31   38 Hero::deserialize()
+05:47:31   38 Weapon::deserialize()
+05:47:31   39 Client::eventHandler(): sending mouse input to server.
+05:47:31   39 Reticle received mouse event
+05:47:31   39 Client::eventHandler(): sending keyboard input to server.
+05:47:31   39 Predicting keyboard input
+05:47:31   39 Client following hero id 20
+05:47:31   39 Reticle received step event
+05:47:31   39 Hero::deserialize()
+05:47:31   39 Weapon::deserialize()
+05:47:31   40 Client::eventHandler(): sending mouse input to server.
+05:47:31   40 Reticle received mouse event
+05:47:31   40 Client::eventHandler(): sending mouse input to server.
+05:47:31   40 Reticle received mouse event
+05:47:31   40 Client::eventHandler(): sending keyboard input to server.
+05:47:31   40 Predicting keyboard input
+05:47:31   40 Client following hero id 20
+05:47:31   40 Reticle received step event
+05:47:31   40 Hero::deserialize()
+05:47:31   40 Weapon::deserialize()
+05:47:31   40 Hero::deserialize()
+05:47:31   40 Weapon::deserialize()
+05:47:31   41 Client::eventHandler(): sending mouse input to server.
+05:47:31   41 Reticle received mouse event
+05:47:31   41 Client::eventHandler(): sending keyboard input to server.
+05:47:31   41 Predicting keyboard input
+05:47:31   41 Client following hero id 20
+05:47:31   41 Reticle received step event
+05:47:31   42 Client::eventHandler(): sending mouse input to server.
+05:47:31   42 Reticle received mouse event
+05:47:31   42 Client::eventHandler(): sending keyboard input to server.
+05:47:31   42 Predicting keyboard input
+05:47:31   42 Client following hero id 20
+05:47:31   42 Reticle received step event
+05:47:31   42 Hero::deserialize()
+05:47:31   42 Weapon::deserialize()
+05:47:31   42 Weapon::deserialize(): fire_count_down is 3
+05:47:31   42 Weapon::deserialize(): ammo_loaded is 29
+05:47:31   42 Client::createObject(): creating object type 'Bullet'
+05:47:31   42 Hero collided with fucking platform
+05:47:31   43 Client::eventHandler(): sending mouse input to server.
+05:47:31   43 Reticle received mouse event
+05:47:31   43 Client::eventHandler(): sending keyboard input to server.
+05:47:31   43 Predicting keyboard input
+05:47:31   43 Hero collided with fucking platform
+05:47:31   43 Client following hero id 20
+05:47:31   43 Reticle received step event
