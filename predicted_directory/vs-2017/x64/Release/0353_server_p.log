@@ -1,0 +1,227 @@
+03:53:28    0 ****************************************************
+03:53:28    0 ** Dragonfly version 4.12 **
+03:53:29    0 Hello, Network! (v1.2)
+03:53:29    0 0353_server_p.log
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+03:53:29    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+03:53:29    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+03:53:29    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+03:53:29    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+03:53:29    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+03:53:29    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+03:53:29    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+03:53:30    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+03:53:31    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+03:53:31    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+03:53:31    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+03:53:31    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+03:53:31    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+03:53:31    0 GameManager::run(): starting game loop
+03:53:33   52 GameManager::run(): end of game loop
+03:53:33   52 NetworkManager::setServer(): Ready for connections on port 9876.
+03:53:33   52 Server::Server(): Setup for 3 connections.
+03:53:33   52 Server::Server(): Server started
+03:53:33   52 GameManager::run(): starting game loop
+03:53:43  298 NetworkManager::accept(): New connection.
+03:53:43  298 Server::handleAccept(): server now connected socket: 0
+03:53:43  298 Server::eventHandler(): sending hero id message: '20'
+03:53:50  459 GameManager::run(): Can't keep up! frame_time 33 ms, split 2302 ms
+03:54:15 1198 GameManager::run(): end of game loop
+03:54:15 1198 PathManager::shutDown(): successfully stopped.
+03:54:15 1198 Path manager stopped

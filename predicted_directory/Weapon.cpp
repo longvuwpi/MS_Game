@@ -4,6 +4,7 @@
 #include "WeakPoint.h"
 #include "Boss.h"
 #include "Explosion.h"
+#include "Server.h"
 
 #include "WorldManager.h"
 #include "Particle.h"
@@ -14,6 +15,7 @@
 #include "GameManager.h"
 #include "EventMouse.h"
 #include "DisplayManager.h"
+#include "NetworkManager.h"
 
 Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int dmg, bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration) {
 	weapon_name = weaponName;
@@ -35,6 +37,8 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 	clock = new df::Clock;
 	reloading = false;
 	is_scoping = false;
+	bullets_fired = 0;
+	bullets_hit = 0;
 	setType("Weapon");
 
 	df::Sprite *p_temp_sprite = RM.getSprite(weapon_name);
@@ -67,6 +71,17 @@ Weapon::Weapon(std::string weaponName, WeaponType weaponType, Hero* owner, int b
 		inaccuracy = 0;
 		inaccuracy_spread = 0;
 		break;
+	}
+}
+
+Weapon::~Weapon() {
+	if (NM.isServer()) {
+		LM.writeLog("Weapon id %d fired %d times and hit %d times", getId(), bullets_fired, bullets_hit);
+		df::ObjectList ol = WM.objectsOfType("Server");
+		df::ObjectListIterator oli(&ol);
+		oli.first();
+		Server *server = (Server *)oli.currentObject();
+		server->sendMessage(df::DELETE_OBJECT, this);
 	}
 }
 
@@ -153,6 +168,8 @@ void Weapon::dealDamageAt(df::Vector target, bool drawTrail) {
 	}
 
 	if (hit) {
+		bullets_hit++;
+		LM.writeLog("Weapon id %d fired %d times and hit %d times", getId(), bullets_fired, bullets_hit);
 		df::addParticles(20, 5, target, 2.0f, df::Vector(0, 0), 1.0f, 2.0f, 1.0f, 1.0f, 1.0f, 10, 7, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
 	}
 }
@@ -175,11 +192,12 @@ void Weapon::fire(df::Vector target) {
 	fire_count_down = fire_rate; 		weapon_modified[FIRE_COUNT_DOWN] = true;
 	ammo_loaded--;						weapon_modified[AMMO_LOADED] = true;
 	current_target = target;			weapon_modified[CURRENT_TARGET] = true;
+	bullets_fired++;
 	last_shot_frame = GM.getStepCount();
 	recoil = shot_recoil;
 
 	DM.shake(fire_rate, fire_rate, 3, false);
-	LM.writeLog("Weapon just fired, ammo is %d", ammo_loaded);
+	//LM.writeLog("Weapon just fired, ammo is %d", ammo_loaded);
 	//If scoping, deal instant damage at target, else fire Bullet towards target.
 	if (weapon_type == WeaponType::SNIPER) {
 		if (is_scoping) {
@@ -198,7 +216,7 @@ void Weapon::fire(df::Vector target) {
 		//df::Vector v = getDirection();
 		v.normalize();
 		v.scale(bullet_speed);
-		printf("bullet velocity %f,%f\n", v.getX(), v.getY());
+		//printf("bullet velocity %f,%f\n", v.getX(), v.getY());
 		Bullet *p = new Bullet(origin, bullet_sprite, this);
 		p->setVelocity(v);
 	}
@@ -382,7 +400,7 @@ int Weapon::getBulletSpeed() {
 }
 
 std::string Weapon::serialize(std::string all) {
-	LM.writeLog(1, "Weapon::serialize() %s", all);
+	//LM.writeLog(1, "Weapon::serialize() %s", all);
 
 	// Do main serialize from parent.
 	std::string s = Object::serialize(all);
@@ -432,7 +450,7 @@ std::string Weapon::serialize(std::string all) {
 }
 
 int Weapon::deserialize(std::string str) {
-	LM.writeLog("Weapon::deserialize()");
+	//LM.writeLog("Weapon::deserialize()");
 
 	if (!hero->isPredicted()) {
 		// Do main deserialize from parent.
@@ -450,6 +468,9 @@ int Weapon::deserialize(std::string str) {
 		int i = atoi(val.c_str());
 		LM.writeLog("Weapon::deserialize(): fire_count_down is %d", i);
 		fire_count_down = i;
+		if ((weapon_type == WeaponType::SNIPER) && (fire_count_down == 30) && (!reloading)) {
+			RM.getSound("awp_bolt")->play();
+		}
 	}
 
 	val = df::match("", "ammo_loaded");
@@ -493,6 +514,7 @@ int Weapon::deserialize(std::string str) {
 		if (val.compare("true") == 0) {
 			LM.writeLog("Weapon::deserialize(): reloading is true");
 			reloading = true;
+			RM.getSound(weapon_name + "_reload")->play();
 		}
 		else {
 			LM.writeLog("Weapon::deserialize(): reloading is false");

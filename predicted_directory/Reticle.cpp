@@ -23,62 +23,63 @@
 Reticle::Reticle(Hero* owner) {
 	expand_size = 0;
 	hero = owner;
-  setType("Reticle");
-  setSolidness(df::SPECTRAL);
-  setAltitude(df::MAX_ALTITUDE); // Make Reticle in foreground.
+	setType("Reticle");
+	setSolidness(df::SPECTRAL);
+	setAltitude(df::MAX_ALTITUDE); // Make Reticle in foreground.
 
-  // Server keeps track of Client's socket.
-  //m_socket_index = socket_index;
-  
-  // If Server, Reticle moves with network mouse event.
-  if (!NM.isServer()) {
-	  registerInterest(df::MSE_EVENT);
-	  registerInterest(df::STEP_EVENT);
-  }
+	// Server keeps track of Client's socket.
+	//m_socket_index = socket_index;
 
-  // Start reticle in center of world.
-  df::Vector p(WM.getView().getHorizontal()/2,
-	       WM.getView().getVertical()/2);
-  setPosition(p);
+	// If Server, Reticle moves with network mouse event.
+	if (!NM.isServer()) {
+		registerInterest(df::MSE_EVENT);
+		registerInterest(df::STEP_EVENT);
+	}
+
+	// Start reticle in center of world.
+	df::Vector p(WM.getView().getHorizontal() / 2,
+		WM.getView().getVertical() / 2);
+	setPosition(p);
 }
 
 // Handle event.
 // Return 0 if ignored, else 1.
 int Reticle::eventHandler(const df::Event *p_e) {
 
-  if (p_e->getType() == df::MSE_EVENT) {
-	  LM.writeLog("Reticle received mouse event");
+	if (p_e->getType() == df::MSE_EVENT) {
+		//LM.writeLog("Reticle received mouse event");
 
-    const df::EventMouse *p_me =
-      dynamic_cast <const df::EventMouse *> (p_e);
+		const df::EventMouse *p_me =
+			dynamic_cast <const df::EventMouse *> (p_e);
 
-    // If "move", change position to mouse position.
-    if (p_me -> getMouseAction() == df::MOVED) {
-      setPosition(df::Vector(WM.getView().getCorner().getX(), 0) + (p_me -> getMousePosition()));
-		//setPosition(p_me->getMousePosition());
-		return 1;
-    }
+		// If "move", change position to mouse position.
+		if (p_me->getMouseAction() == df::MOVED) {
+			setPosition(df::Vector(WM.getView().getCorner().getX(), 0) + (p_me->getMousePosition()));
+			//setPosition(p_me->getMousePosition());
+			return 1;
+		}
 
-  }
+	}
 
-  if (p_e->getType() == df::STEP_EVENT) {
-	  LM.writeLog("Reticle received step event");
+	if (p_e->getType() == df::STEP_EVENT) {
+		//LM.writeLog("Reticle received step event");
 
-	  if (expand_size > 0) {
-		  expand_size -= 0.1f;
-	  }
-	  else {
-		  expand_size = 0;
-	  }
-  }
+		if (expand_size > 0) {
+			expand_size -= 0.1f;
+		}
+		else {
+			expand_size = 0;
+		}
+	}
 
-  // If get here, have ignored this event.
-  return 0;
+	// If get here, have ignored this event.
+	return 0;
 }
 
 // Draw reticle on window.
 void Reticle::draw() {
-	if (!NM.isServer()) {
+	int weaponNum = WM.objectsOfType("Weapon").getCount();
+	if (!NM.isServer() && (hero != NULL) && (weaponNum > 0)) {
 		switch (hero->getCurrentWeapon()->getWeaponType()) {
 		case WeaponType::RIFLE:
 			DM.drawCh(getPosition() + df::Vector(0, -0.2f), RETICLE_CHAR, df::GREEN);
@@ -195,6 +196,9 @@ void Reticle::draw() {
 		default:
 			break;
 		}
+	}
+	else {
+		WM.markForDelete(this);
 	}
 }
 

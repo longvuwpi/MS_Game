@@ -37,9 +37,11 @@ private:
 	int jump_count;
 	int health;
 	int max_health;
+	int death_count;
 	bool isDucking;
 	bool hero_modified[hero_att_count];
-	bool is_predicted;
+	bool is_predicted; 
+	bool is_main_hero;
 	df::ObjectList weapon_list;
 	df::ObjectListIterator *weapon_selector;
 	df::ViewObject *weapon_view;
@@ -59,6 +61,7 @@ private:
 public:
 	Hero(int sock_in, int client_sock_in, bool isPredicted = false);
 	~Hero();
+	void setIsPredicted(bool newIsPredicted);
 	int eventHandler(const df::Event *p_e);
 	int getHealth();
 	void takeDamage(df::Vector at, int damage);

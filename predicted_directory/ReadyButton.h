@@ -5,12 +5,13 @@
 class ReadyButton : public df::Button {
 
 private:
-	Server * server;
 	int last_ready_sock_in;
+	df::Vector mouse_pos;
 public:
-	ReadyButton(Server* server);
+	ReadyButton();
 	~ReadyButton();
-
+	void addReadyPlayer(int sock_in);
+	void showButton();
 	int eventHandler(const df::Event *p_e);
 	void callback() override;
 };

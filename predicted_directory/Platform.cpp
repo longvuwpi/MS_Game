@@ -3,9 +3,13 @@
 //
 
 #include "Platform.h"
+
 #include "LogManager.h"
 #include "ResourceManager.h"
 #include "EventCollision.h"
+#include "NetworkManager.h"
+#include "WorldManager.h"
+#include "Server.h"
 
 Platform::Platform(df::Vector pos) {
 	df::Sprite *p_temp_platform_sprite = RM.getSprite("platform");
@@ -21,6 +25,16 @@ Platform::Platform(df::Vector pos) {
 	setType("Platform");
 
 	setPosition(pos);
+}
+
+Platform::~Platform() {
+	if (NM.isServer()) {
+		df::ObjectList ol = WM.objectsOfType("Server");
+		df::ObjectListIterator oli(&ol);
+		oli.first();
+		Server *server = (Server *)oli.currentObject();
+		server->sendMessage(df::DELETE_OBJECT, this);
+	}
 }
 
 int Platform::eventHandler(const df::Event *p_e) {

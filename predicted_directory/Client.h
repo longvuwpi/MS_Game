@@ -32,6 +32,8 @@ private:
   // Create Object of given type.
   // Return pointer to Object.
   df::Object *createObject(std::string object_type);
+
+  int getHeroId();
 };
 
 #endif

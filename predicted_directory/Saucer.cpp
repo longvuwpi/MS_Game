@@ -11,7 +11,6 @@
 
 // Engine includes.
 #include "EventCollision.h"
-//#include "EventNuke.h"
 #include "EventOut.h"
 #include "EventView.h"
 #include "LogManager.h"
@@ -33,8 +32,9 @@
 #include "Saucer.h"
 #include "Bullet.h"
 #include "BulletTrail.h"
-//#include "DamageIndicator.h"
+#include "DamageIndicator.h"
 #include "Server.h"
+#include "EventNuke.h"
 
 Saucer::Saucer() {
 	enemy_type = EnemyType::MINION;
@@ -84,12 +84,16 @@ Saucer::Saucer(int maxHealth, int dmg, float radius, int movementType, int attac
 	// Move Saucer to start location.
 	enemy_movement->moveToStart();
 	// Register interest in "nuke" event.
-	//registerInterest(NUKE_EVENT);
+	registerInterest(NUKE_EVENT);
     registerInterest(df::STEP_EVENT);
     
 }
 
 Saucer::~Saucer() {
+	//Play "explode" sound.
+	df::Sound *p_sound = RM.getSound("saucer_death");
+	p_sound->play();
+
 	// Send "view" event with points to interested ViewObjects.
 	// Add 10 points.
 	df::Vector center = getPosition();
@@ -142,19 +146,19 @@ int Saucer::eventHandler(const df::Event *p_e) {
 			return 1;
 		}
 
-		//if (p_e->getType() == NUKE_EVENT) {
-		//	const EventNuke *p_nuke_event = dynamic_cast <EventNuke const *> (p_e);
-		//	if ((getPosition() - p_nuke_event->getOrigin()).getMagnitude() <= p_nuke_event->getRadius()) {
-		//		// Create explosion.
-		//		Explosion *p_explosion = new Explosion("explosion", 0);
-		//		p_explosion->setPosition(this->getPosition());
+		if (p_e->getType() == NUKE_EVENT) {
+			const EventNuke *p_nuke_event = dynamic_cast <EventNuke const *> (p_e);
+			if ((getPosition() - p_nuke_event->getOrigin()).getMagnitude() <= p_nuke_event->getRadius()) {
+				// Create explosion.
+				//Explosion *p_explosion = new Explosion("explosion", 0);
+				//p_explosion->setPosition(this->getPosition());
 
-		//		takeDamage(getPosition(), p_nuke_event->getDamage());
+				takeDamage(getPosition(), p_nuke_event->getDamage());
 
-		//		// Saucers appear stay around perpetually
-		//		//new Saucer;
-		//	}
-		//}
+				// Saucers appear stay around perpetually
+				//new Saucer;
+			}
+		}
 
 		if (p_e->getType() == df::STEP_EVENT) {
 			step();
@@ -173,7 +177,9 @@ void Saucer::out() {
 		return;
 
 	// Otherwise, move back to far right.
-	enemy_movement->moveToStart();
+	int num = WM.objectsOfType("Saucer").getCount();
+	if (num < 7) enemy_movement->moveToStart();
+	else WM.markForDelete(this);
 }
 
 // Called with Saucer collides.
@@ -302,7 +308,7 @@ int Saucer::getAttackType() {
 
 void Saucer::takeDamage(df::Vector at, int damage) {
 	health -= damage;
-	//new DamageIndicator(at, damage);
+	new DamageIndicator(at, damage);
 }
 
 void Saucer::die() {
@@ -312,10 +318,6 @@ void Saucer::die() {
 	//df::addParticles(df::ParticleType::SPARKS, getPosition(), 1.0, df::RED);
 	//df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)250, (unsigned char)200, (unsigned char)100);
 	//df::addParticles(100, 10, getPosition(), 0.1f, df::Vector(0, 1), 1.0f, 5.0f, 4.0f, 0.5f, 1.0f, 7, 10, (unsigned char)255, (char)255, (unsigned char)250, (unsigned char)0, (unsigned char)0, (unsigned char)100);
-	
-	//Play "explode" sound.
-	df::Sound *p_sound = RM.getSound("saucer_death");
-	p_sound->play();
 
 	WM.markForDelete(this);
 }

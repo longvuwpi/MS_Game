@@ -1,0 +1,2253 @@
+21:11:52    0 ****************************************************
+21:11:52    0 ** Dragonfly version 4.12 **
+21:11:53    0 Hello, Network! (v1.2)
+21:11:53    0 2111_server_p.log
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+21:11:53    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+21:11:53    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+21:11:53    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+21:11:53    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+21:11:53    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+21:11:54    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+21:11:55    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+21:11:55    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+21:11:55    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+21:11:55    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+21:11:55    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+21:11:55    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+21:11:55    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+21:11:55    0 GameManager::run(): starting game loop
+21:11:58   90 GameManager::run(): end of game loop
+21:11:58   90 NetworkManager::setServer(): Ready for connections on port 9876.
+21:11:58   90 Server::Server(): Setup for 3 connections.
+21:11:58   90 Server::Server(): Server started
+21:11:58   90 GameManager::run(): starting game loop
+21:11:59   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:11:59   39 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   40 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   41 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   42 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   43 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   44 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   45 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   46 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   47 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   48 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   49 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   50 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   51 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:00   52 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   54 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   62 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   63 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   64 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   65 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   66 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   67 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:00   68 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:00   69 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:01   74 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:01   75 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:01   83 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:01   84 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:01   85 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:01   86 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:01   87 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:01   88 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:01   93 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:02  101 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:02  102 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:02  112 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:02  113 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:02  114 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:02  115 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:02  116 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:02  117 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:02  118 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:02  126 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:02  127 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:02  128 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:03  129 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:03  130 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:03  131 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:03  132 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:03  133 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:03  134 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:03  135 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:03  136 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:03  157 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:04  158 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:04  159 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:04  162 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:04  163 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:04  164 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:04  165 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:04  171 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:04  184 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:04  185 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:05  191 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:05  194 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  195 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:05  196 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:05  197 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  198 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  203 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  204 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  211 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  212 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:05  216 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:05  217 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  218 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  219 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  220 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  221 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  222 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  223 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  224 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  225 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  226 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  227 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  228 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  229 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  230 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  231 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  232 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  233 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  234 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  235 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  236 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:06  237 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  238 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  239 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:06  240 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:06  241 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:07  252 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:07  256 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:07  257 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  258 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  259 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  260 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:07  261 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  262 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:07  263 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:07  269 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  270 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:07  271 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  272 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:07  273 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  274 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:07  275 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:07  276 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  281 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  282 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  283 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  284 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:08  285 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  286 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  287 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  288 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:08  289 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:08  290 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:08  291 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:08  292 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:08  293 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:08  300 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  301 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:08  302 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:08  303 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:09  309 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:09  312 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:09  313 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:09  314 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:09  315 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:09  316 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:09  317 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:09  319 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:10  342 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:10  343 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:10  344 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:10  349 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:10  355 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:10  360 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:10  361 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:10  362 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:10  363 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:10  364 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:11  365 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:11  366 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:11  367 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:11  368 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:11  369 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:11  381 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:11  382 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:11  383 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:12:12  396 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  397 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:12  398 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:12  399 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  400 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:12  401 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  402 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:12  403 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  404 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  405 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:12  407 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:12  408 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:12  409 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  410 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:12  411 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:12  414 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:13  425 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:13  442 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:13  443 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:13  444 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:13  445 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:13  446 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:13  447 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:13  448 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:13  449 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:13  453 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:14  457 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:14  461 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:14  462 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:14  468 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:14  469 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:14  470 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:14  471 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:14  479 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:14  480 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:14  481 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:14  482 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:14  483 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:15  484 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:15  485 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:15  486 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:15  487 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:15  491 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:16  515 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:16  518 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:16  519 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:16  520 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:16  523 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:16  533 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:16  538 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:16  539 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:17  550 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:17  558 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:17  566 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:17  567 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:18  574 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:18  575 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:18  576 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:18  594 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:18  596 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:18  597 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:18  598 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:19  603 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:19  604 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:19  610 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:19  611 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:19  612 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:19  613 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:19  614 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:19  615 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:19  616 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:19  617 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:19  618 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:19  629 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:20  639 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:20  640 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:20  641 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:20  645 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:20  654 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:20  655 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:20  656 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:20  657 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:20  658 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:21  673 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:21  674 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:21  675 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:21  676 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:21  683 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:21  684 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:21  685 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:21  687 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:21  688 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:22  695 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:22  699 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:22  700 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:22  704 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:22  705 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:22  706 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:22  707 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:22  708 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:22  709 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:22  717 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:22  718 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:22  719 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:23  720 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:23  721 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:23  722 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:23  723 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:23  729 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:23  734 GameManager::run(): Can't keep up! frame_time 33 ms, split 100 ms
+21:12:24  773 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:24  774 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:25  782 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:25  786 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:25  798 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:25  799 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:25  800 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:25  801 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:25  802 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:25  803 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:25  804 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:25  805 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:25  806 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:26  817 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:26  834 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:26  835 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:26  836 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:27  840 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:27  841 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:27  850 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:27  851 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:27  852 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:27  855 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:27  856 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:27  857 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:27  858 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:28  872 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:28  873 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:28  874 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:28  875 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:28  876 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:28  877 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:28  878 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:28  884 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:28  885 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:28  886 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:29  899 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:29  900 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  901 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:29  904 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:29  905 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:29  906 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  907 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  908 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:29  909 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  910 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:29  911 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  912 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:29  919 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:29  920 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  921 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:29  922 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  923 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:29  924 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:30  925 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  926 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  927 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  928 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:30  930 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:30  931 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:30  937 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  938 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  939 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:30  940 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:30  941 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:30  942 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:30  952 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:31  959 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:31  960 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:31  961 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:31  962 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+21:12:32  988 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:12:32 1005 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:33 1019 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:33 1029 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:33 1030 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:33 1036 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:34 1042 GameManager::run(): Can't keep up! frame_time 33 ms, split 75 ms
+21:12:35 1092 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:35 1093 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:35 1094 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:35 1095 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:35 1096 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:35 1102 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:36 1103 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:36 1104 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:36 1105 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:36 1113 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:36 1114 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:36 1115 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:36 1118 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:37 1134 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:37 1141 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:37 1142 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:37 1143 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:37 1144 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:37 1158 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:37 1159 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:38 1169 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1170 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:38 1173 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1174 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1175 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1176 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1177 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:38 1178 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1179 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:38 1184 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:38 1185 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1186 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:38 1187 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:38 1188 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:38 1189 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:39 1194 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:39 1197 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:39 1200 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:39 1201 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:39 1202 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:39 1217 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:39 1218 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:39 1219 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:39 1220 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:40 1221 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:12:40 1227 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:40 1230 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:40 1234 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:40 1235 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:40 1236 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:40 1245 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:40 1246 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:40 1247 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:40 1248 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:40 1249 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:41 1250 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:41 1251 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:41 1252 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:41 1253 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:41 1254 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:41 1255 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:41 1256 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:41 1260 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:41 1261 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:41 1268 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:12:42 1285 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:42 1292 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:42 1295 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:42 1296 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:43 1316 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:43 1317 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:43 1318 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:43 1319 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:43 1324 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:43 1325 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:43 1336 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:43 1337 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:44 1339 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:44 1340 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:44 1341 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:44 1342 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:44 1343 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:44 1344 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:44 1345 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:12:44 1346 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:44 1358 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:44 1359 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:44 1363 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:45 1369 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:45 1375 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:45 1376 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:45 1377 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:45 1378 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1379 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1380 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:45 1381 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1382 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1383 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:45 1384 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1385 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:45 1386 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:45 1387 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:45 1388 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:45 1389 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:46 1398 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:46 1404 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:46 1405 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:46 1406 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:46 1407 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:46 1408 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:46 1409 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:47 1428 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:47 1439 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:47 1446 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:47 1447 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:47 1451 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:47 1452 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:47 1455 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:47 1456 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:48 1457 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:48 1462 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:48 1468 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:48 1469 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:48 1471 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:48 1476 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:48 1477 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:48 1478 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:48 1479 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:48 1480 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:48 1481 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:48 1482 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:49 1487 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:49 1498 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:49 1504 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:49 1505 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:49 1510 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:50 1521 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:50 1522 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:50 1527 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:50 1528 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:50 1529 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:50 1530 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:51 1561 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:51 1566 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:51 1569 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:51 1570 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:51 1571 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:51 1572 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:52 1584 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:52 1587 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:52 1591 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:52 1595 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:12:52 1599 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:52 1600 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:52 1601 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:52 1602 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:52 1603 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:53 1610 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:53 1613 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:53 1614 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1615 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1616 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1617 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:53 1618 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1619 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1622 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:53 1623 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1624 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:53 1630 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:53 1631 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:53 1632 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:54 1648 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:54 1649 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:54 1650 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:54 1651 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+21:12:54 1657 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:54 1661 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:54 1662 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:55 1667 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:55 1671 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:55 1680 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:55 1681 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:55 1685 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:55 1691 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:55 1692 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:56 1710 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:12:56 1716 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:56 1717 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:56 1718 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:56 1719 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:56 1720 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:57 1728 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:57 1729 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:57 1730 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:12:57 1737 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:57 1746 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:57 1747 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:57 1748 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:57 1749 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:57 1750 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:57 1751 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:58 1752 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:58 1753 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1754 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:58 1760 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:58 1761 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:58 1762 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:58 1763 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:12:58 1769 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1770 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1771 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1772 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:58 1773 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1774 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:58 1775 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:58 1776 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:58 1777 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:12:59 1785 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:59 1786 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:59 1787 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:12:59 1788 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:59 1789 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:12:59 1800 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:12:59 1801 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:12:59 1802 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:12:59 1808 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:00 1815 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:00 1817 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:00 1824 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:00 1825 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:01 1841 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:01 1842 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:01 1843 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:01 1844 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:01 1850 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:02 1879 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:02 1892 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:02 1893 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:02 1899 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:03 1921 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:03 1922 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:03 1923 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:03 1924 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:04 1930 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:04 1948 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:04 1958 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:05 1959 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:05 1960 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:05 1965 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:05 1983 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:05 1984 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:06 1999 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:06 2000 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:06 2001 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:06 2002 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:06 2008 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:06 2013 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:06 2014 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:13:07 2034 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:07 2035 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:07 2036 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:07 2037 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:07 2038 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:07 2041 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:08 2052 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:08 2058 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:08 2059 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:08 2060 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:08 2061 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:08 2064 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:08 2075 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:11 2151 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:11 2152 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:11 2153 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:11 2154 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:11 2155 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:11 2156 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:11 2162 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:12 2167 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:12 2173 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:12 2176 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:12 2187 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:13:12 2193 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:13 2198 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:13 2207 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:13 2215 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:13 2216 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:13 2217 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:14 2241 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:14 2242 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:14 2248 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:14 2252 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:14 2253 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:14 2254 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2255 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:15 2256 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:15 2257 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:15 2258 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:15 2271 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2272 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2275 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2276 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:15 2277 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2278 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2279 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2280 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:15 2281 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:15 2282 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:15 2283 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:16 2284 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:16 2285 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:16 2286 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:16 2287 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:16 2292 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:16 2293 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:16 2294 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:16 2295 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:16 2296 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:16 2297 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:16 2298 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:16 2299 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:16 2313 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:17 2314 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:17 2315 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:17 2316 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:17 2317 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:17 2318 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:17 2319 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:17 2320 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:17 2321 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:17 2322 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:17 2338 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:17 2339 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:17 2340 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:17 2341 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:17 2342 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:18 2343 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:18 2351 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:18 2354 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:18 2359 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:18 2366 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:18 2367 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:18 2368 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:18 2369 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:18 2370 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:19 2376 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:19 2377 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:19 2378 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:19 2379 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:19 2380 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:19 2384 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:19 2385 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:19 2386 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:19 2394 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:19 2400 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:20 2407 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:20 2408 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:20 2426 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:21 2433 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:21 2438 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:21 2439 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:21 2440 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:21 2441 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:21 2442 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:21 2443 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:13:21 2451 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:22 2462 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:22 2463 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:22 2464 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:13:22 2475 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:22 2476 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:22 2477 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:22 2478 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:22 2479 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:22 2490 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:23 2491 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:23 2492 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:23 2493 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:13:23 2504 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:23 2509 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:24 2520 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:24 2521 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:24 2542 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:24 2543 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:24 2544 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:24 2545 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:24 2546 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:24 2547 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:25 2550 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:25 2551 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:13:25 2557 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:25 2560 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:25 2561 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:25 2562 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:13:25 2576 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:26 2582 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:26 2585 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:26 2586 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:26 2587 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:26 2588 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:26 2589 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:26 2592 NetworkManager::accept(): New connection.
+21:13:26 2592 Server::handleAccept(): server now connected socket: 0
+21:13:26 2592 Server::eventHandler(): sending hero id message: '20'
+21:13:26 2592 GameManager::run(): Can't keep up! frame_time 33 ms, split 64 ms
+21:13:27 2623 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:27 2628 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:27 2634 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:28 2639 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:28 2640 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:28 2641 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:28 2647 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:28 2648 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:28 2664 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2668 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+21:13:29 2679 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2680 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:29 2681 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2682 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2683 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:29 2684 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:29 2688 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:29 2689 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2690 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:29 2691 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:29 2692 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+21:13:30 2703 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:30 2704 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:30 2705 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:30 2706 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:30 2707 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:30 2712 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:30 2713 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:30 2717 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:30 2718 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:30 2721 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:30 2723 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:30 2724 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2727 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2728 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:31 2729 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2730 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2731 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:31 2732 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:31 2733 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:31 2739 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2742 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2743 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2744 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:31 2745 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:31 2746 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:31 2747 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+21:13:32 2759 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2760 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2761 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2762 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2763 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2764 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2765 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2766 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2767 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2768 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2769 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2770 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2771 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2772 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2773 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2774 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2775 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2778 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2779 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:32 2780 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2781 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2782 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2783 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:32 2784 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:32 2785 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2786 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2787 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2788 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2789 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2792 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2793 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2794 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2795 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2796 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2797 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2798 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2799 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2800 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2801 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2802 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2803 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2804 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2807 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2808 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2809 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2810 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:33 2811 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:33 2812 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:33 2815 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2816 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2819 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:34 2820 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2821 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2822 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2823 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:34 2824 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:34 2825 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:34 2826 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:34 2827 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:34 2832 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:34 2833 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:34 2838 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:34 2844 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:35 2862 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:35 2863 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:35 2868 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:36 2877 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:36 2878 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:36 2885 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:36 2886 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+21:13:36 2892 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:36 2898 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:36 2904 Server::doSync(): SYNC Hero (id 20).
+21:13:36 2904 Hero::serialize() 
+21:13:36 2904 Server::doSync(): SYNC Weapon (id 21).
+21:13:36 2904 Weapon::serialize() 
+21:13:36 2904 Serialized ammo loaded, 30
+21:13:36 2904 Server::doSync(): SYNC Weapon (id 22).
+21:13:36 2904 Weapon::serialize() 
+21:13:36 2904 Serialized ammo loaded, 10
+21:13:36 2904 Server::doSync(): SYNC Weapon (id 23).
+21:13:36 2904 Weapon::serialize() 
+21:13:36 2904 Serialized ammo loaded, 1
+21:13:36 2904 Server::doSync(): SYNC Level (id 100).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 100).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 101).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 102).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 103).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 104).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 105).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 106).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 107).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 108).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 109).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 110).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 111).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 112).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 113).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 114).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 115).
+21:13:36 2904 Server::doSync(): SYNC Platform (id 116).
+21:13:36 2904 Weapon just fired, ammo is 29
+21:13:37 2904 GameManager::run(): Can't keep up! frame_time 33 ms, split 97 ms
+21:13:37 2905 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2905 Hero::serialize() 
+21:13:37 2905 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2905 Weapon::serialize() 
+21:13:37 2905 Serialized ammo loaded, 29
+21:13:37 2905 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2906 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2906 Hero::serialize() 
+21:13:37 2906 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2906 Weapon::serialize() 
+21:13:37 2906 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2907 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2907 Hero::serialize() 
+21:13:37 2907 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2907 Weapon::serialize() 
+21:13:37 2907 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2908 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2908 Hero::serialize() 
+21:13:37 2908 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2908 Weapon::serialize() 
+21:13:37 2908 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2909 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2909 Hero::serialize() 
+21:13:37 2909 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2909 Weapon::serialize() 
+21:13:37 2909 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2910 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2910 Hero::serialize() 
+21:13:37 2910 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2910 Weapon::serialize() 
+21:13:37 2910 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2911 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2911 Hero::serialize() 
+21:13:37 2911 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2911 Weapon::serialize() 
+21:13:37 2911 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2912 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2912 Hero::serialize() 
+21:13:37 2912 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2912 Weapon::serialize() 
+21:13:37 2912 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2913 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2913 Hero::serialize() 
+21:13:37 2913 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2913 Weapon::serialize() 
+21:13:37 2913 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2914 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2914 Hero::serialize() 
+21:13:37 2914 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2914 Weapon::serialize() 
+21:13:37 2914 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2915 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2915 Hero::serialize() 
+21:13:37 2915 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2915 Weapon::serialize() 
+21:13:37 2915 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2916 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2916 Hero::serialize() 
+21:13:37 2916 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2916 Weapon::serialize() 
+21:13:37 2916 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2917 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2917 Hero::serialize() 
+21:13:37 2917 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2917 Weapon::serialize() 
+21:13:37 2917 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2918 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2918 Hero::serialize() 
+21:13:37 2918 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2918 Weapon::serialize() 
+21:13:37 2918 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2919 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2919 Hero::serialize() 
+21:13:37 2919 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2919 Weapon::serialize() 
+21:13:37 2919 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2920 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2920 Hero::serialize() 
+21:13:37 2920 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2920 Weapon::serialize() 
+21:13:37 2920 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2921 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2921 Hero::serialize() 
+21:13:37 2921 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2921 Weapon::serialize() 
+21:13:37 2921 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2922 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2922 Hero::serialize() 
+21:13:37 2922 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2922 Weapon::serialize() 
+21:13:37 2922 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2923 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2923 Hero::serialize() 
+21:13:37 2923 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2923 Weapon::serialize() 
+21:13:37 2923 Server::doSync(): SYNC Bullet (id 117).
+21:13:37 2924 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2924 Hero::serialize() 
+21:13:37 2924 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2924 Weapon::serialize() 
+21:13:37 2925 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2925 Hero::serialize() 
+21:13:37 2925 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2925 Weapon::serialize() 
+21:13:37 2926 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2926 Hero::serialize() 
+21:13:37 2926 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2926 Weapon::serialize() 
+21:13:37 2927 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2927 Hero::serialize() 
+21:13:37 2927 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2927 Weapon::serialize() 
+21:13:37 2928 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2928 Hero::serialize() 
+21:13:37 2928 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2928 Weapon::serialize() 
+21:13:37 2929 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2929 Hero::serialize() 
+21:13:37 2929 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2929 Weapon::serialize() 
+21:13:37 2930 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2930 Hero::serialize() 
+21:13:37 2930 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2930 Weapon::serialize() 
+21:13:37 2931 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2931 Hero::serialize() 
+21:13:37 2931 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2931 Weapon::serialize() 
+21:13:37 2932 Server::doSync(): SYNC Hero (id 20).
+21:13:37 2932 Hero::serialize() 
+21:13:37 2932 Server::doSync(): SYNC Weapon (id 21).
+21:13:37 2932 Weapon::serialize() 
+21:13:38 2933 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2933 Hero::serialize() 
+21:13:38 2933 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2933 Weapon::serialize() 
+21:13:38 2934 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2934 Hero::serialize() 
+21:13:38 2934 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2934 Weapon::serialize() 
+21:13:38 2935 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2935 Hero::serialize() 
+21:13:38 2935 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2935 Weapon::serialize() 
+21:13:38 2936 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2936 Hero::serialize() 
+21:13:38 2936 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2936 Weapon::serialize() 
+21:13:38 2937 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2937 Hero::serialize() 
+21:13:38 2937 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2937 Weapon::serialize() 
+21:13:38 2938 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2938 Hero::serialize() 
+21:13:38 2938 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2938 Weapon::serialize() 
+21:13:38 2939 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2939 Hero::serialize() 
+21:13:38 2939 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2939 Weapon::serialize() 
+21:13:38 2940 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2940 Hero::serialize() 
+21:13:38 2940 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2940 Weapon::serialize() 
+21:13:38 2941 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2941 Hero::serialize() 
+21:13:38 2941 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2941 Weapon::serialize() 
+21:13:38 2942 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2942 Hero::serialize() 
+21:13:38 2942 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2942 Weapon::serialize() 
+21:13:38 2943 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2943 Hero::serialize() 
+21:13:38 2943 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2943 Weapon::serialize() 
+21:13:38 2944 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2944 Hero::serialize() 
+21:13:38 2944 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2944 Weapon::serialize() 
+21:13:38 2945 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2945 Hero::serialize() 
+21:13:38 2945 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2945 Weapon::serialize() 
+21:13:38 2946 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2946 Hero::serialize() 
+21:13:38 2946 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2946 Weapon::serialize() 
+21:13:38 2947 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2947 Hero::serialize() 
+21:13:38 2947 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2947 Weapon::serialize() 
+21:13:38 2948 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2948 Hero::serialize() 
+21:13:38 2948 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2948 Weapon::serialize() 
+21:13:38 2949 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2949 Hero::serialize() 
+21:13:38 2949 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2949 Weapon::serialize() 
+21:13:38 2950 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2950 Hero::serialize() 
+21:13:38 2950 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2950 Weapon::serialize() 
+21:13:38 2951 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2951 Hero::serialize() 
+21:13:38 2951 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2951 Weapon::serialize() 
+21:13:38 2952 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2952 Hero::serialize() 
+21:13:38 2952 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2952 Weapon::serialize() 
+21:13:38 2953 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2953 Hero::serialize() 
+21:13:38 2953 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2953 Weapon::serialize() 
+21:13:38 2954 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2954 Hero::serialize() 
+21:13:38 2954 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2954 Weapon::serialize() 
+21:13:38 2955 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2955 Hero::serialize() 
+21:13:38 2955 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2955 Weapon::serialize() 
+21:13:38 2956 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2956 Hero::serialize() 
+21:13:38 2956 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2956 Weapon::serialize() 
+21:13:38 2957 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2957 Hero::serialize() 
+21:13:38 2957 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2957 Weapon::serialize() 
+21:13:38 2958 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2958 Hero::serialize() 
+21:13:38 2958 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2958 Weapon::serialize() 
+21:13:38 2958 Weapon just fired, ammo is 28
+21:13:38 2959 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2959 Hero::serialize() 
+21:13:38 2959 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2959 Weapon::serialize() 
+21:13:38 2959 Serialized ammo loaded, 28
+21:13:38 2959 Server::doSync(): SYNC Bullet (id 466).
+21:13:38 2960 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2960 Hero::serialize() 
+21:13:38 2960 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2960 Weapon::serialize() 
+21:13:38 2960 Server::doSync(): SYNC Bullet (id 466).
+21:13:38 2961 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2961 Hero::serialize() 
+21:13:38 2961 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2961 Weapon::serialize() 
+21:13:38 2961 Server::doSync(): SYNC Bullet (id 466).
+21:13:38 2962 Server::doSync(): SYNC Hero (id 20).
+21:13:38 2962 Hero::serialize() 
+21:13:38 2962 Server::doSync(): SYNC Weapon (id 21).
+21:13:38 2962 Weapon::serialize() 
+21:13:38 2962 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2963 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2963 Hero::serialize() 
+21:13:39 2963 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2963 Weapon::serialize() 
+21:13:39 2963 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2964 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2964 Hero::serialize() 
+21:13:39 2964 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2964 Weapon::serialize() 
+21:13:39 2964 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2965 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2965 Hero::serialize() 
+21:13:39 2965 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2965 Weapon::serialize() 
+21:13:39 2965 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2966 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2966 Hero::serialize() 
+21:13:39 2966 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2966 Weapon::serialize() 
+21:13:39 2966 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2967 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2967 Hero::serialize() 
+21:13:39 2967 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2967 Weapon::serialize() 
+21:13:39 2967 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2968 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2968 Hero::serialize() 
+21:13:39 2968 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2968 Weapon::serialize() 
+21:13:39 2968 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2969 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2969 Hero::serialize() 
+21:13:39 2969 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2969 Weapon::serialize() 
+21:13:39 2969 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2970 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2970 Hero::serialize() 
+21:13:39 2970 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2970 Weapon::serialize() 
+21:13:39 2970 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2971 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2971 Hero::serialize() 
+21:13:39 2971 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2971 Weapon::serialize() 
+21:13:39 2971 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2972 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2972 Hero::serialize() 
+21:13:39 2972 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2972 Weapon::serialize() 
+21:13:39 2972 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2973 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2973 Hero::serialize() 
+21:13:39 2973 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2973 Weapon::serialize() 
+21:13:39 2973 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2974 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2974 Hero::serialize() 
+21:13:39 2974 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2974 Weapon::serialize() 
+21:13:39 2974 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2975 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2975 Hero::serialize() 
+21:13:39 2975 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2975 Weapon::serialize() 
+21:13:39 2975 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2976 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2976 Hero::serialize() 
+21:13:39 2976 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2976 Weapon::serialize() 
+21:13:39 2976 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2977 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2977 Hero::serialize() 
+21:13:39 2977 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2977 Weapon::serialize() 
+21:13:39 2977 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2978 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2978 Hero::serialize() 
+21:13:39 2978 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2978 Weapon::serialize() 
+21:13:39 2978 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2979 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2979 Hero::serialize() 
+21:13:39 2979 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2979 Weapon::serialize() 
+21:13:39 2979 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2980 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2980 Hero::serialize() 
+21:13:39 2980 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2980 Weapon::serialize() 
+21:13:39 2980 Server::doSync(): SYNC Bullet (id 466).
+21:13:39 2981 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2981 Hero::serialize() 
+21:13:39 2981 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2981 Weapon::serialize() 
+21:13:39 2982 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2982 Hero::serialize() 
+21:13:39 2982 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2982 Weapon::serialize() 
+21:13:39 2983 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2983 Hero::serialize() 
+21:13:39 2983 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2983 Weapon::serialize() 
+21:13:39 2984 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2984 Hero::serialize() 
+21:13:39 2984 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2984 Weapon::serialize() 
+21:13:39 2985 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2985 Hero::serialize() 
+21:13:39 2985 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2985 Weapon::serialize() 
+21:13:39 2986 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2986 Hero::serialize() 
+21:13:39 2986 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2986 Weapon::serialize() 
+21:13:39 2987 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2987 Hero::serialize() 
+21:13:39 2987 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2987 Weapon::serialize() 
+21:13:39 2988 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2988 Hero::serialize() 
+21:13:39 2988 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2988 Weapon::serialize() 
+21:13:39 2989 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2989 Hero::serialize() 
+21:13:39 2989 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2989 Weapon::serialize() 
+21:13:39 2989 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:39 2990 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2990 Hero::serialize() 
+21:13:39 2990 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2990 Weapon::serialize() 
+21:13:39 2990 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+21:13:39 2991 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2991 Hero::serialize() 
+21:13:39 2991 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2991 Weapon::serialize() 
+21:13:39 2992 Server::doSync(): SYNC Hero (id 20).
+21:13:39 2992 Hero::serialize() 
+21:13:39 2992 Server::doSync(): SYNC Weapon (id 21).
+21:13:39 2992 Weapon::serialize() 
+21:13:40 2993 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2993 Hero::serialize() 
+21:13:40 2993 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2993 Weapon::serialize() 
+21:13:40 2994 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2994 Hero::serialize() 
+21:13:40 2994 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2994 Weapon::serialize() 
+21:13:40 2995 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2995 Hero::serialize() 
+21:13:40 2995 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2995 Weapon::serialize() 
+21:13:40 2996 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2996 Hero::serialize() 
+21:13:40 2996 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2996 Weapon::serialize() 
+21:13:40 2997 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2997 Hero::serialize() 
+21:13:40 2997 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2997 Weapon::serialize() 
+21:13:40 2998 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2998 Hero::serialize() 
+21:13:40 2998 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2998 Weapon::serialize() 
+21:13:40 2999 Server::doSync(): SYNC Hero (id 20).
+21:13:40 2999 Hero::serialize() 
+21:13:40 2999 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 2999 Weapon::serialize() 
+21:13:40 3000 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3000 Hero::serialize() 
+21:13:40 3000 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3000 Weapon::serialize() 
+21:13:40 3001 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3001 Hero::serialize() 
+21:13:40 3001 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3001 Weapon::serialize() 
+21:13:40 3002 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3002 Hero::serialize() 
+21:13:40 3002 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3002 Weapon::serialize() 
+21:13:40 3003 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3003 Hero::serialize() 
+21:13:40 3003 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3003 Weapon::serialize() 
+21:13:40 3004 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3004 Hero::serialize() 
+21:13:40 3004 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3004 Weapon::serialize() 
+21:13:40 3005 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3005 Hero::serialize() 
+21:13:40 3005 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3005 Weapon::serialize() 
+21:13:40 3006 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3006 Hero::serialize() 
+21:13:40 3006 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3006 Weapon::serialize() 
+21:13:40 3007 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3007 Hero::serialize() 
+21:13:40 3007 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3007 Weapon::serialize() 
+21:13:40 3008 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3008 Hero::serialize() 
+21:13:40 3008 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3008 Weapon::serialize() 
+21:13:40 3008 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:40 3009 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3009 Hero::serialize() 
+21:13:40 3009 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3009 Weapon::serialize() 
+21:13:40 3010 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3010 Hero::serialize() 
+21:13:40 3010 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3010 Weapon::serialize() 
+21:13:40 3011 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3011 Hero::serialize() 
+21:13:40 3011 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3011 Weapon::serialize() 
+21:13:40 3012 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3012 Hero::serialize() 
+21:13:40 3012 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3012 Weapon::serialize() 
+21:13:40 3012 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:40 3013 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3013 Hero::serialize() 
+21:13:40 3013 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3013 Weapon::serialize() 
+21:13:40 3013 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:40 3014 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3014 Hero::serialize() 
+21:13:40 3014 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3014 Weapon::serialize() 
+21:13:40 3014 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:40 3015 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3015 Hero::serialize() 
+21:13:40 3015 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3015 Weapon::serialize() 
+21:13:40 3015 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:40 3016 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3016 Hero::serialize() 
+21:13:40 3016 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3016 Weapon::serialize() 
+21:13:40 3016 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:40 3017 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3017 Hero::serialize() 
+21:13:40 3017 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3017 Weapon::serialize() 
+21:13:40 3018 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3018 Hero::serialize() 
+21:13:40 3018 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3018 Weapon::serialize() 
+21:13:40 3019 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3019 Hero::serialize() 
+21:13:40 3019 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3019 Weapon::serialize() 
+21:13:40 3019 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:40 3020 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3020 Hero::serialize() 
+21:13:40 3020 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3020 Weapon::serialize() 
+21:13:40 3021 Server::doSync(): SYNC Hero (id 20).
+21:13:40 3021 Hero::serialize() 
+21:13:40 3021 Server::doSync(): SYNC Weapon (id 21).
+21:13:40 3021 Weapon::serialize() 
+21:13:41 3022 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3022 Hero::serialize() 
+21:13:41 3022 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3022 Weapon::serialize() 
+21:13:41 3022 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3023 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3023 Hero::serialize() 
+21:13:41 3023 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3023 Weapon::serialize() 
+21:13:41 3023 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3024 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3024 Hero::serialize() 
+21:13:41 3024 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3024 Weapon::serialize() 
+21:13:41 3024 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3025 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3025 Hero::serialize() 
+21:13:41 3025 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3025 Weapon::serialize() 
+21:13:41 3025 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3026 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3026 Hero::serialize() 
+21:13:41 3026 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3026 Weapon::serialize() 
+21:13:41 3026 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3027 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3027 Hero::serialize() 
+21:13:41 3027 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3027 Weapon::serialize() 
+21:13:41 3027 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3028 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3028 Hero::serialize() 
+21:13:41 3028 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3028 Weapon::serialize() 
+21:13:41 3028 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3029 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3029 Hero::serialize() 
+21:13:41 3029 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3029 Weapon::serialize() 
+21:13:41 3029 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3030 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3030 Hero::serialize() 
+21:13:41 3030 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3030 Weapon::serialize() 
+21:13:41 3030 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3031 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3031 Hero::serialize() 
+21:13:41 3031 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3031 Weapon::serialize() 
+21:13:41 3031 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3032 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3032 Hero::serialize() 
+21:13:41 3032 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3032 Weapon::serialize() 
+21:13:41 3032 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:41 3033 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3033 Hero::serialize() 
+21:13:41 3033 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3033 Weapon::serialize() 
+21:13:41 3034 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3034 Hero::serialize() 
+21:13:41 3034 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3034 Weapon::serialize() 
+21:13:41 3035 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3035 Hero::serialize() 
+21:13:41 3035 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3035 Weapon::serialize() 
+21:13:41 3036 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3036 Hero::serialize() 
+21:13:41 3036 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3036 Weapon::serialize() 
+21:13:41 3037 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3037 Hero::serialize() 
+21:13:41 3037 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3037 Weapon::serialize() 
+21:13:41 3038 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3038 Hero::serialize() 
+21:13:41 3038 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3038 Weapon::serialize() 
+21:13:41 3038 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:41 3039 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3039 Hero::serialize() 
+21:13:41 3039 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3039 Weapon::serialize() 
+21:13:41 3039 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3040 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3040 Hero::serialize() 
+21:13:41 3040 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3040 Weapon::serialize() 
+21:13:41 3040 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3041 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3041 Hero::serialize() 
+21:13:41 3041 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3041 Weapon::serialize() 
+21:13:41 3041 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3042 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3042 Hero::serialize() 
+21:13:41 3042 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3042 Weapon::serialize() 
+21:13:41 3042 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3043 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3043 Hero::serialize() 
+21:13:41 3043 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3043 Weapon::serialize() 
+21:13:41 3043 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:41 3044 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3044 Hero::serialize() 
+21:13:41 3044 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3044 Weapon::serialize() 
+21:13:41 3044 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:41 3045 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3045 Hero::serialize() 
+21:13:41 3045 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3045 Weapon::serialize() 
+21:13:41 3045 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3046 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3046 Hero::serialize() 
+21:13:41 3046 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3046 Weapon::serialize() 
+21:13:41 3046 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:41 3047 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3047 Hero::serialize() 
+21:13:41 3047 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3047 Weapon::serialize() 
+21:13:41 3048 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3048 Hero::serialize() 
+21:13:41 3048 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3048 Weapon::serialize() 
+21:13:41 3049 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3049 Hero::serialize() 
+21:13:41 3049 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3049 Weapon::serialize() 
+21:13:41 3050 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3050 Hero::serialize() 
+21:13:41 3050 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3050 Weapon::serialize() 
+21:13:41 3050 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:41 3051 Server::doSync(): SYNC Hero (id 20).
+21:13:41 3051 Hero::serialize() 
+21:13:41 3051 Server::doSync(): SYNC Weapon (id 21).
+21:13:41 3051 Weapon::serialize() 
+21:13:41 3051 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:42 3052 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3052 Hero::serialize() 
+21:13:42 3052 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3052 Weapon::serialize() 
+21:13:42 3053 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3053 Hero::serialize() 
+21:13:42 3053 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3053 Weapon::serialize() 
+21:13:42 3054 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3054 Hero::serialize() 
+21:13:42 3054 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3054 Weapon::serialize() 
+21:13:42 3055 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3055 Hero::serialize() 
+21:13:42 3055 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3055 Weapon::serialize() 
+21:13:42 3056 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3056 Hero::serialize() 
+21:13:42 3056 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3056 Weapon::serialize() 
+21:13:42 3057 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3057 Hero::serialize() 
+21:13:42 3057 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3057 Weapon::serialize() 
+21:13:42 3058 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3058 Hero::serialize() 
+21:13:42 3058 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3058 Weapon::serialize() 
+21:13:42 3059 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3059 Hero::serialize() 
+21:13:42 3059 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3059 Weapon::serialize() 
+21:13:42 3060 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3060 Hero::serialize() 
+21:13:42 3060 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3060 Weapon::serialize() 
+21:13:42 3060 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:42 3061 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3061 Hero::serialize() 
+21:13:42 3061 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3061 Weapon::serialize() 
+21:13:42 3061 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:42 3062 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3062 Hero::serialize() 
+21:13:42 3062 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3062 Weapon::serialize() 
+21:13:42 3062 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:42 3063 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3063 Hero::serialize() 
+21:13:42 3063 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3063 Weapon::serialize() 
+21:13:42 3064 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3064 Hero::serialize() 
+21:13:42 3064 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3064 Weapon::serialize() 
+21:13:42 3065 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3065 Hero::serialize() 
+21:13:42 3065 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3065 Weapon::serialize() 
+21:13:42 3066 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3066 Hero::serialize() 
+21:13:42 3066 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3066 Weapon::serialize() 
+21:13:42 3066 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:42 3067 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3067 Hero::serialize() 
+21:13:42 3067 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3067 Weapon::serialize() 
+21:13:42 3067 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:42 3068 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3068 Hero::serialize() 
+21:13:42 3068 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3068 Weapon::serialize() 
+21:13:42 3068 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:42 3069 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3069 Hero::serialize() 
+21:13:42 3069 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3069 Weapon::serialize() 
+21:13:42 3069 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:42 3070 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3070 Hero::serialize() 
+21:13:42 3070 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3070 Weapon::serialize() 
+21:13:42 3071 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3071 Hero::serialize() 
+21:13:42 3071 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3071 Weapon::serialize() 
+21:13:42 3072 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3072 Hero::serialize() 
+21:13:42 3072 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3072 Weapon::serialize() 
+21:13:42 3073 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3073 Hero::serialize() 
+21:13:42 3073 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3073 Weapon::serialize() 
+21:13:42 3074 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3074 Hero::serialize() 
+21:13:42 3074 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3074 Weapon::serialize() 
+21:13:42 3075 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3075 Hero::serialize() 
+21:13:42 3075 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3075 Weapon::serialize() 
+21:13:42 3076 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3076 Hero::serialize() 
+21:13:42 3076 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3076 Weapon::serialize() 
+21:13:42 3077 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3077 Hero::serialize() 
+21:13:42 3077 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3077 Weapon::serialize() 
+21:13:42 3078 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3078 Hero::serialize() 
+21:13:42 3078 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3078 Weapon::serialize() 
+21:13:42 3079 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3079 Hero::serialize() 
+21:13:42 3079 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3079 Weapon::serialize() 
+21:13:42 3079 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:42 3080 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3080 Hero::serialize() 
+21:13:42 3080 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3080 Weapon::serialize() 
+21:13:42 3080 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:42 3081 Server::doSync(): SYNC Hero (id 20).
+21:13:42 3081 Hero::serialize() 
+21:13:42 3081 Server::doSync(): SYNC Weapon (id 21).
+21:13:42 3081 Weapon::serialize() 
+21:13:43 3081 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3082 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3082 Hero::serialize() 
+21:13:43 3082 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3082 Weapon::serialize() 
+21:13:43 3082 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3083 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3083 Hero::serialize() 
+21:13:43 3083 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3083 Weapon::serialize() 
+21:13:43 3083 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3084 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3084 Hero::serialize() 
+21:13:43 3084 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3084 Weapon::serialize() 
+21:13:43 3084 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3084 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3085 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3085 Hero::serialize() 
+21:13:43 3085 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3085 Weapon::serialize() 
+21:13:43 3085 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3085 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3086 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3086 Hero::serialize() 
+21:13:43 3086 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3086 Weapon::serialize() 
+21:13:43 3086 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3086 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3087 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3087 Hero::serialize() 
+21:13:43 3087 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3087 Weapon::serialize() 
+21:13:43 3087 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3087 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3088 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3088 Hero::serialize() 
+21:13:43 3088 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3088 Weapon::serialize() 
+21:13:43 3088 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3088 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3089 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3089 Hero::serialize() 
+21:13:43 3089 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3089 Weapon::serialize() 
+21:13:43 3089 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3089 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3090 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3090 Hero::serialize() 
+21:13:43 3090 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3090 Weapon::serialize() 
+21:13:43 3090 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3090 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:43 3091 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3091 Hero::serialize() 
+21:13:43 3091 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3091 Weapon::serialize() 
+21:13:43 3091 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3091 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3092 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3092 Hero::serialize() 
+21:13:43 3092 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3092 Weapon::serialize() 
+21:13:43 3092 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3093 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3093 Hero::serialize() 
+21:13:43 3093 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3093 Weapon::serialize() 
+21:13:43 3093 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3094 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3094 Hero::serialize() 
+21:13:43 3094 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3094 Weapon::serialize() 
+21:13:43 3094 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3095 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3095 Hero::serialize() 
+21:13:43 3095 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3095 Weapon::serialize() 
+21:13:43 3095 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3096 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3096 Hero::serialize() 
+21:13:43 3096 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3096 Weapon::serialize() 
+21:13:43 3096 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3097 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3097 Hero::serialize() 
+21:13:43 3097 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3097 Weapon::serialize() 
+21:13:43 3097 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3097 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3098 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3098 Hero::serialize() 
+21:13:43 3098 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3098 Weapon::serialize() 
+21:13:43 3098 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3098 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3099 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3099 Hero::serialize() 
+21:13:43 3099 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3099 Weapon::serialize() 
+21:13:43 3099 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3099 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3100 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3100 Hero::serialize() 
+21:13:43 3100 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3100 Weapon::serialize() 
+21:13:43 3100 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3100 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3101 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3101 Hero::serialize() 
+21:13:43 3101 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3101 Weapon::serialize() 
+21:13:43 3101 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3101 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3102 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3102 Hero::serialize() 
+21:13:43 3102 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3102 Weapon::serialize() 
+21:13:43 3102 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3102 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3103 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3103 Hero::serialize() 
+21:13:43 3103 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3103 Weapon::serialize() 
+21:13:43 3103 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3103 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+21:13:43 3104 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3104 Hero::serialize() 
+21:13:43 3104 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3104 Weapon::serialize() 
+21:13:43 3104 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3104 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3105 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3105 Hero::serialize() 
+21:13:43 3105 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3105 Weapon::serialize() 
+21:13:43 3105 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3105 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+21:13:43 3106 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3106 Hero::serialize() 
+21:13:43 3106 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3106 Weapon::serialize() 
+21:13:43 3106 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3106 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3107 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3107 Hero::serialize() 
+21:13:43 3107 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3107 Weapon::serialize() 
+21:13:43 3107 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3107 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3108 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3108 Hero::serialize() 
+21:13:43 3108 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3108 Weapon::serialize() 
+21:13:43 3108 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3108 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:43 3109 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3109 Hero::serialize() 
+21:13:43 3109 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3109 Weapon::serialize() 
+21:13:43 3109 Server::doSync(): SYNC Saucer (id 859).
+21:13:43 3110 Server::doSync(): SYNC Hero (id 20).
+21:13:43 3110 Hero::serialize() 
+21:13:43 3110 Server::doSync(): SYNC Weapon (id 21).
+21:13:43 3110 Weapon::serialize() 
+21:13:43 3110 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3111 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3111 Hero::serialize() 
+21:13:44 3111 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3111 Weapon::serialize() 
+21:13:44 3111 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3112 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3112 Hero::serialize() 
+21:13:44 3112 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3112 Weapon::serialize() 
+21:13:44 3112 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3113 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3113 Hero::serialize() 
+21:13:44 3113 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3113 Weapon::serialize() 
+21:13:44 3113 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3113 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:44 3114 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3114 Hero::serialize() 
+21:13:44 3114 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3114 Weapon::serialize() 
+21:13:44 3114 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3114 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:44 3115 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3115 Hero::serialize() 
+21:13:44 3115 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3115 Weapon::serialize() 
+21:13:44 3115 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3116 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3116 Hero::serialize() 
+21:13:44 3116 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3116 Weapon::serialize() 
+21:13:44 3116 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3117 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3117 Hero::serialize() 
+21:13:44 3117 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3117 Weapon::serialize() 
+21:13:44 3117 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3118 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3118 Hero::serialize() 
+21:13:44 3118 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3118 Weapon::serialize() 
+21:13:44 3118 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3119 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3119 Hero::serialize() 
+21:13:44 3119 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3119 Weapon::serialize() 
+21:13:44 3119 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3120 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3120 Hero::serialize() 
+21:13:44 3120 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3120 Weapon::serialize() 
+21:13:44 3120 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3121 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3121 Hero::serialize() 
+21:13:44 3121 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3121 Weapon::serialize() 
+21:13:44 3121 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3122 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3122 Hero::serialize() 
+21:13:44 3122 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3122 Weapon::serialize() 
+21:13:44 3122 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3123 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3123 Hero::serialize() 
+21:13:44 3123 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3123 Weapon::serialize() 
+21:13:44 3123 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3124 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3124 Hero::serialize() 
+21:13:44 3124 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3124 Weapon::serialize() 
+21:13:44 3124 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3125 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3125 Hero::serialize() 
+21:13:44 3125 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3125 Weapon::serialize() 
+21:13:44 3125 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3126 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3126 Hero::serialize() 
+21:13:44 3126 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3126 Weapon::serialize() 
+21:13:44 3126 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3127 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3127 Hero::serialize() 
+21:13:44 3127 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3127 Weapon::serialize() 
+21:13:44 3127 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3128 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3128 Hero::serialize() 
+21:13:44 3128 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3128 Weapon::serialize() 
+21:13:44 3128 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3129 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3129 Hero::serialize() 
+21:13:44 3129 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3129 Weapon::serialize() 
+21:13:44 3129 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3130 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3130 Hero::serialize() 
+21:13:44 3130 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3130 Weapon::serialize() 
+21:13:44 3130 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3131 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3131 Hero::serialize() 
+21:13:44 3131 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3131 Weapon::serialize() 
+21:13:44 3131 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3132 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3132 Hero::serialize() 
+21:13:44 3132 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3132 Weapon::serialize() 
+21:13:44 3132 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3133 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3133 Hero::serialize() 
+21:13:44 3133 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3133 Weapon::serialize() 
+21:13:44 3133 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3134 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3134 Hero::serialize() 
+21:13:44 3134 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3134 Weapon::serialize() 
+21:13:44 3134 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3135 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3135 Hero::serialize() 
+21:13:44 3135 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3135 Weapon::serialize() 
+21:13:44 3135 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3136 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3136 Hero::serialize() 
+21:13:44 3136 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3136 Weapon::serialize() 
+21:13:44 3136 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3137 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3137 Hero::serialize() 
+21:13:44 3137 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3137 Weapon::serialize() 
+21:13:44 3137 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3138 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3138 Hero::serialize() 
+21:13:44 3138 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3138 Weapon::serialize() 
+21:13:44 3138 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3139 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3139 Hero::serialize() 
+21:13:44 3139 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3139 Weapon::serialize() 
+21:13:44 3139 Server::doSync(): SYNC Saucer (id 859).
+21:13:44 3140 Server::doSync(): SYNC Hero (id 20).
+21:13:44 3140 Hero::serialize() 
+21:13:44 3140 Server::doSync(): SYNC Weapon (id 21).
+21:13:44 3140 Weapon::serialize() 
+21:13:44 3140 Server::doSync(): SYNC Saucer (id 859).
+21:13:45 3141 Server::doSync(): SYNC Hero (id 20).
+21:13:45 3141 Hero::serialize() 
+21:13:45 3141 Server::doSync(): SYNC Weapon (id 21).
+21:13:45 3141 Weapon::serialize() 
+21:13:45 3141 Server::doSync(): SYNC Saucer (id 859).
+21:13:45 3142 Server::doSync(): SYNC Hero (id 20).
+21:13:45 3142 Hero::serialize() 
+21:13:45 3142 Server::doSync(): SYNC Weapon (id 21).
+21:13:45 3142 Weapon::serialize() 
+21:13:45 3142 Server::doSync(): SYNC Saucer (id 859).
+21:13:45 3143 Server::doSync(): SYNC Hero (id 20).
+21:13:45 3143 Hero::serialize() 
+21:13:45 3143 Server::doSync(): SYNC Weapon (id 21).
+21:13:45 3143 Weapon::serialize() 
+21:13:45 3143 Server::doSync(): SYNC Saucer (id 859).
+21:13:45 3144 GameManager::run(): end of game loop
+21:13:45 3144 NetworkManager::send(): Error! send() returned:
+21:13:45 3144 	10053 - An established connection was aborted by the software in your host machine.
+21:13:45 3144 NetworkNode::sendMessage(): Error sending!
+21:13:45 3144 PathManager::shutDown(): successfully stopped.
+21:13:45 3144 Path manager stopped

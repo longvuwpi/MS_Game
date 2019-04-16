@@ -37,7 +37,6 @@ int main(int argc, char *argv[]) {
 
   auto current_time = std::chrono::system_clock::now();
   std::time_t current_time_t = std::chrono::system_clock::to_time_t(current_time);
-  std::to_string(current_time_t);
   struct tm * timeinfo = localtime(&current_time_t);
   char timestring[80];
   //strftime(timestring, 80, "%H%M%S", timeinfo);

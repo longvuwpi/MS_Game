@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 #include "EnemyMovement.h"
+#include "Level.h"
 
 #include "LogManager.h"
 #include "WorldManager.h"
@@ -100,8 +101,15 @@ void EnemyMovement::moveToStart() {
 		collision_list = WM.isCollision(owner, temp_pos);
 	}
 
-	WM.moveObject(owner, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
-	markStart();
+	df::ObjectList lv_list = WM.objectsOfType("Level");
+	if (lv_list.getCount() > 0) {
+		df::ObjectListIterator li(&lv_list);
+		li.first();
+		Level *lv = (Level *) li.currentObject();
+		//WM.moveObject(owner, temp_pos + (*(new df::Vector(WM.getView().getCorner().getX(), 0))));
+		WM.moveObject(owner, temp_pos + lv->getTrackedHeroViewPos());
+		markStart();
+	}
 }
 
 void EnemyMovement::markStart() {

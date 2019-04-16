@@ -26,6 +26,8 @@ private:
 	int ammo_backup;
 	int damage;
 	int last_shot_frame; //the frame number that the last shot was fired
+	int bullets_fired;
+	int bullets_hit;
 	bool bullet_affected_by_gravity;
 	bool reloading; //is the gun reloading
 	bool is_scoping;
@@ -45,6 +47,7 @@ private:
 	df::Vector current_target;
 public:
 	Weapon(std::string weaponName, WeaponType weaponType, Hero *owner, int bulletSpeed, int fireRate, int ammoLoadedMax, int ammoBackupMax, int damage,bool affectedByGravity, float bulletWeight, float radiusOfEffect, float reloadDuration);
+	~Weapon();
 	void fire(df::Vector target);
 	int eventHandler(const df::Event *p_e);
 	std::string getWeaponName();

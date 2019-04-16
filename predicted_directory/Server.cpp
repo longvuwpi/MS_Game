@@ -17,6 +17,8 @@
 #include "Saucer.h"
 #include "Boss.h"
 #include "Level1.h"
+#include "ReadyButton.h"
+#include "GameOver.h"
 
 Server::Server(bool isPredicted) {
 	is_predicted = isPredicted;
@@ -29,6 +31,7 @@ Server::Server(bool isPredicted) {
 
 	// Register for step events to synchronize objects.
 	registerInterest(df::STEP_EVENT);
+	registerInterest(df::KEYBOARD_EVENT);
 
 	LM.writeLog("Server::Server(): Server started");
 }
@@ -43,8 +46,35 @@ int Server::eventHandler(const df::Event *p_e) {
 
 	// Step event.
 	if (p_e->getType() == df::STEP_EVENT && NM.isConnected()) {
+		LM.writeLog("There are currently %d saucers", WM.objectsOfType("Saucer").getCount());
 		doSync();
 		return 1;
+	}
+
+	if (p_e->getType() == df::KEYBOARD_EVENT && NM.isConnected()) {
+		df::EventKeyboard *p_keyboard_event = (df::EventKeyboard *)p_e;
+		switch (p_keyboard_event->getKey()) {
+		case df::Keyboard::A:       // left
+			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(-1, 0));
+			break;
+		case df::Keyboard::D:       // right
+			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(1, 0));
+			}
+			break;
+		case df::Keyboard::K:
+			if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
+				GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
+			}
+			break;
+		case df::Keyboard::T:
+			if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
+				is_predicted = !is_predicted;
+				LM.writeLog(is_predicted ? "Hero is predicted" : "Hero is not predicted");
+			}
+			break;
+		}
 	}
 
 	// Call parent event handler.
@@ -64,6 +94,33 @@ void Server::doSync() {
 		Object *p_o = (Object *)li.currentObject();
 		int res = 0;
 
+		if (p_o->isModified() &&
+			(p_o->getType() == "GameStart")) {
+			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+				p_o->getType().c_str(), p_o->getId());
+
+			// Send to all connected sockets.
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
+
+		if (p_o->isModified() &&
+			(p_o->getType() == "Level")) {
+			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+				p_o->getType().c_str(), p_o->getId());
+
+			// Send to all connected sockets.
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
+
+		if ((p_o->isModified(df::ID) || p_o->isModified(df::ACTIVE)) &&
+			(p_o->getType() == "ReadyButton")) {
+			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+				p_o->getType().c_str(), p_o->getId());
+
+			// Send to all connected sockets.
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
+
 		// Explosions synchronized when first created here,
 		// then when deleted in Explosion destructor.
 		if (p_o->isModified(df::ID) &&
@@ -75,15 +132,14 @@ void Server::doSync() {
 			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
-		// Reticle(s) synchronized when first created or when change position.
-		//if (p_o -> isModified(df::POSITION) &&
-		//    p_o -> getType() == "Reticle") {
-		//  LM.writeLog("Server::doSync(): SYNC %s (id %d).",
-			  //p_o->getType().c_str(), p_o->getId());
+		if (p_o->isModified() &&
+			p_o->getType() == "DamageIndicator") {
+			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+				p_o->getType().c_str(), p_o->getId());
 
-		//  // Send to all connected sockets.
-		//  sendMessage(df::SYNC_OBJECT, p_o);
-		//}
+			// Send to all connected sockets.
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
 
 		if (p_o->getType() == "Hero") {
 			if (p_o->isModified()) {
@@ -136,6 +192,15 @@ void Server::doSync() {
 			res = sendMessage(df::SYNC_OBJECT, p_o);
 		}
 
+		if (p_o->isModified() &&
+			(p_o->getType() == "GameOver")) {
+			LM.writeLog("Server::doSync(): SYNC %s (id %d).",
+				p_o->getType().c_str(), p_o->getId());
+
+			// Send to all connected sockets.
+			res = sendMessage(df::SYNC_OBJECT, p_o);
+		}
+
 		if (res == -1) {
 			failList->insert(p_o);
 		}
@@ -179,50 +244,52 @@ int Server::handleAccept(const df::EventNetwork *p_e) {
 	//boss->setPosition(spawnPos);
 	//boss->createWeakPoint(df::Vector(-8.0f, -10.0f), 5, 500);
 	//boss->createWeakPoint(df::Vector(10.0f, -9.0f), 5, 500);
-	
+
 	int sock_in = p_e->getSocketIndex();
 	LM.writeLog("Server::handleAccept(): server now connected socket: %d",
 		sock_in);
 
-	int hero_id = 0;
+	int hero_id = (sock_in + 1) * 20;
 
-	if (sock_in == 0) {
-		Hero *newHero = new Hero(0, 20, is_predicted);
-		Level1 *level1 = new Level1();
-		level1->start();
-		hero_id = newHero->getId();
-	}
-	else if (sock_in == 1) {
-		int temp = df::Object::max_id;
-		Hero *newHero = new Hero(1, 40, is_predicted);
-		df::Object::max_id = temp;
-		hero_id = newHero->getId();
-	}
-
-	//std::string id_str = "Your hero id: " + std::to_string(hero_id);
 	std::string id_str = std::to_string(hero_id);
 	const char *buff = id_str.c_str();
 	LM.writeLog("Server::eventHandler(): sending hero id message: '%s'",
 		buff);
-
-	const char *buff2 = is_predicted ? " true" : "false";
-	LM.writeLog("Server::eventHandler(): sending is_predicted message: '%s'",
-		buff2);
-	
 	// Send to newly connected socket.
 	sendMessage(df::CUSTOM_MESSAGE, (int)strlen(buff) + 1, buff, sock_in);
-	//sendMessage(df::CUSTOM_MESSAGE, (int)strlen(buff2) + 1, buff2, sock_in);
 
-	// Send all Reticles and Explosions to newly connected client.
+	introScene();
+
+	// All is well.
+	return 1;
+}
+
+void Server::introScene() {
+	df::ObjectList list_of_buttons = WM.objectsOfType("ReadyButton");
+	if (list_of_buttons.isEmpty()) {
+		//game_start = new GameStart();
+		new ReadyButton();
+	}
+
+	// Send objects
 	df::ObjectList ol = WM.getAllObjects();
 	df::ObjectListIterator li(&ol);
 	for (li.first(); !li.isDone(); li.next()) {
 		Object *p_o = (Object *)li.currentObject();
-		if (p_o->getType() == "Explosion" || p_o->getType() == "Hero" || p_o->getType() == "Platform" || p_o->getType() == "Saucer" || p_o->getType() == "Level")
+		if (p_o->getType() == "Explosion" || p_o->getType() == "ReadyButton" || p_o->getType() == "GameStart" || p_o->getType() == "Hero" || p_o->getType() == "Platform" || p_o->getType() == "Saucer" || p_o->getType() == "Level")
 			sendMessage(df::SYNC_OBJECT, p_o, "ALL");
-			//sendMessage(df::SYNC_OBJECT, p_o, p_e->getSocketIndex());
+		//sendMessage(df::SYNC_OBJECT, p_o, p_e->getSocketIndex());
 	}
+}
 
-	// All is well.
-	return 1;
+void Server::startGame() {
+	//game_start->start();
+
+	newHero1 = new Hero(0, 20, is_predicted);
+	if (NM.getNumConnections() == 2) {
+		newHero2 = new Hero(1, 40, is_predicted);
+	}
+	Level1 *level1 = new Level1();
+	level1->start();
+
 }

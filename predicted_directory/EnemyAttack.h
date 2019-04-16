@@ -15,4 +15,5 @@ public:
 	void attack();
 	void fireAtHero(float bulletSpeed);
 	void customFire(float bulletSpeed, df::Vector from, df::Vector to);
+	df::Vector getTrackedHeroPos();
 };

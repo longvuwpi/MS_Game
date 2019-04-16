@@ -7,6 +7,7 @@
 
 #include "Bullet.h"
 #include "EnemyAttack.h"
+#include "Level.h"
 
 int fire_rate = 90;
 
@@ -36,9 +37,7 @@ void EnemyAttack::attack() {
 		if (current % 120 == 0) {
 			df::ObjectList object_list = WM.objectsOfType("Hero");
 			if (object_list.getCount() > 0) {
-				df::ObjectListIterator li(&object_list);
-				li.first();
-				df::Vector hero_pos = li.currentObject()->getPosition();
+				df::Vector hero_pos = getTrackedHeroPos();
 				df::Vector origin = owner->getPosition();
 				customFire(1.6f, origin + df::Vector(0, 1.0f), hero_pos);
 				customFire(1.6f, origin + df::Vector(0, -1.0f), hero_pos);
@@ -55,14 +54,10 @@ void EnemyAttack::attack() {
 void EnemyAttack::fireAtHero(float bulletSpeed) {
 	df::ObjectList object_list = WM.objectsOfType("Hero");
 	if (object_list.getCount() > 0) {
-		df::ObjectListIterator li(&object_list);
-		li.first();
-		df::Vector hero_pos = li.currentObject()->getPosition();
-
-		std::cout << "Hero pos: (" << hero_pos.getX() << "," << hero_pos.getY() << ")\n";
 
 		df::Vector origin = owner->getPosition();
 
+		df::Vector hero_pos = getTrackedHeroPos();
 		// Fire Bullet towards target.
 		// Compute normalized vector to position, then scale by speed.
 		//df::Vector v = hero_pos - origin;
@@ -83,4 +78,12 @@ void EnemyAttack::customFire(float bulletSpeed, df::Vector from, df::Vector to) 
 	Bullet *p = new Bullet(from, owner->getBulletSprite(), owner->getDamage(), owner->getBulletRadius());
 	p->setVelocity(v);
 
+}
+
+df::Vector EnemyAttack::getTrackedHeroPos() {
+	df::ObjectList level = WM.objectsOfType("Level");
+	df::ObjectListIterator li(&level);
+	li.first();
+	df::Vector hero_pos = ((Level *)li.currentObject())->getTrackedHeroPos();
+	return hero_pos;
 }

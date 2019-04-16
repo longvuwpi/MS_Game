@@ -1,0 +1,437 @@
+04:46:47    0 ****************************************************
+04:46:47    0 ** Dragonfly version 4.12 **
+04:46:48    0 Hello, Network! (v1.2)
+04:46:48    0 0446_client_txvu2.log
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+04:46:48    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+04:46:48    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+04:46:48    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+04:46:48    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+04:46:49    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+04:46:50    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+04:46:50    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+04:46:50    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+04:46:50    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+04:46:50    0 Client::Client(): Connecting to localhost at port 9876.
+04:46:50    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+04:46:50    0 NetworkManager::connect(): Connection established.
+04:46:50    0 Client::handleConnect(): Client connected!
+04:46:50    0 Client::Client(): Client started.
+04:46:50    0 GameManager::run(): starting game loop
+04:46:50    0 Client::eventHandler(): received custom network event.
+04:46:50    0 	message: 40
+04:46:50    0 Client::createObject(): creating object type 'ReadyButton'
+04:46:51    1 Drawing cursor
+04:46:51    2 Drawing cursor
+04:46:51    3 Drawing cursor
+04:46:51    4 Drawing cursor
+04:46:51    5 Drawing cursor
+04:46:51    6 Drawing cursor
+04:46:55    7 Drawing cursor
+04:46:55    8 Drawing cursor
+04:46:55    9 Drawing cursor
+04:46:55   10 Drawing cursor
+04:46:55   11 Client::eventHandler(): sending mouse input to server.
+04:46:55   11 Client::eventHandler(): sending mouse input to server.
+04:46:55   11 Client::eventHandler(): sending mouse input to server.
+04:46:55   11 Drawing cursor
+04:46:55   12 Client::eventHandler(): sending mouse input to server.
+04:46:55   12 Drawing cursor
+04:46:55   13 Client::eventHandler(): sending mouse input to server.
+04:46:55   13 Drawing cursor
+04:46:55   14 Drawing cursor
+04:46:55   15 Drawing cursor
+04:46:55   16 Drawing cursor
+04:46:55   17 Drawing cursor
+04:46:55   18 Drawing cursor
+04:46:55   19 Drawing cursor
+04:46:55   20 Drawing cursor
+04:46:55   21 Drawing cursor
+04:46:55   22 Drawing cursor
+04:46:56   23 Drawing cursor
+04:46:56   24 Drawing cursor
+04:46:56   25 Drawing cursor
+04:46:56   26 Drawing cursor
+04:46:56   27 Drawing cursor
+04:46:56   28 Drawing cursor
+04:46:56   29 Drawing cursor
+04:46:56   30 Drawing cursor
+04:46:56   31 Drawing cursor
+04:46:56   32 Drawing cursor
+04:46:56   33 Drawing cursor
+04:46:56   34 Drawing cursor
+04:46:56   35 Drawing cursor
+04:46:56   36 Drawing cursor
+04:46:56   37 Drawing cursor
+04:46:56   38 Drawing cursor
+04:46:56   39 Drawing cursor
+04:46:56   40 Drawing cursor
+04:46:56   41 Drawing cursor
+04:46:56   42 Drawing cursor
+04:46:56   43 Drawing cursor
+04:46:56   44 Drawing cursor
+04:46:56   45 Drawing cursor
+04:46:56   46 Drawing cursor
+04:46:56   47 Drawing cursor
+04:46:56   48 Drawing cursor
+04:46:56   49 Drawing cursor
+04:46:56   50 Drawing cursor
+04:46:56   51 Drawing cursor
+04:46:56   52 Drawing cursor
+04:46:57   53 Drawing cursor
+04:46:57   54 Drawing cursor
+04:46:57   55 Drawing cursor
+04:46:57   56 Drawing cursor
+04:46:57   57 Drawing cursor
+04:46:57   58 Drawing cursor
+04:46:57   59 Drawing cursor
+04:46:57   60 Drawing cursor
+04:46:57   61 Drawing cursor
+04:46:57   62 Drawing cursor
+04:46:57   63 Drawing cursor
+04:46:57   64 Drawing cursor
+04:46:57   65 Drawing cursor
+04:46:57   66 Drawing cursor
+04:46:57   67 Drawing cursor
+04:46:57   68 Drawing cursor
+04:46:57   69 Drawing cursor
+04:46:57   70 Drawing cursor
+04:46:57   71 Drawing cursor
+04:46:57   72 Drawing cursor
+04:46:57   73 Drawing cursor
+04:46:57   74 Drawing cursor
+04:46:57   75 Drawing cursor
+04:46:57   76 Drawing cursor
+04:46:57   77 Client::eventHandler(): sending mouse input to server.
+04:46:57   77 Drawing cursor
+04:46:57   78 Client::eventHandler(): sending mouse input to server.
+04:46:57   78 Drawing cursor
+04:46:57   79 Client::eventHandler(): sending mouse input to server.
+04:46:57   79 Drawing cursor
+04:46:57   80 Client::eventHandler(): sending mouse input to server.
+04:46:57   80 Drawing cursor
+04:46:57   81 Client::eventHandler(): sending mouse input to server.
+04:46:57   81 Client::eventHandler(): sending mouse input to server.
+04:46:57   81 Client::eventHandler(): sending mouse input to server.
+04:46:57   81 Drawing cursor
+04:46:57   82 Client::eventHandler(): sending mouse input to server.
+04:46:57   82 Client::eventHandler(): sending mouse input to server.
+04:46:57   82 Client::eventHandler(): sending mouse input to server.
+04:46:57   82 Client::eventHandler(): sending mouse input to server.
+04:46:57   82 Client::eventHandler(): sending mouse input to server.
+04:46:57   82 Drawing cursor
+04:46:58   83 Client::eventHandler(): sending mouse input to server.
+04:46:58   83 Client::eventHandler(): sending mouse input to server.
+04:46:58   83 Client::eventHandler(): sending mouse input to server.
+04:46:58   83 Drawing cursor
+04:46:58   84 Client::eventHandler(): sending mouse input to server.
+04:46:58   84 Drawing cursor
+04:46:58   85 Client::eventHandler(): sending mouse input to server.
+04:46:58   85 Drawing cursor
+04:46:58   86 Drawing cursor
+04:46:58   87 Drawing cursor
+04:46:58   88 Client::eventHandler(): sending mouse input to server.
+04:46:58   88 Drawing cursor
+04:46:58   89 Client::eventHandler(): sending mouse input to server.
+04:46:58   89 Drawing cursor
+04:46:58   90 Client::eventHandler(): sending mouse input to server.
+04:46:58   90 Drawing cursor
+04:46:58   91 Client::eventHandler(): sending mouse input to server.
+04:46:58   91 Drawing cursor
+04:46:58   92 Client::eventHandler(): sending mouse input to server.
+04:46:58   92 Drawing cursor
+04:46:58   93 Client::eventHandler(): sending mouse input to server.
+04:46:58   93 Drawing cursor
+04:46:58   94 Client::eventHandler(): sending mouse input to server.
+04:46:58   94 Drawing cursor
+04:46:58   95 Drawing cursor
+04:46:58   96 Drawing cursor
+04:46:58   97 Drawing cursor
+04:46:58   98 Drawing cursor
+04:46:58   99 Client::eventHandler(): sending mouse input to server.
+04:46:58   99 Drawing cursor
+04:46:58  100 Client::eventHandler(): sending mouse input to server.
+04:46:58  100 Drawing cursor
+04:46:58  101 Client::eventHandler(): sending mouse input to server.
+04:46:58  101 Drawing cursor
+04:46:58  102 Client::eventHandler(): sending mouse input to server.
+04:46:58  102 Drawing cursor
+04:46:58  103 Drawing cursor
+04:46:58  104 Drawing cursor
+04:46:58  105 Drawing cursor
+04:46:58  106 Drawing cursor
+04:46:58  107 Drawing cursor
+04:46:58  108 Drawing cursor
+04:46:58  109 Client::eventHandler(): sending mouse input to server.
+04:46:58  109 Drawing cursor
+04:46:58  110 Client::eventHandler(): sending mouse input to server.
+04:46:58  110 Drawing cursor
+04:46:58  111 Drawing cursor
+04:46:58  112 Client::eventHandler(): sending mouse input to server.
+04:46:58  112 Drawing cursor
+04:46:58  113 Drawing cursor
+04:46:59  114 Drawing cursor
+04:46:59  115 Drawing cursor
+04:46:59  116 Client::eventHandler(): sending mouse input to server.
+04:46:59  116 Client::eventHandler(): sending mouse input to server.
+04:46:59  116 Drawing cursor
+04:46:59  117 Client::eventHandler(): sending mouse input to server.
+04:46:59  117 Client::eventHandler(): sending mouse input to server.
+04:46:59  117 Drawing cursor
+04:46:59  118 Client::eventHandler(): sending mouse input to server.
+04:46:59  118 Client::createObject(): creating object type 'Hero'
+04:46:59  118 Hero::deserialize()
+04:46:59  118 Hero::deserialize(): is_predicted is 1
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 30
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 30
+04:46:59  118 Weapon::deserialize(): ammo_backup is 90
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 10
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 10
+04:46:59  118 Weapon::deserialize(): ammo_backup is 30
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 1
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 1
+04:46:59  118 Weapon::deserialize(): ammo_backup is 30
+04:46:59  118 Client::createObject(): creating object type 'Hero'
+04:46:59  118 Hero::deserialize()
+04:46:59  118 Hero::deserialize(): is_predicted is 1
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): fire_count_down is 3
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 30
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 29
+04:46:59  118 Weapon::deserialize(): updated current target to (118.875000,34.222198)
+04:46:59  118 Weapon::deserialize(): ammo_backup is 90
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 10
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 10
+04:46:59  118 Weapon::deserialize(): ammo_backup is 30
+04:46:59  118 Weapon::deserialize()
+04:46:59  118 Weapon::deserialize(): current ammo_loaded is 1
+04:46:59  118 Weapon::deserialize(): new ammo_loaded is 1
+04:46:59  118 Weapon::deserialize(): ammo_backup is 30
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Platform'
+04:46:59  118 Client::createObject(): creating object type 'Bullet'
+04:46:59  119 Client::eventHandler(): sending mouse input to server.
+04:46:59  119 Reticle received mouse event
+04:46:59  119 Client following hero id 40
+04:46:59  119 Hero is predicted
+04:46:59  119 Reticle received step event
+04:46:59  119 Hero::deserialize()

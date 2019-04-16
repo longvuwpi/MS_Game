@@ -1,0 +1,1676 @@
+11:29:09    0 ****************************************************
+11:29:09    0 ** Dragonfly version 4.12 **
+11:29:10    0 Hello, Network! (v1.2)
+11:29:10    0 1129_client_txvu.log
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+11:29:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+11:29:10    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+11:29:10    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+11:29:10    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+11:29:10    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+11:29:11    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+11:29:12    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+11:29:12    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+11:29:12    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+11:29:12    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+11:29:12    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+11:29:12    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+11:29:12    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+11:29:12    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+11:29:12    0 Client::Client(): Connecting to localhost at port 9876.
+11:29:12    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+11:29:12    0 NetworkManager::connect(): Connection established.
+11:29:12    0 Client::handleConnect(): Client connected!
+11:29:12    0 Client::Client(): Client started.
+11:29:12    0 GameManager::run(): starting game loop
+11:29:12    0 Client::eventHandler(): sending mouse input to server.
+11:29:12    0 Client::eventHandler(): received custom network event.
+11:29:12    0 	message: 20
+11:29:12    0 Client::createObject(): creating object type 'ReadyButton'
+11:29:12    1 Drawing cursor
+11:29:12    2 Drawing cursor
+11:29:12    3 Drawing cursor
+11:29:12    4 Drawing cursor
+11:29:12    5 Drawing cursor
+11:29:13    6 Drawing cursor
+11:29:13    7 Drawing cursor
+11:29:13    8 Drawing cursor
+11:29:13    9 Drawing cursor
+11:29:13   10 Drawing cursor
+11:29:13   11 Drawing cursor
+11:29:13   12 Drawing cursor
+11:29:13   13 Drawing cursor
+11:29:13   14 Drawing cursor
+11:29:13   15 Drawing cursor
+11:29:13   16 Drawing cursor
+11:29:13   17 Drawing cursor
+11:29:13   18 Drawing cursor
+11:29:13   19 Drawing cursor
+11:29:13   20 Drawing cursor
+11:29:13   21 Drawing cursor
+11:29:13   22 Drawing cursor
+11:29:13   23 Drawing cursor
+11:29:13   24 Drawing cursor
+11:29:13   25 Drawing cursor
+11:29:13   26 Drawing cursor
+11:29:13   27 Drawing cursor
+11:29:13   28 Drawing cursor
+11:29:13   29 Drawing cursor
+11:29:13   30 Drawing cursor
+11:29:13   31 Drawing cursor
+11:29:13   32 Drawing cursor
+11:29:13   33 Drawing cursor
+11:29:13   34 Drawing cursor
+11:29:13   35 Drawing cursor
+11:29:14   36 Drawing cursor
+11:29:14   37 Drawing cursor
+11:29:14   38 Drawing cursor
+11:29:14   39 Drawing cursor
+11:29:14   40 Drawing cursor
+11:29:14   41 Drawing cursor
+11:29:14   42 Drawing cursor
+11:29:14   43 Drawing cursor
+11:29:14   44 Drawing cursor
+11:29:14   45 Drawing cursor
+11:29:14   46 Drawing cursor
+11:29:14   47 Drawing cursor
+11:29:14   48 Drawing cursor
+11:29:14   49 Drawing cursor
+11:29:14   50 Drawing cursor
+11:29:14   51 Drawing cursor
+11:29:14   52 Drawing cursor
+11:29:14   53 Drawing cursor
+11:29:14   54 Drawing cursor
+11:29:14   55 Drawing cursor
+11:29:14   56 Drawing cursor
+11:29:14   57 Drawing cursor
+11:29:14   58 Drawing cursor
+11:29:14   59 Drawing cursor
+11:29:14   60 Drawing cursor
+11:29:14   61 Drawing cursor
+11:29:14   62 Drawing cursor
+11:29:14   63 Drawing cursor
+11:29:14   64 Drawing cursor
+11:29:14   65 Drawing cursor
+11:29:14   66 Drawing cursor
+11:29:15   67 Drawing cursor
+11:29:15   68 Drawing cursor
+11:29:15   69 Drawing cursor
+11:29:15   70 Drawing cursor
+11:29:15   71 Drawing cursor
+11:29:15   72 Drawing cursor
+11:29:15   73 Drawing cursor
+11:29:15   74 Drawing cursor
+11:29:15   75 Drawing cursor
+11:29:15   76 Drawing cursor
+11:29:15   77 Drawing cursor
+11:29:15   78 Drawing cursor
+11:29:15   79 Drawing cursor
+11:29:15   80 Drawing cursor
+11:29:15   81 Drawing cursor
+11:29:15   82 Drawing cursor
+11:29:15   83 Drawing cursor
+11:29:15   84 Drawing cursor
+11:29:15   85 Drawing cursor
+11:29:15   86 Drawing cursor
+11:29:15   87 Drawing cursor
+11:29:15   88 Drawing cursor
+11:29:15   89 Drawing cursor
+11:29:15   90 Drawing cursor
+11:29:15   91 Drawing cursor
+11:29:15   92 Drawing cursor
+11:29:15   93 Drawing cursor
+11:29:15   94 Drawing cursor
+11:29:15   95 Drawing cursor
+11:29:15   96 Drawing cursor
+11:29:16   97 Drawing cursor
+11:29:16   98 Drawing cursor
+11:29:16   99 Client::eventHandler(): sending mouse input to server.
+11:29:16   99 Drawing cursor
+11:29:16  100 Drawing cursor
+11:29:16  101 Drawing cursor
+11:29:16  102 Drawing cursor
+11:29:16  103 Drawing cursor
+11:29:16  104 Drawing cursor
+11:29:16  105 Drawing cursor
+11:29:16  106 Drawing cursor
+11:29:16  107 Drawing cursor
+11:29:16  108 Drawing cursor
+11:29:16  109 Drawing cursor
+11:29:16  110 Drawing cursor
+11:29:16  111 Drawing cursor
+11:29:16  112 Drawing cursor
+11:29:16  113 Drawing cursor
+11:29:16  114 Drawing cursor
+11:29:16  115 Drawing cursor
+11:29:16  116 Drawing cursor
+11:29:16  117 Drawing cursor
+11:29:16  118 Drawing cursor
+11:29:16  119 Drawing cursor
+11:29:16  120 Drawing cursor
+11:29:16  121 Drawing cursor
+11:29:16  122 Drawing cursor
+11:29:16  123 Drawing cursor
+11:29:16  124 Drawing cursor
+11:29:16  125 Drawing cursor
+11:29:16  126 Drawing cursor
+11:29:17  127 Drawing cursor
+11:29:17  128 Drawing cursor
+11:29:17  129 Drawing cursor
+11:29:17  130 Drawing cursor
+11:29:17  131 Drawing cursor
+11:29:17  132 Drawing cursor
+11:29:17  133 Drawing cursor
+11:29:17  134 Drawing cursor
+11:29:17  135 Drawing cursor
+11:29:17  136 Drawing cursor
+11:29:17  137 Drawing cursor
+11:29:17  138 Drawing cursor
+11:29:17  139 Drawing cursor
+11:29:17  140 Drawing cursor
+11:29:17  141 Client::eventHandler(): sending mouse input to server.
+11:29:17  141 Drawing cursor
+11:29:17  142 Client::eventHandler(): sending mouse input to server.
+11:29:17  142 Drawing cursor
+11:29:17  143 Client::eventHandler(): sending mouse input to server.
+11:29:17  143 Client::eventHandler(): sending mouse input to server.
+11:29:17  143 Drawing cursor
+11:29:17  144 Client::eventHandler(): sending mouse input to server.
+11:29:17  144 Drawing cursor
+11:29:17  145 Client::eventHandler(): sending mouse input to server.
+11:29:17  145 Drawing cursor
+11:29:17  146 Client::eventHandler(): sending mouse input to server.
+11:29:17  146 Drawing cursor
+11:29:17  147 Client::eventHandler(): sending mouse input to server.
+11:29:17  147 Drawing cursor
+11:29:17  148 Client::eventHandler(): sending mouse input to server.
+11:29:17  148 Drawing cursor
+11:29:17  149 Drawing cursor
+11:29:17  150 Drawing cursor
+11:29:17  151 Drawing cursor
+11:29:17  152 Drawing cursor
+11:29:17  153 Drawing cursor
+11:29:17  154 Drawing cursor
+11:29:17  155 Drawing cursor
+11:29:17  156 Drawing cursor
+11:29:18  157 Drawing cursor
+11:29:18  158 Drawing cursor
+11:29:18  159 Drawing cursor
+11:29:18  160 Drawing cursor
+11:29:18  161 Drawing cursor
+11:29:18  162 Drawing cursor
+11:29:18  163 Drawing cursor
+11:29:18  164 Drawing cursor
+11:29:18  165 Drawing cursor
+11:29:18  166 Drawing cursor
+11:29:18  167 Drawing cursor
+11:29:18  168 Drawing cursor
+11:29:19  169 Drawing cursor
+11:29:19  169 GameManager::run(): Can't keep up! frame_time 33 ms, split 1072 ms
+11:29:19  170 Drawing cursor
+11:29:19  171 Drawing cursor
+11:29:19  172 Drawing cursor
+11:29:19  173 Client::eventHandler(): sending mouse input to server.
+11:29:19  173 Drawing cursor
+11:29:19  174 Client::eventHandler(): sending mouse input to server.
+11:29:19  174 Drawing cursor
+11:29:19  175 Client::eventHandler(): sending mouse input to server.
+11:29:19  175 Drawing cursor
+11:29:19  176 Client::eventHandler(): sending mouse input to server.
+11:29:19  176 Client::eventHandler(): sending mouse input to server.
+11:29:19  176 Client::eventHandler(): sending mouse input to server.
+11:29:19  176 Client::eventHandler(): sending mouse input to server.
+11:29:19  176 Client::eventHandler(): sending mouse input to server.
+11:29:19  176 Drawing cursor
+11:29:19  177 Client::eventHandler(): sending mouse input to server.
+11:29:19  177 Drawing cursor
+11:29:19  178 Client::eventHandler(): sending mouse input to server.
+11:29:19  178 Client::eventHandler(): sending mouse input to server.
+11:29:19  178 Drawing cursor
+11:29:19  179 Client::eventHandler(): sending mouse input to server.
+11:29:19  179 Drawing cursor
+11:29:19  180 Client::eventHandler(): sending mouse input to server.
+11:29:19  180 Client::eventHandler(): sending mouse input to server.
+11:29:19  180 Client::eventHandler(): sending mouse input to server.
+11:29:19  180 Drawing cursor
+11:29:19  181 Client::eventHandler(): sending mouse input to server.
+11:29:19  181 Drawing cursor
+11:29:19  182 Client::eventHandler(): sending mouse input to server.
+11:29:19  182 Drawing cursor
+11:29:19  183 Client::eventHandler(): sending mouse input to server.
+11:29:19  183 Client::eventHandler(): sending mouse input to server.
+11:29:19  183 Client::eventHandler(): sending mouse input to server.
+11:29:19  183 Drawing cursor
+11:29:19  184 Client::eventHandler(): sending mouse input to server.
+11:29:19  184 Drawing cursor
+11:29:19  185 Client::eventHandler(): sending mouse input to server.
+11:29:19  185 Drawing cursor
+11:29:19  186 Client::eventHandler(): sending mouse input to server.
+11:29:19  186 Drawing cursor
+11:29:20  187 Client::eventHandler(): sending mouse input to server.
+11:29:20  187 Drawing cursor
+11:29:20  188 Drawing cursor
+11:29:20  189 Drawing cursor
+11:29:20  190 Drawing cursor
+11:29:20  191 Drawing cursor
+11:29:20  192 Client::eventHandler(): sending mouse input to server.
+11:29:20  192 Drawing cursor
+11:29:20  193 Client::eventHandler(): sending mouse input to server.
+11:29:20  193 Drawing cursor
+11:29:20  194 Drawing cursor
+11:29:20  195 Drawing cursor
+11:29:20  196 Drawing cursor
+11:29:20  197 Client::eventHandler(): sending mouse input to server.
+11:29:20  197 Drawing cursor
+11:29:20  198 Client::eventHandler(): sending mouse input to server.
+11:29:20  198 Client::eventHandler(): sending mouse input to server.
+11:29:20  198 Drawing cursor
+11:29:20  199 Client::eventHandler(): sending mouse input to server.
+11:29:20  199 Drawing cursor
+11:29:20  200 Client::eventHandler(): sending mouse input to server.
+11:29:20  200 Drawing cursor
+11:29:20  201 Drawing cursor
+11:29:20  202 Client::eventHandler(): sending mouse input to server.
+11:29:20  202 Drawing cursor
+11:29:20  203 Drawing cursor
+11:29:20  204 Drawing cursor
+11:29:20  205 Drawing cursor
+11:29:20  206 Drawing cursor
+11:29:20  207 Client::eventHandler(): sending mouse input to server.
+11:29:20  207 Client::eventHandler(): sending mouse input to server.
+11:29:20  208 Client::eventHandler(): sending mouse input to server.
+11:29:20  209 Client::createObject(): creating object type 'Hero'
+11:29:20  209 Hero::deserialize()
+11:29:20  209 Hero::deserialize(): is_predicted is 1
+11:29:20  209 Weapon::deserialize()
+11:29:20  209 Weapon::deserialize(): fire_count_down is 3
+11:29:20  209 Weapon::deserialize(): current ammo_loaded is 30
+11:29:20  209 Weapon::deserialize(): new ammo_loaded is 29
+11:29:20  209 Weapon::deserialize(): updated current target to (118.313004,35.129601)
+11:29:20  209 Weapon::deserialize(): ammo_backup is 90
+11:29:20  209 Weapon::deserialize()
+11:29:20  209 Weapon::deserialize(): current ammo_loaded is 10
+11:29:20  209 Weapon::deserialize(): new ammo_loaded is 10
+11:29:20  209 Weapon::deserialize(): ammo_backup is 30
+11:29:20  209 Weapon::deserialize()
+11:29:20  209 Weapon::deserialize(): current ammo_loaded is 1
+11:29:20  209 Weapon::deserialize(): new ammo_loaded is 1
+11:29:20  209 Weapon::deserialize(): ammo_backup is 30
+11:29:20  209 Client::createObject(): creating object type 'Level'
+11:29:20  209 
+*******
+New level object created
+*******
+
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Platform'
+11:29:20  209 Client::createObject(): creating object type 'Bullet'
+11:29:20  210 Client following hero id 20
+11:29:20  210 Hero is predicted
+11:29:20  210 Reticle received step event
+11:29:20  210 Hero::deserialize()
+11:29:20  210 Weapon::deserialize()
+11:29:20  210 Weapon::deserialize(): fire_count_down is 2
+11:29:20  211 Client following hero id 20
+11:29:20  211 Hero is predicted
+11:29:20  211 Reticle received step event
+11:29:20  211 Hero::deserialize()
+11:29:20  211 Weapon::deserialize()
+11:29:20  211 Weapon::deserialize(): fire_count_down is 1
+11:29:20  212 Client::eventHandler(): sending mouse input to server.
+11:29:20  212 Reticle received mouse event
+11:29:20  212 Client following hero id 20
+11:29:20  212 Hero is predicted
+11:29:20  212 Reticle received step event
+11:29:20  212 Hero::deserialize()
+11:29:20  212 Weapon::deserialize()
+11:29:20  212 Weapon::deserialize(): fire_count_down is 0
+11:29:20  213 Client::eventHandler(): sending mouse input to server.
+11:29:20  213 Reticle received mouse event
+11:29:20  213 Client following hero id 20
+11:29:20  213 Hero is predicted
+11:29:20  213 Reticle received step event
+11:29:20  213 Hero::deserialize()
+11:29:20  213 Weapon::deserialize()
+11:29:20  214 Client::eventHandler(): sending mouse input to server.
+11:29:20  214 Reticle received mouse event
+11:29:20  214 Client following hero id 20
+11:29:20  214 Hero is predicted
+11:29:20  214 Reticle received step event
+11:29:20  214 Hero::deserialize()
+11:29:20  214 Weapon::deserialize()
+11:29:20  214 Client::createObject(): creating object type 'Saucer'
+11:29:20  214 Hero::deserialize()
+11:29:20  215 Client::eventHandler(): sending mouse input to server.
+11:29:20  215 Reticle received mouse event
+11:29:20  215 Client::eventHandler(): sending mouse input to server.
+11:29:20  215 Reticle received mouse event
+11:29:20  215 Client::eventHandler(): sending mouse input to server.
+11:29:20  215 Reticle received mouse event
+11:29:20  215 Client following hero id 20
+11:29:20  215 Hero is predicted
+11:29:20  215 Reticle received step event
+11:29:20  215 Weapon::deserialize()
+11:29:20  215 Hero::deserialize()
+11:29:20  215 Weapon::deserialize()
+11:29:20  216 Client::eventHandler(): sending mouse input to server.
+11:29:20  216 Reticle received mouse event
+11:29:20  216 Client following hero id 20
+11:29:20  216 Hero is predicted
+11:29:20  216 Reticle received step event
+11:29:20  216 Hero collided with platform
+11:29:21  217 Client::eventHandler(): sending mouse input to server.
+11:29:21  217 Reticle received mouse event
+11:29:21  217 Client following hero id 20
+11:29:21  217 Hero is predicted
+11:29:21  217 Reticle received step event
+11:29:21  217 Hero::deserialize()
+11:29:21  217 Weapon::deserialize()
+11:29:21  217 Hero collided with platform
+11:29:21  218 Client::eventHandler(): sending mouse input to server.
+11:29:21  218 Reticle received mouse event
+11:29:21  218 Client following hero id 20
+11:29:21  218 Hero is predicted
+11:29:21  218 Reticle received step event
+11:29:21  218 Hero::deserialize()
+11:29:21  218 Weapon::deserialize()
+11:29:21  218 Hero::deserialize()
+11:29:21  218 Weapon::deserialize()
+11:29:21  219 Client following hero id 20
+11:29:21  219 Hero is predicted
+11:29:21  219 Reticle received step event
+11:29:21  219 Client::createObject(): creating object type 'Saucer'
+11:29:21  220 Client following hero id 20
+11:29:21  220 Hero is predicted
+11:29:21  220 Reticle received step event
+11:29:21  220 Hero::deserialize()
+11:29:21  220 Weapon::deserialize()
+11:29:21  221 Client following hero id 20
+11:29:21  221 Hero is predicted
+11:29:21  221 Reticle received step event
+11:29:21  221 Hero::deserialize()
+11:29:21  221 Weapon::deserialize()
+11:29:21  222 Client following hero id 20
+11:29:21  222 Hero is predicted
+11:29:21  222 Reticle received step event
+11:29:21  222 Hero::deserialize()
+11:29:21  222 Weapon::deserialize()
+11:29:21  223 Client following hero id 20
+11:29:21  223 Hero is predicted
+11:29:21  223 Reticle received step event
+11:29:21  223 Hero::deserialize()
+11:29:21  223 Weapon::deserialize()
+11:29:21  224 Client following hero id 20
+11:29:21  224 Hero is predicted
+11:29:21  224 Reticle received step event
+11:29:21  224 Hero::deserialize()
+11:29:21  224 Weapon::deserialize()
+11:29:21  224 Client::createObject(): creating object type 'Saucer'
+11:29:21  225 Client following hero id 20
+11:29:21  225 Hero is predicted
+11:29:21  225 Reticle received step event
+11:29:21  225 Hero::deserialize()
+11:29:21  225 Weapon::deserialize()
+11:29:21  226 Client following hero id 20
+11:29:21  226 Hero is predicted
+11:29:21  226 Reticle received step event
+11:29:21  226 Hero::deserialize()
+11:29:21  226 Weapon::deserialize()
+11:29:21  227 Client following hero id 20
+11:29:21  227 Hero is predicted
+11:29:21  227 Reticle received step event
+11:29:21  227 Hero::deserialize()
+11:29:21  227 Weapon::deserialize()
+11:29:21  228 Client following hero id 20
+11:29:21  228 Hero is predicted
+11:29:21  228 Reticle received step event
+11:29:21  228 Hero::deserialize()
+11:29:21  228 Weapon::deserialize()
+11:29:21  229 Client following hero id 20
+11:29:21  229 Hero is predicted
+11:29:21  229 Reticle received step event
+11:29:21  229 Hero::deserialize()
+11:29:21  229 Weapon::deserialize()
+11:29:21  229 Client::createObject(): creating object type 'Saucer'
+11:29:21  230 Reticle received mouse event
+11:29:21  230 Client following hero id 20
+11:29:21  230 Hero is predicted
+11:29:21  230 Reticle received step event
+11:29:21  230 Hero::deserialize()
+11:29:21  230 Weapon::deserialize()
+11:29:21  231 Reticle received mouse event
+11:29:21  231 Client following hero id 20
+11:29:21  231 Hero is predicted
+11:29:21  231 Reticle received step event
+11:29:21  231 Hero::deserialize()
+11:29:21  231 Weapon::deserialize()
+11:29:21  232 Client following hero id 20
+11:29:21  232 Hero is predicted
+11:29:21  232 Reticle received step event
+11:29:21  232 Hero::deserialize()
+11:29:21  232 Weapon::deserialize()
+11:29:21  233 Client following hero id 20
+11:29:21  233 Hero is predicted
+11:29:21  233 Reticle received step event
+11:29:21  233 Hero::deserialize()
+11:29:21  233 Weapon::deserialize()
+11:29:21  234 Client following hero id 20
+11:29:21  234 Hero is predicted
+11:29:21  234 Reticle received step event
+11:29:21  234 Hero::deserialize()
+11:29:21  234 Weapon::deserialize()
+11:29:21  235 Client following hero id 20
+11:29:21  235 Hero is predicted
+11:29:21  235 Reticle received step event
+11:29:21  235 Hero::deserialize()
+11:29:21  235 Weapon::deserialize()
+11:29:21  236 Client following hero id 20
+11:29:21  236 Hero is predicted
+11:29:21  236 Reticle received step event
+11:29:21  236 Hero::deserialize()
+11:29:21  236 Weapon::deserialize()
+11:29:21  237 Client following hero id 20
+11:29:21  237 Hero is predicted
+11:29:21  237 Reticle received step event
+11:29:21  237 Hero::deserialize()
+11:29:21  237 Weapon::deserialize()
+11:29:21  238 Client following hero id 20
+11:29:21  238 Hero is predicted
+11:29:21  238 Reticle received step event
+11:29:21  238 Hero::deserialize()
+11:29:21  238 Weapon::deserialize()
+11:29:21  239 Client following hero id 20
+11:29:21  239 Hero is predicted
+11:29:21  239 Reticle received step event
+11:29:21  239 Hero::deserialize()
+11:29:21  239 Weapon::deserialize()
+11:29:21  240 Client following hero id 20
+11:29:21  240 Hero is predicted
+11:29:21  240 Reticle received step event
+11:29:21  240 Hero::deserialize()
+11:29:21  240 Weapon::deserialize()
+11:29:21  241 Client following hero id 20
+11:29:21  241 Hero is predicted
+11:29:21  241 Reticle received step event
+11:29:21  241 Hero::deserialize()
+11:29:21  241 Weapon::deserialize()
+11:29:21  242 Client following hero id 20
+11:29:21  242 Hero is predicted
+11:29:21  242 Reticle received step event
+11:29:21  242 Hero::deserialize()
+11:29:21  242 Weapon::deserialize()
+11:29:21  243 Client following hero id 20
+11:29:21  243 Hero is predicted
+11:29:21  243 Reticle received step event
+11:29:21  243 Hero::deserialize()
+11:29:21  243 Weapon::deserialize()
+11:29:21  244 Client following hero id 20
+11:29:21  244 Hero is predicted
+11:29:21  244 Reticle received step event
+11:29:21  244 Hero::deserialize()
+11:29:21  244 Weapon::deserialize()
+11:29:21  245 Client following hero id 20
+11:29:21  245 Hero is predicted
+11:29:21  245 Reticle received step event
+11:29:21  245 Hero::deserialize()
+11:29:21  245 Weapon::deserialize()
+11:29:21  246 Client following hero id 20
+11:29:21  246 Hero is predicted
+11:29:21  246 Reticle received step event
+11:29:21  246 Hero::deserialize()
+11:29:21  246 Weapon::deserialize()
+11:29:22  247 Client following hero id 20
+11:29:22  247 Hero is predicted
+11:29:22  247 Reticle received step event
+11:29:22  247 Hero::deserialize()
+11:29:22  247 Weapon::deserialize()
+11:29:22  247 Hero::deserialize()
+11:29:22  248 Client following hero id 20
+11:29:22  248 Hero is predicted
+11:29:22  248 Reticle received step event
+11:29:22  248 Weapon::deserialize()
+11:29:22  249 Client following hero id 20
+11:29:22  249 Hero is predicted
+11:29:22  249 Reticle received step event
+11:29:22  249 Hero::deserialize()
+11:29:22  249 Weapon::deserialize()
+11:29:22  249 Hero::deserialize()
+11:29:22  249 Weapon::deserialize()
+11:29:22  250 Client following hero id 20
+11:29:22  250 Hero is predicted
+11:29:22  250 Reticle received step event
+11:29:22  251 Client following hero id 20
+11:29:22  251 Hero is predicted
+11:29:22  251 Reticle received step event
+11:29:22  251 Hero::deserialize()
+11:29:22  251 Weapon::deserialize()
+11:29:22  252 Client following hero id 20
+11:29:22  252 Hero is predicted
+11:29:22  252 Reticle received step event
+11:29:22  252 Hero::deserialize()
+11:29:22  252 Weapon::deserialize()
+11:29:22  253 Client following hero id 20
+11:29:22  253 Hero is predicted
+11:29:22  253 Reticle received step event
+11:29:22  253 Hero::deserialize()
+11:29:22  253 Weapon::deserialize()
+11:29:22  254 Client following hero id 20
+11:29:22  254 Hero is predicted
+11:29:22  254 Reticle received step event
+11:29:22  254 Hero::deserialize()
+11:29:22  254 Weapon::deserialize()
+11:29:22  255 Client following hero id 20
+11:29:22  255 Hero is predicted
+11:29:22  255 Reticle received step event
+11:29:22  255 Hero::deserialize()
+11:29:22  255 Weapon::deserialize()
+11:29:22  256 Client following hero id 20
+11:29:22  256 Hero is predicted
+11:29:22  256 Reticle received step event
+11:29:22  256 Hero::deserialize()
+11:29:22  256 Weapon::deserialize()
+11:29:22  256 Hero::deserialize()
+11:29:22  257 Client following hero id 20
+11:29:22  257 Hero is predicted
+11:29:22  257 Reticle received step event
+11:29:22  257 Weapon::deserialize()
+11:29:22  257 Hero::deserialize()
+11:29:22  257 Weapon::deserialize()
+11:29:22  258 Client following hero id 20
+11:29:22  258 Hero is predicted
+11:29:22  258 Reticle received step event
+11:29:22  259 Client following hero id 20
+11:29:22  259 Hero is predicted
+11:29:22  259 Reticle received step event
+11:29:22  259 Hero::deserialize()
+11:29:22  259 Weapon::deserialize()
+11:29:22  259 Client::createObject(): creating object type 'GameOver'
+11:29:22  260 Client following hero id 20
+11:29:22  260 Hero is predicted
+11:29:22  260 Reticle received step event
+11:29:22  260 Hero::deserialize()
+11:29:22  260 Weapon::deserialize()
+11:29:22  260 Hero::deserialize()
+11:29:22  260 Weapon::deserialize()
+11:29:22  261 Client following hero id 20
+11:29:22  261 Hero is predicted
+11:29:22  261 Reticle received step event
+11:29:22  262 Client following hero id 20
+11:29:22  262 Hero is predicted
+11:29:22  262 Reticle received step event
+11:29:22  262 Hero::deserialize()
+11:29:22  262 Weapon::deserialize()
+11:29:22  263 Client following hero id 20
+11:29:22  263 Hero is predicted
+11:29:22  263 Reticle received step event
+11:29:22  263 Hero::deserialize()
+11:29:22  263 Weapon::deserialize()
+11:29:22  263 Hero::deserialize()
+11:29:22  263 Weapon::deserialize()
+11:29:22  264 Client following hero id 20
+11:29:22  264 Hero is predicted
+11:29:22  264 Reticle received step event
+11:29:22  265 Client following hero id 20
+11:29:22  265 Hero is predicted
+11:29:22  265 Reticle received step event
+11:29:22  265 Hero::deserialize()
+11:29:22  265 Weapon::deserialize()
+11:29:22  265 Hero::deserialize()
+11:29:22  265 Weapon::deserialize()
+11:29:22  266 Client following hero id 20
+11:29:22  266 Hero is predicted
+11:29:22  266 Reticle received step event
+11:29:22  267 Client following hero id 20
+11:29:22  267 Hero is predicted
+11:29:22  267 Reticle received step event
+11:29:22  267 Hero::deserialize()
+11:29:22  267 Weapon::deserialize()
+11:29:22  268 Client following hero id 20
+11:29:22  268 Hero is predicted
+11:29:22  268 Reticle received step event
+11:29:22  268 Hero::deserialize()
+11:29:22  268 Weapon::deserialize()
+11:29:22  269 Client following hero id 20
+11:29:22  269 Hero is predicted
+11:29:22  269 Reticle received step event
+11:29:22  269 Hero::deserialize()
+11:29:22  269 Weapon::deserialize()
+11:29:22  269 Hero::deserialize()
+11:29:22  269 Weapon::deserialize()
+11:29:22  270 Client following hero id 20
+11:29:22  270 Hero is predicted
+11:29:22  270 Reticle received step event
+11:29:22  271 Client following hero id 20
+11:29:22  271 Hero is predicted
+11:29:22  271 Reticle received step event
+11:29:22  271 Hero::deserialize()
+11:29:22  271 Weapon::deserialize()
+11:29:22  272 Client following hero id 20
+11:29:22  272 Hero is predicted
+11:29:22  272 Reticle received step event
+11:29:22  272 Hero::deserialize()
+11:29:22  272 Weapon::deserialize()
+11:29:22  273 Client following hero id 20
+11:29:22  273 Hero is predicted
+11:29:22  273 Reticle received step event
+11:29:22  273 Hero::deserialize()
+11:29:22  273 Weapon::deserialize()
+11:29:22  274 Client following hero id 20
+11:29:22  274 Hero is predicted
+11:29:22  274 Reticle received step event
+11:29:22  274 Hero::deserialize()
+11:29:22  274 Weapon::deserialize()
+11:29:22  275 Client following hero id 20
+11:29:22  275 Hero is predicted
+11:29:22  275 Reticle received step event
+11:29:22  275 Hero::deserialize()
+11:29:22  275 Weapon::deserialize()
+11:29:22  275 Hero::deserialize()
+11:29:22  275 Weapon::deserialize()
+11:29:22  276 Client following hero id 20
+11:29:22  276 Hero is predicted
+11:29:22  276 Reticle received step event
+11:29:23  277 Client following hero id 20
+11:29:23  277 Hero is predicted
+11:29:23  277 Reticle received step event
+11:29:23  277 Hero::deserialize()
+11:29:23  277 Weapon::deserialize()
+11:29:23  278 Client following hero id 20
+11:29:23  278 Hero is predicted
+11:29:23  278 Reticle received step event
+11:29:23  278 Hero::deserialize()
+11:29:23  278 Weapon::deserialize()
+11:29:23  279 Client following hero id 20
+11:29:23  279 Hero is predicted
+11:29:23  279 Reticle received step event
+11:29:23  279 Hero::deserialize()
+11:29:23  279 Weapon::deserialize()
+11:29:23  279 Hero::deserialize()
+11:29:23  279 Weapon::deserialize()
+11:29:23  280 Client following hero id 20
+11:29:23  280 Hero is predicted
+11:29:23  280 Reticle received step event
+11:29:23  280 Hero::deserialize()
+11:29:23  280 Weapon::deserialize()
+11:29:23  281 Client following hero id 20
+11:29:23  281 Hero is predicted
+11:29:23  281 Reticle received step event
+11:29:23  281 Hero::deserialize()
+11:29:23  281 Weapon::deserialize()
+11:29:23  282 Client following hero id 20
+11:29:23  282 Hero is predicted
+11:29:23  282 Reticle received step event
+11:29:23  282 Hero::deserialize()
+11:29:23  283 Client following hero id 20
+11:29:23  283 Hero is predicted
+11:29:23  283 Reticle received step event
+11:29:23  283 Weapon::deserialize()
+11:29:23  283 Hero::deserialize()
+11:29:23  283 Weapon::deserialize()
+11:29:23  284 Client following hero id 20
+11:29:23  284 Hero is predicted
+11:29:23  284 Reticle received step event
+11:29:23  285 Client following hero id 20
+11:29:23  285 Hero is predicted
+11:29:23  285 Reticle received step event
+11:29:23  285 Hero::deserialize()
+11:29:23  285 Weapon::deserialize()
+11:29:23  286 Client following hero id 20
+11:29:23  286 Hero is predicted
+11:29:23  286 Reticle received step event
+11:29:23  286 Hero::deserialize()
+11:29:23  286 Weapon::deserialize()
+11:29:23  287 Client following hero id 20
+11:29:23  287 Hero is predicted
+11:29:23  287 Reticle received step event
+11:29:23  287 Hero::deserialize()
+11:29:23  287 Weapon::deserialize()
+11:29:23  288 Client following hero id 20
+11:29:23  288 Hero is predicted
+11:29:23  288 Reticle received step event
+11:29:23  288 Hero::deserialize()
+11:29:23  288 Weapon::deserialize()
+11:29:23  289 Client following hero id 20
+11:29:23  289 Hero is predicted
+11:29:23  289 Reticle received step event
+11:29:23  289 Hero::deserialize()
+11:29:23  289 Weapon::deserialize()
+11:29:23  290 Client following hero id 20
+11:29:23  290 Hero is predicted
+11:29:23  290 Reticle received step event
+11:29:23  290 Hero::deserialize()
+11:29:23  290 Weapon::deserialize()
+11:29:23  291 Client following hero id 20
+11:29:23  291 Hero is predicted
+11:29:23  291 Reticle received step event
+11:29:23  291 Hero::deserialize()
+11:29:23  291 Weapon::deserialize()
+11:29:23  292 Client following hero id 20
+11:29:23  292 Hero is predicted
+11:29:23  292 Reticle received step event
+11:29:23  292 Hero::deserialize()
+11:29:23  292 Weapon::deserialize()
+11:29:23  293 Client following hero id 20
+11:29:23  293 Hero is predicted
+11:29:23  293 Reticle received step event
+11:29:23  293 Hero::deserialize()
+11:29:23  293 Weapon::deserialize()
+11:29:23  294 Client following hero id 20
+11:29:23  294 Hero is predicted
+11:29:23  294 Reticle received step event
+11:29:23  294 Hero::deserialize()
+11:29:23  294 Weapon::deserialize()
+11:29:23  295 Client following hero id 20
+11:29:23  295 Hero is predicted
+11:29:23  295 Reticle received step event
+11:29:23  295 Hero::deserialize()
+11:29:23  295 Weapon::deserialize()
+11:29:23  296 Client following hero id 20
+11:29:23  296 Hero is predicted
+11:29:23  296 Reticle received step event
+11:29:23  296 Hero::deserialize()
+11:29:23  296 Weapon::deserialize()
+11:29:23  297 Client following hero id 20
+11:29:23  297 Hero is predicted
+11:29:23  297 Reticle received step event
+11:29:23  297 Hero::deserialize()
+11:29:23  297 Weapon::deserialize()
+11:29:23  298 Client following hero id 20
+11:29:23  298 Hero is predicted
+11:29:23  298 Reticle received step event
+11:29:23  298 Hero::deserialize()
+11:29:23  298 Weapon::deserialize()
+11:29:23  298 Hero::deserialize()
+11:29:23  298 Weapon::deserialize()
+11:29:23  299 Client following hero id 20
+11:29:23  299 Hero is predicted
+11:29:23  299 Reticle received step event
+11:29:23  300 Client following hero id 20
+11:29:23  300 Hero is predicted
+11:29:23  300 Reticle received step event
+11:29:23  300 Hero::deserialize()
+11:29:23  300 Weapon::deserialize()
+11:29:23  301 Client following hero id 20
+11:29:23  301 Hero is predicted
+11:29:23  301 Reticle received step event
+11:29:23  301 Hero::deserialize()
+11:29:23  301 Weapon::deserialize()
+11:29:23  302 Client following hero id 20
+11:29:23  302 Hero is predicted
+11:29:23  302 Reticle received step event
+11:29:23  302 Hero::deserialize()
+11:29:23  302 Weapon::deserialize()
+11:29:23  302 Hero::deserialize()
+11:29:23  302 Weapon::deserialize()
+11:29:23  303 Client following hero id 20
+11:29:23  303 Hero is predicted
+11:29:23  303 Reticle received step event
+11:29:23  304 Client following hero id 20
+11:29:23  304 Hero is predicted
+11:29:23  304 Reticle received step event
+11:29:23  304 Hero::deserialize()
+11:29:23  304 Weapon::deserialize()
+11:29:23  304 Client::createObject(): creating object type 'Bullet'
+11:29:23  305 Client following hero id 20
+11:29:23  305 Hero is predicted
+11:29:23  305 Reticle received step event
+11:29:23  305 Hero::deserialize()
+11:29:23  305 Weapon::deserialize()
+11:29:23  306 Client following hero id 20
+11:29:23  306 Hero is predicted
+11:29:23  306 Reticle received step event
+11:29:23  306 Hero::deserialize()
+11:29:23  306 Weapon::deserialize()
+11:29:23  307 Client following hero id 20
+11:29:23  307 Hero is predicted
+11:29:23  307 Reticle received step event
+11:29:23  307 Hero::deserialize()
+11:29:23  307 Weapon::deserialize()
+11:29:23  307 Hero::deserialize()
+11:29:23  307 Weapon::deserialize()
+11:29:24  308 Client following hero id 20
+11:29:24  308 Hero is predicted
+11:29:24  308 Reticle received step event
+11:29:24  309 Client following hero id 20
+11:29:24  309 Hero is predicted
+11:29:24  309 Reticle received step event
+11:29:24  309 Hero::deserialize()
+11:29:24  309 Weapon::deserialize()
+11:29:24  309 Client::createObject(): creating object type 'Bullet'
+11:29:24  310 Client following hero id 20
+11:29:24  310 Hero is predicted
+11:29:24  310 Reticle received step event
+11:29:24  310 Hero::deserialize()
+11:29:24  310 Weapon::deserialize()
+11:29:24  311 Client following hero id 20
+11:29:24  311 Hero is predicted
+11:29:24  311 Reticle received step event
+11:29:24  311 Hero::deserialize()
+11:29:24  311 Weapon::deserialize()
+11:29:24  311 Hero::deserialize()
+11:29:24  311 Weapon::deserialize()
+11:29:24  312 Client following hero id 20
+11:29:24  312 Hero is predicted
+11:29:24  312 Reticle received step event
+11:29:24  313 Client following hero id 20
+11:29:24  313 Hero is predicted
+11:29:24  313 Reticle received step event
+11:29:24  313 Hero::deserialize()
+11:29:24  313 Weapon::deserialize()
+11:29:24  314 Client following hero id 20
+11:29:24  314 Hero is predicted
+11:29:24  314 Reticle received step event
+11:29:24  314 Hero::deserialize()
+11:29:24  314 Weapon::deserialize()
+11:29:24  314 Client::createObject(): creating object type 'Bullet'
+11:29:24  314 Hero::deserialize()
+11:29:24  314 Weapon::deserialize()
+11:29:24  315 Client following hero id 20
+11:29:24  315 Hero is predicted
+11:29:24  315 Reticle received step event
+11:29:24  316 Client following hero id 20
+11:29:24  316 Hero is predicted
+11:29:24  316 Reticle received step event
+11:29:24  316 Hero::deserialize()
+11:29:24  316 Weapon::deserialize()
+11:29:24  316 Hero::deserialize()
+11:29:24  316 Weapon::deserialize()
+11:29:24  317 Client following hero id 20
+11:29:24  317 Hero is predicted
+11:29:24  317 Reticle received step event
+11:29:24  318 Client following hero id 20
+11:29:24  318 Hero is predicted
+11:29:24  318 Reticle received step event
+11:29:24  318 Hero::deserialize()
+11:29:24  318 Weapon::deserialize()
+11:29:24  319 Client following hero id 20
+11:29:24  319 Hero is predicted
+11:29:24  319 Reticle received step event
+11:29:24  319 Hero::deserialize()
+11:29:24  319 Weapon::deserialize()
+11:29:24  319 Client::createObject(): creating object type 'Bullet'
+11:29:24  320 Client following hero id 20
+11:29:24  320 Hero is predicted
+11:29:24  320 Reticle received step event
+11:29:24  320 Hero::deserialize()
+11:29:24  320 Weapon::deserialize()
+11:29:24  321 Client following hero id 20
+11:29:24  321 Hero is predicted
+11:29:24  321 Reticle received step event
+11:29:24  321 Hero::deserialize()
+11:29:24  321 Weapon::deserialize()
+11:29:24  322 Client following hero id 20
+11:29:24  322 Hero is predicted
+11:29:24  322 Reticle received step event
+11:29:24  322 Hero::deserialize()
+11:29:24  322 Weapon::deserialize()
+11:29:24  323 Client following hero id 20
+11:29:24  323 Hero is predicted
+11:29:24  323 Reticle received step event
+11:29:24  323 Hero::deserialize()
+11:29:24  323 Weapon::deserialize()
+11:29:24  324 Client following hero id 20
+11:29:24  324 Hero is predicted
+11:29:24  324 Reticle received step event
+11:29:24  324 Hero::deserialize()
+11:29:24  324 Weapon::deserialize()
+11:29:24  325 Client following hero id 20
+11:29:24  325 Hero is predicted
+11:29:24  325 Reticle received step event
+11:29:24  325 Hero::deserialize()
+11:29:24  325 Weapon::deserialize()
+11:29:24  326 Client following hero id 20
+11:29:24  326 Hero is predicted
+11:29:24  326 Reticle received step event
+11:29:24  326 Hero::deserialize()
+11:29:24  326 Hero::deserialize(): current health is 45
+11:29:24  326 Weapon::deserialize()
+11:29:24  327 Client following hero id 20
+11:29:24  327 Hero is predicted
+11:29:24  327 Reticle received step event
+11:29:24  327 Hero::deserialize()
+11:29:24  327 Weapon::deserialize()
+11:29:24  328 Client following hero id 20
+11:29:24  328 Hero is predicted
+11:29:24  328 Reticle received step event
+11:29:24  328 Hero::deserialize()
+11:29:24  328 Weapon::deserialize()
+11:29:24  329 Client following hero id 20
+11:29:24  329 Hero is predicted
+11:29:24  329 Reticle received step event
+11:29:24  329 Hero::deserialize()
+11:29:24  329 Weapon::deserialize()
+11:29:24  329 Hero::deserialize()
+11:29:24  329 Weapon::deserialize()
+11:29:24  330 Client following hero id 20
+11:29:24  330 Hero is predicted
+11:29:24  330 Reticle received step event
+11:29:24  331 Client following hero id 20
+11:29:24  331 Hero is predicted
+11:29:24  331 Reticle received step event
+11:29:24  331 Hero::deserialize()
+11:29:24  331 Hero::deserialize(): current health is 40
+11:29:24  331 Weapon::deserialize()
+11:29:24  332 Client following hero id 20
+11:29:24  332 Hero is predicted
+11:29:24  332 Reticle received step event
+11:29:24  332 Hero::deserialize()
+11:29:24  332 Weapon::deserialize()
+11:29:24  333 Client following hero id 20
+11:29:24  333 Hero is predicted
+11:29:24  333 Reticle received step event
+11:29:24  333 Hero::deserialize()
+11:29:24  333 Weapon::deserialize()
+11:29:24  333 Hero::deserialize()
+11:29:24  333 Weapon::deserialize()
+11:29:24  334 Client following hero id 20
+11:29:24  334 Hero is predicted
+11:29:24  334 Reticle received step event
+11:29:24  335 Client following hero id 20
+11:29:24  335 Hero is predicted
+11:29:24  335 Reticle received step event
+11:29:24  335 Hero::deserialize()
+11:29:24  335 Weapon::deserialize()
+11:29:24  335 Hero::deserialize()
+11:29:24  335 Hero::deserialize(): current health is 35
+11:29:24  335 Weapon::deserialize()
+11:29:24  336 Client following hero id 20
+11:29:24  336 Hero is predicted
+11:29:24  336 Reticle received step event
+11:29:24  337 Client following hero id 20
+11:29:24  337 Hero is predicted
+11:29:24  337 Reticle received step event
+11:29:24  337 Hero::deserialize()
+11:29:24  337 Weapon::deserialize()
+11:29:24  337 Hero::deserialize()
+11:29:25  338 Client following hero id 20
+11:29:25  338 Hero is predicted
+11:29:25  338 Reticle received step event
+11:29:25  338 Weapon::deserialize()
+11:29:25  339 Client following hero id 20
+11:29:25  339 Hero is predicted
+11:29:25  339 Reticle received step event
+11:29:25  339 Hero::deserialize()
+11:29:25  339 Weapon::deserialize()
+11:29:25  340 Client following hero id 20
+11:29:25  340 Hero is predicted
+11:29:25  340 Reticle received step event
+11:29:25  340 Hero::deserialize()
+11:29:25  340 Weapon::deserialize()
+11:29:25  341 Client following hero id 20
+11:29:25  341 Hero is predicted
+11:29:25  341 Reticle received step event
+11:29:25  341 Hero::deserialize()
+11:29:25  341 Hero::deserialize(): current health is 30
+11:29:25  341 Weapon::deserialize()
+11:29:25  342 Client following hero id 20
+11:29:25  342 Hero is predicted
+11:29:25  342 Reticle received step event
+11:29:25  342 Hero::deserialize()
+11:29:25  342 Weapon::deserialize()
+11:29:25  343 Client following hero id 20
+11:29:25  343 Hero is predicted
+11:29:25  343 Reticle received step event
+11:29:25  343 Hero::deserialize()
+11:29:25  343 Weapon::deserialize()
+11:29:25  344 Client following hero id 20
+11:29:25  344 Hero is predicted
+11:29:25  344 Reticle received step event
+11:29:25  344 Hero::deserialize()
+11:29:25  344 Weapon::deserialize()
+11:29:25  345 Client following hero id 20
+11:29:25  345 Hero is predicted
+11:29:25  345 Reticle received step event
+11:29:25  345 Hero::deserialize()
+11:29:25  345 Weapon::deserialize()
+11:29:25  346 Client following hero id 20
+11:29:25  346 Hero is predicted
+11:29:25  346 Reticle received step event
+11:29:25  346 Hero::deserialize()
+11:29:25  346 Weapon::deserialize()
+11:29:25  346 Hero::deserialize()
+11:29:25  346 Weapon::deserialize()
+11:29:25  347 Client following hero id 20
+11:29:25  347 Hero is predicted
+11:29:25  347 Reticle received step event
+11:29:25  348 Client following hero id 20
+11:29:25  348 Hero is predicted
+11:29:25  348 Reticle received step event
+11:29:25  348 Hero::deserialize()
+11:29:25  348 Weapon::deserialize()
+11:29:25  349 Client following hero id 20
+11:29:25  349 Hero is predicted
+11:29:25  349 Reticle received step event
+11:29:25  349 Hero::deserialize()
+11:29:25  349 Weapon::deserialize()
+11:29:25  349 Hero::deserialize()
+11:29:25  349 Weapon::deserialize()
+11:29:25  350 Client following hero id 20
+11:29:25  350 Hero is predicted
+11:29:25  350 Reticle received step event
+11:29:25  351 Client following hero id 20
+11:29:25  351 Hero is predicted
+11:29:25  351 Reticle received step event
+11:29:25  351 Hero::deserialize()
+11:29:25  351 Weapon::deserialize()
+11:29:25  352 Client following hero id 20
+11:29:25  352 Hero is predicted
+11:29:25  352 Reticle received step event
+11:29:25  352 Hero::deserialize()
+11:29:25  352 Weapon::deserialize()
+11:29:25  353 Client following hero id 20
+11:29:25  353 Hero is predicted
+11:29:25  353 Reticle received step event
+11:29:25  353 Hero::deserialize()
+11:29:25  353 Weapon::deserialize()
+11:29:25  354 Client following hero id 20
+11:29:25  354 Hero is predicted
+11:29:25  354 Reticle received step event
+11:29:25  354 Hero::deserialize()
+11:29:25  354 Weapon::deserialize()
+11:29:25  355 Client following hero id 20
+11:29:25  355 Hero is predicted
+11:29:25  355 Reticle received step event
+11:29:25  355 Hero::deserialize()
+11:29:25  355 Weapon::deserialize()
+11:29:25  356 Client following hero id 20
+11:29:25  356 Hero is predicted
+11:29:25  356 Reticle received step event
+11:29:25  356 Hero::deserialize()
+11:29:25  356 Weapon::deserialize()
+11:29:25  357 Client following hero id 20
+11:29:25  357 Hero is predicted
+11:29:25  357 Reticle received step event
+11:29:25  357 Hero::deserialize()
+11:29:25  357 Weapon::deserialize()
+11:29:25  358 Client following hero id 20
+11:29:25  358 Hero is predicted
+11:29:25  358 Reticle received step event
+11:29:25  358 Hero::deserialize()
+11:29:25  358 Weapon::deserialize()
+11:29:25  359 Client following hero id 20
+11:29:25  359 Hero is predicted
+11:29:25  359 Reticle received step event
+11:29:25  359 Hero::deserialize()
+11:29:25  359 Weapon::deserialize()
+11:29:25  360 Client following hero id 20
+11:29:25  360 Hero is predicted
+11:29:25  360 Reticle received step event
+11:29:25  360 Hero::deserialize()
+11:29:25  360 Weapon::deserialize()
+11:29:25  360 Hero::deserialize()
+11:29:25  360 Weapon::deserialize()
+11:29:25  361 Client following hero id 20
+11:29:25  361 Hero is predicted
+11:29:25  361 Reticle received step event
+11:29:25  362 Client following hero id 20
+11:29:25  362 Hero is predicted
+11:29:25  362 Reticle received step event
+11:29:25  362 Hero::deserialize()
+11:29:25  362 Weapon::deserialize()
+11:29:25  363 Client following hero id 20
+11:29:25  363 Hero is predicted
+11:29:25  363 Reticle received step event
+11:29:25  363 Hero::deserialize()
+11:29:25  363 Weapon::deserialize()
+11:29:25  364 Client following hero id 20
+11:29:25  364 Hero is predicted
+11:29:25  364 Reticle received step event
+11:29:25  364 Hero::deserialize()
+11:29:25  364 Weapon::deserialize()
+11:29:25  364 Hero::deserialize()
+11:29:25  364 Weapon::deserialize()
+11:29:25  365 Client following hero id 20
+11:29:25  365 Hero is predicted
+11:29:25  365 Reticle received step event
+11:29:25  365 Hero::deserialize()
+11:29:25  366 Client following hero id 20
+11:29:25  366 Hero is predicted
+11:29:25  366 Reticle received step event
+11:29:25  366 Weapon::deserialize()
+11:29:25  367 Client following hero id 20
+11:29:25  367 Hero is predicted
+11:29:25  367 Reticle received step event
+11:29:25  367 Hero::deserialize()
+11:29:25  367 Weapon::deserialize()
+11:29:26  368 Client following hero id 20
+11:29:26  368 Hero is predicted
+11:29:26  368 Reticle received step event
+11:29:26  368 Hero::deserialize()
+11:29:26  368 Weapon::deserialize()
+11:29:26  369 Client following hero id 20
+11:29:26  369 Hero is predicted
+11:29:26  369 Reticle received step event
+11:29:26  369 Hero::deserialize()
+11:29:26  369 Weapon::deserialize()
+11:29:26  370 Client following hero id 20
+11:29:26  370 Hero is predicted
+11:29:26  370 Reticle received step event
+11:29:26  370 Hero::deserialize()
+11:29:26  370 Weapon::deserialize()
+11:29:26  371 Client following hero id 20
+11:29:26  371 Hero is predicted
+11:29:26  371 Reticle received step event
+11:29:26  371 Hero::deserialize()
+11:29:26  371 Weapon::deserialize()
+11:29:26  372 Client following hero id 20
+11:29:26  372 Hero is predicted
+11:29:26  372 Reticle received step event
+11:29:26  372 Hero::deserialize()
+11:29:26  372 Weapon::deserialize()
+11:29:26  373 Client following hero id 20
+11:29:26  373 Hero is predicted
+11:29:26  373 Reticle received step event
+11:29:26  373 Hero::deserialize()
+11:29:26  373 Weapon::deserialize()
+11:29:26  374 Client following hero id 20
+11:29:26  374 Hero is predicted
+11:29:26  374 Reticle received step event
+11:29:26  374 Hero::deserialize()
+11:29:26  374 Weapon::deserialize()
+11:29:26  375 Client following hero id 20
+11:29:26  375 Hero is predicted
+11:29:26  375 Reticle received step event
+11:29:26  375 Hero::deserialize()
+11:29:26  375 Weapon::deserialize()
+11:29:26  375 Hero::deserialize()
+11:29:26  375 Weapon::deserialize()
+11:29:26  376 Client following hero id 20
+11:29:26  376 Hero is predicted
+11:29:26  376 Reticle received step event
+11:29:26  377 Client following hero id 20
+11:29:26  377 Hero is predicted
+11:29:26  377 Reticle received step event
+11:29:26  377 Hero::deserialize()
+11:29:26  377 Weapon::deserialize()
+11:29:26  377 Hero::deserialize()
+11:29:26  377 Weapon::deserialize()
+11:29:26  377 Hero::deserialize()
+11:29:26  377 Hero::deserialize(): current health is 30
+11:29:26  377 Hero::deserialize(): current weapon is 1
+11:29:26  377 Hero::deserialize(): is_predicted is 1
+11:29:26  378 Client following hero id 20
+11:29:26  378 Hero is predicted
+11:29:26  378 Reticle received step event
+11:29:26  379 Reticle received step event
+11:29:26  379 Drawing cursor
+11:29:26  380 Drawing cursor
+11:29:26  381 Drawing cursor
+11:29:26  382 Drawing cursor
+11:29:26  383 Drawing cursor
+11:29:26  384 Drawing cursor
+11:29:26  385 Drawing cursor
+11:29:26  386 Drawing cursor
+11:29:26  387 Drawing cursor
+11:29:26  388 Drawing cursor
+11:29:26  389 Drawing cursor
+11:29:26  390 Drawing cursor
+11:29:26  391 Drawing cursor
+11:29:26  392 Drawing cursor
+11:29:26  393 Drawing cursor
+11:29:26  394 Drawing cursor
+11:29:26  395 Drawing cursor
+11:29:26  396 Drawing cursor
+11:29:26  397 Drawing cursor
+11:29:26  398 Drawing cursor
+11:29:27  399 Drawing cursor
+11:29:27  400 Drawing cursor
+11:29:27  401 Drawing cursor
+11:29:27  402 Drawing cursor
+11:29:27  403 Drawing cursor
+11:29:27  404 Drawing cursor
+11:29:27  405 Drawing cursor
+11:29:27  406 Drawing cursor
+11:29:27  407 Drawing cursor
+11:29:27  408 Drawing cursor
+11:29:27  409 Drawing cursor
+11:29:27  410 Drawing cursor
+11:29:27  411 Drawing cursor
+11:29:27  412 Drawing cursor
+11:29:27  413 Drawing cursor
+11:29:27  414 Drawing cursor
+11:29:27  415 Drawing cursor
+11:29:27  416 Drawing cursor
+11:29:27  417 Drawing cursor
+11:29:27  418 Drawing cursor
+11:29:27  419 Drawing cursor
+11:29:27  420 Drawing cursor
+11:29:27  421 Drawing cursor
+11:29:27  422 Drawing cursor
+11:29:27  423 Drawing cursor
+11:29:27  424 Drawing cursor
+11:29:27  425 Drawing cursor
+11:29:27  426 Drawing cursor
+11:29:27  427 Drawing cursor
+11:29:27  428 Drawing cursor
+11:29:28  429 Drawing cursor
+11:29:28  430 Drawing cursor
+11:29:28  431 Drawing cursor
+11:29:28  432 Drawing cursor
+11:29:28  433 Drawing cursor
+11:29:28  434 Drawing cursor
+11:29:28  435 Drawing cursor
+11:29:28  436 Drawing cursor
+11:29:28  437 Drawing cursor
+11:29:28  438 Drawing cursor
+11:29:28  439 Drawing cursor
+11:29:28  440 Drawing cursor
+11:29:28  441 Drawing cursor
+11:29:28  442 Drawing cursor
+11:29:28  443 Drawing cursor
+11:29:28  444 Drawing cursor
+11:29:28  445 Drawing cursor
+11:29:28  446 Drawing cursor
+11:29:28  447 Drawing cursor
+11:29:28  448 Drawing cursor
+11:29:28  449 Drawing cursor
+11:29:28  450 Drawing cursor
+11:29:28  451 Drawing cursor
+11:29:28  452 Drawing cursor
+11:29:28  453 Drawing cursor
+11:29:28  454 Drawing cursor
+11:29:28  455 Drawing cursor
+11:29:28  456 Drawing cursor
+11:29:28  457 Drawing cursor
+11:29:28  458 Drawing cursor
+11:29:29  459 Drawing cursor
+11:29:29  460 Drawing cursor
+11:29:29  461 Drawing cursor
+11:29:29  462 Drawing cursor
+11:29:29  463 Drawing cursor
+11:29:29  464 Drawing cursor
+11:29:29  465 Drawing cursor
+11:29:29  466 Drawing cursor
+11:29:29  467 Drawing cursor
+11:29:29  468 Client::eventHandler(): sending mouse input to server.
+11:29:29  468 Drawing cursor
+11:29:29  469 Client::eventHandler(): sending mouse input to server.
+11:29:29  469 Drawing cursor
+11:29:29  470 Client::eventHandler(): sending mouse input to server.
+11:29:29  470 Drawing cursor
+11:29:29  471 Client::eventHandler(): sending mouse input to server.
+11:29:29  471 Client::eventHandler(): sending mouse input to server.
+11:29:29  471 Drawing cursor
+11:29:29  472 Client::eventHandler(): sending mouse input to server.
+11:29:29  472 Client::eventHandler(): sending mouse input to server.
+11:29:29  472 Client::eventHandler(): sending mouse input to server.
+11:29:29  472 Drawing cursor
+11:29:29  473 Client::eventHandler(): sending mouse input to server.
+11:29:29  473 Drawing cursor
+11:29:29  474 Client::eventHandler(): sending mouse input to server.
+11:29:29  474 Drawing cursor
+11:29:29  475 Client::eventHandler(): sending mouse input to server.
+11:29:29  475 Drawing cursor
+11:29:29  476 Client::eventHandler(): sending mouse input to server.
+11:29:29  476 Drawing cursor
+11:29:29  477 Client::eventHandler(): sending mouse input to server.
+11:29:29  477 Drawing cursor
+11:29:29  478 Client::eventHandler(): sending mouse input to server.
+11:29:29  478 Drawing cursor
+11:29:29  479 Client::eventHandler(): sending mouse input to server.
+11:29:29  479 Drawing cursor
+11:29:29  480 Client::eventHandler(): sending mouse input to server.
+11:29:29  480 Client::eventHandler(): sending mouse input to server.
+11:29:29  480 Client::eventHandler(): sending mouse input to server.
+11:29:29  480 Drawing cursor
+11:29:29  481 Client::eventHandler(): sending mouse input to server.
+11:29:29  481 Client::eventHandler(): sending mouse input to server.
+11:29:29  481 Client::eventHandler(): sending mouse input to server.
+11:29:29  481 Drawing cursor
+11:29:29  482 Client::eventHandler(): sending mouse input to server.
+11:29:29  482 Client::eventHandler(): sending mouse input to server.
+11:29:29  482 Client::eventHandler(): sending mouse input to server.
+11:29:29  482 Drawing cursor
+11:29:29  483 Client::eventHandler(): sending mouse input to server.
+11:29:29  483 Client::eventHandler(): sending mouse input to server.
+11:29:29  483 Drawing cursor
+11:29:29  484 Client::eventHandler(): sending mouse input to server.
+11:29:29  484 Client::eventHandler(): sending mouse input to server.
+11:29:29  484 Drawing cursor
+11:29:29  485 Client::eventHandler(): sending mouse input to server.
+11:29:29  485 Drawing cursor
+11:29:29  486 Client::eventHandler(): sending mouse input to server.
+11:29:29  486 Client::eventHandler(): sending mouse input to server.
+11:29:29  486 Client::eventHandler(): sending mouse input to server.
+11:29:29  486 Drawing cursor
+11:29:29  487 Client::eventHandler(): sending mouse input to server.
+11:29:29  487 Drawing cursor
+11:29:29  488 Drawing cursor
+11:29:29  489 Drawing cursor
+11:29:30  490 Drawing cursor
+11:29:30  491 Client::eventHandler(): sending mouse input to server.
+11:29:30  491 Client::eventHandler(): sending mouse input to server.
+11:29:30  491 Drawing cursor
+11:29:30  492 Client::eventHandler(): sending mouse input to server.
+11:29:30  492 Drawing cursor
+11:29:30  493 Client::eventHandler(): sending mouse input to server.
+11:29:30  493 Drawing cursor
+11:29:30  494 Client::eventHandler(): sending mouse input to server.
+11:29:30  494 Drawing cursor
+11:29:30  495 Client::eventHandler(): sending mouse input to server.
+11:29:30  495 Drawing cursor
+11:29:30  496 Client::eventHandler(): sending mouse input to server.
+11:29:30  496 Drawing cursor
+11:29:30  497 Client::eventHandler(): sending mouse input to server.
+11:29:30  497 Drawing cursor
+11:29:30  498 Client::eventHandler(): sending mouse input to server.
+11:29:30  498 Client::eventHandler(): sending mouse input to server.
+11:29:30  498 Client::eventHandler(): sending mouse input to server.
+11:29:30  498 Drawing cursor
+11:29:30  499 Client::eventHandler(): sending mouse input to server.
+11:29:30  499 Client::eventHandler(): sending mouse input to server.
+11:29:30  499 Drawing cursor
+11:29:30  500 Client::eventHandler(): sending mouse input to server.
+11:29:30  500 Drawing cursor
+11:29:30  501 Client::eventHandler(): sending mouse input to server.
+11:29:30  501 Drawing cursor
+11:29:30  502 Client::eventHandler(): sending mouse input to server.
+11:29:30  502 Drawing cursor
+11:29:30  503 Client::eventHandler(): sending mouse input to server.
+11:29:30  503 Drawing cursor
+11:29:30  504 Client::eventHandler(): sending mouse input to server.
+11:29:30  504 Drawing cursor
+11:29:30  505 Client::eventHandler(): sending mouse input to server.
+11:29:30  505 Drawing cursor
+11:29:30  506 Client::eventHandler(): sending mouse input to server.
+11:29:30  506 Drawing cursor
+11:29:30  507 Drawing cursor
+11:29:30  508 Drawing cursor
+11:29:30  509 Client::eventHandler(): sending mouse input to server.
+11:29:30  509 Client::eventHandler(): sending mouse input to server.
+11:29:30  509 Drawing cursor
+11:29:30  510 Client::eventHandler(): sending mouse input to server.
+11:29:30  510 Drawing cursor
+11:29:30  511 Drawing cursor
+11:29:30  512 Drawing cursor
+11:29:30  513 Client::eventHandler(): sending mouse input to server.
+11:29:30  513 Drawing cursor
+11:29:30  514 Client::eventHandler(): sending mouse input to server.
+11:29:30  514 Drawing cursor
+11:29:30  515 Client::eventHandler(): sending mouse input to server.
+11:29:30  515 Drawing cursor
+11:29:30  516 Client::eventHandler(): sending mouse input to server.
+11:29:30  516 Drawing cursor
+11:29:30  517 Drawing cursor
+11:29:30  518 Client::eventHandler(): sending mouse input to server.
+11:29:30  518 Client::eventHandler(): sending mouse input to server.
+11:29:30  518 Client::eventHandler(): sending mouse input to server.
+11:29:30  518 Drawing cursor
+11:29:30  519 Client::eventHandler(): sending mouse input to server.
+11:29:30  519 Drawing cursor
+11:29:31  520 Drawing cursor
+11:29:31  521 Drawing cursor
+11:29:31  522 Drawing cursor
+11:29:31  523 Drawing cursor
+11:29:31  524 Drawing cursor
+11:29:31  525 Drawing cursor
+11:29:31  526 Drawing cursor
+11:29:31  527 Drawing cursor
+11:29:31  528 Client::eventHandler(): sending mouse input to server.
+11:29:31  528 Client::eventHandler(): sending mouse input to server.
+11:29:31  528 Drawing cursor
+11:29:31  529 Client::eventHandler(): sending mouse input to server.
+11:29:31  529 Drawing cursor
+11:29:31  530 Client::eventHandler(): sending mouse input to server.
+11:29:31  530 Client::eventHandler(): sending mouse input to server.
+11:29:31  530 Client::eventHandler(): sending mouse input to server.
+11:29:31  530 Drawing cursor
+11:29:31  531 Client::eventHandler(): sending mouse input to server.
+11:29:31  531 Drawing cursor
+11:29:31  532 Drawing cursor
+11:29:31  533 Drawing cursor
+11:29:31  534 Drawing cursor
+11:29:31  535 Drawing cursor
+11:29:31  536 Drawing cursor
+11:29:31  537 Drawing cursor
+11:29:31  538 Drawing cursor
+11:29:31  539 Drawing cursor
+11:29:31  540 Drawing cursor
+11:29:31  541 Drawing cursor
+11:29:31  542 Drawing cursor
+11:29:31  543 Drawing cursor
+11:29:31  544 Drawing cursor
+11:29:31  545 Drawing cursor
+11:29:31  546 Drawing cursor
+11:29:31  547 Drawing cursor
+11:29:31  548 Drawing cursor
+11:29:31  549 Drawing cursor
+11:29:32  550 Drawing cursor
+11:29:32  551 Drawing cursor
+11:29:32  552 Drawing cursor
+11:29:32  553 Drawing cursor
+11:29:32  554 Drawing cursor
+11:29:32  555 Drawing cursor
+11:29:32  556 Drawing cursor
+11:29:32  557 Drawing cursor
+11:29:32  558 Drawing cursor
+11:29:32  559 Drawing cursor
+11:29:32  560 Drawing cursor
+11:29:32  561 Drawing cursor
+11:29:32  562 InputManager::getInput(): Window close event. Setting game over.
+11:29:32  562 Drawing cursor
+11:29:32  563 GameManager::run(): end of game loop
+11:29:32  563 PathManager::shutDown(): successfully stopped.
+11:29:32  563 Path manager stopped
+11:29:32  563 WorldManager::shutDown(): Successfully stopped.
+11:29:32  563 World manager stopped
+11:29:32  563 ResourceManager::shutDown(): successfully stopped.
+11:29:32  563 Resource manager stopped
+11:29:32  563 NetworkManager::shutDown(): successfully stopped.
+11:29:32  563 Network manager stopped
+11:29:32  563 InputManager::shutDown(): successfully stopped.
+11:29:32  563 Input manager stopped
+11:29:32  563 DisplayManager::shutDown(): successfully stopped.
+11:29:32  563 Display manager stopped
+11:29:32  563 ** Game stopped **
+11:29:32  563 ****************************************************
+11:29:32  563 LogManager::shutDown(): successfully stopped.

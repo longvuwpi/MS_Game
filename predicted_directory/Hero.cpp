@@ -69,7 +69,7 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 	//df::Vector p(7, WM.getBoundary().getVertical()/2);
 	df::Vector p(60, 25);
 	setPosition(p);
-	if (is_predicted) m_modified[df::POSITION] = false;
+	//if (is_predicted) m_modified[df::POSITION] = false;
 
 	//p_reticle->draw();
 
@@ -81,12 +81,13 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 	jump_count = jump_max;
 	max_health = 50;
 	health = 50;
+	death_count = 0;
 	isDucking = false;
 	p_OnPlatform = NULL;
 
 	//if (NM.isServer()) {
 	setAcceleration(df::Vector(0, down_gravity));
-	if (is_predicted) m_modified[df::ACCELERATION] = false;
+	//if (is_predicted) m_modified[df::ACCELERATION] = false;
 
 	//}
 	setSolidness(df::SOFT);
@@ -126,9 +127,16 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 
 	//// Create reticle for firing bullets and aiming.
 	//
-	if ((!NM.isServer()) && (client_hero_id == hero_id)) {
-		new AmmoDisplay(this);
-		p_reticle = new Reticle(this);
+	if (!NM.isServer()) {
+		if (client_hero_id == hero_id) {
+			new AmmoDisplay(this);
+			p_reticle = new Reticle(this);
+			is_main_hero = true;
+		}
+		else {
+			is_main_hero = false;
+			//is_predicted = false;
+		}
 	}
 }
 
@@ -142,20 +150,20 @@ void Hero::setWalkingSprite() {
 	setTransparency();	   // Transparent sprite.
 	setPosition(getPosition() + df::Vector(0, -0.5 + (duck_sprite->getHeight() / 2) - (walk_sprite->getHeight() / 2)));
 	setCentered(true);
-	if (is_predicted) {
-		m_modified[df::SPRITE] = false;
-		m_modified[df::POSITION] = false;
-	}
+	//if (is_predicted) {
+	//	m_modified[df::SPRITE] = false;
+	//	m_modified[df::POSITION] = false;
+	//}
 }
 
 void Hero::setDuckingSprite() {
 	setSprite(duck_sprite);
 	setPosition(getPosition() + df::Vector(0, -0.5 + (walk_sprite->getHeight() / 2) - (duck_sprite->getHeight() / 2)));
 	setCentered(true);
-	if (is_predicted) {
-		m_modified[df::SPRITE] = false;
-		m_modified[df::POSITION] = false;
-	}
+	//if (is_predicted) {
+	//	m_modified[df::SPRITE] = false;
+	//	m_modified[df::POSITION] = false;
+	//}
 }
 
 Hero::~Hero() {
@@ -172,13 +180,17 @@ Hero::~Hero() {
 	}
 
 	if (NM.isServer()) {
+		LM.writeLog("Hero with id %d died %d times", getId(), death_count);
+
 		df::ObjectList ol = WM.objectsOfType("Server");
 		df::ObjectListIterator oli(&ol);
 		oli.first();
 		Server *server = (Server *)oli.currentObject();
 		server->sendMessage(df::DELETE_OBJECT, this);
 	}
+
 	// Mark Reticle for deletion.
+	//if (is_main_hero)
 	//WM.markForDelete(p_reticle);
 }
 
@@ -240,9 +252,9 @@ int Hero::eventHandler(const df::Event *p_e) {
 }
 
 void Hero::landedOn(Platform *platform) {
-	if (!NM.isServer()) {
-		LM.writeLog("Hero collided with platform");
-	}
+	//if (!NM.isServer()) {
+	//	LM.writeLog("Hero collided with platform");
+	//}
 
 	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
 		df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
@@ -262,13 +274,13 @@ void Hero::landedOn(Platform *platform) {
 			setCentered(true);
 
 			//clear all flags since code is executed similarly on server and clients
-			if (is_predicted) {
-				m_modified[df::POSITION] = false;
-				m_modified[df::ACCELERATION] = false;
-				m_modified[df::SPEED] = false;
-				m_modified[df::DIRECTION] = false;
-				m_modified[df::SPRITE] = false;
-			}
+			//if (is_predicted) {
+			//	m_modified[df::POSITION] = false;
+			//	m_modified[df::ACCELERATION] = false;
+			//	m_modified[df::SPEED] = false;
+			//	m_modified[df::DIRECTION] = false;
+			//	m_modified[df::SPRITE] = false;
+			//}
 			return;
 		}
 	}
@@ -370,12 +382,15 @@ void Hero::move(int dx, int dy) {
 		(new_pos.getY() < world_manager.getBoundary().getVertical() - 1))
 	{
 		world_manager.moveObject(this, new_pos);
-		if (is_predicted) m_modified[df::POSITION] = false;
+		//if (is_predicted) m_modified[df::POSITION] = false;
 	}
 }
 
 Weapon *Hero::getCurrentWeapon() {
-	return (dynamic_cast <Weapon*> (weapon_selector->currentObject()));
+	if (weapon_selector->currentObject() != NULL) {
+		return (dynamic_cast <Weapon*> (weapon_selector->currentObject()));
+	}
+	else return NULL;
 }
 
 // Fire bullet towards target.
@@ -399,15 +414,15 @@ void Hero::step() {
 
 		if (p_OnPlatform == NULL) {
 			setAcceleration(df::Vector(0, down_gravity));
-			if (is_predicted) m_modified[df::ACCELERATION] = false;
+			//if (is_predicted) m_modified[df::ACCELERATION] = false;
 		}
 
 		if (getVelocity().getY() >= 3) {
 			setVelocity(df::Vector(getVelocity().getX(), 3));
-			if (is_predicted) {
-				m_modified[df::SPEED] = false;
-				m_modified[df::DIRECTION] = false;
-			}
+			//if (is_predicted) {
+			//	m_modified[df::SPEED] = false;
+			//	m_modified[df::DIRECTION] = false;
+			//}
 		}
 
 		if (NM.isServer()) {
@@ -422,11 +437,11 @@ void Hero::step() {
 
 		getCurrentWeapon()->setAcceleration(getAcceleration());
 		getCurrentWeapon()->setVelocity(getVelocity());
-		if (is_predicted) {
-			m_modified[df::ACCELERATION] = false;
-			m_modified[df::SPEED] = false;
-			m_modified[df::DIRECTION] = false;
-		}
+		//if (is_predicted) {
+		//	m_modified[df::ACCELERATION] = false;
+		//	m_modified[df::SPEED] = false;
+		//	m_modified[df::DIRECTION] = false;
+		//}
 	}
 
 	drawHealthBar();
@@ -439,10 +454,10 @@ void Hero::jump() {
 		//setPosition(getPosition() + df::Vector(0, -1));
 		if (!isDucking) {
 			setVelocity(df::Vector(0, -jumpHeight));
-			if (is_predicted) {
-				m_modified[df::SPEED] = false;
-				m_modified[df::DIRECTION] = false;
-			}
+			//if (is_predicted) {
+			//	m_modified[df::SPEED] = false;
+			//	m_modified[df::DIRECTION] = false;
+			//}
 		}
 
 		setCentered(true);
@@ -471,27 +486,33 @@ void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	hero_modified[HEALTH] = true;
 
-	LM.writeLog("Hero took damage!! It hurts! Current health is %d", health);
+	//LM.writeLog("Hero took damage!! It hurts! Current health is %d", health);
 	//new DamageIndicator(at, damage);
 	DM.shake(damage * 2, damage * 2, 3, false);
 
 	df::ObjectList go_objects = WM.objectsOfType("GameOver");
 	if (go_objects.getCount() <= 0) {
 		if (health <= 0) {
-			WM.markForDelete(this);
-			// Create GameOver object.
-			//GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
+			//WM.markForDelete(this);
+			//// Create GameOver object.
+			////GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
+			df::Vector p(60, 25);
+			setPosition(p);
+			health = max_health;
+			refillAmmo();
+			death_count++;
+			LM.writeLog("Hero with id %d died %d times", getId(), death_count);
 		}
 	}
 }
 
 void Hero::refillAmmo() {
-	//df::ObjectListIterator refillIterator(&weapon_list);
-	//refillIterator.first();
-	//while (!refillIterator.isDone()) {
-	//	(dynamic_cast <Weapon*> (refillIterator.currentObject()))->refillAmmo();
-	//	refillIterator.next();
-	//}
+	df::ObjectListIterator refillIterator(&weapon_list);
+	refillIterator.first();
+	while (!refillIterator.isDone()) {
+		(dynamic_cast <Weapon*> (refillIterator.currentObject()))->refillAmmo();
+		refillIterator.next();
+	}
 }
 
 void Hero::drawHealthBar() {
@@ -538,7 +559,7 @@ int Hero::getHealth() {
 	return health;
 }
 
-bool Hero::isModified() const{
+bool Hero::isModified() const {
 	for (int i = 0; i < hero_att_count; i++) {
 		if (hero_modified[i]) return true;
 	}
@@ -546,7 +567,7 @@ bool Hero::isModified() const{
 }
 
 std::string Hero::serialize(std::string all) {
-	LM.writeLog(1,"Hero::serialize() %s", all);
+	LM.writeLog(1, "Hero::serialize() %s", all);
 
 	// Do main serialize from parent.
 	std::string s = Object::serialize(all);
@@ -573,30 +594,64 @@ std::string Hero::serialize(std::string all) {
 }
 
 int Hero::deserialize(std::string str) {
-	LM.writeLog("Hero::deserialize()");
-
+	//LM.writeLog("Hero::deserialize()");
+	std::string val;
+	df::match(str, "");
+	bool mainDeserialized = false;
 	df::Vector currentPosition = getPosition();
 
 	// Do main deserialize from parent.
 
-	if (!is_predicted) Object::deserialize(str);
+	if (is_main_hero) {
+		if (!is_predicted) {
+			Object::deserialize(str);
+			mainDeserialized = true;
+		}
+		else {
+			float f;
+			bool is_position = true;
+			df::Vector new_position;
+			val = df::match("", "pos-x");
+			if (!val.empty()) {
+				f = (float)atof(val.c_str());
+				new_position.setX(f);
+			}
+			else
+				is_position = false;
+			val = df::match("", "pos-y");
+			if (!val.empty()) {
+				f = (float)atof(val.c_str());
+				new_position.setY(f);
+			}
+			else
+				is_position = false;
+			if (is_position) {
+				if ((currentPosition - new_position).getMagnitude() > 55.0f) {
+					Object::deserialize(str);
+					mainDeserialized = true;
+					LM.writeLog("Fixing up hero position");
+				}
+			}
+		}
+	}
+	else {
+		Object::deserialize(str);
+		mainDeserialized = true;
+	}
+
 	//df::Vector serializedPosition = getPosition();
 	//setPosition(currentPosition);
 
 	// Get ready for parsing.
-	std::string val;
-	df::match(str, "");
 
 	val = df::match("", "health");
 	if (!val.empty()) {
 		int i = atoi(val.c_str());
 		LM.writeLog("Hero::deserialize(): current health is %d", i);
+		if (!mainDeserialized) {
+			Object::deserialize(str);
+		}
 		health = i;
-
-		//if ((currentPosition - serializedPosition).getMagnitude() > 4.0f) {
-		//	setPosition(df::Vector(((currentPosition + serializedPosition).getX() / 2.0f), ((currentPosition + serializedPosition).getY() / 2.0f)));
-		//	LM.writeLog("Fixing up hero position");
-		//}
 	}
 
 	val = df::match("", "current_weapon");
@@ -617,6 +672,7 @@ int Hero::deserialize(std::string str) {
 		LM.writeLog("Hero::deserialize(): is_predicted is %d", i);
 		is_predicted = (i == 1) ? true : false;
 	}
+
 
 	return 0;
 }
@@ -641,4 +697,9 @@ df::Vector Hero::viewPositionOnHero() {
 		y = 0;
 
 	return df::Vector(x, y);
+}
+
+void Hero::setIsPredicted(bool newisPredicted) {
+	is_predicted = newisPredicted;
+	hero_modified[IS_PREDICTED] = true;
 }

@@ -19,10 +19,13 @@ protected:
 public:
 	Level(std::string level_name);
 	Level();
+	~Level();
 	void start();
 	void draw();
 	int eventHandler(const df::Event *p_e);
 	void step();
 	virtual void levelLogic();
 	virtual void initialize();
+	df::Vector getTrackedHeroPos();
+	df::Vector getTrackedHeroViewPos();
 };

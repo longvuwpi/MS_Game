@@ -1,0 +1,1806 @@
+11:28:53    0 ****************************************************
+11:28:53    0 ** Dragonfly version 4.12 **
+11:28:54    0 Hello, Network! (v1.2)
+11:28:54    0 1128_server_p.log
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+11:28:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+11:28:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+11:28:54    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+11:28:54    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+11:28:54    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+11:28:55    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+11:28:56    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+11:28:56    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+11:28:56    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+11:28:56    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+11:28:56    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+11:28:56    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+11:28:56    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+11:28:56    0 GameManager::run(): starting game loop
+11:28:59   90 GameManager::run(): end of game loop
+11:28:59   90 NetworkManager::setServer(): Ready for connections on port 9876.
+11:28:59   90 Server::Server(): Setup for 3 connections.
+11:28:59   90 Server::Server(): Server started
+11:28:59   90 GameManager::run(): starting game loop
+11:29:12  361 NetworkManager::accept(): New connection.
+11:29:12  361 Server::handleAccept(): server now connected socket: 0
+11:29:12  361 Server::eventHandler(): sending hero id message: '20'
+11:29:20  601 Weapon just fired, ammo is 29
+11:29:20  602 Server::doSync(): SYNC Hero (id 20).
+11:29:20  602 Hero::serialize() 
+11:29:20  602 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  602 Weapon::serialize() 
+11:29:20  602 Serialized ammo loaded, 29
+11:29:20  602 Server::doSync(): SYNC Weapon (id 22).
+11:29:20  602 Weapon::serialize() 
+11:29:20  602 Serialized ammo loaded, 10
+11:29:20  602 Server::doSync(): SYNC Weapon (id 23).
+11:29:20  602 Weapon::serialize() 
+11:29:20  602 Serialized ammo loaded, 1
+11:29:20  602 Server::doSync(): SYNC Level (id 100).
+11:29:20  602 Server::doSync(): SYNC Platform (id 100).
+11:29:20  602 Server::doSync(): SYNC Platform (id 101).
+11:29:20  602 Server::doSync(): SYNC Platform (id 102).
+11:29:20  602 Server::doSync(): SYNC Platform (id 103).
+11:29:20  602 Server::doSync(): SYNC Platform (id 104).
+11:29:20  602 Server::doSync(): SYNC Platform (id 105).
+11:29:20  602 Server::doSync(): SYNC Platform (id 106).
+11:29:20  602 Server::doSync(): SYNC Platform (id 107).
+11:29:20  602 Server::doSync(): SYNC Platform (id 108).
+11:29:20  602 Server::doSync(): SYNC Platform (id 109).
+11:29:20  602 Server::doSync(): SYNC Platform (id 110).
+11:29:20  602 Server::doSync(): SYNC Platform (id 111).
+11:29:20  602 Server::doSync(): SYNC Platform (id 112).
+11:29:20  602 Server::doSync(): SYNC Platform (id 113).
+11:29:20  602 Server::doSync(): SYNC Platform (id 114).
+11:29:20  602 Server::doSync(): SYNC Platform (id 115).
+11:29:20  602 Server::doSync(): SYNC Platform (id 116).
+11:29:20  602 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  603 Server::doSync(): SYNC Hero (id 20).
+11:29:20  603 Hero::serialize() 
+11:29:20  603 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  603 Weapon::serialize() 
+11:29:20  603 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  604 Server::doSync(): SYNC Hero (id 20).
+11:29:20  604 Hero::serialize() 
+11:29:20  604 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  604 Weapon::serialize() 
+11:29:20  604 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  605 Server::doSync(): SYNC Hero (id 20).
+11:29:20  605 Hero::serialize() 
+11:29:20  605 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  605 Weapon::serialize() 
+11:29:20  605 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  606 Server::doSync(): SYNC Hero (id 20).
+11:29:20  606 Hero::serialize() 
+11:29:20  606 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  606 Weapon::serialize() 
+11:29:20  606 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  607 Server::doSync(): SYNC Hero (id 20).
+11:29:20  607 Hero::serialize() 
+11:29:20  607 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  607 Weapon::serialize() 
+11:29:20  607 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  607 Server::doSync(): SYNC Saucer (id 456).
+11:29:20  608 Server::doSync(): SYNC Hero (id 20).
+11:29:20  608 Hero::serialize() 
+11:29:20  608 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  608 Weapon::serialize() 
+11:29:20  608 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  608 Server::doSync(): SYNC Saucer (id 456).
+11:29:20  609 Server::doSync(): SYNC Hero (id 20).
+11:29:20  609 Hero::serialize() 
+11:29:20  609 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  609 Weapon::serialize() 
+11:29:20  609 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  609 Server::doSync(): SYNC Saucer (id 456).
+11:29:20  610 Server::doSync(): SYNC Hero (id 20).
+11:29:20  610 Hero::serialize() 
+11:29:20  610 Server::doSync(): SYNC Weapon (id 21).
+11:29:20  610 Weapon::serialize() 
+11:29:20  610 Server::doSync(): SYNC Bullet (id 117).
+11:29:20  610 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  611 Server::doSync(): SYNC Hero (id 20).
+11:29:21  611 Hero::serialize() 
+11:29:21  611 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  611 Weapon::serialize() 
+11:29:21  611 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  611 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  612 Server::doSync(): SYNC Hero (id 20).
+11:29:21  612 Hero::serialize() 
+11:29:21  612 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  612 Weapon::serialize() 
+11:29:21  612 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  612 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  612 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  613 Server::doSync(): SYNC Hero (id 20).
+11:29:21  613 Hero::serialize() 
+11:29:21  613 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  613 Weapon::serialize() 
+11:29:21  613 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  613 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  613 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  614 Server::doSync(): SYNC Hero (id 20).
+11:29:21  614 Hero::serialize() 
+11:29:21  614 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  614 Weapon::serialize() 
+11:29:21  614 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  614 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  614 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  615 Server::doSync(): SYNC Hero (id 20).
+11:29:21  615 Hero::serialize() 
+11:29:21  615 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  615 Weapon::serialize() 
+11:29:21  615 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  615 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  615 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  616 Server::doSync(): SYNC Hero (id 20).
+11:29:21  616 Hero::serialize() 
+11:29:21  616 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  616 Weapon::serialize() 
+11:29:21  616 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  616 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  616 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  617 Server::doSync(): SYNC Hero (id 20).
+11:29:21  617 Hero::serialize() 
+11:29:21  617 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  617 Weapon::serialize() 
+11:29:21  617 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  617 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  617 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  617 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  618 Server::doSync(): SYNC Hero (id 20).
+11:29:21  618 Hero::serialize() 
+11:29:21  618 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  618 Weapon::serialize() 
+11:29:21  618 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  618 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  618 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  618 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  619 Server::doSync(): SYNC Hero (id 20).
+11:29:21  619 Hero::serialize() 
+11:29:21  619 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  619 Weapon::serialize() 
+11:29:21  619 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  619 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  619 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  619 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  620 Server::doSync(): SYNC Hero (id 20).
+11:29:21  620 Hero::serialize() 
+11:29:21  620 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  620 Weapon::serialize() 
+11:29:21  620 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  620 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  620 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  620 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  621 Server::doSync(): SYNC Hero (id 20).
+11:29:21  621 Hero::serialize() 
+11:29:21  621 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  621 Weapon::serialize() 
+11:29:21  621 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  621 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  621 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  621 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  622 Server::doSync(): SYNC Hero (id 20).
+11:29:21  622 Hero::serialize() 
+11:29:21  622 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  622 Weapon::serialize() 
+11:29:21  622 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  622 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  622 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  622 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  622 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  623 Server::doSync(): SYNC Hero (id 20).
+11:29:21  623 Hero::serialize() 
+11:29:21  623 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  623 Weapon::serialize() 
+11:29:21  623 Server::doSync(): SYNC Bullet (id 117).
+11:29:21  623 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  623 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  623 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  623 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  624 Server::doSync(): SYNC Hero (id 20).
+11:29:21  624 Hero::serialize() 
+11:29:21  624 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  624 Weapon::serialize() 
+11:29:21  624 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  624 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  624 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  624 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  625 Server::doSync(): SYNC Hero (id 20).
+11:29:21  625 Hero::serialize() 
+11:29:21  625 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  625 Weapon::serialize() 
+11:29:21  625 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  625 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  625 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  625 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  626 Server::doSync(): SYNC Hero (id 20).
+11:29:21  626 Hero::serialize() 
+11:29:21  626 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  626 Weapon::serialize() 
+11:29:21  626 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  626 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  626 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  626 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  627 Server::doSync(): SYNC Hero (id 20).
+11:29:21  627 Hero::serialize() 
+11:29:21  627 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  627 Weapon::serialize() 
+11:29:21  627 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  627 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  627 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  627 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  628 Server::doSync(): SYNC Hero (id 20).
+11:29:21  628 Hero::serialize() 
+11:29:21  628 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  628 Weapon::serialize() 
+11:29:21  628 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  628 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  628 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  628 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  629 Server::doSync(): SYNC Hero (id 20).
+11:29:21  629 Hero::serialize() 
+11:29:21  629 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  629 Weapon::serialize() 
+11:29:21  629 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  629 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  629 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  629 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  630 Server::doSync(): SYNC Hero (id 20).
+11:29:21  630 Hero::serialize() 
+11:29:21  630 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  630 Weapon::serialize() 
+11:29:21  630 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  630 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  630 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  630 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  631 Server::doSync(): SYNC Hero (id 20).
+11:29:21  631 Hero::serialize() 
+11:29:21  631 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  631 Weapon::serialize() 
+11:29:21  631 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  631 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  631 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  631 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  632 Server::doSync(): SYNC Hero (id 20).
+11:29:21  632 Hero::serialize() 
+11:29:21  632 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  632 Weapon::serialize() 
+11:29:21  632 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  632 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  632 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  632 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  633 Server::doSync(): SYNC Hero (id 20).
+11:29:21  633 Hero::serialize() 
+11:29:21  633 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  633 Weapon::serialize() 
+11:29:21  633 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  633 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  633 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  633 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  634 Server::doSync(): SYNC Hero (id 20).
+11:29:21  634 Hero::serialize() 
+11:29:21  634 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  634 Weapon::serialize() 
+11:29:21  634 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  634 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  634 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  634 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  635 Server::doSync(): SYNC Hero (id 20).
+11:29:21  635 Hero::serialize() 
+11:29:21  635 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  635 Weapon::serialize() 
+11:29:21  635 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  635 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  635 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  635 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  636 Server::doSync(): SYNC Hero (id 20).
+11:29:21  636 Hero::serialize() 
+11:29:21  636 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  636 Weapon::serialize() 
+11:29:21  636 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  636 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  636 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  636 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  637 Server::doSync(): SYNC Hero (id 20).
+11:29:21  637 Hero::serialize() 
+11:29:21  637 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  637 Weapon::serialize() 
+11:29:21  637 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  637 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  637 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  637 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  638 Server::doSync(): SYNC Hero (id 20).
+11:29:21  638 Hero::serialize() 
+11:29:21  638 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  638 Weapon::serialize() 
+11:29:21  638 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  638 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  638 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  638 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  639 Server::doSync(): SYNC Hero (id 20).
+11:29:21  639 Hero::serialize() 
+11:29:21  639 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  639 Weapon::serialize() 
+11:29:21  639 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  639 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  639 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  639 Server::doSync(): SYNC Saucer (id 469).
+11:29:21  640 Server::doSync(): SYNC Hero (id 20).
+11:29:21  640 Hero::serialize() 
+11:29:21  640 Server::doSync(): SYNC Weapon (id 21).
+11:29:21  640 Weapon::serialize() 
+11:29:21  640 Server::doSync(): SYNC Saucer (id 456).
+11:29:21  640 Server::doSync(): SYNC Saucer (id 467).
+11:29:21  640 Server::doSync(): SYNC Saucer (id 468).
+11:29:21  640 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  641 Server::doSync(): SYNC Hero (id 20).
+11:29:22  641 Hero::serialize() 
+11:29:22  641 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  641 Weapon::serialize() 
+11:29:22  641 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  641 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  641 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  641 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  642 Server::doSync(): SYNC Hero (id 20).
+11:29:22  642 Hero::serialize() 
+11:29:22  642 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  642 Weapon::serialize() 
+11:29:22  642 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  642 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  642 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  642 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  643 Server::doSync(): SYNC Hero (id 20).
+11:29:22  643 Hero::serialize() 
+11:29:22  643 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  643 Weapon::serialize() 
+11:29:22  643 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  643 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  643 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  643 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  644 Server::doSync(): SYNC Hero (id 20).
+11:29:22  644 Hero::serialize() 
+11:29:22  644 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  644 Weapon::serialize() 
+11:29:22  644 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  644 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  644 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  644 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  645 Server::doSync(): SYNC Hero (id 20).
+11:29:22  645 Hero::serialize() 
+11:29:22  645 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  645 Weapon::serialize() 
+11:29:22  645 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  645 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  645 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  645 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  646 Server::doSync(): SYNC Hero (id 20).
+11:29:22  646 Hero::serialize() 
+11:29:22  646 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  646 Weapon::serialize() 
+11:29:22  646 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  646 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  646 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  646 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  647 Server::doSync(): SYNC Hero (id 20).
+11:29:22  647 Hero::serialize() 
+11:29:22  647 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  647 Weapon::serialize() 
+11:29:22  647 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  647 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  647 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  647 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  648 Server::doSync(): SYNC Hero (id 20).
+11:29:22  648 Hero::serialize() 
+11:29:22  648 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  648 Weapon::serialize() 
+11:29:22  648 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  648 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  648 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  648 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  649 Server::doSync(): SYNC Hero (id 20).
+11:29:22  649 Hero::serialize() 
+11:29:22  649 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  649 Weapon::serialize() 
+11:29:22  649 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  649 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  649 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  649 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  650 Server::doSync(): SYNC Hero (id 20).
+11:29:22  650 Hero::serialize() 
+11:29:22  650 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  650 Weapon::serialize() 
+11:29:22  650 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  650 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  650 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  650 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  651 Server::doSync(): SYNC Hero (id 20).
+11:29:22  651 Hero::serialize() 
+11:29:22  651 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  651 Weapon::serialize() 
+11:29:22  651 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  651 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  651 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  651 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  652 Server::doSync(): SYNC Hero (id 20).
+11:29:22  652 Hero::serialize() 
+11:29:22  652 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  652 Weapon::serialize() 
+11:29:22  652 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  652 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  652 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  652 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  652 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  653 Server::doSync(): SYNC Hero (id 20).
+11:29:22  653 Hero::serialize() 
+11:29:22  653 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  653 Weapon::serialize() 
+11:29:22  653 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  653 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  653 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  653 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  653 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  654 Server::doSync(): SYNC Hero (id 20).
+11:29:22  654 Hero::serialize() 
+11:29:22  654 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  654 Weapon::serialize() 
+11:29:22  654 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  654 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  654 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  654 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  654 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  655 Server::doSync(): SYNC Hero (id 20).
+11:29:22  655 Hero::serialize() 
+11:29:22  655 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  655 Weapon::serialize() 
+11:29:22  655 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  655 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  655 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  655 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  655 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  656 Server::doSync(): SYNC Hero (id 20).
+11:29:22  656 Hero::serialize() 
+11:29:22  656 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  656 Weapon::serialize() 
+11:29:22  656 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  656 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  656 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  656 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  656 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  657 Server::doSync(): SYNC Hero (id 20).
+11:29:22  657 Hero::serialize() 
+11:29:22  657 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  657 Weapon::serialize() 
+11:29:22  657 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  657 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  657 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  657 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  657 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  658 Server::doSync(): SYNC Hero (id 20).
+11:29:22  658 Hero::serialize() 
+11:29:22  658 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  658 Weapon::serialize() 
+11:29:22  658 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  658 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  658 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  658 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  658 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  659 Server::doSync(): SYNC Hero (id 20).
+11:29:22  659 Hero::serialize() 
+11:29:22  659 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  659 Weapon::serialize() 
+11:29:22  659 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  659 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  659 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  659 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  659 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  660 Server::doSync(): SYNC Hero (id 20).
+11:29:22  660 Hero::serialize() 
+11:29:22  660 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  660 Weapon::serialize() 
+11:29:22  660 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  660 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  660 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  660 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  660 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  661 Server::doSync(): SYNC Hero (id 20).
+11:29:22  661 Hero::serialize() 
+11:29:22  661 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  661 Weapon::serialize() 
+11:29:22  661 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  661 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  661 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  661 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  661 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  662 Server::doSync(): SYNC Hero (id 20).
+11:29:22  662 Hero::serialize() 
+11:29:22  662 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  662 Weapon::serialize() 
+11:29:22  662 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  662 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  662 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  662 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  662 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  663 Server::doSync(): SYNC Hero (id 20).
+11:29:22  663 Hero::serialize() 
+11:29:22  663 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  663 Weapon::serialize() 
+11:29:22  663 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  663 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  663 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  663 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  663 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  664 Server::doSync(): SYNC Hero (id 20).
+11:29:22  664 Hero::serialize() 
+11:29:22  664 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  664 Weapon::serialize() 
+11:29:22  664 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  664 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  664 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  664 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  664 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  665 Server::doSync(): SYNC Hero (id 20).
+11:29:22  665 Hero::serialize() 
+11:29:22  665 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  665 Weapon::serialize() 
+11:29:22  665 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  665 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  665 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  665 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  665 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  666 Server::doSync(): SYNC Hero (id 20).
+11:29:22  666 Hero::serialize() 
+11:29:22  666 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  666 Weapon::serialize() 
+11:29:22  666 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  666 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  666 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  666 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  666 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  667 Server::doSync(): SYNC Hero (id 20).
+11:29:22  667 Hero::serialize() 
+11:29:22  667 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  667 Weapon::serialize() 
+11:29:22  667 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  667 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  667 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  667 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  667 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  668 Server::doSync(): SYNC Hero (id 20).
+11:29:22  668 Hero::serialize() 
+11:29:22  668 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  668 Weapon::serialize() 
+11:29:22  668 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  668 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  668 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  668 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  668 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  669 Server::doSync(): SYNC Hero (id 20).
+11:29:22  669 Hero::serialize() 
+11:29:22  669 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  669 Weapon::serialize() 
+11:29:22  669 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  669 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  669 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  669 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  669 Server::doSync(): SYNC GameOver (id 470).
+11:29:22  670 Server::doSync(): SYNC Hero (id 20).
+11:29:22  670 Hero::serialize() 
+11:29:22  670 Server::doSync(): SYNC Weapon (id 21).
+11:29:22  670 Weapon::serialize() 
+11:29:22  670 Server::doSync(): SYNC Saucer (id 456).
+11:29:22  670 Server::doSync(): SYNC Saucer (id 467).
+11:29:22  670 Server::doSync(): SYNC Saucer (id 468).
+11:29:22  670 Server::doSync(): SYNC Saucer (id 469).
+11:29:22  670 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  671 Server::doSync(): SYNC Hero (id 20).
+11:29:23  671 Hero::serialize() 
+11:29:23  671 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  671 Weapon::serialize() 
+11:29:23  671 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  671 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  671 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  671 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  671 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  672 Server::doSync(): SYNC Hero (id 20).
+11:29:23  672 Hero::serialize() 
+11:29:23  672 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  672 Weapon::serialize() 
+11:29:23  672 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  672 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  672 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  672 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  672 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  673 Server::doSync(): SYNC Hero (id 20).
+11:29:23  673 Hero::serialize() 
+11:29:23  673 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  673 Weapon::serialize() 
+11:29:23  673 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  673 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  673 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  673 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  673 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  674 Server::doSync(): SYNC Hero (id 20).
+11:29:23  674 Hero::serialize() 
+11:29:23  674 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  674 Weapon::serialize() 
+11:29:23  674 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  674 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  674 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  674 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  674 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  675 Server::doSync(): SYNC Hero (id 20).
+11:29:23  675 Hero::serialize() 
+11:29:23  675 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  675 Weapon::serialize() 
+11:29:23  675 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  675 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  675 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  675 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  675 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  676 Server::doSync(): SYNC Hero (id 20).
+11:29:23  676 Hero::serialize() 
+11:29:23  676 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  676 Weapon::serialize() 
+11:29:23  676 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  676 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  676 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  676 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  676 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  677 Server::doSync(): SYNC Hero (id 20).
+11:29:23  677 Hero::serialize() 
+11:29:23  677 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  677 Weapon::serialize() 
+11:29:23  677 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  677 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  677 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  677 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  677 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  678 Server::doSync(): SYNC Hero (id 20).
+11:29:23  678 Hero::serialize() 
+11:29:23  678 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  678 Weapon::serialize() 
+11:29:23  678 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  678 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  678 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  678 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  678 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  679 Server::doSync(): SYNC Hero (id 20).
+11:29:23  679 Hero::serialize() 
+11:29:23  679 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  679 Weapon::serialize() 
+11:29:23  679 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  679 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  679 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  679 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  679 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  680 Server::doSync(): SYNC Hero (id 20).
+11:29:23  680 Hero::serialize() 
+11:29:23  680 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  680 Weapon::serialize() 
+11:29:23  680 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  680 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  680 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  680 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  680 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  681 Server::doSync(): SYNC Hero (id 20).
+11:29:23  681 Hero::serialize() 
+11:29:23  681 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  681 Weapon::serialize() 
+11:29:23  681 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  681 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  681 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  681 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  681 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  682 Server::doSync(): SYNC Hero (id 20).
+11:29:23  682 Hero::serialize() 
+11:29:23  682 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  682 Weapon::serialize() 
+11:29:23  682 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  682 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  682 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  682 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  682 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  683 Server::doSync(): SYNC Hero (id 20).
+11:29:23  683 Hero::serialize() 
+11:29:23  683 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  683 Weapon::serialize() 
+11:29:23  683 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  683 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  683 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  683 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  683 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  684 Server::doSync(): SYNC Hero (id 20).
+11:29:23  684 Hero::serialize() 
+11:29:23  684 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  684 Weapon::serialize() 
+11:29:23  684 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  684 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  684 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  684 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  684 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  685 Server::doSync(): SYNC Hero (id 20).
+11:29:23  685 Hero::serialize() 
+11:29:23  685 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  685 Weapon::serialize() 
+11:29:23  685 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  685 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  685 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  685 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  685 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  686 Server::doSync(): SYNC Hero (id 20).
+11:29:23  686 Hero::serialize() 
+11:29:23  686 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  686 Weapon::serialize() 
+11:29:23  686 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  686 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  686 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  686 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  686 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  687 Server::doSync(): SYNC Hero (id 20).
+11:29:23  687 Hero::serialize() 
+11:29:23  687 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  687 Weapon::serialize() 
+11:29:23  687 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  687 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  687 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  687 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  687 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  688 Server::doSync(): SYNC Hero (id 20).
+11:29:23  688 Hero::serialize() 
+11:29:23  688 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  688 Weapon::serialize() 
+11:29:23  688 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  688 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  688 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  688 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  688 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  689 Server::doSync(): SYNC Hero (id 20).
+11:29:23  689 Hero::serialize() 
+11:29:23  689 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  689 Weapon::serialize() 
+11:29:23  689 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  689 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  689 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  689 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  689 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  690 Server::doSync(): SYNC Hero (id 20).
+11:29:23  690 Hero::serialize() 
+11:29:23  690 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  690 Weapon::serialize() 
+11:29:23  690 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  690 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  690 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  690 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  690 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  691 Server::doSync(): SYNC Hero (id 20).
+11:29:23  691 Hero::serialize() 
+11:29:23  691 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  691 Weapon::serialize() 
+11:29:23  691 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  691 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  691 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  691 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  691 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  692 Server::doSync(): SYNC Hero (id 20).
+11:29:23  692 Hero::serialize() 
+11:29:23  692 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  692 Weapon::serialize() 
+11:29:23  692 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  692 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  692 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  692 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  692 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  693 Server::doSync(): SYNC Hero (id 20).
+11:29:23  693 Hero::serialize() 
+11:29:23  693 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  693 Weapon::serialize() 
+11:29:23  693 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  693 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  693 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  693 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  693 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  694 Server::doSync(): SYNC Hero (id 20).
+11:29:23  694 Hero::serialize() 
+11:29:23  694 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  694 Weapon::serialize() 
+11:29:23  694 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  694 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  694 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  694 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  694 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  695 Server::doSync(): SYNC Hero (id 20).
+11:29:23  695 Hero::serialize() 
+11:29:23  695 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  695 Weapon::serialize() 
+11:29:23  695 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  695 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  695 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  695 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  695 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  696 Server::doSync(): SYNC Hero (id 20).
+11:29:23  696 Hero::serialize() 
+11:29:23  696 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  696 Weapon::serialize() 
+11:29:23  696 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  696 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  696 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  696 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  696 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  697 Server::doSync(): SYNC Hero (id 20).
+11:29:23  697 Hero::serialize() 
+11:29:23  697 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  697 Weapon::serialize() 
+11:29:23  697 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  697 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  697 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  697 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  697 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  697 Server::doSync(): SYNC Bullet (id 471).
+11:29:23  698 Server::doSync(): SYNC Hero (id 20).
+11:29:23  698 Hero::serialize() 
+11:29:23  698 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  698 Weapon::serialize() 
+11:29:23  698 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  698 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  698 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  698 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  698 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  698 Server::doSync(): SYNC Bullet (id 471).
+11:29:23  699 Server::doSync(): SYNC Hero (id 20).
+11:29:23  699 Hero::serialize() 
+11:29:23  699 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  699 Weapon::serialize() 
+11:29:23  699 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  699 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  699 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  699 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  699 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  699 Server::doSync(): SYNC Bullet (id 471).
+11:29:23  700 Server::doSync(): SYNC Hero (id 20).
+11:29:23  700 Hero::serialize() 
+11:29:23  700 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  700 Weapon::serialize() 
+11:29:23  700 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  700 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  700 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  700 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  700 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  700 Server::doSync(): SYNC Bullet (id 471).
+11:29:23  701 Server::doSync(): SYNC Hero (id 20).
+11:29:23  701 Hero::serialize() 
+11:29:23  701 Server::doSync(): SYNC Weapon (id 21).
+11:29:23  701 Weapon::serialize() 
+11:29:23  701 Server::doSync(): SYNC Saucer (id 456).
+11:29:23  701 Server::doSync(): SYNC Saucer (id 467).
+11:29:23  701 Server::doSync(): SYNC Saucer (id 468).
+11:29:23  701 Server::doSync(): SYNC Saucer (id 469).
+11:29:23  701 Server::doSync(): SYNC GameOver (id 470).
+11:29:23  701 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  702 Server::doSync(): SYNC Hero (id 20).
+11:29:24  702 Hero::serialize() 
+11:29:24  702 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  702 Weapon::serialize() 
+11:29:24  702 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  702 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  702 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  702 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  702 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  702 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  702 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  703 Server::doSync(): SYNC Hero (id 20).
+11:29:24  703 Hero::serialize() 
+11:29:24  703 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  703 Weapon::serialize() 
+11:29:24  703 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  703 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  703 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  703 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  703 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  703 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  703 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  704 Server::doSync(): SYNC Hero (id 20).
+11:29:24  704 Hero::serialize() 
+11:29:24  704 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  704 Weapon::serialize() 
+11:29:24  704 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  704 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  704 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  704 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  704 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  704 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  704 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  705 Server::doSync(): SYNC Hero (id 20).
+11:29:24  705 Hero::serialize() 
+11:29:24  705 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  705 Weapon::serialize() 
+11:29:24  705 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  705 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  705 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  705 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  705 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  705 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  705 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  706 Server::doSync(): SYNC Hero (id 20).
+11:29:24  706 Hero::serialize() 
+11:29:24  706 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  706 Weapon::serialize() 
+11:29:24  706 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  706 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  706 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  706 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  706 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  706 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  706 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  707 Server::doSync(): SYNC Hero (id 20).
+11:29:24  707 Hero::serialize() 
+11:29:24  707 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  707 Weapon::serialize() 
+11:29:24  707 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  707 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  707 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  707 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  707 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  707 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  707 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  707 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  708 Server::doSync(): SYNC Hero (id 20).
+11:29:24  708 Hero::serialize() 
+11:29:24  708 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  708 Weapon::serialize() 
+11:29:24  708 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  708 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  708 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  708 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  708 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  708 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  708 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  708 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  709 Server::doSync(): SYNC Hero (id 20).
+11:29:24  709 Hero::serialize() 
+11:29:24  709 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  709 Weapon::serialize() 
+11:29:24  709 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  709 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  709 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  709 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  709 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  709 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  709 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  709 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  710 Server::doSync(): SYNC Hero (id 20).
+11:29:24  710 Hero::serialize() 
+11:29:24  710 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  710 Weapon::serialize() 
+11:29:24  710 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  710 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  710 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  710 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  710 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  710 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  710 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  710 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  711 Server::doSync(): SYNC Hero (id 20).
+11:29:24  711 Hero::serialize() 
+11:29:24  711 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  711 Weapon::serialize() 
+11:29:24  711 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  711 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  711 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  711 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  711 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  711 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  711 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  711 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  712 Server::doSync(): SYNC Hero (id 20).
+11:29:24  712 Hero::serialize() 
+11:29:24  712 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  712 Weapon::serialize() 
+11:29:24  712 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  712 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  712 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  712 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  712 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  712 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  712 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  712 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  712 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  713 Server::doSync(): SYNC Hero (id 20).
+11:29:24  713 Hero::serialize() 
+11:29:24  713 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  713 Weapon::serialize() 
+11:29:24  713 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  713 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  713 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  713 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  713 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  713 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  713 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  713 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  713 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  714 Server::doSync(): SYNC Hero (id 20).
+11:29:24  714 Hero::serialize() 
+11:29:24  714 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  714 Weapon::serialize() 
+11:29:24  714 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  714 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  714 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  714 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  714 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  714 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  714 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  714 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  714 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  715 Server::doSync(): SYNC Hero (id 20).
+11:29:24  715 Hero::serialize() 
+11:29:24  715 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  715 Weapon::serialize() 
+11:29:24  715 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  715 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  715 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  715 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  715 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  715 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  715 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  715 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  715 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  716 Server::doSync(): SYNC Hero (id 20).
+11:29:24  716 Hero::serialize() 
+11:29:24  716 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  716 Weapon::serialize() 
+11:29:24  716 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  716 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  716 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  716 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  716 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  716 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  716 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  716 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  716 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  717 Server::doSync(): SYNC Hero (id 20).
+11:29:24  717 Hero::serialize() 
+11:29:24  717 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  717 Weapon::serialize() 
+11:29:24  717 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  717 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  717 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  717 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  717 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  717 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  717 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  717 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  717 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  718 Server::doSync(): SYNC Hero (id 20).
+11:29:24  718 Hero::serialize() 
+11:29:24  718 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  718 Weapon::serialize() 
+11:29:24  718 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  718 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  718 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  718 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  718 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  718 Server::doSync(): SYNC Bullet (id 471).
+11:29:24  718 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  718 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  718 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  718 Hit hero
+11:29:24  718 Hero took damage!! It hurts! Current health is 45
+11:29:24  719 Server::doSync(): SYNC Hero (id 20).
+11:29:24  719 Hero::serialize() 
+11:29:24  719 Hero::serialize(): serializing health 45
+11:29:24  719 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  719 Weapon::serialize() 
+11:29:24  719 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  719 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  719 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  719 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  719 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  719 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  719 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  719 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  720 Server::doSync(): SYNC Hero (id 20).
+11:29:24  720 Hero::serialize() 
+11:29:24  720 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  720 Weapon::serialize() 
+11:29:24  720 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  720 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  720 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  720 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  720 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  720 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  720 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  720 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  721 Server::doSync(): SYNC Hero (id 20).
+11:29:24  721 Hero::serialize() 
+11:29:24  721 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  721 Weapon::serialize() 
+11:29:24  721 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  721 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  721 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  721 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  721 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  721 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  721 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  721 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  722 Server::doSync(): SYNC Hero (id 20).
+11:29:24  722 Hero::serialize() 
+11:29:24  722 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  722 Weapon::serialize() 
+11:29:24  722 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  722 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  722 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  722 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  722 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  722 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  722 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  722 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  723 Server::doSync(): SYNC Hero (id 20).
+11:29:24  723 Hero::serialize() 
+11:29:24  723 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  723 Weapon::serialize() 
+11:29:24  723 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  723 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  723 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  723 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  723 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  723 Server::doSync(): SYNC Bullet (id 472).
+11:29:24  723 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  723 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  723 Hit hero
+11:29:24  723 Hero took damage!! It hurts! Current health is 40
+11:29:24  724 Server::doSync(): SYNC Hero (id 20).
+11:29:24  724 Hero::serialize() 
+11:29:24  724 Hero::serialize(): serializing health 40
+11:29:24  724 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  724 Weapon::serialize() 
+11:29:24  724 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  724 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  724 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  724 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  724 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  724 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  724 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  725 Server::doSync(): SYNC Hero (id 20).
+11:29:24  725 Hero::serialize() 
+11:29:24  725 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  725 Weapon::serialize() 
+11:29:24  725 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  725 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  725 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  725 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  725 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  725 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  725 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  726 Server::doSync(): SYNC Hero (id 20).
+11:29:24  726 Hero::serialize() 
+11:29:24  726 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  726 Weapon::serialize() 
+11:29:24  726 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  726 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  726 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  726 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  726 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  726 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  726 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  727 Server::doSync(): SYNC Hero (id 20).
+11:29:24  727 Hero::serialize() 
+11:29:24  727 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  727 Weapon::serialize() 
+11:29:24  727 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  727 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  727 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  727 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  727 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  727 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  727 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  728 Server::doSync(): SYNC Hero (id 20).
+11:29:24  728 Hero::serialize() 
+11:29:24  728 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  728 Weapon::serialize() 
+11:29:24  728 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  728 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  728 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  728 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  728 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  728 Server::doSync(): SYNC Bullet (id 473).
+11:29:24  728 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  728 Hit hero
+11:29:24  728 Hero took damage!! It hurts! Current health is 35
+11:29:24  729 Server::doSync(): SYNC Hero (id 20).
+11:29:24  729 Hero::serialize() 
+11:29:24  729 Hero::serialize(): serializing health 35
+11:29:24  729 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  729 Weapon::serialize() 
+11:29:24  729 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  729 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  729 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  729 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  729 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  729 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  730 Server::doSync(): SYNC Hero (id 20).
+11:29:24  730 Hero::serialize() 
+11:29:24  730 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  730 Weapon::serialize() 
+11:29:24  730 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  730 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  730 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  730 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  730 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  730 Server::doSync(): SYNC Bullet (id 474).
+11:29:24  731 Server::doSync(): SYNC Hero (id 20).
+11:29:24  731 Hero::serialize() 
+11:29:24  731 Server::doSync(): SYNC Weapon (id 21).
+11:29:24  731 Weapon::serialize() 
+11:29:24  731 Server::doSync(): SYNC Saucer (id 456).
+11:29:24  731 Server::doSync(): SYNC Saucer (id 467).
+11:29:24  731 Server::doSync(): SYNC Saucer (id 468).
+11:29:24  731 Server::doSync(): SYNC Saucer (id 469).
+11:29:24  731 Server::doSync(): SYNC GameOver (id 470).
+11:29:24  731 Server::doSync(): SYNC Bullet (id 474).
+11:29:25  732 Server::doSync(): SYNC Hero (id 20).
+11:29:25  732 Hero::serialize() 
+11:29:25  732 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  732 Weapon::serialize() 
+11:29:25  732 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  732 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  732 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  732 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  732 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  732 Server::doSync(): SYNC Bullet (id 474).
+11:29:25  733 Server::doSync(): SYNC Hero (id 20).
+11:29:25  733 Hero::serialize() 
+11:29:25  733 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  733 Weapon::serialize() 
+11:29:25  733 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  733 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  733 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  733 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  733 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  733 Server::doSync(): SYNC Bullet (id 474).
+11:29:25  733 Hit hero
+11:29:25  733 Hero took damage!! It hurts! Current health is 30
+11:29:25  734 Server::doSync(): SYNC Hero (id 20).
+11:29:25  734 Hero::serialize() 
+11:29:25  734 Hero::serialize(): serializing health 30
+11:29:25  734 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  734 Weapon::serialize() 
+11:29:25  734 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  734 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  734 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  734 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  734 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  735 Server::doSync(): SYNC Hero (id 20).
+11:29:25  735 Hero::serialize() 
+11:29:25  735 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  735 Weapon::serialize() 
+11:29:25  735 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  735 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  735 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  735 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  735 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  736 Server::doSync(): SYNC Hero (id 20).
+11:29:25  736 Hero::serialize() 
+11:29:25  736 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  736 Weapon::serialize() 
+11:29:25  736 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  736 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  736 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  736 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  736 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  737 Server::doSync(): SYNC Hero (id 20).
+11:29:25  737 Hero::serialize() 
+11:29:25  737 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  737 Weapon::serialize() 
+11:29:25  737 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  737 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  737 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  737 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  737 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  738 Server::doSync(): SYNC Hero (id 20).
+11:29:25  738 Hero::serialize() 
+11:29:25  738 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  738 Weapon::serialize() 
+11:29:25  738 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  738 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  738 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  738 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  738 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  739 Server::doSync(): SYNC Hero (id 20).
+11:29:25  739 Hero::serialize() 
+11:29:25  739 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  739 Weapon::serialize() 
+11:29:25  739 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  739 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  739 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  739 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  739 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  740 Server::doSync(): SYNC Hero (id 20).
+11:29:25  740 Hero::serialize() 
+11:29:25  740 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  740 Weapon::serialize() 
+11:29:25  740 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  740 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  740 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  740 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  740 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  741 Server::doSync(): SYNC Hero (id 20).
+11:29:25  741 Hero::serialize() 
+11:29:25  741 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  741 Weapon::serialize() 
+11:29:25  741 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  741 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  741 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  741 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  741 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  742 Server::doSync(): SYNC Hero (id 20).
+11:29:25  742 Hero::serialize() 
+11:29:25  742 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  742 Weapon::serialize() 
+11:29:25  742 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  742 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  742 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  742 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  742 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  743 Server::doSync(): SYNC Hero (id 20).
+11:29:25  743 Hero::serialize() 
+11:29:25  743 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  743 Weapon::serialize() 
+11:29:25  743 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  743 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  743 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  743 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  743 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  744 Server::doSync(): SYNC Hero (id 20).
+11:29:25  744 Hero::serialize() 
+11:29:25  744 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  744 Weapon::serialize() 
+11:29:25  744 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  744 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  744 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  744 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  744 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  745 Server::doSync(): SYNC Hero (id 20).
+11:29:25  745 Hero::serialize() 
+11:29:25  745 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  745 Weapon::serialize() 
+11:29:25  745 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  745 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  745 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  745 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  745 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  746 Server::doSync(): SYNC Hero (id 20).
+11:29:25  746 Hero::serialize() 
+11:29:25  746 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  746 Weapon::serialize() 
+11:29:25  746 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  746 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  746 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  746 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  746 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  747 Server::doSync(): SYNC Hero (id 20).
+11:29:25  747 Hero::serialize() 
+11:29:25  747 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  747 Weapon::serialize() 
+11:29:25  747 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  747 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  747 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  747 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  747 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  748 Server::doSync(): SYNC Hero (id 20).
+11:29:25  748 Hero::serialize() 
+11:29:25  748 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  748 Weapon::serialize() 
+11:29:25  748 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  748 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  748 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  748 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  748 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  749 Server::doSync(): SYNC Hero (id 20).
+11:29:25  749 Hero::serialize() 
+11:29:25  749 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  749 Weapon::serialize() 
+11:29:25  749 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  749 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  749 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  749 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  749 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  750 Server::doSync(): SYNC Hero (id 20).
+11:29:25  750 Hero::serialize() 
+11:29:25  750 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  750 Weapon::serialize() 
+11:29:25  750 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  750 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  750 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  750 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  750 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  751 Server::doSync(): SYNC Hero (id 20).
+11:29:25  751 Hero::serialize() 
+11:29:25  751 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  751 Weapon::serialize() 
+11:29:25  751 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  751 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  751 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  751 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  751 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  752 Server::doSync(): SYNC Hero (id 20).
+11:29:25  752 Hero::serialize() 
+11:29:25  752 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  752 Weapon::serialize() 
+11:29:25  752 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  752 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  752 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  752 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  752 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  753 Server::doSync(): SYNC Hero (id 20).
+11:29:25  753 Hero::serialize() 
+11:29:25  753 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  753 Weapon::serialize() 
+11:29:25  753 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  753 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  753 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  753 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  753 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  754 Server::doSync(): SYNC Hero (id 20).
+11:29:25  754 Hero::serialize() 
+11:29:25  754 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  754 Weapon::serialize() 
+11:29:25  754 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  754 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  754 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  754 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  754 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  755 Server::doSync(): SYNC Hero (id 20).
+11:29:25  755 Hero::serialize() 
+11:29:25  755 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  755 Weapon::serialize() 
+11:29:25  755 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  755 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  755 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  755 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  755 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  756 Server::doSync(): SYNC Hero (id 20).
+11:29:25  756 Hero::serialize() 
+11:29:25  756 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  756 Weapon::serialize() 
+11:29:25  756 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  756 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  756 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  756 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  756 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  757 Server::doSync(): SYNC Hero (id 20).
+11:29:25  757 Hero::serialize() 
+11:29:25  757 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  757 Weapon::serialize() 
+11:29:25  757 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  757 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  757 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  757 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  757 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  758 Server::doSync(): SYNC Hero (id 20).
+11:29:25  758 Hero::serialize() 
+11:29:25  758 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  758 Weapon::serialize() 
+11:29:25  758 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  758 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  758 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  758 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  758 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  759 Server::doSync(): SYNC Hero (id 20).
+11:29:25  759 Hero::serialize() 
+11:29:25  759 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  759 Weapon::serialize() 
+11:29:25  759 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  759 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  759 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  759 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  759 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  760 Server::doSync(): SYNC Hero (id 20).
+11:29:25  760 Hero::serialize() 
+11:29:25  760 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  760 Weapon::serialize() 
+11:29:25  760 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  760 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  760 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  760 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  760 Server::doSync(): SYNC GameOver (id 470).
+11:29:25  761 Server::doSync(): SYNC Hero (id 20).
+11:29:25  761 Hero::serialize() 
+11:29:25  761 Server::doSync(): SYNC Weapon (id 21).
+11:29:25  761 Weapon::serialize() 
+11:29:25  761 Server::doSync(): SYNC Saucer (id 456).
+11:29:25  761 Server::doSync(): SYNC Saucer (id 467).
+11:29:25  761 Server::doSync(): SYNC Saucer (id 468).
+11:29:25  761 Server::doSync(): SYNC Saucer (id 469).
+11:29:25  761 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  762 Server::doSync(): SYNC Hero (id 20).
+11:29:26  762 Hero::serialize() 
+11:29:26  762 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  762 Weapon::serialize() 
+11:29:26  762 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  762 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  762 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  762 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  762 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  763 Server::doSync(): SYNC Hero (id 20).
+11:29:26  763 Hero::serialize() 
+11:29:26  763 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  763 Weapon::serialize() 
+11:29:26  763 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  763 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  763 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  763 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  763 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  764 Server::doSync(): SYNC Hero (id 20).
+11:29:26  764 Hero::serialize() 
+11:29:26  764 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  764 Weapon::serialize() 
+11:29:26  764 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  764 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  764 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  764 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  764 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  765 Server::doSync(): SYNC Hero (id 20).
+11:29:26  765 Hero::serialize() 
+11:29:26  765 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  765 Weapon::serialize() 
+11:29:26  765 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  765 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  765 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  765 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  765 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  766 Server::doSync(): SYNC Hero (id 20).
+11:29:26  766 Hero::serialize() 
+11:29:26  766 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  766 Weapon::serialize() 
+11:29:26  766 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  766 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  766 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  766 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  766 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  767 Server::doSync(): SYNC Hero (id 20).
+11:29:26  767 Hero::serialize() 
+11:29:26  767 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  767 Weapon::serialize() 
+11:29:26  767 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  767 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  767 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  767 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  767 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  768 Server::doSync(): SYNC Hero (id 20).
+11:29:26  768 Hero::serialize() 
+11:29:26  768 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  768 Weapon::serialize() 
+11:29:26  768 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  768 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  768 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  768 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  768 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  769 Server::doSync(): SYNC Hero (id 20).
+11:29:26  769 Hero::serialize() 
+11:29:26  769 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  769 Weapon::serialize() 
+11:29:26  769 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  769 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  769 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  769 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  769 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  770 Server::doSync(): SYNC Hero (id 20).
+11:29:26  770 Hero::serialize() 
+11:29:26  770 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  770 Weapon::serialize() 
+11:29:26  770 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  770 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  770 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  770 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  770 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  771 Server::doSync(): SYNC Hero (id 20).
+11:29:26  771 Hero::serialize() 
+11:29:26  771 Server::doSync(): SYNC Weapon (id 21).
+11:29:26  771 Weapon::serialize() 
+11:29:26  771 Server::doSync(): SYNC Saucer (id 456).
+11:29:26  771 Server::doSync(): SYNC Saucer (id 467).
+11:29:26  771 Server::doSync(): SYNC Saucer (id 468).
+11:29:26  771 Server::doSync(): SYNC Saucer (id 469).
+11:29:26  771 Server::doSync(): SYNC GameOver (id 470).
+11:29:26  771 Hero::serialize() ALL
+11:29:26  771 Hero::serialize(): serializing health 30
+11:29:32  959 GameManager::run(): end of game loop
+11:29:32  959 PathManager::shutDown(): successfully stopped.
+11:29:32  959 Path manager stopped

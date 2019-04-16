@@ -1,0 +1,1909 @@
+04:10:58    0 ****************************************************
+04:10:58    0 ** Dragonfly version 4.12 **
+04:10:59    0 Hello, Network! (v1.2)
+04:10:59    0 0410_server_p.log
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+04:10:59    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+04:10:59    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+04:10:59    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+04:10:59    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+04:11:00    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+04:11:01    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+04:11:01    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+04:11:01    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+04:11:01    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+04:11:01    0 GameManager::run(): starting game loop
+04:11:04   52 GameManager::run(): end of game loop
+04:11:04   52 NetworkManager::setServer(): Ready for connections on port 9876.
+04:11:04   52 Server::Server(): Setup for 3 connections.
+04:11:04   52 Server::Server(): Server started
+04:11:04   52 GameManager::run(): starting game loop
+04:11:08  112 NetworkManager::accept(): New connection.
+04:11:08  112 Server::handleAccept(): server now connected socket: 0
+04:11:08  112 Server::eventHandler(): sending hero id message: '20'
+04:11:08  113 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  113 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  114 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  114 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  115 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  115 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  116 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  116 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  117 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  117 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  118 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  118 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  119 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  119 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  120 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  120 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  121 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  121 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  122 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  122 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  123 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  123 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  124 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  124 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  125 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  125 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  126 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  126 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  127 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  127 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  128 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  128 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  129 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  129 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  130 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  130 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:08  131 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:08  131 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  132 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  132 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  133 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  133 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  134 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  134 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  135 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  135 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  136 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  136 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  137 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  137 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  138 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  138 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  139 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  139 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  140 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  140 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  141 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  141 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  142 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  142 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  143 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  143 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  144 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  144 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  145 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  145 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  146 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  146 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  147 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  147 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  148 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  148 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  149 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  149 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  150 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  150 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  151 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  151 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  152 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  152 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  153 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  153 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  154 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  154 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  155 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  155 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  156 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  156 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  157 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  157 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  158 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  158 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  159 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  159 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  160 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  160 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:09  161 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:09  161 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  162 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  162 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  163 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  163 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  164 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  164 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  165 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  165 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  166 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  166 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  167 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  167 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  168 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  168 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  169 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  169 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  170 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  170 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  171 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  171 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  172 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  172 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  173 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  173 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  174 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  174 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  175 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  175 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  176 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  176 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  177 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  177 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  178 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  178 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  179 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  179 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  180 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  180 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  181 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  181 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  182 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  182 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  183 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  183 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  184 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  184 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  185 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  185 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  186 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  186 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  187 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  187 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  188 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  188 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  189 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  189 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  190 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  190 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:10  191 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:10  191 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  192 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  192 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  193 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  193 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  194 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  194 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  195 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  195 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  196 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  196 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  197 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  197 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  198 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  198 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  199 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  199 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  200 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  200 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  201 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  201 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  202 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  202 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  203 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  203 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  204 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  204 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  205 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  205 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  206 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  206 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  207 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  207 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  208 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  208 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  209 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  209 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  210 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  210 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  211 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  211 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  212 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  212 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  213 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  213 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  214 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  214 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  215 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  215 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  216 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  216 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  217 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  217 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  218 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  218 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  219 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  219 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  220 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  220 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:11  221 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:11  221 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  222 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  222 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  223 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  223 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  224 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  224 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  225 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  225 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  226 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  226 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  227 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  227 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  228 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  228 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  229 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  229 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  230 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  230 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  231 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  231 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  232 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  232 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  233 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  233 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  234 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  234 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  235 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  235 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  236 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  236 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  237 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  237 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  238 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  238 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  239 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  239 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  240 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  240 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  241 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  241 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  242 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  242 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  243 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  243 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  244 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  244 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  245 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  245 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  246 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  246 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  247 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  247 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  248 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  248 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  249 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  249 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  250 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  250 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  251 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  251 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:12  252 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:12  252 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  253 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  253 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  254 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  254 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  255 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  255 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  256 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  256 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  257 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  257 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  258 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  258 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  259 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  259 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  260 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  260 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  261 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  261 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  262 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  262 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  263 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  263 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  264 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  264 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  265 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  265 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  266 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  266 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  267 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  267 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  268 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  268 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  269 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  269 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  270 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  270 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  271 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  271 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  272 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  272 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  273 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  273 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  274 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  274 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  275 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  275 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  276 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  276 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  277 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  277 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  278 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  278 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  279 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  279 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  280 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  280 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  281 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  281 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:13  282 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:13  282 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  283 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  283 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  284 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  284 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  285 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  285 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  286 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  286 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  287 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  287 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  288 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  288 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  289 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  289 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  290 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  290 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  291 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  291 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  292 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  292 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  293 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  293 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  294 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  294 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  295 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  295 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  296 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  296 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  297 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  297 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  298 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  298 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  299 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  299 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  300 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  300 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  301 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  301 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  302 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  302 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  303 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  303 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  304 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  304 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  305 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  305 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  306 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  306 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  307 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  307 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  308 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  308 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  309 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  309 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  310 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  310 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  311 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  311 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:14  312 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:14  312 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  313 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  313 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  314 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  314 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  315 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  315 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  316 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  316 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  317 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  317 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  318 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  318 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  319 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  319 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  320 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  320 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  321 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  321 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  322 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  322 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  323 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  323 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  324 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  324 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  325 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  325 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  326 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  326 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  327 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  327 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  328 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  328 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  329 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  329 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  330 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  330 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  331 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  331 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  332 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  332 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  333 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  333 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  334 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  334 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  335 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  335 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  336 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  336 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  337 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  337 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  338 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  338 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  339 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  339 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  340 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  340 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  341 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  341 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  342 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  342 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:15  343 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:15  343 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  344 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  344 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  345 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  345 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  346 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  346 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  347 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  347 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  348 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  348 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  349 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  349 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  350 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  350 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  351 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  351 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  352 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  352 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  353 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  353 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  354 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  354 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  355 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  355 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  356 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  356 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  357 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  357 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  358 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  358 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  359 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  359 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  360 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  360 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  361 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  361 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  362 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  362 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  363 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  363 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  364 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  364 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  365 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  365 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  366 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  366 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  367 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  367 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  368 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  368 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  369 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  369 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  370 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  370 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  371 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  371 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  372 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  372 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:16  373 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:16  373 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  374 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  374 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  375 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  375 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  376 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  376 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  376 NetworkManager::send(): Error! send() returned:
+04:11:17  376 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  376 NetworkNode::sendMessage(): Error sending!
+04:11:17  376 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  376 NetworkManager::send(): Error! send() returned:
+04:11:17  376 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  376 NetworkNode::sendMessage(): Error sending!
+04:11:17  377 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  377 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  377 NetworkManager::send(): Error! send() returned:
+04:11:17  377 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  377 NetworkNode::sendMessage(): Error sending!
+04:11:17  377 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  377 NetworkManager::send(): Error! send() returned:
+04:11:17  377 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  377 NetworkNode::sendMessage(): Error sending!
+04:11:17  378 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  378 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  378 NetworkManager::send(): Error! send() returned:
+04:11:17  378 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  378 NetworkNode::sendMessage(): Error sending!
+04:11:17  378 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  378 NetworkManager::send(): Error! send() returned:
+04:11:17  378 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  378 NetworkNode::sendMessage(): Error sending!
+04:11:17  379 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  379 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  379 NetworkManager::send(): Error! send() returned:
+04:11:17  379 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  379 NetworkNode::sendMessage(): Error sending!
+04:11:17  379 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  379 NetworkManager::send(): Error! send() returned:
+04:11:17  379 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  379 NetworkNode::sendMessage(): Error sending!
+04:11:17  380 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  380 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  380 NetworkManager::send(): Error! send() returned:
+04:11:17  380 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  380 NetworkNode::sendMessage(): Error sending!
+04:11:17  380 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  380 NetworkManager::send(): Error! send() returned:
+04:11:17  380 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  380 NetworkNode::sendMessage(): Error sending!
+04:11:17  381 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  381 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  381 NetworkManager::send(): Error! send() returned:
+04:11:17  381 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  381 NetworkNode::sendMessage(): Error sending!
+04:11:17  381 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  381 NetworkManager::send(): Error! send() returned:
+04:11:17  381 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  381 NetworkNode::sendMessage(): Error sending!
+04:11:17  382 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  382 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  382 NetworkManager::send(): Error! send() returned:
+04:11:17  382 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  382 NetworkNode::sendMessage(): Error sending!
+04:11:17  382 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  382 NetworkManager::send(): Error! send() returned:
+04:11:17  382 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  382 NetworkNode::sendMessage(): Error sending!
+04:11:17  383 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  383 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  383 NetworkManager::send(): Error! send() returned:
+04:11:17  383 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  383 NetworkNode::sendMessage(): Error sending!
+04:11:17  383 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  383 NetworkManager::send(): Error! send() returned:
+04:11:17  383 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  383 NetworkNode::sendMessage(): Error sending!
+04:11:17  384 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  384 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  384 NetworkManager::send(): Error! send() returned:
+04:11:17  384 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  384 NetworkNode::sendMessage(): Error sending!
+04:11:17  384 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  384 NetworkManager::send(): Error! send() returned:
+04:11:17  384 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  384 NetworkNode::sendMessage(): Error sending!
+04:11:17  385 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  385 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  385 NetworkManager::send(): Error! send() returned:
+04:11:17  385 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  385 NetworkNode::sendMessage(): Error sending!
+04:11:17  385 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  385 NetworkManager::send(): Error! send() returned:
+04:11:17  385 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  385 NetworkNode::sendMessage(): Error sending!
+04:11:17  386 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  386 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  386 NetworkManager::send(): Error! send() returned:
+04:11:17  386 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  386 NetworkNode::sendMessage(): Error sending!
+04:11:17  386 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  386 NetworkManager::send(): Error! send() returned:
+04:11:17  386 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  386 NetworkNode::sendMessage(): Error sending!
+04:11:17  387 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  387 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  387 NetworkManager::send(): Error! send() returned:
+04:11:17  387 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  387 NetworkNode::sendMessage(): Error sending!
+04:11:17  387 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  387 NetworkManager::send(): Error! send() returned:
+04:11:17  387 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  387 NetworkNode::sendMessage(): Error sending!
+04:11:17  388 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  388 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  388 NetworkManager::send(): Error! send() returned:
+04:11:17  388 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  388 NetworkNode::sendMessage(): Error sending!
+04:11:17  388 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  388 NetworkManager::send(): Error! send() returned:
+04:11:17  388 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  388 NetworkNode::sendMessage(): Error sending!
+04:11:17  389 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  389 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  389 NetworkManager::send(): Error! send() returned:
+04:11:17  389 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  389 NetworkNode::sendMessage(): Error sending!
+04:11:17  389 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  389 NetworkManager::send(): Error! send() returned:
+04:11:17  389 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  389 NetworkNode::sendMessage(): Error sending!
+04:11:17  390 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  390 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  390 NetworkManager::send(): Error! send() returned:
+04:11:17  390 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  390 NetworkNode::sendMessage(): Error sending!
+04:11:17  390 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  390 NetworkManager::send(): Error! send() returned:
+04:11:17  390 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  390 NetworkNode::sendMessage(): Error sending!
+04:11:17  391 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  391 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  391 NetworkManager::send(): Error! send() returned:
+04:11:17  391 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  391 NetworkNode::sendMessage(): Error sending!
+04:11:17  391 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  391 NetworkManager::send(): Error! send() returned:
+04:11:17  391 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  391 NetworkNode::sendMessage(): Error sending!
+04:11:17  392 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  392 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  392 NetworkManager::send(): Error! send() returned:
+04:11:17  392 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  392 NetworkNode::sendMessage(): Error sending!
+04:11:17  392 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  392 NetworkManager::send(): Error! send() returned:
+04:11:17  392 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  392 NetworkNode::sendMessage(): Error sending!
+04:11:17  393 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  393 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  393 NetworkManager::send(): Error! send() returned:
+04:11:17  393 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  393 NetworkNode::sendMessage(): Error sending!
+04:11:17  393 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  393 NetworkManager::send(): Error! send() returned:
+04:11:17  393 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  393 NetworkNode::sendMessage(): Error sending!
+04:11:17  394 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  394 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  394 NetworkManager::send(): Error! send() returned:
+04:11:17  394 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  394 NetworkNode::sendMessage(): Error sending!
+04:11:17  394 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  394 NetworkManager::send(): Error! send() returned:
+04:11:17  394 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  394 NetworkNode::sendMessage(): Error sending!
+04:11:17  395 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  395 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  395 NetworkManager::send(): Error! send() returned:
+04:11:17  395 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  395 NetworkNode::sendMessage(): Error sending!
+04:11:17  395 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  395 NetworkManager::send(): Error! send() returned:
+04:11:17  395 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  395 NetworkNode::sendMessage(): Error sending!
+04:11:17  396 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  396 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  396 NetworkManager::send(): Error! send() returned:
+04:11:17  396 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  396 NetworkNode::sendMessage(): Error sending!
+04:11:17  396 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  396 NetworkManager::send(): Error! send() returned:
+04:11:17  396 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  396 NetworkNode::sendMessage(): Error sending!
+04:11:17  397 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  397 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  397 NetworkManager::send(): Error! send() returned:
+04:11:17  397 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  397 NetworkNode::sendMessage(): Error sending!
+04:11:17  397 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  397 NetworkManager::send(): Error! send() returned:
+04:11:17  397 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  397 NetworkNode::sendMessage(): Error sending!
+04:11:17  398 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  398 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  398 NetworkManager::send(): Error! send() returned:
+04:11:17  398 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  398 NetworkNode::sendMessage(): Error sending!
+04:11:17  398 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  398 NetworkManager::send(): Error! send() returned:
+04:11:17  398 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  398 NetworkNode::sendMessage(): Error sending!
+04:11:17  399 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  399 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  399 NetworkManager::send(): Error! send() returned:
+04:11:17  399 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  399 NetworkNode::sendMessage(): Error sending!
+04:11:17  399 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  399 NetworkManager::send(): Error! send() returned:
+04:11:17  399 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  399 NetworkNode::sendMessage(): Error sending!
+04:11:17  400 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  400 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  400 NetworkManager::send(): Error! send() returned:
+04:11:17  400 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  400 NetworkNode::sendMessage(): Error sending!
+04:11:17  400 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  400 NetworkManager::send(): Error! send() returned:
+04:11:17  400 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  400 NetworkNode::sendMessage(): Error sending!
+04:11:17  401 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  401 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  401 NetworkManager::send(): Error! send() returned:
+04:11:17  401 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  401 NetworkNode::sendMessage(): Error sending!
+04:11:17  401 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  401 NetworkManager::send(): Error! send() returned:
+04:11:17  401 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  401 NetworkNode::sendMessage(): Error sending!
+04:11:17  402 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  402 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  402 NetworkManager::send(): Error! send() returned:
+04:11:17  402 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  402 NetworkNode::sendMessage(): Error sending!
+04:11:17  402 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  402 NetworkManager::send(): Error! send() returned:
+04:11:17  402 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  402 NetworkNode::sendMessage(): Error sending!
+04:11:17  403 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:17  403 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:17  403 NetworkManager::send(): Error! send() returned:
+04:11:17  403 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  403 NetworkNode::sendMessage(): Error sending!
+04:11:17  403 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:17  403 NetworkManager::send(): Error! send() returned:
+04:11:17  403 	10053 - An established connection was aborted by the software in your host machine.
+04:11:17  403 NetworkNode::sendMessage(): Error sending!
+04:11:18  404 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  404 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  404 NetworkManager::send(): Error! send() returned:
+04:11:18  404 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  404 NetworkNode::sendMessage(): Error sending!
+04:11:18  404 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  404 NetworkManager::send(): Error! send() returned:
+04:11:18  404 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  404 NetworkNode::sendMessage(): Error sending!
+04:11:18  405 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  405 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  405 NetworkManager::send(): Error! send() returned:
+04:11:18  405 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  405 NetworkNode::sendMessage(): Error sending!
+04:11:18  405 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  405 NetworkManager::send(): Error! send() returned:
+04:11:18  405 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  405 NetworkNode::sendMessage(): Error sending!
+04:11:18  406 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  406 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  406 NetworkManager::send(): Error! send() returned:
+04:11:18  406 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  406 NetworkNode::sendMessage(): Error sending!
+04:11:18  406 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  406 NetworkManager::send(): Error! send() returned:
+04:11:18  406 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  406 NetworkNode::sendMessage(): Error sending!
+04:11:18  407 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  407 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  407 NetworkManager::send(): Error! send() returned:
+04:11:18  407 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  407 NetworkNode::sendMessage(): Error sending!
+04:11:18  407 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  407 NetworkManager::send(): Error! send() returned:
+04:11:18  407 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  407 NetworkNode::sendMessage(): Error sending!
+04:11:18  408 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  408 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  408 NetworkManager::send(): Error! send() returned:
+04:11:18  408 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  408 NetworkNode::sendMessage(): Error sending!
+04:11:18  408 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  408 NetworkManager::send(): Error! send() returned:
+04:11:18  408 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  408 NetworkNode::sendMessage(): Error sending!
+04:11:18  409 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  409 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  409 NetworkManager::send(): Error! send() returned:
+04:11:18  409 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  409 NetworkNode::sendMessage(): Error sending!
+04:11:18  409 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  409 NetworkManager::send(): Error! send() returned:
+04:11:18  409 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  409 NetworkNode::sendMessage(): Error sending!
+04:11:18  410 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  410 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  410 NetworkManager::send(): Error! send() returned:
+04:11:18  410 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  410 NetworkNode::sendMessage(): Error sending!
+04:11:18  410 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  410 NetworkManager::send(): Error! send() returned:
+04:11:18  410 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  410 NetworkNode::sendMessage(): Error sending!
+04:11:18  411 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  411 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  411 NetworkManager::send(): Error! send() returned:
+04:11:18  411 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  411 NetworkNode::sendMessage(): Error sending!
+04:11:18  411 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  411 NetworkManager::send(): Error! send() returned:
+04:11:18  411 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  411 NetworkNode::sendMessage(): Error sending!
+04:11:18  412 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  412 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  412 NetworkManager::send(): Error! send() returned:
+04:11:18  412 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  412 NetworkNode::sendMessage(): Error sending!
+04:11:18  412 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  412 NetworkManager::send(): Error! send() returned:
+04:11:18  412 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  412 NetworkNode::sendMessage(): Error sending!
+04:11:18  413 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  413 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  413 NetworkManager::send(): Error! send() returned:
+04:11:18  413 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  413 NetworkNode::sendMessage(): Error sending!
+04:11:18  413 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  413 NetworkManager::send(): Error! send() returned:
+04:11:18  413 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  413 NetworkNode::sendMessage(): Error sending!
+04:11:18  414 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  414 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  414 NetworkManager::send(): Error! send() returned:
+04:11:18  414 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  414 NetworkNode::sendMessage(): Error sending!
+04:11:18  414 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  414 NetworkManager::send(): Error! send() returned:
+04:11:18  414 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  414 NetworkNode::sendMessage(): Error sending!
+04:11:18  415 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  415 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  415 NetworkManager::send(): Error! send() returned:
+04:11:18  415 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  415 NetworkNode::sendMessage(): Error sending!
+04:11:18  415 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  415 NetworkManager::send(): Error! send() returned:
+04:11:18  415 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  415 NetworkNode::sendMessage(): Error sending!
+04:11:18  416 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  416 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  416 NetworkManager::send(): Error! send() returned:
+04:11:18  416 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  416 NetworkNode::sendMessage(): Error sending!
+04:11:18  416 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  416 NetworkManager::send(): Error! send() returned:
+04:11:18  416 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  416 NetworkNode::sendMessage(): Error sending!
+04:11:18  417 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  417 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  417 NetworkManager::send(): Error! send() returned:
+04:11:18  417 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  417 NetworkNode::sendMessage(): Error sending!
+04:11:18  417 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  417 NetworkManager::send(): Error! send() returned:
+04:11:18  417 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  417 NetworkNode::sendMessage(): Error sending!
+04:11:18  418 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  418 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  418 NetworkManager::send(): Error! send() returned:
+04:11:18  418 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  418 NetworkNode::sendMessage(): Error sending!
+04:11:18  418 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  418 NetworkManager::send(): Error! send() returned:
+04:11:18  418 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  418 NetworkNode::sendMessage(): Error sending!
+04:11:18  419 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  419 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  419 NetworkManager::send(): Error! send() returned:
+04:11:18  419 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  419 NetworkNode::sendMessage(): Error sending!
+04:11:18  419 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  419 NetworkManager::send(): Error! send() returned:
+04:11:18  419 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  419 NetworkNode::sendMessage(): Error sending!
+04:11:18  420 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  420 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  420 NetworkManager::send(): Error! send() returned:
+04:11:18  420 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  420 NetworkNode::sendMessage(): Error sending!
+04:11:18  420 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  420 NetworkManager::send(): Error! send() returned:
+04:11:18  420 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  420 NetworkNode::sendMessage(): Error sending!
+04:11:18  421 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  421 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  421 NetworkManager::send(): Error! send() returned:
+04:11:18  421 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  421 NetworkNode::sendMessage(): Error sending!
+04:11:18  421 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  421 NetworkManager::send(): Error! send() returned:
+04:11:18  421 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  421 NetworkNode::sendMessage(): Error sending!
+04:11:18  422 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  422 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  422 NetworkManager::send(): Error! send() returned:
+04:11:18  422 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  422 NetworkNode::sendMessage(): Error sending!
+04:11:18  422 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  422 NetworkManager::send(): Error! send() returned:
+04:11:18  422 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  422 NetworkNode::sendMessage(): Error sending!
+04:11:18  423 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  423 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  423 NetworkManager::send(): Error! send() returned:
+04:11:18  423 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  423 NetworkNode::sendMessage(): Error sending!
+04:11:18  423 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  423 NetworkManager::send(): Error! send() returned:
+04:11:18  423 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  423 NetworkNode::sendMessage(): Error sending!
+04:11:18  424 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  424 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  424 NetworkManager::send(): Error! send() returned:
+04:11:18  424 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  424 NetworkNode::sendMessage(): Error sending!
+04:11:18  424 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  424 NetworkManager::send(): Error! send() returned:
+04:11:18  424 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  424 NetworkNode::sendMessage(): Error sending!
+04:11:18  425 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  425 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  425 NetworkManager::send(): Error! send() returned:
+04:11:18  425 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  425 NetworkNode::sendMessage(): Error sending!
+04:11:18  425 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  425 NetworkManager::send(): Error! send() returned:
+04:11:18  425 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  425 NetworkNode::sendMessage(): Error sending!
+04:11:18  426 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  426 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  426 NetworkManager::send(): Error! send() returned:
+04:11:18  426 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  426 NetworkNode::sendMessage(): Error sending!
+04:11:18  426 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  426 NetworkManager::send(): Error! send() returned:
+04:11:18  426 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  426 NetworkNode::sendMessage(): Error sending!
+04:11:18  427 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  427 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  427 NetworkManager::send(): Error! send() returned:
+04:11:18  427 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  427 NetworkNode::sendMessage(): Error sending!
+04:11:18  427 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  427 NetworkManager::send(): Error! send() returned:
+04:11:18  427 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  427 NetworkNode::sendMessage(): Error sending!
+04:11:18  428 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  428 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  428 NetworkManager::send(): Error! send() returned:
+04:11:18  428 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  428 NetworkNode::sendMessage(): Error sending!
+04:11:18  428 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  428 NetworkManager::send(): Error! send() returned:
+04:11:18  428 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  428 NetworkNode::sendMessage(): Error sending!
+04:11:18  429 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  429 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  429 NetworkManager::send(): Error! send() returned:
+04:11:18  429 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  429 NetworkNode::sendMessage(): Error sending!
+04:11:18  429 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  429 NetworkManager::send(): Error! send() returned:
+04:11:18  429 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  429 NetworkNode::sendMessage(): Error sending!
+04:11:18  430 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  430 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  430 NetworkManager::send(): Error! send() returned:
+04:11:18  430 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  430 NetworkNode::sendMessage(): Error sending!
+04:11:18  430 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  430 NetworkManager::send(): Error! send() returned:
+04:11:18  430 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  430 NetworkNode::sendMessage(): Error sending!
+04:11:18  431 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  431 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  431 NetworkManager::send(): Error! send() returned:
+04:11:18  431 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  431 NetworkNode::sendMessage(): Error sending!
+04:11:18  431 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  431 NetworkManager::send(): Error! send() returned:
+04:11:18  431 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  431 NetworkNode::sendMessage(): Error sending!
+04:11:18  432 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  432 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  432 NetworkManager::send(): Error! send() returned:
+04:11:18  432 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  432 NetworkNode::sendMessage(): Error sending!
+04:11:18  432 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  432 NetworkManager::send(): Error! send() returned:
+04:11:18  432 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  432 NetworkNode::sendMessage(): Error sending!
+04:11:18  433 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  433 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  433 NetworkManager::send(): Error! send() returned:
+04:11:18  433 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  433 NetworkNode::sendMessage(): Error sending!
+04:11:18  433 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  433 NetworkManager::send(): Error! send() returned:
+04:11:18  433 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  433 NetworkNode::sendMessage(): Error sending!
+04:11:18  434 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:18  434 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:18  434 NetworkManager::send(): Error! send() returned:
+04:11:18  434 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  434 NetworkNode::sendMessage(): Error sending!
+04:11:18  434 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:18  434 NetworkManager::send(): Error! send() returned:
+04:11:18  434 	10053 - An established connection was aborted by the software in your host machine.
+04:11:18  434 NetworkNode::sendMessage(): Error sending!
+04:11:19  435 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  435 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  435 NetworkManager::send(): Error! send() returned:
+04:11:19  435 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  435 NetworkNode::sendMessage(): Error sending!
+04:11:19  435 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  435 NetworkManager::send(): Error! send() returned:
+04:11:19  435 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  435 NetworkNode::sendMessage(): Error sending!
+04:11:19  436 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  436 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  436 NetworkManager::send(): Error! send() returned:
+04:11:19  436 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  436 NetworkNode::sendMessage(): Error sending!
+04:11:19  436 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  436 NetworkManager::send(): Error! send() returned:
+04:11:19  436 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  436 NetworkNode::sendMessage(): Error sending!
+04:11:19  437 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  437 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  437 NetworkManager::send(): Error! send() returned:
+04:11:19  437 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  437 NetworkNode::sendMessage(): Error sending!
+04:11:19  437 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  437 NetworkManager::send(): Error! send() returned:
+04:11:19  437 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  437 NetworkNode::sendMessage(): Error sending!
+04:11:19  438 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  438 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  438 NetworkManager::send(): Error! send() returned:
+04:11:19  438 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  438 NetworkNode::sendMessage(): Error sending!
+04:11:19  438 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  438 NetworkManager::send(): Error! send() returned:
+04:11:19  438 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  438 NetworkNode::sendMessage(): Error sending!
+04:11:19  439 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  439 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  439 NetworkManager::send(): Error! send() returned:
+04:11:19  439 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  439 NetworkNode::sendMessage(): Error sending!
+04:11:19  439 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  439 NetworkManager::send(): Error! send() returned:
+04:11:19  439 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  439 NetworkNode::sendMessage(): Error sending!
+04:11:19  440 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  440 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  440 NetworkManager::send(): Error! send() returned:
+04:11:19  440 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  440 NetworkNode::sendMessage(): Error sending!
+04:11:19  440 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  440 NetworkManager::send(): Error! send() returned:
+04:11:19  440 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  440 NetworkNode::sendMessage(): Error sending!
+04:11:19  441 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  441 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  441 NetworkManager::send(): Error! send() returned:
+04:11:19  441 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  441 NetworkNode::sendMessage(): Error sending!
+04:11:19  441 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  441 NetworkManager::send(): Error! send() returned:
+04:11:19  441 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  441 NetworkNode::sendMessage(): Error sending!
+04:11:19  442 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  442 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  442 NetworkManager::send(): Error! send() returned:
+04:11:19  442 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  442 NetworkNode::sendMessage(): Error sending!
+04:11:19  442 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  442 NetworkManager::send(): Error! send() returned:
+04:11:19  442 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  442 NetworkNode::sendMessage(): Error sending!
+04:11:19  443 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  443 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  443 NetworkManager::send(): Error! send() returned:
+04:11:19  443 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  443 NetworkNode::sendMessage(): Error sending!
+04:11:19  443 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  443 NetworkManager::send(): Error! send() returned:
+04:11:19  443 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  443 NetworkNode::sendMessage(): Error sending!
+04:11:19  444 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  444 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  444 NetworkManager::send(): Error! send() returned:
+04:11:19  444 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  444 NetworkNode::sendMessage(): Error sending!
+04:11:19  444 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  444 NetworkManager::send(): Error! send() returned:
+04:11:19  444 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  444 NetworkNode::sendMessage(): Error sending!
+04:11:19  445 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  445 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  445 NetworkManager::send(): Error! send() returned:
+04:11:19  445 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  445 NetworkNode::sendMessage(): Error sending!
+04:11:19  445 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  445 NetworkManager::send(): Error! send() returned:
+04:11:19  445 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  445 NetworkNode::sendMessage(): Error sending!
+04:11:19  446 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  446 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  446 NetworkManager::send(): Error! send() returned:
+04:11:19  446 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  446 NetworkNode::sendMessage(): Error sending!
+04:11:19  446 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  446 NetworkManager::send(): Error! send() returned:
+04:11:19  446 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  446 NetworkNode::sendMessage(): Error sending!
+04:11:19  447 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  447 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  447 NetworkManager::send(): Error! send() returned:
+04:11:19  447 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  447 NetworkNode::sendMessage(): Error sending!
+04:11:19  447 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  447 NetworkManager::send(): Error! send() returned:
+04:11:19  447 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  447 NetworkNode::sendMessage(): Error sending!
+04:11:19  448 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  448 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  448 NetworkManager::send(): Error! send() returned:
+04:11:19  448 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  448 NetworkNode::sendMessage(): Error sending!
+04:11:19  448 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  448 NetworkManager::send(): Error! send() returned:
+04:11:19  448 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  448 NetworkNode::sendMessage(): Error sending!
+04:11:19  449 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  449 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  449 NetworkManager::send(): Error! send() returned:
+04:11:19  449 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  449 NetworkNode::sendMessage(): Error sending!
+04:11:19  449 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  449 NetworkManager::send(): Error! send() returned:
+04:11:19  449 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  449 NetworkNode::sendMessage(): Error sending!
+04:11:19  450 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  450 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  450 NetworkManager::send(): Error! send() returned:
+04:11:19  450 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  450 NetworkNode::sendMessage(): Error sending!
+04:11:19  450 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  450 NetworkManager::send(): Error! send() returned:
+04:11:19  450 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  450 NetworkNode::sendMessage(): Error sending!
+04:11:19  451 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  451 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  451 NetworkManager::send(): Error! send() returned:
+04:11:19  451 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  451 NetworkNode::sendMessage(): Error sending!
+04:11:19  451 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  451 NetworkManager::send(): Error! send() returned:
+04:11:19  451 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  451 NetworkNode::sendMessage(): Error sending!
+04:11:19  452 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  452 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  452 NetworkManager::send(): Error! send() returned:
+04:11:19  452 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  452 NetworkNode::sendMessage(): Error sending!
+04:11:19  452 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  452 NetworkManager::send(): Error! send() returned:
+04:11:19  452 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  452 NetworkNode::sendMessage(): Error sending!
+04:11:19  453 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  453 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  453 NetworkManager::send(): Error! send() returned:
+04:11:19  453 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  453 NetworkNode::sendMessage(): Error sending!
+04:11:19  453 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  453 NetworkManager::send(): Error! send() returned:
+04:11:19  453 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  453 NetworkNode::sendMessage(): Error sending!
+04:11:19  454 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  454 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  454 NetworkManager::send(): Error! send() returned:
+04:11:19  454 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  454 NetworkNode::sendMessage(): Error sending!
+04:11:19  454 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  454 NetworkManager::send(): Error! send() returned:
+04:11:19  454 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  454 NetworkNode::sendMessage(): Error sending!
+04:11:19  455 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  455 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  455 NetworkManager::send(): Error! send() returned:
+04:11:19  455 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  455 NetworkNode::sendMessage(): Error sending!
+04:11:19  455 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  455 NetworkManager::send(): Error! send() returned:
+04:11:19  455 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  455 NetworkNode::sendMessage(): Error sending!
+04:11:19  456 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  456 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  456 NetworkManager::send(): Error! send() returned:
+04:11:19  456 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  456 NetworkNode::sendMessage(): Error sending!
+04:11:19  456 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  456 NetworkManager::send(): Error! send() returned:
+04:11:19  456 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  456 NetworkNode::sendMessage(): Error sending!
+04:11:19  457 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  457 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  457 NetworkManager::send(): Error! send() returned:
+04:11:19  457 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  457 NetworkNode::sendMessage(): Error sending!
+04:11:19  457 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  457 NetworkManager::send(): Error! send() returned:
+04:11:19  457 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  457 NetworkNode::sendMessage(): Error sending!
+04:11:19  458 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  458 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  458 NetworkManager::send(): Error! send() returned:
+04:11:19  458 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  458 NetworkNode::sendMessage(): Error sending!
+04:11:19  458 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  458 NetworkManager::send(): Error! send() returned:
+04:11:19  458 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  458 NetworkNode::sendMessage(): Error sending!
+04:11:19  459 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  459 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  459 NetworkManager::send(): Error! send() returned:
+04:11:19  459 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  459 NetworkNode::sendMessage(): Error sending!
+04:11:19  459 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  459 NetworkManager::send(): Error! send() returned:
+04:11:19  459 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  459 NetworkNode::sendMessage(): Error sending!
+04:11:19  460 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  460 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  460 NetworkManager::send(): Error! send() returned:
+04:11:19  460 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  460 NetworkNode::sendMessage(): Error sending!
+04:11:19  460 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  460 NetworkManager::send(): Error! send() returned:
+04:11:19  460 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  460 NetworkNode::sendMessage(): Error sending!
+04:11:19  461 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  461 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  461 NetworkManager::send(): Error! send() returned:
+04:11:19  461 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  461 NetworkNode::sendMessage(): Error sending!
+04:11:19  461 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  461 NetworkManager::send(): Error! send() returned:
+04:11:19  461 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  461 NetworkNode::sendMessage(): Error sending!
+04:11:19  462 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  462 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  462 NetworkManager::send(): Error! send() returned:
+04:11:19  462 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  462 NetworkNode::sendMessage(): Error sending!
+04:11:19  462 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  462 NetworkManager::send(): Error! send() returned:
+04:11:19  462 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  462 NetworkNode::sendMessage(): Error sending!
+04:11:19  463 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  463 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  463 NetworkManager::send(): Error! send() returned:
+04:11:19  463 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  463 NetworkNode::sendMessage(): Error sending!
+04:11:19  463 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  463 NetworkManager::send(): Error! send() returned:
+04:11:19  463 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  463 NetworkNode::sendMessage(): Error sending!
+04:11:19  464 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:19  464 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:19  464 NetworkManager::send(): Error! send() returned:
+04:11:19  464 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  464 NetworkNode::sendMessage(): Error sending!
+04:11:19  464 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:19  464 NetworkManager::send(): Error! send() returned:
+04:11:19  464 	10053 - An established connection was aborted by the software in your host machine.
+04:11:19  464 NetworkNode::sendMessage(): Error sending!
+04:11:20  465 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  465 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  465 NetworkManager::send(): Error! send() returned:
+04:11:20  465 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  465 NetworkNode::sendMessage(): Error sending!
+04:11:20  465 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  465 NetworkManager::send(): Error! send() returned:
+04:11:20  465 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  465 NetworkNode::sendMessage(): Error sending!
+04:11:20  466 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  466 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  466 NetworkManager::send(): Error! send() returned:
+04:11:20  466 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  466 NetworkNode::sendMessage(): Error sending!
+04:11:20  466 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  466 NetworkManager::send(): Error! send() returned:
+04:11:20  466 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  466 NetworkNode::sendMessage(): Error sending!
+04:11:20  467 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  467 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  467 NetworkManager::send(): Error! send() returned:
+04:11:20  467 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  467 NetworkNode::sendMessage(): Error sending!
+04:11:20  467 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  467 NetworkManager::send(): Error! send() returned:
+04:11:20  467 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  467 NetworkNode::sendMessage(): Error sending!
+04:11:20  468 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  468 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  468 NetworkManager::send(): Error! send() returned:
+04:11:20  468 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  468 NetworkNode::sendMessage(): Error sending!
+04:11:20  468 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  468 NetworkManager::send(): Error! send() returned:
+04:11:20  468 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  468 NetworkNode::sendMessage(): Error sending!
+04:11:20  469 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  469 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  469 NetworkManager::send(): Error! send() returned:
+04:11:20  469 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  469 NetworkNode::sendMessage(): Error sending!
+04:11:20  469 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  469 NetworkManager::send(): Error! send() returned:
+04:11:20  469 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  469 NetworkNode::sendMessage(): Error sending!
+04:11:20  470 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  470 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  470 NetworkManager::send(): Error! send() returned:
+04:11:20  470 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  470 NetworkNode::sendMessage(): Error sending!
+04:11:20  470 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  470 NetworkManager::send(): Error! send() returned:
+04:11:20  470 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  470 NetworkNode::sendMessage(): Error sending!
+04:11:20  471 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  471 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  471 NetworkManager::send(): Error! send() returned:
+04:11:20  471 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  471 NetworkNode::sendMessage(): Error sending!
+04:11:20  471 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  471 NetworkManager::send(): Error! send() returned:
+04:11:20  471 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  471 NetworkNode::sendMessage(): Error sending!
+04:11:20  472 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  472 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  472 NetworkManager::send(): Error! send() returned:
+04:11:20  472 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  472 NetworkNode::sendMessage(): Error sending!
+04:11:20  472 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  472 NetworkManager::send(): Error! send() returned:
+04:11:20  472 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  472 NetworkNode::sendMessage(): Error sending!
+04:11:20  473 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  473 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  473 NetworkManager::send(): Error! send() returned:
+04:11:20  473 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  473 NetworkNode::sendMessage(): Error sending!
+04:11:20  473 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  473 NetworkManager::send(): Error! send() returned:
+04:11:20  473 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  473 NetworkNode::sendMessage(): Error sending!
+04:11:20  474 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  474 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  474 NetworkManager::send(): Error! send() returned:
+04:11:20  474 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  474 NetworkNode::sendMessage(): Error sending!
+04:11:20  474 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  474 NetworkManager::send(): Error! send() returned:
+04:11:20  474 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  474 NetworkNode::sendMessage(): Error sending!
+04:11:20  475 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  475 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  475 NetworkManager::send(): Error! send() returned:
+04:11:20  475 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  475 NetworkNode::sendMessage(): Error sending!
+04:11:20  475 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  475 NetworkManager::send(): Error! send() returned:
+04:11:20  475 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  475 NetworkNode::sendMessage(): Error sending!
+04:11:20  476 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  476 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  476 NetworkManager::send(): Error! send() returned:
+04:11:20  476 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  476 NetworkNode::sendMessage(): Error sending!
+04:11:20  476 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  476 NetworkManager::send(): Error! send() returned:
+04:11:20  476 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  476 NetworkNode::sendMessage(): Error sending!
+04:11:20  477 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  477 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  477 NetworkManager::send(): Error! send() returned:
+04:11:20  477 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  477 NetworkNode::sendMessage(): Error sending!
+04:11:20  477 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  477 NetworkManager::send(): Error! send() returned:
+04:11:20  477 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  477 NetworkNode::sendMessage(): Error sending!
+04:11:20  478 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  478 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  478 NetworkManager::send(): Error! send() returned:
+04:11:20  478 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  478 NetworkNode::sendMessage(): Error sending!
+04:11:20  478 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  478 NetworkManager::send(): Error! send() returned:
+04:11:20  478 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  478 NetworkNode::sendMessage(): Error sending!
+04:11:20  479 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  479 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  479 NetworkManager::send(): Error! send() returned:
+04:11:20  479 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  479 NetworkNode::sendMessage(): Error sending!
+04:11:20  479 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  479 NetworkManager::send(): Error! send() returned:
+04:11:20  479 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  479 NetworkNode::sendMessage(): Error sending!
+04:11:20  480 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  480 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  480 NetworkManager::send(): Error! send() returned:
+04:11:20  480 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  480 NetworkNode::sendMessage(): Error sending!
+04:11:20  480 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  480 NetworkManager::send(): Error! send() returned:
+04:11:20  480 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  480 NetworkNode::sendMessage(): Error sending!
+04:11:20  481 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  481 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  481 NetworkManager::send(): Error! send() returned:
+04:11:20  481 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  481 NetworkNode::sendMessage(): Error sending!
+04:11:20  481 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  481 NetworkManager::send(): Error! send() returned:
+04:11:20  481 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  481 NetworkNode::sendMessage(): Error sending!
+04:11:20  482 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  482 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  482 NetworkManager::send(): Error! send() returned:
+04:11:20  482 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  482 NetworkNode::sendMessage(): Error sending!
+04:11:20  482 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  482 NetworkManager::send(): Error! send() returned:
+04:11:20  482 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  482 NetworkNode::sendMessage(): Error sending!
+04:11:20  483 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  483 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  483 NetworkManager::send(): Error! send() returned:
+04:11:20  483 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  483 NetworkNode::sendMessage(): Error sending!
+04:11:20  483 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  483 NetworkManager::send(): Error! send() returned:
+04:11:20  483 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  483 NetworkNode::sendMessage(): Error sending!
+04:11:20  484 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  484 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  484 NetworkManager::send(): Error! send() returned:
+04:11:20  484 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  484 NetworkNode::sendMessage(): Error sending!
+04:11:20  484 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  484 NetworkManager::send(): Error! send() returned:
+04:11:20  484 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  484 NetworkNode::sendMessage(): Error sending!
+04:11:20  485 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:20  485 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:20  485 NetworkManager::send(): Error! send() returned:
+04:11:20  485 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  485 NetworkNode::sendMessage(): Error sending!
+04:11:20  485 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:20  485 NetworkManager::send(): Error! send() returned:
+04:11:20  485 	10053 - An established connection was aborted by the software in your host machine.
+04:11:20  485 NetworkNode::sendMessage(): Error sending!
+04:11:21  486 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  486 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  486 NetworkManager::send(): Error! send() returned:
+04:11:21  486 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  486 NetworkNode::sendMessage(): Error sending!
+04:11:21  486 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  486 NetworkManager::send(): Error! send() returned:
+04:11:21  486 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  486 NetworkNode::sendMessage(): Error sending!
+04:11:21  487 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  487 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  487 NetworkManager::send(): Error! send() returned:
+04:11:21  487 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  487 NetworkNode::sendMessage(): Error sending!
+04:11:21  487 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  487 NetworkManager::send(): Error! send() returned:
+04:11:21  487 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  487 NetworkNode::sendMessage(): Error sending!
+04:11:21  488 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  488 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  488 NetworkManager::send(): Error! send() returned:
+04:11:21  488 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  488 NetworkNode::sendMessage(): Error sending!
+04:11:21  488 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  488 NetworkManager::send(): Error! send() returned:
+04:11:21  488 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  488 NetworkNode::sendMessage(): Error sending!
+04:11:21  489 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  489 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  489 NetworkManager::send(): Error! send() returned:
+04:11:21  489 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  489 NetworkNode::sendMessage(): Error sending!
+04:11:21  489 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  489 NetworkManager::send(): Error! send() returned:
+04:11:21  489 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  489 NetworkNode::sendMessage(): Error sending!
+04:11:21  490 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  490 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  490 NetworkManager::send(): Error! send() returned:
+04:11:21  490 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  490 NetworkNode::sendMessage(): Error sending!
+04:11:21  490 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  490 NetworkManager::send(): Error! send() returned:
+04:11:21  490 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  490 NetworkNode::sendMessage(): Error sending!
+04:11:21  491 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  491 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  491 NetworkManager::send(): Error! send() returned:
+04:11:21  491 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  491 NetworkNode::sendMessage(): Error sending!
+04:11:21  491 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  491 NetworkManager::send(): Error! send() returned:
+04:11:21  491 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  491 NetworkNode::sendMessage(): Error sending!
+04:11:21  492 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  492 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  492 NetworkManager::send(): Error! send() returned:
+04:11:21  492 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  492 NetworkNode::sendMessage(): Error sending!
+04:11:21  492 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  492 NetworkManager::send(): Error! send() returned:
+04:11:21  492 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  492 NetworkNode::sendMessage(): Error sending!
+04:11:21  493 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  493 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  493 NetworkManager::send(): Error! send() returned:
+04:11:21  493 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  493 NetworkNode::sendMessage(): Error sending!
+04:11:21  493 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  493 NetworkManager::send(): Error! send() returned:
+04:11:21  493 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  493 NetworkNode::sendMessage(): Error sending!
+04:11:21  494 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  494 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  494 NetworkManager::send(): Error! send() returned:
+04:11:21  494 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  494 NetworkNode::sendMessage(): Error sending!
+04:11:21  494 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  494 NetworkManager::send(): Error! send() returned:
+04:11:21  494 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  494 NetworkNode::sendMessage(): Error sending!
+04:11:21  495 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  495 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  495 NetworkManager::send(): Error! send() returned:
+04:11:21  495 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  495 NetworkNode::sendMessage(): Error sending!
+04:11:21  495 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  495 NetworkManager::send(): Error! send() returned:
+04:11:21  495 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  495 NetworkNode::sendMessage(): Error sending!
+04:11:21  496 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  496 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  496 NetworkManager::send(): Error! send() returned:
+04:11:21  496 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  496 NetworkNode::sendMessage(): Error sending!
+04:11:21  496 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  496 NetworkManager::send(): Error! send() returned:
+04:11:21  496 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  496 NetworkNode::sendMessage(): Error sending!
+04:11:21  497 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  497 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  497 NetworkManager::send(): Error! send() returned:
+04:11:21  497 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  497 NetworkNode::sendMessage(): Error sending!
+04:11:21  497 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  497 NetworkManager::send(): Error! send() returned:
+04:11:21  497 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  497 NetworkNode::sendMessage(): Error sending!
+04:11:21  498 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  498 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  498 NetworkManager::send(): Error! send() returned:
+04:11:21  498 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  498 NetworkNode::sendMessage(): Error sending!
+04:11:21  498 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  498 NetworkManager::send(): Error! send() returned:
+04:11:21  498 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  498 NetworkNode::sendMessage(): Error sending!
+04:11:21  499 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  499 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  499 NetworkManager::send(): Error! send() returned:
+04:11:21  499 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  499 NetworkNode::sendMessage(): Error sending!
+04:11:21  499 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  499 NetworkManager::send(): Error! send() returned:
+04:11:21  499 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  499 NetworkNode::sendMessage(): Error sending!
+04:11:21  500 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  500 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  500 NetworkManager::send(): Error! send() returned:
+04:11:21  500 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  500 NetworkNode::sendMessage(): Error sending!
+04:11:21  500 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  500 NetworkManager::send(): Error! send() returned:
+04:11:21  500 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  500 NetworkNode::sendMessage(): Error sending!
+04:11:21  501 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  501 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  501 NetworkManager::send(): Error! send() returned:
+04:11:21  501 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  501 NetworkNode::sendMessage(): Error sending!
+04:11:21  501 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  501 NetworkManager::send(): Error! send() returned:
+04:11:21  501 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  501 NetworkNode::sendMessage(): Error sending!
+04:11:21  502 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  502 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  502 NetworkManager::send(): Error! send() returned:
+04:11:21  502 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  502 NetworkNode::sendMessage(): Error sending!
+04:11:21  502 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  502 NetworkManager::send(): Error! send() returned:
+04:11:21  502 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  502 NetworkNode::sendMessage(): Error sending!
+04:11:21  503 InputManager::getInput(): Window close event. Setting game over.
+04:11:21  503 Server::doSync(): SYNC ReadyButton (id 4).
+04:11:21  503 NetworkNode::sendMessage(): Warning! Sending 0 serialized bytes
+04:11:21  503 NetworkManager::send(): Error! send() returned:
+04:11:21  503 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  503 NetworkNode::sendMessage(): Error sending!
+04:11:21  503 Server::resending sync message(): SYNC ReadyButton (id 4).
+04:11:21  503 NetworkManager::send(): Error! send() returned:
+04:11:21  503 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  503 NetworkNode::sendMessage(): Error sending!
+04:11:21  503 GameManager::run(): Can't keep up! frame_time 33 ms, split 84 ms
+04:11:21  504 GameManager::run(): end of game loop
+04:11:21  504 NetworkManager::send(): Error! send() returned:
+04:11:21  504 	10053 - An established connection was aborted by the software in your host machine.
+04:11:21  504 NetworkNode::sendMessage(): Error sending!
+04:11:21  504 PathManager::shutDown(): successfully stopped.
+04:11:21  504 Path manager stopped

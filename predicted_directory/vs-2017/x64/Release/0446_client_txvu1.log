@@ -1,0 +1,1075 @@
+04:46:30    0 ****************************************************
+04:46:30    0 ** Dragonfly version 4.12 **
+04:46:30    0 Hello, Network! (v1.2)
+04:46:30    0 0446_client_txvu1.log
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+04:46:30    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+04:46:30    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+04:46:30    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+04:46:30    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+04:46:31    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+04:46:31    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+04:46:31    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+04:46:31    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+04:46:31    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+04:46:32    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+04:46:33    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+04:46:33    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+04:46:33    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+04:46:33    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+04:46:33    0 Client::Client(): Connecting to localhost at port 9876.
+04:46:33    0 NetworkManager::connect(): Connecting to localhost, port 9876.
+04:46:33    0 NetworkManager::connect(): Connection established.
+04:46:33    0 Client::handleConnect(): Client connected!
+04:46:33    0 Client::Client(): Client started.
+04:46:33    0 GameManager::run(): starting game loop
+04:46:33    0 Client::eventHandler(): received custom network event.
+04:46:33    0 	message: 20
+04:46:33    0 Client::createObject(): creating object type 'ReadyButton'
+04:46:33    1 Drawing cursor
+04:46:33    2 Drawing cursor
+04:46:33    3 Drawing cursor
+04:46:33    4 Drawing cursor
+04:46:33    5 Drawing cursor
+04:46:33    6 Drawing cursor
+04:46:33    7 Drawing cursor
+04:46:33    8 Drawing cursor
+04:46:33    9 Drawing cursor
+04:46:33   10 Drawing cursor
+04:46:33   11 Drawing cursor
+04:46:33   12 Drawing cursor
+04:46:33   13 Drawing cursor
+04:46:33   14 Drawing cursor
+04:46:33   15 Drawing cursor
+04:46:33   16 Drawing cursor
+04:46:33   17 Drawing cursor
+04:46:33   18 Drawing cursor
+04:46:33   19 Drawing cursor
+04:46:33   20 Drawing cursor
+04:46:33   21 Drawing cursor
+04:46:33   22 Drawing cursor
+04:46:33   23 Drawing cursor
+04:46:33   24 Drawing cursor
+04:46:33   25 Drawing cursor
+04:46:34   26 Drawing cursor
+04:46:34   27 Drawing cursor
+04:46:34   28 Drawing cursor
+04:46:34   29 Drawing cursor
+04:46:34   30 Drawing cursor
+04:46:34   31 Drawing cursor
+04:46:34   32 Drawing cursor
+04:46:34   33 Drawing cursor
+04:46:34   34 Drawing cursor
+04:46:34   35 Drawing cursor
+04:46:34   36 Drawing cursor
+04:46:34   37 Drawing cursor
+04:46:34   38 Drawing cursor
+04:46:34   39 Drawing cursor
+04:46:34   40 Drawing cursor
+04:46:34   41 Drawing cursor
+04:46:34   42 Drawing cursor
+04:46:34   43 Drawing cursor
+04:46:34   44 Drawing cursor
+04:46:34   45 Drawing cursor
+04:46:34   46 Drawing cursor
+04:46:34   47 Drawing cursor
+04:46:34   48 Drawing cursor
+04:46:34   49 Drawing cursor
+04:46:34   50 Drawing cursor
+04:46:34   51 Drawing cursor
+04:46:34   52 Drawing cursor
+04:46:34   53 Drawing cursor
+04:46:34   54 Drawing cursor
+04:46:34   55 Drawing cursor
+04:46:34   56 Drawing cursor
+04:46:35   57 Drawing cursor
+04:46:35   58 Drawing cursor
+04:46:35   59 Drawing cursor
+04:46:35   60 Drawing cursor
+04:46:35   61 Drawing cursor
+04:46:35   62 Drawing cursor
+04:46:35   63 Drawing cursor
+04:46:35   64 Drawing cursor
+04:46:35   65 Drawing cursor
+04:46:35   66 Drawing cursor
+04:46:35   67 Drawing cursor
+04:46:35   68 Drawing cursor
+04:46:35   69 Drawing cursor
+04:46:35   70 Drawing cursor
+04:46:35   71 Drawing cursor
+04:46:35   72 Drawing cursor
+04:46:35   73 Drawing cursor
+04:46:35   74 Drawing cursor
+04:46:35   75 Drawing cursor
+04:46:35   76 Drawing cursor
+04:46:35   77 Drawing cursor
+04:46:35   78 Drawing cursor
+04:46:35   79 Drawing cursor
+04:46:35   80 Drawing cursor
+04:46:35   81 Drawing cursor
+04:46:35   82 Drawing cursor
+04:46:35   83 Drawing cursor
+04:46:35   84 Drawing cursor
+04:46:35   85 Drawing cursor
+04:46:35   86 Client::eventHandler(): sending keyboard input to server.
+04:46:35   86 Drawing cursor
+04:46:36   87 Client::eventHandler(): sending keyboard input to server.
+04:46:36   87 Drawing cursor
+04:46:36   88 Client::eventHandler(): sending keyboard input to server.
+04:46:36   88 Drawing cursor
+04:46:36   89 Drawing cursor
+04:46:36   90 Drawing cursor
+04:46:36   91 Drawing cursor
+04:46:36   92 Client::eventHandler(): sending keyboard input to server.
+04:46:36   92 Drawing cursor
+04:46:36   93 Client::eventHandler(): sending keyboard input to server.
+04:46:36   93 Drawing cursor
+04:46:36   94 Drawing cursor
+04:46:36   95 Drawing cursor
+04:46:36   96 Drawing cursor
+04:46:36   97 Drawing cursor
+04:46:36   98 Drawing cursor
+04:46:36   99 Drawing cursor
+04:46:36  100 Drawing cursor
+04:46:36  101 Drawing cursor
+04:46:36  102 Drawing cursor
+04:46:36  103 Drawing cursor
+04:46:36  104 Drawing cursor
+04:46:36  105 Drawing cursor
+04:46:36  106 Drawing cursor
+04:46:36  107 Drawing cursor
+04:46:36  108 Drawing cursor
+04:46:36  109 Drawing cursor
+04:46:36  110 Drawing cursor
+04:46:36  111 Drawing cursor
+04:46:36  112 Drawing cursor
+04:46:36  113 Drawing cursor
+04:46:36  114 Drawing cursor
+04:46:36  115 Drawing cursor
+04:46:36  116 Drawing cursor
+04:46:37  117 Drawing cursor
+04:46:37  118 Drawing cursor
+04:46:37  119 Client::eventHandler(): sending keyboard input to server.
+04:46:37  119 Drawing cursor
+04:46:37  120 Client::eventHandler(): sending keyboard input to server.
+04:46:37  120 Drawing cursor
+04:46:37  121 Client::eventHandler(): sending keyboard input to server.
+04:46:37  121 Drawing cursor
+04:46:37  122 Client::eventHandler(): sending keyboard input to server.
+04:46:37  122 Drawing cursor
+04:46:37  123 Drawing cursor
+04:46:37  124 Drawing cursor
+04:46:37  125 Drawing cursor
+04:46:37  126 Drawing cursor
+04:46:37  127 Drawing cursor
+04:46:37  128 Drawing cursor
+04:46:37  129 Drawing cursor
+04:46:37  130 Drawing cursor
+04:46:37  131 Drawing cursor
+04:46:37  132 Drawing cursor
+04:46:37  133 Drawing cursor
+04:46:37  134 Drawing cursor
+04:46:37  135 Drawing cursor
+04:46:37  136 Drawing cursor
+04:46:37  137 Drawing cursor
+04:46:37  138 Drawing cursor
+04:46:37  139 Drawing cursor
+04:46:37  140 Drawing cursor
+04:46:37  141 Drawing cursor
+04:46:37  142 Drawing cursor
+04:46:37  143 Drawing cursor
+04:46:37  144 Drawing cursor
+04:46:37  145 Drawing cursor
+04:46:37  146 Drawing cursor
+04:46:37  147 Drawing cursor
+04:46:38  148 Client::eventHandler(): sending mouse input to server.
+04:46:38  148 Drawing cursor
+04:46:38  149 Drawing cursor
+04:46:38  150 Drawing cursor
+04:46:38  151 Client::eventHandler(): sending mouse input to server.
+04:46:38  151 Drawing cursor
+04:46:38  152 Client::eventHandler(): sending mouse input to server.
+04:46:38  152 Drawing cursor
+04:46:38  153 Client::eventHandler(): sending mouse input to server.
+04:46:38  153 Drawing cursor
+04:46:38  154 Client::eventHandler(): sending mouse input to server.
+04:46:38  154 Drawing cursor
+04:46:38  155 Client::eventHandler(): sending mouse input to server.
+04:46:38  155 Drawing cursor
+04:46:38  156 Client::eventHandler(): sending mouse input to server.
+04:46:38  156 Drawing cursor
+04:46:38  157 Client::eventHandler(): sending mouse input to server.
+04:46:38  157 Client::eventHandler(): sending mouse input to server.
+04:46:38  157 Drawing cursor
+04:46:38  158 Client::eventHandler(): sending mouse input to server.
+04:46:38  158 Client::eventHandler(): sending mouse input to server.
+04:46:38  158 Drawing cursor
+04:46:38  159 Drawing cursor
+04:46:38  160 Drawing cursor
+04:46:38  161 Drawing cursor
+04:46:38  162 Drawing cursor
+04:46:38  163 Client::eventHandler(): sending mouse input to server.
+04:46:38  163 Drawing cursor
+04:46:38  164 Client::eventHandler(): sending mouse input to server.
+04:46:38  164 Drawing cursor
+04:46:38  165 Client::eventHandler(): sending mouse input to server.
+04:46:38  165 Drawing cursor
+04:46:38  166 Client::eventHandler(): sending mouse input to server.
+04:46:38  166 Drawing cursor
+04:46:38  167 Client::eventHandler(): sending mouse input to server.
+04:46:38  167 Client::eventHandler(): sending mouse input to server.
+04:46:38  167 Drawing cursor
+04:46:38  168 Client::eventHandler(): sending mouse input to server.
+04:46:38  168 Drawing cursor
+04:46:38  169 Drawing cursor
+04:46:38  170 Drawing cursor
+04:46:38  171 Drawing cursor
+04:46:38  172 Client::eventHandler(): sending mouse input to server.
+04:46:38  172 Drawing cursor
+04:46:38  173 Client::eventHandler(): sending mouse input to server.
+04:46:38  173 Drawing cursor
+04:46:38  174 Drawing cursor
+04:46:38  175 Drawing cursor
+04:46:38  176 Drawing cursor
+04:46:38  177 Drawing cursor
+04:46:39  178 Drawing cursor
+04:46:39  179 Drawing cursor
+04:46:39  180 Drawing cursor
+04:46:39  181 Drawing cursor
+04:46:39  182 Drawing cursor
+04:46:39  183 Drawing cursor
+04:46:39  184 Drawing cursor
+04:46:39  185 Drawing cursor
+04:46:39  186 Drawing cursor
+04:46:39  187 Drawing cursor
+04:46:41  188 Drawing cursor
+04:46:41  189 Drawing cursor
+04:46:41  190 Drawing cursor
+04:46:41  191 Drawing cursor
+04:46:41  192 Drawing cursor
+04:46:41  193 Drawing cursor
+04:46:42  194 Drawing cursor
+04:46:42  195 Drawing cursor
+04:46:42  196 Drawing cursor
+04:46:42  197 Drawing cursor
+04:46:42  198 Drawing cursor
+04:46:42  199 Drawing cursor
+04:46:42  200 Drawing cursor
+04:46:42  201 Drawing cursor
+04:46:42  202 Drawing cursor
+04:46:42  203 Drawing cursor
+04:46:42  204 Drawing cursor
+04:46:42  205 Drawing cursor
+04:46:42  206 Drawing cursor
+04:46:42  207 Drawing cursor
+04:46:42  208 Drawing cursor
+04:46:42  209 Drawing cursor
+04:46:42  210 Drawing cursor
+04:46:42  211 Drawing cursor
+04:46:42  212 Drawing cursor
+04:46:42  213 Drawing cursor
+04:46:42  214 Drawing cursor
+04:46:42  215 Drawing cursor
+04:46:42  216 Drawing cursor
+04:46:42  217 Drawing cursor
+04:46:42  218 Drawing cursor
+04:46:42  219 Drawing cursor
+04:46:42  220 Drawing cursor
+04:46:42  221 Drawing cursor
+04:46:42  222 Drawing cursor
+04:46:42  223 Drawing cursor
+04:46:43  224 Drawing cursor
+04:46:43  225 Drawing cursor
+04:46:43  226 Drawing cursor
+04:46:43  227 Drawing cursor
+04:46:43  228 Drawing cursor
+04:46:43  229 Drawing cursor
+04:46:43  230 Drawing cursor
+04:46:43  231 Drawing cursor
+04:46:43  232 Drawing cursor
+04:46:43  233 Drawing cursor
+04:46:43  234 Drawing cursor
+04:46:43  235 Drawing cursor
+04:46:43  236 Drawing cursor
+04:46:43  237 Drawing cursor
+04:46:43  238 Drawing cursor
+04:46:43  239 Drawing cursor
+04:46:43  240 Drawing cursor
+04:46:43  241 Drawing cursor
+04:46:43  242 Drawing cursor
+04:46:43  243 Drawing cursor
+04:46:43  244 Drawing cursor
+04:46:43  245 Drawing cursor
+04:46:43  246 Drawing cursor
+04:46:43  247 Drawing cursor
+04:46:43  248 Drawing cursor
+04:46:43  249 Drawing cursor
+04:46:43  250 Drawing cursor
+04:46:43  251 Drawing cursor
+04:46:43  252 Drawing cursor
+04:46:43  253 Drawing cursor
+04:46:43  254 Drawing cursor
+04:46:44  255 Drawing cursor
+04:46:44  256 Drawing cursor
+04:46:44  257 Drawing cursor
+04:46:44  258 Drawing cursor
+04:46:44  259 Drawing cursor
+04:46:44  260 Drawing cursor
+04:46:44  261 Drawing cursor
+04:46:44  262 Drawing cursor
+04:46:44  263 Drawing cursor
+04:46:44  264 Drawing cursor
+04:46:44  265 Drawing cursor
+04:46:44  266 Drawing cursor
+04:46:44  267 Drawing cursor
+04:46:44  268 Drawing cursor
+04:46:44  269 Drawing cursor
+04:46:44  270 Drawing cursor
+04:46:44  271 Drawing cursor
+04:46:44  272 Drawing cursor
+04:46:44  273 Drawing cursor
+04:46:44  274 Drawing cursor
+04:46:44  275 Drawing cursor
+04:46:44  276 Drawing cursor
+04:46:44  277 Drawing cursor
+04:46:44  278 Drawing cursor
+04:46:44  279 Drawing cursor
+04:46:44  280 Drawing cursor
+04:46:44  281 Drawing cursor
+04:46:44  282 Drawing cursor
+04:46:44  283 Drawing cursor
+04:46:44  284 Drawing cursor
+04:46:45  285 Drawing cursor
+04:46:45  286 Drawing cursor
+04:46:45  287 Drawing cursor
+04:46:45  288 Drawing cursor
+04:46:45  289 Drawing cursor
+04:46:45  290 Drawing cursor
+04:46:45  291 Drawing cursor
+04:46:45  292 Drawing cursor
+04:46:45  293 Drawing cursor
+04:46:45  294 Drawing cursor
+04:46:45  295 Drawing cursor
+04:46:45  296 Drawing cursor
+04:46:45  297 Drawing cursor
+04:46:45  298 Drawing cursor
+04:46:45  299 Drawing cursor
+04:46:45  300 Drawing cursor
+04:46:45  301 Drawing cursor
+04:46:45  302 Drawing cursor
+04:46:45  303 Drawing cursor
+04:46:45  304 Drawing cursor
+04:46:45  305 Drawing cursor
+04:46:45  306 Drawing cursor
+04:46:45  307 Drawing cursor
+04:46:45  308 Drawing cursor
+04:46:45  309 Drawing cursor
+04:46:45  310 Drawing cursor
+04:46:45  311 Drawing cursor
+04:46:45  312 Drawing cursor
+04:46:45  313 Drawing cursor
+04:46:45  314 Drawing cursor
+04:46:46  315 Drawing cursor
+04:46:46  316 Drawing cursor
+04:46:46  317 Drawing cursor
+04:46:46  318 Drawing cursor
+04:46:46  319 Drawing cursor
+04:46:46  320 Drawing cursor
+04:46:46  321 Drawing cursor
+04:46:46  322 Drawing cursor
+04:46:46  323 Drawing cursor
+04:46:46  324 Drawing cursor
+04:46:46  325 Drawing cursor
+04:46:46  326 Drawing cursor
+04:46:46  327 Drawing cursor
+04:46:46  328 Drawing cursor
+04:46:46  329 Drawing cursor
+04:46:46  330 Drawing cursor
+04:46:46  331 Drawing cursor
+04:46:46  332 Drawing cursor
+04:46:46  333 Drawing cursor
+04:46:46  334 Drawing cursor
+04:46:46  335 Drawing cursor
+04:46:46  336 Drawing cursor
+04:46:46  337 Drawing cursor
+04:46:46  338 Drawing cursor
+04:46:46  339 Drawing cursor
+04:46:46  340 Drawing cursor
+04:46:46  341 Drawing cursor
+04:46:46  342 Drawing cursor
+04:46:46  343 Drawing cursor
+04:46:46  344 Drawing cursor
+04:46:46  345 Drawing cursor
+04:46:47  346 Drawing cursor
+04:46:47  347 Drawing cursor
+04:46:47  348 Drawing cursor
+04:46:47  349 Drawing cursor
+04:46:47  350 Drawing cursor
+04:46:47  351 Drawing cursor
+04:46:47  352 Drawing cursor
+04:46:47  353 Drawing cursor
+04:46:47  354 Drawing cursor
+04:46:47  355 Drawing cursor
+04:46:47  356 Drawing cursor
+04:46:47  357 Drawing cursor
+04:46:47  358 Drawing cursor
+04:46:47  359 Drawing cursor
+04:46:47  360 Drawing cursor
+04:46:47  361 Drawing cursor
+04:46:47  362 Drawing cursor
+04:46:47  363 Drawing cursor
+04:46:47  364 Client::eventHandler(): sending keyboard input to server.
+04:46:47  364 Drawing cursor
+04:46:47  365 Client::eventHandler(): sending keyboard input to server.
+04:46:47  365 Drawing cursor
+04:46:47  366 Client::eventHandler(): sending keyboard input to server.
+04:46:47  366 Drawing cursor
+04:46:47  367 Drawing cursor
+04:46:47  368 Drawing cursor
+04:46:47  369 Client::eventHandler(): sending keyboard input to server.
+04:46:47  369 Drawing cursor
+04:46:47  370 Client::eventHandler(): sending keyboard input to server.
+04:46:47  370 Drawing cursor
+04:46:47  371 Drawing cursor
+04:46:47  372 Drawing cursor
+04:46:47  373 Drawing cursor
+04:46:47  374 Drawing cursor
+04:46:47  375 Drawing cursor
+04:46:48  376 Drawing cursor
+04:46:48  377 Drawing cursor
+04:46:48  378 Drawing cursor
+04:46:48  379 Drawing cursor
+04:46:48  380 Drawing cursor
+04:46:48  381 Drawing cursor
+04:46:48  382 Drawing cursor
+04:46:48  383 Drawing cursor
+04:46:48  384 Drawing cursor
+04:46:48  385 Drawing cursor
+04:46:48  386 Drawing cursor
+04:46:48  387 Drawing cursor
+04:46:48  388 Drawing cursor
+04:46:48  389 Drawing cursor
+04:46:48  390 Drawing cursor
+04:46:48  391 Drawing cursor
+04:46:48  392 Drawing cursor
+04:46:48  393 Drawing cursor
+04:46:48  394 Drawing cursor
+04:46:48  395 Drawing cursor
+04:46:48  396 Drawing cursor
+04:46:48  397 Drawing cursor
+04:46:48  398 Drawing cursor
+04:46:48  399 Drawing cursor
+04:46:48  400 Drawing cursor
+04:46:48  401 Drawing cursor
+04:46:48  402 Drawing cursor
+04:46:48  403 Drawing cursor
+04:46:48  404 Drawing cursor
+04:46:48  405 Drawing cursor
+04:46:49  406 Drawing cursor
+04:46:49  407 Drawing cursor
+04:46:49  408 Drawing cursor
+04:46:49  409 Drawing cursor
+04:46:49  410 Drawing cursor
+04:46:49  411 Drawing cursor
+04:46:49  412 Drawing cursor
+04:46:49  413 Drawing cursor
+04:46:49  414 Drawing cursor
+04:46:49  415 Drawing cursor
+04:46:49  416 Drawing cursor
+04:46:49  417 Drawing cursor
+04:46:49  418 Drawing cursor
+04:46:49  419 Drawing cursor
+04:46:49  420 Drawing cursor
+04:46:49  421 Drawing cursor
+04:46:49  422 Drawing cursor
+04:46:49  423 Drawing cursor
+04:46:49  424 Drawing cursor
+04:46:49  425 Drawing cursor
+04:46:49  426 Drawing cursor
+04:46:49  427 Drawing cursor
+04:46:49  428 Drawing cursor
+04:46:49  429 Drawing cursor
+04:46:49  430 Drawing cursor
+04:46:49  431 Drawing cursor
+04:46:49  432 Drawing cursor
+04:46:49  433 Drawing cursor
+04:46:49  434 Drawing cursor
+04:46:49  435 Drawing cursor
+04:46:49  436 Drawing cursor
+04:46:50  437 Drawing cursor
+04:46:50  438 Drawing cursor
+04:46:50  439 Drawing cursor
+04:46:50  440 Drawing cursor
+04:46:50  441 Drawing cursor
+04:46:50  442 Drawing cursor
+04:46:50  443 Drawing cursor
+04:46:50  444 Drawing cursor
+04:46:50  445 Drawing cursor
+04:46:50  446 Drawing cursor
+04:46:50  447 Drawing cursor
+04:46:50  448 Drawing cursor
+04:46:50  449 Drawing cursor
+04:46:50  450 Drawing cursor
+04:46:50  451 Drawing cursor
+04:46:50  452 Drawing cursor
+04:46:50  453 Drawing cursor
+04:46:50  454 Drawing cursor
+04:46:50  455 Drawing cursor
+04:46:50  456 Drawing cursor
+04:46:50  457 Drawing cursor
+04:46:50  458 Drawing cursor
+04:46:50  459 Drawing cursor
+04:46:50  460 Drawing cursor
+04:46:50  461 Drawing cursor
+04:46:50  462 Drawing cursor
+04:46:50  463 Drawing cursor
+04:46:50  464 Drawing cursor
+04:46:50  465 Drawing cursor
+04:46:50  466 Drawing cursor
+04:46:51  467 Drawing cursor
+04:46:51  468 Drawing cursor
+04:46:51  469 Drawing cursor
+04:46:51  470 Drawing cursor
+04:46:51  471 Drawing cursor
+04:46:51  472 Drawing cursor
+04:46:51  473 Drawing cursor
+04:46:51  474 Drawing cursor
+04:46:51  475 Drawing cursor
+04:46:51  476 Drawing cursor
+04:46:51  477 Drawing cursor
+04:46:51  478 Drawing cursor
+04:46:51  479 Drawing cursor
+04:46:51  480 Drawing cursor
+04:46:51  481 Drawing cursor
+04:46:51  482 Drawing cursor
+04:46:51  483 Drawing cursor
+04:46:51  484 Drawing cursor
+04:46:51  485 Drawing cursor
+04:46:51  486 Drawing cursor
+04:46:51  487 Drawing cursor
+04:46:51  488 Drawing cursor
+04:46:51  489 Drawing cursor
+04:46:51  490 Drawing cursor
+04:46:51  491 Drawing cursor
+04:46:51  492 Drawing cursor
+04:46:51  493 Drawing cursor
+04:46:51  494 Drawing cursor
+04:46:51  495 Drawing cursor
+04:46:51  496 Drawing cursor
+04:46:52  497 Drawing cursor
+04:46:52  498 Drawing cursor
+04:46:52  499 Drawing cursor
+04:46:52  500 Drawing cursor
+04:46:52  501 Drawing cursor
+04:46:52  502 Drawing cursor
+04:46:52  503 Drawing cursor
+04:46:52  504 Drawing cursor
+04:46:52  505 Drawing cursor
+04:46:52  506 Drawing cursor
+04:46:52  507 Drawing cursor
+04:46:52  508 Drawing cursor
+04:46:52  509 Drawing cursor
+04:46:52  510 Drawing cursor
+04:46:52  511 Drawing cursor
+04:46:52  512 Drawing cursor
+04:46:52  513 Drawing cursor
+04:46:52  514 Drawing cursor
+04:46:52  515 Drawing cursor
+04:46:52  516 Drawing cursor
+04:46:52  517 Drawing cursor
+04:46:52  518 Drawing cursor
+04:46:52  519 Drawing cursor
+04:46:52  520 Drawing cursor
+04:46:52  521 Drawing cursor
+04:46:52  522 Drawing cursor
+04:46:52  523 Drawing cursor
+04:46:52  524 Drawing cursor
+04:46:52  525 Drawing cursor
+04:46:52  526 Drawing cursor
+04:46:52  527 Drawing cursor
+04:46:53  528 Drawing cursor
+04:46:53  529 Drawing cursor
+04:46:53  530 Drawing cursor
+04:46:53  531 Drawing cursor
+04:46:53  532 Drawing cursor
+04:46:53  533 Drawing cursor
+04:46:53  534 Drawing cursor
+04:46:53  535 Drawing cursor
+04:46:53  536 Drawing cursor
+04:46:53  537 Drawing cursor
+04:46:53  538 Drawing cursor
+04:46:53  539 Drawing cursor
+04:46:53  540 Drawing cursor
+04:46:53  541 Drawing cursor
+04:46:53  542 Drawing cursor
+04:46:53  543 Drawing cursor
+04:46:53  544 Drawing cursor
+04:46:53  545 Drawing cursor
+04:46:53  546 Drawing cursor
+04:46:53  547 Drawing cursor
+04:46:53  548 Drawing cursor
+04:46:53  549 Drawing cursor
+04:46:53  550 Drawing cursor
+04:46:53  551 Drawing cursor
+04:46:53  552 Drawing cursor
+04:46:53  553 Drawing cursor
+04:46:53  554 Drawing cursor
+04:46:53  555 Drawing cursor
+04:46:53  556 Drawing cursor
+04:46:53  557 Drawing cursor
+04:46:54  558 Drawing cursor
+04:46:54  559 Drawing cursor
+04:46:54  560 Drawing cursor
+04:46:54  561 Drawing cursor
+04:46:54  562 Drawing cursor
+04:46:54  563 Drawing cursor
+04:46:54  564 Drawing cursor
+04:46:54  565 Drawing cursor
+04:46:54  566 Drawing cursor
+04:46:54  567 Drawing cursor
+04:46:54  568 Drawing cursor
+04:46:54  569 Drawing cursor
+04:46:54  570 Drawing cursor
+04:46:54  571 Drawing cursor
+04:46:54  572 Drawing cursor
+04:46:54  573 Drawing cursor
+04:46:54  574 Drawing cursor
+04:46:54  575 Drawing cursor
+04:46:54  576 Drawing cursor
+04:46:54  577 Drawing cursor
+04:46:54  578 Drawing cursor
+04:46:54  579 Drawing cursor
+04:46:54  580 Drawing cursor
+04:46:54  581 Drawing cursor
+04:46:54  582 Drawing cursor
+04:46:54  583 Drawing cursor
+04:46:54  584 Drawing cursor
+04:46:54  585 Drawing cursor
+04:46:54  586 Drawing cursor
+04:46:54  587 Drawing cursor
+04:46:55  588 Drawing cursor
+04:46:55  589 Drawing cursor
+04:46:55  590 Drawing cursor
+04:46:55  591 Drawing cursor
+04:46:55  592 Drawing cursor
+04:46:55  593 Drawing cursor
+04:46:55  594 Drawing cursor
+04:46:55  595 Drawing cursor
+04:46:55  596 Drawing cursor
+04:46:55  597 Drawing cursor
+04:46:55  598 Drawing cursor
+04:46:55  599 Drawing cursor
+04:46:55  600 Drawing cursor
+04:46:55  601 Drawing cursor
+04:46:55  602 Drawing cursor
+04:46:55  603 Drawing cursor
+04:46:55  604 Drawing cursor
+04:46:55  605 Drawing cursor
+04:46:55  606 Drawing cursor
+04:46:55  607 Drawing cursor
+04:46:55  608 Drawing cursor
+04:46:55  609 Drawing cursor
+04:46:55  610 Client::eventHandler(): sending mouse input to server.
+04:46:55  610 Drawing cursor
+04:46:55  611 Client::eventHandler(): sending mouse input to server.
+04:46:55  611 Drawing cursor
+04:46:55  612 Client::eventHandler(): sending mouse input to server.
+04:46:55  612 Drawing cursor
+04:46:55  613 Client::eventHandler(): sending mouse input to server.
+04:46:55  613 Drawing cursor
+04:46:55  614 Client::eventHandler(): sending mouse input to server.
+04:46:55  614 Drawing cursor
+04:46:55  615 Client::eventHandler(): sending mouse input to server.
+04:46:55  615 Drawing cursor
+04:46:55  616 Client::eventHandler(): sending mouse input to server.
+04:46:55  616 Drawing cursor
+04:46:55  617 Client::eventHandler(): sending mouse input to server.
+04:46:55  617 Drawing cursor
+04:46:56  618 Client::eventHandler(): sending mouse input to server.
+04:46:56  618 Drawing cursor
+04:46:56  619 Client::eventHandler(): sending mouse input to server.
+04:46:56  619 Client::eventHandler(): sending mouse input to server.
+04:46:56  619 Drawing cursor
+04:46:56  620 Client::eventHandler(): sending mouse input to server.
+04:46:56  620 Drawing cursor
+04:46:56  621 Client::eventHandler(): sending mouse input to server.
+04:46:56  621 Drawing cursor
+04:46:56  622 Client::eventHandler(): sending mouse input to server.
+04:46:56  622 Drawing cursor
+04:46:56  623 Client::eventHandler(): sending mouse input to server.
+04:46:56  623 Drawing cursor
+04:46:56  624 Client::eventHandler(): sending mouse input to server.
+04:46:56  624 Drawing cursor
+04:46:56  625 Client::eventHandler(): sending mouse input to server.
+04:46:56  625 Drawing cursor
+04:46:56  626 Client::eventHandler(): sending mouse input to server.
+04:46:56  626 Drawing cursor
+04:46:56  627 Client::eventHandler(): sending mouse input to server.
+04:46:56  627 Drawing cursor
+04:46:56  628 Client::eventHandler(): sending mouse input to server.
+04:46:56  628 Drawing cursor
+04:46:56  629 Client::eventHandler(): sending mouse input to server.
+04:46:56  629 Drawing cursor
+04:46:56  630 Client::eventHandler(): sending mouse input to server.
+04:46:56  630 Drawing cursor
+04:46:56  631 Client::eventHandler(): sending mouse input to server.
+04:46:56  631 Client::eventHandler(): sending mouse input to server.
+04:46:56  631 Drawing cursor
+04:46:56  632 Client::eventHandler(): sending mouse input to server.
+04:46:56  632 Drawing cursor
+04:46:56  633 Client::eventHandler(): sending mouse input to server.
+04:46:56  633 Drawing cursor
+04:46:56  634 Client::eventHandler(): sending mouse input to server.
+04:46:56  634 Client::eventHandler(): sending mouse input to server.
+04:46:56  634 Drawing cursor
+04:46:56  635 Client::eventHandler(): sending mouse input to server.
+04:46:56  635 Drawing cursor
+04:46:56  636 Client::eventHandler(): sending mouse input to server.
+04:46:56  636 Drawing cursor
+04:46:56  637 Client::eventHandler(): sending mouse input to server.
+04:46:56  637 Drawing cursor
+04:46:56  638 Client::eventHandler(): sending mouse input to server.
+04:46:56  638 Drawing cursor
+04:46:56  639 Client::eventHandler(): sending mouse input to server.
+04:46:56  639 Drawing cursor
+04:46:56  640 Drawing cursor
+04:46:56  641 Drawing cursor
+04:46:56  642 Drawing cursor
+04:46:56  643 Drawing cursor
+04:46:56  644 Drawing cursor
+04:46:56  645 Client::eventHandler(): sending mouse input to server.
+04:46:56  645 Drawing cursor
+04:46:56  646 Client::eventHandler(): sending mouse input to server.
+04:46:56  646 Drawing cursor
+04:46:56  647 Drawing cursor
+04:46:56  648 Client::eventHandler(): sending mouse input to server.
+04:46:56  648 Drawing cursor
+04:46:57  649 Client::eventHandler(): sending mouse input to server.
+04:46:57  649 Drawing cursor
+04:46:57  650 Drawing cursor
+04:46:57  651 Drawing cursor
+04:46:57  652 Client::eventHandler(): sending mouse input to server.
+04:46:57  652 Drawing cursor
+04:46:57  653 Client::eventHandler(): sending mouse input to server.
+04:46:57  653 Drawing cursor
+04:46:57  654 Drawing cursor
+04:46:57  655 Drawing cursor
+04:46:57  656 Drawing cursor
+04:46:57  657 Drawing cursor
+04:46:57  658 Client::eventHandler(): sending mouse input to server.
+04:46:57  658 Drawing cursor
+04:46:57  659 Client::eventHandler(): sending mouse input to server.
+04:46:57  659 Drawing cursor
+04:46:57  660 Drawing cursor
+04:46:57  661 Drawing cursor
+04:46:57  662 Drawing cursor
+04:46:57  663 Client::eventHandler(): sending mouse input to server.
+04:46:57  663 Client::eventHandler(): sending mouse input to server.
+04:46:57  663 Drawing cursor
+04:46:57  664 Client::eventHandler(): sending mouse input to server.
+04:46:57  664 Client::eventHandler(): sending mouse input to server.
+04:46:57  664 Drawing cursor
+04:46:57  665 Drawing cursor
+04:46:57  666 Drawing cursor
+04:46:57  667 Drawing cursor
+04:46:57  668 Drawing cursor
+04:46:57  669 Client::eventHandler(): sending mouse input to server.
+04:46:57  669 Drawing cursor
+04:46:57  670 Client::eventHandler(): sending mouse input to server.
+04:46:57  670 Drawing cursor
+04:46:57  671 Client::eventHandler(): sending mouse input to server.
+04:46:57  671 Drawing cursor
+04:46:57  672 Client::eventHandler(): sending mouse input to server.
+04:46:57  672 Client::eventHandler(): sending mouse input to server.
+04:46:57  672 Drawing cursor
+04:46:57  673 Drawing cursor
+04:46:57  674 Drawing cursor
+04:46:57  675 Drawing cursor
+04:46:57  676 Drawing cursor
+04:46:57  677 Drawing cursor
+04:46:57  678 Drawing cursor
+04:46:58  679 Drawing cursor
+04:46:58  680 Drawing cursor
+04:46:58  681 Drawing cursor
+04:46:58  682 Drawing cursor
+04:46:58  683 Drawing cursor
+04:46:58  684 Drawing cursor
+04:46:58  685 Drawing cursor
+04:46:58  686 Drawing cursor
+04:46:58  687 Drawing cursor
+04:46:58  688 Drawing cursor
+04:46:58  689 Drawing cursor
+04:46:58  690 Drawing cursor
+04:46:58  691 Drawing cursor
+04:46:58  692 Drawing cursor
+04:46:58  693 Drawing cursor
+04:46:58  694 Drawing cursor
+04:46:58  695 Drawing cursor
+04:46:58  696 Drawing cursor
+04:46:58  697 Drawing cursor
+04:46:58  698 Drawing cursor
+04:46:58  699 Drawing cursor
+04:46:58  700 Drawing cursor
+04:46:58  701 Drawing cursor
+04:46:58  702 Drawing cursor
+04:46:58  703 Drawing cursor
+04:46:58  704 Drawing cursor
+04:46:58  705 Drawing cursor
+04:46:58  706 Drawing cursor
+04:46:58  707 Drawing cursor
+04:46:58  708 Drawing cursor
+04:46:59  709 Drawing cursor
+04:46:59  710 Drawing cursor
+04:46:59  711 Drawing cursor
+04:46:59  712 Drawing cursor
+04:46:59  713 Drawing cursor
+04:46:59  714 Client::createObject(): creating object type 'Hero'
+04:46:59  714 Hero::deserialize()
+04:46:59  714 Hero::deserialize(): is_predicted is 1
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 30
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 30
+04:46:59  714 Weapon::deserialize(): ammo_backup is 90
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 10
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 10
+04:46:59  714 Weapon::deserialize(): ammo_backup is 30
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 1
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 1
+04:46:59  714 Weapon::deserialize(): ammo_backup is 30
+04:46:59  714 Client::createObject(): creating object type 'Hero'
+04:46:59  714 Hero::deserialize()
+04:46:59  714 Hero::deserialize(): is_predicted is 1
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): fire_count_down is 3
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 30
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 29
+04:46:59  714 Weapon::deserialize(): updated current target to (118.875000,34.222198)
+04:46:59  714 Weapon::deserialize(): ammo_backup is 90
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 10
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 10
+04:46:59  714 Weapon::deserialize(): ammo_backup is 30
+04:46:59  714 Weapon::deserialize()
+04:46:59  714 Weapon::deserialize(): current ammo_loaded is 1
+04:46:59  714 Weapon::deserialize(): new ammo_loaded is 1
+04:46:59  714 Weapon::deserialize(): ammo_backup is 30
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Platform'
+04:46:59  714 Client::createObject(): creating object type 'Bullet'
+04:46:59  715 Reticle received mouse event
+04:46:59  715 Client following hero id 20
+04:46:59  715 Hero is predicted
+04:46:59  715 Reticle received step event
+04:46:59  715 Hero::deserialize()

@@ -13,10 +13,11 @@ Level1::Level1() : Level("level_1") {
 }
 
 void Level1::levelLogic() {
-	//df::ObjectList hero_list = WM.objectsOfType("Hero");
+	df::ObjectList hero_list = WM.objectsOfType("Hero");
 //df::ObjectListIterator i(&hero_list);
 //i.first();
 //hero = (Hero *) i.currentObject();
+	int scale = hero_list.getCount();
 
 	float x = hero->getPosition().getX();
 	if ((0 <= x) && (x <= 263)) {
@@ -31,13 +32,13 @@ void Level1::levelLogic() {
 
 	if (progress == 1) {
 		int i = (GM.getStepCount() - start_frame) % 180;
-		//if ((i == 0) ||
-		//	(i == 5) ||
-		//	(i == 10) ||
-		//	(i == 15) ||
-		//	(i == 20)) {
-		if (i == 0) {
-			Saucer *saucer = new Saucer(15, 5, 0, 3, 1);
+		if ((i == 0) ||
+			(i == 5) ||
+			(i == 10) ||
+			(i == 15) ||
+			(i == 20)) {
+		//if (i == 0) {
+			Saucer *saucer = new Saucer(20*scale, 5, 0, 3, 1);
 			//df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 			df::Vector spawnPos(hero->viewPositionOnHero().getX() + WM.getView().getHorizontal(), 30);
 			saucer->setPosition(spawnPos);
@@ -54,7 +55,7 @@ void Level1::levelLogic() {
 			(i == 28) ||
 			(i == 33) ||
 			(i == 38)) {
-			Saucer *saucer = new Saucer(15, 5, 0, 1, 2);
+			Saucer *saucer = new Saucer(20*scale, 5, 0, 1, 2);
 			spawnPos += df::Vector(0, (i - 18) * 3 / 5);
 			saucer->setPosition(spawnPos);
 			saucer->markStart();
@@ -64,10 +65,10 @@ void Level1::levelLogic() {
 		if (!bossSpawned) {
 			RM.getMusic("music_theme")->stop();
 			RM.getMusic("music_boss")->play();
-			boss = new Boss(1100);
+			boss = new Boss(1100*scale);
 			boss->setPosition(df::Vector(700, 35.0f));
-			boss->createWeakPoint(df::Vector(-8.0f, -10.0f), 5, 500);
-			boss->createWeakPoint(df::Vector(10.0f, -9.0f), 5, 500);
+			boss->createWeakPoint(df::Vector(-8.0f, -10.0f), 5, 500*scale);
+			boss->createWeakPoint(df::Vector(10.0f, -9.0f), 5, 500*scale);
 			bossSpawned = true;
 			start_frame = GM.getStepCount();
 		}
@@ -78,18 +79,22 @@ void Level1::levelLogic() {
 			//	levelComplete();
 			//}
 			if (saucerlist.remove(boss) != 0) {
-				progress = 4;
-				levelComplete();
+				df::ObjectList go_list = WM.objectsOfType("GameOver");
+				if (go_list.isEmpty()) {
+					progress = 4;
+					levelComplete();
+				}
 			}
 			else {
-				int i = (GM.getStepCount() - start_frame) % 180;
+				int i = (GM.getStepCount() - start_frame) % 150;
 				//df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 				df::Vector spawnPos(hero->viewPositionOnHero().getX() + WM.getView().getHorizontal(), 30);
 
 				if ((i == 18) ||
 					(i == 23) ||
-					(i == 28)) {
-					Saucer *saucer = new Saucer(10, 3, 0, 1, 1);
+					(i == 28) ||
+					(i == 33)) {
+					Saucer *saucer = new Saucer(14*scale, 3, 0, 1, 1);
 					spawnPos += df::Vector(0, (i - 18) * 3 / 5);
 					saucer->setPosition(spawnPos);
 					saucer->markStart();

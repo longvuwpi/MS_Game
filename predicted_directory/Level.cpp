@@ -8,6 +8,7 @@
 #include "LogManager.h"
 #include "ObjectList.h"
 #include "EventMouse.h"
+#include "NetworkManager.h"
 
 //Game code includes
 #include "Level.h"
@@ -15,7 +16,8 @@
 #include "Saucer.h"
 //#include "AmmoRefill.h"
 #include "Boss.h"
-//#include "GameOver.h"
+#include "GameOver.h"
+#include "Server.h"
 
 Level::Level(std::string level_name) {
 	setType("Level");
@@ -32,12 +34,26 @@ Level::Level(std::string level_name) {
 	started = false;
 	start_frame = 0;
 	setId(100);
+	df::Object::max_id = 100;
+	LM.writeLog("\n\n*******\nNew level object created\n*******\n");
 }
 
 Level::Level() {
 	setType("Level");
 	setSolidness(df::SPECTRAL);
 	setId(100);
+	df::Object::max_id = 100;
+	LM.writeLog("\n\n*******\nNew level object created\n*******\n");
+}
+
+Level::~Level() {
+	if (NM.isServer()) {
+		df::ObjectList ol = WM.objectsOfType("Server");
+		df::ObjectListIterator oli(&ol);
+		oli.first();
+		Server *server = (Server *)oli.currentObject();
+		server->sendMessage(df::DELETE_OBJECT, this);
+	}
 }
 
 void Level::start() {
@@ -115,6 +131,9 @@ void Level::step() {
 			//Check if hero fell off the platforms
 			levelLogic();
 		}
+		else {
+			hero = NULL;
+		}
 	}
 }
 
@@ -125,11 +144,21 @@ void Level::initialize() {
 }
 
 void Level::levelComplete() {
-	//GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), true);
+	GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), true);
 }
 
 void Level::draw() {
 	if (!started) {
 		df::Object::draw();
 	}
+}
+
+df::Vector Level::getTrackedHeroPos() {
+	if (hero != NULL) return hero->getPosition();
+	else return df::Vector(0, 0);
+}
+
+df::Vector Level::getTrackedHeroViewPos() {
+	if (hero != NULL) return hero->viewPositionOnHero();
+	else return df::Vector(0, 0);
 }

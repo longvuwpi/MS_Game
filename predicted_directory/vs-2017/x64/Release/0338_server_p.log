@@ -1,0 +1,2272 @@
+03:38:53    0 ****************************************************
+03:38:53    0 ** Dragonfly version 4.12 **
+03:38:54    0 Hello, Network! (v1.2)
+03:38:54    0 0338_server_p.log
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_select.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_select.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'level_select' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/gamestart-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'gamestart' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/gameover-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'gameover' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_won.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_won.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'level_won' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_intro.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_intro.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'level_intro' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/level_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/level_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'level_1' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/saucer-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'saucer' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ship-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'ship' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/boss.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'boss' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/boss-weakpoint.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/boss-weakpoint.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'boss-weakpoint' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'AK47' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/awp.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'AWP' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade-launcher.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade-launcher.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ak47_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ak47_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'AK47_bullet' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/awp_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/awp_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'AWP_bullet' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/grenade_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/grenade_bullet.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'GrenadeLauncher_bullet' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet_trail.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/bullet_trail.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'bullet_trail' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/explosion-spr.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'explosion' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/nuke.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/nuke.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'nuke' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-walk_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/character-walk_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'character-walk' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/character-duck.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/character-duck.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'character-duck' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/platform.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/platform.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'platform' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/refill-ammo.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/refill-ammo.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'ammo-refill' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_1' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_2' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_3' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_4' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_5' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_6' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_7' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/intro/small.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/intro/small.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'intro_small' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_0' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_1' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_2' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_3' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_4' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_5' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_6' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_7' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_8' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/green_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/green_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'green_9' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_0' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_1' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_2' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_3' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_4' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_5' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_6' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_7' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_8' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/red_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/red_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'red_9' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_0.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_0' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_1.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_1' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_2.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_2' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_3.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_3' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_4.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_4' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_5.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_5' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_6.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_6' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_7.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_7' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_8.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_8' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/yellow_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/yellow_9.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'yellow_9' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/number_font/slash.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/number_font/slash.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'slash' successfully loaded
+03:38:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/ammo_display.txt'
+03:38:54    0 ResourceManager::loadSprite(): Opened file 'sprites/ammo_display.txt'
+03:38:54    0 ResourceManager::loadSprite(): Sprite 'ammo_display' successfully loaded
+03:38:54    0 ResourceManager::loadSound(): Sound 'AK47_fire' successfully loaded
+03:38:54    0 ResourceManager::loadSound(): Sound 'AWP_fire' successfully loaded
+03:38:55    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_fire' successfully loaded
+03:38:55    0 ResourceManager::loadSound(): Sound 'ammo_empty' successfully loaded
+03:38:55    0 ResourceManager::loadSound(): Sound 'AK47_reload' successfully loaded
+03:38:55    0 ResourceManager::loadSound(): Sound 'AWP_reload' successfully loaded
+03:38:55    0 ResourceManager::loadSound(): Sound 'GrenadeLauncher_reload' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'awp_bolt' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'pickup1' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'pickup2' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'explode' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'nuke' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'saucer_death' successfully loaded
+03:38:56    0 ResourceManager::loadSound(): Sound 'game over' successfully loaded
+03:38:57    0 ResourceManager::loadSound(): Sound 'level_won' successfully loaded
+03:38:57    0 ResourceManager::loadMusic(): Music 'start music' successfully loaded
+03:38:57    0 ResourceManager::loadMusic(): Music 'music_theme' successfully loaded
+03:38:57    0 ResourceManager::loadMusic(): Music 'music_boss' successfully loaded
+03:38:57    0 GameManager::run(): starting game loop
+03:39:00   90 GameManager::run(): end of game loop
+03:39:00   90 NetworkManager::setServer(): Ready for connections on port 9876.
+03:39:00   90 Server::Server(): Setup for 3 connections.
+03:39:00   90 Server::Server(): Server started
+03:39:00   90 GameManager::run(): starting game loop
+03:39:10  322 NetworkManager::accept(): New connection.
+03:39:10  322 Server::handleAccept(): server now connected socket: 0
+03:39:10  322 Server::eventHandler(): sending hero id message: '20'
+03:39:10  323 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  324 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  325 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  326 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  327 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  328 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  329 Server::doSync(): SYNC GameStart (id 4).
+03:39:10  330 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  331 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  332 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  333 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  334 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  335 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  336 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  337 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  338 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  339 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  340 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  341 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  342 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  343 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  344 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  345 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  346 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  347 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  348 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  349 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  350 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  351 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  352 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  353 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  354 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  355 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  356 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  357 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  358 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  359 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  360 Server::doSync(): SYNC GameStart (id 4).
+03:39:11  361 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  362 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  363 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  364 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  365 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  366 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  367 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  368 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  369 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  370 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  371 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  372 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  373 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  374 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  375 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  376 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  377 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  378 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  379 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  380 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  381 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  382 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  383 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  384 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  385 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  386 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  387 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  388 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  389 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  390 Server::doSync(): SYNC GameStart (id 4).
+03:39:12  391 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  392 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  393 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  394 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  395 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  396 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  397 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  398 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  399 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  400 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  401 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  402 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  403 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  404 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  405 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  406 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  407 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  408 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  409 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  410 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  411 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  412 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  413 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  414 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  415 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  416 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  417 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  418 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  419 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  420 Server::doSync(): SYNC GameStart (id 4).
+03:39:13  421 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  422 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  423 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  424 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  425 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  426 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  427 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  428 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  429 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  430 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  431 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  432 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  433 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  434 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  435 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  436 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  437 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  438 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  439 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  440 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  441 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  442 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  443 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  444 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  445 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  446 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  447 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  448 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  449 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  450 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  451 Server::doSync(): SYNC GameStart (id 4).
+03:39:14  452 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  453 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  454 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  455 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  456 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  457 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  458 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  459 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  460 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  461 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  462 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  463 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  464 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  465 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  466 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  467 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  468 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  469 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  470 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  471 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  472 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  473 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  474 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  475 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  476 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  477 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  478 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  479 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  480 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  481 Server::doSync(): SYNC GameStart (id 4).
+03:39:15  482 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  483 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  484 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  485 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  486 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  487 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  488 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  489 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  490 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  491 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  492 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  493 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  494 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  495 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  496 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  497 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  498 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  499 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  500 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  501 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  502 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  503 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  504 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  505 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  506 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  507 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  508 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  509 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  510 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  511 Server::doSync(): SYNC GameStart (id 4).
+03:39:16  512 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  513 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  514 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  515 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  516 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  517 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  518 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  519 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  520 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  521 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  522 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  523 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  524 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  525 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  526 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  527 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  528 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  529 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  530 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  531 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  532 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  533 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  534 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  535 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  536 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  537 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  538 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  539 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  540 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  541 Server::doSync(): SYNC GameStart (id 4).
+03:39:17  542 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  543 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  544 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  545 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  546 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  547 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  548 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  549 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  550 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  551 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  552 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  553 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  554 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  555 Server::doSync(): SYNC GameStart (id 4).
+03:39:18  556 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  557 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  558 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  559 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  560 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  561 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  562 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  563 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  564 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  565 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  566 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  567 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  568 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  569 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  570 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  571 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  572 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  573 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  574 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  575 Server::doSync(): SYNC GameStart (id 4).
+03:39:19  576 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  577 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  578 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  579 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  580 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  581 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  582 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  583 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  584 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  585 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  586 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  587 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  588 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  589 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  590 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  591 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  592 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  593 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  594 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  595 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  596 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  597 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  598 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  599 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  600 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  601 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  602 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  603 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  604 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  605 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  606 Server::doSync(): SYNC GameStart (id 4).
+03:39:20  607 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  608 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  609 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  610 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  611 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  612 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  613 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  614 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  615 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  616 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  617 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  618 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  619 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  620 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  621 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  622 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  623 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  624 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  625 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  626 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  627 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  628 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  629 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  630 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  631 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  632 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  633 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  634 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  635 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  636 Server::doSync(): SYNC GameStart (id 4).
+03:39:21  637 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  638 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  639 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  640 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  641 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  642 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  643 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  644 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  645 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  646 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  647 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  648 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  649 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  650 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  651 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  652 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  653 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  654 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  655 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  656 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  657 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  658 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  659 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  660 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  661 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  662 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  663 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  664 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  665 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  666 Server::doSync(): SYNC GameStart (id 4).
+03:39:22  667 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  668 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  669 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  670 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  671 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  672 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  673 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  674 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  675 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  676 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  677 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  678 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  679 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  680 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  681 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  682 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  683 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  684 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  685 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  686 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  687 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  688 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  689 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  690 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  691 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  692 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  693 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  694 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  695 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  696 Server::doSync(): SYNC GameStart (id 4).
+03:39:23  697 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  698 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  699 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  700 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  701 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  702 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  703 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  704 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  705 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  706 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  707 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  708 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  709 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  710 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  711 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  712 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  713 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  714 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  715 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  716 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  717 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  718 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  719 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  720 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  721 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  722 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  723 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  724 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  725 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  726 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  727 Server::doSync(): SYNC GameStart (id 4).
+03:39:24  728 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  729 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  730 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  731 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  732 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  733 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  734 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  735 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  736 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  737 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  738 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  739 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  740 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  741 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  742 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  743 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  744 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  745 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  746 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  747 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  748 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  749 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  750 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  751 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  752 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  753 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  754 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  755 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  756 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  757 Server::doSync(): SYNC GameStart (id 4).
+03:39:25  758 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  759 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  760 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  761 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  762 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  763 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  764 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  765 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  766 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  767 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  768 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  769 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  770 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  771 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  772 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  773 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  774 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  775 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  776 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  777 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  778 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  779 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  780 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  781 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  782 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  783 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  784 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  785 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  786 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  787 Server::doSync(): SYNC GameStart (id 4).
+03:39:26  788 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  789 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  790 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  791 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  792 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  793 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  794 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  795 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  796 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  797 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  798 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  799 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  800 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  801 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  802 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  803 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  804 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  805 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  806 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  807 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  808 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  809 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  810 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  811 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  812 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  813 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  814 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  815 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  816 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  817 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  818 Server::doSync(): SYNC GameStart (id 4).
+03:39:27  819 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  820 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  821 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  822 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  823 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  824 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  825 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  826 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  827 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  828 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  829 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  830 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  831 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  832 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  833 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  834 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  835 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  836 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  837 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  838 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  839 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  840 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  841 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  842 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  843 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  844 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  845 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  846 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  847 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  848 Server::doSync(): SYNC GameStart (id 4).
+03:39:28  849 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  850 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  851 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  852 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  853 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  854 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  855 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  856 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  857 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  858 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  859 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  860 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  861 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  862 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  863 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  864 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  865 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  866 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  867 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  868 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  869 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  870 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  871 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  872 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  873 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  874 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  875 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  876 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  877 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  878 Server::doSync(): SYNC GameStart (id 4).
+03:39:29  879 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  880 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  881 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  882 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  883 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  884 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  885 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  886 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  887 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  888 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  889 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  890 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  891 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  892 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  893 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  894 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  895 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  896 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  897 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  898 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  899 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  900 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  901 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  902 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  903 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  904 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  905 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  906 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  907 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  908 Server::doSync(): SYNC GameStart (id 4).
+03:39:30  909 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  910 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  911 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  912 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  913 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  914 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  915 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  916 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  917 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  918 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  919 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  920 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  921 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  922 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  923 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  924 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  925 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  926 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  927 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  928 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  929 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  930 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  931 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  932 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  933 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  934 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  935 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  936 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  937 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  938 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  939 Server::doSync(): SYNC GameStart (id 4).
+03:39:31  940 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  941 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  942 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  943 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  944 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  945 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  946 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  947 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  948 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  949 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  950 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  951 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  952 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  953 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  954 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  955 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  956 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  957 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  958 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  959 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  960 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  961 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  962 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  963 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  964 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  965 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  966 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  967 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  968 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  969 Server::doSync(): SYNC GameStart (id 4).
+03:39:32  970 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  971 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  972 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  973 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  974 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  975 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  976 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  977 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  978 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  979 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  980 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  981 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  982 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  983 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  984 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  985 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  986 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  987 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  988 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  989 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  990 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  991 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  992 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  993 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  994 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  995 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  996 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  997 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  998 Server::doSync(): SYNC GameStart (id 4).
+03:39:33  999 Server::doSync(): SYNC GameStart (id 4).
+03:39:33 1000 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1001 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1002 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1003 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1004 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1005 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1006 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1007 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1008 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1009 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1010 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1011 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1012 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1013 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1014 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1015 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1016 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1017 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1018 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1019 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1020 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1021 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1022 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1023 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1024 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1025 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1026 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1027 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1028 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1029 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1030 Server::doSync(): SYNC GameStart (id 4).
+03:39:34 1031 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1032 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1033 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1034 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1035 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1036 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1037 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1038 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1039 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1040 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1041 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1042 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1043 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1044 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1045 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1046 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1047 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1048 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1049 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1050 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1051 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1052 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1053 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1054 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1055 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1056 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1057 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1058 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1059 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1060 Server::doSync(): SYNC GameStart (id 4).
+03:39:35 1061 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1062 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1063 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1064 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1065 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1066 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1067 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1068 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1069 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1070 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1071 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1072 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1073 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1074 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1075 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1076 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1077 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1078 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1079 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1080 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1081 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1082 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1083 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1084 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1085 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1086 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1087 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1088 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1089 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1090 Server::doSync(): SYNC GameStart (id 4).
+03:39:36 1091 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1092 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1093 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1094 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1095 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1096 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1097 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1098 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1099 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1100 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1101 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1102 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1103 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1104 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1105 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1106 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1107 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1108 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1109 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1110 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1111 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1112 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1113 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1114 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1115 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1116 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1117 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1118 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1119 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1120 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1121 Server::doSync(): SYNC GameStart (id 4).
+03:39:37 1122 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1123 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1124 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1125 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1126 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1127 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1128 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1129 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1130 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1131 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1132 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1133 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1134 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1135 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1136 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1137 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1138 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1139 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1140 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1141 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1142 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1143 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1144 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1145 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1146 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1147 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1148 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1149 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1150 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1151 Server::doSync(): SYNC GameStart (id 4).
+03:39:38 1152 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1153 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1154 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1155 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1156 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1157 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1158 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1159 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1160 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1161 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1162 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1163 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1164 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1165 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1166 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1167 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1168 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1169 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1170 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1171 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1172 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1173 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1174 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1175 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1176 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1177 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1178 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1179 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1180 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1181 Server::doSync(): SYNC GameStart (id 4).
+03:39:39 1182 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1183 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1184 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1185 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1186 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1187 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1188 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1189 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1190 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1191 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1192 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1193 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1194 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1195 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1196 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1197 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1198 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1199 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1200 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1201 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1202 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1203 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1204 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1205 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1206 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1207 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1208 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1209 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1210 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1211 Server::doSync(): SYNC GameStart (id 4).
+03:39:40 1212 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1213 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1214 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1215 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1216 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1217 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1218 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1219 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1220 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1221 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1222 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1223 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1224 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1225 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1226 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1227 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1228 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1229 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1230 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1231 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1232 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1233 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1234 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1235 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1236 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1237 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1238 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1239 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1240 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1241 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1242 Server::doSync(): SYNC GameStart (id 4).
+03:39:41 1243 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1244 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1245 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1246 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1247 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1248 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1249 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1250 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1251 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1252 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1253 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1254 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1255 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1256 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1257 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1258 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1259 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1260 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1261 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1262 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1263 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1264 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1265 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1266 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1267 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1268 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1269 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1270 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1271 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1272 Server::doSync(): SYNC GameStart (id 4).
+03:39:42 1273 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1274 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1275 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1276 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1277 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1278 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1279 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1280 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1281 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1282 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1283 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1284 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1285 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1286 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1287 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1288 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1289 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1290 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1291 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1292 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1293 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1294 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1295 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1296 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1297 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1298 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1299 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1300 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1301 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1302 Server::doSync(): SYNC GameStart (id 4).
+03:39:43 1303 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1304 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1305 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1306 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1307 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1308 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1309 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1310 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1311 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1312 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1313 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1314 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1315 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1316 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1317 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1318 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1319 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1320 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1321 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1322 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1323 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1324 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1325 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1326 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1327 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1328 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1329 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1330 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1331 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1332 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1333 Server::doSync(): SYNC GameStart (id 4).
+03:39:44 1334 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1335 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1336 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1337 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1338 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1339 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1340 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1341 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1342 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1343 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1344 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1345 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1346 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1347 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1348 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1349 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1350 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1351 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1352 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1353 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1354 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1355 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1356 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1357 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1358 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1359 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1360 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1361 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1362 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1363 Server::doSync(): SYNC GameStart (id 4).
+03:39:45 1364 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1365 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1366 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1367 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1368 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1369 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1370 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1371 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1372 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1373 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1374 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1375 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1376 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1377 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1378 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1379 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1380 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1381 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1382 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1383 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1384 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1385 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1386 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1387 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1388 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1389 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1390 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1391 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1392 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1393 Server::doSync(): SYNC GameStart (id 4).
+03:39:46 1394 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1395 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1396 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1397 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1398 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1399 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1400 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1401 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1402 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1403 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1404 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1405 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1406 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1407 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1408 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1409 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1410 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1411 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1412 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1413 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1414 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1415 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1416 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1417 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1418 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1419 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1420 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1421 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1422 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1423 Server::doSync(): SYNC GameStart (id 4).
+03:39:47 1424 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1425 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1426 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1427 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1428 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1429 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1430 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1431 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1432 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1433 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1434 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1435 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1436 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1437 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1438 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1439 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1440 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1441 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1442 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1443 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1444 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1445 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1446 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1447 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1448 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1449 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1450 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1451 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1452 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1453 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1454 Server::doSync(): SYNC GameStart (id 4).
+03:39:48 1455 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1456 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1457 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1458 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1459 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1460 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1461 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1462 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1463 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1464 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1465 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1466 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1467 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1468 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1469 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1470 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1471 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1472 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1473 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1474 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1475 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1476 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1477 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1478 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1479 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1480 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1481 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1482 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1483 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1484 Server::doSync(): SYNC GameStart (id 4).
+03:39:49 1485 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1486 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1487 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1488 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1489 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1490 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1491 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1492 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1493 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1494 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1495 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1496 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1497 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1498 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1499 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1500 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1501 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1502 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1503 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1504 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1505 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1506 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1507 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1508 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1509 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1510 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1511 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1512 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1513 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1514 Server::doSync(): SYNC GameStart (id 4).
+03:39:50 1515 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1516 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1517 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1518 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1519 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1520 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1521 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1522 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1523 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1524 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1525 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1526 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1527 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1528 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1529 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1530 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1531 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1532 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1533 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1534 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1535 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1536 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1537 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1538 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1539 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1540 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1541 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1542 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1543 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1544 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1545 Server::doSync(): SYNC GameStart (id 4).
+03:39:51 1546 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1547 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1548 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1549 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1550 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1551 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1552 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1553 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1554 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1555 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1556 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1557 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1558 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1559 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1560 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1561 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1562 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1563 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1564 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1565 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1566 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1567 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1568 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1569 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1570 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1571 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1572 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1573 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1574 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1575 Server::doSync(): SYNC GameStart (id 4).
+03:39:52 1576 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1577 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1578 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1579 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1580 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1581 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1582 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1583 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1584 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1585 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1586 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1587 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1588 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1589 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1590 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1591 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1592 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1593 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1594 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1595 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1596 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1597 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1598 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1599 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1600 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1601 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1602 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1603 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1604 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1605 Server::doSync(): SYNC GameStart (id 4).
+03:39:53 1606 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1607 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1608 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1609 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1610 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1611 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1612 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1613 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1614 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1615 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1616 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1617 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1618 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1619 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1620 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1621 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1622 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1623 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1624 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1625 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1626 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1627 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1628 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1629 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1630 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1631 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1632 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1633 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1634 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1635 Server::doSync(): SYNC GameStart (id 4).
+03:39:54 1636 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1637 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1638 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1639 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1640 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1641 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1642 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1643 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1644 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1645 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1646 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1647 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1648 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1649 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1650 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1651 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1652 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1653 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1654 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1655 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1656 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1657 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1658 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1659 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1660 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1661 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1662 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1663 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1664 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1665 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1666 Server::doSync(): SYNC GameStart (id 4).
+03:39:55 1667 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1668 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1669 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1670 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1671 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1672 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1673 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1674 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1675 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1676 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1677 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1678 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1679 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1680 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1681 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1682 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1683 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1684 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1685 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1686 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1687 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1688 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1689 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1690 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1691 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1692 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1693 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1694 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1695 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1696 Server::doSync(): SYNC GameStart (id 4).
+03:39:56 1697 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1698 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1699 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1700 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1701 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1702 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1703 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1704 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1705 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1706 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1707 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1708 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1709 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1710 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1711 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1712 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1713 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1714 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1715 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1716 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1717 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1718 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1719 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1720 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1721 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1722 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1723 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1724 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1725 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1726 Server::doSync(): SYNC GameStart (id 4).
+03:39:57 1727 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1728 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1729 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1730 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1731 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1732 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1733 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1734 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1735 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1736 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1737 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1738 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1739 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1740 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1741 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1741 NetworkManager::send(): Error! send() returned:
+03:39:58 1741 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1741 NetworkNode::sendMessage(): Error sending!
+03:39:58 1741 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1741 NetworkManager::send(): Error! send() returned:
+03:39:58 1741 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1741 NetworkNode::sendMessage(): Error sending!
+03:39:58 1742 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1742 NetworkManager::send(): Error! send() returned:
+03:39:58 1742 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1742 NetworkNode::sendMessage(): Error sending!
+03:39:58 1742 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1742 NetworkManager::send(): Error! send() returned:
+03:39:58 1742 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1742 NetworkNode::sendMessage(): Error sending!
+03:39:58 1743 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1743 NetworkManager::send(): Error! send() returned:
+03:39:58 1743 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1743 NetworkNode::sendMessage(): Error sending!
+03:39:58 1743 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1743 NetworkManager::send(): Error! send() returned:
+03:39:58 1743 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1743 NetworkNode::sendMessage(): Error sending!
+03:39:58 1744 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1744 NetworkManager::send(): Error! send() returned:
+03:39:58 1744 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1744 NetworkNode::sendMessage(): Error sending!
+03:39:58 1744 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1744 NetworkManager::send(): Error! send() returned:
+03:39:58 1744 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1744 NetworkNode::sendMessage(): Error sending!
+03:39:58 1745 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1745 NetworkManager::send(): Error! send() returned:
+03:39:58 1745 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1745 NetworkNode::sendMessage(): Error sending!
+03:39:58 1745 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1745 NetworkManager::send(): Error! send() returned:
+03:39:58 1745 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1745 NetworkNode::sendMessage(): Error sending!
+03:39:58 1746 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1746 NetworkManager::send(): Error! send() returned:
+03:39:58 1746 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1746 NetworkNode::sendMessage(): Error sending!
+03:39:58 1746 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1746 NetworkManager::send(): Error! send() returned:
+03:39:58 1746 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1746 NetworkNode::sendMessage(): Error sending!
+03:39:58 1747 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1747 NetworkManager::send(): Error! send() returned:
+03:39:58 1747 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1747 NetworkNode::sendMessage(): Error sending!
+03:39:58 1747 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1747 NetworkManager::send(): Error! send() returned:
+03:39:58 1747 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1747 NetworkNode::sendMessage(): Error sending!
+03:39:58 1748 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1748 NetworkManager::send(): Error! send() returned:
+03:39:58 1748 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1748 NetworkNode::sendMessage(): Error sending!
+03:39:58 1748 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1748 NetworkManager::send(): Error! send() returned:
+03:39:58 1748 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1748 NetworkNode::sendMessage(): Error sending!
+03:39:58 1749 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1749 NetworkManager::send(): Error! send() returned:
+03:39:58 1749 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1749 NetworkNode::sendMessage(): Error sending!
+03:39:58 1749 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1749 NetworkManager::send(): Error! send() returned:
+03:39:58 1749 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1749 NetworkNode::sendMessage(): Error sending!
+03:39:58 1750 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1750 NetworkManager::send(): Error! send() returned:
+03:39:58 1750 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1750 NetworkNode::sendMessage(): Error sending!
+03:39:58 1750 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1750 NetworkManager::send(): Error! send() returned:
+03:39:58 1750 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1750 NetworkNode::sendMessage(): Error sending!
+03:39:58 1751 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1751 NetworkManager::send(): Error! send() returned:
+03:39:58 1751 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1751 NetworkNode::sendMessage(): Error sending!
+03:39:58 1751 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1751 NetworkManager::send(): Error! send() returned:
+03:39:58 1751 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1751 NetworkNode::sendMessage(): Error sending!
+03:39:58 1752 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1752 NetworkManager::send(): Error! send() returned:
+03:39:58 1752 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1752 NetworkNode::sendMessage(): Error sending!
+03:39:58 1752 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1752 NetworkManager::send(): Error! send() returned:
+03:39:58 1752 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1752 NetworkNode::sendMessage(): Error sending!
+03:39:58 1753 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1753 NetworkManager::send(): Error! send() returned:
+03:39:58 1753 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1753 NetworkNode::sendMessage(): Error sending!
+03:39:58 1753 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1753 NetworkManager::send(): Error! send() returned:
+03:39:58 1753 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1753 NetworkNode::sendMessage(): Error sending!
+03:39:58 1754 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1754 NetworkManager::send(): Error! send() returned:
+03:39:58 1754 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1754 NetworkNode::sendMessage(): Error sending!
+03:39:58 1754 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1754 NetworkManager::send(): Error! send() returned:
+03:39:58 1754 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1754 NetworkNode::sendMessage(): Error sending!
+03:39:58 1755 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1755 NetworkManager::send(): Error! send() returned:
+03:39:58 1755 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1755 NetworkNode::sendMessage(): Error sending!
+03:39:58 1755 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1755 NetworkManager::send(): Error! send() returned:
+03:39:58 1755 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1755 NetworkNode::sendMessage(): Error sending!
+03:39:58 1756 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1756 NetworkManager::send(): Error! send() returned:
+03:39:58 1756 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1756 NetworkNode::sendMessage(): Error sending!
+03:39:58 1756 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1756 NetworkManager::send(): Error! send() returned:
+03:39:58 1756 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1756 NetworkNode::sendMessage(): Error sending!
+03:39:58 1757 Server::doSync(): SYNC GameStart (id 4).
+03:39:58 1757 NetworkManager::send(): Error! send() returned:
+03:39:58 1757 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1757 NetworkNode::sendMessage(): Error sending!
+03:39:58 1757 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:58 1757 NetworkManager::send(): Error! send() returned:
+03:39:58 1757 	10053 - An established connection was aborted by the software in your host machine.
+03:39:58 1757 NetworkNode::sendMessage(): Error sending!
+03:39:59 1758 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1758 NetworkManager::send(): Error! send() returned:
+03:39:59 1758 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1758 NetworkNode::sendMessage(): Error sending!
+03:39:59 1758 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1758 NetworkManager::send(): Error! send() returned:
+03:39:59 1758 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1758 NetworkNode::sendMessage(): Error sending!
+03:39:59 1759 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1759 NetworkManager::send(): Error! send() returned:
+03:39:59 1759 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1759 NetworkNode::sendMessage(): Error sending!
+03:39:59 1759 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1759 NetworkManager::send(): Error! send() returned:
+03:39:59 1759 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1759 NetworkNode::sendMessage(): Error sending!
+03:39:59 1760 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1760 NetworkManager::send(): Error! send() returned:
+03:39:59 1760 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1760 NetworkNode::sendMessage(): Error sending!
+03:39:59 1760 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1760 NetworkManager::send(): Error! send() returned:
+03:39:59 1760 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1760 NetworkNode::sendMessage(): Error sending!
+03:39:59 1761 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1761 NetworkManager::send(): Error! send() returned:
+03:39:59 1761 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1761 NetworkNode::sendMessage(): Error sending!
+03:39:59 1761 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1761 NetworkManager::send(): Error! send() returned:
+03:39:59 1761 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1761 NetworkNode::sendMessage(): Error sending!
+03:39:59 1762 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1762 NetworkManager::send(): Error! send() returned:
+03:39:59 1762 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1762 NetworkNode::sendMessage(): Error sending!
+03:39:59 1762 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1762 NetworkManager::send(): Error! send() returned:
+03:39:59 1762 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1762 NetworkNode::sendMessage(): Error sending!
+03:39:59 1763 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1763 NetworkManager::send(): Error! send() returned:
+03:39:59 1763 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1763 NetworkNode::sendMessage(): Error sending!
+03:39:59 1763 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1763 NetworkManager::send(): Error! send() returned:
+03:39:59 1763 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1763 NetworkNode::sendMessage(): Error sending!
+03:39:59 1764 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1764 NetworkManager::send(): Error! send() returned:
+03:39:59 1764 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1764 NetworkNode::sendMessage(): Error sending!
+03:39:59 1764 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1764 NetworkManager::send(): Error! send() returned:
+03:39:59 1764 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1764 NetworkNode::sendMessage(): Error sending!
+03:39:59 1765 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1765 NetworkManager::send(): Error! send() returned:
+03:39:59 1765 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1765 NetworkNode::sendMessage(): Error sending!
+03:39:59 1765 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1765 NetworkManager::send(): Error! send() returned:
+03:39:59 1765 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1765 NetworkNode::sendMessage(): Error sending!
+03:39:59 1766 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1766 NetworkManager::send(): Error! send() returned:
+03:39:59 1766 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1766 NetworkNode::sendMessage(): Error sending!
+03:39:59 1766 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1766 NetworkManager::send(): Error! send() returned:
+03:39:59 1766 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1766 NetworkNode::sendMessage(): Error sending!
+03:39:59 1767 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1767 NetworkManager::send(): Error! send() returned:
+03:39:59 1767 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1767 NetworkNode::sendMessage(): Error sending!
+03:39:59 1767 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1767 NetworkManager::send(): Error! send() returned:
+03:39:59 1767 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1767 NetworkNode::sendMessage(): Error sending!
+03:39:59 1768 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1768 NetworkManager::send(): Error! send() returned:
+03:39:59 1768 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1768 NetworkNode::sendMessage(): Error sending!
+03:39:59 1768 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1768 NetworkManager::send(): Error! send() returned:
+03:39:59 1768 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1768 NetworkNode::sendMessage(): Error sending!
+03:39:59 1769 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1769 NetworkManager::send(): Error! send() returned:
+03:39:59 1769 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1769 NetworkNode::sendMessage(): Error sending!
+03:39:59 1769 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1769 NetworkManager::send(): Error! send() returned:
+03:39:59 1769 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1769 NetworkNode::sendMessage(): Error sending!
+03:39:59 1770 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1770 NetworkManager::send(): Error! send() returned:
+03:39:59 1770 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1770 NetworkNode::sendMessage(): Error sending!
+03:39:59 1770 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1770 NetworkManager::send(): Error! send() returned:
+03:39:59 1770 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1770 NetworkNode::sendMessage(): Error sending!
+03:39:59 1771 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1771 NetworkManager::send(): Error! send() returned:
+03:39:59 1771 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1771 NetworkNode::sendMessage(): Error sending!
+03:39:59 1771 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1771 NetworkManager::send(): Error! send() returned:
+03:39:59 1771 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1771 NetworkNode::sendMessage(): Error sending!
+03:39:59 1772 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1772 NetworkManager::send(): Error! send() returned:
+03:39:59 1772 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1772 NetworkNode::sendMessage(): Error sending!
+03:39:59 1772 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1772 NetworkManager::send(): Error! send() returned:
+03:39:59 1772 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1772 NetworkNode::sendMessage(): Error sending!
+03:39:59 1773 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1773 NetworkManager::send(): Error! send() returned:
+03:39:59 1773 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1773 NetworkNode::sendMessage(): Error sending!
+03:39:59 1773 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1773 NetworkManager::send(): Error! send() returned:
+03:39:59 1773 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1773 NetworkNode::sendMessage(): Error sending!
+03:39:59 1774 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1774 NetworkManager::send(): Error! send() returned:
+03:39:59 1774 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1774 NetworkNode::sendMessage(): Error sending!
+03:39:59 1774 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1774 NetworkManager::send(): Error! send() returned:
+03:39:59 1774 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1774 NetworkNode::sendMessage(): Error sending!
+03:39:59 1775 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1775 NetworkManager::send(): Error! send() returned:
+03:39:59 1775 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1775 NetworkNode::sendMessage(): Error sending!
+03:39:59 1775 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1775 NetworkManager::send(): Error! send() returned:
+03:39:59 1775 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1775 NetworkNode::sendMessage(): Error sending!
+03:39:59 1776 Server::doSync(): SYNC GameStart (id 4).
+03:39:59 1776 NetworkManager::send(): Error! send() returned:
+03:39:59 1776 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1776 NetworkNode::sendMessage(): Error sending!
+03:39:59 1776 Server::resending sync message(): SYNC GameStart (id 4).
+03:39:59 1776 NetworkManager::send(): Error! send() returned:
+03:39:59 1776 	10053 - An established connection was aborted by the software in your host machine.
+03:39:59 1776 NetworkNode::sendMessage(): Error sending!
+03:40:00 1777 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1777 NetworkManager::send(): Error! send() returned:
+03:40:00 1777 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1777 NetworkNode::sendMessage(): Error sending!
+03:40:00 1777 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1777 NetworkManager::send(): Error! send() returned:
+03:40:00 1777 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1777 NetworkNode::sendMessage(): Error sending!
+03:40:00 1778 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1778 NetworkManager::send(): Error! send() returned:
+03:40:00 1778 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1778 NetworkNode::sendMessage(): Error sending!
+03:40:00 1778 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1778 NetworkManager::send(): Error! send() returned:
+03:40:00 1778 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1778 NetworkNode::sendMessage(): Error sending!
+03:40:00 1779 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1779 NetworkManager::send(): Error! send() returned:
+03:40:00 1779 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1779 NetworkNode::sendMessage(): Error sending!
+03:40:00 1779 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1779 NetworkManager::send(): Error! send() returned:
+03:40:00 1779 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1779 NetworkNode::sendMessage(): Error sending!
+03:40:00 1780 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1780 NetworkManager::send(): Error! send() returned:
+03:40:00 1780 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1780 NetworkNode::sendMessage(): Error sending!
+03:40:00 1780 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1780 NetworkManager::send(): Error! send() returned:
+03:40:00 1780 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1780 NetworkNode::sendMessage(): Error sending!
+03:40:00 1781 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1781 NetworkManager::send(): Error! send() returned:
+03:40:00 1781 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1781 NetworkNode::sendMessage(): Error sending!
+03:40:00 1781 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1781 NetworkManager::send(): Error! send() returned:
+03:40:00 1781 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1781 NetworkNode::sendMessage(): Error sending!
+03:40:00 1782 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1782 NetworkManager::send(): Error! send() returned:
+03:40:00 1782 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1782 NetworkNode::sendMessage(): Error sending!
+03:40:00 1782 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1782 NetworkManager::send(): Error! send() returned:
+03:40:00 1782 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1782 NetworkNode::sendMessage(): Error sending!
+03:40:00 1783 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1783 NetworkManager::send(): Error! send() returned:
+03:40:00 1783 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1783 NetworkNode::sendMessage(): Error sending!
+03:40:00 1783 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1783 NetworkManager::send(): Error! send() returned:
+03:40:00 1783 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1783 NetworkNode::sendMessage(): Error sending!
+03:40:00 1784 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1784 NetworkManager::send(): Error! send() returned:
+03:40:00 1784 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1784 NetworkNode::sendMessage(): Error sending!
+03:40:00 1784 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1784 NetworkManager::send(): Error! send() returned:
+03:40:00 1784 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1784 NetworkNode::sendMessage(): Error sending!
+03:40:00 1785 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1785 NetworkManager::send(): Error! send() returned:
+03:40:00 1785 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1785 NetworkNode::sendMessage(): Error sending!
+03:40:00 1785 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1785 NetworkManager::send(): Error! send() returned:
+03:40:00 1785 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1785 NetworkNode::sendMessage(): Error sending!
+03:40:00 1786 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1786 NetworkManager::send(): Error! send() returned:
+03:40:00 1786 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1786 NetworkNode::sendMessage(): Error sending!
+03:40:00 1786 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1786 NetworkManager::send(): Error! send() returned:
+03:40:00 1786 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1786 NetworkNode::sendMessage(): Error sending!
+03:40:00 1787 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1787 NetworkManager::send(): Error! send() returned:
+03:40:00 1787 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1787 NetworkNode::sendMessage(): Error sending!
+03:40:00 1787 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1787 NetworkManager::send(): Error! send() returned:
+03:40:00 1787 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1787 NetworkNode::sendMessage(): Error sending!
+03:40:00 1788 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1788 NetworkManager::send(): Error! send() returned:
+03:40:00 1788 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1788 NetworkNode::sendMessage(): Error sending!
+03:40:00 1788 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1788 NetworkManager::send(): Error! send() returned:
+03:40:00 1788 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1788 NetworkNode::sendMessage(): Error sending!
+03:40:00 1789 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1789 NetworkManager::send(): Error! send() returned:
+03:40:00 1789 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1789 NetworkNode::sendMessage(): Error sending!
+03:40:00 1789 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1789 NetworkManager::send(): Error! send() returned:
+03:40:00 1789 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1789 NetworkNode::sendMessage(): Error sending!
+03:40:00 1790 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1790 NetworkManager::send(): Error! send() returned:
+03:40:00 1790 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1790 NetworkNode::sendMessage(): Error sending!
+03:40:00 1790 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1790 NetworkManager::send(): Error! send() returned:
+03:40:00 1790 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1790 NetworkNode::sendMessage(): Error sending!
+03:40:00 1791 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1791 NetworkManager::send(): Error! send() returned:
+03:40:00 1791 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1791 NetworkNode::sendMessage(): Error sending!
+03:40:00 1791 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1791 NetworkManager::send(): Error! send() returned:
+03:40:00 1791 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1791 NetworkNode::sendMessage(): Error sending!
+03:40:00 1792 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1792 NetworkManager::send(): Error! send() returned:
+03:40:00 1792 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1792 NetworkNode::sendMessage(): Error sending!
+03:40:00 1792 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1792 NetworkManager::send(): Error! send() returned:
+03:40:00 1792 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1792 NetworkNode::sendMessage(): Error sending!
+03:40:00 1793 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1793 NetworkManager::send(): Error! send() returned:
+03:40:00 1793 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1793 NetworkNode::sendMessage(): Error sending!
+03:40:00 1793 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1793 NetworkManager::send(): Error! send() returned:
+03:40:00 1793 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1793 NetworkNode::sendMessage(): Error sending!
+03:40:00 1794 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1794 NetworkManager::send(): Error! send() returned:
+03:40:00 1794 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1794 NetworkNode::sendMessage(): Error sending!
+03:40:00 1794 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1794 NetworkManager::send(): Error! send() returned:
+03:40:00 1794 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1794 NetworkNode::sendMessage(): Error sending!
+03:40:00 1795 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1795 NetworkManager::send(): Error! send() returned:
+03:40:00 1795 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1795 NetworkNode::sendMessage(): Error sending!
+03:40:00 1795 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1795 NetworkManager::send(): Error! send() returned:
+03:40:00 1795 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1795 NetworkNode::sendMessage(): Error sending!
+03:40:00 1796 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1796 NetworkManager::send(): Error! send() returned:
+03:40:00 1796 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1796 NetworkNode::sendMessage(): Error sending!
+03:40:00 1796 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1796 NetworkManager::send(): Error! send() returned:
+03:40:00 1796 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1796 NetworkNode::sendMessage(): Error sending!
+03:40:00 1797 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1797 NetworkManager::send(): Error! send() returned:
+03:40:00 1797 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1797 NetworkNode::sendMessage(): Error sending!
+03:40:00 1797 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1797 NetworkManager::send(): Error! send() returned:
+03:40:00 1797 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1797 NetworkNode::sendMessage(): Error sending!
+03:40:00 1798 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1798 NetworkManager::send(): Error! send() returned:
+03:40:00 1798 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1798 NetworkNode::sendMessage(): Error sending!
+03:40:00 1798 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1798 NetworkManager::send(): Error! send() returned:
+03:40:00 1798 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1798 NetworkNode::sendMessage(): Error sending!
+03:40:00 1799 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1799 NetworkManager::send(): Error! send() returned:
+03:40:00 1799 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1799 NetworkNode::sendMessage(): Error sending!
+03:40:00 1799 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1799 NetworkManager::send(): Error! send() returned:
+03:40:00 1799 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1799 NetworkNode::sendMessage(): Error sending!
+03:40:00 1800 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1800 NetworkManager::send(): Error! send() returned:
+03:40:00 1800 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1800 NetworkNode::sendMessage(): Error sending!
+03:40:00 1800 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1800 NetworkManager::send(): Error! send() returned:
+03:40:00 1800 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1800 NetworkNode::sendMessage(): Error sending!
+03:40:00 1801 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1801 NetworkManager::send(): Error! send() returned:
+03:40:00 1801 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1801 NetworkNode::sendMessage(): Error sending!
+03:40:00 1801 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1801 NetworkManager::send(): Error! send() returned:
+03:40:00 1801 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1801 NetworkNode::sendMessage(): Error sending!
+03:40:00 1802 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1802 NetworkManager::send(): Error! send() returned:
+03:40:00 1802 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1802 NetworkNode::sendMessage(): Error sending!
+03:40:00 1802 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1802 NetworkManager::send(): Error! send() returned:
+03:40:00 1802 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1802 NetworkNode::sendMessage(): Error sending!
+03:40:00 1803 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1803 NetworkManager::send(): Error! send() returned:
+03:40:00 1803 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1803 NetworkNode::sendMessage(): Error sending!
+03:40:00 1803 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1803 NetworkManager::send(): Error! send() returned:
+03:40:00 1803 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1803 NetworkNode::sendMessage(): Error sending!
+03:40:00 1804 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1804 NetworkManager::send(): Error! send() returned:
+03:40:00 1804 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1804 NetworkNode::sendMessage(): Error sending!
+03:40:00 1804 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1804 NetworkManager::send(): Error! send() returned:
+03:40:00 1804 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1804 NetworkNode::sendMessage(): Error sending!
+03:40:00 1805 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1805 NetworkManager::send(): Error! send() returned:
+03:40:00 1805 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1805 NetworkNode::sendMessage(): Error sending!
+03:40:00 1805 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1805 NetworkManager::send(): Error! send() returned:
+03:40:00 1805 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1805 NetworkNode::sendMessage(): Error sending!
+03:40:00 1806 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1806 NetworkManager::send(): Error! send() returned:
+03:40:00 1806 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1806 NetworkNode::sendMessage(): Error sending!
+03:40:00 1806 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1806 NetworkManager::send(): Error! send() returned:
+03:40:00 1806 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1806 NetworkNode::sendMessage(): Error sending!
+03:40:00 1807 Server::doSync(): SYNC GameStart (id 4).
+03:40:00 1807 NetworkManager::send(): Error! send() returned:
+03:40:00 1807 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1807 NetworkNode::sendMessage(): Error sending!
+03:40:00 1807 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:00 1807 NetworkManager::send(): Error! send() returned:
+03:40:00 1807 	10053 - An established connection was aborted by the software in your host machine.
+03:40:00 1807 NetworkNode::sendMessage(): Error sending!
+03:40:01 1808 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1808 NetworkManager::send(): Error! send() returned:
+03:40:01 1808 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1808 NetworkNode::sendMessage(): Error sending!
+03:40:01 1808 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1808 NetworkManager::send(): Error! send() returned:
+03:40:01 1808 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1808 NetworkNode::sendMessage(): Error sending!
+03:40:01 1809 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1809 NetworkManager::send(): Error! send() returned:
+03:40:01 1809 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1809 NetworkNode::sendMessage(): Error sending!
+03:40:01 1809 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1809 NetworkManager::send(): Error! send() returned:
+03:40:01 1809 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1809 NetworkNode::sendMessage(): Error sending!
+03:40:01 1810 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1810 NetworkManager::send(): Error! send() returned:
+03:40:01 1810 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1810 NetworkNode::sendMessage(): Error sending!
+03:40:01 1810 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1810 NetworkManager::send(): Error! send() returned:
+03:40:01 1810 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1810 NetworkNode::sendMessage(): Error sending!
+03:40:01 1811 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1811 NetworkManager::send(): Error! send() returned:
+03:40:01 1811 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1811 NetworkNode::sendMessage(): Error sending!
+03:40:01 1811 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1811 NetworkManager::send(): Error! send() returned:
+03:40:01 1811 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1811 NetworkNode::sendMessage(): Error sending!
+03:40:01 1812 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1812 NetworkManager::send(): Error! send() returned:
+03:40:01 1812 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1812 NetworkNode::sendMessage(): Error sending!
+03:40:01 1812 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1812 NetworkManager::send(): Error! send() returned:
+03:40:01 1812 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1812 NetworkNode::sendMessage(): Error sending!
+03:40:01 1813 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1813 NetworkManager::send(): Error! send() returned:
+03:40:01 1813 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1813 NetworkNode::sendMessage(): Error sending!
+03:40:01 1813 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1813 NetworkManager::send(): Error! send() returned:
+03:40:01 1813 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1813 NetworkNode::sendMessage(): Error sending!
+03:40:01 1814 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1814 NetworkManager::send(): Error! send() returned:
+03:40:01 1814 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1814 NetworkNode::sendMessage(): Error sending!
+03:40:01 1814 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1814 NetworkManager::send(): Error! send() returned:
+03:40:01 1814 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1814 NetworkNode::sendMessage(): Error sending!
+03:40:01 1815 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1815 NetworkManager::send(): Error! send() returned:
+03:40:01 1815 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1815 NetworkNode::sendMessage(): Error sending!
+03:40:01 1815 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1815 NetworkManager::send(): Error! send() returned:
+03:40:01 1815 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1815 NetworkNode::sendMessage(): Error sending!
+03:40:01 1816 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1816 NetworkManager::send(): Error! send() returned:
+03:40:01 1816 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1816 NetworkNode::sendMessage(): Error sending!
+03:40:01 1816 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1816 NetworkManager::send(): Error! send() returned:
+03:40:01 1816 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1816 NetworkNode::sendMessage(): Error sending!
+03:40:01 1817 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1817 NetworkManager::send(): Error! send() returned:
+03:40:01 1817 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1817 NetworkNode::sendMessage(): Error sending!
+03:40:01 1817 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1817 NetworkManager::send(): Error! send() returned:
+03:40:01 1817 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1817 NetworkNode::sendMessage(): Error sending!
+03:40:01 1818 InputManager::getInput(): Window close event. Setting game over.
+03:40:01 1818 Server::doSync(): SYNC GameStart (id 4).
+03:40:01 1818 NetworkManager::send(): Error! send() returned:
+03:40:01 1818 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1818 NetworkNode::sendMessage(): Error sending!
+03:40:01 1818 Server::resending sync message(): SYNC GameStart (id 4).
+03:40:01 1818 NetworkManager::send(): Error! send() returned:
+03:40:01 1818 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1818 NetworkNode::sendMessage(): Error sending!
+03:40:01 1819 GameManager::run(): end of game loop
+03:40:01 1819 NetworkManager::send(): Error! send() returned:
+03:40:01 1819 	10053 - An established connection was aborted by the software in your host machine.
+03:40:01 1819 NetworkNode::sendMessage(): Error sending!
+03:40:01 1819 PathManager::shutDown(): successfully stopped.
+03:40:01 1819 Path manager stopped

@@ -17,7 +17,7 @@
 //#include "Saucer.h"
 //#include "WeakPoint.h"
 //#include "Boss.h"
-//#include "EventNuke.h"
+#include "EventNuke.h"
 #include "Explosion.h"
 #include "BulletTrail.h"
 //#include "DamageIndicator.h"
@@ -97,6 +97,15 @@ Bullet::~Bullet() {
 		Server *server = (Server *)oli.currentObject();
 		server->sendMessage(df::DELETE_OBJECT, this);
 	}
+	else {
+		if (getSprite() != NULL) {
+			if (getSprite()->getLabel() == "GrenadeLauncher_bullet") {
+				df::addParticles(50, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 5.0f, 2.5f, 1.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)100, df::ParticleClass::FIREWORK);
+				//Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
+				//p_explosion->setPosition(getPosition());
+			}
+		}
+	}
 	// Mark Reticle for deletion.
 	//WM.markForDelete(p_reticle);
 }
@@ -132,11 +141,11 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 		if (!wasHit) {
 			//if it the bullet as an area of effect, create an explosion and send an EventNuke (nearby objects will be affected)
 			if (radius_of_effect > 0) {
-				df::addParticles(50, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 5.0f, 2.5f, 1.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)100, df::ParticleClass::FIREWORK);
+				//df::addParticles(50, 10, getPosition(), 0.1f, df::Vector(0, 0), 0.0f, 5.0f, 5.0f, 2.5f, 1.0f, 10, 10, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)100, df::ParticleClass::FIREWORK);
 				//Explosion *p_explosion = new Explosion("nuke", radius_of_effect);
 				//p_explosion->setPosition(getPosition());
-				//EventNuke nuke(getPosition(), radius_of_effect, getDamage());
-				//WM.onEvent(&nuke);
+				EventNuke nuke(getPosition(), radius_of_effect, getDamage());
+				WM.onEvent(&nuke);
 			}
 			wasHit = true;
 			//Destroy the bullet
@@ -144,17 +153,17 @@ void Bullet::hit(const df::EventCollision *p_collision_event) {
 
 			//Deal damage to the entity
 			if (type1 == "Hero") {
-				LM.writeLog("Hit hero");
+				//LM.writeLog("Hit hero");
 
 				dynamic_cast <Hero *> (p_collision_event->getObject1())->takeDamage(p_collision_event->getPosition(), damage);
 			}
 			else if (type2 == "Hero") {
-				LM.writeLog("Hit hero");
+				//LM.writeLog("Hit hero");
 
 				dynamic_cast <Hero *> (p_collision_event->getObject2())->takeDamage(p_collision_event->getPosition(), damage);
 			}
 			else {
-				LM.writeLog("Hit saucer");
+				//LM.writeLog("Hit saucer");
 				shot_from_weapon->dealDamageAt(p_collision_event->getPosition(), false);
 			}
 		}
@@ -184,8 +193,10 @@ void Bullet::step() {
 
 			//if (bullet_type == HERO_BULLET) {
 			//	if (shot_from_weapon->getWeaponType() == WeaponType::LAUNCHER) {
-			if (getSprite()->getLabel() == "GrenadeLauncher_bullet") {
-				df::addParticles(5, 2, current_pos + df::Vector(0, 0.5f), 2.0f, particle_dir, 0.8f, 2.0f, 1.0f, 1.0f, 1.0f, 15, 2, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+			if (getSprite() != NULL) {
+				if (getSprite()->getLabel() == "GrenadeLauncher_bullet") {
+					df::addParticles(5, 2, current_pos + df::Vector(0, 0.5f), 2.0f, particle_dir, 0.8f, 2.0f, 1.0f, 1.0f, 1.0f, 15, 2, (unsigned char)255, (char)255, (unsigned char)255, (unsigned char)100, (unsigned char)0, (unsigned char)255, df::ParticleClass::FIREWORK);
+				}
 			}
 			//}
 
