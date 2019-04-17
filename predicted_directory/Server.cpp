@@ -66,11 +66,11 @@ int Server::eventHandler(const df::Event *p_e) {
 		switch (p_keyboard_event->getKey()) {
 		case df::Keyboard::A:       // left
 			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
-				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(-1, 0));
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(-3, 0));
 			break;
 		case df::Keyboard::D:       // right
 			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
-				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(1, 0));
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(3, 0));
 			}
 			break;
 		case df::Keyboard::K:
@@ -82,6 +82,8 @@ int Server::eventHandler(const df::Event *p_e) {
 			if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 				is_predicted = !is_predicted;
 				LM.writeLog(is_predicted ? "Hero is predicted" : "Hero is not predicted");
+				if (newHero1 != NULL) newHero1->setIsPredicted(is_predicted);
+				if (newHero2 != NULL) newHero2->setIsPredicted(is_predicted);
 			}
 			break;
 		}

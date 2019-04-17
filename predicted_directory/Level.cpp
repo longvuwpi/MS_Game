@@ -12,7 +12,6 @@
 
 //Game code includes
 #include "Level.h"
-#include "Platform.h"
 #include "Saucer.h"
 //#include "AmmoRefill.h"
 #include "Boss.h"
@@ -83,32 +82,34 @@ void Level::start() {
 }
 
 int Level::eventHandler(const df::Event *p_e) {
-	if (p_e->getType() == df::MSE_EVENT) {
-		if (!started) {
-			const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
-			if (p_mouse_event->getMouseAction() == df::MOVED) {
-				// Change location to new mouse position.
-				df::ObjectList at_mouse = WM.objectsAtPosition(p_mouse_event->getMousePosition());
-				if (at_mouse.remove(this) == 0) {
-					getSprite()->setColor(df::GREEN);
+	if (NM.isServer()) {
+		if (p_e->getType() == df::MSE_EVENT) {
+			if (!started) {
+				const df::EventMouse *p_mouse_event = dynamic_cast <const df::EventMouse *> (p_e);
+				if (p_mouse_event->getMouseAction() == df::MOVED) {
+					// Change location to new mouse position.
+					df::ObjectList at_mouse = WM.objectsAtPosition(p_mouse_event->getMousePosition());
+					if (at_mouse.remove(this) == 0) {
+						getSprite()->setColor(df::GREEN);
+					}
+					else {
+						getSprite()->setColor(df::YELLOW);
+					}
+					return 1;
 				}
-				else {
-					getSprite()->setColor(df::YELLOW);
+				else if (p_mouse_event->getMouseAction() == df::CLICKED) {
+					if (getSprite()->getColor() == df::GREEN) {
+						start();
+					}
+					return 1;
 				}
-				return 1;
-			}
-			else if (p_mouse_event->getMouseAction() == df::CLICKED) {
-				if (getSprite()->getColor() == df::GREEN) {
-					start();
-				}
-				return 1;
 			}
 		}
-	}
 
-	if (p_e->getType() == df::STEP_EVENT) {
-		step();
-		return 1;
+		if (p_e->getType() == df::STEP_EVENT) {
+			step();
+			return 1;
+		}
 	}
 
 	return 0;

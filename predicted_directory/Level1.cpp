@@ -38,7 +38,7 @@ void Level1::levelLogic() {
 			(i == 15) ||
 			(i == 20)) {
 		//if (i == 0) {
-			Saucer *saucer = new Saucer(20*scale, 5, 0, 3, 1);
+			Saucer *saucer = new Saucer(16*scale, 5, 0, 3, 1);
 			//df::Vector spawnPos(WM.getView().getCorner().getX() + WM.getView().getHorizontal(), 30);
 			df::Vector spawnPos(hero->viewPositionOnHero().getX() + WM.getView().getHorizontal(), 30);
 			saucer->setPosition(spawnPos);
@@ -55,7 +55,7 @@ void Level1::levelLogic() {
 			(i == 28) ||
 			(i == 33) ||
 			(i == 38)) {
-			Saucer *saucer = new Saucer(20*scale, 5, 0, 1, 2);
+			Saucer *saucer = new Saucer(16*scale, 5, 0, 1, 2);
 			spawnPos += df::Vector(0, (i - 18) * 3 / 5);
 			saucer->setPosition(spawnPos);
 			saucer->markStart();
@@ -94,7 +94,7 @@ void Level1::levelLogic() {
 					(i == 23) ||
 					(i == 28) ||
 					(i == 33)) {
-					Saucer *saucer = new Saucer(14*scale, 3, 0, 1, 1);
+					Saucer *saucer = new Saucer(13*scale, 3, 0, 1, 1);
 					spawnPos += df::Vector(0, (i - 18) * 3 / 5);
 					saucer->setPosition(spawnPos);
 					saucer->markStart();

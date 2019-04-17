@@ -27,9 +27,9 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\game.cpp(40): warnin
   Hero.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(149): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(159): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(324): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(519): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(321): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(325): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(521): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Level.cpp
   Level1.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data

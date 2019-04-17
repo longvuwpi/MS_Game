@@ -67,7 +67,7 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 
 	// Set starting location.
 	//df::Vector p(7, WM.getBoundary().getVertical()/2);
-	df::Vector p(60, 25);
+	df::Vector p(60, 15);
 	setPosition(p);
 	//if (is_predicted) m_modified[df::POSITION] = false;
 
@@ -103,7 +103,7 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 	weapon_list.insert(awp);
 	awp->setVisible(false);
 
-	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 8, 40, 1, 30, 10, true, 0.4f, 20, 1.5f);
+	Weapon *grenade_launcher = new Weapon("GrenadeLauncher", WeaponType::LAUNCHER, this, 8, 40, 1, 30, 12, true, 0.4f, 20, 1.5f);
 	weapon_list.insert(grenade_launcher);
 	grenade_launcher->setVisible(false);
 
@@ -196,7 +196,7 @@ Hero::~Hero() {
 // Return 0 if ignored, else 1.
 int Hero::eventHandler(const df::Event *p_e) {
 
-	if ((p_e->getType() == df::COLLISION_EVENT) && (NM.isServer() || is_predicted)) {
+	if ((p_e->getType() == df::COLLISION_EVENT) && (NM.isServer() || (is_predicted && is_main_hero))) {
 		//printf("collided with hero");
 		const df::EventCollision *p_collision_event = dynamic_cast <df::EventCollision const *> (p_e);
 		if (p_collision_event->getObject1()->getType() == "Platform") {
@@ -207,7 +207,7 @@ int Hero::eventHandler(const df::Event *p_e) {
 			Platform *platform = dynamic_cast <Platform *> (p_collision_event->getObject2());
 			landedOn(platform);
 		}
-		hit(p_collision_event);
+		//hit(p_collision_event);
 		return 1;
 	}
 
@@ -253,33 +253,34 @@ void Hero::landedOn(Platform *platform) {
 	//if (!NM.isServer()) {
 	//	LM.writeLog("Hero collided with platform");
 	//}
+	if (platform != NULL) {
+		if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
+			df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+			if ((-2 <= delta.getY()) && (delta.getY() <= 0.5)) {
+				df::Vector newPosition(getPosition().getX(), platform->getPosition().getY() - (float)((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
+				std::cout << "Putting hero on the platform from " << (float)getPosition().getY() << "to " << (float)newPosition.getY() << "\n";
 
-	if ((p_OnPlatform != platform) && (getVelocity().getY() >= 0)) {
-		df::Vector delta(0, (platform->getPosition().getY() - getPosition().getY()) - ((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
-		if ((-2 <= delta.getY()) && (delta.getY() <= 0.5)) {
-			df::Vector newPosition(getPosition().getX(), platform->getPosition().getY() - (float)((platform->getSprite()->getHeight() + getSprite()->getHeight()) / 2));
-			std::cout << "Putting hero on the platform from " << (float)getPosition().getY() << "to " << (float)newPosition.getY() << "\n";
+				setPosition(newPosition);
 
-			setPosition(newPosition);
+				p_OnPlatform = platform;
 
-			p_OnPlatform = platform;
+				jump_count = jump_max;
 
-			jump_count = jump_max;
+				setAcceleration(df::Vector(0, 0));
+				setVelocity(df::Vector(getVelocity().getX(), 0));
 
-			setAcceleration(df::Vector(0, 0));
-			setVelocity(df::Vector(getVelocity().getX(), 0));
+				setCentered(true);
 
-			setCentered(true);
-
-			//clear all flags since code is executed similarly on server and clients
-			//if (is_predicted) {
-			//	m_modified[df::POSITION] = false;
-			//	m_modified[df::ACCELERATION] = false;
-			//	m_modified[df::SPEED] = false;
-			//	m_modified[df::DIRECTION] = false;
-			//	m_modified[df::SPRITE] = false;
-			//}
-			return;
+				//clear all flags since code is executed similarly on server and clients
+				//if (is_predicted) {
+				//	m_modified[df::POSITION] = false;
+				//	m_modified[df::ACCELERATION] = false;
+				//	m_modified[df::SPEED] = false;
+				//	m_modified[df::DIRECTION] = false;
+				//	m_modified[df::SPRITE] = false;
+				//}
+				return;
+			}
 		}
 	}
 }
@@ -403,7 +404,7 @@ void Hero::reload() {
 // Decrease rate restriction counters.
 void Hero::step() {
 
-	if (NM.isServer() || is_predicted) {
+	if (NM.isServer() || (is_predicted && is_main_hero)) {
 		//Check to see if the hero is on a platform.
 		df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
 		if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
@@ -494,7 +495,8 @@ void Hero::takeDamage(df::Vector at, int damage) {
 			//WM.markForDelete(this);
 			//// Create GameOver object.
 			////GameOver *p_go = new GameOver(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2), false);
-			df::Vector p(60, 25);
+			df::Vector p(60, 15);
+			p_OnPlatform = NULL;
 			setPosition(p);
 			health = max_health;
 			refillAmmo();
@@ -551,18 +553,18 @@ void Hero::drawHealthBar() {
 	{
 		color = sf::Color::Red;
 	}
-	if (is_main_hero) {
-		bgColor = sf::Color::Cyan;
-	}
-	else {
-		bgColor = sf::Color::White;
-	}
+	bgColor = is_main_hero? sf::Color::Cyan : sf::Color::White;
 	shape.setFillColor(color);
 	bgShape.setFillColor(bgColor);
 
 	// Draw.
-	DM.getWindow()->draw(shape);
 	DM.getWindow()->draw(bgShape);
+	DM.getWindow()->draw(shape);
+
+	if (NM.isServer()) {
+		DM.drawString(window_pos - df::Vector(0,2.5f), is_predicted ? "true" : "false", df::CENTER_JUSTIFIED, df::WHITE);
+	}
+
 }
 
 Reticle *Hero::getReticle() {
