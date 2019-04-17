@@ -5,8 +5,8 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(171)
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(172): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Boss.cpp
   Bullet.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(189): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(206): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(191): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(208): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   BulletTrail.cpp
   Client.cpp
   DamageIndicator.cpp
