@@ -79,7 +79,7 @@ int Reticle::eventHandler(const df::Event *p_e) {
 // Draw reticle on window.
 void Reticle::draw() {
 	int weaponNum = WM.objectsOfType("Weapon").getCount();
-	if (!NM.isServer() && (hero != NULL) && (weaponNum > 0)) {
+	if (!NM.isServer() && (hero != NULL) && (weaponNum > 0) && (hero->getCurrentWeapon() != NULL)) {
 		switch (hero->getCurrentWeapon()->getWeaponType()) {
 		case WeaponType::RIFLE:
 			DM.drawCh(getPosition() + df::Vector(0, -0.2f), RETICLE_CHAR, df::GREEN);
