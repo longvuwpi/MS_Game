@@ -2,6 +2,16 @@
 // Server.cpp - a NetworkNode.
 //
 
+//System includes
+#include <stdlib.h>		// for setenv()
+#if defined(_WIN32) || defined(_WIN64)
+#include <WinSock2.h>
+#include <WS2tcpip.h>
+#else
+#include <sys/types.h>          
+#include <sys/socket.h>
+#endif
+
 // Engine includes.
 #include "EventStep.h"
 #include "LogManager.h"
@@ -221,6 +231,30 @@ void Server::doSync() {
 
 // Handle accept.
 int Server::handleAccept(const df::EventNetwork *p_e) {
+	int sock = NM.getSocket(p_e->getSocketIndex());
+
+	/////////////////////////////////////////////////////
+	// Illustrate setting socket buffer sizes.
+
+#if defined(_WIN32) || defined(_WIN64) // WINDOWS
+	int val = 0;
+	int len = sizeof(int);
+	if (getsockopt(sock, SOL_SOCKET, SO_SNDBUF, (char *)&val, &len) == SOCKET_ERROR)
+		LM.writeLog("main(): Error! getsockopt() failed with error %d",
+			WSAGetLastError());
+	else
+		LM.writeLog("main(): OLD socket buffer is %d", val);
+	val *= 4;
+	len = sizeof(int);
+	if (setsockopt(sock, SOL_SOCKET, SO_SNDBUF, (char *)&val, len) < 0)
+		LM.writeLog("main(): Error! setsockopt() failed with error %d",
+			WSAGetLastError());
+	if (getsockopt(sock, SOL_SOCKET, SO_SNDBUF, (char *)&val, &len) == SOCKET_ERROR)
+		LM.writeLog("main(): Error! getsockopt() failed with error %d",
+			WSAGetLastError());
+	else
+		LM.writeLog("main(): NEW socket buffer is %d", val);
+#endif 
 
 	//// Spawn a Reticle for Client.
 	////new Reticle(p_e -> getSocketIndex());
