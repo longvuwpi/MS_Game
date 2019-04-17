@@ -149,4 +149,6 @@ int GameOver::deserialize(std::string str) {
 	else {
 		RM.getSound("level_won")->play();
 	}
+
+	return 0;
 }

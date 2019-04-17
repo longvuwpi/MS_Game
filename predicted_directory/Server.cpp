@@ -42,7 +42,8 @@ Server::Server(bool isPredicted) {
 	// Register for step events to synchronize objects.
 	registerInterest(df::STEP_EVENT);
 	registerInterest(df::KEYBOARD_EVENT);
-
+	newHero1 = NULL;
+	newHero2 = NULL;
 	LM.writeLog("Server::Server(): Server started");
 }
 

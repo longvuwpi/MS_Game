@@ -1,0 +1,8 @@
+11:40:34    0 ****************************************************
+11:40:34    0 ** Dragonfly version 4.12 **
+11:40:35    0 DisplayManager::startUp(): Unable to load font from file 'df-font.ttf'.
+11:40:35    0 Error starting display manager!
+11:40:35    0 Error starting game manager!
+11:40:35    0 WorldManager::shutDown(): Successfully stopped.
+11:40:35    0 ** Game stopped **
+11:40:35    0 ****************************************************

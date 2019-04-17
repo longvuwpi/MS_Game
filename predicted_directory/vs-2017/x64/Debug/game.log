@@ -3,58 +3,6 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(158)
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(169): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(171): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(172): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  Boss.cpp
-  Bullet.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(179): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullet.cpp(191): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  BulletTrail.cpp
-  Client.cpp
-  EnemyAttack.cpp
-  EnemyMovement.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\enemymovement.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\enemymovement.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\enemymovement.cpp(69): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\enemymovement.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  EventBossTookDamage.cpp
-  Explosion.cpp
-  game.cpp
-  Hero.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(137): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(145): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(299): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(303): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(472): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Level.cpp
-  Level1.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Platform.cpp
-  Reticle.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(85): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(86): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(95): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(122): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(124): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(125): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(150): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(189): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\vuxua\documents\github\ms_game\predicted_directory\reticle.cpp(190): warning C4305: 'argument': truncation from 'double' to 'float'
-  Saucer.cpp
-  Server.cpp
-  util.cpp
-  WeakPoint.cpp
-  Weapon.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(198): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameOver.cpp
   Generating Code...
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullettrail.cpp(87): warning C4715: 'BulletTrail::getDamage': not all control paths return a value
-c:\users\vuxua\documents\github\ms_game\predicted_directory\bullettrail.cpp(92): warning C4715: 'BulletTrail::getBulletType': not all control paths return a value
   game.vcxproj -> C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Debug\game.exe

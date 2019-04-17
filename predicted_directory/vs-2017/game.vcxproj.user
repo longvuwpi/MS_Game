@@ -9,10 +9,11 @@
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\..</LocalDebuggerWorkingDirectory>
     <LocalDebuggerEnvironment>PATH=%PATH%;..\SFML-2.5\bin;</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>localhost</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>true</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>localhost</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>true</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArguments>true</RemoteDebuggerCommandArguments>
   </PropertyGroup>
 </Project>
