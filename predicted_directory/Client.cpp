@@ -2,6 +2,16 @@
 // Client.cpp - a NetworkNode.
 //
 
+//System includes
+#include <stdlib.h>		// for setenv()
+#if defined(_WIN32) || defined(_WIN64)
+#include <WinSock2.h>
+#include <WS2tcpip.h>
+#else
+#include <sys/types.h>          
+#include <sys/socket.h>
+#endif
+
 // Engine includes.
 #include "EventNetwork.h"
 #include "LogManager.h"
@@ -115,6 +125,31 @@ int Client::eventHandler(const df::Event *p_e) {
 // Handle incoming connect message.
 int Client::handleConnect(const df::EventNetwork *p_e) {
 	//socket_index = p_e->getSocketIndex();
+	int sock = NM.getSocket(p_e->getSocketIndex());
+
+	/////////////////////////////////////////////////////
+	// Illustrate setting socket buffer sizes.
+
+#if defined(_WIN32) || defined(_WIN64) // WINDOWS
+	int val = 0;
+	int len = sizeof(int);
+	if (getsockopt(sock, SOL_SOCKET, SO_RCVBUF, (char *)&val, &len) == SOCKET_ERROR)
+		LM.writeLog("Client::handleConnect(): Error! getsockopt() failed with error %d",
+			WSAGetLastError());
+	else
+		LM.writeLog("Client::handleConnect(): OLD socket buffer is %d", val);
+	val *= 16;
+	len = sizeof(int);
+	if (setsockopt(sock, SOL_SOCKET, SO_RCVBUF, (char *)&val, len) < 0)
+		LM.writeLog("Client::handleConnect(): Error! setsockopt() failed with error %d",
+			WSAGetLastError());
+	if (getsockopt(sock, SOL_SOCKET, SO_RCVBUF, (char *)&val, &len) == SOCKET_ERROR)
+		LM.writeLog("Client::handleConnect(): Error! getsockopt() failed with error %d",
+			WSAGetLastError());
+	else
+		LM.writeLog("Client::handleConnect(): NEW socket buffer is %d", val);
+#endif 
+
 	LM.writeLog("Client::handleConnect(): Client connected!");
 	return 0;
 }
