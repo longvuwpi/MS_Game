@@ -208,6 +208,17 @@ void Saucer::step() {
 		return;
 	}
 
+	df::Vector current_pos = getPosition();
+	df::Vector window_corner = WM.getView().getCorner();
+	if ((current_pos.getX() < 0) ||
+		(current_pos.getY() < (-30)) || 
+		(current_pos.getY() > (WM.getBoundary().getVertical() + 10))) 
+	{
+		int num = WM.objectsOfType("Saucer").getCount();
+		if (num < 14) enemy_movement->moveToStart();
+		else WM.markForDelete(this);
+	}
+
 	enemy_attack->attack();
 	enemy_movement->move();
 }
