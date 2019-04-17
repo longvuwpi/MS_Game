@@ -244,7 +244,7 @@ int Server::handleAccept(const df::EventNetwork *p_e) {
 			WSAGetLastError());
 	else
 		LM.writeLog("main(): OLD socket buffer is %d", val);
-	val *= 4;
+	val *= 8;
 	len = sizeof(int);
 	if (setsockopt(sock, SOL_SOCKET, SO_SNDBUF, (char *)&val, len) < 0)
 		LM.writeLog("main(): Error! setsockopt() failed with error %d",

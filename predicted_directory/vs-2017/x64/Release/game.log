@@ -25,11 +25,11 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\game.cpp(40): warnin
   GameOver.cpp
   GameStart.cpp
   Hero.cpp
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(161): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(322): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(326): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(521): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(149): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(159): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(324): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(519): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Level.cpp
   Level1.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -71,7 +71,7 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(541): war
   Generating code
 c:\users\vuxua\documents\github\ms_game\predicted_directory\damageindicator.cpp(36): warning C4715: 'DamageIndicator::eventHandler': not all control paths return a value
 c:\users\vuxua\documents\github\ms_game\predicted_directory\gameover.cpp(152): warning C4715: 'GameOver::deserialize': not all control paths return a value
-  All 1018 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 1019 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
 libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
 libdragonfly-x64-release.lib(Button.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Button.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info

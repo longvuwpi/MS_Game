@@ -127,15 +127,13 @@ Hero::Hero(int client_hero_id, int hero_id, bool isPredicted) {
 
 	//// Create reticle for firing bullets and aiming.
 	//
+	is_main_hero = false;
+
 	if (!NM.isServer()) {
 		if (client_hero_id == hero_id) {
 			new AmmoDisplay(this);
 			p_reticle = new Reticle(this);
 			is_main_hero = true;
-		}
-		else {
-			is_main_hero = false;
-			//is_predicted = false;
 		}
 	}
 }
@@ -525,13 +523,21 @@ void Hero::drawHealthBar() {
 
 	// Health bars are rectangles.
 	static sf::RectangleShape shape;
+	static sf::RectangleShape bgShape;
+
+	//Set size
 	sf::Vector2f size(df::charWidth() * getSprite()->getWidth() * health / max_health, df::charHeight() / 3);
+	sf::Vector2f bgSize(df::charWidth() * getSprite()->getWidth(), df::charHeight() / 2);
+	bgShape.setSize(bgSize);
 	shape.setSize(size);
-	//shape.setPosition(pixel_pos.getX() - size.x / 2.0f + 5,
-	//	pixel_pos.getY() - 8 * size.y / 1.75f - 5);
+
+	//Set position
 	shape.setPosition(pixel_pos.getX(), pixel_pos.getY());
+	bgShape.setPosition(pixel_pos.getX(), pixel_pos.getY());
+
 	// Set color based on health.
 	sf::Color color;
+	sf::Color bgColor;
 	float normalizedHealth = (float)health / (float)max_health;
 	if (normalizedHealth > 0.7f)
 	{
@@ -545,10 +551,18 @@ void Hero::drawHealthBar() {
 	{
 		color = sf::Color::Red;
 	}
+	if (is_main_hero) {
+		bgColor = sf::Color::Cyan;
+	}
+	else {
+		bgColor = sf::Color::White;
+	}
 	shape.setFillColor(color);
+	bgShape.setFillColor(bgColor);
 
 	// Draw.
 	DM.getWindow()->draw(shape);
+	DM.getWindow()->draw(bgShape);
 }
 
 Reticle *Hero::getReticle() {
