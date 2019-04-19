@@ -29,7 +29,7 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(153): warni
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(163): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(328): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(332): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(531): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(530): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Level.cpp
   Level1.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -70,7 +70,7 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(537): war
 c:\users\vuxua\documents\github\ms_game\predicted_directory\weapon.cpp(541): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
 c:\users\vuxua\documents\github\ms_game\predicted_directory\damageindicator.cpp(36): warning C4715: 'DamageIndicator::eventHandler': not all control paths return a value
-  All 1022 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 1026 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
 libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info
 libdragonfly-x64-release.lib(Button.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Button.obj)' or at 'C:\Users\vuxua\Documents\GitHub\MS_Game\predicted_directory\vs-2017\x64\Release\dragonfly.pdb'; linking object as if no debug info

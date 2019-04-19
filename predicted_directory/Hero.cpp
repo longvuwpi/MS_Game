@@ -413,7 +413,8 @@ void Hero::step() {
 
 	if (NM.isServer() || (is_predicted && is_main_hero)) {
 		//Check to see if the hero is on a platform.
-		df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
+		//df::ObjectList collisions = WM.isCollision(this, getPosition() + df::Vector(0, 0.5));
+		df::ObjectList collisions = WM.isCollision(this, getPosition());
 		if ((p_OnPlatform != NULL) && (collisions.remove(p_OnPlatform) != 0)) {
 			p_OnPlatform = NULL;
 		}
@@ -526,9 +527,10 @@ void Hero::refillAmmo() {
 }
 
 void Hero::drawHealthBar() {
+	df::Vector world_pos = getPosition() - df::Vector(getSprite()->getWidth() / 2, 0.5f + getSprite()->getHeight() / 2);
 
 	// Convert world position to view position.
-	df::Vector window_pos = worldToView(getPosition() - df::Vector(getSprite()->getWidth() / 2, 0.5f + getSprite()->getHeight() / 2));
+	df::Vector window_pos = worldToView(world_pos);
 
 	// Convert spaces to pixels.
 	df::Vector pixel_pos = spacesToPixels(window_pos);
@@ -539,7 +541,7 @@ void Hero::drawHealthBar() {
 
 	//Set size
 	sf::Vector2f size(df::charWidth() * getSprite()->getWidth() * health / max_health, df::charHeight() / 3);
-	sf::Vector2f bgSize(df::charWidth() * getSprite()->getWidth(), df::charHeight() / 2);
+	sf::Vector2f bgSize(df::charWidth() * getSprite()->getWidth(), df::charHeight() / 1.5f);
 	bgShape.setSize(bgSize);
 	shape.setSize(size);
 
@@ -572,12 +574,12 @@ void Hero::drawHealthBar() {
 	DM.getWindow()->draw(shape);
 
 	if (NM.isServer()) {
-		DM.drawString(window_pos - df::Vector(0,2.5f), is_predicted ? "true" : "false", df::CENTER_JUSTIFIED, df::WHITE);
+		DM.drawString(world_pos - df::Vector(0,2.5f), is_predicted ? "true" : "false", df::CENTER_JUSTIFIED, df::WHITE);
 	}
 	else {
 		int platformid = 0;
 		if (p_OnPlatform != NULL) platformid = p_OnPlatform->getId();
-		DM.drawString(window_pos - df::Vector(0, 2.5f), std::to_string(platformid) , df::CENTER_JUSTIFIED, df::WHITE);
+		DM.drawString(world_pos - df::Vector(0, 2.5f), std::to_string(platformid) , df::CENTER_JUSTIFIED, df::WHITE);
 	}
 
 }

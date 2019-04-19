@@ -9,6 +9,8 @@
 #include "EventCollision.h"
 #include "NetworkManager.h"
 #include "WorldManager.h"
+#include "DisplayManager.h"
+
 #include "Server.h"
 
 Platform::Platform(df::Vector pos) {
@@ -58,6 +60,8 @@ int Platform::eventHandler(const df::Event *p_e) {
 		}
 
 		if (hero_landed) {
+			DM.drawString(getPosition() - df::Vector(0, 2.5f), "Collided with hero", df::CENTER_JUSTIFIED, df::WHITE);
+
 			if (hero->isMainHero() && hero->isPredicted()) {
 				hero->landedOn(this);
 			}
