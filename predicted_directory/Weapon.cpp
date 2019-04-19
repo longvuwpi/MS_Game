@@ -452,7 +452,7 @@ std::string Weapon::serialize(std::string all) {
 int Weapon::deserialize(std::string str) {
 	//LM.writeLog("Weapon::deserialize()");
 
-	if (!hero->isPredicted()) {
+	if (!hero->isPredicted() || !hero->isMainHero()) {
 		// Do main deserialize from parent.
 		Object::deserialize(str);
 	}

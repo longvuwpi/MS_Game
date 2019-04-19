@@ -54,7 +54,6 @@ private:
 	void hit(const df::EventCollision *p_collision_event);
 	void setWalkingSprite();
 	void setDuckingSprite();
-	void landedOn(Platform *platform);
 	void drawHealthBar();
 	void reload();
 
@@ -66,6 +65,7 @@ public:
 	int getHealth();
 	void takeDamage(df::Vector at, int damage);
 	void refillAmmo();
+	void landedOn(Platform *platform);
 	Reticle *getReticle();
 	Weapon *getCurrentWeapon();
 	df::Vector viewPositionOnHero();
@@ -75,4 +75,5 @@ public:
 	int deserialize(std::string str);
 	bool isModified() const override;
 	bool isPredicted();
+	bool isMainHero();
 };

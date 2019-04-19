@@ -70,7 +70,7 @@ int AmmoDisplay::eventHandler(const df::Event *p_e) {
 
 void AmmoDisplay::step() {
 	df::ObjectList hero_list = WM.objectsOfType("Hero");
-	if (!hero_list.isEmpty()) {
+	if ((!hero_list.isEmpty()) && (owner->getCurrentWeapon() != NULL)) {
 		int loaded_ammo = owner->getCurrentWeapon()->getAmmoLoaded();
 		int backup_ammo = owner->getCurrentWeapon()->getAmmoBackup();
 		int loaded_ammo_max = owner->getCurrentWeapon()->getAmmoLoadedMax();
@@ -154,7 +154,7 @@ void AmmoDisplay::draw() {
 	if (!NM.isServer()) {
 		df::Object::draw();
 		df::ObjectList hero_list = WM.objectsOfType("Hero");
-		if (!hero_list.isEmpty()) {
+		if ((!hero_list.isEmpty()) && (owner->getCurrentWeapon() != NULL)) {
 			DM.drawString(getPosition() - df::Vector(0, -1 + getSprite()->getHeight() / 2), owner->getCurrentWeapon()->getWeaponName(), df::Justification::CENTER_JUSTIFIED, df::Color::CYAN);
 		}
 		loaded_1->draw();

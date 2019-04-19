@@ -10,7 +10,7 @@ private:
 	void hit(const df::EventCollision *p_collision_event);
 	Bullet *owner;
 	int life_time;
-
+	int owner_id;
 public:
 	BulletTrail();
 	~BulletTrail();

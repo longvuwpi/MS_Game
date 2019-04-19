@@ -39,8 +39,31 @@ Platform::~Platform() {
 
 int Platform::eventHandler(const df::Event *p_e) {
 
-	if (p_e->getType() == df::COLLISION_EVENT) {
-		//printf("collided with hero");
+	if ((p_e->getType() == df::COLLISION_EVENT) && (!NM.isServer())) {
+		const df::EventCollision *p_collision_event = dynamic_cast <const df::EventCollision *> (p_e);
+
+		bool hero_landed = false;
+		Hero *hero;
+		std::string type1, type2;
+		type1 = p_collision_event->getObject1()->getType();
+		type2 = p_collision_event->getObject2()->getType();
+
+		if (type1 == "Hero") {
+			hero = (Hero *)(p_collision_event->getObject1());
+			hero_landed = true;
+		}
+		else if (type2 == "Hero") {
+			hero = (Hero *)(p_collision_event->getObject2());
+			hero_landed = true;
+		}
+
+		if (hero_landed) {
+			if (hero->isMainHero() && hero->isPredicted()) {
+				hero->landedOn(this);
+			}
+		}
+
+		return 1;
 	}
 	
 	//if (p_e->getType() == PLAYER_JUMPING_EVENT) {

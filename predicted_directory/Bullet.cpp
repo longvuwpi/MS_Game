@@ -179,8 +179,8 @@ void Bullet::step() {
 	//}
 
 	df::Vector window_corner = WM.getView().getCorner();
-	if ((current_pos.getX() < 0) || (current_pos.getX() > WM.getBoundary().getHorizontal()) ||
-		(current_pos.getY() < (-30)) || (current_pos.getY() > WM.getBoundary().getVertical())) {
+	if ((current_pos.getX() < -12) || (current_pos.getX() > (WM.getBoundary().getHorizontal()+12)) ||
+		(current_pos.getY() < (-30)) || (current_pos.getY() > (WM.getBoundary().getVertical()+12))) {
 		if (NM.isServer()) {
 			WM.markForDelete(this);
 		}

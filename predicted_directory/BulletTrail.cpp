@@ -19,6 +19,7 @@ BulletTrail::BulletTrail() {
 	setSolidness(df::SOFT);
 	setTransparency('#');    // Transparent character.
 	setId(0);
+	owner_id = 0;
 	df::Object::max_id--;
 	life_time = 1;
 }
@@ -36,7 +37,7 @@ BulletTrail::BulletTrail(Bullet *spawner) {
 	setId(0);
 	df::Object::max_id--;
 	owner = spawner;
-
+	owner_id = spawner->getId();
 	life_time = 1;
 
 	registerInterest(df::STEP_EVENT);
@@ -80,7 +81,9 @@ int BulletTrail::eventHandler(const df::Event *p_e) {
 }
 
 void BulletTrail::hit(const df::EventCollision *p_collision_event) {
-	if (!owner->wasHit) owner->hit(p_collision_event);
+	if ((owner_id != 0) && (WM.objectWithId(owner_id) != NULL)) {
+		if (!owner->wasHit) owner->hit(p_collision_event);
+	}
 }
 
 int BulletTrail::getDamage() {

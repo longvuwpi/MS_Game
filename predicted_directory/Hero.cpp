@@ -142,6 +142,10 @@ bool Hero::isPredicted() {
 	return is_predicted;
 }
 
+bool Hero::isMainHero() {
+	return is_main_hero;
+}
+
 void Hero::setWalkingSprite() {
 	setSprite(walk_sprite);
 	setSpriteSlowdown(5);  // 1/3 speed animation.
@@ -291,6 +295,9 @@ void Hero::mouse(const df::EventMouse *p_mouse_event) {
 	if (((p_mouse_event->getMouseAction() == df::CLICKED) || (p_mouse_event->getMouseAction() == df::PRESSED)) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::LEFT)) {
 		fire(viewPositionOnHero() + (p_mouse_event->getMousePosition()));
+		m_modified[df::POSITION] = true;
+		m_modified[df::SPEED] = true;
+		m_modified[df::ACCELERATION] = true;
 	}
 	else if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::RIGHT)) {
@@ -484,6 +491,9 @@ void Hero::hit(const df::EventCollision *p_collision_event) {
 void Hero::takeDamage(df::Vector at, int damage) {
 	health -= damage;
 	hero_modified[HEALTH] = true;
+	m_modified[df::POSITION] = true;
+	m_modified[df::SPEED] = true;
+	m_modified[df::ACCELERATION] = true;
 
 	//LM.writeLog("Hero took damage!! It hurts! Current health is %d", health);
 	//new DamageIndicator(at, damage);
@@ -616,6 +626,26 @@ int Hero::deserialize(std::string str) {
 	bool mainDeserialized = false;
 	df::Vector currentPosition = getPosition();
 
+	//figure out if a hero position was serialized
+	float f;
+	bool is_position = true;
+	df::Vector new_position;
+	val = df::match("", "pos-x");
+	if (!val.empty()) {
+		f = (float)atof(val.c_str());
+		new_position.setX(f);
+	}
+	else
+		is_position = false;
+	val = df::match("", "pos-y");
+	if (!val.empty()) {
+		f = (float)atof(val.c_str());
+		new_position.setY(f);
+	}
+	else
+		is_position = false;
+
+
 	// Do main deserialize from parent.
 
 	if (is_main_hero) {
@@ -624,23 +654,6 @@ int Hero::deserialize(std::string str) {
 			mainDeserialized = true;
 		}
 		else {
-			float f;
-			bool is_position = true;
-			df::Vector new_position;
-			val = df::match("", "pos-x");
-			if (!val.empty()) {
-				f = (float)atof(val.c_str());
-				new_position.setX(f);
-			}
-			else
-				is_position = false;
-			val = df::match("", "pos-y");
-			if (!val.empty()) {
-				f = (float)atof(val.c_str());
-				new_position.setY(f);
-			}
-			else
-				is_position = false;
 			if (is_position) {
 				if ((currentPosition - new_position).getMagnitude() > 55.0f) {
 					Object::deserialize(str);
@@ -664,8 +677,12 @@ int Hero::deserialize(std::string str) {
 	if (!val.empty()) {
 		int i = atoi(val.c_str());
 		LM.writeLog("Hero::deserialize(): current health is %d", i);
-		if (!mainDeserialized) {
-			Object::deserialize(str);
+		if ((!mainDeserialized) && is_position) {
+			if ((fabs(currentPosition.getX() - new_position.getX()) > 54.0f) ||
+				(fabs(currentPosition.getY() - new_position.getY()) > 35.0f))
+			{
+				Object::deserialize(str);
+			}
 		}
 		health = i;
 	}

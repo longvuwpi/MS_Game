@@ -67,11 +67,11 @@ int Server::eventHandler(const df::Event *p_e) {
 		switch (p_keyboard_event->getKey()) {
 		case df::Keyboard::A:       // left
 			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
-				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(-3, 0));
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(-7, 0));
 			break;
 		case df::Keyboard::D:       // right
 			if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
-				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(3, 0));
+				WM.setViewPosition(df::Vector(WM.getView().getCorner().getX(), 0) + df::Vector(WM.getView().getHorizontal() / 2, WM.getView().getVertical() / 2) + df::Vector(7, 0));
 			}
 			break;
 		case df::Keyboard::K:
