@@ -574,6 +574,11 @@ void Hero::drawHealthBar() {
 	if (NM.isServer()) {
 		DM.drawString(window_pos - df::Vector(0,2.5f), is_predicted ? "true" : "false", df::CENTER_JUSTIFIED, df::WHITE);
 	}
+	else {
+		int platformid = 0;
+		if (p_OnPlatform != NULL) platformid = p_OnPlatform->getId();
+		DM.drawString(window_pos - df::Vector(0, 2.5f), std::to_string(platformid) , df::CENTER_JUSTIFIED, df::WHITE);
+	}
 
 }
 
