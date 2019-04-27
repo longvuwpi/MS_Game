@@ -1,4 +1,6 @@
-﻿  AmmoDisplay.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'c:\users\vuxua\documents\github\ms_game\predicted_directory\vs-2017\x64\release\explosion.obj' because it is being used by another process.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'c:\users\vuxua\documents\github\ms_game\predicted_directory\vs-2017\x64\release\saucer.obj' because it is being used by another process.
+  AmmoDisplay.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(169): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\ammodisplay.cpp(171): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
@@ -29,7 +31,7 @@ c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(153): warni
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(163): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(328): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(332): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(530): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\vuxua\documents\github\ms_game\predicted_directory\hero.cpp(531): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Level.cpp
   Level1.cpp
 c:\users\vuxua\documents\github\ms_game\predicted_directory\level1.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
