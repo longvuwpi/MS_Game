@@ -18,8 +18,8 @@
 class Weapon;
 class Reticle;
 
-const int hero_att_count = 3;
-enum HeroAttribute { HEALTH, CURRENT_WEAPON, IS_PREDICTED };
+const int hero_att_count = 4;
+enum HeroAttribute { HEALTH, CURRENT_WEAPON, IS_PREDICTED, DEATH_COUNT };
 
 class Hero : public df::Object {
 

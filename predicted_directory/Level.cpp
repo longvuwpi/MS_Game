@@ -33,7 +33,7 @@ Level::Level(std::string level_name) {
 	started = false;
 	start_frame = 0;
 	setId(100);
-	df::Object::max_id = 100;
+	df::Object::max_id = 101;
 	LM.writeLog("\n\n*******\nNew level object created\n*******\n");
 }
 
@@ -41,7 +41,7 @@ Level::Level() {
 	setType("Level");
 	setSolidness(df::SPECTRAL);
 	setId(100);
-	df::Object::max_id = 100;
+	df::Object::max_id = 101;
 	LM.writeLog("\n\n*******\nNew level object created\n*******\n");
 }
 

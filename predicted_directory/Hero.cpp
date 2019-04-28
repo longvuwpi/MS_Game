@@ -369,7 +369,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			df::WorldManager &world_manager = df::WorldManager::getInstance();
-			world_manager.markForDelete(this);
+			//world_manager.markForDelete(this);
 		}
 		break;
 	};
@@ -512,6 +512,7 @@ void Hero::takeDamage(df::Vector at, int damage) {
 			health = max_health;
 			refillAmmo();
 			death_count++;
+			hero_modified[DEATH_COUNT] = true;
 			LM.writeLog("Hero with id %d died %d times", getId(), death_count);
 		}
 	}
@@ -577,9 +578,9 @@ void Hero::drawHealthBar() {
 		DM.drawString(world_pos - df::Vector(0,2.5f), is_predicted ? "true" : "false", df::CENTER_JUSTIFIED, df::WHITE);
 	}
 	else {
-		int platformid = 0;
-		if (p_OnPlatform != NULL) platformid = p_OnPlatform->getId();
-		DM.drawString(world_pos - df::Vector(0, 2.5f), std::to_string(platformid) , df::CENTER_JUSTIFIED, df::WHITE);
+		//int platformid = 0;
+		//if (p_OnPlatform != NULL) platformid = p_OnPlatform->getId();
+		DM.drawString(world_pos - df::Vector(0, 2.5f), "Death count: " + std::to_string(death_count) , df::CENTER_JUSTIFIED, df::WHITE);
 	}
 
 }
@@ -621,6 +622,11 @@ std::string Hero::serialize(std::string all) {
 		std::string predicted = is_predicted ? "1" : "0";
 		s += "is_predicted:" + predicted + ",";
 		hero_modified[IS_PREDICTED] = false;
+	}
+
+	if ((all == "ALL") || hero_modified[DEATH_COUNT]) {
+		s += "death_count:" + df::toString(death_count) + ",";
+		hero_modified[DEATH_COUNT] = false;
 	}
 
 	return s;
@@ -686,7 +692,7 @@ int Hero::deserialize(std::string str) {
 		LM.writeLog("Hero::deserialize(): current health is %d", i);
 		if ((!mainDeserialized) && is_position) {
 			if ((fabs(currentPosition.getX() - new_position.getX()) > 54.0f) ||
-				(fabs(currentPosition.getY() - new_position.getY()) > 35.0f))
+				(fabs(currentPosition.getY() - new_position.getY()) > 28.0f))
 			{
 				Object::deserialize(str);
 			}
@@ -713,6 +719,12 @@ int Hero::deserialize(std::string str) {
 		is_predicted = (i == 1) ? true : false;
 	}
 
+	val = df::match("", "death_count");
+	if (!val.empty()) {
+		int i = atoi(val.c_str());
+		LM.writeLog("Hero::deserialize(): death_count is %d", i);
+		death_count = i;
+	}
 
 	return 0;
 }

@@ -60,8 +60,8 @@ int Platform::eventHandler(const df::Event *p_e) {
 		}
 
 		if (hero_landed) {
-			DM.drawString(getPosition() - df::Vector(0, 2.5f), "Collided with hero", df::CENTER_JUSTIFIED, df::WHITE);
-
+			//DM.drawString(getPosition() - df::Vector(0, 2.5f), "*******Collided with hero*********", df::CENTER_JUSTIFIED, df::WHITE);
+			//LM.writeLog("Platform id %d :: collided with hero", getId());
 			if (hero->isMainHero() && hero->isPredicted()) {
 				hero->landedOn(this);
 			}
@@ -85,4 +85,3 @@ int Platform::eventHandler(const df::Event *p_e) {
 
 	return 0;
 }
-

@@ -15,5 +15,7 @@
     <LocalDebuggerCommandArguments>true</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <RemoteDebuggerCommandArguments>true</RemoteDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=%PATH%;..\SFML-2.5\bin;</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\..</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>

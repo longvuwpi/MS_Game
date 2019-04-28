@@ -102,7 +102,8 @@ GameOver::~GameOver() {
 		for (i.first(); !i.isDone(); i.next()) {
 			df::Object *p_o = i.currentObject();
 			if (p_o->getType() == "AmmoDisplay" || p_o->getType() == "Bullet" ||
-				p_o->getType() == "Reticle" || p_o->getType() == "BulletTrail")
+				p_o->getType() == "Reticle" || p_o->getType() == "BulletTrail" ||
+				p_o->getType() == "Saucer")
 				WM.markForDelete(p_o);
 		}
 	}

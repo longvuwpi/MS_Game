@@ -522,7 +522,7 @@ int Weapon::deserialize(std::string str) {
 		}
 	}
 
-	if (just_shot) {
+	if (just_shot && (!reloading)) {
 		df::Vector origin = getPosition() + (df::Vector(getBox().getHorizontal() / 2, -1.5f));
 		df::Sound *p_sound = df::ResourceManager::getInstance().getSound(weapon_name + "_fire");
 		p_sound->play();
@@ -541,6 +541,11 @@ int Weapon::deserialize(std::string str) {
 				scaled.scale(i);
 				DM.drawCh(origin + scaled, '.', df::YELLOW);
 			}
+		}
+	}
+	else {
+		if ((fire_count_down == fire_rate) && (ammo_loaded == 0) && (ammo_backup == 0)) {
+			RM.getSound("ammo_empty")->play();
 		}
 	}
 
