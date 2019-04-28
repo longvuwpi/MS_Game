@@ -138,7 +138,7 @@ int Client::handleConnect(const df::EventNetwork *p_e) {
 			WSAGetLastError());
 	else
 		LM.writeLog("Client::handleConnect(): OLD socket buffer is %d", val);
-	val *= 16;
+	val *= 32;
 	len = sizeof(int);
 	if (setsockopt(sock, SOL_SOCKET, SO_RCVBUF, (char *)&val, len) < 0)
 		LM.writeLog("Client::handleConnect(): Error! setsockopt() failed with error %d",
